@@ -2,5 +2,165 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Search for locksmiths open now but not open 24 hours in Texas City.  Please interact with https://www.google.com/maps/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to search for locksmiths in Texas City using the search box.  \nAction: Type [2]; locksmiths Texas City"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more locksmith listings; scroll down list to load more results.  \nAction: Scroll [WINDOW]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Use Hours filter to show businesses open now; then identify those not marked “Open 24 hours.”  \nAction: Click [1048]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Select “Open now” option within Hours dialog.  \nAction: Click [1875]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to apply the selected “Open now” filter so results refresh.  \nAction: Click [1967]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to view additional listings to find those located in Texas City that are \"Open\" now but not \"Open 24 hours\". Scroll down the results list.  \nAction: Scroll [WINDOW]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open listing details for “Goan Locksmith” to verify it is in Texas City and not 24‑hour.  \nAction: Click [1229]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need a locksmith located IN Texas City that is open now but not 24 hrs. “Anytime Lock & Safe Inc.” may be in Texas City; open its details to confirm address and hours.  \nAction: Click [1155]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more results; click Next page button to view additional locksmiths that may be in Texas City and open now (not 24 hrs).  \nAction: Click [2039]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to refine the query to focus strictly on locksmiths in “Texas City, TX” that are currently open.  \nAction: Type [2]; locksmith Texas City TX"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to verify that \"Minute Key\" is located in Texas City and confirm it is open now but not 24 hours.  \nAction: Click [4819]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the “Minute Key” listing to confirm its city and hours. I’ll click its link in the results list.  \nAction: Click [4819]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The “Minute Key” listing might be out of the current clickable viewport; I should scroll the results list further down first.  \nAction: Scroll [WINDOW]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the “Minute Key” listing to confirm it is in Texas City and check its hours (open now, closes later).  \nAction: Click [4819]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To open the “Minute Key” listing details I can click its image instead of the text link.  \nAction: Click [4845]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Scroll a bit further to make sure the “Minute Key” listing is fully in view before attempting to open it.  \nAction: Scroll [WINDOW]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to confirm Minute Key’s details (city and hours); open its listing.  \nAction: Click [4819]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action."
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; Minute Key – 3620 Emmett F Lowry Expy, Texas City, TX 77590.  \nIt is showing “Open ⋅ Closes 9 PM”, so it is open now but not a 24‑hour locksmith."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To open the “Minute Key” listing details, I’ll click its “Get directions” button, which should load the place’s info panel.  \nAction: Click [4878]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I have identified a locksmith located in Texas City that is currently open but not a 24‑hour service.  \nAction: ANSWER; Minute Key – 3620 Emmett F Lowry Expy, Texas City, TX 77590. It shows “Open · Closes 9 PM,” so it is open now and not open 24 hours."
   }
 ]

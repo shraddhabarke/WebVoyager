@@ -1,0 +1,20 @@
+[3412] RootWebArea 'Sign up to GitHub · GitHub' focused: True url: https://github.com/signup?source=form-home-signup&user_email=test123%40gmail.com
+	[3778] main ''
+		[3145] textbox 'Email' required: True
+		[3978] StaticText 'Password'
+		[3146] textbox 'Password' required: True describedby: password-helper
+		[3997] StaticText 'Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.'
+		[4005] StaticText 'Username'
+		[3147] textbox 'Username' required: True describedby: username-helper
+		[4023] StaticText 'Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen.'
+		[4033] StaticText 'Your Country/Region'
+		[4037] StaticText ', required'
+		[4043] generic '' describedby: country-helper
+			[3159] button 'Your Country/Region , required' hasPopup: dialog expanded: False
+				[4054] StaticText 'United States of America'
+		[3406] group 'Email preferences'
+			[3149] checkbox 'Receive occasional product updates and announcements' checked: false
+		[3408] button 'Continue ' describedby: terms-of-service
+		[8211] StaticText 'By creating an account, you agree to the '
+		[8212] link 'Terms of Service' url: https://github.com/site/terms
+		[8215] link 'GitHub Privacy Statement' url: https://github.com/site/privacy

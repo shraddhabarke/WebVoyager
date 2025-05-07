@@ -1,0 +1,89 @@
+[5638] RootWebArea 'AventIQ-AI/named-entity-recognition-for-information-extraction · Hugging Face' focused: True url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction
+	[5854] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[5639] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[5642] textbox 'Search models, datasets, users...' required: False
+	[5866] button ''
+	[5953] main ''
+		[5956] sectionheader ''
+			[5958] heading 'AventIQ-AI / named-entity-recognition-for-information-extraction Copy model name to clipboard like 1 Follow AventIQ 48'
+				[5965] link '' url: https://huggingface.co/AventIQ-AI
+				[5971] link 'AventIQ-AI' url: https://huggingface.co/AventIQ-AI
+				[5979] link 'named-entity-recognition-for-information-extraction' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction
+				[5982] button 'Copy model name to clipboard'
+				[5992] button 'like'
+				[6002] button '1'
+				[5643] button 'Follow AventIQ'
+				[6017] button '48'
+			[6025] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[6041] link 'bert' url: https://huggingface.co/models?other=bert
+			[6062] link 'Model card' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction
+			[6073] link 'Files' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction/tree/main
+			[6087] link 'Community' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction/discussions
+			[6102] button ''
+		[6141] StaticText 'YAML Metadata Warning:'
+		[6142] StaticText ' empty or missing yaml metadata in repo card ('
+		[6144] link 'https://huggingface.co/docs/hub/model-cards#model-card-metadata' url: https://huggingface.co/docs/hub/model-cards#model-card-metadata
+		[6147] StaticText ')'
+		[6155] button ''
+		[6263] heading 'Named Entity Recognition (NER) of Information Extraction'
+			[6265] link '' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction#named-entity-recognition-ner-of-information-extraction
+		[6276] heading '📌 Overview'
+			[6278] link '' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction#%F0%9F%93%8C-overview
+		[6290] StaticText 'This repository hosts the quantized version of the '
+		[6291] code ''
+			[6294] StaticText 'bert-base-cased'
+		[6295] StaticText ' model for Named Entity Recognition (NER) using the CoNLL-2003 dataset. The model is specifically designed to recognize entities related to '
+		[6297] StaticText 'Person (PER), Organization (ORG), and Location (LOC)'
+		[6298] StaticText '. The model has been optimized for efficient deployment while maintaining high accuracy, making it suitable for resource-constrained environments.'
+		[6300] heading '🏗 Model Details'
+			[6302] link '' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction#%F0%9F%8F%97-model-details
+		[6316] ListMarker '• '
+		[6318] StaticText 'Model Architecture'
+		[6319] StaticText ': BERT Base Cased'
+		[6322] ListMarker '• '
+		[6324] StaticText 'Task'
+		[6325] StaticText ': Named Entity Recognition (NER) of Information Extraction'
+		[6328] ListMarker '• '
+		[6330] StaticText 'Dataset'
+		[6334] ListMarker '• '
+		[6336] StaticText 'Quantization'
+		[6337] StaticText ': BrainFloat16'
+		[6340] ListMarker '• '
+		[6342] StaticText 'Fine-tuning Framework'
+		[6343] StaticText ': Hugging Face Transformers'
+		[6346] separator '' orientation: horizontal
+		[6348] heading '🚀 Usage'
+			[6350] link '' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction#%F0%9F%9A%80-usage
+		[6361] heading 'Installation'
+			[6363] link '' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction#installation
+		[6376] code ''
+			[6379] StaticText 'pip install transformers torch\n'
+		[6380] button ''
+		[6386] heading 'Loading the Model'
+			[6388] link '' url: https://huggingface.co/AventIQ-AI/named-entity-recognition-for-information-extraction#loading-the-model
+		[6401] code ''
+			[6405] StaticText 'from'
+			[6406] StaticText ' transformers '
+			[6408] StaticText 'import'
+			[6409] StaticText ' BertTokenizerFast, BertForTokenClassification\n'
+			[6412] StaticText ' torch\n\ndevice = '
+			[6414] StaticText '"cuda"'
+			[6418] StaticText ' torch.cuda.is_available() '
+			[6420] StaticText 'else'
+			[6423] StaticText '"cpu"'
+		[6428] button ''
+		[6952] DescriptionList ''
+			[6953] term 'Downloads last month'
+			[6955] definition ''
+				[6956] StaticText '257'
+		[6961] image ''
+		[6987] StaticText 'Safetensors'
+		[6988] link '' url: https://huggingface.co/docs/safetensors
+		[6997] StaticText 'Model size'
+		[7000] StaticText '108M'
+		[7001] StaticText ' params'
+		[7005] StaticText 'Tensor type'
+		[7008] StaticText 'FP16'
+		[7015] button 'Files info'
+		[7037] StaticText 'Inference Providers'
+		[7057] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=AventIQ-AI/named-entity-recognition-for-information-extraction&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5BAventIQ-AI%2Fnamed-entity-recognition-for-information-extraction%5D(%2FAventIQ-AI%2Fnamed-entity-recognition-for-information-extraction)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A

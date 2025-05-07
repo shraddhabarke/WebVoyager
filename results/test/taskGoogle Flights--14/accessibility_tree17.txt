@@ -1,0 +1,91 @@
+[8107] RootWebArea 'Find Cheap Flights from New York to London - Google Flights' focused: True url: https://www.google.com/travel/flights?tfs=CBwQARodag0IAxIJL20vMDJfMjg2cgwIAxIIL20vMDRqcGwaHWoMCAMSCC9tLzA0anBscg0IAxIJL20vMDJfMjg2QAFIAXABggELCP___________wGYAQE&tfu=KgIIAw
+	[8245] button 'Main menu' expanded: False
+		[8246] image ''
+	[8256] link 'Google' url: https://www.google.com/
+	[8127] button 'Skip to main content'
+	[8273] button 'Accessibility feedback' hasPopup: dialog
+	[8285] link 'Travel'
+		[8292] image ''
+	[8300] link 'Explore'
+		[8307] image ''
+	[8314] link 'Flights'
+		[8321] image ''
+	[8328] link 'Hotels'
+		[8335] image ''
+	[8345] link 'Vacation rentals'
+		[8352] image ''
+	[8369] button 'Change appearance' hasPopup: menu expanded: False
+		[8378] image ''
+	[8390] button 'Google apps' expanded: False
+		[8392] image ''
+	[8395] link 'Sign in' url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights?tfs%3DCBwQARodag0IAxIJL20vMDJfMjg2cgwIAxIIL20vMDRqcGwaHWoMCAMSCC9tLzA0anBscg0IAxIJL20vMDJfMjg2QAFIAXABggELCP___________wGYAQE%26tfu%3DKgIIAw&followup=https://www.google.com/travel/flights?tfs%3DCBwQARodag0IAxIJL20vMDJfMjg2cgwIAxIIL20vMDRqcGwaHWoMCAMSCC9tLzA0anBscg0IAxIJL20vMDJfMjg2QAFIAXABggELCP___________wGYAQE%26tfu%3DKgIIAw&ec=GAZAlQM
+	[8557] StaticText 'Flights'
+	[8560] search 'Flight'
+		[8568] combobox 'Change ticket type. Round trip' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[8633] button '1 passenger, change number of passengers.' hasPopup: dialog
+			[8641] image ''
+			[8645] image ''
+		[8789] combobox 'Change seating class. Economy' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[8112] combobox 'Where from?' autocomplete: inline hasPopup: menu required: False expanded: False
+			[11724] StaticText 'New York'
+		[8864] image ''
+		[8922] button 'Swap origin and destination.'
+			[8927] image ''
+		[8114] combobox 'Where to?' focused: True autocomplete: inline hasPopup: menu required: False expanded: False
+			[11711] StaticText 'London'
+		[8939] image ''
+		[9010] image ''
+		[8116] textbox 'Departure' required: False describedby: i34
+		[8117] textbox 'Return' required: False describedby: i34
+		[9199] button 'Search for flights'
+	[9211] main ''
+		[9213] navigation 'Breadcrumbs'
+			[9215] link 'Flights' url: https://www.google.com/travel/flights
+			[9221] link 'From New York' url: https://www.google.com/travel/flights/flights-from-new-york.html
+			[9228] StaticText 'To London'
+		[9231] heading 'Cheap flights from New York to London'
+		[9236] heading 'Good to know'
+		[9240] button 'Learn more about this section' hasPopup: menu
+			[9243] image ''
+		[9272] StaticText 'Flight information for New York to London to help you plan your next trip.'
+		[9273] table 'Flight information for New York to London to help you plan your next trip.'
+			[9274] rowgroup ''
+				[9275] row ''
+					[9276] rowheader 'Cheapest round-trip flight' required: False
+					[9278] cell '$492'
+					[9280] cell 'Icelandair · 1 stop · 11 hr · May 12 — May 21'
+					[9297] cell 'The cheapest round-trip flight from New York to London is currently $492'
+					[9299] cell 'Find flights (Round trip)'
+						[9301] button 'Find flights (Round trip)'
+							[9307] image ''
+				[9311] row ''
+					[9312] rowheader 'Cheapest one-way flight' required: False
+					[9314] cell '$149'
+					[9316] cell 'Norse Atlantic UK · Nonstop · 7 hr · Jul 23'
+					[9333] cell 'The cheapest one-way flight from New York to London is currently $149'
+					[9335] cell 'Find flights (One way)'
+						[9337] button 'Find flights (One way)'
+							[9343] image ''
+				[9347] row ''
+					[9348] rowheader 'Fastest flight' required: False
+					[9350] cell '6 hr 50 min'
+					[9352] cell 'The fastest nonstop flight from New York to London takes 6 hr 50 min'
+				[9354] row ''
+					[9355] rowheader 'Nonstop flights' required: False
+					[9357] cell 'Every day'
+					[9359] cell 'There are direct flights on this route every day.'
+		[9364] heading 'When is the cheapest time to fly?'
+		[9368] button 'Learn more about this section' hasPopup: menu
+			[9371] image ''
+		[9400] StaticText 'The cheapest month to fly from New York to London is typically November. The most expensive one is typically July.'
+		[9403] table ''
+			[9405] row ''
+				[9406] rowheader 'November Cheapest' required: False
+				[9411] cell 'Typical prices: $385–650'
+			[9414] row ''
+				[9415] rowheader 'July Most expensive' required: False
+				[9420] cell 'Typical prices: $540–710'
+		[9426] application 'Monthly price graph. Use the left or right arrow keys to navigate between the months'
+		[9649] heading 'Popular airlines from New York to London'
+		[9653] button 'Learn more about this section' hasPopup: menu
+			[9656] image ''

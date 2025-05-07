@@ -2,5 +2,245 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Locate a recipe for an eggplant Parmesan on Allrecipes with a rating of at least 4.5 stars and over 50 reviews. Include the preparation time and the number of servings provided by the recipe.  Please interact with https://www.allrecipes.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need search field to look for eggplant parmesan recipe. Click Search button\nAction: Click 552"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Search textbox is focused (#20). Need to type query.\nAction: Type 20; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open search bar again to get correct textbox.\nAction: Click 552"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Textbox (#20) is active; enter search query to find eggplant parmesan recipes.\nAction: Type 20; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to focus the overlay search textbox (#20) before typing query.\nAction: Click 20"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to focus header search textbox (#19) to enable input for query.\nAction: Click 19"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to activate actual input: click the overlay search textbox (#20).\nAction: Click 20"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The main overlay search textbox (20) is visible and ready for input; entering the query will start the site search.\nAction: Type 20; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Perhaps clicking the small search icon button (#813) will expand/activate the real input field that accepts text.\nAction: Click 813"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Site search interaction is tricky; I'll switch to Google to find the Allrecipes eggplant Parmesan recipe that meets the criteria.\nAction: Google"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Use Google search box (#1) to find appropriate Allrecipes eggplant parmesan recipe.\nAction: Type 1; eggplant parmesan allrecipes rating 4.5"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Google shows reCAPTCHA, can't proceed. Return to Allrecipes page to retry site search properly.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Perform a simpler Google query to locate the Allrecipes eggplant Parmesan recipe result page.\nAction: Type 1; allrecipes eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Google is blocked by CAPTCHA. Return to the previous website (Allrecipes) to continue searching there directly.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Return to the Allrecipes website (prior page) so I can use its internal search instead of Google, avoiding CAPTCHA issues.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I need to open the search overlay to find eggplant parmesan recipes.\nAction: Click 513"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search textbox (#6) is focused; enter our query to search for eggplant Parmesan recipes.\nAction: Type 6; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Reopen the search bar so I can access an actual input field to enter the query.\nAction: Click 513"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The overlay search textbox (#6) is active and recognized as a textbox; entering the query will initiate the search.\nAction: Type 6; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reopen the search overlay so I can inspect for a proper text input inside.\nAction: Click 513"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The overlay search bar (identifier 6) is marked as a textbox and is currently focused, so entering the search term should work.\nAction: Type 6; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reopen the search overlay to access the real search textbox.\nAction: Click 513"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The overlay search textbox (node 6) is recognized as a proper textbox and is currently focused, so I can input the search query directly.\nAction: Type 6; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Clicking the magnifying‐glass button inside the open search overlay should activate the true text input field so I can type the query.\nAction: Click 528"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the search overlay again so that I can get access to an actual text input. Clicking the main Search button (513) should open the overlay.\nAction: Click 513"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: An actual textbox element (#6) is now focused inside the search overlay, so I can type the query there.\nAction: Type 6; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: There is a regular search textbox in the site header (node 5) which should accept input. I’ll focus it.\nAction: Click 5"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The header contains a genuine search textbox element (#5) marked as “textbox ‘Search’”. Typing our query directly into that textbox should trigger the Allrecipes search.\nAction: Type 5; eggplant parmesan"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Accessing the homepage may expose a functioning search box that is easier to interact with.\nAction: Click 485"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[7569] RootWebArea 'Allrecipes | Recipes, How-Tos, Videos and More' focused: True url: https://www.allrecipes.com/\n\t[8002] button 'Main menu for Allrecipes'\n\t\t[8006] image ''\n\t[8022] link \"Visit Allrecipes' homepage\" url: https://www.allrecipes.com/\n\t\t[8027] image ''\n\t[8050] button 'Search'\n\t\t[8052] image ''\n\t[8131] link 'Log In' url: https://www.allrecipes.com/authentication/login?regSource=3675&relativeRedirectUrl=%2F\n\t\t[8133] image ''\n\t[8257] link 'Trigger interstitial modal to log in to MyRecipes' url: javascript:void(0)\n\t\t[8259] image ''\n\t[9737] Iframe 'Advertisement'\n\t[9768] main ''\n\t\t[9771] article ''\n\t\t\t[9777] link \"America's #1 Trusted Recipe Resource since 1997\" url: https://www.allrecipes.com/about-us-6648102\n\t\t\t[9792] link '51K Original Recipes' url: https://www.allrecipes.com/recipes-a-z-6735880\n\t\t\t[9803] link '7M+ Ratings & Reviews' url: https://www.allrecipes.com/about-us-6648102/#toc-community-guidelines\n\t\t\t[9814] link '67M Home Cooks' url: https://www.allrecipes.com/about-us-6648102/#toc-the-allrecipes-community\n\t\t\t[9828] link \"MAIN DISHES 15 Top-Rated Weeknight Casserole Recipes Grab your 9x13 pan. These recipes check all the boxes for busy weeknights: they're easy to make, easy to serve, and can help stretch your food dollars for filling meals.\" url: https://www.allrecipes.com/top-rated-weeknight-casserole-recipes-8708962\n\t\t\t\t[9831] figure ''\n\t\t\t\t\t[7571] image 'Sloppy Joe Casserole' url: https://www.allrecipes.com/thmb/PVIr2QZnSNMJ8CAUPKcPFmds6Ko=/800x533/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/236925-sloppy-joe-casserole-ddmfs-3x4-2346-43dad92e00ff47a2bac0cad03ebffebf.jpg\n\t\t\t[9861] heading 'The Latest'\n\t\t\t[9867] link 'rimmed plate with cake slice soaked in strawberries with more berries and whipped cream Save Recipe Strawberry Blender Cake STRAWBERRY CAKE RECIPES 10 MINUTES AGO' url: https://www.allrecipes.com/strawberry-blender-cake-recipe-11721789\n\t\t\t\t[9872] image 'rimmed plate with cake slice soaked in strawberries with more berries and whipped cream' url: https://www.allrecipes.com/thmb/7uUCFNMnGnHwpXS-JC-u3ZkMeU8=/240x160/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11721789_Strawberry-Blender-Cake_John-Mitzewich_4x3-63bfef80ee7f457c9fc64be4e36f2118.jpg\n\t\t\t\t[9880] button 'Save Recipe'\n\t\t\t\t\t[9882] image ''\n\t\t\t\t[9896] StaticText 'Strawberry Blender Cake'\n\t\t\t[9904] link 'Southern possum pie, sliced and ready to serve. 16 Southern Grandma Desserts That Taste Like Home DESSERTS 13 HOURS AGO' url: https://www.allrecipes.com/southern-grandma-dessert-recipes-11723393\n\t\t\t\t[9909] image 'Southern possum pie, sliced and ready to serve. '\n\t\t\t[9930] link \"mid angle, looking into a plate of general tso's chicken 12 P.F. Chang’s Copycat Recipes to Make in Your Own Kitchen COPYCAT 14 HOURS AGO\" url: https://www.allrecipes.com/pf-changs-copycat-recipes-11722476\n\t\t\t\t[9935] image \"mid angle, looking into a plate of general tso's chicken\"\n\t\t\t[9956] link \"The Crumbl Cookies logo featuring a stylized cartoon chef's head next to the brand name Crumbl's Latest Dessert Has Fans Screaming 'Looks Like Raw Chicken' FAST FOOD 14 HOURS AGO\" url: https://www.allrecipes.com/crumbl-pie-dessert-tiktok-reaction-11720034\n\t\t\t\t[9961] image \"The Crumbl Cookies logo featuring a stylized cartoon chef's head next to the brand name\""
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Clicking the Search button in the site header (node 8050) should open the search overlay where I can enter a query.\nAction: Click 8050"
   }
 ]

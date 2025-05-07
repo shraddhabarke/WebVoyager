@@ -1,0 +1,131 @@
+[6942] RootWebArea '[2504.20039] AutoJudge: Judge Decoding Without Manual Annotation' focused: True url: https://arxiv.org/abs/2504.20039
+	[7089] StaticText 'Skip to main content'
+	[7097] link 'Cornell University' url: https://www.cornell.edu/
+		[6946] image 'Cornell University' url: https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg
+	[7104] StaticText 'We gratefully acknowledge support from the Simons Foundation, '
+	[7105] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[7107] StaticText ', and all contributors.'
+	[7109] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[7120] link 'arxiv logo' url: https://arxiv.org/
+		[6947] image 'arxiv logo' url: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+	[7123] StaticText '>'
+	[7125] link 'cs' url: https://arxiv.org/list/cs/recent
+	[7130] StaticText 'arXiv:2504.20039'
+	[6951] textbox 'Search term or terms' required: False
+	[7141] link 'Help' url: https://info.arxiv.org/help
+	[7143] StaticText ' | '
+	[7144] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[6952] combobox 'Field to search' hasPopup: menu expanded: False
+	[7204] button 'Search'
+	[7292] main ''
+		[7303] heading 'Computer Science > Computation and Language'
+		[7320] StaticText '[Submitted on 28 Apr 2025]'
+		[7322] heading 'AutoJudge: Judge Decoding Without Manual Annotation'
+		[6949] link 'Roman Garipov' url: https://arxiv.org/search/cs?searchtype=author&query=Garipov,+R
+		[7331] StaticText ', '
+		[7332] link 'Fedor Velikonivtsev' url: https://arxiv.org/search/cs?searchtype=author&query=Velikonivtsev,+F
+		[7335] link 'Ruslan Svirschevski' url: https://arxiv.org/search/cs?searchtype=author&query=Svirschevski,+R
+		[7338] link 'Vage Egiazarian' url: https://arxiv.org/search/cs?searchtype=author&query=Egiazarian,+V
+		[7340] StaticText ', '
+		[7341] link 'Max Ryabinin' url: https://arxiv.org/search/cs?searchtype=author&query=Ryabinin,+M
+		[6977] blockquote ''
+			[7356] StaticText 'We introduce AutoJudge, a framework that accelerates large language model (LLM) inference with task-specific lossy speculative decoding. Instead of matching the original model output distribution token-by-token, we identify which of the generated tokens affect the downstream quality of the generated response, relaxing the guarantee so that the "unimportant" tokens can be generated faster. Our approach relies on a semi-greedy search algorithm to test which of the mismatches between target and draft model should be corrected to preserve quality, and which ones may be skipped. We then train a lightweight classifier based on existing LLM embeddings to predict, at inference time, which mismatching tokens can be safely accepted without compromising the final answer quality. We test our approach with Llama 3.2 1B (draft) and Llama 3.1 8B (target) models on zero-shot GSM8K reasoning, where it achieves up to 1.5x more accepted tokens per verification cycle with under 1% degradation in answer accuracy compared to standard speculative decoding and over 2x with small loss in accuracy. When applied to the LiveCodeBench benchmark, our approach automatically detects other, programming-specific important tokens and shows similar speedups, demonstrating its ability to generalize across tasks.'
+		[7362] table 'Additional metadata'
+			[7365] row ''
+				[7367] cell 'Comments:'
+				[7370] cell 'Preprint, Work in progress'
+			[7374] row ''
+				[7376] cell 'Subjects:'
+				[7379] cell 'Computation and Language (cs.CL); Machine Learning (cs.LG)'
+			[7385] row ''
+				[7387] cell 'Cite as:'
+				[7390] cell 'arXiv:2504.20039 [cs.CL]'
+					[7392] link 'arXiv:2504.20039' url: https://arxiv.org/abs/2504.20039
+			[7397] row ''
+				[7399] cell '\xa0'
+				[7402] cell '(or arXiv:2504.20039v1 [cs.CL] for this version)'
+					[7406] link 'arXiv:2504.20039v1' url: https://arxiv.org/abs/2504.20039v1
+			[7412] row ''
+				[7414] cell '\xa0'
+				[7417] cell 'https://doi.org/10.48550/arXiv.2504.20039 Focus to learn more'
+					[7419] link 'https://doi.org/10.48550/arXiv.2504.20039' url: https://doi.org/10.48550/arXiv.2504.20039
+					[7423] button 'Focus to learn more' describedby: more-info-desc-1
+		[7447] heading 'Submission history'
+		[7449] StaticText 'From: Roman Garipov ['
+		[7450] link 'view email' url: https://arxiv.org/show-email/af0ff4ec/2504.20039
+		[7456] StaticText '[v1]'
+		[7457] StaticText ' Mon, 28 Apr 2025 17:59:28 UTC (3,092 KB)'
+		[7473] heading 'Access Paper:'
+		[7481] link 'View PDF' describedby: download-button-info url: https://arxiv.org/pdf/2504.20039 keyshortcuts: Alt+f
+		[7484] link 'HTML (experimental)' url: https://arxiv.org/html/2504.20039v1
+		[7487] link 'TeX Source' url: https://arxiv.org/src/2504.20039
+		[7490] link 'Other Formats' url: https://arxiv.org/format/2504.20039
+		[7494] link 'view license' url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+		[7505] StaticText 'Current browse context:'
+		[7507] StaticText 'cs.CL'
+		[7513] link '<\xa0prev' url: https://arxiv.org/prevnext?id=2504.20039&function=prev&context=cs.CL keyshortcuts: Alt+p
+		[7518] StaticText '\xa0 | \xa0'
+		[7522] link 'next\xa0>' url: https://arxiv.org/prevnext?id=2504.20039&function=next&context=cs.CL keyshortcuts: Alt+n
+		[7529] link 'new' url: https://arxiv.org/list/cs.CL/new
+		[7535] link 'recent' url: https://arxiv.org/list/cs.CL/recent
+		[7539] StaticText '| '
+		[7540] link '2025-04' url: https://arxiv.org/list/cs.CL/2025-04
+		[7544] StaticText 'Change to browse by:'
+		[7547] link 'cs' url: https://arxiv.org/abs/2504.20039?context=cs
+		[6948] link 'cs.LG' url: https://arxiv.org/abs/2504.20039?context=cs.LG
+		[7559] heading 'References & Citations'
+		[7565] link 'NASA ADS' url: https://ui.adsabs.harvard.edu/abs/arXiv:2504.20039
+		[7568] link 'Google Scholar' url: https://scholar.google.com/scholar_lookup?arxiv_id=2504.20039
+		[7572] link 'Semantic Scholar' url: https://api.semanticscholar.org/arXiv:2504.20039
+		[7585] StaticText 'Export BibTeX Citation'
+		[7621] heading 'Bookmark'
+		[7623] link 'BibSonomy logo' url: http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2504.20039&description=AutoJudge:%20Judge%20Decoding%20Without%20Manual%20Annotation
+			[6944] image 'BibSonomy logo' url: https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png
+		[7627] link 'Reddit logo' url: https://reddit.com/submit?url=https://arxiv.org/abs/2504.20039&title=AutoJudge:%20Judge%20Decoding%20Without%20Manual%20Annotation
+			[6945] image 'Reddit logo' url: https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png
+		[7642] StaticText 'Bibliographic Tools'
+		[7646] heading 'Bibliographic and Citation Tools'
+		[7662] StaticText 'Bibliographic Explorer Toggle'
+		[7671] emphasis ''
+			[7672] StaticText '('
+			[7673] link 'What is the Explorer?' url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+			[7675] StaticText ')'
+		[7690] StaticText 'Connected Papers Toggle'
+		[7699] emphasis ''
+			[7700] StaticText '('
+			[7701] link 'What is Connected Papers?' url: https://www.connectedpapers.com/about
+			[7703] StaticText ')'
+		[7717] StaticText 'Litmaps Toggle'
+		[7726] emphasis ''
+			[7727] StaticText '('
+			[7728] link 'What is Litmaps?' url: https://www.litmaps.co/
+			[7730] StaticText ')'
+		[7745] StaticText 'scite.ai Toggle'
+		[7752] StaticText 'scite Smart Citations'
+		[7754] emphasis ''
+			[7755] StaticText '('
+			[7756] link 'What are Smart Citations?' url: https://www.scite.ai/
+			[7758] StaticText ')'
+		[7774] StaticText 'Code, Data, Media'
+		[7992] StaticText 'Demos'
+		[8092] StaticText 'Related Papers'
+		[8201] StaticText 'About arXivLabs'
+		[8247] link 'Which authors of this paper are endorsers?' url: https://arxiv.org/auth/show-endorsers/2504.20039
+		[8249] StaticText ' | '
+		[8250] link 'Disable MathJax' url: javascript:setMathjaxCookie()
+		[8252] StaticText ' ('
+		[8253] link 'What is MathJax?' url: https://info.arxiv.org/help/mathjax.html
+	[8265] contentinfo ''
+		[8267] navigation 'Secondary'
+			[8280] link 'About' url: https://info.arxiv.org/about
+			[8284] link 'Help' url: https://info.arxiv.org/help
+			[8302] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[8315] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[8336] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[8340] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[8350] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[8357] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[8362] StaticText 'Get status notifications via '
+			[8363] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[8367] StaticText ' or '
+			[8368] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

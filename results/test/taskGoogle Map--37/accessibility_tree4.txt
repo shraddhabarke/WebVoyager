@@ -1,0 +1,58 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir/Museum+Place+Garage,+1+Church+St,+Salem,+MA+01970//@42.522528,-70.9748014,12z/data=!4m8!4m7!1m5!1m1!1s0x89e314656e59b7e1:0x45324fcdfbf144ec!2m2!1d-70.8923996!2d42.522431!1m0?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[164] generic 'Google Maps'
+		[241] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[47] Canvas ''
+		[1776] radiogroup '' required: False
+			[1779] radio 'Best travel modes' checked: true
+				[1780] image 'Best travel modes'
+			[1789] radio 'Driving' checked: false
+				[1790] image 'Driving'
+			[1799] radio 'Transit' checked: false
+				[1800] image 'Transit'
+			[1809] radio 'Walking' checked: false
+				[1810] image 'Walking'
+			[1819] radio 'Cycling' checked: false
+				[1820] image 'Cycling'
+			[1829] radio 'Flights' checked: false
+				[1830] image 'Flights'
+		[1838] button 'Close directions'
+		[1867] combobox '' hasPopup: grid required: False expanded: False
+			[1860] textbox 'Starting point Museum Place Garage, 1 Church St, Salem, MA 01970' autocomplete: list required: False
+		[1861] button 'Search'
+		[1891] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[1884] textbox 'Choose destination, or click on the map...' focused: True autocomplete: list required: False controls: sbsg51
+			[1899] grid '' multiselectable: False
+				[2140] row ''
+					[2131] row ''
+						[2132] gridcell 'Your location Your location' required: False
+							[2134] image 'Your location'
+								[2143] StaticText '\ue55c'
+		[1885] button 'Search'
+		[1843] button 'Reverse starting point and destination'
+		[14] button 'Menu'
+		[451] button 'Saved'
+		[469] button 'Recents'
+		[2150] button 'Museum Place Garage'
+		[499] button 'Get the app'
+		[1979] main 'Directions'
+			[2030] heading 'Delays'
+			[2046] StaticText 'Light traffic in this area'
+			[2048] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1586] button 'Collapse side panel'
+		[545] button 'Google apps' expanded: False
+			[547] image ''
+		[550] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[597] button 'Show Your Location' pressed: false
+		[614] button 'Zoom in'
+		[645] button 'Zoom out'
+		[658] button 'Show Street View coverage'
+		[699] generic 'Interactive map'
+		[737] StaticText 'Layers'
+		[752] button 'Layers' expanded: False
+		[855] contentinfo ''
+			[857] StaticText 'Map data ©2025 Google'
+			[858] button 'United States'
+			[860] button 'Terms'
+			[862] button 'Privacy'
+			[864] button 'Send Product Feedback'
+		[867] button '2 mi'

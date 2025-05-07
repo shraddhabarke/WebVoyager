@@ -1,0 +1,27 @@
+[1961] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[2023] link 'About' url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+	[2025] link 'Store' url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+	[2033] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[2036] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[2042] button 'Google apps' expanded: False
+		[2044] image ''
+	[2047] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_ctr_og_so_72776761_p
+	[2058] image ''
+	[1960] search ''
+		[2110] image ''
+		[1959] combobox 'Search' autocomplete: both hasPopup: listbox required: False expanded: False
+		[2140] button 'Search by voice'
+			[2141] image ''
+		[2145] button 'Search by image'
+			[2146] image ''
+		[2310] button 'Google Search'
+		[2312] button "I'm Feeling Lucky"
+	[2378] contentinfo ''
+		[2383] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[2385] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[2387] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[1976] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[2392] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[2394] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[1972] button 'Settings' hasPopup: menu expanded: False
+			[2403] generic '' hasPopup: menu

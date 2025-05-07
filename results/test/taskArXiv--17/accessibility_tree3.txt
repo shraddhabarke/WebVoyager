@@ -1,0 +1,248 @@
+[2137] RootWebArea 'Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/?query=GPT-4+Technical+Report&searchtype=all&source=header
+	[2245] StaticText 'Skip to main content'
+	[2253] link 'logo' url: https://cornell.edu/
+		[2138] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[2258] StaticText 'We gratefully acknowledge support from'
+	[2260] StaticText 'the Simons Foundation, '
+	[2261] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[2263] StaticText ', and all contributors. '
+	[2264] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[2276] link 'arxiv-logo' url: https://arxiv.org/
+		[2140] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[2153] textbox 'Search term or terms' required: False
+	[2291] link 'Help' url: https://info.arxiv.org/help
+	[2293] StaticText ' | '
+	[2294] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[2154] combobox 'Field to search' hasPopup: menu expanded: False
+	[2354] button 'Search'
+	[2365] navigation 'User menu'
+		[2367] link 'Login' url: https://arxiv.org/login
+	[2373] main ''
+		[2379] heading 'Showing 1–30 of 30 results for all: GPT-4 Technical Report'
+		[2391] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[2393] StaticText '\xa0\xa0'
+		[2405] StaticText 'Search term or terms'
+		[2146] textbox 'Search term or terms' required: False
+			[6722] StaticText 'GPT-4 Technical Report'
+		[2147] combobox '' hasPopup: menu expanded: False
+		[2450] button 'Search'
+		[2148] radio ' Show abstracts' checked: true
+		[2149] radio ' Hide abstracts' checked: false
+		[2473] link 'Advanced Search' url: https://arxiv.org/search/advanced?terms-0-term=GPT-4+Technical+Report&terms-0-field=all&size=50&order=-announced_date_first
+		[2150] combobox 'results per page' hasPopup: menu expanded: False
+		[2558] StaticText 'Sort results by'
+		[2151] combobox 'Sort results by' focused: True hasPopup: menu expanded: True
+		[2169] button 'Go'
+		[2585] ListMarker '1. '
+		[2590] link 'arXiv:2502.04066' url: https://arxiv.org/abs/2502.04066
+		[2594] StaticText '\xa0['
+		[2595] link 'pdf' url: https://arxiv.org/pdf/2502.04066
+		[2597] StaticText ', '
+		[2598] link 'other' url: https://arxiv.org/format/2502.04066
+		[2600] StaticText ']\xa0'
+		[2606] StaticText 'cs.CL'
+		[2609] StaticText 'cs.AI'
+		[2614] StaticText 'Predicting Large Language Model Capabilities on Closed-Book QA Tasks Using Only Information Available Prior to Training'
+		[2619] StaticText 'Authors:'
+		[2621] link 'Changhao Jiang' url: https://arxiv.org/search/?searchtype=author&query=Jiang%2C+C
+		[2623] StaticText ', '
+		[2624] link 'Ming Zhang' url: https://arxiv.org/search/?searchtype=author&query=Zhang%2C+M
+		[2627] link 'Junjie Ye' url: https://arxiv.org/search/?searchtype=author&query=Ye%2C+J
+		[2630] link 'Xiaoran Fan' url: https://arxiv.org/search/?searchtype=author&query=Fan%2C+X
+		[2632] StaticText ', '
+		[2633] link 'Yifei Cao' url: https://arxiv.org/search/?searchtype=author&query=Cao%2C+Y
+		[2636] link 'Jiajun Sun' url: https://arxiv.org/search/?searchtype=author&query=Sun%2C+J
+		[2639] link 'Zhiheng Xi' url: https://arxiv.org/search/?searchtype=author&query=Xi%2C+Z
+		[2641] StaticText ', '
+		[2642] link 'Shihan Dou' url: https://arxiv.org/search/?searchtype=author&query=Dou%2C+S
+		[2645] link 'Yi Dong' url: https://arxiv.org/search/?searchtype=author&query=Dong%2C+Y
+		[2648] link 'Yujiong Shen' url: https://arxiv.org/search/?searchtype=author&query=Shen%2C+Y
+		[2650] StaticText ', '
+		[2651] link 'Jingqi Tong' url: https://arxiv.org/search/?searchtype=author&query=Tong%2C+J
+		[2654] link 'Zhen Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+Z
+		[2657] link 'Tao Liang' url: https://arxiv.org/search/?searchtype=author&query=Liang%2C+T
+		[2659] StaticText ', '
+		[2142] link 'Zhihui Fei' url: https://arxiv.org/search/?searchtype=author&query=Fei%2C+Z
+		[2662] link 'Mingyang Wan' url: https://arxiv.org/search/?searchtype=author&query=Wan%2C+M
+		[2665] link 'Guojun Ma' url: https://arxiv.org/search/?searchtype=author&query=Ma%2C+G
+		[2667] StaticText ', '
+		[2143] link 'Qi Zhang' url: https://arxiv.org/search/?searchtype=author&query=Zhang%2C+Q
+		[2670] link 'Tao Gui' url: https://arxiv.org/search/?searchtype=author&query=Gui%2C+T
+		[2673] link 'Xuanjing Huang' url: https://arxiv.org/search/?searchtype=author&query=Huang%2C+X
+		[2680] StaticText 'Abstract'
+		[2682] StaticText 'The '
+		[2684] StaticText 'GPT'
+		[2685] StaticText '-'
+		[2690] StaticText 'technical'
+		[2693] StaticText 'report'
+		[2694] StaticText ' from OpenAI suggests that model performance on specific tasks can be predicted prior to training, though methodologies remain unspecified. This approach is crucial for optimizing resource allocation and ensuring d… '
+		[2695] link '▽ More'
+		[2746] StaticText 'Submitted'
+		[2747] StaticText ' 6 February, 2025; '
+		[2749] StaticText 'originally announced'
+		[2750] StaticText ' February 2025.'
+		[2754] ListMarker '2. '
+		[2759] link 'arXiv:2410.03736' url: https://arxiv.org/abs/2410.03736
+		[2763] StaticText '\xa0['
+		[2764] link 'pdf' url: https://arxiv.org/pdf/2410.03736
+		[2766] StaticText ', '
+		[2767] link 'other' url: https://arxiv.org/format/2410.03736
+		[2769] StaticText ']\xa0'
+		[2775] StaticText 'cs.HC'
+		[2778] StaticText 'cs.AI'
+		[2781] StaticText 'cs.LG'
+		[2786] StaticText 'CliMB: An AI-enabled Partner for Clinical Predictive Modeling'
+		[2791] StaticText 'Authors:'
+		[2793] link 'Evgeny Saveliev' url: https://arxiv.org/search/?searchtype=author&query=Saveliev%2C+E
+		[2795] StaticText ', '
+		[2796] link 'Tim Schubert' url: https://arxiv.org/search/?searchtype=author&query=Schubert%2C+T
+		[2799] link 'Thomas Pouplin' url: https://arxiv.org/search/?searchtype=author&query=Pouplin%2C+T
+		[2802] link 'Vasilis Kosmoliaptsis' url: https://arxiv.org/search/?searchtype=author&query=Kosmoliaptsis%2C+V
+		[2804] StaticText ', '
+		[2805] link 'Mihaela van der Schaar' url: https://arxiv.org/search/?searchtype=author&query=van+der+Schaar%2C+M
+		[2812] StaticText 'Abstract'
+		[2815] StaticText 'Despite its significant promise and continuous '
+		[2817] StaticText 'technical'
+		[2818] StaticText ' advances, real-world applications of artificial intelligence (AI) remain limited. We attribute this to the "domain expert-AI-conundrum": while domain experts, such as clinician scientists, should be able to build predictive models such as risk scores, they face substantial barriers in accessing… '
+		[2819] link '▽ More'
+		[2850] StaticText 'Submitted'
+		[2851] StaticText ' 25 November, 2024; '
+		[2853] StaticText 'v1'
+		[2854] StaticText ' submitted 30 September, 2024; '
+		[2856] StaticText 'originally announced'
+		[2857] StaticText ' October 2024.'
+		[2862] StaticText 'Comments:'
+		[2865] StaticText '* Evgeny Saveliev and Tim Schubert contributed equally to this work'
+		[2870] ListMarker '3. '
+		[2875] link 'arXiv:2409.03215' url: https://arxiv.org/abs/2409.03215
+		[2879] StaticText '\xa0['
+		[2880] link 'pdf' url: https://arxiv.org/pdf/2409.03215
+		[2882] StaticText ', '
+		[2883] link 'other' url: https://arxiv.org/format/2409.03215
+		[2885] StaticText ']\xa0'
+		[2891] StaticText 'cs.CL'
+		[2894] StaticText 'cs.AI'
+		[2897] StaticText 'cs.LG'
+		[2902] StaticText 'xLAM: A Family of Large Action Models to Empower AI Agent Systems'
+		[2907] StaticText 'Authors:'
+		[2909] link 'Jianguo Zhang' url: https://arxiv.org/search/?searchtype=author&query=Zhang%2C+J
+		[2911] StaticText ', '
+		[2912] link 'Tian Lan' url: https://arxiv.org/search/?searchtype=author&query=Lan%2C+T
+		[2915] link 'Ming Zhu' url: https://arxiv.org/search/?searchtype=author&query=Zhu%2C+M
+		[2918] link 'Zuxin Liu' url: https://arxiv.org/search/?searchtype=author&query=Liu%2C+Z
+		[2920] StaticText ', '
+		[2921] link 'Thai Hoang' url: https://arxiv.org/search/?searchtype=author&query=Hoang%2C+T
+		[2924] link 'Shirley Kokane' url: https://arxiv.org/search/?searchtype=author&query=Kokane%2C+S
+		[2927] link 'Weiran Yao' url: https://arxiv.org/search/?searchtype=author&query=Yao%2C+W
+		[2929] StaticText ', '
+		[2930] link 'Juntao Tan' url: https://arxiv.org/search/?searchtype=author&query=Tan%2C+J
+		[2933] link 'Akshara Prabhakar' url: https://arxiv.org/search/?searchtype=author&query=Prabhakar%2C+A
+		[2936] link 'Haolin Chen' url: https://arxiv.org/search/?searchtype=author&query=Chen%2C+H
+		[2938] StaticText ', '
+		[2939] link 'Zhiwei Liu' url: https://arxiv.org/search/?searchtype=author&query=Liu%2C+Z
+		[2942] link 'Yihao Feng' url: https://arxiv.org/search/?searchtype=author&query=Feng%2C+Y
+		[2945] link 'Tulika Awalgaonkar' url: https://arxiv.org/search/?searchtype=author&query=Awalgaonkar%2C+T
+		[2947] StaticText ', '
+		[2948] link 'Rithesh Murthy' url: https://arxiv.org/search/?searchtype=author&query=Murthy%2C+R
+		[2951] link 'Eric Hu' url: https://arxiv.org/search/?searchtype=author&query=Hu%2C+E
+		[2954] link 'Zeyuan Chen' url: https://arxiv.org/search/?searchtype=author&query=Chen%2C+Z
+		[2956] StaticText ', '
+		[2957] link 'Ran Xu' url: https://arxiv.org/search/?searchtype=author&query=Xu%2C+R
+		[2960] link 'Juan Carlos Niebles' url: https://arxiv.org/search/?searchtype=author&query=Niebles%2C+J+C
+		[2963] link 'Shelby Heinecke' url: https://arxiv.org/search/?searchtype=author&query=Heinecke%2C+S
+		[2965] StaticText ', '
+		[2966] link 'Huan Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+H
+		[2969] link 'Silvio Savarese' url: https://arxiv.org/search/?searchtype=author&query=Savarese%2C+S
+		[2972] link 'Caiming Xiong' url: https://arxiv.org/search/?searchtype=author&query=Xiong%2C+C
+		[2979] StaticText 'Abstract'
+		[2982] StaticText '…delivers exceptional performance across multiple agent ability benchmarks, notably securing the 1st position on the Berkeley Function-Calling Leaderboard, outperforming '
+		[2984] StaticText 'GPT'
+		[2988] StaticText ', Claude-3, and many other models in terms of tool use. By releasing the xLAM series, we aim to advance the performance of open-source LLMs for au… '
+		[2989] link '▽ More'
+		[3008] StaticText 'Submitted'
+		[3009] StaticText ' 4 September, 2024; '
+		[3011] StaticText 'originally announced'
+		[3012] StaticText ' September 2024.'
+		[3017] StaticText 'Comments:'
+		[3021] StaticText 'Technical'
+		[3024] StaticText 'report'
+		[3025] StaticText ' for the Salesforce xLAM model series'
+		[3030] ListMarker '4. '
+		[3035] link 'arXiv:2406.12845' url: https://arxiv.org/abs/2406.12845
+		[3039] StaticText '\xa0['
+		[3040] link 'pdf' url: https://arxiv.org/pdf/2406.12845
+		[3042] StaticText ', '
+		[3043] link 'other' url: https://arxiv.org/format/2406.12845
+		[3045] StaticText ']\xa0'
+		[3051] StaticText 'cs.LG'
+		[3054] StaticText 'cs.CL'
+		[3059] StaticText 'Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts'
+		[3064] StaticText 'Authors:'
+		[3066] link 'Haoxiang Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+H
+		[3068] StaticText ', '
+		[3069] link 'Wei Xiong' url: https://arxiv.org/search/?searchtype=author&query=Xiong%2C+W
+		[3072] link 'Tengyang Xie' url: https://arxiv.org/search/?searchtype=author&query=Xie%2C+T
+		[3075] link 'Han Zhao' url: https://arxiv.org/search/?searchtype=author&query=Zhao%2C+H
+		[3077] StaticText ', '
+		[3078] link 'Tong Zhang' url: https://arxiv.org/search/?searchtype=author&query=Zhang%2C+T
+		[3085] StaticText 'Abstract'
+		[3088] StaticText '…state-of-the-art performance on RewardBench, a benchmark evaluating RMs for language modeling. Notably, the performance of our model surpasses the LLM-as-a-judge method with '
+		[3090] StaticText 'GPT'
+		[3093] StaticText '4'
+		[3094] StaticText ' judges by a margin, and approaches the performance of the much larger Nemotron-'
+		[3097] StaticText ' 340B reward model. '
+		[3098] link '▽ More'
+		[3120] StaticText 'Submitted'
+		[3121] StaticText ' 18 June, 2024; '
+		[3123] StaticText 'originally announced'
+		[3124] StaticText ' June 2024.'
+		[3129] StaticText 'Comments:'
+		[3133] StaticText 'Technical'
+		[3136] StaticText 'report'
+		[3137] StaticText ' v1. Code and model are released at https://github.com/RLHFlow/RLHF-Reward-Modeling/'
+		[3142] ListMarker '5. '
+		[3147] link 'arXiv:2405.19266' url: https://arxiv.org/abs/2405.19266
+		[3151] StaticText '\xa0['
+		[3152] link 'pdf' url: https://arxiv.org/pdf/2405.19266
+		[3154] StaticText ', '
+		[3155] link 'other' url: https://arxiv.org/format/2405.19266
+		[3157] StaticText ']\xa0'
+		[3163] StaticText 'cs.CL'
+		[3168] StaticText 'PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications'
+		[3173] StaticText 'Authors:'
+		[3175] link 'Dingkang Yang' url: https://arxiv.org/search/?searchtype=author&query=Yang%2C+D
+		[3177] StaticText ', '
+		[3178] link 'Jinjie Wei' url: https://arxiv.org/search/?searchtype=author&query=Wei%2C+J
+		[3181] link 'Dongling Xiao' url: https://arxiv.org/search/?searchtype=author&query=Xiao%2C+D
+		[3184] link 'Shunli Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+S
+		[3186] StaticText ', '
+		[3187] link 'Tong Wu' url: https://arxiv.org/search/?searchtype=author&query=Wu%2C+T
+		[3190] link 'Gang Li' url: https://arxiv.org/search/?searchtype=author&query=Li%2C+G
+		[3193] link 'Mingcheng Li' url: https://arxiv.org/search/?searchtype=author&query=Li%2C+M
+		[3195] StaticText ', '
+		[3196] link 'Shuaibing Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+S
+		[3199] link 'Jiawei Chen' url: https://arxiv.org/search/?searchtype=author&query=Chen%2C+J
+		[3202] link 'Yue Jiang' url: https://arxiv.org/search/?searchtype=author&query=Jiang%2C+Y
+		[3204] StaticText ', '
+		[3205] link 'Qingyao Xu' url: https://arxiv.org/search/?searchtype=author&query=Xu%2C+Q
+		[3208] link 'Ke Li' url: https://arxiv.org/search/?searchtype=author&query=Li%2C+K
+		[3211] link 'Peng Zhai' url: https://arxiv.org/search/?searchtype=author&query=Zhai%2C+P
+		[3213] StaticText ', '
+		[3214] link 'Lihua Zhang' url: https://arxiv.org/search/?searchtype=author&query=Zhang%2C+L
+		[3221] StaticText 'Abstract'
+		[3224] StaticText '…experts strategy is presented to resolve the competency conflict between medical generalist and pediatric expertise mastery. Extensive results based on the metrics, '
+		[3226] StaticText 'GPT'
+		[3227] StaticText '-'
+		[3230] StaticText ', and doctor evaluations on distinct doctor downstream tasks show that PediatricsGPT consistently outperforms previous Chinese medical LLMs. Our model… '
+		[3231] link '▽ More'
+		[3250] StaticText 'Submitted'
+		[3251] StaticText ' 11 November, 2024; '
+		[3253] StaticText 'v1'
+		[3254] StaticText ' submitted 29 May, 2024; '
+		[3256] StaticText 'originally announced'
+		[3257] StaticText ' May 2024.'
+		[3262] StaticText 'Comments:'
+		[3265] StaticText 'Accepted by NeurIPS 2024. A '
+		[3267] StaticText 'Technical'
+		[3270] StaticText 'Report'
+		[3271] StaticText ' on a Chinese Medical Large Language Model'

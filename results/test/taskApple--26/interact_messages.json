@@ -2,5 +2,85 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Find the maximum video recording resolution supported by the latest iPad mini on the Apple website.  Please interact with https://www.apple.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to navigate to iPad section. Click 'iPad' link in navigation.\nAction: Click 50"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open iPad mini product page to view tech specs.\nAction: Click 9115"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need Tech Specs for iPad mini.\nAction: Click 13093"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to locate video recording specs; scroll down the Tech Specs page.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reach section describing camera/video recording. Continue scrolling down.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Camera and video specs likely further down. Continue scrolling the page downward.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Camera and video recording specs are further below; need to keep scrolling to find \"Camera\" or \"Video Recording\" section.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[18205] RootWebArea 'iPad mini - Technical Specifications - Apple' focused: True url: https://www.apple.com/ipad-mini/specs/\n\t[19568] navigation 'Local'\n\t\t[19581] link 'iPad\\xa0mini' url: https://www.apple.com/ipad-mini/\n\t\t[19605] link 'Overview' url: https://www.apple.com/ipad-mini/\n\t\t[19611] link 'Why iPad' url: https://www.apple.com/ipad-mini/why-ipad/\n\t\t[19617] link 'Tech Specs' disabled: True\n\t\t[19646] link 'Buy iPad mini' url: https://www.apple.com/us/shop/goto/buy_ipad/ipad_mini\n\t[19665] main ''\n\t\t[19674] table 'iPad mini Technical Specifications'\n\t\t\t[19861] rowgroup ''\n\t\t\t\t[19863] row ''\n\t\t\t\t\t[19870] cell 'iPad\\xa0mini USB-C Charge Cable (1 meter) 20W USB-C Power Adapter'\n\t\t\t[19887] rowgroup ''\n\t\t\t\t[19889] row ''\n\t\t\t\t\t[19893] rowheader 'Display' required: False\n\t\t\t\t\t[19896] cell 'Liquid\\xa0Retina display LED backlit Multi-Touch display with IPS technology 2266-by-1488 resolution at 326 ppi Wide color (P3) True\\xa0Tone Fingerprint-resistant oleophobic coating Fully laminated Antireflective coating 500 nits brightness Supports\\xa0Apple\\xa0Pencil\\xa0Pro Supports Apple\\xa0Pencil (USB‑C) Apple\\xa0Pencil hover The iPad\\xa0mini display has rounded corners. When measured diagonally as a rectangle, the screen is 8.3 inches. Actual viewable area is less.'\n\t\t\t\t\t\t[19898] figure ''\n\t\t\t\t\t\t\t[19900] Figcaption ''\n\t\t\t\t\t\t\t\t[19903] StaticText '8.3″'\n\t\t\t\t\t\t[19911] StaticText 'Liquid\\xa0Retina display'\n\t\t\t\t\t\t[19914] StaticText 'LED backlit Multi-Touch display with IPS technology'\n\t\t\t\t\t\t[19917] StaticText '2266-by-1488 resolution at 326 ppi'\n\t\t\t\t\t\t[19920] StaticText 'Wide color (P3)'\n\t\t\t\t\t\t[19923] StaticText 'True\\xa0Tone'\n\t\t\t\t\t\t[19926] StaticText 'Fingerprint-resistant oleophobic coating'\n\t\t\t\t\t\t[19929] StaticText 'Fully laminated'\n\t\t\t\t\t\t[19932] StaticText 'Antireflective coating'\n\t\t\t\t\t\t[19935] StaticText '500 nits brightness'\n\t\t\t\t\t\t[19938] StaticText 'Supports\\xa0Apple\\xa0Pencil\\xa0Pro'\n\t\t\t\t\t\t[19941] StaticText 'Supports Apple\\xa0Pencil (USB‑C)'\n\t\t\t\t\t\t[19944] StaticText 'Apple\\xa0Pencil hover'\n\t\t\t\t\t\t[19948] StaticText 'The iPad\\xa0mini display has rounded corners. When measured diagonally as a rectangle, the screen is 8.3 inches. Actual viewable area is less.'\n\t\t\t[19953] rowgroup ''\n\t\t\t\t[19955] row ''\n\t\t\t\t\t[19959] rowheader 'Chip' required: False\n\t\t\t\t\t[19962] cell 'A17\\xa0Pro chip 6-core CPU with 2 performance cores and 4 efficiency cores 5-core GPU 16-core Neural\\xa0Engine'\n\t\t\t\t\t\t[19966] figure ''\n\t\t\t[19990] rowgroup ''\n\t\t\t\t[19992] row ''\n\t\t\t\t\t[19996] rowheader 'Apple IntelligenceFootnote ◊◊◊ symbol' required: False\n\t\t\t\t\t\t[20000] superscript ''\n\t\t\t\t\t\t\t[20001] link 'Footnote ◊◊◊ symbol' url: https://www.apple.com/ipad-mini/specs/#footnote-diamond-3\n\t\t\t\t\t[20005] cell 'Built into your iPad, Apple\\xa0Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple. Learn more about Apple\\xa0Intelligence\\uf301'\n\t\t\t\t\t\t[20009] figure ''\n\t\t\t\t\t\t[20018] link 'Learn more about Apple\\xa0Intelligence\\uf301' url: https://www.apple.com/apple-intelligence/\n\t\t\t[20028] rowgroup ''\n\t\t\t\t[20030] row ''\n\t\t\t\t\t[20034] rowheader 'Camera' required: False\n\t\t\t\t\t[20037] cell '12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x Five‑element lens True\\xa0Tone flash Autofocus with Focus Pixels Panorama (up to 63MP) Smart HDR 4 Wide color capture for photos and Live\\xa0Photos Advanced red-eye correction Photo geotagging Auto image stabilization Burst mode Image formats captured: HEIF and JPEG'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We reached the Camera section; need to see if a separate \"Video Recording\" section is below to find maximum resolution. Scroll a bit further.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[18205] RootWebArea 'iPad mini - Technical Specifications - Apple' focused: True url: https://www.apple.com/ipad-mini/specs/\n\t[19568] navigation 'Local'\n\t\t[19581] link 'iPad\\xa0mini' url: https://www.apple.com/ipad-mini/\n\t\t[19605] link 'Overview' url: https://www.apple.com/ipad-mini/\n\t\t[19611] link 'Why iPad' url: https://www.apple.com/ipad-mini/why-ipad/\n\t\t[19617] link 'Tech Specs' disabled: True\n\t\t[19646] link 'Buy iPad mini' url: https://www.apple.com/us/shop/goto/buy_ipad/ipad_mini\n\t[19665] main ''\n\t\t[19674] table 'iPad mini Technical Specifications'\n\t\t\t[19887] rowgroup ''\n\t\t\t\t[19889] row ''\n\t\t\t\t\t[19896] cell 'Liquid\\xa0Retina display LED backlit Multi-Touch display with IPS technology 2266-by-1488 resolution at 326 ppi Wide color (P3) True\\xa0Tone Fingerprint-resistant oleophobic coating Fully laminated Antireflective coating 500 nits brightness Supports\\xa0Apple\\xa0Pencil\\xa0Pro Supports Apple\\xa0Pencil (USB‑C) Apple\\xa0Pencil hover The iPad\\xa0mini display has rounded corners. When measured diagonally as a rectangle, the screen is 8.3 inches. Actual viewable area is less.'\n\t\t\t[19953] rowgroup ''\n\t\t\t\t[19955] row ''\n\t\t\t\t\t[19959] rowheader 'Chip' required: False\n\t\t\t\t\t[19962] cell 'A17\\xa0Pro chip 6-core CPU with 2 performance cores and 4 efficiency cores 5-core GPU 16-core Neural\\xa0Engine'\n\t\t\t\t\t\t[19966] figure ''\n\t\t\t[19990] rowgroup ''\n\t\t\t\t[19992] row ''\n\t\t\t\t\t[19996] rowheader 'Apple IntelligenceFootnote ◊◊◊ symbol' required: False\n\t\t\t\t\t\t[20000] superscript ''\n\t\t\t\t\t\t\t[20001] link 'Footnote ◊◊◊ symbol' url: https://www.apple.com/ipad-mini/specs/#footnote-diamond-3\n\t\t\t\t\t[20005] cell 'Built into your iPad, Apple\\xa0Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple. Learn more about Apple\\xa0Intelligence\\uf301'\n\t\t\t\t\t\t[20009] figure ''\n\t\t\t\t\t\t[20018] link 'Learn more about Apple\\xa0Intelligence\\uf301' url: https://www.apple.com/apple-intelligence/\n\t\t\t[20028] rowgroup ''\n\t\t\t\t[20030] row ''\n\t\t\t\t\t[20034] rowheader 'Camera' required: False\n\t\t\t\t\t[20037] cell '12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x Five‑element lens True\\xa0Tone flash Autofocus with Focus Pixels Panorama (up to 63MP) Smart HDR 4 Wide color capture for photos and Live\\xa0Photos Advanced red-eye correction Photo geotagging Auto image stabilization Burst mode Image formats captured: HEIF and JPEG'\n\t\t\t[20084] rowgroup ''\n\t\t\t\t[20086] row ''\n\t\t\t\t\t[20090] rowheader 'Video Recording' required: False\n\t\t\t\t\t[20093] cell '4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps 1080p HD video recording at 25 fps, 30 fps, or 60 fps 720p HD video recording at 30 fps True\\xa0Tone flash Slo‑mo video support for 1080p at 120 fps or 240 fps Time‑lapse video with stabilization Extended dynamic range for video up to 30 fps Cinematic video stabilization (4K, 1080p, and 720p) Continuous autofocus video Playback zoom Video formats recorded: HEVC and H.264'"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; The latest iPad mini supports video recording at up to 4K resolution."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Located the “Video Recording” section in the iPad mini Tech Specs, which states “4K video recording at …”. This is the maximum resolution.  \nAction: ANSWER; The latest iPad mini supports video recording at a maximum resolution of 4 K."
   }
 ]

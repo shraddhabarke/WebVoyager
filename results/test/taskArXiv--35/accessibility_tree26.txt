@@ -1,0 +1,42 @@
+[3910] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=cat%3Aquant-ph&terms-0-field=title&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+	[3988] StaticText 'Skip to main content'
+	[3996] link 'logo' url: https://cornell.edu/
+		[3911] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[4002] StaticText 'We gratefully acknowledge support from'
+	[4004] StaticText 'the Simons Foundation, '
+	[4005] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[4007] StaticText ', and all contributors. '
+	[4008] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[4020] link 'arxiv-logo' url: https://arxiv.org/
+		[3912] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[3914] textbox 'Search term or terms' required: False
+	[4035] link 'Help' url: https://info.arxiv.org/help
+	[4037] StaticText ' | '
+	[4038] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[3915] combobox 'Field to search' hasPopup: menu expanded: False
+	[4098] button 'Search'
+	[4109] navigation 'User menu'
+		[4111] link 'Login' url: https://arxiv.org/login
+	[3917] main ''
+		[4122] heading 'Sorry, your query returned no results'
+		[4132] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[4134] StaticText '\xa0\xa0'
+		[4145] StaticText 'Query: '
+		[4146] link 'order: -announced_date_first; size: 50; classification: Physics (grp_physics); include_cross_list: True; terms: AND title=cat:quant-ph' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=cat%3Aquant-ph&terms-0-field=title&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[4150] link 'Refine query' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=cat%3Aquant-ph&terms-0-field=title&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[4152] link 'New search' url: https://arxiv.org/search/advanced
+		[4161] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+	[3916] contentinfo ''
+		[4180] navigation 'Secondary'
+			[4193] link 'About' url: https://info.arxiv.org/about
+			[4197] link 'Help' url: https://info.arxiv.org/help
+			[4215] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[4228] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[4249] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[4253] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[4262] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[4269] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[4274] StaticText 'Get status notifications via '
+			[4275] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[4279] StaticText ' or '
+			[4280] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

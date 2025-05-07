@@ -1,0 +1,61 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir/The+Metropolitan+Museum+of+Art,+1000+5th+Ave,+New+York,+NY+10028//@40.7795373,-74.0456459,12z/data=!4m8!4m7!1m5!1m1!1s0x89c25896f660c26f:0x3b2fa4f4b6c6a1fa!2m2!1d-73.963244!2d40.7794366!1m0?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[48] Canvas ''
+		[937] radiogroup '' required: False
+			[940] radio 'Best travel modes' checked: true
+				[941] image 'Best travel modes'
+			[950] radio 'Driving' checked: false
+				[951] image 'Driving'
+			[960] radio 'Transit' checked: false
+				[961] image 'Transit'
+			[970] radio 'Walking' checked: false
+				[971] image 'Walking'
+			[980] radio 'Cycling' checked: false
+				[981] image 'Cycling'
+			[990] radio 'Flights' checked: false
+				[991] image 'Flights'
+		[999] button 'Close directions'
+		[1028] combobox '' hasPopup: grid required: False expanded: False
+			[1021] textbox 'Starting point The Metropolitan Museum of Art, 1000 5th Ave, New York, NY 10028' autocomplete: list required: False
+		[1022] button 'Search'
+		[1052] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[1045] textbox 'Choose destination, or click on the map...' focused: True autocomplete: list required: False controls: sbsg51
+			[1060] grid '' multiselectable: False
+				[1550] row ''
+					[1541] row ''
+						[1542] gridcell 'Your location Your location' required: False
+							[1544] image 'Your location'
+								[1553] StaticText '\ue55c'
+		[1046] button 'Search'
+		[1004] button 'Reverse starting point and destination'
+		[16] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1627] button 'The Metropolitan Museum of Art'
+		[501] button 'Get the app'
+		[1146] main 'Directions'
+			[1207] heading 'Delays'
+			[1223] StaticText 'Light traffic in this area'
+			[1569] button 'Slowdown before the George Washington Bridge 20-min delay'
+			[1582] button 'Slowdown before the George Washington Bridge 8-min delay'
+			[1595] button 'Slowdown in the Lincoln\xa0Tunnel 5-min delay'
+			[1608] button 'Slowdown before the Alexander Hamilton Bridge 7-min delay'
+		[1187] button 'Collapse side panel'
+		[19] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[647] button 'Zoom out'
+		[661] button 'Show Street View coverage'
+		[703] generic 'Interactive map'
+		[741] StaticText 'Layers'
+		[756] button 'Layers' expanded: False
+		[860] contentinfo ''
+			[862] StaticText 'Map data ©2025 '
+			[863] button 'United States'
+			[865] button 'Terms'
+			[867] button 'Privacy'
+			[869] button 'Send Product Feedback'
+		[872] button '2 mi'

@@ -1,0 +1,162 @@
+[6217] RootWebArea 'Booking.com: Hotels in Chennai. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ss=Chennai&lang=en-us&sb=1&src_elem=sb&dest_id=-2103041&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=54b444143e0d1210&group_adults=2&no_rooms=1&group_children=0&order=bayesian_review_score
+	[21066] tabpanel 'Calendar'
+		[20880] grid '' multiselectable: False
+			[20876] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[20865] gridcell '27 April 2025' required: False
+					[20858] checkbox '27 April 2025' checked: false
+				[20866] gridcell '28 April 2025' required: False
+					[20860] checkbox '28 April 2025' checked: false
+				[20867] gridcell '29 April 2025' required: False
+					[20862] checkbox '29 April 2025' checked: false
+				[20868] gridcell '30 April 2025' required: False
+					[20864] checkbox '30 April 2025' checked: false
+		[21001] grid '' multiselectable: False
+			[20997] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[20986] gridcell '25 May 2025' required: False
+					[20973] checkbox '25 May 2025' checked: false
+				[20987] gridcell '26 May 2025' required: False
+					[20975] checkbox '26 May 2025' checked: false
+				[20988] gridcell '27 May 2025' required: False
+					[20977] checkbox '27 May 2025' checked: false
+				[20989] gridcell '28 May 2025' required: False
+					[20979] checkbox '28 May 2025' checked: false
+				[20990] gridcell '29 May 2025' required: False
+					[20981] checkbox '29 May 2025' checked: false
+				[20991] gridcell '30 May 2025' required: False
+					[20983] checkbox '30 May 2025' checked: false
+				[20992] gridcell '31 May 2025' required: False
+					[20985] checkbox '31 May 2025' checked: false
+		[21060] group ''
+			[21057] region '' roledescription: carousel
+				[21042] group '' roledescription: slide
+					[21007] checkbox 'Exact dates' checked: true
+				[21043] group '' roledescription: slide
+					[21015] checkbox '1 day' checked: false
+				[21044] group '' roledescription: slide
+					[21023] checkbox '2 days' checked: false
+				[21045] group '' roledescription: slide
+					[21031] checkbox '3 days' checked: false
+				[21046] group '' roledescription: slide
+					[21039] checkbox '7 days' checked: false
+	[7435] region 'Filters'
+		[7443] group 'Popular filters'
+			[6361] checkbox 'Hotels: 622 properties' checked: false
+			[6362] checkbox 'Sea view: 25 properties' checked: false
+			[6363] checkbox 'Villas: 34 properties' checked: false
+			[6364] checkbox 'T - Nagar: 85 properties' checked: false
+			[6365] checkbox 'Free Wifi: 818 properties' checked: false
+		[7589] StaticText 'Smart filters'
+		[7597] StaticText 'What are you looking for?'
+		[6366] textbox 'What are you looking for?' required: False
+		[7605] button 'Find properties'
+		[7614] group 'Amenities'
+			[6367] checkbox 'Parking: 693 properties' checked: false
+			[6368] checkbox 'Restaurant: 228 properties' checked: false
+			[6369] checkbox 'Pet friendly: 151 properties' checked: false
+			[6370] checkbox 'Room service: 661 properties' checked: false
+			[6371] checkbox '24-hour front desk: 673 properties' checked: false
+			[7699] button 'Show all 14' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7711] group 'Property Type'
+			[6372] checkbox 'Hotels: 622 properties' checked: false
+			[6373] checkbox 'Apartments: 160 properties' checked: false
+			[6374] checkbox 'Guesthouses: 54 properties' checked: false
+			[6375] checkbox 'Homestays: 39 properties' checked: false
+			[6376] checkbox 'Villas: 34 properties' checked: false
+			[6377] checkbox 'Bed and Breakfasts: 22 properties' checked: false
+			[6378] checkbox 'Hostels: 14 properties' checked: false
+			[6379] checkbox 'Lodges: 13 properties' checked: false
+			[6380] checkbox 'Resorts: 11 properties' checked: false
+			[6381] checkbox 'Vacation Homes: 6 properties' checked: false
+			[6382] checkbox 'Capsule Hotels: 4 properties' checked: false
+			[6383] checkbox 'Resort Villages: 2 properties' checked: false
+			[6384] checkbox 'Motels: 1 property' checked: false
+			[6385] checkbox 'Boats: 1 property' checked: false
+			[6386] checkbox 'Country Houses: 1 property' checked: false
+			[6387] checkbox 'Chalets: 1 property' checked: false
+		[7976] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6388] checkbox '1 star: 12 properties' checked: false
+			[6389] checkbox '2 stars: 101 properties' checked: false
+			[6390] checkbox '3 stars: 339 properties' checked: false
+			[6391] checkbox '4 stars: 108 properties' checked: false
+			[6392] checkbox '5 stars: 53 properties' checked: false
+		[8080] group 'Room amenities'
+			[6393] checkbox 'Sea view: 25 properties' checked: false
+			[6394] checkbox 'Air conditioning: 924 properties' checked: false
+			[6395] checkbox 'Private bathroom: 823 properties' checked: false
+			[6396] checkbox 'Balcony: 290 properties' checked: false
+			[6397] checkbox 'Kitchen/Kitchenette: 258 properties' checked: false
+			[8165] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r34:
+		[8176] group 'Review score'
+			[6398] checkbox 'Wonderful: 9+: 90 properties' checked: false
+			[6399] checkbox 'Very Good: 8+: 230 properties' checked: false
+	[20047] listitem 'Property'
+		[20243] StaticText 'Somerset Greenways Chennai features a rooftop infinity pool, fitness center and steam and sauna facility. It offers 1 dining option and on-site bar. Free WiFi is available throughout the property.'
+	[20050] listitem 'Property'
+		[18499] button 'Save this item to a trip list' expanded: False
+		[18514] heading 'Trident Chennai Opens in new window'
+			[18509] link 'Trident Chennai Opens in new window' url: https://www.booking.com/hotel/in/trident-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18513] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[18512] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[18511] image ''
+		[18522] link 'South Chennai, Chennai (South Chennai)· Show on map' url: https://www.booking.com/hotel/in/trident-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults&map=1
+		[18520] button '3.3 miles from downtown'
+		[20256] StaticText 'The 5-star Trident Chennai features an outdoor pool, pampering spa treatments and 24-hour room service. The hotel is located near Chennai airport and is 7.5 mi from the railway station.'
+		[18539] link 'Scored 9.1 Wonderful 1,361 reviews' url: https://www.booking.com/hotel/in/trident-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18538] link 'Location: Scored 9.3 ' url: https://www.booking.com/hotel/in/trident-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18542] button 'Show prices'
+	[20052] listitem 'Property'
+		[18561] button 'Save this item to a trip list' expanded: False
+		[18576] heading 'The Leela Palace Chennai Opens in new window'
+			[18571] link 'The Leela Palace Chennai Opens in new window' url: https://www.booking.com/hotel/in/leela-palace-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from_sustainable_property_sr=1&from=searchresults
+		[18575] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[18574] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[18573] image ''
+		[18584] link 'South Chennai, Chennai (South Chennai)· Show on map' url: https://www.booking.com/hotel/in/leela-palace-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from_sustainable_property_sr=1&from=searchresults&map=1
+		[18582] button '0.4 miles from downtown'
+		[20269] StaticText 'Sustainability certification'
+		[20270] StaticText '• Nestled along the Coromandel Coast, The Leela Palace Chennai stands as the city’s only oceanfront luxury palace hotel, offering breathtaking views of the Bay of Bengal.'
+		[18604] link 'Scored 9.0 Wonderful 2,344 reviews' url: https://www.booking.com/hotel/in/leela-palace-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from_sustainable_property_sr=1&from=searchresults
+		[18606] button 'Show prices'
+	[20054] listitem 'Property'
+		[18625] button 'Save this item to a trip list' expanded: False
+		[18640] heading 'Taj Wellington Mews Chennai Opens in new window'
+			[18635] link 'Taj Wellington Mews Chennai Opens in new window' url: https://www.booking.com/hotel/in/taj-wellington-mews-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18639] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[18638] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[18637] image ''
+		[18650] link 'South Chennai, Chennai (South Chennai)· Show on map' url: https://www.booking.com/hotel/in/taj-wellington-mews-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults&map=1
+		[18646] button '2.5 miles from downtown'
+		[18648] button 'Beach Nearby'
+		[20281] StaticText '1.6 miles from beach'
+		[20282] StaticText 'Located in Chennai, 2.9 miles from Indian Institute of Technology, Madras, Taj Wellington Mews Chennai provides accommodations with an outdoor swimming pool, free private parking, a fitness center and...'
+		[18672] link 'Scored 9.1 Wonderful 559 reviews' url: https://www.booking.com/hotel/in/taj-wellington-mews-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18674] button 'Show prices'
+	[20056] listitem 'Property'
+		[18692] button 'Save this item to a trip list' expanded: False
+		[18703] heading 'TOWNHOUSE XOTEL Opens in new window'
+			[18702] link 'TOWNHOUSE XOTEL Opens in new window' url: https://www.booking.com/hotel/in/oyo-townhouse-054-thoraipakkam-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18710] link 'Thoraipakkam, Chennai· Show on map' url: https://www.booking.com/hotel/in/oyo-townhouse-054-thoraipakkam-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults&map=1
+		[18708] button '5.3 miles from downtown'
+		[20292] StaticText 'Conveniently set in the Thoraipakkam district of Chennai, TOWNHOUSE XOTEL is located 4.2 miles from Indian Institute of Technology, Madras, 6.1 miles from Anna University and 7.8 miles from Pondy...'
+		[18727] link 'Scored 9.3 Wonderful 202 reviews' url: https://www.booking.com/hotel/in/oyo-townhouse-054-thoraipakkam-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18726] link 'Location: Scored 9.6 ' url: https://www.booking.com/hotel/in/oyo-townhouse-054-thoraipakkam-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18730] button 'Show prices'
+	[20057] listitem 'Property'
+		[18748] button 'Save this item to a trip list' expanded: False
+		[18759] heading 'Super Hotel O Sriperambadhur formerly Radha Residency Opens in new window'
+			[18758] link 'Super Hotel O Sriperambadhur formerly Radha Residency Opens in new window' url: https://www.booking.com/hotel/in/radha-residency-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18766] link 'Chennai· Show on map' url: https://www.booking.com/hotel/in/radha-residency-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults&map=1
+		[18764] button '13.6 miles from downtown'
+		[20305] StaticText 'Located within 12 miles of Madras Medical College and 12 miles of Arignar Anna Zoological Park, Super Hotel O Sriperambadhur formerly Radha Residency has rooms in Chennai.'
+		[18780] link 'Scored 9.0 Wonderful 64 reviews' url: https://www.booking.com/hotel/in/radha-residency-chennai.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18782] button 'Show prices'
+	[20059] listitem 'Property'
+		[18801] button 'Save this item to a trip list' expanded: False
+		[18816] heading 'ITC Grand Chola, a Luxury Collection Hotel, Chennai Opens in new window'
+			[18811] link 'ITC Grand Chola, a Luxury Collection Hotel, Chennai Opens in new window' url: https://www.booking.com/hotel/in/itc-grand-chola.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18815] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[18814] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[18813] image ''
+		[18824] link 'Guindy, Chennai (South Chennai)· Show on map' url: https://www.booking.com/hotel/in/itc-grand-chola.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults&map=1
+		[18838] link 'Scored 9.1 Wonderful 1,286 reviews' url: https://www.booking.com/hotel/in/itc-grand-chola.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKo4MfABsACAdICJDM5ZTZhNjRhLWQ5M2ItNDMyNC04OGYyLTA4Nzc1ZmMxNjE2M9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=bayesian_review_score&srpvid=7f184424c5a305f1&srepoch=1746006740&from=searchresults
+		[18840] button 'Show prices'

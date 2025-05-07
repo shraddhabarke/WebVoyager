@@ -1,0 +1,43 @@
+[63] RootWebArea 'Catchup' focused: True url: https://arxiv.org/catchup?group=grp_physics&%2Fcatchup=Catchup
+	[135] link 'arxiv logo' url: https://arxiv.org/
+		[65] image 'arxiv logo' url: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+	[138] StaticText '>'
+	[141] StaticText 'catchup'
+	[57] textbox 'Search term or terms' required: False
+	[153] link 'Help' url: https://info.arxiv.org/help
+	[155] StaticText ' | '
+	[156] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[58] combobox 'Field to search' hasPopup: menu expanded: False
+	[216] button 'Search'
+	[304] main ''
+		[308] heading 'Catchup on:'
+		[312] group 'Subject:'
+			[314] heading 'Subject:'
+			[320] StaticText 'Group:'
+			[21] combobox 'Group:' hasPopup: menu expanded: False
+			[354] StaticText 'Archive:'
+			[22] combobox '' hasPopup: menu expanded: False
+			[464] StaticText 'Category:'
+			[31] combobox '' hasPopup: menu expanded: False
+		[1040] group 'Changes Since:'
+			[1042] heading 'Changes Since:'
+			[52] combobox '' hasPopup: menu expanded: False
+			[53] combobox '' hasPopup: menu expanded: False
+			[54] combobox '' hasPopup: menu expanded: False
+		[1195] StaticText 'Include abstracts: '
+		[55] checkbox 'Include abstracts: ' checked: false
+		[1201] button 'Go'
+	[1209] contentinfo ''
+		[1211] navigation 'Secondary'
+			[1224] link 'About' url: https://info.arxiv.org/about
+			[1228] link 'Help' url: https://info.arxiv.org/help
+			[1246] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[1259] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[1280] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[1284] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[1294] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[1301] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[1306] StaticText 'Get status notifications via '
+			[1307] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[1311] StaticText ' or '
+			[1312] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

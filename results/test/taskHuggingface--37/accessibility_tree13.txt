@@ -1,0 +1,101 @@
+[1856] RootWebArea 'AventIQ-AI/text-summarization-for-research-papers · Hugging Face' focused: True url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers
+	[2077] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1857] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1860] textbox 'Search models, datasets, users...' required: False
+	[2089] button ''
+	[2176] main ''
+		[2179] sectionheader ''
+			[2181] heading 'AventIQ-AI / text-summarization-for-research-papers Copy model name to clipboard like 1 Follow AventIQ 48'
+				[2188] link '' url: https://huggingface.co/AventIQ-AI
+				[2194] link 'AventIQ-AI' url: https://huggingface.co/AventIQ-AI
+				[2202] link 'text-summarization-for-research-papers' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers
+				[1863] button 'Copy model name to clipboard'
+				[2210] button 'like'
+				[2220] button '1'
+				[1868] button 'Follow AventIQ'
+				[2235] button '48'
+			[2243] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2259] link 't5' url: https://huggingface.co/models?other=t5
+			[2281] link 'Model card' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers
+			[2292] link 'Files' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers/tree/main
+			[2306] link 'Community' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers/discussions
+			[2321] button ''
+		[2359] StaticText 'YAML Metadata Warning:'
+		[2360] StaticText ' empty or missing yaml metadata in repo card ('
+		[2362] link 'https://huggingface.co/docs/hub/model-cards#model-card-metadata' url: https://huggingface.co/docs/hub/model-cards#model-card-metadata
+		[2365] StaticText ')'
+		[2373] button ''
+		[2455] heading 'Text-to-Text Transfer Transformer Quantized Model for Text summarization for Research Papers'
+			[2457] link '' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers#text-to-text-transfer-transformer-quantized-model-for-text-summarization-for-research-papers
+		[2468] StaticText 'This repository hosts a quantized version of the T5 model, fine-tuned for text summarization tasks. The model has been optimized for efficient deployment while maintaining high accuracy, making it suitable for resource-constrained environments.'
+		[2470] heading 'Model Details'
+			[2472] link '' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers#model-details
+		[2486] ListMarker '• '
+		[2488] StaticText 'Model Architecture:'
+		[2489] StaticText ' T5'
+		[2492] ListMarker '• '
+		[2494] StaticText 'Task:'
+		[2495] StaticText ' Text summarization for Research Papers'
+		[2498] ListMarker '• '
+		[2500] StaticText 'Dataset:'
+		[2504] ListMarker '• '
+		[2506] StaticText 'Quantization:'
+		[2507] StaticText ' Float16'
+		[2510] ListMarker '• '
+		[2512] StaticText 'Fine-tuning Framework:'
+		[2513] StaticText ' Hugging Face Transformers'
+		[2516] heading 'Usage'
+			[2518] link '' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers#usage
+		[2529] heading 'Installation'
+			[2531] link '' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers#installation
+		[2544] code ''
+			[2547] StaticText 'pip install transformers torch\n'
+		[2548] button ''
+		[2554] heading 'Loading the Model'
+			[2556] link '' url: https://huggingface.co/AventIQ-AI/text-summarization-for-research-papers#loading-the-model
+		[2569] code ''
+			[2573] StaticText 'from'
+			[2574] StaticText ' transformers '
+			[2576] StaticText 'import'
+			[2577] StaticText ' T5Tokenizer, T5ForConditionalGeneration\n'
+			[2580] StaticText ' torch\n\ndevice = '
+			[2582] StaticText '"cuda"'
+			[2585] StaticText 'if'
+			[2586] StaticText ' torch.cuda.is_available() '
+			[2588] StaticText 'else'
+			[2591] StaticText '"cpu"'
+			[2592] StaticText '\n\nmodel_name = '
+			[2594] StaticText '"AventIQ-AI/text-summarization-for-research-papers"'
+			[2595] StaticText '\ntokenizer = T5Tokenizer.from_pretrained(model_name)\nmodel = T5ForConditionalGeneration.from_pretrained(model_name).to(device)\n\n'
+			[2597] StaticText 'def'
+			[2600] StaticText 'test_summarization'
+			[2603] StaticText 'model, tokenizer'
+			[2604] StaticText '):\n    user_text = '
+			[2606] StaticText 'input'
+			[2607] StaticText '('
+			[2609] StaticText '"\\nEnter your text for summarization:\\n"'
+			[2610] StaticText ')\n    input_text = '
+			[2612] StaticText '"summarize: "'
+			[2613] StaticText ' + user_text\n    inputs = tokenizer(input_text, return_tensors='
+			[2615] StaticText '"pt"'
+			[2616] StaticText ', truncation='
+			[2618] StaticText 'True'
+			[2619] StaticText ', max_length='
+			[2621] StaticText '512'
+			[2622] StaticText ').to(device)\n\n    output = model.generate(\n        **inputs,\n        max_new_tokens='
+		[2653] button ''
+		[2926] DescriptionList ''
+			[2927] term 'Downloads last month'
+			[2929] definition ''
+				[2930] StaticText '8,724'
+		[2935] image ''
+		[2961] StaticText 'Safetensors'
+		[2962] link '' url: https://huggingface.co/docs/safetensors
+		[2971] StaticText 'Model size'
+		[2974] StaticText '60.5M'
+		[2975] StaticText ' params'
+		[2979] StaticText 'Tensor type'
+		[2982] StaticText 'FP16'
+		[2989] button 'Files info'
+		[3011] StaticText 'Inference Providers'
+		[3031] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=AventIQ-AI/text-summarization-for-research-papers&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5BAventIQ-AI%2Ftext-summarization-for-research-papers%5D(%2FAventIQ-AI%2Ftext-summarization-for-research-papers)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A

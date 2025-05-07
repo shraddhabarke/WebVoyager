@@ -1,0 +1,222 @@
+[1] RootWebArea 'Search | arXiv e-print repository' focused: True url: http://arxiv.org/search/?query=Poly+encoder&searchtype=all&source=header
+	[352] StaticText 'Skip to main content'
+	[360] link 'logo' url: https://cornell.edu/
+		[2] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[24] StaticText 'We gratefully acknowledge support from'
+	[25] StaticText 'the Simons Foundation, '
+	[366] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[27] StaticText ', and all contributors. '
+	[367] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[379] link 'arxiv-logo' url: https://arxiv.org/
+		[4] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[14] textbox 'Search term or terms' required: False
+	[394] link 'Help' url: https://info.arxiv.org/help
+	[396] StaticText ' | '
+	[397] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[15] combobox 'Field to search' hasPopup: menu expanded: False
+	[457] button 'Search'
+	[468] navigation 'User menu'
+		[470] link 'Login' url: https://arxiv.org/login
+	[476] main ''
+		[482] heading 'Showing 1–50 of 109 results for all: Poly encoder'
+		[495] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[497] StaticText '\xa0\xa0'
+		[509] StaticText 'Search term or terms'
+		[7] textbox 'Search term or terms' required: False
+			[13280] StaticText 'Poly encoder'
+		[8] combobox '' hasPopup: menu expanded: False
+		[554] button 'Search'
+		[9] radio ' Show abstracts' checked: true
+		[10] radio ' Hide abstracts' checked: false
+		[577] link 'Advanced Search' url: http://arxiv.org/search/advanced?terms-0-term=Poly+encoder&terms-0-field=all&size=50&order=-announced_date_first
+		[11] combobox 'results per page' hasPopup: menu expanded: False
+		[31] StaticText 'Sort results by'
+		[12] combobox 'Sort results by' hasPopup: menu expanded: False
+		[36] button 'Go'
+		[683] navigation 'pagination'
+			[688] link 'Next' url: http://arxiv.org/search/?query=Poly+encoder&searchtype=all&source=header&start=50
+			[695] link 'Goto page 1' url: http://arxiv.org/search/?query=Poly+encoder&searchtype=all&source=header&start=0
+			[701] link 'Page 2' url: http://arxiv.org/search/?query=Poly+encoder&searchtype=all&source=header&start=50
+			[707] link 'Page 3' url: http://arxiv.org/search/?query=Poly+encoder&searchtype=all&source=header&start=100
+		[716] ListMarker '1. '
+		[721] link 'arXiv:2502.13534' url: https://arxiv.org/abs/2502.13534
+		[39] StaticText '\xa0['
+		[723] link 'pdf' url: https://arxiv.org/pdf/2502.13534
+		[41] StaticText ', '
+		[724] link 'ps' url: https://arxiv.org/ps/2502.13534
+		[725] link 'other' url: https://arxiv.org/format/2502.13534
+		[45] StaticText ']\xa0'
+		[731] StaticText 'quant-ph'
+		[734] StaticText 'cs.AI'
+		[737] StaticText 'cs.LG'
+		[742] StaticText 'Solving the '
+		[744] StaticText 'encoding'
+		[745] StaticText ' bottleneck: of the HHL algorithm, by the HHL algorithm'
+		[749] StaticText 'Authors:'
+		[751] link 'Guang Ping He' url: http://arxiv.org/search/?searchtype=author&query=He%2C+G+P
+		[758] StaticText 'Abstract'
+		[761] StaticText '…(HHL) algorithm offers exponential speedup for solving the quantum linear-system problem. But some caveats for the speedup could be hard to met. One of the difficulties is the '
+		[46] StaticText 'encoding'
+		[47] StaticText ' bottleneck, i.e., the efficient preparation of the initial quantum state. To prepare an arbitrary '
+		[771] StaticText 'N'
+		[49] StaticText '-dimensional state exactly, existing state-preparation approaches generall… '
+		[777] link '▽ More'
+		[867] StaticText 'Submitted'
+		[868] StaticText ' 9 March, 2025; '
+		[870] StaticText 'v1'
+		[871] StaticText ' submitted 19 February, 2025; '
+		[873] StaticText 'originally announced'
+		[874] StaticText ' February 2025.'
+		[879] StaticText 'Comments:'
+		[882] StaticText 'Added a diagram of the quantum circuit of our algorithm'
+		[887] ListMarker '2. '
+		[892] link 'arXiv:2501.12579' url: https://arxiv.org/abs/2501.12579
+		[896] StaticText '\xa0['
+		[897] link 'pdf' url: https://arxiv.org/pdf/2501.12579
+		[899] StaticText ', '
+		[900] link 'other' url: https://arxiv.org/format/2501.12579
+		[902] StaticText ']\xa0'
+		[908] StaticText 'quant-ph'
+		[913] StaticText 'Classical and quantum algorithms for characters of the symmetric group'
+		[918] StaticText 'Authors:'
+		[920] link 'Sergey Bravyi' url: http://arxiv.org/search/?searchtype=author&query=Bravyi%2C+S
+		[922] StaticText ', '
+		[923] link 'David Gosset' url: http://arxiv.org/search/?searchtype=author&query=Gosset%2C+D
+		[926] link 'Vojtech Havlicek' url: http://arxiv.org/search/?searchtype=author&query=Havlicek%2C+V
+		[929] link 'Louis Schatzki' url: http://arxiv.org/search/?searchtype=author&query=Schatzki%2C+L
+		[936] StaticText 'Abstract'
+		[939] StaticText '…. The algorithm computes an MPS '
+		[941] StaticText 'encoding'
+		[942] StaticText ' all irreducible characters of a given permutation. It relies on a mapping from characters of '
+		[965] StaticText ' to quantum spin chains proposed by Crichigno and Prakash. We also provide a simpler derivation of this mapping. We complement this result by presenting a '
+		[984] StaticText '('
+		[988] StaticText ')'
+		[993] StaticText ' size quantum cir… '
+		[994] link '▽ More'
+		[1147] StaticText 'Submitted'
+		[1148] StaticText ' 19 February, 2025; '
+		[1150] StaticText 'v1'
+		[1151] StaticText ' submitted 21 January, 2025; '
+		[1153] StaticText 'originally announced'
+		[1154] StaticText ' January 2025.'
+		[1159] StaticText 'Comments:'
+		[1162] StaticText '12 pages, 5 figures'
+		[1167] ListMarker '3. '
+		[1172] link 'arXiv:2501.06570' url: https://arxiv.org/abs/2501.06570
+		[1176] StaticText '\xa0['
+		[1177] link 'pdf' url: https://arxiv.org/pdf/2501.06570
+		[1179] StaticText ', '
+		[1180] link 'other' url: https://arxiv.org/format/2501.06570
+		[1182] StaticText ']\xa0'
+		[1188] StaticText 'cs.DB'
+		[1193] StaticText 'Aster: Enhancing LSM-structures for Scalable Graph Database'
+		[1198] StaticText 'Authors:'
+		[1200] link 'Dingheng Mo' url: http://arxiv.org/search/?searchtype=author&query=Mo%2C+D
+		[1202] StaticText ', '
+		[1203] link 'Junfeng Liu' url: http://arxiv.org/search/?searchtype=author&query=Liu%2C+J
+		[1206] link 'Fan Wang' url: http://arxiv.org/search/?searchtype=author&query=Wang%2C+F
+		[1209] link 'Siqiang Luo' url: http://arxiv.org/search/?searchtype=author&query=Luo%2C+S
+		[1216] StaticText 'Abstract'
+		[1219] StaticText '…of applications requiring the management of large-scale, evolving graphs under workloads with intensive graph updates and lookups. Driven by this challenge, we introduce '
+		[1221] StaticText 'Poly'
+		[1222] StaticText '-LSM, a high-performance key-value storage engine for graphs with the following novel techniques: (1)… '
+		[1223] link '▽ More'
+		[1251] StaticText 'Submitted'
+		[1252] StaticText ' 11 January, 2025; '
+		[1254] StaticText 'originally announced'
+		[1255] StaticText ' January 2025.'
+		[1260] StaticText 'Comments:'
+		[1263] StaticText 'Accepted by SIGMOD 2025'
+		[1268] ListMarker '4. '
+		[1273] link 'arXiv:2412.10655' url: https://arxiv.org/abs/2412.10655
+		[1277] StaticText '\xa0['
+		[1278] link 'pdf' url: https://arxiv.org/pdf/2412.10655
+		[1280] StaticText ', '
+		[1281] link 'other' url: https://arxiv.org/format/2412.10655
+		[1283] StaticText ']\xa0'
+		[1289] StaticText 'cs.DS'
+		[1294] StaticText 'Optimal Static Dictionary with Worst-Case Constant Query Time'
+		[1299] StaticText 'Authors:'
+		[1301] link 'Yang Hu' url: http://arxiv.org/search/?searchtype=author&query=Hu%2C+Y
+		[1303] StaticText ', '
+		[1304] link 'Jingxun Liang' url: http://arxiv.org/search/?searchtype=author&query=Liang%2C+J
+		[1307] link 'Huacheng Yu' url: http://arxiv.org/search/?searchtype=author&query=Yu%2C+H
+		[1310] link 'Junkai Zhang' url: http://arxiv.org/search/?searchtype=author&query=Zhang%2C+J
+		[1312] StaticText ', '
+		[1313] link 'Renfei Zhou' url: http://arxiv.org/search/?searchtype=author&query=Zhou%2C+R
+		[1320] StaticText 'Abstract'
+		[1323] StaticText '…keys, and if so, also returns its associated value. The textbook solution to dictionaries is hash tables. On the other hand, the (information-theoretical) optimal space to '
+		[1325] StaticText 'encode'
+		[1326] StaticText ' such a set of key-value pairs is only '
+		[1335] StaticText 'OPT'
+		[1337] StaticText ':'
+		[1339] StaticText '='
+		[1341] StaticText 'log'
+		[1349] StaticText '('
+		[1354] StaticText 'U'
+		[1359] StaticText 'n'
+		[1366] StaticText ')'
+		[1368] StaticText '+'
+		[1372] StaticText 'log'
+		[1377] StaticText 'σ'
+		[1382] StaticText '. We construct a dictionary that uses '
+		[1391] StaticText 'OPT'
+		[1393] StaticText '+'
+		[1404] StaticText 'ε'
+		[1410] StaticText ' bits of space, and answers queries in consta… '
+		[1411] link '▽ More'
+		[1693] StaticText 'Submitted'
+		[1694] StaticText ' 26 March, 2025; '
+		[1696] StaticText 'v1'
+		[1697] StaticText ' submitted 13 December, 2024; '
+		[1699] StaticText 'originally announced'
+		[1700] StaticText ' December 2024.'
+		[1705] StaticText 'Comments:'
+		[1708] StaticText '31 pages, 4 figures, in STOC 2025'
+		[1713] ListMarker '5. '
+		[1718] link 'arXiv:2412.10083' url: https://arxiv.org/abs/2412.10083
+		[1722] StaticText '\xa0['
+		[1723] link 'pdf' url: https://arxiv.org/pdf/2412.10083
+		[1725] StaticText ', '
+		[1726] link 'other' url: https://arxiv.org/format/2412.10083
+		[1728] StaticText ']\xa0'
+		[1734] StaticText 'cs.MA'
+		[1737] StaticText 'cs.RO'
+		[1742] StaticText 'Heterogeneous Multi-Robot Graph Coverage with Proximity and Movement Constraints'
+		[1747] StaticText 'Authors:'
+		[1749] link 'Dolev Mutzari' url: http://arxiv.org/search/?searchtype=author&query=Mutzari%2C+D
+		[1751] StaticText ', '
+		[1752] link 'Yonatan Aumann' url: http://arxiv.org/search/?searchtype=author&query=Aumann%2C+Y
+		[1755] link 'Sarit Kraus' url: http://arxiv.org/search/?searchtype=author&query=Kraus%2C+S
+		[1762] StaticText 'Abstract'
+		[1765] StaticText '…For this problem, our contributions are four: (i) a formal formulation of the problem, (ii) an exact algorithm that is FPT in F, d and tw, the set of robot formations that '
+		[1767] StaticText 'encode'
+		[1768] StaticText ' the proximity constraints, the maximum nodes degree, and the tree-width of the graph, respectively, (iii) for the case that the graph is a tree: a PTAS approximation scheme, that g… '
+		[1769] link '▽ More'
+		[1806] StaticText 'Submitted'
+		[1807] StaticText ' 17 December, 2024; '
+		[1809] StaticText 'v1'
+		[1810] StaticText ' submitted 13 December, 2024; '
+		[1812] StaticText 'originally announced'
+		[1813] StaticText ' December 2024.'
+		[1818] StaticText 'Comments:'
+		[1821] StaticText '12 pages, 7 figures, to be published in the 39th Annual AAAI Conference on Artificial Intelligence'
+		[1826] ListMarker '6. '
+		[1831] link 'arXiv:2412.03109' url: https://arxiv.org/abs/2412.03109
+		[1835] StaticText '\xa0['
+		[1836] link 'pdf' url: https://arxiv.org/pdf/2412.03109
+		[1838] StaticText ', '
+		[1839] link 'other' url: https://arxiv.org/format/2412.03109
+		[1841] StaticText ']\xa0'
+		[1847] StaticText 'quant-ph'
+		[1852] StaticText 'Pauli quantum computing: '
+		[1861] StaticText 'I'
+		[1867] StaticText ' as '
+		[1878] StaticText '|'
+		[1880] StaticText '0'
+		[1882] StaticText '⟩'
+		[1887] StaticText ' and '
+		[1896] StaticText 'X'
+		[1902] StaticText ' as '
+		[1913] StaticText '|'
+		[1917] StaticText '⟩'

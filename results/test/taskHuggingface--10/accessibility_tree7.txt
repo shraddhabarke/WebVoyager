@@ -1,0 +1,71 @@
+[1763] RootWebArea 'Full Text Search - Hugging Face' focused: True url: https://huggingface.co/search/full-text?q=argilla%2Fnotux-chat-ui&type=dataset&type=space
+	[1860] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1764] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1767] textbox 'Search models, datasets, users...' required: False
+	[1775] button ''
+	[1765] main ''
+		[1963] StaticText 'Full-text search'
+		[1768] checkbox 'Models' focused: True checked: false
+		[1769] checkbox 'Datasets' checked: true
+		[1770] checkbox 'Spaces' checked: true
+		[1771] textbox 'Search anything on the Hub' required: False
+			[3853] StaticText 'argilla/notux-chat-ui'
+		[1992] StaticText '+'
+		[1994] StaticText '1,000'
+		[1995] StaticText ' results'
+		[3856] sectionheader 'argilla/synthetic-data-generator'
+			[3859] heading 'argilla / synthetic-data-generator'
+				[3860] link 'argilla' url: https://huggingface.co/argilla
+				[3862] link 'synthetic-data-generator' url: https://huggingface.co/spaces/argilla/synthetic-data-generator
+			[3865] heading 'app.py'
+				[3866] link 'app.py' url: https://huggingface.co/spaces/argilla/synthetic-data-generator/blob/main/app.py
+			[4497] StaticText '1'
+			[4498] StaticText ' matches'
+		[3876] link '1 2 3 4 5 from synthetic_dataset_generator import launch\xa0 \xa0 if __name__ == "__main__":\xa0 launch()\xa0 \xa0' url: https://huggingface.co/spaces/argilla/synthetic-data-generator/blob/main/app.py
+		[3890] sectionheader 'argilla/distilabel-math-preference-dpo'
+			[3893] heading 'argilla / distilabel-math-preference-dpo'
+				[3894] link 'argilla' url: https://huggingface.co/argilla
+				[3896] link 'distilabel-math-preference-dpo' url: https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo
+			[3899] heading 'README.md'
+				[3900] link 'README.md' url: https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo/blob/main/README.md?code=true
+			[4518] StaticText '2'
+			[4519] StaticText ' matches'
+		[3909] link 'tags: task_categories:text-generation, language:en, license:apache-2.0, size_categories:1K<n<10K, format:parquet, modality:tabular, modality:text, library:datasets, library:pandas, library:mlcroissant, library:polars, library:distilabel, library:argilla, region:us, math, distilabel, synthetic, argilla' url: https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo/blob/main/README.md?code=true
+		[3913] link '39 40 41 # Dataset Card for "distilabel-math-preference-dpo"\xa0 \xa0 [More Information needed](https://github.com/huggingface/datasets/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)\xa0' url: https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo/blob/main/README.md?code=true
+		[3923] sectionheader 'argilla/ultrafeedback-binarized-preferences-cleaned'
+			[3926] heading 'argilla / ultrafeedback-binarized-preferences-cleaned'
+				[3927] link 'argilla' url: https://huggingface.co/argilla
+				[3929] link 'ultrafeedback-binarized-preferences-cleaned' url: https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned
+			[3932] heading 'README.md'
+				[3933] link 'README.md' url: https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned/blob/main/README.md?code=true
+			[4539] StaticText ' matches'
+		[3942] link 'tags: task_categories:text-generation, language:en, license:mit, size_categories:10K<n<100K, format:parquet, modality:tabular, modality:text, library:datasets, library:pandas, library:mlcroissant, library:polars, region:us, dpo, preference, ultrafeedback' url: https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned/blob/main/README.md?code=true
+		[3945] link "55 56 57 58 59 of [`argilla/ultrafeedback-binarized-preferences`](https://huggingface.co/argilla/ultrafeedback-binarized-preferences),\xa0 and is the **recommended and preferred dataset by Argilla to use from now on when fine-tuning on UltraFeedback**.\xa0 \xa0 Read more about Argilla's approach towards UltraFeedback binarization at [`argilla/ultrafeedback-binarized-preferences/README.md`](https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences/blob/main/README.md).\xa0 \xa0" url: https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned/blob/main/README.md?code=true#L55
+		[3965] sectionheader 'argilla/distilabel-intel-orca-dpo-pairs'
+			[3968] heading 'argilla / distilabel-intel-orca-dpo-pairs'
+				[3969] link 'argilla' url: https://huggingface.co/argilla
+				[3971] link 'distilabel-intel-orca-dpo-pairs' url: https://huggingface.co/datasets/argilla/distilabel-intel-orca-dpo-pairs
+			[3974] heading 'README.md'
+				[3975] link 'README.md' url: https://huggingface.co/datasets/argilla/distilabel-intel-orca-dpo-pairs/blob/main/README.md?code=true
+			[4575] StaticText ' matches'
+		[3984] link 'tags: task_categories:text-generation, task_categories:text2text-generation, language:en, license:apache-2.0, size_categories:10K<n<100K, format:parquet, modality:text, library:datasets, library:pandas, library:mlcroissant, library:polars, library:distilabel, region:us, rlaif, dpo, rlhf, distilabel, synthetic' url: https://huggingface.co/datasets/argilla/distilabel-intel-orca-dpo-pairs/blob/main/README.md?code=true
+		[3987] link '103 104 105 106 107 set("argilla/distilabel-intel-orca-dpo-pairs", split="train")\xa0 \xa0 dataset = dataset.filter(\xa0 lambda r: \xa0 r["status"] != "tie" and \xa0' url: https://huggingface.co/datasets/argilla/distilabel-intel-orca-dpo-pairs/blob/main/README.md?code=true#L103
+		[4002] sectionheader 'argilla/FinePersonas-v0.1'
+			[4005] heading 'argilla / FinePersonas-v0.1'
+				[4006] link 'argilla' url: https://huggingface.co/argilla
+				[4008] link 'FinePersonas-v0.1' url: https://huggingface.co/datasets/argilla/FinePersonas-v0.1
+			[4011] heading 'README.md'
+				[4012] link 'README.md' url: https://huggingface.co/datasets/argilla/FinePersonas-v0.1/blob/main/README.md?code=true
+			[4601] StaticText '13'
+			[4602] StaticText ' matches'
+		[4021] link 'tags: task_categories:text-generation, language:en, license:llama3, size_categories:10M<n<100M, format:parquet, modality:text, library:datasets, library:dask, library:mlcroissant, library:polars, library:distilabel, arxiv:2406.20094, region:us, synthetic, distilabel' url: https://huggingface.co/datasets/argilla/FinePersonas-v0.1/blob/main/README.md?code=true
+		[4024] link '264 265 266 267 268 sets/argilla/FinePersonas-v0.1-clustering-100k). This sample is faster to process and can be used to identify interesting clusters for your use case. \xa0 \xa0 For faster download:\xa0 \xa0 ```bash\xa0' url: https://huggingface.co/datasets/argilla/FinePersonas-v0.1/blob/main/README.md?code=true#L264
+		[4039] sectionheader 'argilla/llama-2-banking-preference'
+			[4042] heading 'argilla / llama-2-banking-preference'
+				[4043] link 'argilla' url: https://huggingface.co/argilla
+				[4045] link 'llama-2-banking-preference' url: https://huggingface.co/datasets/argilla/llama-2-banking-preference
+			[4048] heading 'README.md'
+				[4049] link 'README.md' url: https://huggingface.co/datasets/argilla/llama-2-banking-preference/blob/main/README.md?code=true
+			[4627] StaticText '20'
+			[4628] StaticText ' matches'
+		[4058] link 'tags: size_categories:1K<n<10K, format:parquet, modality:text, library:datasets, library:pandas, library:mlcroissant, library:polars, library:argilla, region:us, rlfh, argilla, human-feedback' url: https://huggingface.co/datasets/argilla/llama-2-banking-preference/blob/main/README.md?code=true

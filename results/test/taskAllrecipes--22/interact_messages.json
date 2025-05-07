@@ -2,5 +2,245 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Find a recipe for a healthy avocado salad on Allrecipes that has a preparation time of less than 20 minutes and more than 30 user reviews. Include the nutritional information per serving.  Please interact with https://www.allrecipes.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open Allrecipes search to look for avocado salad recipe. Click Search button.\nAction: Click [544]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search textbox (21) is focused, ready for input. Need to search for \"avocado salad\".\nAction: Type [21]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the search bar again; click the Search button 544.\nAction: Click [544]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search input textbox [21] is focused and ready. Enter search query \"avocado salad\".\nAction: Type [21]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to focus on the search textbox by clicking it before typing.\nAction: Click [21]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open search overlay by clicking search button 559, then we can type avocado salad.\nAction: Click [559]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to focus on the header search textbox (20) to enable typing.\nAction: Click [20]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Header search textbox [20] likely active; enter search query.\nAction: Type [20]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to activate search bar; click the search button [559] to open input.\nAction: Click [559]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Attempting to focus the open search bar’s textbox [21] so we can enter our query.\nAction: Click [21]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Try entering query into textbox element 21 inside the expanded search section.\nAction: Type [21]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: use Google search to locate healthy avocado salad on allrecipes site\nAction: Google"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Enter Google search query to find an avocado salad recipe on Allrecipes.\nAction: Type [1]; healthy avocado salad site:allrecipes.com"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: blocked by Google captcha, return to previous Allrecipes page.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to search Google for “allrecipes avocado salad” to find a suitable recipe link (hopefully avoiding captcha).  \nAction: Type [1]; allrecipes avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to return from blocked Google page back to Allrecipes site to continue search there. \nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Enter “allrecipes” into Google’s search box to open the site again, then navigate internally instead of relying on blocked Google recipe searches.  \nAction: Type [1]; allrecipes"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We’re still on Google’s “sorry” (captcha) page; need to go back to the earlier Allrecipes page in history.  \nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Try to visit Allrecipes homepage directly via Google (captcha may not trigger for simple navigation).\nAction: Type [1]; allrecipes"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I’m on Google’s “Sorry” (captcha) page again. I need to return to the earlier Allrecipes page where I can continue the search directly.  \nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reach Allrecipes site; perform a Google search for “allrecipes avocado salad” from the main page search box element [1].\nAction: Type [1]; allrecipes avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Google keeps showing CAPTCHA, making search impossible. I should return to the earlier Allrecipes page by stepping back in history.  \nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Continue stepping back once more to return from Google homepage to the earlier Allrecipes site.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To locate an avocado salad recipe, I should open the Allrecipes search bar.  \nAction: Click [506]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search textbox [8] is focused and ready; enter the query “avocado salad”.\nAction: Type [8]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the search bar again to access the textbox.  \nAction: Click [506]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search textbox [8] is focused and ready to receive input; enter our query “avocado salad”.  \nAction: Type [8]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation:note: The web element you're trying to type may not be a textbox, and its tag name is <div>, type is None. please analyze the accessibility tree and give the Thought and Action.\n[1] RootWebArea '15 Top-Rated Weeknight Casserole Recipes' focused: True url: https://www.allrecipes.com/top-rated-weeknight-casserole-recipes-8708962\n\t[458] button 'Main menu for Allrecipes'\n\t\t[462] image ''\n\t[478] link \"Visit Allrecipes' homepage\" url: https://www.allrecipes.com/\n\t\t[483] image ''\n\t[506] button 'Search'\n\t\t[508] image ''\n\t[587] link 'Log In' url: https://www.allrecipes.com/authentication/login?regSource=3675&relativeRedirectUrl=%2Ftop-rated-weeknight-casserole-recipes-8708962\n\t\t[589] image ''\n\t[713] link 'Trigger interstitial modal to log in to MyRecipes' url: javascript:void(0)\n\t\t[715] image ''\n\t[5354] Iframe 'Advertisement'\n\t[2223] main ''\n\t\t[2226] article ''\n\t\t\t[2229] heading '15 Top-Rated Weeknight Casserole Recipes'\n\t\t\t[2233] StaticText 'Grab your 9x13 pan.'\n\t\t\t[2242] StaticText 'By'\n\t\t\t[2248] link 'Noel Christmas' url: https://www.allrecipes.com/author/noel-christmas/\n\t\t\t[2277] StaticText 'Updated on April 22, 2025'\n\t\t\t[2298] figure ''\n\t\t\t\t[3] image 'Sloppy Joe Casserole' url: https://www.allrecipes.com/thmb/y23dPkM2vC96UiqRYx0RZ9marZM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/236925-sloppy-joe-casserole-ddmfs-3x4-2346-43dad92e00ff47a2bac0cad03ebffebf.jpg\n\t\t\t\t[2310] Figcaption ''\n\t\t\t\t\t[2313] StaticText 'Credit: '\n\t\t\t\t\t[2315] StaticText 'Dotdash Meredith Food Studios'\n\t\t\t[2321] StaticText 'The '\n\t\t\t[2322] link 'best casseroles' url: https://www.allrecipes.com/gallery/casseroles-youll-want-to-make-forever/\n\t\t\t[2328] heading 'SAVE TO MYRECIPES'\n\t\t\t[2333] StaticText 'Love any of these casseroles? Tap \"Save\" to keep them in '\n\t\t\t[2334] link 'MyRecipes' url: https://www.myrecipes.com/?utm_source=allrecipes&utm_medium=editorial\n\t\t\t[2336] StaticText ', your new and upgraded digital recipe box for Allrecipes.'\n\t\t\t[2346] StaticText '01'\n\t\t\t[2349] StaticText 'of 15'\n\t\t\t[2354] heading 'King Ranch Chicken Casserole'\n\t\t\t[2360] figure ''\n\t\t\t\t[2366] image 'looking down at a casserole dish of king ranch chicken casserole, garnished with fresh herbs, pepper slices and sour cream, next to a plate with lime wedges'\n\t\t\t[3498] Iframe 'Advertisement'\n\t\t\t[5862] Iframe 'Advertisement'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reopen the search bar overlay to access the input field again.  \nAction: Click [506]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[1] RootWebArea '15 Top-Rated Weeknight Casserole Recipes' focused: True url: https://www.allrecipes.com/top-rated-weeknight-casserole-recipes-8708962\n\t[458] button 'Main menu for Allrecipes'\n\t\t[467] image ''\n\t[478] link \"Visit Allrecipes' homepage\" url: https://www.allrecipes.com/\n\t\t[483] image ''\n\t[12] search ''\n\t\t[518] StaticText 'Search'\n\t\t[8] textbox 'Search' focused: True required: True\n\t\t[521] button 'Click to search'\n\t\t\t[523] image ''\n\t\t[529] button 'Close search bar'\n\t\t\t[531] image ''\n\t[734] button 'Close menu for Allrecipes'\n\t\t[736] image ''\n\t[744] link \"Visit Allrecipes' homepage\" url: https://www.allrecipes.com/\n\t\t[749] image ''\n\t[756] navigation 'Header'\n\t\t[6] search ''\n\t\t\t[764] StaticText 'Search'\n\t\t\t[7] textbox 'Search' required: True\n\t\t\t[767] button 'Click to search'\n\t\t\t\t[769] image ''\n\t\t[794] link 'DINNERS' expanded: False url: https://www.allrecipes.com/recipes/17562/dinner/\n\t\t\t[796] image ''\n\t\t[885] link 'MEALS' expanded: False url: https://www.allrecipes.com/recipes-a-z-6735880\n\t\t\t[887] image ''\n\t\t[982] link 'INGREDIENTS' expanded: False url: https://www.allrecipes.com/ingredients-a-z-6740416\n\t\t\t[984] image ''\n\t\t[1061] link 'OCCASIONS' expanded: False url: https://www.allrecipes.com/recipes/85/holidays-and-events/\n\t\t\t[1063] image ''\n\t\t[1122] link 'CUISINES' expanded: False url: https://www.allrecipes.com/cuisine-a-z-6740455\n\t\t\t[1124] image ''\n\t\t[1207] link 'KITCHEN TIPS' expanded: False url: https://www.allrecipes.com/kitchen-tips/\n\t\t\t[1209] image ''\n\t\t[1286] link 'NEWS' expanded: False url: https://www.allrecipes.com/food-news-trends/\n\t\t\t[1288] image ''\n\t\t[1353] link 'FEATURES' expanded: False url: https://www.allrecipes.com/recipes/1642/everyday-cooking/\n\t\t\t[1355] image ''\n\t\t[1402] link 'ABOUT US' expanded: False url: https://www.allrecipes.com/about-us-6648102\n\t\t\t[1404] image ''\n\t\t[1451] link 'GET THE MAGAZINE' url: https://www.magazines.com/allrecipes-magazine.html?utm_source=allrecipes.com&utm_medium=owned&utm_campaign=i111arr1w2661\n\t\t[1472] link 'Log In' url: https://www.allrecipes.com/authentication/login?regSource=3675&relativeRedirectUrl=%2Ftop-rated-weeknight-casserole-recipes-8708962\n\t\t\t[1474] image ''\n\t\t[1556] button 'Magazine'\n\t\t\t[1561] image ''\n\t\t[1613] button 'Newsletters'\n\t\t[1620] link 'Sweepstakes' url: https://www.allrecipes.com/sweepstakes\n\t\t[1626] link 'Trigger interstitial modal to log in to MyRecipes' url: javascript:void(0)\n\t\t\t[1628] image ''\n\t\t\t[1633] image ''\n\t\t[1645] StaticText 'Follow Us'\n\t\t[1651] link \"Visit Allrecipes's Facebook\" url: https://www.facebook.com/allrecipes\n\t\t\t[1653] image ''\n\t\t[1662] link \"Visit Allrecipes's Instagram\" url: https://www.instagram.com/allrecipes/\n\t\t\t[1664] image ''\n\t\t[1673] link \"Visit Allrecipes's Pinterest\" url: https://www.pinterest.com/allrecipes/\n\t\t\t[1675] image ''\n\t\t[1684] link \"Visit Allrecipes's TikTok\" url: https://www.tiktok.com/@allrecipes\n\t\t\t[1686] image ''\n\t\t[1695] link \"Visit Allrecipes's YouTube\" url: https://www.youtube.com/user/allrecipes/videos\n\t\t\t[1697] image ''\n\t\t[1706] link \"Visit Allrecipes's Flipboard\" url: https://flipboard.com/@Allrecipes\n\t\t\t[1708] image ''\n\t[5354] Iframe 'Advertisement'\n\t[2223] main ''\n\t\t[2226] article ''\n\t\t\t[2229] heading '15 Top-Rated Weeknight Casserole Recipes'\n\t\t\t[2233] StaticText 'Grab your 9x13 pan.'\n\t\t\t[2242] StaticText 'By'\n\t\t\t[2248] link 'Noel Christmas' url: https://www.allrecipes.com/author/noel-christmas/\n\t\t\t[2277] StaticText 'Updated on April 22, 2025'\n\t\t\t[2298] figure ''\n\t\t\t\t[3] image 'Sloppy Joe Casserole' url: https://www.allrecipes.com/thmb/y23dPkM2vC96UiqRYx0RZ9marZM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/236925-sloppy-joe-casserole-ddmfs-3x4-2346-43dad92e00ff47a2bac0cad03ebffebf.jpg\n\t\t\t\t[2310] Figcaption ''\n\t\t\t\t\t[2313] StaticText 'Credit: '\n\t\t\t\t\t[2315] StaticText 'Dotdash Meredith Food Studios'\n\t\t\t[2321] StaticText 'The '\n\t\t\t[2322] link 'best casseroles' url: https://www.allrecipes.com/gallery/casseroles-youll-want-to-make-forever/\n\t\t\t[2328] heading 'SAVE TO MYRECIPES'\n\t\t\t[2333] StaticText 'Love any of these casseroles? Tap \"Save\" to keep them in '\n\t\t\t[2334] link 'MyRecipes' url: https://www.myrecipes.com/?utm_source=allrecipes&utm_medium=editorial\n\t\t\t[2336] StaticText ', your new and upgraded digital recipe box for Allrecipes.'\n\t\t\t[2346] StaticText '01'\n\t\t\t[2349] StaticText 'of 15'\n\t\t\t[2354] heading 'King Ranch Chicken Casserole'\n\t\t\t[2360] figure ''\n\t\t\t\t[2366] image 'looking down at a casserole dish of king ranch chicken casserole, garnished with fresh herbs, pepper slices and sour cream, next to a plate with lime wedges'\n\t\t\t[3498] Iframe 'Advertisement'\n\t\t\t[5862] Iframe 'Advertisement'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search overlay is open, and the textbox element [8] is focused and ready for input. Enter the search query “avocado salad”.\nAction: Type [8]; avocado salad"
+  },
+  {
+    "role": "user",
+    "content": "Observation:note: The web element you're trying to type may not be a textbox, and its tag name is <div>, type is None. please analyze the accessibility tree and give the Thought and Action.\n[1] RootWebArea '15 Top-Rated Weeknight Casserole Recipes' focused: True url: https://www.allrecipes.com/top-rated-weeknight-casserole-recipes-8708962\n\t[458] button 'Main menu for Allrecipes'\n\t\t[462] image ''\n\t[478] link \"Visit Allrecipes' homepage\" url: https://www.allrecipes.com/\n\t\t[483] image ''\n\t[506] button 'Search'\n\t\t[508] image ''\n\t[587] link 'Log In' url: https://www.allrecipes.com/authentication/login?regSource=3675&relativeRedirectUrl=%2Ftop-rated-weeknight-casserole-recipes-8708962\n\t\t[589] image ''\n\t[713] link 'Trigger interstitial modal to log in to MyRecipes' url: javascript:void(0)\n\t\t[715] image ''\n\t[5354] Iframe 'Advertisement'\n\t[2223] main ''\n\t\t[2226] article ''\n\t\t\t[2229] heading '15 Top-Rated Weeknight Casserole Recipes'\n\t\t\t[2233] StaticText 'Grab your 9x13 pan.'\n\t\t\t[2242] StaticText 'By'\n\t\t\t[2248] link 'Noel Christmas' url: https://www.allrecipes.com/author/noel-christmas/\n\t\t\t[2277] StaticText 'Updated on April 22, 2025'\n\t\t\t[2298] figure ''\n\t\t\t\t[3] image 'Sloppy Joe Casserole' url: https://www.allrecipes.com/thmb/y23dPkM2vC96UiqRYx0RZ9marZM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/236925-sloppy-joe-casserole-ddmfs-3x4-2346-43dad92e00ff47a2bac0cad03ebffebf.jpg\n\t\t\t\t[2310] Figcaption ''\n\t\t\t\t\t[2313] StaticText 'Credit: '\n\t\t\t\t\t[2315] StaticText 'Dotdash Meredith Food Studios'\n\t\t\t[2321] StaticText 'The '\n\t\t\t[2322] link 'best casseroles' url: https://www.allrecipes.com/gallery/casseroles-youll-want-to-make-forever/\n\t\t\t[2328] heading 'SAVE TO MYRECIPES'\n\t\t\t[2333] StaticText 'Love any of these casseroles? Tap \"Save\" to keep them in '\n\t\t\t[2334] link 'MyRecipes' url: https://www.myrecipes.com/?utm_source=allrecipes&utm_medium=editorial\n\t\t\t[2336] StaticText ', your new and upgraded digital recipe box for Allrecipes.'\n\t\t\t[2346] StaticText '01'\n\t\t\t[2349] StaticText 'of 15'\n\t\t\t[2354] heading 'King Ranch Chicken Casserole'\n\t\t\t[2360] figure ''\n\t\t\t\t[2366] image 'looking down at a casserole dish of king ranch chicken casserole, garnished with fresh herbs, pepper slices and sour cream, next to a plate with lime wedges'\n\t\t\t[3498] Iframe 'Advertisement'\n\t\t\t[5862] Iframe 'Advertisement'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to re‑open the search overlay so the actual textbox appears.  \nAction: Click [506]"
   }
 ]

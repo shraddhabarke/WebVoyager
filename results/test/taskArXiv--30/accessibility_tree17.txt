@@ -1,0 +1,33 @@
+[3] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[65] link 'About' url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+	[67] link 'Store' url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+	[74] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[77] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[81] button 'Google apps' expanded: False
+		[83] image ''
+	[87] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+	[98] image ''
+	[2] search ''
+		[150] image ''
+		[1] combobox 'Search' autocomplete: both hasPopup: listbox required: False expanded: False
+		[180] button 'Search by voice'
+			[181] image ''
+		[185] button 'Search by image'
+			[186] image ''
+		[350] button 'Google Search'
+		[352] button "I'm Feeling Lucky"
+	[413] StaticText 'It’s almost Mother’s Day: '
+	[414] link 'Shop every store in one place for that perfect gift'
+	[445] contentinfo ''
+		[450] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[452] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[454] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[457] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[460] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[462] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[17] button 'Settings' hasPopup: menu expanded: False
+			[471] generic '' hasPopup: menu
+	[556] StaticText 'Sign in to Google'
+	[558] StaticText 'Get the most from your Google account'
+	[561] button 'Stay signed out'
+	[569] button 'Sign in'

@@ -1,0 +1,102 @@
+[1804] RootWebArea 'lserinol/bert-turkish-question-answering · Hugging Face' focused: True url: https://huggingface.co/lserinol/bert-turkish-question-answering
+	[2017] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1805] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1810] textbox 'Search models, datasets, users...' required: False
+	[2029] button ''
+	[2116] main ''
+		[2119] sectionheader ''
+			[2121] heading 'lserinol / bert-turkish-question-answering Copy model name to clipboard like 24'
+				[2128] link '' url: https://huggingface.co/lserinol
+				[2134] link 'lserinol' url: https://huggingface.co/lserinol
+				[2142] link 'bert-turkish-question-answering' url: https://huggingface.co/lserinol/bert-turkish-question-answering
+				[1813] button 'Copy model name to clipboard'
+				[2150] button 'like'
+				[2160] button '24'
+			[2170] link 'Question Answering' url: https://huggingface.co/models?pipeline_tag=question-answering
+				[2173] image ''
+			[2189] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[2212] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[2230] link 'JAX' url: https://huggingface.co/models?library=jax
+			[2285] link 'Turkish' url: https://huggingface.co/models?language=tr
+			[2300] link 'bert' url: https://huggingface.co/models?other=bert
+			[2322] link 'Model card' url: https://huggingface.co/lserinol/bert-turkish-question-answering
+			[2333] link 'Files' url: https://huggingface.co/lserinol/bert-turkish-question-answering/tree/main
+			[2347] link 'Community 2' url: https://huggingface.co/lserinol/bert-turkish-question-answering/discussions
+			[2364] button ''
+			[1816] button 'Train'
+			[2399] button 'Deploy'
+			[2420] button 'Use this model'
+		[2449] button ''
+		[2475] heading 'bert-turkish-question-answering'
+			[2477] link '' url: https://huggingface.co/lserinol/bert-turkish-question-answering#bert-turkish-question-answering
+		[2488] heading 'Usage'
+			[2490] link '' url: https://huggingface.co/lserinol/bert-turkish-question-answering#usage
+		[2503] code ''
+			[2507] StaticText 'from'
+			[2508] StaticText ' transformers '
+			[2510] StaticText 'import'
+			[2511] StaticText ' pipeline\nnlp = pipeline('
+			[2514] StaticText ', model='
+			[2517] StaticText ', tokenizer='
+			[2520] StaticText ')\nnlp({\n    '
+			[2523] StaticText ': '
+			[2525] StaticText '"Ankara\'da kaç ilçe vardır?"'
+			[2526] StaticText ',\n    '
+			[2530] StaticText 'r"""Türkiye\'nin başkenti Ankara\'dır. Ülkenin en büyük idari birimleri illerdir ve 81 il vardır. Bu iller ilçelere ayrılmıştır, toplamda 973 ilçe mevcuttur."""'
+			[2531] StaticText '\n})\n'
+		[2532] button ''
+		[2540] code ''
+			[2544] StaticText 'from'
+			[2545] StaticText ' transformers '
+			[2547] StaticText 'import'
+			[2548] StaticText ' AutoTokenizer, AutoModelForQuestionAnswering\n'
+			[2551] StaticText ' torch\n\ntokenizer = AutoTokenizer.from_pretrained('
+			[2553] StaticText '"lserinol/bert-turkish-question-answering"'
+			[2554] StaticText ')\nmodel = AutoModelForQuestionAnswering.from_pretrained('
+			[2557] StaticText ')\ntext = '
+			[2559] StaticText 'r"""'
+			[2568] StaticText 'kullanılmaktadır. Ekonomik etkinlik büyük oranda ticaret ve sanayiye dayalıdır. Tarım ve hayvancılığın ağırlığı ise giderek '
+			[2571] StaticText 'azalmaktadır. Ankara ve civarındaki gerek kamu sektörü gerek özel sektör yatırımları, başka illerden büyük bir nüfus göçünü '
+			[2574] StaticText 'teşvik etmiştir. Cumhuriyetin kuruluşundan günümüze, nüfusu ülke nüfusunun iki katı hızda artmıştır. Nüfusun yaklaşık dörtte '
+			[2577] StaticText 'üçü hizmet sektörü olarak tanımlanabilecek memuriyet, ulaşım, haberleşme ve ticaret benzeri işlerde, dörtte biri sanayide, '
+			[2586] StaticText 'ayrıca, üniversite diplomalı kişi oranı ülke ortalamasının iki katıdır. Bu eğitimli nüfus, teknoloji ağırlıklı yatırımların '
+			[2595] StaticText '"""'
+			[2596] StaticText '\n\nquestions = [\n    '
+			[2598] StaticText '"Ankara kaç yılında başkent oldu?"'
+			[2599] StaticText ',\n    '
+			[2601] StaticText '"Ankara ne zaman başkent oldu?"'
+			[2604] StaticText '"Ankara\'dan başka şehirlere nasıl ulaşılır?"'
+			[2607] StaticText '"TBMM neyin kısaltmasıdır?"'
+			[2608] StaticText '\n]\n\n'
+			[2610] StaticText 'for'
+			[2611] StaticText ' question '
+			[2613] StaticText 'in'
+			[2614] StaticText ' questions:\n    inputs = tokenizer(question, text, add_special_tokens='
+			[2616] StaticText 'True'
+			[2617] StaticText ', return_tensors='
+			[2619] StaticText '"pt"'
+			[2620] StaticText ')\n    input_ids = inputs['
+			[2622] StaticText '"input_ids"'
+			[2623] StaticText '].tolist()['
+			[2626] StaticText ']\n\n    text_tokens = tokenizer.convert_ids_to_tokens(input_ids)\n    answer_start_scores, answer_end_scores = model(**inputs)\n\n    answer_start = torch.argmax(\n        answer_start_scores\n    )  '
+			[2628] StaticText '# Get the most likely beginning of answer with the argmax of the score'
+			[2629] StaticText '\n    answer_end = torch.argmax(answer_end_scores) + '
+			[2631] StaticText '1'
+			[2634] StaticText '# Get the most likely end of answer with the argmax of the score'
+			[2635] StaticText '\n\n    answer = tokenizer.convert_tokens_to_string(tokenizer.convert_ids_to_tokens(input_ids[answer_start:answer_end]))\n\n    '
+		[2654] button ''
+		[2665] DescriptionList ''
+			[2666] term 'Downloads last month'
+			[2668] definition ''
+				[2669] StaticText '261'
+		[2674] image ''
+		[2703] StaticText 'Inference Providers'
+		[2714] link 'Question Answering' url: https://huggingface.co/tasks/question-answering
+			[2716] image ''
+		[2735] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=lserinol/bert-turkish-question-answering&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Blserinol%2Fbert-turkish-question-answering%5D(%2Flserinol%2Fbert-turkish-question-answering)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[2751] heading 'Model tree for lserinol/bert-turkish-question-answering'
+		[2771] image ''
+		[2775] StaticText 'Finetunes'
+		[2779] link '1 model' url: https://huggingface.co/models?other=base_model:finetune:lserinol/bert-turkish-question-answering
+		[2785] heading 'Space using lserinol/bert-turkish-question-answering 1'
+		[2801] link '💩 batufano/nlp-demo' url: https://huggingface.co/spaces/batufano/nlp-demo

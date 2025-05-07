@@ -1,0 +1,94 @@
+[6667] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=SimCSE&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2023-10&date-to_date=&date-date_type=announced_date_first&abstracts=show&size=50&order=-announced_date_first
+	[6792] StaticText 'Skip to main content'
+	[6800] link 'logo' url: https://cornell.edu/
+		[6668] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[6806] StaticText 'We gratefully acknowledge support from'
+	[6808] StaticText 'the Simons Foundation, '
+	[6809] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[6811] StaticText ', and all contributors. '
+	[6812] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[6824] link 'arxiv-logo' url: https://arxiv.org/
+		[6669] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[6689] textbox 'Search term or terms' required: False
+	[6839] link 'Help' url: https://info.arxiv.org/help
+	[6841] StaticText ' | '
+	[6842] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[6690] combobox 'Field to search' hasPopup: menu expanded: False
+	[6902] button 'Search'
+	[6913] navigation 'User menu'
+		[6915] link 'Login' url: https://arxiv.org/login
+	[6671] main ''
+		[6926] heading 'Showing 1–2 of 2 results'
+		[6935] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[6937] StaticText '\xa0\xa0'
+		[6948] StaticText 'Query: '
+		[6949] link 'order: -announced_date_first; size: 50; date_range: from 2023-10-01 ; include_cross_list: True; terms: AND title=SimCSE' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=SimCSE&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2023-10&date-to_date=&date-date_type=announced_date_first&abstracts=show&size=50&order=-announced_date_first
+		[6673] link 'Refine query' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=SimCSE&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2023-10&date-to_date=&date-date_type=announced_date_first&abstracts=show&size=50&order=-announced_date_first
+		[6674] link 'New search' url: https://arxiv.org/search/advanced
+		[6961] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+		[6679] combobox 'results per page' hasPopup: menu expanded: False
+		[7209] StaticText 'Sort results by'
+		[6682] combobox 'Sort results by' hasPopup: menu expanded: False
+		[6684] button 'Go'
+		[7237] ListMarker '1. '
+		[7242] link 'arXiv:2501.13758' url: https://arxiv.org/abs/2501.13758
+		[7246] StaticText '\xa0['
+		[7247] link 'pdf' url: https://arxiv.org/pdf/2501.13758
+		[7249] StaticText ', '
+		[7250] link 'other' url: https://arxiv.org/format/2501.13758
+		[7252] StaticText ']\xa0'
+		[7257] StaticText 'cs.CL'
+		[7259] StaticText 'cs.AI'
+		[7261] StaticText 'cs.LG'
+		[7266] StaticText '2-Tier '
+		[7268] StaticText 'SimCSE'
+		[7269] StaticText ': Elevating BERT for Robust Sentence Embeddings'
+		[7274] StaticText 'Authors:'
+		[7276] link 'Yumeng Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+Y
+		[7278] StaticText ', '
+		[7279] link 'Ziran Zhou' url: https://arxiv.org/search/?searchtype=author&query=Zhou%2C+Z
+		[7282] link 'Junjin Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+J
+		[7288] StaticText 'Abstract'
+		[7291] StaticText 'Effective sentence embeddings that capture semantic nuances and generalize well across diverse contexts are crucial for natural language processing tasks. We address this challenge by applying SimCSE (Simple Contrastive Learning of Sentence Embeddings) using contrastive learning to fine-tune the minBERT model for sentiment analysis, semantic textual similarity (STS), and paraphrase detection. Our… '
+		[7292] link '▽ More'
+		[7305] StaticText 'Submitted'
+		[7306] StaticText ' 23 January, 2025; '
+		[7308] StaticText 'originally announced'
+		[7309] StaticText ' January 2025.'
+		[7313] ListMarker '2. '
+		[7318] link 'arXiv:2310.19349' url: https://arxiv.org/abs/2310.19349
+		[7322] StaticText '\xa0['
+		[7323] link 'pdf' url: https://arxiv.org/pdf/2310.19349
+		[7325] StaticText ', '
+		[7326] link 'other' url: https://arxiv.org/format/2310.19349
+		[7328] StaticText ']\xa0'
+		[7334] StaticText 'cs.CL'
+		[7339] StaticText 'Japanese '
+		[7341] StaticText 'SimCSE'
+		[7342] StaticText ' Technical Report'
+		[7347] StaticText 'Authors:'
+		[7349] link 'Hayato Tsukagoshi' url: https://arxiv.org/search/?searchtype=author&query=Tsukagoshi%2C+H
+		[7351] StaticText ', '
+		[7352] link 'Ryohei Sasano' url: https://arxiv.org/search/?searchtype=author&query=Sasano%2C+R
+		[7355] link 'Koichi Takeda' url: https://arxiv.org/search/?searchtype=author&query=Takeda%2C+K
+		[7362] StaticText 'Abstract'
+		[7365] StaticText 'We report the development of Japanese SimCSE, Japanese sentence embedding models fine-tuned with SimCSE. Since there is a lack of sentence embedding models for Japanese that can be used as a baseline in sentence embedding research, we conducted extensive experiments on Japanese sentence embeddings involving 24 pre-trained Japanese or multilingual language models, five supervised datasets, and four… '
+		[7366] link '▽ More'
+		[7379] StaticText 'Submitted'
+		[7380] StaticText ' 30 October, 2023; '
+		[7382] StaticText 'originally announced'
+		[7383] StaticText ' October 2023.'
+	[7399] contentinfo ''
+		[7401] navigation 'Secondary'
+			[7414] link 'About' url: https://info.arxiv.org/about
+			[7418] link 'Help' url: https://info.arxiv.org/help
+			[7436] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[7449] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[7470] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[7474] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[7484] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[7491] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[7496] StaticText 'Get status notifications via '
+			[7497] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[7501] StaticText ' or '
+			[7502] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

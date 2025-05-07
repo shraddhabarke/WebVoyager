@@ -1,0 +1,87 @@
+[21317] RootWebArea 'nerijs/pixel-art-xl · Hugging Face' focused: True url: https://huggingface.co/nerijs/pixel-art-xl
+	[21526] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[21318] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[21323] textbox 'Search models, datasets, users...' required: False
+	[21538] button ''
+	[21625] main ''
+		[21628] sectionheader ''
+			[21630] heading 'nerijs / pixel-art-xl Copy model name to clipboard like 514'
+				[21637] link '' url: https://huggingface.co/nerijs
+				[21643] link 'nerijs' url: https://huggingface.co/nerijs
+				[21651] link 'pixel-art-xl' url: https://huggingface.co/nerijs/pixel-art-xl
+				[21654] button 'Copy model name to clipboard'
+				[21664] button 'like'
+				[21674] button '514'
+			[21684] link 'Text-to-Image' url: https://huggingface.co/models?pipeline_tag=text-to-image
+			[21702] link 'Diffusers' url: https://huggingface.co/models?library=diffusers
+				[21704] image ''
+			[21727] link 'stable-diffusion' url: https://huggingface.co/models?other=stable-diffusion
+			[21737] link 'lora' url: https://huggingface.co/models?other=lora
+			[21750] button 'License: creativeml-openrail-m'
+				[21752] image ''
+			[21782] link 'Model card' url: https://huggingface.co/nerijs/pixel-art-xl
+			[21793] link 'Files' url: https://huggingface.co/nerijs/pixel-art-xl/tree/main
+			[21807] link 'Community 22' url: https://huggingface.co/nerijs/pixel-art-xl/discussions
+			[21824] button ''
+			[21325] button 'Deploy'
+			[21865] button 'Use this model'
+		[21894] button ''
+		[21928] heading 'Pixel Art XL'
+			[21930] link '' url: https://huggingface.co/nerijs/pixel-art-xl#pixel-art-xl
+		[21941] heading 'Consider supporting further research on Patreon or Twitter'
+			[21943] link '' url: https://huggingface.co/nerijs/pixel-art-xl#consider-supporting-further-research-on-patreon-or-twitter
+			[21952] link 'Patreon' url: https://www.patreon.com/user?u=29466374
+			[21955] link 'Twitter' url: https://twitter.com/nerijs
+		[21961] link 'F1hS8XHXwAQrMEW.jpeg' url: https://cdn-uploads.huggingface.co/production/uploads/6303f37c3926de1f7ec42d3e/SSOQ9lfB1PVhXVWJiL7Mx.jpeg
+			[21320] image 'F1hS8XHXwAQrMEW.jpeg' url: https://cdn-uploads.huggingface.co/production/uploads/6303f37c3926de1f7ec42d3e/SSOQ9lfB1PVhXVWJiL7Mx.jpeg
+		[21963] link 'F1hS489X0AE-PK5.jpeg' url: https://cdn-uploads.huggingface.co/production/uploads/6303f37c3926de1f7ec42d3e/tY19J3xWDlSY2hhTTHySc.jpeg
+			[21964] image 'F1hS489X0AE-PK5.jpeg' url: https://cdn-uploads.huggingface.co/production/uploads/6303f37c3926de1f7ec42d3e/tY19J3xWDlSY2hhTTHySc.jpeg
+		[21967] StaticText 'Downscale 8 times to get pixel perfect images (use Nearest Neighbors) Use a fixed VAE to avoid artifacts (0.9 or fp16 fix)'
+		[21969] heading 'Need more performance?'
+			[21971] link '' url: https://huggingface.co/nerijs/pixel-art-xl#need-more-performance
+		[21983] StaticText 'Use it with a LCM Lora!'
+		[21986] StaticText 'Use 8 steps and guidance scale of 1.5 1.2 Lora strength for the Pixel Art XL works better'
+		[21990] code ''
+			[21994] StaticText 'from'
+			[21995] StaticText ' diffusers '
+			[21997] StaticText 'import'
+			[21998] StaticText ' DiffusionPipeline, LCMScheduler\n'
+			[22001] StaticText ' torch\n\nmodel_id = '
+			[22003] StaticText '"stabilityai/stable-diffusion-xl-base-1.0"'
+		[22068] button ''
+		[22126] DescriptionList ''
+			[22127] term 'Downloads last month'
+			[22129] definition ''
+				[22130] StaticText '5,890'
+		[22135] image ''
+		[22173] StaticText 'Inference Providers'
+		[22184] button 'Select an Inference Provider'
+		[22199] link 'Text-to-Image' url: https://huggingface.co/tasks/text-to-image
+		[22217] StaticText 'Examples'
+		[21322] textbox 'Your sentence here...' required: True
+		[22234] button 'Compute'
+		[22247] button 'View Code'
+		[22259] button 'Maximize'
+		[22277] heading 'Model tree for nerijs/pixel-art-xl'
+		[22294] StaticText 'Base model'
+		[22298] link 'stabilityai/stable-diffusion-xl-base-1.0' url: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
+		[22304] image ''
+		[22315] StaticText 'Adapter'
+		[22318] StaticText '('
+		[22319] link '6607' url: https://huggingface.co/models?other=base_model:adapter:stabilityai/stable-diffusion-xl-base-1.0
+		[22321] StaticText ')'
+		[22326] StaticText 'this model'
+		[22332] heading 'Spaces using nerijs/pixel-art-xl 100'
+		[22348] link '🔎 🖼️ multimodalart/LoraTheExplorer' url: https://huggingface.co/spaces/multimodalart/LoraTheExplorer
+		[22355] link '👨\u200d🎤 multimodalart/face-to-all' url: https://huggingface.co/spaces/multimodalart/face-to-all
+		[22362] link '♨️♨️♨️ Nymbo/Serverless-ImgGen-Hub' url: https://huggingface.co/spaces/Nymbo/Serverless-ImgGen-Hub
+		[22369] link '🚀 NeurixYUFI/imggen' url: https://huggingface.co/spaces/NeurixYUFI/imggen
+		[22376] link '📚 ymzhang319/FoleyCrafter' url: https://huggingface.co/spaces/ymzhang319/FoleyCrafter
+		[22383] link '🌍 fantaxy/playground25' url: https://huggingface.co/spaces/fantaxy/playground25
+		[22390] link '🐋 Nymbo/image_gen_supaqueue' url: https://huggingface.co/spaces/Nymbo/image_gen_supaqueue
+		[22397] link '🪅🌐 Yntec/ToyWorldXL' url: https://huggingface.co/spaces/Yntec/ToyWorldXL
+		[22404] link '👩\u200d🎨👨\u200d🎨 Yntec/blitz_diffusion' url: https://huggingface.co/spaces/Yntec/blitz_diffusion
+		[22411] link '♨️♨️♨️ Novaciano/Flux_Lustly_AI_Uncensored_NSFW_V1' url: https://huggingface.co/spaces/Novaciano/Flux_Lustly_AI_Uncensored_NSFW_V1
+		[22418] link '🌠 PeepDaSlan9/B2BMGMT_Text-to-Image' url: https://huggingface.co/spaces/PeepDaSlan9/B2BMGMT_Text-to-Image
+		[22425] link '🐨 Meltedmindz/nerijs-pixel-art-xl' url: https://huggingface.co/spaces/Meltedmindz/nerijs-pixel-art-xl
+		[22438] button '+ 88 Spaces'

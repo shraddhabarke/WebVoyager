@@ -1,0 +1,6 @@
+[1] RootWebArea 'Google Flights - Find Cheap Flight Options & Track Prices' focused: True url: https://www.google.com/travel/flights/
+	[537] search 'Flight'
+		[574] listbox 'Select your ticket type.' multiselectable: False orientation: vertical required: False
+			[576] option 'Round trip' focused: True selected: True
+			[586] option 'One way' selected: False
+			[596] option 'Multi-city' selected: False

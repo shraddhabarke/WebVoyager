@@ -1,0 +1,140 @@
+[9312] RootWebArea 'junnyu/roformer_chinese_base · Hugging Face' focused: True url: https://huggingface.co/junnyu/roformer_chinese_base
+	[9517] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[9313] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[9315] textbox 'Search models, datasets, users...' required: False
+	[9529] button ''
+	[9616] main ''
+		[9619] sectionheader ''
+			[9621] heading 'junnyu / roformer_chinese_base Copy model name to clipboard like 14'
+				[9628] link '' url: https://huggingface.co/junnyu
+				[9634] link 'junnyu' url: https://huggingface.co/junnyu
+				[9642] link 'roformer_chinese_base' url: https://huggingface.co/junnyu/roformer_chinese_base
+				[9645] button 'Copy model name to clipboard'
+				[9655] button 'like'
+				[9665] button '14'
+			[9675] link 'paddlenlp' url: https://huggingface.co/models?library=paddlenlp
+			[9686] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[9704] link 'TensorFlow' url: https://huggingface.co/models?library=tf
+			[9734] link 'JAX' url: https://huggingface.co/models?library=jax
+			[9787] link 'PaddlePaddle' url: https://huggingface.co/models?library=paddlepaddle
+			[9803] link 'Chinese' url: https://huggingface.co/models?language=zh
+			[9818] link 'roformer' url: https://huggingface.co/models?other=roformer
+			[9828] link 'tf2.0' url: https://huggingface.co/models?other=tf2.0
+			[9841] button 'arxiv: 2104.09864'
+			[9875] link 'Model card' url: https://huggingface.co/junnyu/roformer_chinese_base
+			[9886] link 'Files' url: https://huggingface.co/junnyu/roformer_chinese_base/tree/main
+			[9900] link 'Community 1' url: https://huggingface.co/junnyu/roformer_chinese_base/discussions
+			[9917] button ''
+			[9318] button 'Use this model'
+		[9966] button ''
+		[10016] heading '介绍'
+			[10018] link '' url: https://huggingface.co/junnyu/roformer_chinese_base#%E4%BB%8B%E7%BB%8D
+		[10029] heading 'tf版本'
+			[10031] link '' url: https://huggingface.co/junnyu/roformer_chinese_base#tf%E7%89%88%E6%9C%AC
+		[10043] link 'https://github.com/ZhuiyiTechnology/roformer' url: https://github.com/ZhuiyiTechnology/roformer
+		[10046] heading 'pytorch版本+tf2.0版本'
+			[10048] link '' url: https://huggingface.co/junnyu/roformer_chinese_base#pytorch%E7%89%88%E6%9C%ACtf20%E7%89%88%E6%9C%AC
+		[10059] link 'https://github.com/JunnYu/RoFormer_pytorch' url: https://github.com/JunnYu/RoFormer_pytorch
+		[10062] heading 'pytorch使用'
+			[10064] link '' url: https://huggingface.co/junnyu/roformer_chinese_base#pytorch%E4%BD%BF%E7%94%A8
+		[10077] code ''
+			[10081] StaticText 'import'
+			[10082] StaticText ' torch\n'
+			[10084] StaticText 'from'
+			[10085] StaticText ' transformers '
+			[10087] StaticText 'import'
+			[10088] StaticText ' RoFormerForMaskedLM, RoFormerTokenizer\n\ntext = '
+			[10090] StaticText '"今天[MASK]很好，我想去公园玩！"'
+			[10091] StaticText '\ntokenizer = RoFormerTokenizer.from_pretrained('
+			[10093] StaticText '"junnyu/roformer_chinese_base"'
+			[10094] StaticText ')\npt_model = RoFormerForMaskedLM.from_pretrained('
+			[10097] StaticText ')\npt_inputs = tokenizer(text, return_tensors='
+			[10099] StaticText '"pt"'
+			[10102] StaticText 'with'
+			[10103] StaticText ' torch.no_grad():\n    pt_outputs = pt_model(**pt_inputs).logits['
+			[10106] StaticText ']\npt_outputs_sentence = '
+			[10108] StaticText '"pytorch: "'
+			[10111] StaticText 'for'
+			[10112] StaticText ' i, '
+			[10114] StaticText 'id'
+			[10117] StaticText 'in'
+			[10120] StaticText 'enumerate'
+			[10121] StaticText '(tokenizer.encode(text)):\n    '
+			[10123] StaticText 'if'
+			[10126] StaticText 'id'
+			[10127] StaticText ' == tokenizer.mask_token_id:\n        tokens = tokenizer.convert_ids_to_tokens(pt_outputs[i].topk(k='
+			[10129] StaticText '5'
+			[10130] StaticText ')['
+			[10133] StaticText '])\n        pt_outputs_sentence += '
+			[10135] StaticText '"["'
+			[10136] StaticText ' + '
+			[10138] StaticText '"||"'
+			[10139] StaticText '.join(tokens) + '
+			[10141] StaticText '"]"'
+			[10142] StaticText '\n    '
+			[10144] StaticText 'else'
+			[10145] StaticText ':\n        pt_outputs_sentence += '
+			[10147] StaticText '""'
+			[10148] StaticText '.join(\n            tokenizer.convert_ids_to_tokens(['
+			[10151] StaticText '], skip_special_tokens='
+			[10153] StaticText 'True'
+			[10154] StaticText '))\n'
+			[10156] StaticText 'print'
+			[10157] StaticText '(pt_outputs_sentence)\n'
+			[10159] StaticText '# pytorch: 今天[天气||天||阳光||太阳||空气]很好，我想去公园玩！'
+		[10161] button ''
+		[10167] heading 'tensorflow2.0使用'
+			[10169] link '' url: https://huggingface.co/junnyu/roformer_chinese_base#tensorflow20%E4%BD%BF%E7%94%A8
+		[10182] code ''
+			[10186] StaticText 'import'
+			[10187] StaticText ' tensorflow '
+			[10189] StaticText 'as'
+			[10190] StaticText ' tf\n'
+			[10192] StaticText 'from'
+			[10193] StaticText ' transformers '
+			[10195] StaticText 'import'
+			[10196] StaticText ' RoFormerTokenizer, TFRoFormerForMaskedLM\ntext = '
+			[10198] StaticText '"今天[MASK]很好，我想去公园玩！"'
+			[10199] StaticText '\ntokenizer = RoFormerTokenizer.from_pretrained('
+			[10201] StaticText '"junnyu/roformer_chinese_base"'
+			[10202] StaticText ')\ntf_model = TFRoFormerForMaskedLM.from_pretrained('
+			[10205] StaticText ')\ntf_inputs = tokenizer(text, return_tensors='
+			[10207] StaticText '"tf"'
+			[10208] StaticText ')\ntf_outputs = tf_model(**tf_inputs, training='
+			[10210] StaticText 'False'
+			[10211] StaticText ').logits['
+			[10214] StaticText ']\ntf_outputs_sentence = '
+			[10216] StaticText '"tf2.0: "'
+			[10219] StaticText 'for'
+			[10220] StaticText ' i, '
+			[10222] StaticText 'id'
+			[10225] StaticText 'in'
+			[10228] StaticText 'enumerate'
+			[10229] StaticText '(tokenizer.encode(text)):\n    '
+			[10231] StaticText 'if'
+			[10234] StaticText 'id'
+			[10235] StaticText ' == tokenizer.mask_token_id:\n        tokens = tokenizer.convert_ids_to_tokens(\n            tf.math.top_k(tf_outputs[i], k='
+			[10238] StaticText ')['
+			[10241] StaticText '])\n        tf_outputs_sentence += '
+			[10243] StaticText '"["'
+			[10244] StaticText ' + '
+			[10246] StaticText '"||"'
+			[10247] StaticText '.join(tokens) + '
+			[10249] StaticText '"]"'
+			[10250] StaticText '\n    '
+			[10252] StaticText 'else'
+			[10253] StaticText ':\n        tf_outputs_sentence += '
+			[10255] StaticText '""'
+			[10256] StaticText '.join(\n            tokenizer.convert_ids_to_tokens(['
+		[10269] button ''
+		[10308] DescriptionList ''
+			[10309] term 'Downloads last month'
+			[10311] definition ''
+				[10312] StaticText '13'
+		[10317] image ''
+		[10347] StaticText 'Inference Providers'
+		[10367] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=junnyu/roformer_chinese_base&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bjunnyu%2Froformer_chinese_base%5D(%2Fjunnyu%2Froformer_chinese_base)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[10381] heading 'Model tree for junnyu/roformer_chinese_base'
+		[10402] image ''
+		[10406] StaticText 'Finetunes'
+		[10410] link '3 models' url: https://huggingface.co/models?other=base_model:finetune:junnyu/roformer_chinese_base

@@ -1,0 +1,143 @@
+[5227] RootWebArea '[2011.05864] On the Sentence Embeddings from Pre-trained Language Models' focused: True url: https://arxiv.org/abs/2011.05864
+	[5345] StaticText 'Skip to main content'
+	[5353] link 'Cornell University' url: https://www.cornell.edu/
+		[5228] image 'Cornell University' url: https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg
+	[5360] StaticText 'We gratefully acknowledge support from the Simons Foundation, '
+	[5361] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[5363] StaticText ', and all contributors.'
+	[5365] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[5376] link 'arxiv logo' url: https://arxiv.org/
+		[5229] image 'arxiv logo' url: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+	[5379] StaticText '>'
+	[5381] link 'cs' url: https://arxiv.org/list/cs/recent
+	[5386] StaticText 'arXiv:2011.05864'
+	[5201] textbox 'Search term or terms' required: False
+	[5397] link 'Help' url: https://info.arxiv.org/help
+	[5399] StaticText ' | '
+	[5400] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[5202] combobox 'Field to search' hasPopup: menu expanded: False
+	[5460] button 'Search'
+	[5548] main ''
+		[5559] heading 'Computer Science > Computation and Language'
+		[5575] StaticText '[Submitted on 2 Nov 2020]'
+		[5577] heading 'On the Sentence Embeddings from Pre-trained Language Models'
+		[5585] link 'Bohan Li' url: https://arxiv.org/search/cs?searchtype=author&query=Li,+B
+		[5587] StaticText ', '
+		[5588] link 'Hao Zhou' url: https://arxiv.org/search/cs?searchtype=author&query=Zhou,+H
+		[5591] link 'Junxian He' url: https://arxiv.org/search/cs?searchtype=author&query=He,+J
+		[5594] link 'Mingxuan Wang' url: https://arxiv.org/search/cs?searchtype=author&query=Wang,+M
+		[5596] StaticText ', '
+		[5597] link 'Yiming Yang' url: https://arxiv.org/search/cs?searchtype=author&query=Yang,+Y
+		[5600] link 'Lei Li' url: https://arxiv.org/search/cs?searchtype=author&query=Li,+L
+		[5230] blockquote ''
+			[5612] StaticText 'Pre-trained contextual representations like BERT have achieved great success in natural language processing. However, the sentence embeddings from the pre-trained language models without fine-tuning have been found to poorly capture semantic meaning of sentences. In this paper, we argue that the semantic information in the BERT embeddings is not fully exploited. We first reveal the theoretical connection between the masked language model pre-training objective and the semantic similarity task theoretically, and then analyze the BERT sentence embeddings empirically. We find that BERT always induces a non-smooth anisotropic semantic space of sentences, which harms its performance of semantic similarity. To address this issue, we propose to transform the anisotropic sentence embedding distribution to a smooth and isotropic Gaussian distribution through normalizing flows that are learned with an unsupervised objective. Experimental results show that our proposed BERT-flow method obtains significant performance gains over the state-of-the-art sentence embeddings on a variety of semantic textual similarity tasks. The code is available at '
+			[5613] link 'this https URL' url: https://github.com/bohanli/BERT-flow
+		[5620] table 'Additional metadata'
+			[5623] row ''
+				[5625] cell 'Comments:'
+				[5628] cell 'EMNLP 2020'
+			[5632] row ''
+				[5634] cell 'Subjects:'
+				[5637] cell 'Computation and Language (cs.CL); Machine Learning (cs.LG)'
+			[5643] row ''
+				[5645] cell 'Cite as:'
+				[5648] cell 'arXiv:2011.05864 [cs.CL]'
+					[5650] link 'arXiv:2011.05864' url: https://arxiv.org/abs/2011.05864
+			[5655] row ''
+				[5657] cell '\xa0'
+				[5660] cell '(or arXiv:2011.05864v1 [cs.CL] for this version)'
+					[5664] link 'arXiv:2011.05864v1' url: https://arxiv.org/abs/2011.05864v1
+			[5670] row ''
+				[5672] cell '\xa0'
+				[5675] cell 'https://doi.org/10.48550/arXiv.2011.05864 Focus to learn more'
+					[5677] link 'https://doi.org/10.48550/arXiv.2011.05864' url: https://doi.org/10.48550/arXiv.2011.05864
+					[5681] button 'Focus to learn more' describedby: more-info-desc-1
+		[5705] heading 'Submission history'
+		[5707] StaticText 'From: Bohan Li ['
+		[5708] link 'view email' url: https://arxiv.org/show-email/19f6d104/2011.05864
+		[5714] StaticText '[v1]'
+		[5715] StaticText ' Mon, 2 Nov 2020 13:14:57 UTC (122 KB)'
+		[5731] heading 'Access Paper:'
+		[5739] link 'View PDF' describedby: download-button-info url: https://arxiv.org/pdf/2011.05864 keyshortcuts: Alt+f
+		[5742] link 'TeX Source' url: https://arxiv.org/src/2011.05864
+		[5745] link 'Other Formats' url: https://arxiv.org/format/2011.05864
+		[5749] link 'view license' url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+		[5756] StaticText 'Current browse context:'
+		[5758] StaticText 'cs.CL'
+		[5764] link '<\xa0prev' url: https://arxiv.org/prevnext?id=2011.05864&function=prev&context=cs.CL keyshortcuts: Alt+p
+		[5769] StaticText '\xa0 | \xa0'
+		[5773] link 'next\xa0>' url: https://arxiv.org/prevnext?id=2011.05864&function=next&context=cs.CL keyshortcuts: Alt+n
+		[5780] link 'new' url: https://arxiv.org/list/cs.CL/new
+		[5786] link 'recent' url: https://arxiv.org/list/cs.CL/recent
+		[5790] StaticText '| '
+		[5791] link '2020-11' url: https://arxiv.org/list/cs.CL/2020-11
+		[5795] StaticText 'Change to browse by:'
+		[5798] link 'cs' url: https://arxiv.org/abs/2011.05864?context=cs
+		[5802] link 'cs.LG' url: https://arxiv.org/abs/2011.05864?context=cs.LG
+		[5811] heading 'References & Citations'
+		[5817] link 'NASA ADS' url: https://ui.adsabs.harvard.edu/abs/arXiv:2011.05864
+		[5820] link 'Google Scholar' url: https://scholar.google.com/scholar_lookup?arxiv_id=2011.05864
+		[5824] link 'Semantic Scholar' url: https://api.semanticscholar.org/arXiv:2011.05864
+		[5833] heading 'DBLP - CS Bibliography'
+			[5834] link 'DBLP' url: https://dblp.uni-trier.de/
+		[5840] link 'listing' url: https://dblp.uni-trier.de/db/journals/corr/corr2011.html#abs-2011-05864
+		[5842] StaticText ' | '
+		[5843] link 'bibtex' url: https://dblp.uni-trier.de/rec/bibtex/journals/corr/abs-2011-05864
+		[5849] link 'Bohan Li' url: https://dblp.uni-trier.de/search/author?author=Bohan%20Li
+		[5852] link 'Hao Zhou' url: https://dblp.uni-trier.de/search/author?author=Hao%20Zhou
+		[5855] link 'Junxian He' url: https://dblp.uni-trier.de/search/author?author=Junxian%20He
+		[5858] link 'Mingxuan Wang' url: https://dblp.uni-trier.de/search/author?author=Mingxuan%20Wang
+		[5861] link 'Yiming Yang' url: https://dblp.uni-trier.de/search/author?author=Yiming%20Yang
+		[5865] StaticText '…'
+		[5874] StaticText 'Export BibTeX Citation'
+		[5910] heading 'Bookmark'
+		[5912] link 'BibSonomy logo' url: http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2011.05864&description=On%20the%20Sentence%20Embeddings%20from%20Pre-trained%20Language%20Models
+			[5914] image 'BibSonomy logo' url: https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png
+		[5917] link 'Reddit logo' url: https://reddit.com/submit?url=https://arxiv.org/abs/2011.05864&title=On%20the%20Sentence%20Embeddings%20from%20Pre-trained%20Language%20Models
+			[5919] image 'Reddit logo' url: https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png
+		[5933] StaticText 'Bibliographic Tools'
+		[5937] heading 'Bibliographic and Citation Tools'
+		[5953] StaticText 'Bibliographic Explorer Toggle'
+		[5962] emphasis ''
+			[5963] StaticText '('
+			[5964] link 'What is the Explorer?' url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+			[5966] StaticText ')'
+		[5981] StaticText 'Connected Papers Toggle'
+		[5990] emphasis ''
+			[5991] StaticText '('
+			[5992] link 'What is Connected Papers?' url: https://www.connectedpapers.com/about
+			[5994] StaticText ')'
+		[6008] StaticText 'Litmaps Toggle'
+		[6017] emphasis ''
+			[6018] StaticText '('
+			[6019] link 'What is Litmaps?' url: https://www.litmaps.co/
+			[6021] StaticText ')'
+		[6036] StaticText 'scite.ai Toggle'
+		[6043] StaticText 'scite Smart Citations'
+		[6045] emphasis ''
+			[6046] StaticText '('
+			[6047] link 'What are Smart Citations?' url: https://www.scite.ai/
+			[6049] StaticText ')'
+		[6065] StaticText 'Code, Data, Media'
+		[6283] StaticText 'Demos'
+		[6383] StaticText 'Related Papers'
+		[6492] StaticText 'About arXivLabs'
+		[6538] link 'Which authors of this paper are endorsers?' url: https://arxiv.org/auth/show-endorsers/2011.05864
+		[6540] StaticText ' | '
+		[6541] link 'Disable MathJax' url: javascript:setMathjaxCookie()
+		[6543] StaticText ' ('
+		[6544] link 'What is MathJax?' url: https://info.arxiv.org/help/mathjax.html
+	[6556] contentinfo ''
+		[6558] navigation 'Secondary'
+			[6571] link 'About' url: https://info.arxiv.org/about
+			[6575] link 'Help' url: https://info.arxiv.org/help
+			[6593] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[6606] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[6627] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[6631] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[6641] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[6648] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[6653] StaticText 'Get status notifications via '
+			[6654] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[6658] StaticText ' or '
+			[6659] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

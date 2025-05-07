@@ -1,0 +1,102 @@
+[1] RootWebArea 'The Metropolitan Museum of Art to Times Square, Manhattan, NY 10036 - Google Maps' focused: True url: https://www.google.com/maps/dir/The+Metropolitan+Museum+of+Art,+1000+5th+Ave,+New+York,+NY+10028/Times+Square,+Manhattan,+NY+10036/@40.7687363,-73.9944854,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89c25896f660c26f:0x3b2fa4f4b6c6a1fa!2m2!1d-73.963244!2d40.7794366!1m5!1m1!1s0x89c25855c6480299:0x55194ec5a1ae072e!2m2!1d-73.9855426!2d40.7579747?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[48] Canvas ''
+		[937] radiogroup '' required: False
+			[940] radio 'Best travel modes' checked: true
+				[941] image 'Best travel modes'
+			[950] radio 'Driving 14 min' checked: false
+				[951] image 'Driving'
+			[960] radio 'Transit 22 min' checked: false
+				[961] image 'Transit'
+			[970] radio 'Walking 42 min' checked: false
+				[971] image 'Walking'
+			[980] radio 'Cycling 12 min' checked: false
+				[981] image 'Cycling'
+			[990] radio 'Flights not available' disabled: True checked: false
+				[991] image 'Flights not available'
+		[999] button 'Close directions'
+		[1028] combobox '' hasPopup: grid required: False expanded: False
+			[1021] textbox 'Starting point The Metropolitan Museum of Art, 1000 5th Ave, New York, NY 10028' autocomplete: list required: False
+		[1022] button 'Search'
+		[1052] combobox '' hasPopup: grid required: False expanded: False
+			[1045] textbox 'Destination Times Square, Manhattan, NY 10036' autocomplete: list required: False
+		[1046] button 'Search'
+		[1004] button 'Reverse starting point and destination'
+		[1006] button 'Add destination'
+		[2029] region 'Available options for search along this route' roledescription: carousel
+			[2038] button 'Add stops along route'
+				[2130] StaticText 'Search along the route'
+			[2044] button 'Add gas stations along route'
+				[2132] StaticText 'Gas'
+			[2051] button 'Add electric vehicle charging stations along route'
+				[2134] StaticText 'EV charging'
+			[2058] button 'Add hotels along route'
+				[2136] StaticText 'Hotels'
+			[2137] button 'Next page'
+		[16] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1846] button 'Times Square 14 min'
+		[1627] button '2 places New York'
+			[1635] generic '2 places'
+		[501] button 'Get the app'
+		[1146] main 'Directions'
+			[1831] button 'Departure options' hasPopup: menu expanded: False
+				[1827] option 'Leave now' selected: True
+				[1837] StaticText '\xa0'
+			[1814] button 'Options' focused: True expanded: False
+			[1874] button 'Send directions to your phone'
+			[1879] button 'Copy link'
+			[1883] link 'Driving 14 min 2.1 miles via 5th Ave and 7th Ave Fastest route, despite the usual traffic Warning This route has tolls. Details'
+				[1885] image 'Driving'
+					[2088] StaticText '\ue531'
+				[1893] heading 'via 5th Ave and 7th Ave'
+				[2083] StaticText 'Fastest route, despite the usual traffic'
+				[1904] image 'Warning'
+					[2084] StaticText '\ue002'
+				[1905] heading 'This route has tolls.'
+				[1907] button 'Details'
+			[1912] button 'Driving 15 min 2.1 miles via 5th Ave Heavy traffic, as usual'
+				[1914] image 'Driving'
+					[2094] StaticText '\ue531'
+				[1922] heading 'via 5th Ave'
+				[2093] StaticText 'Heavy traffic, as usual'
+			[1930] button 'Transit 22 min Warning 10:35\u202fAM—10:57\u202fAM Bus M4 , or M1 , or M3 , then N Line , or R Line'
+				[1932] image 'Transit'
+					[2107] StaticText '\ue535'
+				[1937] heading 'Warning 10:35\u202fAM—10:57\u202fAM'
+					[1939] image 'Warning'
+						[2096] StaticText '\ue002'
+				[1944] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2101] StaticText 'M4'
+				[2102] StaticText 'M1'
+				[2103] StaticText 'M3'
+				[1975] image ', then'
+					[2104] StaticText '\ue315'
+				[1978] image 'N Line' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-ny-mta/N.svg
+				[1989] image 'R Line' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-ny-mta/R.svg
+			[1997] heading 'Explore Times Square'
+			[2002] button 'Restaurants'
+			[2007] button 'Hotels'
+			[2012] button 'Gas stations'
+			[2017] button 'Parking Lots'
+			[2022] button 'More'
+		[1187] button 'Collapse side panel'
+		[19] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[647] button 'Zoom out'
+		[661] button 'Show Street View coverage'
+		[703] generic 'Interactive map'
+		[741] StaticText 'Layers'
+		[756] button 'Layers' expanded: False
+		[860] contentinfo ''
+			[862] StaticText 'Map data ©2025 Google'
+			[863] button 'United States'
+			[865] button 'Terms'
+			[867] button 'Privacy'
+			[869] button 'Send Product Feedback'
+		[872] button '2000 ft'

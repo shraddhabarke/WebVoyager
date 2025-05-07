@@ -1,0 +1,166 @@
+[6206] RootWebArea 'Booking.com: Hotels in Amsterdam. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Amsterdam&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-2140479&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=38325b461aa5076a&ac_meta=GhAzODMyNWI0NjFhYTUwNzZhIAAoATICZW46CUFtc3RlcmRhbUAASgBQAA%3D%3D&group_adults=2&no_rooms=1&group_children=0
+	[7008] tabpanel 'Calendar'
+		[7021] grid '' multiselectable: False
+			[7155] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[7156] gridcell '27 April 2025' required: False
+					[7157] checkbox '27 April 2025' checked: false
+				[7160] gridcell '28 April 2025' required: False
+					[7161] checkbox '28 April 2025' checked: false
+				[7164] gridcell '29 April 2025' required: False
+					[7165] checkbox '29 April 2025' checked: false
+				[7168] gridcell '30 April 2025' required: False
+					[6333] checkbox '30 April 2025' checked: false
+		[7178] grid '' multiselectable: False
+			[7331] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[7332] gridcell '25 May 2025' required: False
+					[7333] checkbox '25 May 2025' checked: false
+				[7337] gridcell '26 May 2025' required: False
+					[7338] checkbox '26 May 2025' checked: false
+				[7342] gridcell '27 May 2025' required: False
+					[7343] checkbox '27 May 2025' checked: false
+				[7347] gridcell '28 May 2025' required: False
+					[7348] checkbox '28 May 2025' checked: false
+				[7352] gridcell '29 May 2025' required: False
+					[7353] checkbox '29 May 2025' checked: false
+				[7357] gridcell '30 May 2025' required: False
+					[7358] checkbox '30 May 2025' checked: false
+				[7362] gridcell '31 May 2025' required: False
+					[7363] checkbox '31 May 2025' checked: false
+		[7369] group ''
+			[7371] region '' roledescription: carousel
+				[6327] group '' roledescription: slide
+					[6336] checkbox 'Exact dates' checked: true
+				[6328] group '' roledescription: slide
+					[6337] checkbox '1 day' checked: false
+				[6329] group '' roledescription: slide
+					[6338] checkbox '2 days' checked: false
+				[6330] group '' roledescription: slide
+					[6339] checkbox '3 days' checked: false
+				[6331] group '' roledescription: slide
+					[6340] checkbox '7 days' checked: false
+	[7505] region 'Filters'
+		[7513] group 'Popular filters'
+			[6343] checkbox 'Amsterdam City Center: 570 properties' checked: false
+			[6344] checkbox 'Red Light District: 40 properties' checked: false
+			[6345] checkbox 'Bed and Breakfasts: 292 properties' checked: false
+			[6346] checkbox 'Wonderful: 9+: 366 properties' checked: false
+			[7617] StaticText 'Based on guest reviews'
+			[6347] checkbox 'Pet friendly: 160 properties' checked: false
+			[6348] checkbox 'Parking: 581 properties' checked: false
+		[7661] StaticText 'Smart filters'
+		[7669] StaticText 'What are you looking for?'
+		[6349] textbox 'What are you looking for?' required: False
+		[7677] button 'Find properties'
+		[7686] group 'Amenities'
+			[6350] checkbox 'Parking: 581 properties' checked: false
+			[6351] checkbox 'Restaurant: 168 properties' checked: false
+			[6352] checkbox 'Pet friendly: 160 properties' checked: false
+			[6353] checkbox 'Room service: 135 properties' checked: false
+			[6354] checkbox '24-hour front desk: 412 properties' checked: false
+			[7771] button 'Show all 15' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7783] group 'Property Type'
+			[6355] checkbox 'Hotels: 473 properties' checked: false
+			[6356] checkbox 'Bed and Breakfasts: 292 properties' checked: false
+			[6357] checkbox 'Apartments: 234 properties' checked: false
+			[6358] checkbox 'Homestays: 52 properties' checked: false
+			[6359] checkbox 'Guesthouses: 42 properties' checked: false
+			[6360] checkbox 'Boats: 40 properties' checked: false
+			[6361] checkbox 'Hostels: 38 properties' checked: false
+			[6362] checkbox 'Vacation Homes: 9 properties' checked: false
+			[6363] checkbox 'Campgrounds: 3 properties' checked: false
+			[6364] checkbox 'Villas: 2 properties' checked: false
+			[6365] checkbox 'Luxury tents: 2 properties' checked: false
+			[6366] checkbox 'Capsule Hotels: 1 property' checked: false
+			[6367] checkbox 'Chalets: 1 property' checked: false
+		[8000] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6368] checkbox '1 star: 22 properties' checked: false
+			[6369] checkbox '2 stars: 54 properties' checked: false
+			[6370] checkbox '3 stars: 528 properties' checked: false
+			[6371] checkbox '4 stars: 255 properties' checked: false
+			[6372] checkbox '5 stars: 31 properties' checked: false
+		[8104] group 'Room amenities'
+			[6373] checkbox 'Private bathroom: 1023 properties' checked: false
+			[6374] checkbox 'Sea view: 5 properties' checked: false
+			[6375] checkbox 'Balcony: 198 properties' checked: false
+			[6376] checkbox 'Private pool: 2 properties' checked: false
+			[6377] checkbox 'Air conditioning: 432 properties' checked: false
+			[8189] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r2u:
+		[8200] group 'Review score'
+			[6378] checkbox 'Wonderful: 9+: 366 properties' checked: false
+			[6379] checkbox 'Very Good: 8+: 807 properties' checked: false
+			[6380] checkbox 'Good: 7+: 1026 properties' checked: false
+	[9544] listitem 'Property'
+		[9606] StaticText 'The Ruby Emma Hotel Amsterdam is located alongside the Amstel river in Amsterdam. This hotel combines luxury, technology and sustainability in a living building shaped by nature.'
+	[9633] listitem 'Property'
+		[9644] button 'Save this item to a trip list' expanded: False
+		[9657] heading 'citizenM Amsterdam South Opens in new window'
+			[9658] link 'citizenM Amsterdam South Opens in new window' url: https://www.booking.com/hotel/nl/citizenm-amsterdam-city.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017983&from=searchresults
+		[9664] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9665] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9666] image ''
+		[9670] link 'Zuideramstel, Amsterdam· Show on map' url: https://www.booking.com/hotel/nl/citizenm-amsterdam-city.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017983&from=searchresults&map=1
+		[9680] button '2.3 miles from downtown'
+		[9685] button 'Subway Access'
+		[9688] StaticText 'This unique hotel offers modern rooms with mood lighting, free Wi-Fi and a flat-screen TV with free on-demand films.'
+		[9692] link 'Scored 8.7 Excellent 5,774 reviews' url: https://www.booking.com/hotel/nl/citizenm-amsterdam-city.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017983&from=searchresults
+		[9707] button 'Show prices'
+	[9716] listitem 'Property'
+		[9727] button 'Save this item to a trip list' expanded: False
+		[9740] heading 'Inntel Hotels Amsterdam Landmark Opens in new window'
+			[9741] link 'Inntel Hotels Amsterdam Landmark Opens in new window' url: https://www.booking.com/hotel/nl/inntel-hotels-amsterdam-landmark.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9747] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9748] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9749] image ''
+		[9753] link 'Amsterdam City Center, Amsterdam· Show on map' url: https://www.booking.com/hotel/nl/inntel-hotels-amsterdam-landmark.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults&map=1
+		[9763] button '1.5 miles from downtown'
+		[9766] StaticText 'Featuring a fitness center, a terrace as well as a bar, Inntel Hotels Amsterdam Landmark is located in the center of Amsterdam, 1.1 miles from Artis Zoo.'
+		[9770] link 'Scored 8.2 Very Good 12,442 reviews' url: https://www.booking.com/hotel/nl/inntel-hotels-amsterdam-landmark.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9785] button 'Show prices'
+	[9792] listitem 'Property'
+		[9803] button 'Save this item to a trip list' expanded: False
+		[9816] heading 'Via Amsterdam Opens in new window'
+			[9817] link 'Via Amsterdam Opens in new window' url: https://www.booking.com/hotel/nl/via-amsterdam.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9823] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9824] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9825] image ''
+		[9829] link 'Bijlmermeer, Amsterdam· Show on map' url: https://www.booking.com/hotel/nl/via-amsterdam.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults&map=1
+		[9839] button '4.1 miles from downtown'
+		[9844] button 'Subway Access'
+		[9847] StaticText 'Located 10 minutes by metro from the city center, Via Amsterdam is a design-led hybrid hostel and hotel with street art and urban design featured throughout the building.The property located in the...'
+		[9851] link 'Scored 8.0 Very Good 17,207 reviews' url: https://www.booking.com/hotel/nl/via-amsterdam.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9866] button 'Show prices'
+	[9874] listitem 'Property'
+		[9885] button 'Save this item to a trip list' expanded: False
+		[9898] heading 'Joy Hotel Opens in new window'
+			[9899] link 'Joy Hotel Opens in new window' url: https://www.booking.com/hotel/nl/joy.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9905] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9906] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9907] image ''
+		[9911] link 'Zuidoost, Amsterdam· Show on map' url: https://www.booking.com/hotel/nl/joy.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults&map=1
+		[9921] button '5.3 miles from downtown'
+		[9926] button 'Subway Access'
+		[9929] StaticText 'Offering free WiFi , Joy Hotel is located in Amsterdam, 0.7 mi from Johan Cruijff Arena. 5.6 mi from Amsterdam RAI, the property is also 6.2 mi away from Heineken Experience.'
+		[9933] link 'Scored 7.6 Good 8,997 reviews' url: https://www.booking.com/hotel/nl/joy.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9948] button 'Show prices'
+	[9955] listitem 'Property'
+		[9966] button 'Save this item to a trip list' expanded: False
+		[9979] heading 'ClinkNOORD Hostel Opens in new window'
+			[9980] link 'ClinkNOORD Hostel Opens in new window' url: https://www.booking.com/hotel/nl/clinknoord.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[9986] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9987] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9988] image ''
+		[9992] link 'Amsterdam Noord, Amsterdam· Show on map' url: https://www.booking.com/hotel/nl/clinknoord.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults&map=1
+		[10002] button '0.9 miles from downtown'
+		[10005] StaticText 'ClinkNOORD is located in Noord area, just across the IJ River and within 10 minutes from the back of Amsterdam Centraal Station. The ferry ride is free and available 24/7.'
+		[10009] link 'Scored 8.0 Very Good 17,658 reviews' url: https://www.booking.com/hotel/nl/clinknoord.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[10024] button 'Show prices'
+	[10033] listitem 'Property'
+		[10044] button 'Save this item to a trip list' expanded: False
+		[10057] heading 'Hotel Estheréa Opens in new window'
+			[10058] link 'Hotel Estheréa Opens in new window' url: https://www.booking.com/hotel/nl/estherea.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[10064] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10065] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10066] image ''
+		[10070] link 'Amsterdam City Center, Amsterdam (Oude Centrum)· Show on map' url: https://www.booking.com/hotel/nl/estherea.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults&map=1
+		[10092] link 'Scored 9.2 Wonderful 4,668 reviews' url: https://www.booking.com/hotel/nl/estherea.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults
+		[10106] link 'Location: Scored 9.8 ' url: https://www.booking.com/hotel/nl/estherea.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKNvcjABsACAdICJDIxZmZkN2NkLWIwMjItNDZiMC1iNWVlLTk5NmEwMWI0NTc2ZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2140479&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=b72a5b5f4e1902c9&srepoch=1746017984&from=searchresults

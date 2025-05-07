@@ -1,0 +1,117 @@
+[10526] RootWebArea 'nari-labs/Dia-1.6B · Hugging Face' focused: True url: https://huggingface.co/nari-labs/Dia-1.6B
+	[10746] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[10527] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[10524] textbox 'Search models, datasets, users...' required: False
+	[10758] button ''
+	[10845] main ''
+		[10848] sectionheader ''
+			[10850] heading 'nari-labs / Dia-1.6B Copy model name to clipboard like 1.76k Follow Nari Labs 864'
+				[10857] link '' url: https://huggingface.co/nari-labs
+				[10863] link 'nari-labs' url: https://huggingface.co/nari-labs
+				[10871] link 'Dia-1.6B' url: https://huggingface.co/nari-labs/Dia-1.6B
+				[10874] button 'Copy model name to clipboard'
+				[10884] button 'like'
+				[10894] button '1.76k'
+				[10530] button 'Follow Nari Labs'
+				[10909] button '864'
+			[10917] link 'Text-to-Speech' url: https://huggingface.co/models?pipeline_tag=text-to-speech
+			[10933] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[10949] link 'English' url: https://huggingface.co/models?language=en
+			[10964] link 'model_hub_mixin' url: https://huggingface.co/models?other=model_hub_mixin
+			[10974] link 'pytorch_model_hub_mixin' url: https://huggingface.co/models?other=pytorch_model_hub_mixin
+			[10987] button 'arxiv: 2305.09636'
+			[11012] button 'License: apache-2.0'
+				[11014] image ''
+			[11044] link 'Model card' url: https://huggingface.co/nari-labs/Dia-1.6B
+			[11055] link 'Files' url: https://huggingface.co/nari-labs/Dia-1.6B/tree/main
+			[11069] link 'Community 39' url: https://huggingface.co/nari-labs/Dia-1.6B/discussions
+			[11086] button ''
+			[11106] button 'Deploy'
+		[11147] button ''
+		[11223] link '' url: https://github.com/nari-labs/dia
+			[10534] image '' url: https://github.com/nari-labs/dia/raw/main/dia/static/images/banner.png
+		[11228] StaticText 'Dia is a 1.6B parameter text to speech model created by Nari Labs. It was pushed to the Hub using the '
+		[11229] link 'PytorchModelHubMixin' url: https://huggingface.co/docs/huggingface_hub/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin
+		[11231] StaticText ' integration.'
+		[11235] StaticText 'directly generates highly realistic dialogue from a transcript'
+		[11236] StaticText '. You can condition the output on audio, enabling emotion and tone control. The model can also produce nonverbal communications like laughter, coughing, clearing throat, etc.'
+		[11239] StaticText 'To accelerate research, we are providing access to pretrained model checkpoints and inference code. The model weights are hosted on '
+		[11240] link 'Hugging Face' url: https://huggingface.co/nari-labs/Dia-1.6B
+		[11242] StaticText '. The model only supports English generation at the moment.'
+		[11245] StaticText 'We also provide a '
+		[11246] link 'demo page' url: https://yummy-fir-7a4.notion.site/dia
+		[11248] StaticText ' comparing our model to '
+		[11249] link 'ElevenLabs Studio' url: https://elevenlabs.io/studio
+		[11251] StaticText ' and '
+		[11252] link 'Sesame CSM-1B' url: https://github.com/SesameAILabs/csm
+		[11259] ListMarker '• '
+		[11260] StaticText '(Update) We have a ZeroGPU Space running! Try it now '
+		[11261] link 'here' url: https://huggingface.co/spaces/nari-labs/Dia-1.6B
+		[11263] StaticText '. Thanks to the HF team for the support :)'
+		[11266] ListMarker '• '
+		[11267] StaticText 'Join our '
+		[11268] link 'discord server' url: https://discord.gg/yBrqQ9Dd
+		[11270] StaticText ' for community support and access to new features.'
+		[11273] ListMarker '• '
+		[11274] StaticText 'Play with a larger version of Dia: generate fun conversations, remix content, and share with friends. 🔮 Join the '
+		[11275] link 'waitlist' url: https://tally.so/r/meokbo
+		[11277] StaticText ' for early access.'
+		[11280] heading '⚡️ Quickstart'
+			[11282] link '' url: https://huggingface.co/nari-labs/Dia-1.6B#%E2%9A%A1%EF%B8%8F-quickstart
+		[11294] StaticText 'This will open a Gradio UI that you can work on.'
+		[11298] code ''
+			[11301] StaticText 'git '
+			[11303] StaticText 'clone'
+			[11304] StaticText ' https://github.com/nari-labs/dia.git\n'
+			[11306] StaticText 'cd'
+			[11307] StaticText ' dia && uv run app.py\n'
+		[11308] button ''
+		[11315] StaticText 'or if you do not have '
+		[11316] code ''
+			[11319] StaticText 'uv'
+		[11320] StaticText ' pre-installed:'
+		[11683] DescriptionList ''
+			[11684] term 'Downloads last month'
+			[11686] definition ''
+				[11687] StaticText '108,113'
+		[11692] image ''
+		[11718] StaticText 'Safetensors'
+		[11719] link '' url: https://huggingface.co/docs/safetensors
+		[11728] StaticText 'Model size'
+		[11731] StaticText '1.61B'
+		[11732] StaticText ' params'
+		[11736] StaticText 'Tensor type'
+		[11739] StaticText 'F32'
+		[11746] button 'Files info'
+		[11776] StaticText 'Inference Providers'
+		[11787] button 'Select an Inference Provider'
+		[11802] link 'Text-to-Speech' url: https://huggingface.co/tasks/text-to-speech
+		[11818] StaticText 'Examples'
+		[11828] textbox '' required: False
+		[11835] button 'Compute'
+		[11847] button 'View Code'
+		[11859] button 'Maximize'
+		[11875] heading 'Model tree for nari-labs/Dia-1.6B'
+		[11896] image ''
+		[11900] StaticText 'Adapters'
+		[11904] link '3 models' url: https://huggingface.co/models?other=base_model:adapter:nari-labs/Dia-1.6B
+		[11911] image ''
+		[11915] StaticText 'Finetunes'
+		[11919] link '8 models' url: https://huggingface.co/models?other=base_model:finetune:nari-labs/Dia-1.6B
+		[11926] image ''
+		[11930] StaticText 'Quantizations'
+		[11934] link '3 models' url: https://huggingface.co/models?other=base_model:quantized:nari-labs/Dia-1.6B
+		[11940] heading 'Spaces using nari-labs/Dia-1.6B 100'
+		[11956] link 'nari-labs/Dia-1.6B' url: https://huggingface.co/spaces/nari-labs/Dia-1.6B
+		[11964] link '🏆 TTS-AGI/TTS-Arena-V2' url: https://huggingface.co/spaces/TTS-AGI/TTS-Arena-V2
+		[11971] link '🚀 mrfakename/dia-1.6b' url: https://huggingface.co/spaces/mrfakename/dia-1.6b
+		[11978] link '👯 abidlabs/Dia-1.6B' url: https://huggingface.co/spaces/abidlabs/Dia-1.6B
+		[11985] link '👯 Fizzarolli/Dia-1.6B' url: https://huggingface.co/spaces/Fizzarolli/Dia-1.6B
+		[11992] link '🐢 m-ric/open-notebooklm' url: https://huggingface.co/spaces/m-ric/open-notebooklm
+		[11999] link '👯 Nymbo/Dia-1.6B' url: https://huggingface.co/spaces/Nymbo/Dia-1.6B
+		[12006] link '🏆 manfromexistence-reacts/nari-labs-Dia-1.6B' url: https://huggingface.co/spaces/manfromexistence-reacts/nari-labs-Dia-1.6B
+		[12013] link '👯 Gyaneshere/Transcript-to-Speech' url: https://huggingface.co/spaces/Gyaneshere/Transcript-to-Speech
+		[12020] link '👯 freddyaboulton/Dia-1.6B' url: https://huggingface.co/spaces/freddyaboulton/Dia-1.6B
+		[12027] link '👀 duccimane/nari-labs-Dia-1.6B' url: https://huggingface.co/spaces/duccimane/nari-labs-Dia-1.6B
+		[12034] link '🚀 DroolingPanda/teachingAssistant' url: https://huggingface.co/spaces/DroolingPanda/teachingAssistant
+		[12047] button '+ 88 Spaces'

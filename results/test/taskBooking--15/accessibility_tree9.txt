@@ -1,0 +1,167 @@
+[6207] RootWebArea 'Booking.com: Hotels in Rome. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Rome&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-126693&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=706e51978287124c&ac_meta=GhA3MDZlNTE5NzgyODcxMjRjIAAoATICZW46BFJvbWVAAEoAUAA%3D&group_adults=2&no_rooms=1&group_children=0
+	[6923] tabpanel 'Calendar'
+		[6925] generic 'Next month April 2025 May 2025' focused: True
+			[6936] grid '' multiselectable: False
+				[7070] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+					[7071] gridcell '27 April 2025' required: False
+						[7072] checkbox '27 April 2025' checked: false
+					[7075] gridcell '28 April 2025' required: False
+						[7076] checkbox '28 April 2025' checked: false
+					[7079] gridcell '29 April 2025' required: False
+						[7080] checkbox '29 April 2025' checked: false
+					[7083] gridcell '30 April 2025' required: False
+						[6338] checkbox '30 April 2025' checked: false
+			[7093] grid '' multiselectable: False
+				[7246] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+					[7247] gridcell '25 May 2025' required: False
+						[7248] checkbox '25 May 2025' checked: false
+					[7252] gridcell '26 May 2025' required: False
+						[7253] checkbox '26 May 2025' checked: false
+					[7257] gridcell '27 May 2025' required: False
+						[7258] checkbox '27 May 2025' checked: false
+					[7262] gridcell '28 May 2025' required: False
+						[7263] checkbox '28 May 2025' checked: false
+					[7267] gridcell '29 May 2025' required: False
+						[7268] checkbox '29 May 2025' checked: false
+					[7272] gridcell '30 May 2025' required: False
+						[7273] checkbox '30 May 2025' checked: false
+					[7277] gridcell '31 May 2025' required: False
+						[7278] checkbox '31 May 2025' checked: false
+		[7284] group ''
+			[7286] region '' roledescription: carousel
+				[6332] group '' roledescription: slide
+					[6341] checkbox 'Exact dates' checked: true
+				[6333] group '' roledescription: slide
+					[6342] checkbox '1 day' checked: false
+				[6334] group '' roledescription: slide
+					[6343] checkbox '2 days' checked: false
+				[6335] group '' roledescription: slide
+					[6344] checkbox '3 days' checked: false
+				[6336] group '' roledescription: slide
+					[6345] checkbox '7 days' checked: false
+	[7420] region 'Filters'
+		[7428] group 'Popular filters'
+			[6348] checkbox 'Hotels: 995 properties' checked: false
+			[6349] checkbox 'Air conditioning: 17504 properties' checked: false
+			[6350] checkbox 'Free Wifi: 18112 properties' checked: false
+			[6351] checkbox 'Guesthouses: 2713 properties' checked: false
+			[6352] checkbox '5 stars: 69 properties' checked: false
+			[6353] checkbox 'Bed and Breakfasts: 1236 properties' checked: false
+		[7576] StaticText 'Smart filters'
+		[7584] StaticText 'What are you looking for?'
+		[6354] textbox 'What are you looking for?' required: False
+		[7592] button 'Find properties'
+		[7601] group 'Amenities'
+			[6355] checkbox 'Parking: 5558 properties' checked: false
+			[6356] checkbox 'Restaurant: 507 properties' checked: false
+			[6357] checkbox 'Pet friendly: 4731 properties' checked: false
+			[6358] checkbox 'Room service: 990 properties' checked: false
+			[6359] checkbox '24-hour front desk: 1374 properties' checked: false
+			[7686] button 'Show all 13' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7698] group 'Property Type'
+			[6360] checkbox 'Apartments: 12908 properties' checked: false
+			[6361] checkbox 'Guesthouses: 2713 properties' checked: false
+			[6362] checkbox 'Bed and Breakfasts: 1236 properties' checked: false
+			[6363] checkbox 'Hotels: 995 properties' checked: false
+			[6364] checkbox 'Vacation Homes: 679 properties' checked: false
+			[6365] checkbox 'Homestays: 168 properties' checked: false
+			[6366] checkbox 'Hostels: 47 properties' checked: false
+			[6367] checkbox 'Villas: 40 properties' checked: false
+			[6368] checkbox 'Resorts: 3 properties' checked: false
+			[6369] checkbox 'Lodges: 2 properties' checked: false
+			[6370] checkbox 'Student accommodations: 2 properties' checked: false
+			[6371] checkbox 'Farm Stays: 1 property' checked: false
+			[6372] checkbox 'Resort Villages: 1 property' checked: false
+			[6373] checkbox 'Campgrounds: 1 property' checked: false
+			[6374] checkbox 'Country Houses: 1 property' checked: false
+			[6375] checkbox 'Love Hotels: 1 property' checked: false
+			[6376] checkbox 'Chalets: 1 property' checked: false
+			[6377] checkbox 'Economy hotels: 1 property' checked: false
+		[7995] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6378] checkbox '1 star: 38 properties' checked: false
+			[6379] checkbox '2 stars: 154 properties' checked: false
+			[6380] checkbox '3 stars: 6617 properties' checked: false
+			[6381] checkbox '4 stars: 8952 properties' checked: false
+			[6382] checkbox '5 stars: 69 properties' checked: false
+		[8099] group 'Room amenities'
+			[6383] checkbox 'Sea view: 5 properties' checked: false
+			[6384] checkbox 'Private bathroom: 16996 properties' checked: false
+			[6385] checkbox 'Balcony: 6751 properties' checked: false
+			[6386] checkbox 'Air conditioning: 17504 properties' checked: false
+			[6387] checkbox 'View: 8074 properties' checked: false
+			[8184] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r38:
+	[9574] listitem 'Property'
+	[9660] listitem 'Property'
+		[9671] button 'Save this item to a trip list' expanded: False
+		[9684] heading 'Nikis Collection Navona Opens in new window'
+			[9685] link 'Nikis Collection Navona Opens in new window' url: https://www.booking.com/hotel/it/nikis-collection-navona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9691] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9692] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9693] image ''
+		[9697] link 'Pantheon, Rome· Show on map' url: https://www.booking.com/hotel/it/nikis-collection-navona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults&map=1
+		[9707] button '0.4 miles from downtown'
+		[9714] link 'Scored 8.7 Excellent 1,342 reviews' url: https://www.booking.com/hotel/it/nikis-collection-navona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9728] link 'Location: Scored 9.6 ' url: https://www.booking.com/hotel/it/nikis-collection-navona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9736] button 'Show prices'
+	[9745] listitem 'Property'
+		[9756] button 'Save this item to a trip list' expanded: False
+		[9769] heading 'ELICAL Exclusive Private Suites Opens in new window'
+			[9770] link 'ELICAL Exclusive Private Suites Opens in new window' url: https://www.booking.com/hotel/it/elical-exclusive-private-suites.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9776] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9777] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9778] image ''
+		[9782] link 'Spagna, Rome· Show on map' url: https://www.booking.com/hotel/it/elical-exclusive-private-suites.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults&map=1
+		[9792] button '0.4 miles from downtown'
+		[9795] StaticText 'ELICAL Exclusive Private Suites is a guest house featuring rooms with free Wifi and air conditioning in the center of Rome.'
+		[9799] link 'Scored 9.4 Wonderful 1,041 reviews' url: https://www.booking.com/hotel/it/elical-exclusive-private-suites.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9813] link 'Location: Scored 9.8 ' url: https://www.booking.com/hotel/it/elical-exclusive-private-suites.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9821] button 'Show prices'
+	[9830] listitem 'Property'
+		[9841] button 'Save this item to a trip list' expanded: False
+		[9854] heading 'SM Vatican Relais B&B Opens in new window'
+			[9855] link 'SM Vatican Relais B&B Opens in new window' url: https://www.booking.com/hotel/it/sm-vatican-relais.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9861] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9862] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9863] image ''
+		[9867] link 'Vaticano Prati, Rome· Show on map' url: https://www.booking.com/hotel/it/sm-vatican-relais.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults&map=1
+		[9877] button '0.9 miles from downtown'
+		[9880] StaticText 'SM Vatican Relais B&B features rooms with free Wifi in the center of Rome.'
+		[9884] link 'Scored 9.7 Exceptional 944 reviews' url: https://www.booking.com/hotel/it/sm-vatican-relais.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9898] link 'Location: Scored 9.8 ' url: https://www.booking.com/hotel/it/sm-vatican-relais.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9906] button 'Show prices'
+	[9916] listitem 'Property'
+		[9927] button 'Save this item to a trip list' expanded: False
+		[9940] heading 'Hotel Romano Opens in new window'
+			[9941] link 'Hotel Romano Opens in new window' url: https://www.booking.com/hotel/it/romano.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9947] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9948] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9949] image ''
+		[9953] link 'Rione Monti, Rome· Show on map' url: https://www.booking.com/hotel/it/romano.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults&map=1
+		[9963] button '0.3 miles from downtown'
+		[9968] button 'Subway Access'
+		[9971] StaticText 'Set between the Coliseum and Piazza Venezia, the Romano is a boutique hotel overlooking the Roman Forum. The rooms are uniquely decorated and set over 4 floors of a historical building.'
+		[9975] link 'Scored 9.1 Wonderful 2,168 reviews' url: https://www.booking.com/hotel/it/romano.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9989] link 'Location: Scored 9.8 ' url: https://www.booking.com/hotel/it/romano.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[9997] button 'Show prices'
+	[10006] listitem 'Property'
+		[10017] button 'Save this item to a trip list' expanded: False
+		[10030] heading 'AltaDomus Roma Opens in new window'
+			[10031] link 'AltaDomus Roma Opens in new window' url: https://www.booking.com/hotel/it/altadomus-roma.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[10037] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10038] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10039] image ''
+		[10043] link 'Central Station, Rome· Show on map' url: https://www.booking.com/hotel/it/altadomus-roma.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults&map=1
+		[10053] button '0.8 miles from downtown'
+		[10058] button 'Subway Access'
+		[10065] link 'Scored 7.3 Good 326 reviews' url: https://www.booking.com/hotel/it/altadomus-roma.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[10080] button 'Show prices'
+	[10089] listitem 'Property'
+		[10100] button 'Save this item to a trip list' expanded: False
+		[10113] heading 'Casa Minerva Al Pantheon Opens in new window'
+			[10114] link 'Casa Minerva Al Pantheon Opens in new window' url: https://www.booking.com/hotel/it/casa-minerva-al-pantheon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[10120] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10121] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10122] image ''
+		[10126] link 'Pantheon, Rome· Show on map' url: https://www.booking.com/hotel/it/casa-minerva-al-pantheon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults&map=1
+		[10143] link 'Scored 8.8 Excellent 185 reviews' url: https://www.booking.com/hotel/it/casa-minerva-al-pantheon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults
+		[10157] link 'Location: Scored 9.9 ' url: https://www.booking.com/hotel/it/casa-minerva-al-pantheon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKvlsjABsACAdICJDM4NjBjYWFjLWQ0YWQtNDFlZC1hZmRmLTZkNDYxMDZmYjQzNdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-126693&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=7b4f51b255e40336&srepoch=1746013030&from=searchresults

@@ -1,0 +1,145 @@
+[1801] RootWebArea 'google/flan-t5-base · Hugging Face' focused: True url: https://huggingface.co/google/flan-t5-base
+	[2029] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1802] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1807] textbox 'Search models, datasets, users...' required: False
+	[2041] button ''
+	[2128] main ''
+		[2131] sectionheader ''
+			[2133] heading 'google / flan-t5-base Copy model name to clipboard like 870 Follow Google 12.7k'
+				[2140] link '' url: https://huggingface.co/google
+				[2146] link 'google' url: https://huggingface.co/google
+				[2154] link 'flan-t5-base' url: https://huggingface.co/google/flan-t5-base
+				[1810] button 'Copy model name to clipboard'
+				[2162] button 'like'
+				[2172] button '870'
+				[1816] button 'Follow Google'
+				[2186] button '12.7k'
+			[2194] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+			[2212] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[2235] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[2253] link 'TensorFlow' url: https://huggingface.co/models?library=tf
+			[2283] link 'JAX' url: https://huggingface.co/models?library=jax
+			[2336] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2352] button '10 datasets'
+			[2368] button '5 languages'
+			[2381] link 't5' url: https://huggingface.co/models?other=t5
+			[2391] link 'text-generation-inference' url: https://huggingface.co/models?other=text-generation-inference
+			[2410] button 'arxiv: 2210.11416'
+			[2433] button 'arxiv: 1910.09700'
+			[2458] button 'License: apache-2.0'
+				[2460] image ''
+			[2490] link 'Model card' url: https://huggingface.co/google/flan-t5-base
+			[2501] link 'Files xet' url: https://huggingface.co/google/flan-t5-base/tree/main
+			[1814] link 'Community 35' url: https://huggingface.co/google/flan-t5-base/discussions
+			[2541] button ''
+			[2559] button 'Train'
+			[2577] button 'Deploy'
+			[2598] button 'Use this model'
+		[2629] button ''
+		[2792] heading 'Model Card for FLAN-T5 base'
+			[2794] link '' url: https://huggingface.co/google/flan-t5-base#model-card-for-flan-t5-base
+		[1819] image 'drawing' url: https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/flan2_architecture.jpg
+		[1817] heading 'Table of Contents'
+			[2808] link '' url: https://huggingface.co/google/flan-t5-base#table-of-contents
+		[2821] ListMarker '0. '
+		[2822] link 'TL;DR' url: https://huggingface.co/google/flan-t5-base#TL;DR
+		[2825] ListMarker '1. '
+		[2826] link 'Model Details' url: https://huggingface.co/google/flan-t5-base#model-details
+		[2830] ListMarker '2. '
+		[2831] link 'Usage' url: https://huggingface.co/google/flan-t5-base#usage
+		[2835] ListMarker '3. '
+		[2836] link 'Uses' url: https://huggingface.co/google/flan-t5-base#uses
+		[2840] ListMarker '4. '
+		[2841] link 'Bias, Risks, and Limitations' url: https://huggingface.co/google/flan-t5-base#bias-risks-and-limitations
+		[2845] ListMarker '5. '
+		[2846] link 'Training Details' url: https://huggingface.co/google/flan-t5-base#training-details
+		[2850] ListMarker '6. '
+		[2851] link 'Evaluation' url: https://huggingface.co/google/flan-t5-base#evaluation
+		[2855] ListMarker '7. '
+		[2856] link 'Environmental Impact' url: https://huggingface.co/google/flan-t5-base#environmental-impact
+		[2860] ListMarker '8. '
+		[2861] link 'Citation' url: https://huggingface.co/google/flan-t5-base#citation
+		[2865] ListMarker '9. '
+		[2866] link 'Model Card Authors' url: https://huggingface.co/google/flan-t5-base#model-card-authors
+		[2870] heading 'TL;DR'
+			[2872] link '' url: https://huggingface.co/google/flan-t5-base#tldr
+		[2884] StaticText 'If you already know T5, FLAN-T5 is just better at everything. For the same number of parameters, these models have been fine-tuned on more than 1000 additional tasks covering also more languages. As mentioned in the first few lines of the abstract :'
+		[2886] blockquote ''
+			[2891] StaticText ' Flan-PaLM 540B achieves state-of-the-art performance on several benchmarks, such as 75.2% on five-shot MMLU. We also publicly release Flan-T5 checkpoints,1 which achieve strong few-shot performance even compared to much larger models, such as PaLM 62B. Overall, instruction finetuning is a general method for improving the performance and usability of pretrained language models.'
+		[2896] StaticText 'Disclaimer'
+		[2897] StaticText ': Content from '
+		[2899] StaticText 'this'
+		[2900] StaticText ' model card has been written by the Hugging Face team, and parts of it were copy pasted from the '
+		[2901] link 'T5 model card' url: https://huggingface.co/t5-large
+		[3911] DescriptionList ''
+			[3912] term 'Downloads last month'
+			[3914] definition ''
+				[3915] StaticText '3,572,765'
+		[3920] image ''
+		[3946] StaticText 'Safetensors'
+		[3947] link '' url: https://huggingface.co/docs/safetensors
+		[3956] StaticText 'Model size'
+		[3959] StaticText '248M'
+		[3960] StaticText ' params'
+		[3964] StaticText 'Tensor type'
+		[3967] StaticText 'F32'
+		[3974] button 'Files info'
+		[3995] StaticText 'Inference Providers'
+		[4006] link 'Text2Text Generation' url: https://huggingface.co/tasks/text-generation
+		[4026] link '🙋 1 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/920
+		[4044] heading 'Model tree for google/flan-t5-base'
+		[4065] image ''
+		[4069] StaticText 'Adapters'
+		[1804] link '228 models' url: https://huggingface.co/models?other=base_model:adapter:google/flan-t5-base
+		[4079] image ''
+		[4083] StaticText 'Finetunes'
+		[4087] link '714 models' url: https://huggingface.co/models?other=base_model:finetune:google/flan-t5-base
+		[4094] image ''
+		[4098] StaticText 'Merges'
+		[4102] link '2 models' url: https://huggingface.co/models?other=base_model:merge:google/flan-t5-base
+		[4109] image ''
+		[4113] StaticText 'Quantizations'
+		[4117] link '7 models' url: https://huggingface.co/models?other=base_model:quantized:google/flan-t5-base
+		[4123] heading 'Datasets used to train google/flan-t5-base'
+		[4134] article ''
+			[4135] link 'Viewer • Updated Jan 4, 2024 • 17.6k • 497k • 715' url: https://huggingface.co/datasets/openai/gsm8k
+				[4137] sectionheader ''
+					[4144] heading 'openai/gsm8k'
+				[4157] time 'Thu, 04 Jan 2024 12:05:15 GMT'
+					[4158] StaticText 'Jan 4, 2024'
+				[4161] StaticText '•'
+				[4167] StaticText '17.6k'
+				[4174] StaticText '497k'
+				[4180] StaticText '715'
+		[4182] article ''
+			[4183] link 'Viewer • Updated Jan 4, 2024 • 12.7k • 17.5k • 59' url: https://huggingface.co/datasets/cimec/lambada
+				[4185] sectionheader ''
+					[4192] heading 'cimec/lambada'
+				[4205] time 'Thu, 04 Jan 2024 14:16:25 GMT'
+					[4206] StaticText 'Jan 4, 2024'
+				[4209] StaticText '•'
+				[4215] StaticText '12.7k'
+				[4222] StaticText '17.5k'
+				[4228] StaticText '59'
+		[4230] article ''
+			[4231] link 'Viewer • Updated Jun 11, 2023 • 4.04k • 13.2k • 166' url: https://huggingface.co/datasets/deepmind/code_contests
+				[4233] sectionheader ''
+					[4240] heading 'deepmind/code_contests'
+				[4253] time 'Sun, 11 Jun 2023 12:22:30 GMT'
+					[4254] StaticText 'Jun 11, 2023'
+				[4257] StaticText '•'
+				[4263] StaticText '4.04k'
+				[4270] StaticText '13.2k'
+				[4276] StaticText '166'
+		[4281] heading 'Spaces using google/flan-t5-base 100'
+		[4297] link '🥇 mteb/leaderboard' url: https://huggingface.co/spaces/mteb/leaderboard
+		[4304] link '🎵 facebook/MusicGen' url: https://huggingface.co/spaces/facebook/MusicGen
+		[4311] link '🎼 Surn/UnlimitedMusicGen' url: https://huggingface.co/spaces/Surn/UnlimitedMusicGen
+		[4318] link '😻 Sharathhebbar24/One-stop-for-Open-source-models' url: https://huggingface.co/spaces/Sharathhebbar24/One-stop-for-Open-source-models
+		[4325] link '🎵 facebook/MelodyFlow' url: https://huggingface.co/spaces/facebook/MelodyFlow
+		[4332] link '👀 Zeyue7/AudioX' url: https://huggingface.co/spaces/Zeyue7/AudioX
+		[4339] link '📊 joaogante/color-coded-text-generation' url: https://huggingface.co/spaces/joaogante/color-coded-text-generation
+		[4346] link '🥇 mteb/leaderboard_legacy' url: https://huggingface.co/spaces/mteb/leaderboard_legacy
+		[4353] link '🎵 GrandaddyShmax/MusicGen_Plus' url: https://huggingface.co/spaces/GrandaddyShmax/MusicGen_Plus
+		[4360] link '🏢 captain-awesome/Chat_with_any_website' url: https://huggingface.co/spaces/captain-awesome/Chat_with_any_website
+		[4367] link '🔥 unpairedelectron07/Text-to-Music-Generator' url: https://huggingface.co/spaces/unpairedelectron07/Text-to-Music-Generator

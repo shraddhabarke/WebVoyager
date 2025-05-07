@@ -1,0 +1,123 @@
+[9384] RootWebArea 'GPT-4 Technical Report' focused: True url: https://arxiv.org/html/2303.08774v6
+	[9505] link 'Back to arXiv' url: https://arxiv.org/
+	[9516] StaticText 'This is '
+	[9518] StaticText 'experimental HTML'
+	[9519] StaticText ' to improve accessibility. We invite you to report rendering errors. '
+	[9522] StaticText 'Learn more '
+	[9523] link 'about this project' url: https://info.arxiv.org/about/accessible_HTML.html
+	[9525] StaticText ' and '
+	[9526] link 'help improve conversions' url: https://info.arxiv.org/help/submit_latex_best_practices.html
+	[9533] link 'Why HTML?' url: https://info.arxiv.org/about/accessible_HTML.html
+	[9536] link 'Report Issue' url: https://arxiv.org/html/2303.08774v6/#myForm
+	[9539] link 'Back to Abstract' url: https://arxiv.org/abs/2303.08774v6
+	[9542] link 'Download PDF' url: https://arxiv.org/pdf/2303.08774v6
+	[9545] link 'Switch to light mode' url: javascript:toggleColorScheme()
+		[9394] LabelText 'Switch to light mode'
+			[9548] image ''
+	[9566] navigation 'Table of Contents'
+		[9581] image ''
+		[9589] link '1 Introduction' url: https://arxiv.org/html/2303.08774v6#S1
+		[9596] link '2 Scope and Limitations of this Technical Report' url: https://arxiv.org/html/2303.08774v6#S2
+		[9604] link '3 Predictable Scaling' url: https://arxiv.org/html/2303.08774v6#S3
+		[9630] link '4 Capabilities' url: https://arxiv.org/html/2303.08774v6#S4
+		[9648] link '5 Limitations' url: https://arxiv.org/html/2303.08774v6#S5
+		[9655] link '6 Risks & mitigations' url: https://arxiv.org/html/2303.08774v6#S6
+		[9662] link '7 Conclusion' url: https://arxiv.org/html/2303.08774v6#S7
+	[9804] status 'Conversion errors have been found' live: polite atomic: True relevant: additions text
+		[9399] button 'Dismiss alert'
+		[9818] StaticText 'HTML conversions '
+		[9819] link 'sometimes display errors' url: https://info.dev.arxiv.org/about/accessibility_html_error_messages.html
+		[9821] StaticText ' due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. Feedback on these issues are not necessary; they are known and are being worked on.'
+		[9828] ListMarker '• '
+		[9829] StaticText 'failed: epic'
+		[9832] ListMarker '• '
+		[9833] StaticText 'failed: devanagari'
+		[9836] StaticText 'Authors: achieve the best HTML results from your LaTeX submissions by following these '
+		[9837] link 'best practices' url: https://info.arxiv.org/help/submit_latex_best_practices.html
+	[9401] StaticText 'License: arXiv.org perpetual non-exclusive license'
+	[9402] StaticText 'arXiv:2303.08774v6 [cs.CL] 04 Mar 2024'
+	[9850] article ''
+		[9852] heading 'GPT-4 Technical Report'
+		[9859] StaticText 'OpenAI'
+		[9405] StaticText 'Please cite this work as “OpenAI (2023)". Full authorship contribution statements appear at the end of the document. Correspondence regarding this technical report can be sent to '
+		[9861] link 'gpt4-report@openai.com' url: https://arxiv.org/html/2303.08774v6/gpt4-report@openai.com
+		[9868] heading 'Abstract'
+		[9875] StaticText 'We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4’s performance based on models trained with no more than 1/1,000th the compute of GPT-4.'
+		[9882] heading '1 Introduction'
+		[9893] StaticText 'This technical report presents GPT-4, a large multimodal model capable of processing image and text inputs and producing text outputs. Such models are an important area of study as they have the potential to be used in a wide range of applications, such as dialogue systems, text summarization, and machine translation. As such, they have been the subject of substantial interest and progress in recent years\xa0'
+		[9895] StaticText '(Brown et\xa0al., '
+		[9896] link '2020' url: https://arxiv.org/html/2303.08774v6#bib.bib1
+		[9898] StaticText '; Hoffmann et\xa0al., '
+		[9899] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib2
+		[9901] StaticText '; Chowdhery et\xa0al., '
+		[9902] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib3
+		[9904] StaticText '; Rae et\xa0al., '
+		[9905] link '2021' url: https://arxiv.org/html/2303.08774v6#bib.bib4
+		[9907] StaticText '; Dai et\xa0al., '
+		[9908] link '2019' url: https://arxiv.org/html/2303.08774v6#bib.bib5
+		[9910] StaticText '; Liu et\xa0al., '
+		[9911] link '2019' url: https://arxiv.org/html/2303.08774v6#bib.bib6
+		[9913] StaticText '; Devlin et\xa0al., '
+		[9914] link '2018' url: https://arxiv.org/html/2303.08774v6#bib.bib7
+		[9916] StaticText '; Raffel et\xa0al., '
+		[9385] link '2019' url: https://arxiv.org/html/2303.08774v6#bib.bib8
+		[9918] StaticText '; Shazeer and Stern, '
+		[9919] link '2018' url: https://arxiv.org/html/2303.08774v6#bib.bib9
+		[9921] StaticText '; Ba et\xa0al., '
+		[9922] link '2016' url: https://arxiv.org/html/2303.08774v6#bib.bib10
+		[9924] StaticText '; Wei et\xa0al., '
+		[9925] link '2022a' url: https://arxiv.org/html/2303.08774v6#bib.bib11
+		[9927] StaticText '; Huang et\xa0al., '
+		[9928] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib12
+		[9930] StaticText '; Kojima et\xa0al., '
+		[9931] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib13
+		[9933] StaticText '; Kaplan et\xa0al., '
+		[9934] link '2020' url: https://arxiv.org/html/2303.08774v6#bib.bib14
+		[9936] StaticText '; Henighan et\xa0al., '
+		[9937] link '2020' url: https://arxiv.org/html/2303.08774v6#bib.bib15
+		[9939] StaticText '; Yang et\xa0al., '
+		[9940] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib16
+		[9942] StaticText '; Shazeer et\xa0al., '
+		[9943] link '2017' url: https://arxiv.org/html/2303.08774v6#bib.bib17
+		[9945] StaticText '; Zoph et\xa0al., '
+		[9946] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib18
+		[9948] StaticText '; Wei et\xa0al., '
+		[9949] link '2022b' url: https://arxiv.org/html/2303.08774v6#bib.bib19
+		[9951] StaticText '; Dehghani et\xa0al., '
+		[9952] link '2019' url: https://arxiv.org/html/2303.08774v6#bib.bib20
+		[9954] StaticText '; Su et\xa0al., '
+		[9955] link '2021' url: https://arxiv.org/html/2303.08774v6#bib.bib21
+		[9958] link 'Alayrac et\xa0al.,' url: https://arxiv.org/html/2303.08774v6#bib.bib22
+		[9960] StaticText '; Chen et\xa0al., '
+		[9961] link '2022a' url: https://arxiv.org/html/2303.08774v6#bib.bib23
+		[9963] StaticText '; Wang and Komatsuzaki, '
+		[9964] link '2021' url: https://arxiv.org/html/2303.08774v6#bib.bib24
+		[9966] StaticText '; Black et\xa0al., '
+		[9967] link '2021' url: https://arxiv.org/html/2303.08774v6#bib.bib25
+		[9969] StaticText '; Scao et\xa0al., '
+		[9970] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib26
+		[9972] StaticText '; Zhang et\xa0al., '
+		[9973] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib27
+		[9975] StaticText '; Touvron et\xa0al., '
+		[9976] link '2023' url: https://arxiv.org/html/2303.08774v6#bib.bib28
+		[9978] StaticText '; Radford et\xa0al., '
+		[9979] link '2017' url: https://arxiv.org/html/2303.08774v6#bib.bib29
+		[9981] StaticText '; Lample and Conneau, '
+		[9982] link '2019' url: https://arxiv.org/html/2303.08774v6#bib.bib30
+		[9984] StaticText '; Dao et\xa0al., '
+		[9985] link '2022' url: https://arxiv.org/html/2303.08774v6#bib.bib31
+		[9987] StaticText '; Child et\xa0al., '
+		[9988] link '2019' url: https://arxiv.org/html/2303.08774v6#bib.bib32
+		[9990] StaticText '; Rabe and Staats, '
+		[9991] link '2021' url: https://arxiv.org/html/2303.08774v6#bib.bib33
+		[9993] StaticText '; Gray et\xa0al., '
+		[9994] link '2017' url: https://arxiv.org/html/2303.08774v6#bib.bib34
+		[9996] StaticText ')'
+		[10005] StaticText 'One of the main goals of developing such models is to improve their ability to understand and generate natural language text, particularly in more complex and nuanced scenarios. To test its capabilities in such scenarios, GPT-4 was evaluated on a variety of exams originally designed for humans. In these evaluations it performs quite well and often outscores the vast majority of human test takers. For example, on a simulated bar exam, GPT-4 achieves a score that falls in the top 10% of test takers. This contrasts with GPT-3.5, which scores in the bottom 10%.'
+		[10013] StaticText 'On a suite of traditional NLP benchmarks, GPT-4 outperforms both previous large language models and most state-of-the-art systems (which often have benchmark-specific training or hand-engineering). On the MMLU benchmark\xa0'
+		[10015] StaticText '(Hendrycks et\xa0al., '
+		[10016] link '2021a' url: https://arxiv.org/html/2303.08774v6#bib.bib35
+		[10019] link 'b' url: https://arxiv.org/html/2303.08774v6#bib.bib36
+		[10021] StaticText ')'
+		[10022] StaticText ', an English-language suite of multiple-choice questions covering 57 subjects, GPT-4 not only outperforms existing models by a considerable margin in English, but also demonstrates strong performance in other languages. On translated variants of MMLU, GPT-4 surpasses the English-language state-of-the-art in 24 of 26 languages considered. We discuss these model capability results, as well as model safety improvements and results, in more detail in later sections.'
+	[25032] button 'Report Issue'

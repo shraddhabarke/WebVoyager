@@ -1,0 +1,182 @@
+[6219] RootWebArea 'Booking.com: Hotels in Barcelona. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ss=Barcelona&lang=en-us&dest_id=-372490&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=01ee5eca5f9b0671&group_adults=2&no_rooms=1&group_children=0&nflt=hotelfacility%3D107&order=distance_from_search
+	[24619] tabpanel 'Calendar'
+		[24433] grid '' multiselectable: False
+			[24429] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[24418] gridcell '27 April 2025' required: False
+					[24411] checkbox '27 April 2025' checked: false
+				[24419] gridcell '28 April 2025' required: False
+					[24413] checkbox '28 April 2025' checked: false
+				[24420] gridcell '29 April 2025' required: False
+					[24415] checkbox '29 April 2025' checked: false
+				[24421] gridcell '30 April 2025' required: False
+					[24417] checkbox '30 April 2025' checked: false
+		[24554] grid '' multiselectable: False
+			[24550] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[24539] gridcell '25 May 2025' required: False
+					[24526] checkbox '25 May 2025' checked: false
+				[24540] gridcell '26 May 2025' required: False
+					[24528] checkbox '26 May 2025' checked: false
+				[24541] gridcell '27 May 2025' required: False
+					[24530] checkbox '27 May 2025' checked: false
+				[24542] gridcell '28 May 2025' required: False
+					[24532] checkbox '28 May 2025' checked: false
+				[24543] gridcell '29 May 2025' required: False
+					[24534] checkbox '29 May 2025' checked: false
+				[24544] gridcell '30 May 2025' required: False
+					[24536] checkbox '30 May 2025' checked: false
+				[24545] gridcell '31 May 2025' required: False
+					[24538] checkbox '31 May 2025' checked: false
+		[24613] group ''
+			[24610] region '' roledescription: carousel
+				[24595] group '' roledescription: slide
+					[24560] checkbox 'Exact dates' checked: true
+				[24596] group '' roledescription: slide
+					[24568] checkbox '1 day' checked: false
+				[24597] group '' roledescription: slide
+					[24576] checkbox '2 days' checked: false
+				[24598] group '' roledescription: slide
+					[24584] checkbox '3 days' checked: false
+				[24599] group '' roledescription: slide
+					[24592] checkbox '7 days' checked: false
+	[7521] region 'Filters'
+		[7529] group 'Popular filters'
+			[6361] checkbox 'Air conditioning: 3178 properties' checked: false
+			[6362] checkbox 'Villas: 8 properties' checked: false
+			[6363] checkbox 'Guesthouses: 190 properties' checked: false
+			[6364] checkbox 'Private pool: 44 properties' checked: false
+			[6365] checkbox 'Wonderful: 9+: 605 properties' checked: false
+			[7663] StaticText 'Based on guest reviews'
+		[7675] StaticText 'Smart filters'
+		[7683] StaticText 'What are you looking for?'
+		[6366] textbox 'What are you looking for?' required: False
+		[7691] button 'Find properties'
+		[7700] group 'Amenities'
+			[6367] checkbox 'Parking: 943 properties' checked: false
+			[6368] checkbox 'Restaurant: 232 properties' checked: false
+			[6369] checkbox 'Pet friendly: 769 properties' checked: false
+			[6370] checkbox 'Room service: 303 properties' checked: false
+			[6371] checkbox '24-hour front desk: 666 properties' checked: false
+			[17344] checkbox 'Fitness center: 231 properties' checked: false
+			[17357] checkbox 'Non-smoking rooms: 2302 properties' checked: false
+			[17370] checkbox 'Airport shuttle: 552 properties' checked: false
+			[17383] checkbox 'Family rooms: 1494 properties' checked: false
+			[17396] checkbox 'Spa: 47 properties' checked: false
+			[17409] checkbox 'Free Wifi: 3559 properties' checked: true
+			[17422] checkbox 'Electric vehicle charging station: 152 properties' checked: false
+			[17435] checkbox 'Wheelchair accessible: 273 properties' checked: false
+			[17448] checkbox 'Swimming pool: 286 properties' checked: false
+		[7797] group 'Property Type'
+			[6372] checkbox 'Apartments: 2688 properties' checked: false
+			[6373] checkbox 'Hotels: 487 properties' checked: false
+			[6374] checkbox 'Guesthouses: 190 properties' checked: false
+			[6375] checkbox 'Hostels: 111 properties' checked: false
+			[6376] checkbox 'Bed and Breakfasts: 38 properties' checked: false
+			[6377] checkbox 'Boats: 34 properties' checked: false
+			[6378] checkbox 'Vacation Homes: 18 properties' checked: false
+			[6379] checkbox 'Homestays: 9 properties' checked: false
+			[6380] checkbox 'Student accommodations: 9 properties' checked: false
+			[6381] checkbox 'Villas: 8 properties' checked: false
+			[6382] checkbox 'Campgrounds: 3 properties' checked: false
+			[6383] checkbox 'Luxury tents: 2 properties' checked: false
+			[6384] checkbox 'Resorts: 1 property' checked: false
+		[8014] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6385] checkbox '1 star: 55 properties' checked: false
+			[6386] checkbox '2 stars: 160 properties' checked: false
+			[6387] checkbox '3 stars: 1146 properties' checked: false
+			[6388] checkbox '4 stars: 1639 properties' checked: false
+			[6389] checkbox '5 stars: 48 properties' checked: false
+		[8118] group 'Room amenities'
+			[6390] checkbox 'Private bathroom: 3034 properties' checked: false
+			[6391] checkbox 'Air conditioning: 3178 properties' checked: false
+			[6392] checkbox 'Balcony: 1847 properties' checked: false
+	[23396] listitem 'Property'
+		[23636] StaticText 'Apartamentos Amoblados Barcelona España is a condo hotel featuring rooms with free Wifi and air conditioning in the center of Barcelona.'
+	[23399] listitem 'Property'
+		[21503] button 'Save this item to a trip list' expanded: False
+		[21518] heading '45 Times Barcelona Hotel Opens in new window'
+			[21513] link '45 Times Barcelona Hotel Opens in new window' url: https://www.booking.com/hotel/es/45-times-barcelona-hotel.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults
+		[21517] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[21516] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[21515] image ''
+		[21536] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/45-times-barcelona-hotel.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults&map=1
+		[21529] button 'Downtown'
+		[21531] button 'Subway Access'
+		[21533] button 'Beach Nearby'
+		[23644] StaticText '1.3 miles from beach'
+		[23645] StaticText 'Sustainability certification'
+		[23646] StaticText '45 Times Barcelona Hotel has an outdoor swimming pool, fitness center, a terrace and restaurant in Barcelona. With free WiFi, this 4-star hotel offers room service and a 24-hour front desk.'
+		[21568] link 'Scored 8.7 Excellent 2,538 reviews' url: https://www.booking.com/hotel/es/45-times-barcelona-hotel.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults
+		[21567] link 'Location: Scored 9.8 ' url: https://www.booking.com/hotel/es/45-times-barcelona-hotel.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults
+		[21571] button 'Show prices'
+	[23401] listitem 'Property'
+		[21590] button 'Save this item to a trip list' expanded: False
+		[21605] heading 'Victoria City Center Barcelona Opens in new window'
+			[21600] link 'Victoria City Center Barcelona Opens in new window' url: https://www.booking.com/hotel/es/victoria-city-center-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21604] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[21603] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[21602] image ''
+		[21623] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/victoria-city-center-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults&map=1
+		[21616] button 'Downtown'
+		[21618] button 'Subway Access'
+		[21620] button 'Beach Nearby'
+		[23661] StaticText '1.3 miles from beach'
+		[23662] StaticText 'Set on the corner of Plaza Catalunya and Passeig de Gracia, Victoria City Center Barcelona is a 5-bedroom duplex apartment. This stylish air-conditioned property has a balcony.'
+		[21649] link 'Scored 9.4 Wonderful 81 reviews' url: https://www.booking.com/hotel/es/victoria-city-center-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21648] link 'Free Wifi: Scored 10 ' url: https://www.booking.com/hotel/es/victoria-city-center-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21652] button 'Show prices'
+	[23403] listitem 'Property'
+		[21671] button 'Save this item to a trip list' expanded: False
+		[21682] heading 'Apartment Plaza de Catalunya - Pso- de Gracia by Interhome Opens in new window'
+			[21681] link 'Apartment Plaza de Catalunya - Pso- de Gracia by Interhome Opens in new window' url: https://www.booking.com/hotel/es/centro-plaza-cataluna-paseo-de-gracia.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21699] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/centro-plaza-cataluna-paseo-de-gracia.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults&map=1
+		[21692] button 'Downtown'
+		[21694] button 'Subway Access'
+		[21696] button 'Beach Nearby'
+		[23677] StaticText '1.3 miles from beach'
+		[23678] StaticText 'Apartment Plaza de Catalunya - Pso- de Gracia by Interhome offers accommodations in Barcelona, 1.7 miles from Somorrostro Beach and 1.7 miles from Barceloneta Beach.'
+		[21725] link 'Scored 7.3 Good 24 reviews' url: https://www.booking.com/hotel/es/centro-plaza-cataluna-paseo-de-gracia.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21724] link 'Free Wifi: Scored 10 ' url: https://www.booking.com/hotel/es/centro-plaza-cataluna-paseo-de-gracia.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21728] button 'Show prices'
+	[23406] listitem 'Property'
+		[21747] button 'Save this item to a trip list' expanded: False
+		[21758] heading 'Boutique Hotel H10 Catalunya Plaza Opens in new window'
+			[21757] link 'Boutique Hotel H10 Catalunya Plaza Opens in new window' url: https://www.booking.com/hotel/es/catalunyaplaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults
+		[21775] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/catalunyaplaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults&map=1
+		[21768] button '400 feet from downtown'
+		[21770] button 'Subway Access'
+		[21772] button 'Beach Nearby'
+		[23693] StaticText '1.4 miles from beach'
+		[23694] StaticText 'Sustainability certification'
+		[23695] StaticText 'The striking Boutique Hotel H10 Catalunya Plaza is set directly on the square, just 656 feet from Las Ramblas. It offers chic, air-conditioned rooms with free Wi-Fi and a lovely chill-out terrace.'
+		[21807] link 'Scored 8.6 Excellent 1,467 reviews' url: https://www.booking.com/hotel/es/catalunyaplaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults
+		[21806] link 'Location: Scored 9.7 ' url: https://www.booking.com/hotel/es/catalunyaplaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from_sustainable_property_sr=1&from=searchresults
+		[21810] button 'Show prices'
+	[23408] listitem 'Property'
+		[21829] button 'Save this item to a trip list' expanded: False
+		[21844] heading 'LetsGo Paseo de Gracia Opens in new window'
+			[21839] link 'LetsGo Paseo de Gracia Opens in new window' url: https://www.booking.com/hotel/es/paseo-de-gracia-3.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21843] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[21842] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[21841] image ''
+		[21862] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/paseo-de-gracia-3.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults&map=1
+		[21855] button 'Downtown'
+		[21857] button 'Subway Access'
+		[21859] button 'Beach Nearby'
+		[23710] StaticText '1.3 miles from beach'
+		[23711] StaticText 'Apartament Paseo de Gracia offers self-catering accommodations with free Wi-Fi in the heart of Barcelona, just 131 feet from Plaza Catalunya. Barcelona’s La Rambla is 5 minutes’ walk away.'
+		[21888] link 'Scored 8.1 Very Good 192 reviews' url: https://www.booking.com/hotel/es/paseo-de-gracia-3.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21887] link 'Location: Scored 9.7 ' url: https://www.booking.com/hotel/es/paseo-de-gracia-3.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21891] button 'Show prices'
+	[23410] listitem 'Property'
+		[21910] button 'Save this item to a trip list' expanded: False
+		[21925] heading 'Olivia Plaza Hotel Opens in new window'
+			[21920] link 'Olivia Plaza Hotel Opens in new window' url: https://www.booking.com/hotel/es/olivia-plaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21924] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[21923] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[21922] image ''
+		[21943] link 'Ciutat Vella, Barcelona· Show on map' url: https://www.booking.com/hotel/es/olivia-plaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults&map=1
+		[21936] button 'Downtown'
+		[21938] button 'Subway Access'
+		[21940] button 'Beach Nearby'
+		[21969] link 'Scored 9.3 Wonderful 3,978 reviews' url: https://www.booking.com/hotel/es/olivia-plaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults
+		[21968] link 'Location: Scored 9.9 ' url: https://www.booking.com/hotel/es/olivia-plaza.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=distance_from_search&nflt=hotelfacility%3D107&srpvid=00c55edac8d201ab&srepoch=1746020398&from=searchresults

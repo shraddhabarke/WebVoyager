@@ -1,0 +1,41 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/@47.6741632,-122.1165056,13z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[16] generic '' focused: True
+		[163] generic 'Google Maps'
+			[239] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+				[48] Canvas ''
+			[261] search ''
+				[265] StaticText 'Search Google Maps'
+				[2] combobox 'Search Google Maps' hasPopup: grid required: False expanded: False
+				[266] button 'Search'
+				[302] button 'Directions'
+			[337] region 'Available search options for this area' roledescription: carousel
+				[343] button 'Restaurants'
+				[352] button 'Hotels'
+				[361] button 'Things to do'
+				[370] button 'Museums'
+				[379] button 'Transit'
+				[388] button 'Pharmacies'
+				[397] button 'ATMs'
+				[47] button 'Next page'
+			[15] button 'Menu'
+			[449] button 'Saved'
+			[467] button 'Recents' disabled: True
+			[497] button 'Get the app'
+			[543] button 'Google apps' expanded: False
+				[545] image ''
+			[548] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+			[595] button 'Your Location' pressed: true
+			[612] button 'Zoom in'
+			[643] button 'Zoom out'
+			[656] button 'Show Street View coverage'
+			[657] button 'Show imagery'
+			[697] generic 'Interactive map'
+			[735] StaticText 'Layers'
+			[750] button 'Layers' expanded: False
+			[854] contentinfo ''
+				[856] StaticText 'Map data ©2025 Google'
+				[857] button 'United States'
+				[859] button 'Terms'
+				[861] button 'Privacy'
+				[863] button 'Send Product Feedback'
+			[866] button '2000 ft'

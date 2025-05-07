@@ -1,0 +1,226 @@
+[15929] RootWebArea 'Pacers 119-118 Bucks (Apr 29, 2025) Final Score - ESPN' focused: True url: https://www.espn.com/nba/game/_/gameId/401768050/bucks-pacers
+	[17671] region 'HeaderScoreboard'
+		[15942] combobox 'Sports' hasPopup: menu expanded: False
+		[15961] combobox 'Sports Dates' hasPopup: menu expanded: False
+		[17737] group ''
+			[17744] link 'GS 3-1 HOU 1-3 4:30 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+				[17749] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[17759] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[17781] group ''
+			[17788] link 'MIN 3-1 LAL 1-3 7:00 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+				[17793] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[17803] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[17827] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard
+	[17832] navigation 'Global Navigation'
+		[15948] button 'Menu' hasPopup: menu expanded: False
+		[15930] link 'ESPN Home Page' url: https://www.espn.com/
+		[17851] link '' url: https://www.espn.com/where-to-watch
+		[17858] button 'Search' expanded: False
+		[17864] button 'Profile Management' hasPopup: menu expanded: False
+			[17866] image 'Profile Management'
+	[17877] main ''
+		[17891] StaticText 'East 1st Round - Game 5'
+		[17894] StaticText 'IND wins series 4-1'
+		[17900] link 'Milwaukee Bucks' url: https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks
+			[15950] image 'Milwaukee Bucks' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mil.png&scale=crop&cquality=40&location=origin&w=96&h=96
+		[17906] link 'Bucks' url: https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks
+			[17907] heading 'Bucks'
+		[17911] StaticText '48-34'
+		[17913] StaticText ', '
+		[17915] StaticText '20-20 Away'
+		[17918] StaticText '118'
+		[17926] StaticText 'Final/OT'
+		[17933] table ''
+			[17934] rowgroup ''
+				[17935] row ''
+					[17936] columnheader '' required: False
+					[17938] columnheader '1' required: False
+					[17940] columnheader '2' required: False
+					[17942] columnheader '3' required: False
+					[17944] columnheader '4' required: False
+					[17946] columnheader 'OT' required: False
+					[17948] columnheader 'T' required: False
+			[17951] row ''
+				[17952] cell 'MIL'
+				[17954] cell '30'
+				[17956] cell '17'
+				[17958] cell '28'
+				[17960] cell '28'
+				[17962] cell '15'
+				[17964] cell '118'
+			[17966] row ''
+				[17967] cell 'IND'
+				[17969] cell '13'
+				[17971] cell '28'
+				[17973] cell '34'
+				[17975] cell '28'
+				[17977] cell '16'
+				[17979] cell '119'
+		[17986] link 'Indiana Pacers' url: https://www.espn.com/nba/team/_/name/ind/indiana-pacers
+			[15951] image 'Indiana Pacers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/ind.png&scale=crop&cquality=40&location=origin&w=96&h=96
+		[17992] link 'Pacers' url: https://www.espn.com/nba/team/_/name/ind/indiana-pacers
+			[17993] heading 'Pacers'
+		[17997] StaticText '50-32'
+		[17999] StaticText ', '
+		[18001] StaticText '29-11 Home'
+		[18004] StaticText '119'
+		[18006] image 'Winner Icon Indiana Pacers'
+		[18013] navigation 'Secondary Navigation'
+			[18016] link 'Gamecast' url: https://www.espn.com/nba/game/_/gameId/401768050/bucks-pacers
+			[18020] link 'Recap' url: https://www.espn.com/nba/recap/_/gameId/401768050
+			[18024] link 'Box Score' url: https://www.espn.com/nba/boxscore/_/gameId/401768050
+			[18028] link 'Play-by-Play' url: https://www.espn.com/nba/playbyplay/_/gameId/401768050
+			[18032] link 'Team Stats' url: https://www.espn.com/nba/matchup/_/gameId/401768050
+			[18036] link 'Videos' url: https://www.espn.com/nba/video/_/gameId/401768050
+		[18042] Iframe 'Advertisement'
+		[18047] main ''
+			[18051] region 'Video Highlights'
+				[15959] button ''
+				[18059] listbox '' multiselectable: False orientation: vertical required: False
+					[18061] option '2:09 Video Player Milwaukee Bucks vs. Indiana Pacers: Game Highlights' selected: True
+						[18065] figure ''
+						[18075] region 'Video Player'
+							[18092] button 'Pause'
+							[18100] button 'Unmute'
+							[18112] button 'Skip Backward 10 Seconds'
+							[18118] button 'Skip Forwards 10 Seconds'
+							[18139] slider 'Progress Bar' orientation: horizontal valuemin: 0 valuemax: 100 valuetext: 0:00 of 0:00
+							[18176] StaticText '\xa0'
+							[18278] button 'Full Screen'
+						[18752] heading 'Milwaukee Bucks vs. Indiana Pacers: Game Highlights'
+					[18754] option '0:53 Haliburton wins it for Pacers in final seconds after Trent Jr. fumble' selected: False
+						[18759] figure ''
+						[18771] heading 'Haliburton wins it for Pacers in final seconds after Trent Jr. fumble'
+					[18773] option '0:16 Giannis powers in Bucks layup for 13-0 start' selected: False
+						[18778] figure ''
+						[18791] heading 'Giannis powers in Bucks layup for 13-0 start'
+					[18793] option "0:58 Giannis gets into it with Mathurin, Haliburton's dad after loss" selected: False
+						[18798] figure ''
+						[18811] heading "Giannis gets into it with Mathurin, Haliburton's dad after loss"
+					[18813] option "0:19 Giannis and Haliburton's dad involved in tense exchange" selected: False
+						[18818] figure ''
+						[18831] heading "Giannis and Haliburton's dad involved in tense exchange"
+			[18834] link 'Haliburton and Pacers eliminate Bucks from playoffs, closing OT with 8-0 run to win 119-118 — Tyrese Haliburton thought he let the Indiana Pacers down in the fourth quarter. Apr 29, 2025, 07:58 pm - AP' url: https://www.espn.com/nba/recap/_/gameId/401768050
+				[18837] heading 'Haliburton and Pacers eliminate Bucks from playoffs, closing OT with 8-0 run to win 119-118'
+			[18845] sectionheader 'Game Leaders'
+				[18847] heading 'Game Leaders'
+			[18853] sectionheader ''
+				[18854] StaticText 'Points'
+			[18856] link 'G. Trent Jr., #5 - MIL 33 PTS 12/25 FG 1/2 FT' url: https://www.espn.com/nba/player/_/id/4277843/gary-trent-jr
+				[18859] figure ''
+					[18862] image 'G. Trent Jr.' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4277843.png&cquality=80&h=80&w=80&scale=crop&transparent=true
+				[18864] heading 'G. Trent Jr., #5 - MIL'
+				[18874] StaticText '33'
+				[18876] StaticText 'PTS'
+				[18879] StaticText '12/25'
+				[18881] StaticText 'FG'
+				[18884] StaticText '1/2'
+				[18886] StaticText 'FT'
+			[18887] link 'T. Haliburton, #0 - IND 26 PTS 10/22 FG 4/4 FT' url: https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton
+				[18890] figure ''
+					[18893] image 'T. Haliburton' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396993.png&cquality=80&h=80&w=80&scale=crop&transparent=true
+				[18895] heading 'T. Haliburton, #0 - IND'
+				[18905] StaticText '26'
+				[18907] StaticText 'PTS'
+				[18910] StaticText '10/22'
+				[18912] StaticText 'FG'
+				[18915] StaticText '4/4'
+				[18917] StaticText 'FT'
+			[18920] sectionheader ''
+				[18921] StaticText 'Rebounds'
+			[18923] link 'G. Antetokounmpo, #34 - MIL 20 REB 18 DREB 2 OREB' url: https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo
+				[18926] figure ''
+					[18929] image 'G. Antetokounmpo' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&cquality=80&h=80&w=80&scale=crop&transparent=true
+				[18931] heading 'G. Antetokounmpo, #34 - MIL'
+				[18941] StaticText '20'
+				[18943] StaticText 'REB'
+				[18948] StaticText 'DREB'
+				[18953] StaticText 'OREB'
+			[18954] link 'A. Nesmith, #23 - IND 12 REB 8 DREB 4 OREB' url: https://www.espn.com/nba/player/_/id/4396909/aaron-nesmith
+				[18957] figure ''
+					[18960] image 'A. Nesmith' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396909.png&cquality=80&h=80&w=80&scale=crop&transparent=true
+				[18962] heading 'A. Nesmith, #23 - IND'
+				[18972] StaticText '12'
+				[18974] StaticText 'REB'
+				[18979] StaticText 'DREB'
+				[18984] StaticText 'OREB'
+			[18987] sectionheader ''
+				[18988] StaticText 'Assists'
+			[18990] link 'G. Antetokounmpo, #34 - MIL 13 AST 7 TO 44 MIN' url: https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo
+				[18993] figure ''
+					[18996] image 'G. Antetokounmpo' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&cquality=80&h=80&w=80&scale=crop&transparent=true
+				[18998] heading 'G. Antetokounmpo, #34 - MIL'
+				[19008] StaticText '13'
+				[19010] StaticText 'AST'
+				[19013] StaticText '7'
+				[19015] StaticText 'TO'
+				[19018] StaticText '44'
+				[19020] StaticText 'MIN'
+			[19021] link 'T. Haliburton, #0 - IND 9 AST 1 TO 42 MIN' url: https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton
+				[19024] figure ''
+					[19027] image 'T. Haliburton' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396993.png&cquality=80&h=80&w=80&scale=crop&transparent=true
+				[19029] heading 'T. Haliburton, #0 - IND'
+				[19041] StaticText 'AST'
+				[19046] StaticText 'TO'
+				[19049] StaticText '42'
+				[19051] StaticText 'MIN'
+			[19052] sectionfooter ''
+				[19054] link 'Full Box Score' url: https://www.espn.com/nba/boxscore/_/gameId/401768050
+			[19057] sectionheader ''
+				[19060] StaticText 'Betting Results'
+				[19063] StaticText 'Odds by'
+				[19064] image 'ESPN BET' url: https://a.espncdn.com/i/espnbet/ESPN_Bet_Sportsbook_Light.svg
+			[19069] StaticText 'Open'
+			[19071] StaticText 'Spread'
+			[19073] StaticText 'Total'
+			[19075] StaticText 'ML'
+			[19079] link 'Milwaukee Bucks' url: https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks
+			[19091] StaticText '(48-34, 20-20 Away)'
+			[19096] StaticText 'o224.5'
+			[19098] StaticText '-112'
+			[19102] image 'win outcome' url: https://a.espncdn.com/combiner/i?img=/i/espnbet/espn-bet-checkmark-bold.png&w=40&scale=crop&cquality=40
+			[19105] StaticText '+7.5'
+			[19107] StaticText '-110'
+			[19111] image 'win outcome' url: https://a.espncdn.com/combiner/i?img=/i/espnbet/espn-bet-checkmark-bold.png&w=40&scale=crop&cquality=40
+			[19114] StaticText 'o221.5'
+			[19116] StaticText '-107'
+			[19120] StaticText '+295'
+			[19125] link 'Indiana Pacers' url: https://www.espn.com/nba/team/_/name/ind/indiana-pacers
+			[19137] StaticText '(50-32, 29-11 Home)'
+			[19142] StaticText '-7.5'
+			[19144] StaticText '-104'
+			[19154] StaticText 'u221.5'
+			[19156] StaticText '-107'
+			[19160] image 'win outcome' url: https://a.espncdn.com/combiner/i?img=/i/espnbet/espn-bet-checkmark-bold.png&w=40&scale=crop&cquality=40
+			[19163] StaticText '-370'
+			[19170] tablist '' multiselectable: False orientation: horizontal
+				[19171] tab 'Game Flow' selected: True
+					[19172] tab 'Game Flow' selected: False
+				[19174] tab 'Win Probability' selected: False
+					[19175] tab 'Win Probability' selected: False
+			[19177] tabpanel ''
+				[19181] SvgRoot ''
+					[19205] StaticText '1st'
+					[19209] StaticText '2nd'
+					[19213] StaticText '3rd'
+					[19217] StaticText '4th'
+					[19221] StaticText 'OT'
+					[19227] StaticText '0'
+					[19231] StaticText '25'
+					[19235] StaticText '50'
+					[19239] StaticText '75'
+					[19243] StaticText '100'
+					[19247] StaticText '125'
+				[19259] image 'Bucks' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mil.png&cquality=80&h=64&w=64
+				[19261] StaticText 'BUCKS'
+				[19265] image '#002d62' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/ind.png&cquality=80&h=64&w=64
+				[19267] StaticText 'PACERS'
+				[19273] StaticText 'IND 100'
+				[19275] StaticText '%'
+				[19278] StaticText 'MIL'
+				[19280] StaticText '118'
+				[19283] StaticText 'IND'
+				[19285] StaticText '119'
+				[19289] StaticText '0.0 - OT'
+				[19290] StaticText 'End of Game'
+	[20765] Iframe 'Advertisement'

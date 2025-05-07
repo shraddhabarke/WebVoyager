@@ -1,0 +1,94 @@
+[1] RootWebArea 'San Francisco International Airport to Union Square, San Francisco, CA 94108 - Google Maps' focused: True url: https://www.google.com/maps/dir/San+Francisco+International+Airport,+San+Francisco,+CA+94128/Union+Square,+San+Francisco,+CA+94108/@37.7010451,-122.5914334,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x808f778c55555555:0xa4f25c571acded3f!2m2!1d-122.3816274!2d37.6191145!1m5!1m1!1s0x808580892df7905b:0xe36cf5789882dd6f!2m2!1d-122.4075139!2d37.7879358?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[167] generic 'Google Maps'
+		[244] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[50] Canvas ''
+		[932] radiogroup '' required: False
+			[935] radio 'Best travel modes' checked: true
+				[936] image 'Best travel modes'
+			[945] radio 'Driving 22 min' checked: false
+				[946] image 'Driving'
+			[955] radio 'Transit 34 min' checked: false
+				[956] image 'Transit'
+			[965] radio 'Walking 5 hr' checked: false
+				[966] image 'Walking'
+			[975] radio 'Cycling 1h 33m' checked: false
+				[976] image 'Cycling'
+			[985] radio 'Flights not available' disabled: True checked: false
+				[986] image 'Flights not available'
+		[994] button 'Close directions'
+		[1023] combobox '' hasPopup: grid required: False expanded: False
+			[1016] textbox 'Starting point San Francisco International Airport' autocomplete: list required: False
+		[1017] button 'Search'
+		[1047] combobox '' hasPopup: grid required: False expanded: False
+			[1040] textbox 'Destination Union Square, San Francisco, CA 94108' autocomplete: list required: False
+		[1041] button 'Search'
+		[999] button 'Reverse starting point and destination'
+		[1001] button 'Add destination'
+		[1857] region 'Available options for search along this route' roledescription: carousel
+			[1866] button 'Add stops along route'
+				[1943] StaticText 'Search along the route'
+			[1872] button 'Add gas stations along route'
+				[1945] StaticText 'Gas'
+			[1879] button 'Add electric vehicle charging stations along route'
+				[1947] StaticText 'EV charging'
+			[1886] button 'Add hotels along route'
+				[1949] StaticText 'Hotels'
+			[1950] button 'Next page'
+		[16] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1708] button 'Union Square 22 min'
+		[1467] button '2 places San Francisco'
+			[1475] generic '2 places'
+		[501] button 'Get the app'
+		[1140] main 'Directions'
+			[1693] button 'Departure options' hasPopup: menu expanded: False
+				[1689] option 'Leave now' selected: True
+				[1699] StaticText '\xa0'
+			[1676] button 'Options' focused: True expanded: False
+			[1736] button 'Send directions to your phone'
+			[1741] button 'Copy link'
+			[1745] link 'Driving 22 min 14.4 miles via US-101 N Fastest route, the usual traffic Details'
+				[1747] image 'Driving'
+					[1910] StaticText '\ue531'
+				[1755] heading 'via US-101 N'
+				[1908] StaticText 'Fastest route, the usual traffic'
+				[1763] button 'Details'
+			[1768] button 'Driving 26 min 19.1 miles via I-280 N'
+				[1770] image 'Driving'
+					[1915] StaticText '\ue531'
+				[1778] heading 'via I-280 N'
+			[1781] button 'Transit 34 min 7:47\u202fAM—8:21\u202fAM Subway Yellow-N , or Red-N , then Walk'
+				[1783] image 'Transit'
+					[1925] StaticText '\ue535'
+				[1788] heading '7:47\u202fAM—8:21\u202fAM'
+				[1793] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-sf-bart.svg
+				[1920] StaticText 'Yellow-N'
+				[1921] StaticText 'Red-N'
+				[1815] image ', then'
+					[1922] StaticText '\ue315'
+				[1818] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+			[1825] heading 'Explore Union Square'
+			[1830] button 'Restaurants'
+			[1835] button 'Hotels'
+			[1840] button 'Gas stations'
+			[1845] button 'Parking Lots'
+			[1850] button 'More'
+		[1182] button 'Collapse side panel'
+		[547] button 'Google apps' expanded: False
+			[549] image ''
+		[552] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[599] button 'Show Your Location' pressed: false
+		[616] button 'Zoom in'
+		[647] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[701] generic 'Interactive map'
+		[739] StaticText 'Layers'
+		[754] button 'Layers' expanded: False
+		[858] contentinfo ''
+			[860] StaticText 'Map data ©2025 Google'
+			[861] button 'United States'
+			[863] button 'Terms'
+			[865] button 'Privacy'
+			[867] button 'Send Product Feedback'
+		[870] button '2 mi'

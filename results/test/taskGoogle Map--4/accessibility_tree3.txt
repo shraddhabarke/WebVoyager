@@ -1,0 +1,58 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir/Boston+Logan+International+Airport,+East+Boston,+MA+02128//@42.3656993,-71.0920154,12z/data=!4m8!4m7!1m5!1m1!1s0x89e37014d5da4937:0xc9394c31f2d5144!2m2!1d-71.0096136!2d42.365602!1m0?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[258] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[50] Canvas ''
+		[925] radiogroup '' required: False
+			[928] radio 'Best travel modes' checked: true
+				[929] image 'Best travel modes'
+			[938] radio 'Driving' checked: false
+				[939] image 'Driving'
+			[948] radio 'Transit' checked: false
+				[949] image 'Transit'
+			[958] radio 'Walking' checked: false
+				[959] image 'Walking'
+			[968] radio 'Cycling' checked: false
+				[969] image 'Cycling'
+			[978] radio 'Flights' checked: false
+				[979] image 'Flights'
+		[987] button 'Close directions'
+		[1016] combobox '' hasPopup: grid required: False expanded: False
+			[1009] textbox 'Starting point Boston Logan International Airport' autocomplete: list required: False
+		[1010] button 'Search'
+		[1040] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[1033] textbox 'Choose destination, or click on the map...' focused: True autocomplete: list required: False controls: sbsg51
+			[1048] grid '' multiselectable: False
+				[1383] row ''
+					[1374] row ''
+						[1375] gridcell 'Your location Your location' required: False
+							[1377] image 'Your location'
+								[1386] StaticText '\ue55c'
+		[1034] button 'Search'
+		[992] button 'Reverse starting point and destination'
+		[13] button 'Menu'
+		[468] button 'Saved'
+		[486] button 'Recents'
+		[1393] button 'Boston Logan International Airport'
+		[516] button 'Get the app'
+		[1076] main 'Directions'
+			[1195] heading 'Delays'
+			[1211] StaticText 'Moderate traffic in this area'
+			[1213] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1114] button 'Collapse side panel'
+		[562] button 'Google apps' expanded: False
+			[564] image ''
+		[567] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[614] button 'Show Your Location' pressed: false
+		[631] button 'Zoom in'
+		[662] button 'Zoom out'
+		[675] button 'Show Street View coverage'
+		[717] generic 'Interactive map'
+		[755] StaticText 'Layers'
+		[770] button 'Layers' expanded: False
+		[871] contentinfo ''
+			[873] StaticText 'Map data ©2025 '
+			[874] button 'United States'
+			[876] button 'Terms'
+			[878] button 'Privacy'
+			[880] button 'Send Product Feedback'
+		[883] button '2 mi'

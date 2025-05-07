@@ -1,0 +1,42 @@
+[6548] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=cat%3Acs.SY&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+	[6626] StaticText 'Skip to main content'
+	[6634] link 'logo' url: https://cornell.edu/
+		[6549] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[6640] StaticText 'We gratefully acknowledge support from'
+	[6642] StaticText 'the Simons Foundation, '
+	[6643] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[6645] StaticText ', and all contributors. '
+	[6646] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[6658] link 'arxiv-logo' url: https://arxiv.org/
+		[6550] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[6552] textbox 'Search term or terms' required: False
+	[6673] link 'Help' url: https://info.arxiv.org/help
+	[6675] StaticText ' | '
+	[6676] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[6553] combobox 'Field to search' hasPopup: menu expanded: False
+	[6736] button 'Search'
+	[6747] navigation 'User menu'
+		[6749] link 'Login' url: https://arxiv.org/login
+	[6555] main ''
+		[6760] heading 'Sorry, your query returned no results'
+		[6770] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[6772] StaticText '\xa0\xa0'
+		[6783] StaticText 'Query: '
+		[6784] link 'order: -announced_date_first; size: 50; classification: Computer Science (cs); include_cross_list: True; terms: AND title=cat:cs.SY' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=cat%3Acs.SY&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[6788] link 'Refine query' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=cat%3Acs.SY&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[6790] link 'New search' url: https://arxiv.org/search/advanced
+		[6799] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+	[6554] contentinfo ''
+		[6818] navigation 'Secondary'
+			[6831] link 'About' url: https://info.arxiv.org/about
+			[6835] link 'Help' url: https://info.arxiv.org/help
+			[6853] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[6866] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[6887] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[6891] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[6900] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[6907] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[6912] StaticText 'Get status notifications via '
+			[6913] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[6917] StaticText ' or '
+			[6918] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

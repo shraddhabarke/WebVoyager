@@ -2,5 +2,93 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Find solutions on Apple's website if you forgot your Apple ID password.  Please interact with https://www.apple.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need support info. Click Support link in global navigation.\nAction: Click [73]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: There is a direct link titled \"Forgot Apple Account password\" which likely contains the solutions needed.\nAction: Click [9158]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to bring “Forgot Apple Account password” link into view before clicking. I will scroll down.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The link “Forgot Apple Account password” (9158) is visible in the main section and should be opened to view the solutions.\nAction: Click [9158]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The page might not have scrolled enough for the “Forgot Apple Account password” link to be interactable, so I will scroll further down to ensure it is fully in view before attempting to click again.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The “Forgot Apple Account password” link is visible (label 9158) and should be opened to view the solutions. I will attempt the click again.\nAction: Click [9158]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to see the full set of instructions under each heading to summarize the solutions. I will scroll further down the main content area.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: More sections likely follow, such as web‑based reset or account‑recovery steps. Need to scroll further down in main content to capture all solutions.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[10128] RootWebArea 'If you forgot your Apple Account password - Apple Support' focused: True url: https://support.apple.com/en-us/102656\n\t[11610] main ''\n\t\t[11634] link 'Play a video showing the steps for how to reset your Apple Account password on iPhone \\uf359' url: https://cdsassets.apple.com/vid/live/hls/7WUAS350/videos/a4722805_1726516653.m3u8\n\t\t\t[11635] figure 'Play a video showing the steps for how to reset your Apple Account password on iPhone'\n\t\t\t\t[11636] image '' url: https://cdsassets.apple.com/live/7WUAS350/videos/YT00841_YT790_IfyouforgotyourAppleAccountPassword_Thumbnail_EN_US_V02.original.png\n\t\t[11768] heading 'Reset your Apple Account password on your iPhone, iPad, or Apple Vision Pro'\n\t\t[11773] ListMarker '1. '\n\t\t[11775] StaticText 'Go to Settings.'\n\t\t[11777] ListMarker '2. '\n\t\t[11779] StaticText 'Tap your name > Sign-In & Security > Change Password.'\n\t\t[11780] image 'iPhone showing the Change Password button in Settings' url: https://cdsassets.apple.com/live/7WUAS350/images/apple-account/ios-18-iphone-15-pro-settings-apple-account-sign-in-security-change-password.png\n\t\t[11782] ListMarker '3. '\n\t\t[11784] StaticText 'Follow the onscreen instructions to reset your password.'\n\t\t[11786] heading 'Reset your Apple Account password on your Mac'\n\t\t[11791] ListMarker '1. '\n\t\t[11793] StaticText 'Choose Apple menu \\uf8ff > System Settings.'\n\t\t[11795] ListMarker '2. '\n\t\t[11797] StaticText 'Click [your name] > Sign-In & Security > Change Password.'\n\t\t[11799] ListMarker '3. '\n\t\t[11801] StaticText 'Follow the onscreen instructions to reset your password.'\n\t\t[11803] heading 'If you’re trying to sign in on a new Apple device'\n\t\t[11807] StaticText 'If you’re not signed in to your Apple Account on an Apple device, you can select “Forgot password or don’t have an Apple Account?” during device setup on the Apple Account sign-in screen.'\n\t\t[11810] StaticText 'After setup, you can reset your password in Settings:'\n\t\t[11814] ListMarker '• '\n\t\t[11816] StaticText 'iPhone or iPad: Go to the Settings > Apple Account. Tap “Sign in manually”, and then tap “Forgot password?” and follow the onscreen instructions.'\n\t\t[11818] ListMarker '• '\n\t\t[11820] StaticText 'Mac: Choose Apple menu \\uf8ff > System Settings. Click Sign in, then click “Forgot password” and follow the onscreen instructions.'\n\t\t[11822] heading 'If you don’t have a trusted device'\n\t\t[11825] heading 'Reset your Apple Account password with the Apple Support app on a borrowed device'\n\t\t[11830] StaticText 'If you don’t have an Apple device but have access to your trusted phone number, you can borrow an Apple device from a friend or family member, or use one at an Apple Store.'\n\t\t[11834] ListMarker '1. '\n\t\t[11836] StaticText 'Open the Apple Support app on the borrowed Apple device. If you need to download the Apple Support app, '\n\t\t[11837] link 'find the Apple Support app in the App Store' url: https://apps.apple.com/gb/app/apple-store/id1130498044?pt=2003&ct=support.201487&mt=8\n\t\t\t[11838] StaticText 'find it in the App Store'\n\t\t[11841] ListMarker '2. '\n\t\t[11843] StaticText 'Scroll down to Support Tools, then tap Reset Password.'\n\t\t[11845] ListMarker '3. '\n\t\t[11847] StaticText 'Tap “Help Someone Else”.'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Additional instructions for resetting via borrowed device and other no‑trusted‑device options continue below; scroll further to capture the rest.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[10128] RootWebArea 'If you forgot your Apple Account password - Apple Support' focused: True url: https://support.apple.com/en-us/102656\n\t[11610] main ''\n\t\t[11780] image 'iPhone showing the Change Password button in Settings' url: https://cdsassets.apple.com/live/7WUAS350/images/apple-account/ios-18-iphone-15-pro-settings-apple-account-sign-in-security-change-password.png\n\t\t[11782] ListMarker '3. '\n\t\t[11784] StaticText 'Follow the onscreen instructions to reset your password.'\n\t\t[11786] heading 'Reset your Apple Account password on your Mac'\n\t\t[11791] ListMarker '1. '\n\t\t[11793] StaticText 'Choose Apple menu \\uf8ff > System Settings.'\n\t\t[11795] ListMarker '2. '\n\t\t[11797] StaticText 'Click [your name] > Sign-In & Security > Change Password.'\n\t\t[11799] ListMarker '3. '\n\t\t[11801] StaticText 'Follow the onscreen instructions to reset your password.'\n\t\t[11803] heading 'If you’re trying to sign in on a new Apple device'\n\t\t[11807] StaticText 'If you’re not signed in to your Apple Account on an Apple device, you can select “Forgot password or don’t have an Apple Account?” during device setup on the Apple Account sign-in screen.'\n\t\t[11810] StaticText 'After setup, you can reset your password in Settings:'\n\t\t[11814] ListMarker '• '\n\t\t[11816] StaticText 'iPhone or iPad: Go to the Settings > Apple Account. Tap “Sign in manually”, and then tap “Forgot password?” and follow the onscreen instructions.'\n\t\t[11818] ListMarker '• '\n\t\t[11820] StaticText 'Mac: Choose Apple menu \\uf8ff > System Settings. Click Sign in, then click “Forgot password” and follow the onscreen instructions.'\n\t\t[11822] heading 'If you don’t have a trusted device'\n\t\t[11825] heading 'Reset your Apple Account password with the Apple Support app on a borrowed device'\n\t\t[11830] StaticText 'If you don’t have an Apple device but have access to your trusted phone number, you can borrow an Apple device from a friend or family member, or use one at an Apple Store.'\n\t\t[11834] ListMarker '1. '\n\t\t[11836] StaticText 'Open the Apple Support app on the borrowed Apple device. If you need to download the Apple Support app, '\n\t\t[11837] link 'find the Apple Support app in the App Store' url: https://apps.apple.com/gb/app/apple-store/id1130498044?pt=2003&ct=support.201487&mt=8\n\t\t\t[11838] StaticText 'find it in the App Store'\n\t\t[11841] ListMarker '2. '\n\t\t[11843] StaticText 'Scroll down to Support Tools, then tap Reset Password.'\n\t\t[11845] ListMarker '3. '\n\t\t[11847] StaticText 'Tap “Help Someone Else”.'\n\t\t[11849] ListMarker '4. '\n\t\t[11851] StaticText 'Enter your Apple Account email address or phone number.'\n\t\t[11853] ListMarker '5. '\n\t\t[11855] StaticText 'Tap Continue, and follow the onscreen instructions to reset your password.'\n\t\t[11859] StaticText 'Any information that you enter will not be stored on the device.'\n\t\t[11861] heading 'Reset your Apple Account password on the web'\n\t\t[11865] StaticText 'You can also regain access to your account by resetting your password on the web. When possible, the web browser will redirect you to a trusted device instead.'\n\t\t[11868] StaticText 'If you don’t have a trusted device, you can still reset your password on the web — but the process may take a little longer. If you’ll have access to one of your trusted devices soon, it may be faster and easier to reset your password at that time.'\n\t\t[11871] link 'Reset your password at iforgot.apple.com \\uf301' url: https://iforgot.apple.com/\n\t\t[11878] StaticText 'Published Date:'\n\t\t[11879] StaticText '\\xa0'\n\t\t[11880] time ''\n\t\t\t[11881] StaticText 'April 08, 2025'\n\t[11892] group 'Helpful?'\n\t\t[11902] button 'Yes'\n\t\t[11905] button 'No'"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER;  \nApple lists several ways to regain access when you forget the password to your Apple ID (now called Apple Account):\n\n1. Use a trusted Apple device that’s already signed in  \n   • iPhone / iPad / Apple Vision Pro → Settings ➜ your name ➜ Sign‑In & Security ➜ Change Password, then follow the on‑screen steps.  \n   • Mac → Apple menu  ➜ System Settings ➜ your name ➜ Sign‑In & Security ➜ Change Password, then follow the prompts.\n\n2. During setup of a brand‑new Apple device  \n   • On the Apple Account sign‑in screen choose “Forgot password or don’t have an Apple Account?” and complete the guided reset.  \n   (After setup you can go to Settings > Apple Account and pick “Forgot password?”).\n\n3. If you don’t have any of your own devices  \n   • Borrow an Apple device (friend, family, or Apple Store demo).  \n   • Open the Apple Support app → Support Tools → Reset Password → Help Someone Else.  \n   • Enter your Apple Account email/phone and follow the instructions (nothing is stored on the borrowed device).\n\n4. Reset on the web  \n   • Go to iforgot.apple.com and follow the instructions. If possible, Apple may redirect you to a trusted device; otherwise, complete the web‑based recovery (may take longer without a trusted device).\n\nThese are the official Apple Support solutions for recovering a forgotten Apple ID/Apple Account password."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I have gathered the complete set of official Apple Support methods for resetting a forgotten Apple ID/Apple Account password and can now provide the final answer.\nAction: ANSWER;  \nApple’s support article lists these ways to reset a forgotten Apple ID (Apple Account) password:\n\n1. On a trusted Apple device already signed in  \n   • iPhone/iPad/Vision Pro: Settings → your name → Sign‑In & Security → Change Password → follow onscreen steps.  \n   • Mac: Apple menu  → System Settings → your name → Sign‑In & Security → Change Password → follow prompts.\n\n2. While setting up a new Apple device  \n   • On the Apple Account sign‑in screen choose “Forgot password or don’t have an Apple Account?” and complete the guided reset.  \n   • After setup, go to Settings → Apple Account, tap “Sign in manually,” then “Forgot password?” and follow instructions.\n\n3. If you don’t have a trusted device  \n   • Borrow an Apple device and open the Apple Support app.  \n   • Support Tools → Reset Password → “Help Someone Else,” enter your Apple Account email/phone, tap Continue, and follow instructions (data isn’t stored on the borrowed device).\n\n4. Via the web  \n   • Go to iforgot.apple.com and follow the recovery steps. If a trusted device is available you may be redirected there; otherwise finish the web process (may take longer)."
   }
 ]

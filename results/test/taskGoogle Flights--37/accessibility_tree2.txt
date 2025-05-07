@@ -1,0 +1,22 @@
+[1] RootWebArea 'Google Flights - Find Cheap Flight Options & Track Prices' focused: True url: https://www.google.com/travel/flights/
+	[534] search 'Flight'
+		[842] dialog 'Enter your origin' modal: True
+			[13] combobox 'Where else?' focused: True autocomplete: both hasPopup: menu required: False expanded: True describedby: i24 owns: h0T7hb-14
+				[2214] StaticText 'Seattle'
+			[869] image ''
+			[874] button 'Origin, Select multiple airports'
+				[877] image ''
+			[2222] listbox '' multiselectable: True orientation: vertical required: False
+				[2223] option 'Seattle, Washington' selected: True describedby: c3 c4 
+					[2225] image ''
+					[2306] StaticText 'City in Washington State'
+				[2236] button 'Toggle nearby airports for Seattle, Washington' expanded: True
+					[2239] image ''
+				[2241] option 'Seattle–Tacoma International Airport (SEA)' selected: True describedby: c6 c7
+					[2243] image ''
+					[2309] StaticText '11 mi to destination'
+				[2254] option 'South Seattle, Washington' selected: False describedby: c9 c10 
+					[2256] image ''
+					[2311] StaticText 'Neighborhood in Seattle, Washington'
+				[2267] button 'Toggle nearby airports for South Seattle, Washington' expanded: False
+					[2270] image ''

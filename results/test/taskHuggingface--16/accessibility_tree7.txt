@@ -1,0 +1,103 @@
+[8458] RootWebArea 'xvills/results · Hugging Face' focused: True url: https://huggingface.co/xvills/results
+	[8673] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[8459] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[8461] textbox 'Search models, datasets, users...' required: False
+	[8685] button ''
+	[8772] main ''
+		[8775] sectionheader ''
+			[8777] heading 'xvills / results Copy model name to clipboard like 0'
+				[8784] link '' url: https://huggingface.co/xvills
+				[8790] link 'xvills' url: https://huggingface.co/xvills
+				[8798] link 'results' url: https://huggingface.co/xvills/results
+				[8801] button 'Copy model name to clipboard'
+				[8811] button 'like'
+				[8821] button '0'
+			[8830] link 'Text Classification' url: https://huggingface.co/models?pipeline_tag=text-classification
+			[8859] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[8882] link 'TensorBoard' url: https://huggingface.co/models?library=tensorboard
+			[8893] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[8909] link 'distilbert' url: https://huggingface.co/models?other=distilbert
+			[8919] link 'Generated from Trainer' url: https://huggingface.co/models?other=generated_from_trainer
+			[8932] button 'License: apache-2.0'
+				[8934] image ''
+			[8964] link 'Model card' url: https://huggingface.co/xvills/results
+			[8975] link 'Files' url: https://huggingface.co/xvills/results/tree/main
+			[8989] link 'Metrics' url: https://huggingface.co/xvills/results/tensorboard
+			[9002] link 'Community' url: https://huggingface.co/xvills/results/discussions
+			[9017] button ''
+			[8464] button 'Train'
+			[9052] button 'Deploy'
+			[9073] button 'Use this model'
+		[9102] button ''
+		[9158] heading 'results'
+			[9160] link '' url: https://huggingface.co/xvills/results#results
+		[9172] StaticText 'This model is a fine-tuned version of '
+		[9173] link 'distilbert-base-uncased' url: https://huggingface.co/distilbert-base-uncased
+		[9175] StaticText ' on an unknown dataset.'
+		[9177] heading 'Model description'
+			[9179] link '' url: https://huggingface.co/xvills/results#model-description
+		[9190] StaticText 'More information needed'
+		[9192] heading 'Intended uses & limitations'
+			[9194] link '' url: https://huggingface.co/xvills/results#intended-uses--limitations
+		[9208] heading 'Training and evaluation data'
+			[9210] link '' url: https://huggingface.co/xvills/results#training-and-evaluation-data
+		[9222] StaticText 'More information needed'
+		[9224] heading 'Training procedure'
+			[9226] link '' url: https://huggingface.co/xvills/results#training-procedure
+		[9237] heading 'Training hyperparameters'
+			[9239] link '' url: https://huggingface.co/xvills/results#training-hyperparameters
+		[9251] StaticText 'The following hyperparameters were used during training:'
+		[9256] ListMarker '• '
+		[9257] StaticText 'learning_rate: 2e-05'
+		[9260] ListMarker '• '
+		[9261] StaticText 'train_batch_size: 8'
+		[9264] ListMarker '• '
+		[9265] StaticText 'eval_batch_size: 8'
+		[9268] ListMarker '• '
+		[9269] StaticText 'seed: 42'
+		[9272] ListMarker '• '
+		[9273] StaticText 'optimizer: Use OptimizerNames.ADAMW_TORCH with betas=(0.9,0.999) and epsilon=1e-08 and optimizer_args=No additional optimizer arguments'
+		[9276] ListMarker '• '
+		[9277] StaticText 'lr_scheduler_type: linear'
+		[9280] ListMarker '• '
+		[9281] StaticText 'num_epochs: 2'
+		[9284] heading 'Training results'
+			[9286] link '' url: https://huggingface.co/xvills/results#training-results
+		[9297] heading 'Framework versions'
+			[9299] link '' url: https://huggingface.co/xvills/results#framework-versions
+		[9313] ListMarker '• '
+		[9314] StaticText 'Transformers 4.51.3'
+		[9317] ListMarker '• '
+		[9318] StaticText 'Pytorch 2.6.0+cu124'
+		[9321] ListMarker '• '
+		[9322] StaticText 'Datasets 3.5.1'
+		[9325] ListMarker '• '
+		[9326] StaticText 'Tokenizers 0.21.1'
+		[9334] DescriptionList ''
+			[9335] term 'Downloads last month'
+			[9337] definition ''
+				[9338] StaticText '12'
+		[9343] image ''
+		[9369] StaticText 'Safetensors'
+		[9370] link '' url: https://huggingface.co/docs/safetensors
+		[9379] StaticText 'Model size'
+		[9382] StaticText '67M'
+		[9383] StaticText ' params'
+		[9387] StaticText 'Tensor type'
+		[9390] StaticText 'F32'
+		[9397] button 'Files info'
+		[9418] StaticText 'Inference Providers'
+		[9429] link 'Text Classification' url: https://huggingface.co/tasks/text-classification
+		[9460] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=xvills/results&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bxvills%2Fresults%5D(%2Fxvills%2Fresults)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[9476] heading 'Model tree for xvills/results'
+		[9493] StaticText 'Base model'
+		[9497] link 'distilbert/distilbert-base-uncased' url: https://huggingface.co/distilbert/distilbert-base-uncased
+		[9503] image ''
+		[9514] StaticText 'Finetuned'
+		[9517] StaticText '('
+		[9518] link '8372' url: https://huggingface.co/models?other=base_model:finetune:distilbert/distilbert-base-uncased
+		[9520] StaticText ')'
+		[9525] StaticText 'this model'
+		[9532] heading 'Evaluation results'
+			[9538] link '' url: https://huggingface.co/docs/hub/model-cards#evaluation-results
+		[9550] link 'Metadata error: specify a dataset to view leaderboard' url: https://github.com/huggingface/hub-docs/blame/main/modelcard.md

@@ -1,0 +1,50 @@
+[3396] RootWebArea 'Transformers' focused: True url: https://huggingface.co/docs/transformers/index
+	[3526] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[3397] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[3403] textbox 'Search models, datasets, users...' required: False
+	[3399] button ''
+	[3623] main ''
+		[3634] StaticText 'Transformers'
+		[3635] StaticText ' documentation'
+		[3644] button ''
+		[4053] StaticText 'Join the Hugging Face community'
+		[4056] StaticText 'and get access to the augmented documentation experience'
+		[4067] StaticText 'Collaborate on models, datasets and Spaces'
+		[4075] StaticText 'Faster examples with accelerated inference'
+		[4083] StaticText 'Switch between documentation themes'
+		[4086] link 'Sign Up' url: https://huggingface.co/join
+			[4087] button 'Sign Up'
+		[4091] StaticText 'to get started'
+		[4097] heading 'Transformers'
+			[4098] link '' url: https://huggingface.co/docs/transformers/index#transformers
+		[4108] StaticText 'Transformers is a library of pretrained natural language processing, computer vision, audio, and multimodal models for inference and training. Use Transformers to train models on your data, build inference applications, and generate text with large language models.'
+		[4111] StaticText 'Explore the '
+		[4112] link 'Hugging Face Hub' url: https://huggingface.com/
+		[4114] StaticText ' today to find a model and use Transformers to help you get started right away.'
+		[4116] heading 'Features'
+			[3400] link '' url: https://huggingface.co/docs/transformers/index#features
+		[4126] StaticText 'Transformers provides everything you need for inference or training with state-of-the-art pretrained models. Some of the main features include:'
+		[4130] ListMarker '• '
+		[4131] link 'Pipeline' url: https://huggingface.co/docs/transformers/pipeline_tutorial
+		[4133] StaticText ': Simple and optimized inference class for many machine learning tasks like text generation, image segmentation, automatic speech recognition, document question answering, and more.'
+		[4136] ListMarker '• '
+		[4137] link 'Trainer' url: https://huggingface.co/docs/transformers/trainer
+		[4139] StaticText ': A comprehensive trainer that supports features such as mixed precision, torch.compile, and FlashAttention for training and distributed training for PyTorch models.'
+		[4142] ListMarker '• '
+		[4143] link 'generate' url: https://huggingface.co/docs/transformers/llm_tutorial
+		[4145] StaticText ': Fast text generation with large language models (LLMs) and vision language models (VLMs), including support for streaming and multiple decoding strategies.'
+		[4147] heading 'Design'
+			[4148] link '' url: https://huggingface.co/docs/transformers/index#design
+		[4160] StaticText 'Read our '
+		[4161] link 'Philosophy' url: https://huggingface.co/docs/transformers/philosophy
+		[4163] StaticText ' to learn more about Transformers’ design principles.'
+		[4166] StaticText 'Transformers is designed for developers and machine learning engineers and researchers. Its main design principles are:'
+		[4170] ListMarker '1. '
+		[4171] StaticText 'Fast and easy to use: Every model is implemented from only three main classes (configuration, model, and preprocessor) and can be quickly used for inference or training with '
+		[4172] link 'Pipeline' url: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/pipelines#transformers.Pipeline
+		[4175] link 'Trainer' url: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/trainer#transformers.Trainer
+		[4180] ListMarker '2. '
+		[4181] StaticText 'Pretrained models: Reduce your carbon footprint, compute cost and time by using a pretrained model instead of training an entirely new one. Each pretrained model is reproduced as closely as possible to the original model and offers state-of-the-art performance.'
+		[4184] link 'HuggingFace Expert Acceleration Program' url: https://huggingface.co/support
+			[4185] image 'HuggingFace Expert Acceleration Program' url: https://hf.co/datasets/huggingface/documentation-images/resolve/81d7d9201fd4ceb537fc4cebc22c29c37a2ed216/transformers/transformers-index.png
+		[4204] generic '' live: assertive atomic: True relevant: additions text

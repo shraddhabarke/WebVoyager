@@ -1,0 +1,243 @@
+[18236] RootWebArea 'NBA Scores, 2024-25 Season - ESPN' focused: True url: https://www.espn.com/nba/scoreboard
+	[19907] region 'HeaderScoreboard'
+		[18238] combobox 'Sports' hasPopup: menu expanded: False
+		[18262] combobox 'Sports Dates' hasPopup: menu expanded: False
+		[19973] group ''
+			[19980] link 'MIN 31 LAL 22 End of 1st TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058
+				[19985] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[19995] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[20017] group ''
+			[20026] link 'GS 116 HOU 131' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+				[20029] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[20039] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin
+			[20052] StaticText 'Final'
+		[20056] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard
+	[20061] navigation 'Global Navigation'
+		[20067] button 'Menu' hasPopup: menu expanded: False
+		[18241] link 'ESPN Home Page' url: https://www.espn.com/
+		[18242] link '' url: https://www.espn.com/where-to-watch
+		[20087] button 'Search' expanded: False
+		[20093] button 'Profile Management' hasPopup: menu expanded: False
+			[20095] image 'Profile Management'
+	[20099] navigation 'NBA Menu - LIVE'
+		[20103] link 'ESPN NBA Home Page' url: https://www.espn.com/nba/
+			[18246] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=64&h=64&scale=crop&cquality=40&location=origin
+		[20107] link 'Home' url: https://www.espn.com/nba/
+		[20111] link 'Scores' url: https://www.espn.com/nba/scoreboard
+		[20115] link 'Schedule' url: https://www.espn.com/nba/schedule
+		[20119] link 'Playoffs' url: https://www.espn.com/nba/story/_/id/44610574/nba-playoffs-2025-postseason-news-scores-highlights
+		[20123] link 'Playoffs Bracket' url: https://www.espn.com/nba/playoff-bracket
+		[20127] link 'Standings' url: https://www.espn.com/nba/standings
+		[20131] link 'Stats' url: https://www.espn.com/nba/stats
+		[20135] link 'Teams' url: https://www.espn.com/nba/teams
+		[20139] link 'Odds' url: https://www.espn.com/nba/odds
+		[20143] link 'More' url: https://www.espn.com/nba/scoreboard#
+		[18240] button 'More' hasPopup: menu expanded: False
+	[20157] main ''
+		[20165] Iframe 'Advertisement'
+		[20170] main ''
+			[20175] heading 'NBA Scoreboard'
+			[20181] button ''
+			[20243] StaticText 'SAT'
+			[20246] StaticText 'APR 26'
+			[20252] StaticText 'SUN'
+			[20255] StaticText 'APR 27'
+			[20259] StaticText 'MON'
+			[20262] StaticText 'APR 28'
+			[20266] StaticText 'TUE'
+			[20269] StaticText 'APR 29'
+			[20273] StaticText 'WED'
+			[20276] StaticText 'APR 30'
+			[20280] StaticText 'THU'
+			[20283] StaticText 'MAY 1'
+			[20287] StaticText 'FRI'
+			[20290] StaticText 'MAY 2'
+			[20294] StaticText 'SAT'
+			[20297] StaticText 'MAY 3'
+			[20303] StaticText 'SUN'
+			[20306] StaticText 'MAY 4'
+			[20310] StaticText 'MON'
+			[20313] StaticText 'MAY 5'
+			[20317] StaticText 'TUE'
+			[20320] StaticText 'MAY 6'
+			[20324] StaticText 'WED'
+			[20327] StaticText 'MAY 7'
+			[20331] StaticText 'THU'
+			[20334] StaticText 'MAY 8'
+			[20338] StaticText 'FRI'
+			[20341] StaticText 'MAY 9'
+			[20345] StaticText 'SAT'
+			[20348] StaticText 'MAY 10'
+			[20359] button ''
+			[20362] button 'Calendar'
+			[22586] button ''
+			[22587] button ''
+			[22611] StaticText 'May 2024'
+			[22589] button ''
+			[22590] button '' focused: True
+			[22663] StaticText 'W'
+			[22665] StaticText 'F'
+			[22670] StaticText '1'
+			[22673] StaticText '4'
+			[22677] StaticText '8'
+			[22678] StaticText '9'
+			[22679] StaticText '10'
+			[22680] StaticText '11'
+			[22681] StaticText '12'
+			[22682] StaticText '13'
+			[22683] StaticText '14'
+			[22684] StaticText '15'
+			[22685] StaticText '16'
+			[22686] StaticText '17'
+			[22687] StaticText '18'
+			[22688] StaticText '19'
+			[22689] StaticText '20'
+			[22690] StaticText '21'
+			[22692] StaticText '23'
+			[22693] StaticText '24'
+			[22694] StaticText '25'
+			[22696] StaticText '27'
+			[22697] StaticText '28'
+			[22698] StaticText '29'
+			[22699] StaticText '30'
+			[22700] StaticText '31'
+			[22609] StaticText 'TODAY'
+			[22610] StaticText 'CANCEL'
+			[20368] sectionheader 'Wednesday, April 30, 2025'
+				[20370] heading 'Wednesday, April 30, 2025'
+				[18243] image 'Odds provided by ESPN BET' url: https://assets.espn.com/i/espnbet/ESPN_Bet_Sportsbook_Attribution_Light.svg
+			[20384] StaticText 'End of 1st'
+			[20398] link '' url: https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves
+				[18244] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&scale=crop&cquality=40&location=origin&w=64&h=64
+			[20401] link 'Timberwolves' url: https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves
+			[20405] StaticText '('
+			[20407] StaticText '49-33'
+			[20410] StaticText '24-17'
+			[20412] StaticText 'Away'
+			[20413] StaticText ')'
+			[20416] StaticText '31'
+			[20425] link '' url: https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers
+				[18245] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&scale=crop&cquality=40&location=origin&w=64&h=64
+			[20428] link 'Lakers' url: https://www.espn.com/nba/team/_/name/lal/los-angeles-lakers
+			[20432] StaticText '('
+			[20434] StaticText '50-32'
+			[20437] StaticText '31-10'
+			[20439] StaticText 'Home'
+			[20440] StaticText ')'
+			[20443] StaticText '22'
+			[20453] StaticText 'TNT'
+			[20456] StaticText 'truTV'
+			[20459] StaticText 'Max'
+			[20461] StaticText 'West 1st Round - Game 5, MIN leads series 3-1'
+			[20465] heading 'Last Play End of 1st'
+			[22565] StaticText 'End of the 1st Quarter'
+			[20477] link 'Gamecast' url: https://www.espn.com/nba/game/_/gameId/401768058
+			[20479] link 'Box Score' url: https://www.espn.com/nba/boxscore/_/gameId/401768058
+			[20481] link 'Play-By-Play' url: https://www.espn.com/nba/playbyplay/_/gameId/401768058
+			[20493] StaticText 'FINAL'
+			[20507] link '' url: https://www.espn.com/nba/team/_/name/gs/golden-state-warriors
+				[20508] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&scale=crop&cquality=40&location=origin&w=64&h=64
+			[20511] link 'Warriors' url: https://www.espn.com/nba/team/_/name/gs/golden-state-warriors
+			[20515] StaticText '('
+			[20517] StaticText '48-34'
+			[20520] StaticText '24-17'
+			[20522] StaticText 'Away'
+			[20523] StaticText ')'
+			[20528] StaticText '25'
+			[20530] StaticText '31'
+			[20532] StaticText '36'
+			[20534] StaticText '116'
+			[20538] link '' url: https://www.espn.com/nba/team/_/name/hou/houston-rockets
+				[20539] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&scale=crop&cquality=40&location=origin&w=64&h=64
+			[20542] link 'Rockets' url: https://www.espn.com/nba/team/_/name/hou/houston-rockets
+			[20546] StaticText '('
+			[20548] StaticText '52-30'
+			[20551] StaticText '29-12'
+			[20553] StaticText 'Home'
+			[20554] StaticText ')'
+			[20557] StaticText '40'
+			[20559] StaticText '36'
+			[20561] StaticText '31'
+			[20563] StaticText '24'
+			[20565] StaticText '131'
+			[20572] StaticText 'West 1st Round - Game 5, GS leads series 3-2'
+			[20578] figure ''
+			[20589] heading "Amen Thompson's 25-point, 5-steal night helps Rockets stay alive"
+			[20594] link 'Gamecast' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+			[20596] link 'Box Score' url: https://www.espn.com/nba/boxscore/_/gameId/401767912
+			[20598] link 'Highlights' url: https://www.espn.com/nba/video/_/gameId/401767912
+			[20607] StaticText 'Sponsored Headlines'
+			[20619] link 'Image for Taboola Advertising Unit' url: https://trace.mediago.io/ju/ic
+				[20621] image 'Image for Taboola Advertising Unit'
+			[20624] link 'Washington Launches New Policy For Cars Used Less Than 50 Miles/day Insurance Auto Advice in Taboola advertising section | Taboola Disclosure' url: https://trace.mediago.io/ju/ic
+				[20626] link 'Washington Launches New Policy For Cars Used Less Than 50 Miles/day'
+				[20629] link 'Insurance Auto Advice in Taboola advertising section'
+				[20634] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-04-b:scoreboard-thumbnails-3x2-a%20|%20Card%201:
+					[20636] StaticText 'Sponsored'
+			[20645] link 'Image for Taboola Advertising Unit' url: https://trace.mediago.io/ju/ic
+				[20647] image 'Image for Taboola Advertising Unit'
+			[20650] link 'The All New Mind Blowing Toyota RAV4 Hybrid Is Finally Here (Take a Look) New Toyota RAV4 in Taboola advertising section | Taboola Disclosure' url: https://trace.mediago.io/ju/ic
+				[20652] link 'The All New Mind Blowing Toyota RAV4 Hybrid Is Finally Here (Take a Look)'
+				[20655] link 'New Toyota RAV4 in Taboola advertising section'
+				[20660] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-04-b:scoreboard-thumbnails-3x2-a%20|%20Card%201:
+					[20662] StaticText 'Sponsored'
+			[20671] link 'Image for Taboola Advertising Unit' url: https://trace.mediago.io/ju/ic
+				[20673] image 'Image for Taboola Advertising Unit'
+			[20676] link 'The New Jeep Grand Cherokee Is Truly Blowing Americans Away (Take A Look) Jeep Grand Cherokee 2024 in Taboola advertising section | Taboola Disclosure' url: https://trace.mediago.io/ju/ic
+				[20678] link 'The New Jeep Grand Cherokee Is Truly Blowing Americans Away (Take A Look)'
+				[20681] link 'Jeep Grand Cherokee 2024 in Taboola advertising section'
+				[20686] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-04-b:scoreboard-thumbnails-3x2-a%20|%20Card%201:
+					[20688] StaticText 'Sponsored'
+			[20708] link 'Image for Taboola Advertising Unit' url: https://nuimagemedical.com/wayt-less
+				[20710] image 'Image for Taboola Advertising Unit'
+			[20713] link 'Feel lighter and more in control. WAYT-less® is a weight loss tablet that could fit your routine. WAYT-less® is a once-a-day Rapid Dissolve Tablet that could support your weight loss journey. It can help you feel more confident and in control. Start your plan today and take the first step toward real change at nuimagemedical.com/wayt-less Nu Image Medical in Taboola advertising section | Taboola Disclosure Shop Now' url: https://nuimagemedical.com/wayt-less
+				[20715] link 'Feel lighter and more in control. WAYT-less® is a weight loss tablet that could fit your routine.'
+				[20720] link 'Nu Image Medical in Taboola advertising section'
+				[20725] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-01-b:scoreboard-thumbnails-3x2-a%20|%20Card%202:
+					[20727] StaticText 'Sponsored'
+				[18265] button 'Shop Now'
+			[20738] link 'Image for Taboola Advertising Unit' url: https://nuimagemedical.com/wayt-less
+				[20740] image 'Image for Taboola Advertising Unit'
+			[20743] link 'Ready to feel better in your body? WAYT-less® is a weight loss tablet that could support your goals. WAYT-less® is a once-a-day Rapid Dissolve Tablet that could support your weight loss journey. It can help you feel more confident and in control. Start your plan today and take the first step toward real change at nuimagemedical.com/wayt-less Nu Image Medical in Taboola advertising section | Taboola Disclosure Shop Now' url: https://nuimagemedical.com/wayt-less
+				[20745] link 'Ready to feel better in your body? WAYT-less® is a weight loss tablet that could support your goals.'
+				[20750] link 'Nu Image Medical in Taboola advertising section'
+				[20755] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-01-b:scoreboard-thumbnails-3x2-a%20|%20Card%202:
+					[20757] StaticText 'Sponsored'
+				[20762] button 'Shop Now'
+			[20769] link 'Image for Taboola Advertising Unit' url: https://www2.americareadysupply.com/cid/7013w00000287xDAAQ
+				[20771] image 'Image for Taboola Advertising Unit'
+			[20774] link 'Chuck Norris: I Avoid These 3 Foods Like The Plague Roundhouse Provisions in Taboola advertising section | Taboola Disclosure' url: https://www2.americareadysupply.com/cid/7013w00000287xDAAQ
+				[20776] link 'Chuck Norris: I Avoid These 3 Foods Like The Plague'
+				[20780] link 'Roundhouse Provisions in Taboola advertising section'
+				[20785] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-01-b:scoreboard-thumbnails-3x2-a%20|%20Card%202:
+					[20787] StaticText 'Sponsored'
+			[20807] link 'Image for Taboola Advertising Unit' url: https://brightxpert.net/ljw/wl
+				[20809] image 'Image for Taboola Advertising Unit'
+			[20812] link 'Eat 1 Teaspoon Every Night, See What Happens A Week Later [Video] Healthy News in Taboola advertising section | Taboola Disclosure Learn More' url: https://brightxpert.net/ljw/wl
+				[20814] link 'Eat 1 Teaspoon Every Night, See What Happens A Week Later [Video]'
+				[20818] link 'Healthy News in Taboola advertising section'
+				[20823] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-01-b:scoreboard-thumbnails-3x2-a%20|%20Card%203:
+					[20825] StaticText 'Sponsored'
+				[18267] button 'Learn More'
+			[20836] link 'Image for Taboola Advertising Unit' url: https://brightxpert.net/ljw/wl
+				[20838] image 'Image for Taboola Advertising Unit'
+			[20841] link 'Cardiologist: How Older Women Are Losing Weight Quickly Healthy News in Taboola advertising section | Taboola Disclosure Learn More' url: https://brightxpert.net/ljw/wl
+				[20843] link 'Cardiologist: How Older Women Are Losing Weight Quickly'
+				[20847] link 'Healthy News in Taboola advertising section'
+				[20852] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-01-b:scoreboard-thumbnails-3x2-a%20|%20Card%203:
+					[20854] StaticText 'Sponsored'
+				[20859] button 'Learn More'
+			[20866] link 'Image for Taboola Advertising Unit' url: https://trk.nsoftrack.com/665e3d11-8613-4ca5-9bf1-f6b0df0035db
+				[20868] image 'Image for Taboola Advertising Unit'
+			[20871] link 'Everything is Allowed in This Game! BuzzDaily Winners in Taboola advertising section | Taboola Disclosure' url: https://trk.nsoftrack.com/665e3d11-8613-4ca5-9bf1-f6b0df0035db
+				[20873] link 'Everything is Allowed in This Game!'
+				[20877] link 'BuzzDaily Winners in Taboola advertising section'
+				[20882] link 'Taboola Disclosure' url: https://popup.taboola.com/en/?template=colorbox&utm_source=espnnetwork-espn&utm_medium=referral&utm_content=thumbs-feed-01-b:scoreboard-thumbnails-3x2-a%20|%20Card%203:
+					[20884] StaticText 'Sponsored'
+			[20904] link 'Image for Taboola Advertising Unit'
+				[20906] image 'Image for Taboola Advertising Unit'
+			[20939] link 'Image for Taboola Advertising Unit' url: https://primenutritionsecrets.com/secret-technique
+				[20941] image 'Image for Taboola Advertising Unit'
+			[20966] link 'Image for Taboola Advertising Unit' url: https://primenutritionsecrets.com/secret-technique
+				[20968] image 'Image for Taboola Advertising Unit'
+	[21145] Iframe 'Advertisement'

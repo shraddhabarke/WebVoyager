@@ -1,0 +1,45 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/@47.6741632,-122.1165056,13z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[14] generic '' focused: True
+		[165] generic 'Google Maps'
+			[48] alert 'Your precise location could not be determined.' live: assertive atomic: True relevant: additions text
+				[216] link 'Learn more' url: https://support.google.com/maps/?hl=en&authuser=0&p=browser_lp
+					[217] StaticText 'LEARN MORE'
+				[221] button 'Dismiss'
+			[258] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+				[50] Canvas ''
+			[280] search ''
+				[284] StaticText 'Search Google Maps'
+				[2] combobox 'Search Google Maps' hasPopup: grid required: False expanded: False
+				[285] button 'Search'
+				[321] button 'Directions'
+			[356] region 'Available search options for this area' roledescription: carousel
+				[362] button 'Restaurants'
+				[371] button 'Hotels'
+				[380] button 'Things to do'
+				[389] button 'Museums'
+				[398] button 'Transit'
+				[407] button 'Pharmacies'
+				[416] button 'ATMs'
+				[49] button 'Next page'
+			[13] button 'Menu'
+			[468] button 'Saved'
+			[486] button 'Recents' disabled: True
+			[516] button 'Get the app'
+			[562] button 'Google apps' expanded: False
+				[564] image ''
+			[567] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+			[614] button 'Show Your Location' pressed: false
+			[631] button 'Zoom in'
+			[662] button 'Zoom out'
+			[675] button 'Show Street View coverage'
+			[677] button 'Show imagery'
+			[717] generic 'Interactive map'
+			[755] StaticText 'Layers'
+			[770] button 'Layers' expanded: False
+			[871] contentinfo ''
+				[873] StaticText 'Map data ©2025 Google'
+				[874] button 'United States'
+				[876] button 'Terms'
+				[878] button 'Privacy'
+				[880] button 'Send Product Feedback'
+			[883] button '2000 ft'

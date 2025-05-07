@@ -1,0 +1,99 @@
+[1] RootWebArea 'Pittsburgh International Airport to Hilton Garden Inn Pittsburgh Airport - Google Maps' focused: True url: https://www.google.com/maps/dir/Pittsburgh+International+Airport,+1000+Airport+Blvd,+Pittsburgh,+PA+15231/Hilton+Garden+Inn+Pittsburgh+Airport,+9600+University+Blvd,+Moon+Twp,+PA+15108/@40.4757135,-80.316811,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88345cc34ecd5b37:0xc812270d148d3f59!2m2!1d-80.2372941!2d40.4928542!1m5!1m1!1s0x88345c52e07a6425:0x744bbf2af57f829d!2m2!1d-80.2234387!2d40.5020566?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[3509] radiogroup '' required: False
+			[3512] radio 'Best travel modes' checked: true
+				[3513] image 'Best travel modes'
+			[3522] radio 'Driving 11 min' checked: false
+				[3523] image 'Driving'
+			[3532] radio 'Transit 1h 25m' checked: false
+				[3533] image 'Transit'
+			[3542] radio 'Walking 2h 12m' checked: false
+				[3543] image 'Walking'
+			[3552] radio 'Cycling 38 min' checked: false
+				[3553] image 'Cycling'
+			[3562] radio 'Flights not available' disabled: True checked: false
+				[3563] image 'Flights not available'
+		[3571] button 'Close directions'
+		[3600] combobox '' hasPopup: grid required: False expanded: False
+			[3593] textbox 'Starting point Pittsburgh International Airport' autocomplete: list required: False
+		[3594] button 'Search'
+		[3624] combobox '' hasPopup: grid required: False expanded: False
+			[3617] textbox 'Destination Hilton Garden Inn Pittsburgh Airport, 9600 University Blvd, Moon Twp, PA 15108' autocomplete: list required: False
+		[3618] button 'Search'
+		[3576] button 'Reverse starting point and destination'
+		[3578] button 'Add destination'
+		[20471] region 'Available options for search along this route' roledescription: carousel
+			[20480] button 'Add stops along route'
+				[20508] StaticText 'Search along the route'
+			[20486] button 'Add gas stations along route'
+				[20510] StaticText 'Gas'
+			[20493] button 'Add electric vehicle charging stations along route'
+				[20512] StaticText 'EV charging'
+			[20500] button 'Add hotels along route'
+				[20514] StaticText 'Hotels'
+			[20517] button 'Next page'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[4084] button 'Hilton Garden Inn Pittsburgh Airport 11 min'
+		[1687] button '3 places Carnot-Moon'
+			[1695] generic '3 places'
+		[500] button 'Get the app'
+		[19745] main 'Directions'
+			[20232] button 'Departure options' hasPopup: menu expanded: False
+				[20228] option 'Leave now' selected: True
+				[20238] StaticText '\xa0'
+			[20215] button 'Options' focused: True expanded: False
+			[20288] button 'Send directions to your phone'
+			[20293] button 'Copy link'
+			[20297] link 'Driving 11 min 6.8 miles via I-376BL E Fastest route, the usual traffic Details'
+				[20299] image 'Driving'
+					[20435] StaticText '\ue531'
+				[20307] heading 'via I-376BL E'
+				[20433] StaticText 'Fastest route, the usual traffic'
+				[20315] button 'Details'
+			[20320] button 'Driving 12 min 9.3 miles via I-376 E and I-376BL'
+				[20322] image 'Driving'
+					[20440] StaticText '\ue531'
+				[20330] heading 'via I-376 E and I-376BL'
+			[20333] button 'Transit 1 hr 25 min Information 11:03\u202fAM—12:28\u202fPM Bus 28X , then Bus 21 , then Walk'
+				[20335] image 'Transit'
+					[20455] StaticText '\ue535'
+				[20340] heading 'Information 11:03\u202fAM—12:28\u202fPM'
+					[20342] image 'Information'
+						[20442] StaticText '\ue88e'
+				[20347] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[20447] StaticText '28X'
+				[20360] image ', then'
+					[20448] StaticText '\ue315'
+				[20363] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[20449] StaticText '21'
+				[20376] image ', then'
+					[20450] StaticText '\ue315'
+				[20379] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+			[20387] heading 'Explore nearby Hilton Garden Inn Pittsburgh Airport'
+			[20392] button 'Restaurants'
+			[20397] button 'Hotels'
+			[20402] button 'Gas stations'
+			[20407] button 'Parking Lots'
+			[20412] button 'More'
+		[1498] button 'Collapse side panel'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

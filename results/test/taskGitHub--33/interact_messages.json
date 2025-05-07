@@ -2,5 +2,245 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Find Customer Stories on the GitHub page and list the 2 stories that appear on the web page.  Please interact with https://github.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to see if “Customer Stories” section/link appears further down on GitHub homepage. I will scroll down.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to continue scrolling down to find “Customer Stories”.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Found one customer story (Duolingo). Need to scroll further to locate second story.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Still only one story; continue down.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to keep moving downward; haven’t reached end nor seen second story yet.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Still not at bottom; need to continue scrolling to locate additional customer story.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The second customer story has not yet appeared; continue scrolling down through the homepage to locate another “Read customer story” element.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Still haven’t reached Customer Stories section; need to scroll further down the homepage to locate remaining stories.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the main navigation to look for a direct “Customer Stories” link instead of endlessly scrolling.\nAction: Click 366"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The nav menu is expanded and shows buttons; “Customer Stories” is likely under Resources, so expand Resources.\nAction: Click 737"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: “Customer Stories” link visible under Resources; open it to view stories.\nAction: Click 820"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the “Customer Stories” link (ID 820) under the Resources → Explore list to view the stories.\nAction: Click 820"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Rather than rely on navigation menu (click failed), I’ll return to the homepage content and keep scrolling further down to locate additional customer‑story blocks.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Navigation link click continues to fail, so I’ll open Google to search for the GitHub Customer Stories page directly.\nAction: Google"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to search for GitHub Customer Stories page via Google search bar.\nAction: Type 1; GitHub Customer Stories"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Return to the GitHub page where the Resources menu is open, then retry clicking the “Customer Stories” link in that menu.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Return to the GitHub homepage we were browsing before, then retry the navigation menu to access “Customer Stories”.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The Resources menu is open, and the “Customer Stories” link (label 820) is visible. Clicking it should navigate to the Customer Stories page.\nAction: Click 820"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Use Google to directly open the GitHub Customer Stories page, since clicking the menu link keeps failing.  \nAction: Google"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I need to search Google for “github customer stories” using the focused search box.\nAction: Type 1; github customer stories"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I need to return to the GitHub site where I was previously; going back should take me out of Google and back to GitHub homepage.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I should search Google for “github customer stories” to locate the dedicated GitHub Customer Stories page that lists the stories.\nAction: Type 1; github customer stories"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Google search is blocked by reCAPTCHA. I should go back to the GitHub page I was on earlier and keep working there.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To get back to GitHub, I’ll search “github” in the Google search box and open the GitHub home‑page result.\nAction: Type 1; github"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Google results are blocked; I need to return to the GitHub site I was on before. I’ll go back one page.\nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The GitHub page I previously browsed should still be in the history stack. Going back one step may return to it so I can keep working there.  \nAction: GoBack"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The navigation menu is open, and the link “Customer Stories” (label 820) is listed under Explore. Clicking it should take me to the Customer Stories page.\nAction: Click 820"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The Customer Stories link click still fails, so I’ll close the open navigation overlay to return to the page content and continue scrolling for visible customer‑story blocks.  \nAction: Click 354"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[3414] RootWebArea 'AI · GitHub' focused: True url: https://github.com/resources/articles/ai\n\t[3692] link 'Skip to content' url: https://github.com/resources/articles/ai#start-of-content\n\t[3730] heading 'Navigation Menu'\n\t[3745] button 'Toggle navigation' expanded: False\n\t[3759] link 'Homepage' url: https://github.com/\n\t[3769] link 'Sign in' url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fai\n\t[4812] main ''\n\t\t[4824] heading 'AI'\n\t\t[4829] heading 'TOPICS'\n\t\t[4832] navigation 'TOPICS'\n\t\t\t[3427] link 'All Topics' url: https://github.com/resources/articles\n\t\t\t[4838] link 'AI' url: https://github.com/resources/articles/ai\n\t\t\t[4842] link 'DevOps' url: https://github.com/resources/articles/devops\n\t\t\t[4846] link 'Security' url: https://github.com/resources/articles/security\n\t\t\t[4850] link 'Software Development' url: https://github.com/resources/articles/software-development\n\t\t[4861] heading 'Machine Learning (ML) in Software Development'\n\t\t\t[4862] link 'Machine Learning (ML) in Software Development' url: https://github.com/resources/articles/ai/machine-learning-in-software-development\n\t\t[4866] StaticText 'Discover how machine learning (ML) is used in software development to optimize workflows and improve user experiences. Gain insights from real-world examples, learn how developers are integrating ML models into existing pipelines, and explore the future potential of ML in software development.'\n\t\t[4869] StaticText 'Learn more'\n\t\t[4879] heading 'AI Code Reviews'\n\t\t\t[4880] link 'AI Code Reviews' url: https://github.com/resources/articles/ai/ai-code-reviews\n\t\t[4884] StaticText 'Discover how AI code reviews can boost developer productivity and speed up workflows by automating error detection and providing real-time feedback.'\n\t\t[4887] StaticText 'Learn more'\n\t\t[4897] heading 'What is Natural language processing (NLP)?'\n\t\t\t[4898] link 'What is Natural language processing (NLP)?' url: https://github.com/resources/articles/ai/natural-language-processing\n\t\t[4902] StaticText 'Learn why natural language processing (NLP) is becoming an indispensable tool for developers.'\n\t\t[4905] StaticText 'Learn more'\n\t\t[4915] heading 'What are AI models?'\n\t\t\t[4916] link 'What are AI models?' url: https://github.com/resources/articles/ai/what-are-ai-models\n\t\t[4920] StaticText 'Learn how AI models help organizations identify data patterns, automate workflows, solve complex problems, forecast outcomes, and enhance decision making.'\n\t\t[4923] StaticText 'Learn more'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I need to open the navigation overlay again so I can access the “Customer Stories” link there.  \nAction: Click 3745"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[3414] RootWebArea 'AI · GitHub' focused: True url: https://github.com/resources/articles/ai\n\t[3692] link 'Skip to content' url: https://github.com/resources/articles/ai#start-of-content\n\t[3730] heading 'Navigation Menu'\n\t[3733] button 'Toggle navigation' expanded: True\n\t[3745] button 'Toggle navigation' focused: True expanded: True\n\t[3759] link 'Homepage' url: https://github.com/\n\t[3769] link 'Sign in' url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles%2Fai\n\t[3778] navigation 'Global'\n\t\t[3784] button 'Product' expanded: False\n\t\t[3993] button 'Solutions' expanded: False\n\t\t[4116] button 'Resources' expanded: False\n\t\t[4224] button 'Open Source' expanded: False\n\t\t[4299] button 'Enterprise' expanded: False\n\t\t[4400] link 'Pricing' url: https://github.com/pricing\n\t[4412] button 'Search or jump to…' hasPopup: dialog\n\t\t[4423] StaticText 'Search or jump to...'\n\t[3415] link 'Sign up' url: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Farticles%2Fai&source=header\n\t[4755] button 'Reseting focus'\n\t[4812] main ''\n\t\t[4824] heading 'AI'\n\t\t[4829] heading 'TOPICS'\n\t\t[4832] navigation 'TOPICS'\n\t\t\t[3427] link 'All Topics' url: https://github.com/resources/articles\n\t\t\t[4838] link 'AI' url: https://github.com/resources/articles/ai\n\t\t\t[4842] link 'DevOps' url: https://github.com/resources/articles/devops\n\t\t\t[4846] link 'Security' url: https://github.com/resources/articles/security\n\t\t\t[4850] link 'Software Development' url: https://github.com/resources/articles/software-development\n\t\t[4861] heading 'Machine Learning (ML) in Software Development'\n\t\t\t[4862] link 'Machine Learning (ML) in Software Development' url: https://github.com/resources/articles/ai/machine-learning-in-software-development\n\t\t[4866] StaticText 'Discover how machine learning (ML) is used in software development to optimize workflows and improve user experiences. Gain insights from real-world examples, learn how developers are integrating ML models into existing pipelines, and explore the future potential of ML in software development.'\n\t\t[4869] StaticText 'Learn more'\n\t\t[4879] heading 'AI Code Reviews'\n\t\t\t[4880] link 'AI Code Reviews' url: https://github.com/resources/articles/ai/ai-code-reviews\n\t\t[4884] StaticText 'Discover how AI code reviews can boost developer productivity and speed up workflows by automating error detection and providing real-time feedback.'\n\t\t[4887] StaticText 'Learn more'\n\t\t[4897] heading 'What is Natural language processing (NLP)?'\n\t\t\t[4898] link 'What is Natural language processing (NLP)?' url: https://github.com/resources/articles/ai/natural-language-processing\n\t\t[4902] StaticText 'Learn why natural language processing (NLP) is becoming an indispensable tool for developers.'\n\t\t[4905] StaticText 'Learn more'\n\t\t[4915] heading 'What are AI models?'\n\t\t\t[4916] link 'What are AI models?' url: https://github.com/resources/articles/ai/what-are-ai-models\n\t\t[4920] StaticText 'Learn how AI models help organizations identify data patterns, automate workflows, solve complex problems, forecast outcomes, and enhance decision making.'\n\t\t[4923] StaticText 'Learn more'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to expand the “Resources” section to reveal links such as “Customer Stories”.\nAction: Click 4116"
   }
 ]

@@ -1,0 +1,45 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/@47.6741632,-122.1165056,14z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[17] generic '' focused: True
+		[166] generic 'Google Maps'
+			[50] alert 'Your precise location could not be determined.' live: assertive atomic: True relevant: additions text
+				[217] link 'Learn more' url: https://support.google.com/maps/?hl=en&authuser=0&p=browser_lp
+					[218] StaticText 'LEARN MORE'
+				[222] button 'Dismiss'
+			[260] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+				[48] Canvas ''
+			[282] search ''
+				[286] StaticText 'Search Google Maps'
+				[2] combobox 'Search Google Maps' hasPopup: grid required: False expanded: False
+				[287] button 'Search'
+				[323] button 'Directions'
+			[358] region 'Available search options for this area' roledescription: carousel
+				[41] button 'Restaurants'
+				[372] button 'Hotels'
+				[381] button 'Things to do'
+				[390] button 'Museums'
+				[399] button 'Transit'
+				[408] button 'Pharmacies'
+				[417] button 'ATMs'
+				[51] button 'Next page'
+			[15] button 'Menu'
+			[469] button 'Saved'
+			[487] button 'Recents' disabled: True
+			[517] button 'Get the app'
+			[563] button 'Google apps' expanded: False
+				[565] image ''
+			[568] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+			[615] button 'Show Your Location' pressed: false
+			[632] button 'Zoom in'
+			[663] button 'Zoom out'
+			[676] button 'Show Street View coverage'
+			[677] button 'Show imagery'
+			[717] generic 'Interactive map'
+			[755] StaticText 'Layers'
+			[770] button 'Layers' expanded: False
+			[874] contentinfo ''
+				[876] StaticText 'Map data ©2025 Google'
+				[877] button 'United States'
+				[879] button 'Terms'
+				[881] button 'Privacy'
+				[883] button 'Send Product Feedback'
+			[886] button '2000 ft'

@@ -1,0 +1,74 @@
+[1] RootWebArea 'Find Cheap Flights Worldwide & Book Your Ticket - Google Flights' focused: True url: https://www.google.com/travel/flights?tfs=CBwQARocagwIAxIIL20vMDRzcWpyDAgDEggvbS8wMnowahocagwIAxIIL20vMDJ6MGpyDAgDEggvbS8wNHNxakABSAFwAYIBCwj___________8BmAEB&tfu=KgIIAw
+	[225] button 'Main menu' expanded: False
+		[226] image ''
+	[236] link 'Google' url: https://www.google.com/
+	[245] button 'Skip to main content'
+	[254] button 'Accessibility feedback' hasPopup: dialog
+	[266] link 'Travel'
+		[273] image ''
+	[281] link 'Explore'
+		[288] image ''
+	[295] link 'Flights'
+		[302] image ''
+	[24] link 'Hotels'
+		[27] image ''
+	[31] link 'Vacation rentals'
+		[34] image ''
+	[336] button 'Change appearance' hasPopup: menu expanded: False
+		[345] image ''
+	[357] button 'Google apps' expanded: False
+		[359] image ''
+	[362] link 'Sign in' url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARocagwIAxIIL20vMDRzcWpyDAgDEggvbS8wMnowahocagwIAxIIL20vMDJ6MGpyDAgDEggvbS8wNHNxakABSAFwAYIBCwj___________8BmAEB%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARocagwIAxIIL20vMDRzcWpyDAgDEggvbS8wMnowahocagwIAxIIL20vMDJ6MGpyDAgDEggvbS8wNHNxakABSAFwAYIBCwj___________8BmAEB%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+	[524] StaticText 'Flights'
+	[527] search 'Flight'
+		[535] combobox 'Change ticket type. Round trip' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[600] button '1 passenger' hasPopup: dialog
+			[608] image ''
+			[612] image ''
+		[756] combobox 'Change seating class. Economy' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[10] combobox 'Where from?' autocomplete: inline hasPopup: menu required: False expanded: False
+			[2704] StaticText 'Mexico City'
+		[831] image ''
+		[889] button 'Swap origin and destination.'
+			[894] image ''
+		[12] combobox 'Where to?' focused: True autocomplete: inline hasPopup: menu required: False expanded: False
+			[5786] StaticText 'Frankfurt am Main'
+		[905] image ''
+		[963] image ''
+		[14] textbox 'Departure' required: False describedby: i32
+		[15] textbox 'Return' required: False describedby: i32
+		[1152] button 'Search'
+	[1164] main ''
+		[1166] heading 'Find and book cheap flights worldwide and track prices'
+		[5] heading 'Find cheap flights from Seattle to anywhere'
+		[1173] button 'More information on suggested flights.' hasPopup: menu
+			[38] image ''
+		[1217] button 'Portland'
+		[1219] button 'Everett'
+		[1220] button 'Bellingham'
+		[1252] button 'Explore more destinations from Seattle'
+		[1263] button 'Dublin 452 US dollars Aug 11 — Aug 20 Nonstop·9 hr 5 min'
+			[1270] generic '452 US dollars'
+				[1271] StaticText '$452'
+		[1281] button 'Los Angeles 86 US dollars May 31 — Jun 7 Nonstop·2 hr 45 min'
+			[1288] generic '86 US dollars'
+				[1289] StaticText '$86'
+		[1299] button 'New York 189 US dollars May 24 — May 30 1 stop·11 hr 22 min'
+			[1306] generic '189 US dollars'
+				[1307] StaticText '$189'
+		[1317] button 'Tokyo 780 US dollars Aug 31 — Sep 9 1 stop·12 hr 55 min'
+			[1324] generic '780 US dollars'
+				[1325] StaticText '$780'
+		[1336] heading 'Useful tools to help you find the best flight deals'
+		[1340] button 'Find the cheapest days to fly The Date grid and Price graph make it easy to find the best flight deals'
+			[1342] image ''
+		[1352] button 'Know when to book with price insights Price history and trend data show you the best time to book your airline ticket to get the cheapest price for your flight'
+			[1354] image ''
+		[1380] StaticText 'Insightful tools help you choose your trip dates'
+		[1382] StaticText 'If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the '
+		[1384] StaticText 'Date grid'
+		[1385] StaticText ' and '
+		[1387] StaticText 'Price graph'
+		[1388] StaticText ' options on the '
+		[1389] StaticText 'Search'
+		[1390] StaticText ' page to find the cheapest days to fly and book your tickets.'

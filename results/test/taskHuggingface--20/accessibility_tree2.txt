@@ -1,0 +1,161 @@
+[1785] RootWebArea 'dslim/bert-base-NER · Hugging Face' focused: True url: https://huggingface.co/dslim/bert-base-NER
+	[2011] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1786] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1791] textbox 'Search models, datasets, users...' required: False
+	[2023] button ''
+	[2110] main ''
+		[2113] sectionheader ''
+			[2115] heading 'dslim / bert-base-NER Copy model name to clipboard like 593'
+				[2122] link '' url: https://huggingface.co/dslim
+				[2128] link 'dslim' url: https://huggingface.co/dslim
+				[2136] link 'bert-base-NER' url: https://huggingface.co/dslim/bert-base-NER
+				[1794] button 'Copy model name to clipboard'
+				[2144] button 'like'
+				[2154] button '593'
+			[2164] link 'Token Classification' url: https://huggingface.co/models?pipeline_tag=token-classification
+			[2186] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[2209] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[2227] link 'TensorFlow' url: https://huggingface.co/models?library=tf
+			[2257] link 'JAX' url: https://huggingface.co/models?library=jax
+			[2310] link 'ONNX' url: https://huggingface.co/models?library=onnx
+			[2332] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2349] button 'conll2003'
+			[2371] link 'English' url: https://huggingface.co/models?language=en
+			[2386] link 'bert' url: https://huggingface.co/models?other=bert
+			[2396] link 'Eval Results' url: https://huggingface.co/models?other=model-index
+			[2414] button 'arxiv: 1810.04805'
+			[2439] button 'License: mit'
+				[2441] image ''
+			[2471] link 'Model card' url: https://huggingface.co/dslim/bert-base-NER
+			[2482] link 'Files' url: https://huggingface.co/dslim/bert-base-NER/tree/main
+			[2496] link 'Community 19' url: https://huggingface.co/dslim/bert-base-NER/discussions
+			[2513] button ''
+			[1799] button 'Train'
+			[2548] button 'Deploy'
+			[2569] button 'Use this model'
+		[2598] button ''
+		[2659] heading 'bert-base-NER'
+			[2661] link '' url: https://huggingface.co/dslim/bert-base-NER#bert-base-ner
+		[2673] StaticText 'If my open source models have been useful to you, please consider supporting me in building small, useful AI models for everyone (and help me afford med school / help out my parents financially). Thanks!'
+		[1798] link 'Buy Me A Coffee' url: https://www.buymeacoffee.com/dslim
+			[1800] image 'Buy Me A Coffee' url: https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png
+		[2677] heading 'Model description'
+			[2679] link '' url: https://huggingface.co/dslim/bert-base-NER#model-description
+		[2693] StaticText ' is a fine-tuned BERT model that is ready to use for '
+		[2695] StaticText 'Named Entity Recognition'
+		[2696] StaticText ' and achieves '
+		[2698] StaticText 'state-of-the-art performance'
+		[2699] StaticText ' for the NER task. It has been trained to recognize four types of entities: location (LOC), organizations (ORG), person (PER) and Miscellaneous (MISC).'
+		[2702] StaticText 'Specifically, this model is a '
+		[2703] emphasis ''
+			[2704] StaticText 'bert-base-cased'
+		[2705] StaticText ' model that was fine-tuned on the English version of the standard '
+		[2706] link 'CoNLL-2003 Named Entity Recognition' url: https://www.aclweb.org/anthology/W03-0419.pdf
+		[2708] StaticText ' dataset.'
+		[2712] link 'bert-large-NER' url: https://huggingface.co/dslim/bert-large-NER/
+		[2715] StaticText ' version is also available.'
+		[2717] heading 'Available NER models'
+			[2719] link '' url: https://huggingface.co/dslim/bert-base-NER#available-ner-models
+		[2732] table ''
+			[2734] rowgroup ''
+				[2735] row ''
+					[2737] columnheader 'Model Name' required: False
+					[2740] columnheader 'Description' required: False
+					[2743] columnheader 'Parameters' required: False
+			[2748] row ''
+				[2750] cell 'distilbert-NER (NEW!)'
+					[2751] link 'distilbert-NER' url: https://huggingface.co/dslim/distilbert-NER
+				[2757] cell 'Fine-tuned DistilBERT - a smaller, faster, lighter version of BERT'
+				[2760] cell '66M'
+			[2764] row ''
+				[2766] cell 'bert-large-NER'
+					[2767] link 'bert-large-NER' url: https://huggingface.co/dslim/bert-large-NER/
+				[2770] cell 'Fine-tuned bert-large-cased - larger model with slightly better performance'
+				[2773] cell '340M'
+			[2777] row ''
+				[2779] cell 'bert-base-NER-(uncased)'
+					[2780] link 'bert-base-NER' url: https://huggingface.co/dslim/bert-base-NER
+					[2783] link 'uncased' url: https://huggingface.co/dslim/bert-base-NER-uncased
+				[2787] cell 'Fine-tuned bert-base, available in both cased and uncased versions'
+				[2790] cell '110M'
+		[3332] DescriptionList ''
+			[3333] term 'Downloads last month'
+			[3335] definition ''
+				[3336] StaticText '1,788,493'
+		[3341] image ''
+		[3367] StaticText 'Safetensors'
+		[3368] link '' url: https://huggingface.co/docs/safetensors
+		[3377] StaticText 'Model size'
+		[3380] StaticText '108M'
+		[3381] StaticText ' params'
+		[3385] StaticText 'Tensor type'
+		[3388] StaticText 'F32'
+		[3395] button 'Files info'
+		[3416] StaticText 'Inference Providers'
+		[3427] link 'Token Classification' url: https://huggingface.co/tasks/token-classification
+		[3451] link '🙋 2 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/778
+		[3469] heading 'Model tree for dslim/bert-base-NER'
+		[3490] image ''
+		[3494] StaticText 'Adapters'
+		[3498] link '4 models' url: https://huggingface.co/models?other=base_model:adapter:dslim/bert-base-NER
+		[3505] image ''
+		[3509] StaticText 'Finetunes'
+		[3513] link '21 models' url: https://huggingface.co/models?other=base_model:finetune:dslim/bert-base-NER
+		[3520] image ''
+		[3524] StaticText 'Quantizations'
+		[3528] link '2 models' url: https://huggingface.co/models?other=base_model:quantized:dslim/bert-base-NER
+		[3534] heading 'Dataset used to train dslim/bert-base-NER'
+		[3545] article ''
+			[3546] link 'Updated Jan 18, 2024 • 21.5k • 143' url: https://huggingface.co/datasets/eriktks/conll2003
+				[3548] sectionheader ''
+					[3555] heading 'eriktks/conll2003'
+				[3563] time 'Thu, 18 Jan 2024 09:34:17 GMT'
+					[3564] StaticText 'Jan 18, 2024'
+				[3567] StaticText '•'
+				[3571] StaticText '21.5k'
+				[3577] StaticText '143'
+		[3582] heading 'Spaces using dslim/bert-base-NER 100'
+		[1789] link '🏢 rajistics/Financial_Analyst_AI' url: https://huggingface.co/spaces/rajistics/Financial_Analyst_AI
+		[3604] link '📊 nsethi610/ns-gradio-apps' url: https://huggingface.co/spaces/nsethi610/ns-gradio-apps
+		[3611] link 'dslim/NER' url: https://huggingface.co/spaces/dslim/NER
+		[3619] link '🐠 xu-song/kplug' url: https://huggingface.co/spaces/xu-song/kplug
+		[1788] link '🚀 Taranosaurus/Tokenizaminer' url: https://huggingface.co/spaces/Taranosaurus/Tokenizaminer
+		[3632] link '🔍🏷️ ashish-soni08/Named-Entity-Recognition' url: https://huggingface.co/spaces/ashish-soni08/Named-Entity-Recognition
+		[3639] link '🌍 Chris4K/NamedEntityRecognitionTool' url: https://huggingface.co/spaces/Chris4K/NamedEntityRecognitionTool
+		[3646] link '🐠 keshavashiya/HackathonTeam8' url: https://huggingface.co/spaces/keshavashiya/HackathonTeam8
+		[3653] link '📚 chaouch/El_profesor' url: https://huggingface.co/spaces/chaouch/El_profesor
+		[3660] link '🏢 Sybghat/resume-parser' url: https://huggingface.co/spaces/Sybghat/resume-parser
+		[3667] link '📰 elozano/news-analyzer' url: https://huggingface.co/spaces/elozano/news-analyzer
+		[3674] link '🏷️ aseifert/ExplaiNER' url: https://huggingface.co/spaces/aseifert/ExplaiNER
+		[3687] button '+ 88 Spaces'
+		[3697] heading 'Evaluation results'
+			[3703] link '' url: https://huggingface.co/docs/hub/model-cards#evaluation-results
+		[3714] StaticText 'Accuracy'
+		[3717] StaticText 'conll2003'
+		[3719] link 'test set' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3723] link 'self-reported' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3729] StaticText '0.912'
+		[3734] StaticText 'Precision'
+		[3736] StaticText 'on '
+		[3737] StaticText 'conll2003'
+		[3739] link 'test set' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3743] link 'self-reported' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3749] StaticText '0.921'
+		[3754] StaticText 'Recall'
+		[3756] StaticText 'on '
+		[3757] StaticText 'conll2003'
+		[3759] link 'test set' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3763] link 'self-reported' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3769] StaticText '0.931'
+		[3774] StaticText 'F1'
+		[3776] StaticText 'on '
+		[3777] StaticText 'conll2003'
+		[3779] link 'test set' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3783] link 'self-reported' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3789] StaticText '0.926'
+		[3794] StaticText 'loss'
+		[3796] StaticText 'on '
+		[3797] StaticText 'conll2003'
+		[3799] link 'test set' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3803] link 'self-reported' url: https://huggingface.co/dslim/bert-base-NER/blob/main/README.md
+		[3809] StaticText '0.483'

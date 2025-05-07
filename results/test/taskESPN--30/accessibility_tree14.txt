@@ -1,0 +1,100 @@
+[5953] RootWebArea 'NHL on ESPN - Scores, Stats and Highlights' focused: True url: https://www.espn.com/nhl/
+	[6830] generic '' hasPopup: menu
+		[6832] button 'NHL \ue00d'
+	[6930] generic '' hasPopup: menu
+		[6932] button 'Apr 30 \ue00d'
+	[6961] LayoutTable ''
+		[6962] link 'Full Scoreboard »' url: https://www.espn.com/nhl/scoreboard
+	[6993] StaticText 'End of 3rd'
+	[7005] StaticText 'ESPN'
+	[7016] link 'STL 3 WPG 5' url: https://www.espn.com/nhl/game/_/gameId/401768158
+	[7109] StaticText 'Final'
+	[7118] StaticText 'WSH wins series 4-1'
+	[7122] link 'MTL 1 WSH 4' url: https://www.espn.com/nhl/game/_/gameId/401768142/canadiens-capitals
+	[7225] StaticText 'FLA wins series 4-1'
+	[7229] link 'FLA 6 TB 3' url: https://www.espn.com/nhl/game/_/gameId/401768135/panthers-lightning
+	[7318] link 'Menu' url: https://www.espn.com/nhl/#
+	[7323] heading 'ESPN'
+		[5959] link 'ESPN' url: https://www.espn.com/
+	[7329] link '\ue955' url: https://www.espn.com/where-to-watch
+	[7333] button 'Open Search'
+	[5962] textbox 'Search' required: False
+	[7340] button 'Submit'
+	[7344] link 'Log In ≠' url: https://www.espn.com/nhl/#
+	[7534] link 'NHL NHL' url: https://www.espn.com/nhl/
+		[7538] image 'NHL' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=100&h=100&transparent=true
+		[7541] heading 'NHL'
+	[7550] link 'Home' url: https://www.espn.com/nhl/
+	[7562] link 'Scores' url: https://www.espn.com/nhl/scoreboard
+	[7573] link 'Schedule' url: https://www.espn.com/nhl/schedule
+	[7584] link 'Playoffs Bracket' url: https://www.espn.com/nhl/playoff-bracket
+	[7595] link 'Playoff Daily' url: https://www.espn.com/nhl/story/_/id/44921194/nhl-playoffs-2025-stanley-cup-preview-matchups-stats-three-stars
+	[7606] link 'Standings' url: https://www.espn.com/nhl/standings
+	[7617] link 'Stats' url: https://www.espn.com/nhl/stats
+	[7628] link 'Teams' url: https://www.espn.com/nhl/teams
+	[7639] link 'Odds' url: https://www.espn.com/nhl/odds
+	[7650] link 'Transactions' url: https://www.espn.com/nhl/transactions
+	[7661] link 'More \ue00d' url: https://www.espn.com/nhl/#
+	[7795] Iframe 'Advertisement'
+	[8291] link '' url: https://www.espn.com/watch/player/_/om-navmethod/espn%3Anhl%3Afeed%2Bdefault/id/85b50713-77f4-4ef9-b80b-c62a7fcc87aa
+		[8295] figure ''
+			[5956] image '' url: https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0501%2Fr1486293_1296x729_16%2D9.jpg&w=628&h=353&scale=crop&cquality=80&location=center&format=jpg
+			[8304] StaticText 'Darcy Finley/Getty Images'
+			[8305] Figcaption ''
+				[8308] StaticText 'LIVE'
+	[8309] sectionheader ''
+		[8313] StaticText 'West 1st Round - Game 5'
+		[8316] StaticText 'SERIES TIED 2-2'
+		[8319] link 'Blues 2-2 3 ESPN End of 3rd 5 Jets 2-2' url: https://www.espn.com/nhl/game/_/gameId/401768158
+			[8357] image '' url: https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/stl.png&h=104&w=104
+			[8401] image '' url: https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/wpg.png&h=104&w=104
+	[8436] button 'Previous' disabled: True
+	[8440] generic '' live: polite atomic: False relevant: additions text
+		[8441] listbox '' multiselectable: False orientation: vertical required: False
+			[8444] option "Vladislav Namestnikov's goal extends Jets' lead over Blues 49m Dylan DeMelo scores from the blue line for Jets 1h Jimmy Snuggerud sneaks in a goal for St. Louis 1h Connor Hellebuyck makes acrobatic save for Jets 2h" selected: False
+				[8451] heading "Vladislav Namestnikov's goal extends Jets' lead over Blues"
+				[8458] figure ''
+					[5972] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0501/ss_20250430_233635053_28485322/ss_20250430_233635053_28485322.jpg
+					[8463] Figcaption ''
+						[8465] StaticText '0:50'
+				[8473] heading 'Dylan DeMelo scores from the blue line for Jets'
+				[8479] StaticText '1h'
+				[8480] figure ''
+					[5970] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0430/ss_20250430_232036650_28485201414/ss_20250430_232036650_28485201414.jpg
+					[8485] Figcaption ''
+						[8487] StaticText '0:46'
+				[8495] heading 'Jimmy Snuggerud sneaks in a goal for St. Louis'
+				[8501] StaticText '1h'
+				[8502] figure ''
+					[5971] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0430/ss_20250430_230909266_28485131401/ss_20250430_230909266_28485131401.jpg
+					[8507] Figcaption ''
+						[8509] StaticText '0:47'
+				[8517] heading 'Connor Hellebuyck makes acrobatic save for Jets'
+				[8523] StaticText '2h'
+				[8524] figure ''
+					[5974] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0430/ss_20250430_223836170_2848467/ss_20250430_223836170_2848467.jpg
+					[8529] Figcaption ''
+						[8531] StaticText '0:18'
+	[8608] button 'Next'
+	[8618] link '🏆 Playoff bracket' url: https://www.espn.com/nhl/playoff-bracket
+	[8620] sectionfooter ''
+		[8629] link 'Watch' url: https://www.espn.com/watch/player?eventCalendarId=401768158&om-navmethod=espn%3Anhl%3Agame%20card
+		[8636] link 'Gamecast' url: https://www.espn.com/nhl/game/_/gameId/401768158
+		[8642] link 'Box Score' url: https://www.espn.com/nhl/boxscore/_/gameId/401768158
+	[8650] sectionheader ''
+		[8655] heading '\ue025TOP HEADLINES'
+	[8662] link 'Ovi, Caps finish Habs in first series win since Cup' url: https://www.espn.com/nhl/story/_/id/44942712/ovechkin-capitals-finish-canadiens-hurricanes-tap-next
+	[8665] link 'Panthers oust Lightning, win battle of Fla. again' url: https://www.espn.com/nhl/story/_/id/44943059/panthers-top-lightning-game-5-move-nhl-playoffs
+	[8668] link 'Mammoth gaffe? Utah mum on name after leak' url: https://www.espn.com/nhl/story/_/id/44935255/utah-hockey-club-confirm-mammoth-name-apparent-leak
+	[8671] link "Avs' MacKinnon finalist for Ted Lindsay Award" url: https://www.espn.com/nhl/story/_/id/44938958/avalanc-nathan-mackinnon-finalist-ted-lindsay-award
+	[8675] link 'Canes reach 3-year, $9.5M extension with Hall' url: https://www.espn.com/nhl/story/_/id/44935340/hurricanes-reach-3-year-95m-extension-taylor-hall
+	[8678] link 'Raddysh testifies remotely in Hockey Canada case' url: https://www.espn.com/nhl/story/_/id/44940969/caps-taylor-raddysh-testifies-remotely-hockey-canada-trial
+	[8681] link '2025 NHL mock draft: Pick predictions' url: https://www.espn.com/nhl/insider/story/_/id/44799286/nhl-mock-draft-2025-top-predictions-players-order-best-scouting-reports
+	[8688] sectionheader ''
+		[8691] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png&w=288&h=288&transparent=true
+		[8693] heading 'STANLEY CUP PLAYOFFS'
+	[8699] heading 'Ovechkin scores off the face-off as Caps advance to second round'
+	[8704] figure ''
+		[8708] image '' url: https://a3.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2025%2F0430%2Fss_20250430_193848258_28482801202%2Fss_20250430_193848258_28482801202.jpg&w=628&h=353&scale=crop&cquality=80&location=center&format=jpg
+		[8712] Figcaption ''
+			[8714] StaticText '0:38'

@@ -1,0 +1,85 @@
+[1864] RootWebArea 'aadel4/Wav2vec_Classroom_WSP_FT · Hugging Face' focused: True url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT
+	[2078] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1865] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1863] textbox 'Search models, datasets, users...' required: False
+	[2090] button ''
+	[2177] main ''
+		[2180] sectionheader ''
+			[2182] heading 'aadel4 / Wav2vec_Classroom_WSP_FT Copy model name to clipboard like 1'
+				[2189] link '' url: https://huggingface.co/aadel4
+				[2195] link 'aadel4' url: https://huggingface.co/aadel4
+				[2203] link 'Wav2vec_Classroom_WSP_FT' url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT
+				[2206] button 'Copy model name to clipboard'
+				[2216] button 'like'
+				[2226] button '1'
+			[2236] link 'Automatic Speech Recognition' url: https://huggingface.co/models?pipeline_tag=automatic-speech-recognition
+			[2252] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[2275] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2291] link 'English' url: https://huggingface.co/models?language=en
+			[2306] link 'wav2vec2' url: https://huggingface.co/models?other=wav2vec2
+			[2316] link 'audio' url: https://huggingface.co/models?other=audio
+			[2329] button 'License: mit'
+				[2331] image ''
+			[2361] link 'Model card' url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT
+			[2372] link 'Files' url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT/tree/main
+			[2386] link 'Community' url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT/discussions
+			[2401] button ''
+			[1869] button 'Train'
+			[2436] button 'Deploy'
+			[2457] button 'Use this model'
+		[2486] button ''
+		[2536] heading 'Model Card: Wav2vec_Classroom_WSP_FT'
+			[2538] link '' url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT#model-card-wav2vec_classroom_wsp_ft
+		[2549] heading 'Model Overview'
+			[2551] link '' url: https://huggingface.co/aadel4/Wav2vec_Classroom_WSP_FT#model-overview
+		[2563] StaticText 'Model Name:'
+		[2564] StaticText ' Wav2vec_Classroom_WSP_FT'
+		[2567] StaticText 'Version:'
+		[2568] StaticText ' 1.0'
+		[2571] StaticText 'Developed By:'
+		[2572] StaticText ' Ahmed Adel Attia (University of Maryland)'
+		[2575] StaticText 'Date:'
+		[2576] StaticText ' 2025'
+		[2580] StaticText 'Description:'
+		[2582] StaticText 'Wav2vec_Classroom_WSP_FT is an automatic speech recognition (ASR) model trained specifically for classroom speech transcription using a weakly supervised pretraining (WSP) approach. The model first undergoes supervised pretraining on weakly transcribed classroom data (NCTE-Weak) and is then fine-tuned using a small amount of human-verified gold-standard data (NCTE-Gold). This methodology allows the model to generalize well despite the scarcity of precisely transcribed classroom speech.'
+		[2585] StaticText 'This model is adapted from '
+		[2587] link 'Wav2vec-Classroom' url: https://huggingface.co/aadel4/Wav2vec_Classroom
+		[2589] StaticText ', which was trained using continued pretraining (CPT) on large-scale unlabeled classroom speech data. The adaptation involves further fine-tuning to leverage weak transcriptions before final refinement on high-quality annotations.'
+		[2592] StaticText 'This model was originally trained using the fairseq library then ported into Huggingface.'
+		[2595] StaticText 'The model should be run with n-gram LM beamsearch decoding for best results. We got our best results using '
+		[2596] link 'this' url: https://drive.google.com/drive/u/0/folders/1yAFXcbozqDUFZu-hnnzFP_8SAzDYT2JJ
+		[2598] StaticText ' 5-gram LM we trained on classroom speech text.'
+		[2602] StaticText 'Use Case:'
+		[2608] ListMarker '• '
+		[2609] StaticText 'Speech-to-text transcription for classroom environments.'
+		[2612] ListMarker '• '
+		[2613] StaticText 'Forced allignment of transcription with audio to provide character and word level boundaries.'
+		[2616] ListMarker '• '
+		[2617] StaticText 'Educational research and analysis of classroom discourse.'
+		[2620] ListMarker '• '
+		[2621] StaticText 'Low-resource ASR applications where gold-standard labels are limited.'
+		[2844] DescriptionList ''
+			[2845] term 'Downloads last month'
+			[2847] definition ''
+				[2848] StaticText '195'
+		[2853] image ''
+		[2879] StaticText 'Safetensors'
+		[2880] link '' url: https://huggingface.co/docs/safetensors
+		[2889] StaticText 'Model size'
+		[2892] StaticText '315M'
+		[2893] StaticText ' params'
+		[2897] StaticText 'Tensor type'
+		[2900] StaticText 'F32'
+		[2907] button 'Files info'
+		[2928] StaticText 'Inference Providers'
+		[2939] link 'Automatic Speech Recognition' url: https://huggingface.co/tasks/automatic-speech-recognition
+		[2957] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=aadel4/Wav2vec_Classroom_WSP_FT&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Baadel4%2FWav2vec_Classroom_WSP_FT%5D(%2Faadel4%2FWav2vec_Classroom_WSP_FT)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[2973] heading 'Model tree for aadel4/Wav2vec_Classroom_WSP_FT'
+		[2990] StaticText 'Base model'
+		[2994] link 'aadel4/Wav2vec_Classroom' url: https://huggingface.co/aadel4/Wav2vec_Classroom
+		[3000] image ''
+		[3011] StaticText 'Finetuned'
+		[3014] StaticText '('
+		[3015] link '2' url: https://huggingface.co/models?other=base_model:finetune:aadel4/Wav2vec_Classroom
+		[3017] StaticText ')'
+		[3022] StaticText 'this model'

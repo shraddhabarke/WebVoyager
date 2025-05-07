@@ -1,0 +1,412 @@
+[2886] RootWebArea 'arXiv.org e-Print archive' focused: True url: https://arxiv.org/
+	[2935] StaticText 'Skip to main content'
+	[2943] link 'Cornell University' url: https://www.cornell.edu/
+		[2887] image 'Cornell University' url: https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg
+	[2950] StaticText 'We gratefully acknowledge support from the Simons Foundation, '
+	[2951] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[2953] StaticText ', and all contributors.'
+	[2955] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[2964] heading 'arxiv logo'
+		[2888] image 'arxiv logo' url: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+	[2967] link 'Login' url: https://arxiv.org/login
+	[2880] textbox 'Search term or terms' required: False
+	[2980] link 'Help' url: https://info.arxiv.org/help
+	[2982] StaticText ' | '
+	[2983] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[2881] combobox 'Field to search' hasPopup: menu expanded: False
+	[3043] button 'Search'
+	[3131] main ''
+		[3140] StaticText 'arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv.'
+		[2883] search ''
+			[3145] StaticText 'Subject search and browse:'
+			[2882] combobox 'Subject search and browse:' hasPopup: menu expanded: False
+			[3174] button 'Search'
+			[3176] button 'Form Interface'
+			[2894] button 'Catchup'
+		[3187] heading 'Physics'
+		[3192] ListMarker '• '
+		[3194] link 'Astrophysics' url: https://arxiv.org/archive/astro-ph
+		[3196] StaticText ' ('
+		[3200] link 'new astro-ph' url: https://arxiv.org/list/astro-ph/new
+		[3202] StaticText ', '
+		[3203] link 'recent astro-ph' url: https://arxiv.org/list/astro-ph/recent
+		[3206] link 'search astro-ph' url: https://arxiv.org/search/astro-ph
+		[3208] StaticText ') '
+		[3209] link 'Astrophysics Astrophysics of Galaxies' url: https://arxiv.org/list/astro-ph.GA/recent
+		[3211] StaticText '; '
+		[3212] link 'Astrophysics Cosmology and Nongalactic Astrophysics' url: https://arxiv.org/list/astro-ph.CO/recent
+		[3215] link 'Astrophysics Earth and Planetary Astrophysics' url: https://arxiv.org/list/astro-ph.EP/recent
+		[3218] link 'Astrophysics High Energy Astrophysical Phenomena' url: https://arxiv.org/list/astro-ph.HE/recent
+		[3220] StaticText '; '
+		[3221] link 'Astrophysics Instrumentation and Methods for Astrophysics' url: https://arxiv.org/list/astro-ph.IM/recent
+		[3224] link 'Astrophysics Solar and Stellar Astrophysics' url: https://arxiv.org/list/astro-ph.SR/recent
+		[3229] ListMarker '• '
+		[2892] link 'Condensed Matter' url: https://arxiv.org/archive/cond-mat
+		[3232] StaticText ' ('
+		[3236] link 'new cond-mat' url: https://arxiv.org/list/cond-mat/new
+		[3238] StaticText ', '
+		[3239] link 'recent cond-mat' url: https://arxiv.org/list/cond-mat/recent
+		[3242] link 'search cond-mat' url: https://arxiv.org/search/cond-mat
+		[3244] StaticText ') '
+		[3245] link 'Condensed Matter Disordered Systems and Neural Networks' url: https://arxiv.org/list/cond-mat.dis-nn/recent
+		[3247] StaticText '; '
+		[3248] link 'Condensed Matter Materials Science' url: https://arxiv.org/list/cond-mat.mtrl-sci/recent
+		[3251] link 'Condensed Matter Mesoscale and Nanoscale Physics' url: https://arxiv.org/list/cond-mat.mes-hall/recent
+		[3254] link 'Condensed Matter Other Condensed Matter' url: https://arxiv.org/list/cond-mat.other/recent
+		[3256] StaticText '; '
+		[3257] link 'Condensed Matter Quantum Gases' url: https://arxiv.org/list/cond-mat.quant-gas/recent
+		[3260] link 'Condensed Matter Soft Condensed Matter' url: https://arxiv.org/list/cond-mat.soft/recent
+		[3263] link 'Condensed Matter Statistical Mechanics' url: https://arxiv.org/list/cond-mat.stat-mech/recent
+		[3265] StaticText '; '
+		[3266] link 'Condensed Matter Strongly Correlated Electrons' url: https://arxiv.org/list/cond-mat.str-el/recent
+		[3269] link 'Condensed Matter Superconductivity' url: https://arxiv.org/list/cond-mat.supr-con/recent
+		[3274] ListMarker '• '
+		[3276] link 'General Relativity and Quantum Cosmology' url: https://arxiv.org/archive/gr-qc
+		[3278] StaticText ' ('
+		[2889] link 'new gr-qc' url: https://arxiv.org/list/gr-qc/new
+		[3283] StaticText ', '
+		[3284] link 'recent gr-qc' url: https://arxiv.org/list/gr-qc/recent
+		[3287] link 'search gr-qc' url: https://arxiv.org/search/gr-qc
+		[3289] StaticText ')'
+		[3292] ListMarker '• '
+		[3294] link 'High Energy Physics - Experiment' url: https://arxiv.org/archive/hep-ex
+		[3296] StaticText ' ('
+		[3300] link 'new hep-ex' url: https://arxiv.org/list/hep-ex/new
+		[3302] StaticText ', '
+		[3303] link 'recent hep-ex' url: https://arxiv.org/list/hep-ex/recent
+		[3306] link 'search hep-ex' url: https://arxiv.org/search/hep-ex
+		[3308] StaticText ')'
+		[3311] ListMarker '• '
+		[3313] link 'High Energy Physics - Lattice' url: https://arxiv.org/archive/hep-lat
+		[3315] StaticText ' ('
+		[3319] link 'new hep-lat' url: https://arxiv.org/list/hep-lat/new
+		[3321] StaticText ', '
+		[3322] link 'recent hep-lat' url: https://arxiv.org/list/hep-lat/recent
+		[3325] link 'search hep-lat' url: https://arxiv.org/search/hep-lat
+		[3327] StaticText ')'
+		[3330] ListMarker '• '
+		[3332] link 'High Energy Physics - Phenomenology' url: https://arxiv.org/archive/hep-ph
+		[3334] StaticText ' ('
+		[3338] link 'new hep-ph' url: https://arxiv.org/list/hep-ph/new
+		[3340] StaticText ', '
+		[3341] link 'recent hep-ph' url: https://arxiv.org/list/hep-ph/recent
+		[3344] link 'search hep-ph' url: https://arxiv.org/search/hep-ph
+		[3346] StaticText ')'
+		[3349] ListMarker '• '
+		[3351] link 'High Energy Physics - Theory' url: https://arxiv.org/archive/hep-th
+		[3353] StaticText ' ('
+		[3357] link 'new hep-th' url: https://arxiv.org/list/hep-th/new
+		[3359] StaticText ', '
+		[3360] link 'recent hep-th' url: https://arxiv.org/list/hep-th/recent
+		[3363] link 'search hep-th' url: https://arxiv.org/search/hep-th
+		[3365] StaticText ')'
+		[3367] ListMarker '• '
+		[3369] link 'Mathematical Physics' url: https://arxiv.org/archive/math-ph
+		[3371] StaticText ' ('
+		[3375] link 'new math-ph' url: https://arxiv.org/list/math-ph/new
+		[3377] StaticText ', '
+		[3378] link 'recent math-ph' url: https://arxiv.org/list/math-ph/recent
+		[3381] link 'search math-ph' url: https://arxiv.org/search/math-ph
+		[3383] StaticText ')'
+		[3386] ListMarker '• '
+		[3388] link 'Nonlinear Sciences' url: https://arxiv.org/archive/nlin
+		[3390] StaticText ' ('
+		[3394] link 'new nlin' url: https://arxiv.org/list/nlin/new
+		[3396] StaticText ', '
+		[3397] link 'recent nlin' url: https://arxiv.org/list/nlin/recent
+		[3400] link 'search nlin' url: https://arxiv.org/search/nlin
+		[3402] StaticText ')'
+		[3404] StaticText 'includes: '
+		[3405] link 'Nonlinear Sciences Adaptation and Self-Organizing Systems' url: https://arxiv.org/list/nlin.AO/recent
+		[3407] StaticText '; '
+		[3408] link 'Nonlinear Sciences Cellular Automata and Lattice Gases' url: https://arxiv.org/list/nlin.CG/recent
+		[3411] link 'Nonlinear Sciences Chaotic Dynamics' url: https://arxiv.org/list/nlin.CD/recent
+		[3414] link 'Nonlinear Sciences Exactly Solvable and Integrable Systems' url: https://arxiv.org/list/nlin.SI/recent
+		[3416] StaticText '; '
+		[3417] link 'Nonlinear Sciences Pattern Formation and Solitons' url: https://arxiv.org/list/nlin.PS/recent
+		[3422] ListMarker '• '
+		[3424] link 'Nuclear Experiment' url: https://arxiv.org/archive/nucl-ex
+		[3426] StaticText ' ('
+		[3430] link 'new nucl-ex' url: https://arxiv.org/list/nucl-ex/new
+		[3432] StaticText ', '
+		[3433] link 'recent nucl-ex' url: https://arxiv.org/list/nucl-ex/recent
+		[3436] link 'search nucl-ex' url: https://arxiv.org/search/nucl-ex
+		[3438] StaticText ')'
+		[3441] ListMarker '• '
+		[3443] link 'Nuclear Theory' url: https://arxiv.org/archive/nucl-th
+		[3445] StaticText ' ('
+		[3449] link 'new nucl-th' url: https://arxiv.org/list/nucl-th/new
+		[3451] StaticText ', '
+		[3452] link 'recent nucl-th' url: https://arxiv.org/list/nucl-th/recent
+		[3455] link 'search nucl-th' url: https://arxiv.org/search/nucl-th
+		[3457] StaticText ')'
+		[3460] ListMarker '• '
+		[3462] link 'Physics' url: https://arxiv.org/archive/physics
+		[3464] StaticText ' ('
+		[3468] link 'new physics' url: https://arxiv.org/list/physics/new
+		[3470] StaticText ', '
+		[3471] link 'recent physics' url: https://arxiv.org/list/physics/recent
+		[3474] link 'search physics' url: https://arxiv.org/search/physics
+		[3476] StaticText ')'
+		[3478] StaticText 'includes: '
+		[3479] link 'Physics Accelerator Physics' url: https://arxiv.org/list/physics.acc-ph/recent
+		[3481] StaticText '; '
+		[3482] link 'Physics Applied Physics' url: https://arxiv.org/list/physics.app-ph/recent
+		[3485] link 'Physics Atmospheric and Oceanic Physics' url: https://arxiv.org/list/physics.ao-ph/recent
+		[3488] link 'Physics Atomic and Molecular Clusters' url: https://arxiv.org/list/physics.atm-clus/recent
+		[3490] StaticText '; '
+		[3491] link 'Physics Atomic Physics' url: https://arxiv.org/list/physics.atom-ph/recent
+		[3494] link 'Physics Biological Physics' url: https://arxiv.org/list/physics.bio-ph/recent
+		[3497] link 'Physics Chemical Physics' url: https://arxiv.org/list/physics.chem-ph/recent
+		[3499] StaticText '; '
+		[3500] link 'Physics Classical Physics' url: https://arxiv.org/list/physics.class-ph/recent
+		[2893] link 'Physics Computational Physics' url: https://arxiv.org/list/physics.comp-ph/recent
+		[3505] link 'Physics Data Analysis, Statistics and Probability' url: https://arxiv.org/list/physics.data-an/recent
+		[3507] StaticText '; '
+		[3508] link 'Physics Fluid Dynamics' url: https://arxiv.org/list/physics.flu-dyn/recent
+		[3511] link 'Physics General Physics' url: https://arxiv.org/list/physics.gen-ph/recent
+		[3514] link 'Physics Geophysics' url: https://arxiv.org/list/physics.geo-ph/recent
+		[3516] StaticText '; '
+		[3517] link 'Physics History and Philosophy of Physics' url: https://arxiv.org/list/physics.hist-ph/recent
+		[3520] link 'Physics Instrumentation and Detectors' url: https://arxiv.org/list/physics.ins-det/recent
+		[3523] link 'Physics Medical Physics' url: https://arxiv.org/list/physics.med-ph/recent
+		[3525] StaticText '; '
+		[3526] link 'Physics Optics' url: https://arxiv.org/list/physics.optics/recent
+		[3529] link 'Physics Physics and Society' url: https://arxiv.org/list/physics.soc-ph/recent
+		[3532] link 'Physics Physics Education' url: https://arxiv.org/list/physics.ed-ph/recent
+		[3534] StaticText '; '
+		[3535] link 'Physics Plasma Physics' url: https://arxiv.org/list/physics.plasm-ph/recent
+		[3538] link 'Physics Popular Physics' url: https://arxiv.org/list/physics.pop-ph/recent
+		[3541] link 'Physics Space Physics' url: https://arxiv.org/list/physics.space-ph/recent
+		[3546] ListMarker '• '
+		[3548] link 'Quantum Physics' url: https://arxiv.org/archive/quant-ph
+		[3550] StaticText ' ('
+		[3554] link 'new quant-ph' url: https://arxiv.org/list/quant-ph/new
+		[3556] StaticText ', '
+		[3557] link 'recent quant-ph' url: https://arxiv.org/list/quant-ph/recent
+		[3560] link 'search quant-ph' url: https://arxiv.org/search/quant-ph
+		[3562] StaticText ')'
+		[3565] heading 'Mathematics'
+		[3570] ListMarker '• '
+		[3572] link 'Mathematics' url: https://arxiv.org/archive/math
+		[3574] StaticText ' ('
+		[3578] link 'new math' url: https://arxiv.org/list/math/new
+		[3580] StaticText ', '
+		[3581] link 'recent math' url: https://arxiv.org/list/math/recent
+		[3584] link 'search math' url: https://arxiv.org/search/math
+		[3586] StaticText ')'
+		[3588] StaticText 'includes: (see '
+		[3589] link 'detailed description Mathematics' url: https://info.arxiv.org/help/math/index.html
+		[3591] StaticText '): '
+		[3592] link 'Mathematics Algebraic Geometry' url: https://arxiv.org/list/math.AG/recent
+		[3594] StaticText '; '
+		[3595] link 'Mathematics Algebraic Topology' url: https://arxiv.org/list/math.AT/recent
+		[3598] link 'Mathematics Analysis of PDEs' url: https://arxiv.org/list/math.AP/recent
+		[3601] link 'Mathematics Category Theory' url: https://arxiv.org/list/math.CT/recent
+		[3603] StaticText '; '
+		[3604] link 'Mathematics Classical Analysis and ODEs' url: https://arxiv.org/list/math.CA/recent
+		[3607] link 'Mathematics Combinatorics' url: https://arxiv.org/list/math.CO/recent
+		[3610] link 'Mathematics Commutative Algebra' url: https://arxiv.org/list/math.AC/recent
+		[3612] StaticText '; '
+		[3613] link 'Mathematics Complex Variables' url: https://arxiv.org/list/math.CV/recent
+		[3616] link 'Mathematics Differential Geometry' url: https://arxiv.org/list/math.DG/recent
+		[3619] link 'Mathematics Dynamical Systems' url: https://arxiv.org/list/math.DS/recent
+		[3621] StaticText '; '
+		[3622] link 'Mathematics Functional Analysis' url: https://arxiv.org/list/math.FA/recent
+		[3625] link 'Mathematics General Mathematics' url: https://arxiv.org/list/math.GM/recent
+		[3628] link 'Mathematics General Topology' url: https://arxiv.org/list/math.GN/recent
+		[3630] StaticText '; '
+		[3631] link 'Mathematics Geometric Topology' url: https://arxiv.org/list/math.GT/recent
+		[3634] link 'Mathematics Group Theory' url: https://arxiv.org/list/math.GR/recent
+		[3637] link 'Mathematics History and Overview' url: https://arxiv.org/list/math.HO/recent
+		[3639] StaticText '; '
+		[3640] link 'Mathematics Information Theory' url: https://arxiv.org/list/math.IT/recent
+		[3643] link 'Mathematics K-Theory and Homology' url: https://arxiv.org/list/math.KT/recent
+		[3646] link 'Mathematics Logic' url: https://arxiv.org/list/math.LO/recent
+		[3648] StaticText '; '
+		[3649] link 'Mathematics Mathematical Physics' url: https://arxiv.org/list/math.MP/recent
+		[3652] link 'Mathematics Metric Geometry' url: https://arxiv.org/list/math.MG/recent
+		[3655] link 'Mathematics Number Theory' url: https://arxiv.org/list/math.NT/recent
+		[3657] StaticText '; '
+		[3658] link 'Mathematics Numerical Analysis' url: https://arxiv.org/list/math.NA/recent
+		[3661] link 'Mathematics Operator Algebras' url: https://arxiv.org/list/math.OA/recent
+		[3664] link 'Mathematics Optimization and Control' url: https://arxiv.org/list/math.OC/recent
+		[3666] StaticText '; '
+		[3667] link 'Mathematics Probability' url: https://arxiv.org/list/math.PR/recent
+		[3670] link 'Mathematics Quantum Algebra' url: https://arxiv.org/list/math.QA/recent
+		[3673] link 'Mathematics Representation Theory' url: https://arxiv.org/list/math.RT/recent
+		[3675] StaticText '; '
+		[3676] link 'Mathematics Rings and Algebras' url: https://arxiv.org/list/math.RA/recent
+		[3679] link 'Mathematics Spectral Theory' url: https://arxiv.org/list/math.SP/recent
+		[3682] link 'Mathematics Statistics Theory' url: https://arxiv.org/list/math.ST/recent
+		[3684] StaticText '; '
+		[3685] link 'Mathematics Symplectic Geometry' url: https://arxiv.org/list/math.SG/recent
+		[3690] heading 'Computer Science'
+		[3695] ListMarker '• '
+		[3697] link 'Computing Research Repository' url: https://info.arxiv.org/help/cs/index.html
+		[3699] StaticText ' ('
+		[3701] StaticText 'CoRR'
+		[3703] link 'new CoRR' url: https://arxiv.org/list/cs/new
+		[3705] StaticText ', '
+		[3706] link 'recent CoRR' url: https://arxiv.org/list/cs/recent
+		[3709] link 'search CoRR' url: https://arxiv.org/search/cs
+		[3711] StaticText ')'
+		[3713] StaticText 'includes: (see '
+		[3714] link 'detailed description Computing Research Repository' url: https://info.arxiv.org/help/cs/index.html
+		[3716] StaticText '): '
+		[3717] link 'Computing Research Repository Artificial Intelligence' url: https://arxiv.org/list/cs.AI/recent
+		[3719] StaticText '; '
+		[3720] link 'Computing Research Repository Computation and Language' url: https://arxiv.org/list/cs.CL/recent
+		[3723] link 'Computing Research Repository Computational Complexity' url: https://arxiv.org/list/cs.CC/recent
+		[3726] link 'Computing Research Repository Computational Engineering, Finance, and Science' url: https://arxiv.org/list/cs.CE/recent
+		[3728] StaticText '; '
+		[3729] link 'Computing Research Repository Computational Geometry' url: https://arxiv.org/list/cs.CG/recent
+		[3732] link 'Computing Research Repository Computer Science and Game Theory' url: https://arxiv.org/list/cs.GT/recent
+		[3735] link 'Computing Research Repository Computer Vision and Pattern Recognition' url: https://arxiv.org/list/cs.CV/recent
+		[3737] StaticText '; '
+		[3738] link 'Computing Research Repository Computers and Society' url: https://arxiv.org/list/cs.CY/recent
+		[3741] link 'Computing Research Repository Cryptography and Security' url: https://arxiv.org/list/cs.CR/recent
+		[3744] link 'Computing Research Repository Data Structures and Algorithms' url: https://arxiv.org/list/cs.DS/recent
+		[3746] StaticText '; '
+		[3747] link 'Computing Research Repository Databases' url: https://arxiv.org/list/cs.DB/recent
+		[3750] link 'Computing Research Repository Digital Libraries' url: https://arxiv.org/list/cs.DL/recent
+		[3753] link 'Computing Research Repository Discrete Mathematics' url: https://arxiv.org/list/cs.DM/recent
+		[3755] StaticText '; '
+		[3756] link 'Computing Research Repository Distributed, Parallel, and Cluster Computing' url: https://arxiv.org/list/cs.DC/recent
+		[3759] link 'Computing Research Repository Emerging Technologies' url: https://arxiv.org/list/cs.ET/recent
+		[3762] link 'Computing Research Repository Formal Languages and Automata Theory' url: https://arxiv.org/list/cs.FL/recent
+		[3764] StaticText '; '
+		[3765] link 'Computing Research Repository General Literature' url: https://arxiv.org/list/cs.GL/recent
+		[3768] link 'Computing Research Repository Graphics' url: https://arxiv.org/list/cs.GR/recent
+		[2890] link 'Computing Research Repository Hardware Architecture' url: https://arxiv.org/list/cs.AR/recent
+		[3772] StaticText '; '
+		[3773] link 'Computing Research Repository Human-Computer Interaction' url: https://arxiv.org/list/cs.HC/recent
+		[3776] link 'Computing Research Repository Information Retrieval' url: https://arxiv.org/list/cs.IR/recent
+		[3779] link 'Computing Research Repository Information Theory' url: https://arxiv.org/list/cs.IT/recent
+		[3781] StaticText '; '
+		[3782] link 'Computing Research Repository Logic in Computer Science' url: https://arxiv.org/list/cs.LO/recent
+		[3785] link 'Computing Research Repository Machine Learning' url: https://arxiv.org/list/cs.LG/recent
+		[3788] link 'Computing Research Repository Mathematical Software' url: https://arxiv.org/list/cs.MS/recent
+		[3790] StaticText '; '
+		[3791] link 'Computing Research Repository Multiagent Systems' url: https://arxiv.org/list/cs.MA/recent
+		[3794] link 'Computing Research Repository Multimedia' url: https://arxiv.org/list/cs.MM/recent
+		[3797] link 'Computing Research Repository Networking and Internet Architecture' url: https://arxiv.org/list/cs.NI/recent
+		[3799] StaticText '; '
+		[3800] link 'Computing Research Repository Neural and Evolutionary Computing' url: https://arxiv.org/list/cs.NE/recent
+		[3803] link 'Computing Research Repository Numerical Analysis' url: https://arxiv.org/list/cs.NA/recent
+		[3806] link 'Computing Research Repository Operating Systems' url: https://arxiv.org/list/cs.OS/recent
+		[3808] StaticText '; '
+		[3809] link 'Computing Research Repository Other Computer Science' url: https://arxiv.org/list/cs.OH/recent
+		[3812] link 'Computing Research Repository Performance' url: https://arxiv.org/list/cs.PF/recent
+		[3815] link 'Computing Research Repository Programming Languages' url: https://arxiv.org/list/cs.PL/recent
+		[3817] StaticText '; '
+		[3818] link 'Computing Research Repository Robotics' url: https://arxiv.org/list/cs.RO/recent
+		[3821] link 'Computing Research Repository Social and Information Networks' url: https://arxiv.org/list/cs.SI/recent
+		[3824] link 'Computing Research Repository Software Engineering' url: https://arxiv.org/list/cs.SE/recent
+		[3826] StaticText '; '
+		[3827] link 'Computing Research Repository Sound' url: https://arxiv.org/list/cs.SD/recent
+		[3830] link 'Computing Research Repository Symbolic Computation' url: https://arxiv.org/list/cs.SC/recent
+		[3833] link 'Computing Research Repository Systems and Control' url: https://arxiv.org/list/cs.SY/recent
+		[3838] heading 'Quantitative Biology'
+		[3843] ListMarker '• '
+		[3845] link 'Quantitative Biology' url: https://arxiv.org/archive/q-bio
+		[3847] StaticText ' ('
+		[3851] link 'new q-bio' url: https://arxiv.org/list/q-bio/new
+		[3853] StaticText ', '
+		[3854] link 'recent q-bio' url: https://arxiv.org/list/q-bio/recent
+		[3857] link 'search q-bio' url: https://arxiv.org/search/q-bio
+		[3859] StaticText ')'
+		[3861] StaticText 'includes: (see '
+		[3862] link 'detailed description Quantitative Biology' url: https://info.arxiv.org/help/q-bio/index.html
+		[3864] StaticText '): '
+		[3865] link 'Quantitative Biology Biomolecules' url: https://arxiv.org/list/q-bio.BM/recent
+		[3867] StaticText '; '
+		[3868] link 'Quantitative Biology Cell Behavior' url: https://arxiv.org/list/q-bio.CB/recent
+		[3871] link 'Quantitative Biology Genomics' url: https://arxiv.org/list/q-bio.GN/recent
+		[3874] link 'Quantitative Biology Molecular Networks' url: https://arxiv.org/list/q-bio.MN/recent
+		[3876] StaticText '; '
+		[3877] link 'Quantitative Biology Neurons and Cognition' url: https://arxiv.org/list/q-bio.NC/recent
+		[3880] link 'Quantitative Biology Other Quantitative Biology' url: https://arxiv.org/list/q-bio.OT/recent
+		[3883] link 'Quantitative Biology Populations and Evolution' url: https://arxiv.org/list/q-bio.PE/recent
+		[3885] StaticText '; '
+		[3886] link 'Quantitative Biology Quantitative Methods' url: https://arxiv.org/list/q-bio.QM/recent
+		[3889] link 'Quantitative Biology Subcellular Processes' url: https://arxiv.org/list/q-bio.SC/recent
+		[3892] link 'Quantitative Biology Tissues and Organs' url: https://arxiv.org/list/q-bio.TO/recent
+		[3897] heading 'Quantitative Finance'
+		[3902] ListMarker '• '
+		[3904] link 'Quantitative Finance' url: https://arxiv.org/archive/q-fin
+		[3906] StaticText ' ('
+		[3910] link 'new q-fin' url: https://arxiv.org/list/q-fin/new
+		[3912] StaticText ', '
+		[3913] link 'recent q-fin' url: https://arxiv.org/list/q-fin/recent
+		[3916] link 'search q-fin' url: https://arxiv.org/search/q-fin
+		[3918] StaticText ')'
+		[3920] StaticText 'includes: (see '
+		[3921] link 'detailed description Quantitative Finance' url: https://info.arxiv.org/help/q-fin/index.html
+		[3923] StaticText '): '
+		[3924] link 'Quantitative Finance Computational Finance' url: https://arxiv.org/list/q-fin.CP/recent
+		[3926] StaticText '; '
+		[3927] link 'Quantitative Finance Economics' url: https://arxiv.org/list/q-fin.EC/recent
+		[3930] link 'Quantitative Finance General Finance' url: https://arxiv.org/list/q-fin.GN/recent
+		[3933] link 'Quantitative Finance Mathematical Finance' url: https://arxiv.org/list/q-fin.MF/recent
+		[3935] StaticText '; '
+		[3936] link 'Quantitative Finance Portfolio Management' url: https://arxiv.org/list/q-fin.PM/recent
+		[3939] link 'Quantitative Finance Pricing of Securities' url: https://arxiv.org/list/q-fin.PR/recent
+		[3942] link 'Quantitative Finance Risk Management' url: https://arxiv.org/list/q-fin.RM/recent
+		[3944] StaticText '; '
+		[2891] link 'Quantitative Finance Statistical Finance' url: https://arxiv.org/list/q-fin.ST/recent
+		[3947] link 'Quantitative Finance Trading and Market Microstructure' url: https://arxiv.org/list/q-fin.TR/recent
+		[3952] heading 'Statistics'
+		[3957] ListMarker '• '
+		[3959] link 'Statistics' url: https://arxiv.org/archive/stat
+		[3961] StaticText ' ('
+		[3965] link 'new stat' url: https://arxiv.org/list/stat/new
+		[3967] StaticText ', '
+		[3968] link 'recent stat' url: https://arxiv.org/list/stat/recent
+		[3971] link 'search stat' url: https://arxiv.org/search/stat
+		[3973] StaticText ')'
+		[3975] StaticText 'includes: (see '
+		[3976] link 'detailed description Statistics' url: https://info.arxiv.org/help/stat/index.html
+		[3978] StaticText '): '
+		[3979] link 'Statistics Applications' url: https://arxiv.org/list/stat.AP/recent
+		[3981] StaticText '; '
+		[3982] link 'Statistics Computation' url: https://arxiv.org/list/stat.CO/recent
+		[3985] link 'Statistics Machine Learning' url: https://arxiv.org/list/stat.ML/recent
+		[3988] link 'Statistics Methodology' url: https://arxiv.org/list/stat.ME/recent
+		[3990] StaticText '; '
+		[3991] link 'Statistics Other Statistics' url: https://arxiv.org/list/stat.OT/recent
+		[3994] link 'Statistics Statistics Theory' url: https://arxiv.org/list/stat.TH/recent
+		[3999] heading 'Electrical Engineering and Systems Science'
+		[4004] ListMarker '• '
+		[4006] link 'Electrical Engineering and Systems Science' url: https://arxiv.org/archive/eess
+		[4008] StaticText ' ('
+		[4012] link 'new eess' url: https://arxiv.org/list/eess/new
+		[4014] StaticText ', '
+		[4015] link 'recent eess' url: https://arxiv.org/list/eess/recent
+		[4018] link 'search eess' url: https://arxiv.org/search/eess
+		[4020] StaticText ')'
+		[4022] StaticText 'includes: (see '
+		[4023] link 'detailed description Electrical Engineering and Systems Science' url: https://info.arxiv.org/help/eess/index.html
+		[4025] StaticText '): '
+		[4026] link 'Electrical Engineering and Systems Science Audio and Speech Processing' url: https://arxiv.org/list/eess.AS/recent
+		[4028] StaticText '; '
+		[4029] link 'Electrical Engineering and Systems Science Image and Video Processing' url: https://arxiv.org/list/eess.IV/recent
+		[4032] link 'Electrical Engineering and Systems Science Signal Processing' url: https://arxiv.org/list/eess.SP/recent
+		[4035] link 'Electrical Engineering and Systems Science Systems and Control' url: https://arxiv.org/list/eess.SY/recent
+		[4040] heading 'Economics'
+		[4045] ListMarker '• '
+		[4047] link 'Economics' url: https://arxiv.org/archive/econ
+		[4049] StaticText ' ('
+		[4053] link 'new econ' url: https://arxiv.org/list/econ/new
+		[4055] StaticText ', '
+		[4056] link 'recent econ' url: https://arxiv.org/list/econ/recent
+		[4059] link 'search econ' url: https://arxiv.org/search/econ
+		[4061] StaticText ')'
+		[4063] StaticText 'includes: (see '
+		[4064] link 'detailed description Economics' url: https://info.arxiv.org/help/econ/index.html
+		[4066] StaticText '): '
+		[4067] link 'Economics Econometrics' url: https://arxiv.org/list/econ.EM/recent
+		[4069] StaticText '; '
+		[4070] link 'Economics General Economics' url: https://arxiv.org/list/econ.GN/recent
+		[4073] link 'Economics Theoretical Economics' url: https://arxiv.org/list/econ.TH/recent
+		[4080] heading 'About arXiv'

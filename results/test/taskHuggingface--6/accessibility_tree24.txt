@@ -1,0 +1,69 @@
+[1781] RootWebArea 'sentence-transformers/all-MiniLM-L6-v2 · Hugging Face' focused: True url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+	[2096] main ''
+		[2616] button ''
+		[2952] StaticText 'Our model is intended to be used as a sentence and short paragraph encoder. Given an input text, it outputs a vector which captures the semantic information. The sentence vector may be used for information retrieval, clustering or sentence similarity tasks.'
+		[2955] StaticText 'By default, input text longer than 256 word pieces is truncated.'
+		[2957] heading 'Training procedure'
+			[2959] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#training-procedure
+		[2970] heading 'Pre-training'
+			[2972] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#pre-training
+		[2984] StaticText 'We use the pretrained '
+		[2985] link 'nreimers/MiniLM-L6-H384-uncased' url: https://huggingface.co/nreimers/MiniLM-L6-H384-uncased
+			[2986] code ''
+		[2990] StaticText ' model. Please refer to the model card for more detailed information about the pre-training procedure.'
+		[2992] heading 'Fine-tuning'
+			[2994] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#fine-tuning
+		[3006] StaticText 'We fine-tune the model using a contrastive objective. Formally, we compute the cosine similarity from each possible sentence pairs from the batch. We then apply the cross entropy loss by comparing with true pairs.'
+		[3008] heading 'Hyper parameters'
+			[3010] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#hyper-parameters
+		[3022] StaticText 'We trained our model on a TPU v3-8. We train the model during 100k steps using a batch size of 1024 (128 per TPU core). We use a learning rate warm up of 500. The sequence length was limited to 128 tokens. We used the AdamW optimizer with a 2e-5 learning rate. The full training script is accessible in this current repository: '
+		[3023] code ''
+			[3026] StaticText 'train_script.py'
+		[3029] heading 'Training data'
+			[3031] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#training-data
+		[3043] StaticText 'We use the concatenation from multiple datasets to fine-tune our model. The total number of sentence pairs is above 1 billion sentences. We sampled each dataset given a weighted probability which configuration is detailed in the '
+		[3044] code ''
+			[3047] StaticText 'data_config.json'
+		[3048] StaticText ' file.'
+		[3052] table ''
+			[3054] rowgroup ''
+				[3055] row ''
+					[3057] columnheader 'Dataset' required: False
+					[3060] columnheader 'Paper' required: False
+					[3063] columnheader 'Number of training tuples' required: False
+			[3068] row ''
+				[3070] cell 'Reddit comments (2015-2018)'
+					[3071] link 'Reddit comments (2015-2018)' url: https://github.com/PolyAI-LDN/conversational-datasets/tree/master/reddit
+				[3074] cell 'paper'
+					[3075] link 'paper' url: https://arxiv.org/abs/1904.06472
+				[3078] cell '726,484,430'
+			[3082] row ''
+				[3084] cell 'S2ORC Citation pairs (Abstracts)'
+					[3085] link 'S2ORC' url: https://github.com/allenai/s2orc
+				[3089] cell 'paper'
+					[3090] link 'paper' url: https://aclanthology.org/2020.acl-main.447/
+				[3093] cell '116,288,806'
+			[3097] row ''
+				[3099] cell 'WikiAnswers Duplicate question pairs'
+					[3100] link 'WikiAnswers' url: https://github.com/afader/oqa#wikianswers-corpus
+				[3104] cell 'paper'
+					[3105] link 'paper' url: https://doi.org/10.1145/2623330.2623677
+				[3108] cell '77,427,422'
+			[3112] row ''
+				[3114] cell 'PAQ (Question, Answer) pairs'
+					[3115] link 'PAQ' url: https://github.com/facebookresearch/PAQ
+				[3119] cell 'paper'
+					[3120] link 'paper' url: https://arxiv.org/abs/2102.07033
+				[3123] cell '64,371,441'
+			[3127] row ''
+				[3129] cell 'S2ORC Citation pairs (Titles)'
+					[3130] link 'S2ORC' url: https://github.com/allenai/s2orc
+				[3134] cell 'paper'
+					[3135] link 'paper' url: https://aclanthology.org/2020.acl-main.447/
+				[3138] cell '52,603,982'
+			[3142] row ''
+				[3144] cell 'S2ORC (Title, Abstract)'
+					[3145] link 'S2ORC' url: https://github.com/allenai/s2orc
+				[3149] cell 'paper'
+					[3150] link 'paper' url: https://aclanthology.org/2020.acl-main.447/
+				[3153] cell '41,769,185'

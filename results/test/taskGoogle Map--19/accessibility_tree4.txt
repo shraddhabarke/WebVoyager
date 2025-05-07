@@ -1,0 +1,63 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir//Hilton+Garden+Inn+Pittsburgh+Airport,+9600+University+Blvd,+Moon+Twp,+PA+15108/@40.5020566,-80.3676343,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88345c52e07a6425:0x744bbf2af57f829d!2m2!1d-80.2234387!2d40.5020566?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[3509] radiogroup '' required: False
+			[3512] radio 'Best travel modes' checked: true
+				[3513] image 'Best travel modes'
+			[3522] radio 'Driving' checked: false
+				[3523] image 'Driving'
+			[3532] radio 'Transit' checked: false
+				[3533] image 'Transit'
+			[3542] radio 'Walking' checked: false
+				[3543] image 'Walking'
+			[3552] radio 'Cycling' checked: false
+				[3553] image 'Cycling'
+			[3562] radio 'Flights' checked: false
+				[3563] image 'Flights'
+		[3571] button 'Close directions'
+		[3600] combobox '' hasPopup: grid required: False expanded: True owns: sbsg50
+			[3593] textbox 'Choose starting point, or click on the map...' focused: True autocomplete: list required: False controls: sbsg50
+			[3608] grid '' multiselectable: False
+				[3700] row ''
+					[3691] row ''
+						[3692] gridcell 'Your location Your location' required: False
+							[3694] image 'Your location'
+								[3718] StaticText '\ue55c'
+				[3715] row ''
+					[3705] row ''
+						[3706] gridcell 'Recently viewed Hilton Garden Inn Pittsburgh Airport 9600 University Blvd, Moon Twp, PA 15108' required: False
+							[3708] image 'Recently viewed'
+								[3720] StaticText '\ue8b5'
+		[3594] button 'Search'
+		[3624] combobox '' hasPopup: grid required: False
+			[3617] textbox 'Destination Hilton Garden Inn Pittsburgh Airport, 9600 University Blvd, Moon Twp, PA 15108' autocomplete: list required: False
+		[3618] button 'Search'
+		[3576] button 'Reverse starting point and destination'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[1687] button 'Hilton Garden Inn Pittsburgh Airport'
+		[500] button 'Get the app'
+		[3736] main 'Directions'
+			[3788] heading 'Delays'
+			[3804] StaticText 'Light traffic in this area'
+			[3806] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1498] button 'Collapse side panel'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

@@ -1,0 +1,153 @@
+[11384] RootWebArea '[1911.08183] Nonlinear Model Predictive Control with Enhanced Actuator Model for Multi-Rotor Aerial Vehicles with Generic Designs' focused: True url: https://arxiv.org/abs/1911.08183
+	[11530] StaticText 'Skip to main content'
+	[11538] link 'Cornell University' url: https://www.cornell.edu/
+		[11385] image 'Cornell University' url: https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg
+	[11545] StaticText 'We gratefully acknowledge support from the Simons Foundation, '
+	[11546] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[11548] StaticText ', and all contributors.'
+	[11550] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[11561] link 'arxiv logo' url: https://arxiv.org/
+		[11387] image 'arxiv logo' url: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+	[11564] StaticText '>'
+	[11566] link 'cs' url: https://arxiv.org/list/cs/recent
+	[11571] StaticText 'arXiv:1911.08183'
+	[11390] textbox 'Search term or terms' required: False
+	[11582] link 'Help' url: https://info.arxiv.org/help
+	[11584] StaticText ' | '
+	[11585] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[11391] combobox 'Field to search' hasPopup: menu expanded: False
+	[11645] button 'Search'
+	[11733] main ''
+		[11744] heading 'Computer Science > Robotics'
+		[11760] StaticText '[Submitted on 19 Nov 2019 ('
+		[11761] link 'v1' url: https://arxiv.org/abs/1911.08183v1
+		[11763] StaticText '), last revised 10 Sep 2020 (this version, v2)]'
+		[11765] heading 'Nonlinear Model Predictive Control with Enhanced Actuator Model for Multi-Rotor Aerial Vehicles with Generic Designs'
+		[11773] link 'Davide Bicego' url: https://arxiv.org/search/cs?searchtype=author&query=Bicego,+D
+		[11776] link 'Jacopo Mazzetto' url: https://arxiv.org/search/cs?searchtype=author&query=Mazzetto,+J
+		[11778] StaticText ', '
+		[11779] link 'Ruggero Carli' url: https://arxiv.org/search/cs?searchtype=author&query=Carli,+R
+		[11782] link 'Marcello Farina' url: https://arxiv.org/search/cs?searchtype=author&query=Farina,+M
+		[11785] link 'Antonio Franchi' url: https://arxiv.org/search/cs?searchtype=author&query=Franchi,+A
+		[11417] blockquote ''
+			[11797] StaticText 'In this paper, we propose, discuss, and validate an online Nonlinear Model Predictive Control (NMPC) method for multi-rotor aerial systems with arbitrarily positioned and oriented rotors which simultaneously addresses the local reference trajectory planning and tracking problems. This work brings into question some common modeling and control design choices that are typically adopted to guarantee robustness and reliability but which may severely limit the attainable performance. Unlike most of state of the art works, the proposed method takes advantages of a unified nonlinear model which aims to describe the whole robot dynamics by explicitly including a realistic physical description of the actuator dynamics and limitations. As a matter of fact, our solution does not resort to common simplifications such as: 1) linear model approximation, 2) cascaded control paradigm used to decouple the translational and the rotational dynamics of the rigid body, 3) use of low-level reactive trackers for the stabilization of the internal loop, and 4) unconstrained optimization resolution or use of fictitious constraints. More in detail, we consider as control inputs the derivatives of the propeller forces and propose a novel method to suitably identify the actuator limitations by leveraging experimental data. Differently from previous approaches, the constraints of the optimization problem are defined only by the real physics of the actuators, avoiding conservative -- and often not physical -- input/state saturations which are present, e.g., in cascaded approaches. The control algorithm is implemented using a state-of-the-art Real Time Iteration (RTI) scheme with partial sensitivity update method. CONTINUES...'
+		[11803] table 'Additional metadata'
+			[11806] row ''
+				[11808] cell 'Comments:'
+				[11811] cell 'cs.RO cs.SY math.OC math.DS'
+			[11815] row ''
+				[11817] cell 'Subjects:'
+				[11820] cell 'Robotics (cs.RO); Systems and Control (eess.SY); Dynamical Systems (math.DS); Optimization and Control (math.OC)'
+			[11826] row ''
+				[11828] cell 'Cite as:'
+				[11831] cell 'arXiv:1911.08183 [cs.RO]'
+					[11833] link 'arXiv:1911.08183' url: https://arxiv.org/abs/1911.08183
+			[11838] row ''
+				[11840] cell '\xa0'
+				[11843] cell '(or arXiv:1911.08183v2 [cs.RO] for this version)'
+					[11847] link 'arXiv:1911.08183v2' url: https://arxiv.org/abs/1911.08183v2
+			[11853] row ''
+				[11855] cell '\xa0'
+				[11858] cell 'https://doi.org/10.48550/arXiv.1911.08183 Focus to learn more'
+					[11860] link 'https://doi.org/10.48550/arXiv.1911.08183' url: https://doi.org/10.48550/arXiv.1911.08183
+					[11864] button 'Focus to learn more' describedby: more-info-desc-1
+			[11883] row ''
+				[11885] cell 'Related DOI:'
+					[11887] Abbr 'Digital Object Identifier'
+				[11891] cell 'https://doi.org/10.1007/s10846-020-01250-9 Focus to learn more'
+					[11892] link 'https://doi.org/10.1007/s10846-020-01250-9' url: https://doi.org/10.1007/s10846-020-01250-9
+					[11899] button 'Focus to learn more' describedby: more-info-desc-1
+		[11924] heading 'Submission history'
+		[11926] StaticText 'From: Davide Bicego ['
+		[11927] link 'view email' url: https://arxiv.org/show-email/9c8ddf6c/1911.08183
+		[11933] link '[v1]' url: https://arxiv.org/abs/1911.08183v1
+		[11935] StaticText ' Tue, 19 Nov 2019 10:04:19 UTC (31,125 KB)'
+		[11939] StaticText '[v2]'
+		[11940] StaticText ' Thu, 10 Sep 2020 10:38:08 UTC (41,357 KB)'
+		[11956] heading 'Access Paper:'
+		[11964] link 'View PDF' describedby: download-button-info url: https://arxiv.org/pdf/1911.08183 keyshortcuts: Alt+f
+		[11967] link 'TeX Source' url: https://arxiv.org/src/1911.08183
+		[11970] link 'Other Formats' url: https://arxiv.org/format/1911.08183
+		[11974] link 'view license' url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+		[11981] StaticText 'Current browse context:'
+		[11983] StaticText 'cs.RO'
+		[11989] link '<\xa0prev' url: https://arxiv.org/prevnext?id=1911.08183&function=prev&context=cs.RO keyshortcuts: Alt+p
+		[11994] StaticText '\xa0 | \xa0'
+		[11998] link 'next\xa0>' url: https://arxiv.org/prevnext?id=1911.08183&function=next&context=cs.RO keyshortcuts: Alt+n
+		[12005] link 'new' url: https://arxiv.org/list/cs.RO/new
+		[12011] link 'recent' url: https://arxiv.org/list/cs.RO/recent
+		[12015] StaticText '| '
+		[12016] link '2019-11' url: https://arxiv.org/list/cs.RO/2019-11
+		[12020] StaticText 'Change to browse by:'
+		[12023] link 'cs' url: https://arxiv.org/abs/1911.08183?context=cs
+		[12027] link 'cs.SY' url: https://arxiv.org/abs/1911.08183?context=cs.SY
+		[12031] link 'eess' url: https://arxiv.org/abs/1911.08183?context=eess
+		[12035] link 'eess.SY' url: https://arxiv.org/abs/1911.08183?context=eess.SY
+		[12039] link 'math' url: https://arxiv.org/abs/1911.08183?context=math
+		[12043] link 'math.DS' url: https://arxiv.org/abs/1911.08183?context=math.DS
+		[12047] link 'math.OC' url: https://arxiv.org/abs/1911.08183?context=math.OC
+		[12056] heading 'References & Citations'
+		[12062] link 'NASA ADS' url: https://ui.adsabs.harvard.edu/abs/arXiv:1911.08183
+		[12065] link 'Google Scholar' url: https://scholar.google.com/scholar_lookup?arxiv_id=1911.08183
+		[12069] link 'Semantic Scholar' url: https://api.semanticscholar.org/arXiv:1911.08183
+		[12078] heading 'DBLP - CS Bibliography'
+			[12079] link 'DBLP' url: https://dblp.uni-trier.de/
+		[12085] link 'listing' url: https://dblp.uni-trier.de/db/journals/corr/corr1911.html#abs-1911-08183
+		[12087] StaticText ' | '
+		[12088] link 'bibtex' url: https://dblp.uni-trier.de/rec/bibtex/journals/corr/abs-1911-08183
+		[12094] link 'Davide Bicego' url: https://dblp.uni-trier.de/search/author?author=Davide%20Bicego
+		[12097] link 'Ruggero Carli' url: https://dblp.uni-trier.de/search/author?author=Ruggero%20Carli
+		[12100] link 'Marcello Farina' url: https://dblp.uni-trier.de/search/author?author=Marcello%20Farina
+		[12103] link 'Antonio Franchi' url: https://dblp.uni-trier.de/search/author?author=Antonio%20Franchi
+		[12113] StaticText 'Export BibTeX Citation'
+		[12149] heading 'Bookmark'
+		[12151] link 'BibSonomy logo' url: http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/1911.08183&description=Nonlinear%20Model%20Predictive%20Control%20with%20Enhanced%20Actuator%20Model%20for%20Multi-Rotor%20Aerial%20Vehicles%20with%20Generic%20Designs
+			[12153] image 'BibSonomy logo' url: https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png
+		[12156] link 'Reddit logo' url: https://reddit.com/submit?url=https://arxiv.org/abs/1911.08183&title=Nonlinear%20Model%20Predictive%20Control%20with%20Enhanced%20Actuator%20Model%20for%20Multi-Rotor%20Aerial%20Vehicles%20with%20Generic%20Designs
+			[12158] image 'Reddit logo' url: https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png
+		[12172] StaticText 'Bibliographic Tools'
+		[12176] heading 'Bibliographic and Citation Tools'
+		[12192] StaticText 'Bibliographic Explorer Toggle'
+		[12201] emphasis ''
+			[12202] StaticText '('
+			[12203] link 'What is the Explorer?' url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+			[12205] StaticText ')'
+		[12220] StaticText 'Connected Papers Toggle'
+		[12229] emphasis ''
+			[12230] StaticText '('
+			[12231] link 'What is Connected Papers?' url: https://www.connectedpapers.com/about
+			[12233] StaticText ')'
+		[12247] StaticText 'Litmaps Toggle'
+		[12256] emphasis ''
+			[12257] StaticText '('
+			[12258] link 'What is Litmaps?' url: https://www.litmaps.co/
+			[12260] StaticText ')'
+		[12275] StaticText 'scite.ai Toggle'
+		[12282] StaticText 'scite Smart Citations'
+		[12284] emphasis ''
+			[12285] StaticText '('
+			[12286] link 'What are Smart Citations?' url: https://www.scite.ai/
+			[12288] StaticText ')'
+		[12304] StaticText 'Code, Data, Media'
+		[12522] StaticText 'Demos'
+		[12622] StaticText 'Related Papers'
+		[12731] StaticText 'About arXivLabs'
+		[12777] link 'Which authors of this paper are endorsers?' url: https://arxiv.org/auth/show-endorsers/1911.08183
+		[12779] StaticText ' | '
+		[12780] link 'Disable MathJax' url: javascript:setMathjaxCookie()
+		[12782] StaticText ' ('
+		[12783] link 'What is MathJax?' url: https://info.arxiv.org/help/mathjax.html
+	[12795] contentinfo ''
+		[12797] navigation 'Secondary'
+			[12810] link 'About' url: https://info.arxiv.org/about
+			[12814] link 'Help' url: https://info.arxiv.org/help
+			[12832] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[12845] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[12866] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[12870] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[12880] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[12887] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[12892] StaticText 'Get status notifications via '
+			[12893] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[12897] StaticText ' or '
+			[12898] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

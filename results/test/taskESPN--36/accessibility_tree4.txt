@@ -1,0 +1,110 @@
+[1] RootWebArea 'ESPN - Serving Sports Fans. Anytime. Anywhere.' focused: True url: https://www.espn.com/
+	[960] generic '' hasPopup: menu
+		[962] button 'Top Events \ue00d'
+	[1102] heading 'NBA'
+	[1127] StaticText 'Final'
+	[1136] StaticText 'GS leads series 3-2'
+	[1140] link 'GS 116 HOU 131' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+	[1245] StaticText 'MIN wins series 4-1'
+	[1249] link 'MIN 103 LAL 96' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+	[1334] heading 'NHL'
+	[1359] StaticText 'Final'
+	[1368] StaticText 'WSH wins series 4-1'
+	[1372] link 'MTL 1 WSH 4' url: https://www.espn.com/nhl/game/_/gameId/401768142/canadiens-capitals
+	[1477] StaticText 'FLA wins series 4-1'
+	[1481] link 'FLA 6 TB 3' url: https://www.espn.com/nhl/game/_/gameId/401768135/panthers-lightning
+	[1577] StaticText 'Final'
+	[1586] StaticText 'WPG leads series 3-2'
+	[1590] link 'STL 3 WPG 5' url: https://www.espn.com/nhl/game/_/gameId/401768158/blues-jets
+	[1675] heading 'MLB'
+	[1700] StaticText 'Final'
+	[1707] link 'STL 6 CIN 0' url: https://www.espn.com/mlb/game/_/gameId/401769679/cardinals-reds
+	[1806] link 'DET 7 HOU 4' url: https://www.espn.com/mlb/game/_/gameId/401695360/tigers-astros
+	[1887] link 'ATL 1 COL 2' url: https://www.espn.com/mlb/game/_/gameId/401695363/braves-rockies
+	[1961] StaticText 'Final'
+	[1968] link 'MIA 7 LAD 12' url: https://www.espn.com/mlb/game/_/gameId/401695365/marlins-dodgers
+	[2049] link 'LAA 3 SEA 9' url: https://www.espn.com/mlb/game/_/gameId/401695364/angels-mariners
+	[2130] link 'SF 3 SD 5' url: https://www.espn.com/mlb/game/_/gameId/401695366/giants-padres
+	[2204] StaticText 'Final'
+	[2211] link 'MIN 2 CLE 4' url: https://www.espn.com/mlb/game/_/gameId/401695356/twins-guardians
+	[2292] link 'NYY 4 BAL 5' url: https://www.espn.com/mlb/game/_/gameId/401695357/yankees-orioles
+	[2373] link 'CHC 3 PIT 4' url: https://www.espn.com/mlb/game/_/gameId/401695354/cubs-pirates
+	[2447] StaticText 'Final'
+	[2454] link 'STL 9 CIN 1' url: https://www.espn.com/mlb/game/_/gameId/401695358/cardinals-reds
+	[2553] link 'WSH 2 PHI 7' url: https://www.espn.com/mlb/game/_/gameId/401695359/nationals-phillies
+	[2634] link 'KC 3 TB 0' url: https://www.espn.com/mlb/game/_/gameId/401695355/royals-rays
+	[4309] link 'Menu' url: https://www.espn.com/#
+	[4314] heading 'ESPN'
+		[10] link 'ESPN' url: https://www.espn.com/
+	[4320] link '\ue955' url: https://www.espn.com/where-to-watch
+	[4324] button 'Open Search'
+	[5] textbox 'Search' focused: True required: False
+	[4331] button 'Submit'
+	[4335] link 'Log In ≠' url: https://www.espn.com/#
+	[4616] Iframe 'Advertisement'
+	[5143] sectionheader ''
+		[5147] StaticText 'West 1st Round - Game 5'
+		[5150] StaticText 'MIN WINS SERIES 4-1'
+		[5153] link 'Timberwolves 4-1 103 \ue087 Final 96 Lakers 1-4' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+			[5188] image '' url: https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&h=104&w=104
+			[5224] image '' url: https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&h=104&w=104
+	[5260] heading 'Edwards somehow gets tough shot to fall as Timberwolves eliminate Lakers'
+	[5264] StaticText '16m'
+	[5265] figure ''
+		[8] image '' url: https://a2.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2025%2F0501%2Fss_20250501_000456975_2848541%2Fss_20250501_000456975_2848541.jpg&w=628&h=353&scale=crop&cquality=80&location=center&format=jpg
+		[65] Iframe 'ESPN Video'
+		[5272] Figcaption ''
+			[5274] StaticText '0:17'
+	[5279] button 'Previous' disabled: True
+	[5283] generic '' live: polite atomic: False relevant: additions text
+		[5284] listbox '' multiselectable: False orientation: vertical required: False
+			[5287] option 'Mike Conley sinks dagger 3 for Timberwolves 1m Randle gets big floater to fall for Timberwolves 17m Luka Doncic dimes Rui Hachimura for Lakers alley-oop slam 17m Doncic leaves for locker room after hard foul 16m' selected: False
+				[5294] heading 'Mike Conley sinks dagger 3 for Timberwolves'
+				[5299] figure ''
+					[5301] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0501/ss_20250501_005245307_2848567/ss_20250501_005245307_2848567.jpg
+					[5305] Figcaption ''
+						[5307] StaticText '0:26'
+				[5315] heading 'Randle gets big floater to fall for Timberwolves'
+				[5319] StaticText '17m'
+				[5320] figure ''
+					[5322] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0501/ss_20250501_004607011_2848566/ss_20250501_004607011_2848566.jpg
+					[5326] Figcaption ''
+						[5328] StaticText '0:17'
+				[5336] heading 'Luka Doncic dimes Rui Hachimura for Lakers alley-oop slam'
+				[5340] StaticText '17m'
+				[5341] figure ''
+					[5343] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0501/ss_20250501_001517792_2848550/ss_20250501_001517792_2848550.jpg
+					[5347] Figcaption ''
+						[5349] StaticText '0:17'
+				[5357] heading 'Doncic leaves for locker room after hard foul'
+				[5361] StaticText '16m'
+				[5362] figure ''
+					[5364] image '' url: https://a.espncdn.com/combiner/i?img=/media/motion/2025/0430/ss_20250430_233035589_2848524/ss_20250430_233035589_2848524.jpg
+					[5368] Figcaption ''
+						[5370] StaticText '1:03'
+	[5423] button 'Next'
+	[5433] link '🏆 Playoff bracket' url: https://www.espn.com/nba/playoff-bracket
+	[5438] link 'Lakers offseason preview: How L.A. can build around Luka and LeBron' url: https://www.espn.com/nba/story/_/id/44588112/nba-offseason-2025-draft-free-agency-trade-targets-30-teams
+	[5440] sectionfooter ''
+		[5447] link 'Gamecast' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+		[5453] link 'Box Score' url: https://www.espn.com/nba/boxscore/_/gameId/401768058
+	[5461] sectionheader ''
+		[5466] heading '\ue025TOP HEADLINES'
+	[5473] link 'Fan critical after falling from 21-foot wall at PNC' url: https://www.espn.com/mlb/story/_/id/44941951/fan-carted-fall-right-field-wall-pnc-park
+	[5476] link "Thompson's steals reward Rockets in Game 5 rout" url: https://www.espn.com/nba/story/_/id/44944453/amen-thompson-all-game-5-powers-rockets-warriors
+	[5479] link 'Ovi, Caps finish Habs in first series win since Cup' url: https://www.espn.com/nhl/story/_/id/44942712/ovechkin-capitals-finish-canadiens-hurricanes-tap-next
+	[5482] link "Lightning concede it's Panthers' turn to rule rivalry" url: https://www.espn.com/nhl/story/_/id/44944721/ousted-lightning-concede-panthers-turn-rule-rivalry
+	[5485] link "Daniels tops Zubac, Cunningham for NBA's MIP" url: https://www.espn.com/nba/story/_/id/44940284/hawks-dyson-daniels-wins-nba-most-improved-player-award
+	[5489] link 'Caps keep Messi in check, bounce Miami from cup' url: https://www.espn.com/soccer/report/_/gameId/735305
+	[5492] link "Elway's business partner dies from fall injuries" url: https://www.espn.com/nfl/story/_/id/44936924/john-elway-business-partner-ex-agent-dies-fall-injuries
+	[5495] link 'Riveras added as defendants in sexual abuse suit' url: https://www.espn.com/mlb/story/_/id/44940868/mariano-rivera-wife-added-defendants-sexual-abuse-suit
+	[5498] link "Yates' favorite picks from NFL draft" url: https://www.espn.com/nfl/draft2025/insider/story/_/id/44901054/2025-nfl-draft-best-picks-value-steals-every-round-yates
+	[5504] article ''
+		[5505] sectionheader ''
+			[5509] StaticText 'West 1st Round - Game 5'
+			[5512] StaticText 'GS LEADS SERIES 3-2'
+			[5515] link 'Warriors 3-2 116 Final \ue088 131 Rockets 2-3' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+				[5553] image '' url: https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&h=104&w=104
+				[5592] image '' url: https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&h=104&w=104
+		[5632] figure ''
+			[5636] image ''

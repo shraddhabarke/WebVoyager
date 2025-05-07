@@ -1,0 +1,123 @@
+[22735] RootWebArea 'Jean-Baptiste/roberta-large-ner-english · Hugging Face' focused: True url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
+	[22952] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[22736] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[22739] textbox 'Search models, datasets, users...' required: False
+	[22964] button ''
+	[23051] main ''
+		[23054] sectionheader ''
+			[23056] heading 'Jean-Baptiste / roberta-large-ner-english Copy model name to clipboard like 71'
+				[23063] link '' url: https://huggingface.co/Jean-Baptiste
+				[23069] link 'Jean-Baptiste' url: https://huggingface.co/Jean-Baptiste
+				[23077] link 'roberta-large-ner-english' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
+				[23080] button 'Copy model name to clipboard'
+				[23090] button 'like'
+				[23100] button '71'
+			[23110] link 'Token Classification' url: https://huggingface.co/models?pipeline_tag=token-classification
+			[23132] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[23155] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[23173] link 'TensorFlow' url: https://huggingface.co/models?library=tf
+			[23203] link 'ONNX' url: https://huggingface.co/models?library=onnx
+			[23225] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[23242] button 'conll2003'
+			[23264] link 'English' url: https://huggingface.co/models?language=en
+			[23279] link 'roberta' url: https://huggingface.co/models?other=roberta
+			[23292] button 'License: mit'
+				[23294] image ''
+			[23324] link 'Model card' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
+			[23335] link 'Files' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english/tree/main
+			[23349] link 'Community 7' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english/discussions
+			[23366] button ''
+			[22742] button 'Train'
+			[23401] button 'Deploy'
+			[23422] button 'Use this model'
+		[23451] button ''
+		[23495] heading 'roberta-large-ner-english: model fine-tuned from roberta-large for NER task'
+			[23497] link '' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english#roberta-large-ner-english-model-fine-tuned-from-roberta-large-for-ner-task
+		[23508] heading 'Introduction'
+			[23510] link '' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english#introduction
+		[23523] heading 'Training data'
+			[23525] link '' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english#training-data
+		[23537] StaticText 'Training data was classified as follow:'
+		[23541] table ''
+			[23543] rowgroup ''
+				[23544] row ''
+					[23546] columnheader 'Abbreviation' required: False
+					[23549] columnheader 'Description' required: False
+			[23554] row ''
+				[23556] cell 'O'
+				[23559] cell 'Outside of a named entity'
+			[23563] row ''
+				[23565] cell 'MISC'
+				[23568] cell 'Miscellaneous entity'
+			[23572] row ''
+				[23574] cell 'PER'
+				[23577] cell 'Person’s name'
+			[23581] row ''
+				[23583] cell 'ORG'
+				[23586] cell 'Organization'
+			[23590] row ''
+				[23592] cell 'LOC'
+				[23595] cell 'Location'
+		[23603] StaticText 'In order to simplify, the prefix B- or I- from original conll2003 was removed. I used the train and test dataset from original conll2003 for training and the "validation" dataset for validation. This resulted in a dataset of size:'
+		[23607] table ''
+			[23609] rowgroup ''
+				[23610] row ''
+					[23612] columnheader 'Train' required: False
+					[23615] columnheader 'Validation' required: False
+			[23620] row ''
+				[23622] cell '17494'
+				[23625] cell '3250'
+		[23632] heading 'How to use roberta-large-ner-english with HuggingFace'
+			[23634] link '' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english#how-to-use-roberta-large-ner-english-with-huggingface
+		[23645] heading 'Load roberta-large-ner-english and its sub-word tokenizer :'
+			[23647] link '' url: https://huggingface.co/Jean-Baptiste/roberta-large-ner-english#load-roberta-large-ner-english-and-its-sub-word-tokenizer-
+		[23660] code ''
+			[23664] StaticText 'from'
+			[23665] StaticText ' transformers '
+			[23667] StaticText 'import'
+			[23668] StaticText ' AutoTokenizer, AutoModelForTokenClassification\n\ntokenizer = AutoTokenizer.from_pretrained('
+		[23873] button ''
+		[24148] DescriptionList ''
+			[24149] term 'Downloads last month'
+			[24151] definition ''
+				[24152] StaticText '210,607'
+		[24157] image ''
+		[24183] StaticText 'Safetensors'
+		[24184] link '' url: https://huggingface.co/docs/safetensors
+		[24193] StaticText 'Model size'
+		[24196] StaticText '354M'
+		[24197] StaticText ' params'
+		[24201] StaticText 'Tensor type'
+		[24204] StaticText 'I64'
+		[24207] StaticText '·'
+		[24208] StaticText 'F32'
+		[24215] button 'Files info'
+		[24236] StaticText 'Inference Providers'
+		[24247] link 'Token Classification' url: https://huggingface.co/tasks/token-classification
+		[24271] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=Jean-Baptiste/roberta-large-ner-english&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5BJean-Baptiste%2Froberta-large-ner-english%5D(%2FJean-Baptiste%2Froberta-large-ner-english)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[24287] heading 'Model tree for Jean-Baptiste/roberta-large-ner-english'
+		[24308] image ''
+		[24312] StaticText 'Finetunes'
+		[24316] link '2 models' url: https://huggingface.co/models?other=base_model:finetune:Jean-Baptiste/roberta-large-ner-english
+		[24322] heading 'Dataset used to train Jean-Baptiste/roberta-large-ner-english'
+		[24333] article ''
+			[24334] link 'Updated Jan 18, 2024 • 21.5k • 143' url: https://huggingface.co/datasets/eriktks/conll2003
+				[24336] sectionheader ''
+					[24343] heading 'eriktks/conll2003'
+				[24351] time 'Thu, 18 Jan 2024 09:34:17 GMT'
+					[24352] StaticText 'Jan 18, 2024'
+				[24355] StaticText '•'
+				[24359] StaticText '21.5k'
+				[24365] StaticText '143'
+		[24370] heading 'Spaces using Jean-Baptiste/roberta-large-ner-english 11'
+		[24386] link 'Jean-Baptiste/email_parser' url: https://huggingface.co/spaces/Jean-Baptiste/email_parser
+		[24394] link '📊 nsethi610/ns-gradio-apps' url: https://huggingface.co/spaces/nsethi610/ns-gradio-apps
+		[24401] link '🌍 amsterdamNLP/attention-rollout' url: https://huggingface.co/spaces/amsterdamNLP/attention-rollout
+		[24408] link '🏃 awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary' url: https://huggingface.co/spaces/awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary
+		[24415] link '🐢 rolisz/ner_comparation' url: https://huggingface.co/spaces/rolisz/ner_comparation
+		[24422] link '📚🔬 spark-nlp/RoBERTa' url: https://huggingface.co/spaces/spark-nlp/RoBERTa
+		[24429] link '🍧 homeway/PromptCARE' url: https://huggingface.co/spaces/homeway/PromptCARE
+		[24436] link '📊 niketshah11/AIBootCampQA' url: https://huggingface.co/spaces/niketshah11/AIBootCampQA
+		[24443] link '🌖 bettystr/NerRoB-czech' url: https://huggingface.co/spaces/bettystr/NerRoB-czech
+		[24450] link '📊 someshmaled69/AIBootCampQA' url: https://huggingface.co/spaces/someshmaled69/AIBootCampQA
+		[24457] link '🔥 Akchhaya/resume-analyzer-test' url: https://huggingface.co/spaces/Akchhaya/resume-analyzer-test

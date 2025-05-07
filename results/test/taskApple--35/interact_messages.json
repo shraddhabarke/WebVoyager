@@ -2,5 +2,129 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: How many types of Apple Pencil are currently available on the Apple's website? Which one supports Wireless pairing and charging.  Please interact with https://www.apple.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I should navigate to iPad section to locate Apple Pencil details.\nAction: Click 46"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: There is an \"Apple Pencil\" link in the iPad family navigation; open it to see details on Apple Pencil models and specs.\nAction: Click 9127"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll down to identify other Apple Pencil models listed.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll further down to reveal other Apple Pencil models (USB‑C, 2nd‑generation, etc.) to count total types and see wireless pairing/charging.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to continue scrolling further to see additional Apple Pencil models.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Continue scrolling further to reach sections for other Apple Pencil models (USB‑C, 2nd‑generation, 1st‑generation) to tally total types and read their charging details.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Additional Apple Pencil models appear as I continue down the page; need to reveal the 2nd‑generation and 1st‑generation entries after USB‑C to count all models and check which ones mention wireless pairing/charging.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll further to locate Apple Pencil (2nd generation) and Apple Pencil (1st generation) sections so I can count all current types and identify which mentions wireless pairing/charging.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reach sections for remaining Apple Pencil models (2nd‑generation and 1st‑generation) to verify their pairing/charging info.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to continue down to reach Apple Pencil (2nd‑generation) and Apple Pencil (1st‑generation) sections for their charging notes, then I can answer.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll down further to find Apple Pencil (2nd generation) and Apple Pencil (1st generation) sections.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to continue scrolling to reach the Apple Pencil (2nd generation) and (1st generation) sections to confirm features like wireless pairing/charging.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Continue scrolling further; need to reach the comparison section that lists all Apple Pencil generations to count total types and verify which include wireless pairing/charging.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[11674] RootWebArea 'Apple Pencil - Apple' focused: True url: https://www.apple.com/apple-pencil/\n\t[13019] navigation 'Local'\n\t\t[13031] link 'Apple\\xa0Pencil' url: https://www.apple.com/apple-pencil/\n\t\t[13041] link 'Shop Apple\\xa0Pencil' url: https://www.apple.com/us/shop/goto/buy_ipad/pencil\n\t[13060] main ''\n\t\t[13740] paragraph 'Apple Pencil Pro'\n\t\t\t[13742] StaticText 'Apple\\xa0Pencil\\xa0Pro'\n\t\t[13744] image 'The top of Apple Pencil Pro is shown with a rounded tip, Apple logo, and the words Pencil Pro.'\n\t\t[13749] paragraph 'Apple Pencil (USB-C)'\n\t\t\t[13753] StaticText '(USB‑C)'\n\t\t[13755] image 'The top of Apple Pencil USB-C is shown with a rounded top, Apple logo, and the word Pencil. The tip shows a line to represent where the cap slides open to allow connection to a USB-C cable.'\n\t\t[13783] image 'The tip of Apple Pencil is shown drawing a precise line in a zig zag formation.'\n\t\t[13788] StaticText 'Pixel-perfect precision'\n\t\t[13791] StaticText 'Write, sketch, and draw with precision.'\n\t\t[13800] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13809] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[13818] image 'The tip of Apple Pencil is draws a clean, wavy line to represent the natural responsiveness of Apple Pencil.'\n\t\t[13823] StaticText 'Low latency'\n\t\t[13826] StaticText 'Feels as natural and responsive as using a'\n\t\t[13828] StaticText 'pencil on\\xa0paper.'\n\t\t[13837] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13846] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[13855] image 'The tip of Apple Pencil is shown drawing a thick, feathery line to represent shading and other effects.'\n\t\t[13860] StaticText 'Tilt sensitivity'\n\t\t[13863] StaticText 'Tilt Apple\\xa0Pencil for shading'\n\t\t[13865] StaticText ' and other\\xa0effects.'\n\t\t[13874] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13883] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[13892] image 'The tip of Apple Pencil draws a line that goes from thin to thick to represent how Apple Pencil responds to pressure.'\n\t\t[13897] StaticText 'Pressure sensitivity'\n\t\t[13900] StaticText 'Responds naturally to pressure, from'\n\t\t[13902] StaticText ' a light touch to a deeper\\xa0press.'\n\t\t[13911] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13920] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[13929] image 'Apple Pencil is shown magnetically attached to the side of iPad.'\n\t\t[13934] StaticText 'Attaches magnetically'\n\t\t[13937] StaticText 'Stay ready when inspiration strikes.'\n\t\t[13946] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13955] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[13964] image 'Apple Pencil is horizonally attached to iPad showing the charging icon.'\n\t\t[13969] StaticText 'Wireless pairing and\\xa0charging'\n\t\t[13972] StaticText 'Automatically pairs and charges'\n\t\t[13974] StaticText ' when\\xa0attached.'\n\t\t[13983] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13992] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14001] image 'The tip of Apple Pencil is pointing downwards and the area it will touch is highlighted below.'\n\t\t[14006] StaticText 'Supports Apple\\xa0Pencil hover'\n\t\t[14007] superscript ''\n\t\t\t[14008] link 'Footnote 1' url: https://www.apple.com/apple-pencil/#footnote-1\n\t\t[14012] StaticText 'Preview your mark before you make\\xa0it.'\n\t\t[14021] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14030] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[14039] image 'Apple Pencil is shown horizontally, with a blue circle on the lower third representing the area a user can double tap.'\n\t\t[14044] StaticText 'Double-tap to change\\xa0tools'\n\t\t[14047] StaticText 'Quickly switch between tools.'\n\t\t[14056] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14065] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14074] image 'Apple Pencil is shown with arrows around the bottom third to represent a rotating motion. A thick blue wave line is being drawn.'\n\t\t[14079] StaticText 'Barrel roll'\n\t\t[14082] StaticText 'Rotate the barrel to change orientation of shaped pen and brush\\xa0tools.'\n\t\t[14091] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14100] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14109] image 'The botton third of Apple Pencil is shown horizontally with an arc of blue dots above and below representing the area a user can press to initiate the squeeze feature.'\n\t\t[14114] StaticText 'Squeeze'\n\t\t[14117] StaticText 'Opens a palette to switch tools,'\n\t\t[14119] StaticText ' line weights, and\\xa0colors.'\n\t\t[14128] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14137] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14146] image 'Apple Pencil is shown horizontally, with a blue dots on the lower third representing the area a user can feel haptic feedback.'\n\t\t[14151] StaticText 'Haptic feedback'\n\t\t[14154] StaticText 'Feel feedback when squeezing, tapping, and more.'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We still need to scroll further down this page to reach sections for Apple Pencil (2nd generation) and Apple Pencil (1st generation). Only when we see those can we confirm all available Pencil types and verify which ones list “Wireless pairing and charging.”\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[11674] RootWebArea 'Apple Pencil - Apple' focused: True url: https://www.apple.com/apple-pencil/\n\t[13019] navigation 'Local'\n\t\t[13031] link 'Apple\\xa0Pencil' url: https://www.apple.com/apple-pencil/\n\t\t[13041] link 'Shop Apple\\xa0Pencil' url: https://www.apple.com/us/shop/goto/buy_ipad/pencil\n\t[13060] main ''\n\t\t[13740] paragraph 'Apple Pencil Pro'\n\t\t\t[13742] StaticText 'Apple\\xa0Pencil\\xa0Pro'\n\t\t[13744] image 'The top of Apple Pencil Pro is shown with a rounded tip, Apple logo, and the words Pencil Pro.'\n\t\t[13749] paragraph 'Apple Pencil (USB-C)'\n\t\t\t[13753] StaticText '(USB‑C)'\n\t\t[13755] image 'The top of Apple Pencil USB-C is shown with a rounded top, Apple logo, and the word Pencil. The tip shows a line to represent where the cap slides open to allow connection to a USB-C cable.'\n\t\t[13874] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13883] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[13892] image 'The tip of Apple Pencil draws a line that goes from thin to thick to represent how Apple Pencil responds to pressure.'\n\t\t[13900] StaticText 'Responds naturally to pressure, from'\n\t\t[13902] StaticText ' a light touch to a deeper\\xa0press.'\n\t\t[13911] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13920] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[13929] image 'Apple Pencil is shown magnetically attached to the side of iPad.'\n\t\t[13934] StaticText 'Attaches magnetically'\n\t\t[13937] StaticText 'Stay ready when inspiration strikes.'\n\t\t[13946] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13955] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[13964] image 'Apple Pencil is horizonally attached to iPad showing the charging icon.'\n\t\t[13969] StaticText 'Wireless pairing and\\xa0charging'\n\t\t[13972] StaticText 'Automatically pairs and charges'\n\t\t[13974] StaticText ' when\\xa0attached.'\n\t\t[13983] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[13992] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14001] image 'The tip of Apple Pencil is pointing downwards and the area it will touch is highlighted below.'\n\t\t[14006] StaticText 'Supports Apple\\xa0Pencil hover'\n\t\t[14007] superscript ''\n\t\t\t[14008] link 'Footnote 1' url: https://www.apple.com/apple-pencil/#footnote-1\n\t\t[14012] StaticText 'Preview your mark before you make\\xa0it.'\n\t\t[14021] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14030] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[14039] image 'Apple Pencil is shown horizontally, with a blue circle on the lower third representing the area a user can double tap.'\n\t\t[14044] StaticText 'Double-tap to change\\xa0tools'\n\t\t[14047] StaticText 'Quickly switch between tools.'\n\t\t[14056] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14065] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14074] image 'Apple Pencil is shown with arrows around the bottom third to represent a rotating motion. A thick blue wave line is being drawn.'\n\t\t[14079] StaticText 'Barrel roll'\n\t\t[14082] StaticText 'Rotate the barrel to change orientation of shaped pen and brush\\xa0tools.'\n\t\t[14091] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14100] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14109] image 'The botton third of Apple Pencil is shown horizontally with an arc of blue dots above and below representing the area a user can press to initiate the squeeze feature.'\n\t\t[14114] StaticText 'Squeeze'\n\t\t[14117] StaticText 'Opens a palette to switch tools,'\n\t\t[14119] StaticText ' line weights, and\\xa0colors.'\n\t\t[14128] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14137] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14146] image 'Apple Pencil is shown horizontally, with a blue dots on the lower third representing the area a user can feel haptic feedback.'\n\t\t[14151] StaticText 'Haptic feedback'\n\t\t[14154] StaticText 'Feel feedback when squeezing, tapping, and more.'\n\t\t[14163] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14172] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14181] image 'A green circle icon with a small blue circle emainating a blue beam to represent tracking capabilities.'\n\t\t[14186] StaticText 'Find My'\n\t\t[14189] StaticText 'Easily find Apple\\xa0Pencil in the Find\\xa0My app.'\n\t\t[14198] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14207] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14216] image 'The top of Apple Pencil is shown horizontally. The name Lisa has been engraved into Apple Pencil.'\n\t\t[14221] StaticText 'Free engraving'\n\t\t[14224] StaticText 'Make it unmistakably yours.'\n\t\t[14233] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14242] StaticText 'Not compatible with Apple Pencil (USB-C)'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The comparison segment for additional models should appear further below; keep scrolling to find Apple Pencil (2nd generation) and Apple Pencil (1st generation) entries and check if they mention “Wireless pairing and charging.”\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[11674] RootWebArea 'Apple Pencil - Apple' focused: True url: https://www.apple.com/apple-pencil/\n\t[13019] navigation 'Local'\n\t\t[13031] link 'Apple\\xa0Pencil' url: https://www.apple.com/apple-pencil/\n\t\t[13041] link 'Shop Apple\\xa0Pencil' url: https://www.apple.com/us/shop/goto/buy_ipad/pencil\n\t[13060] main ''\n\t\t[13740] paragraph 'Apple Pencil Pro'\n\t\t\t[13742] StaticText 'Apple\\xa0Pencil\\xa0Pro'\n\t\t[13744] image 'The top of Apple Pencil Pro is shown with a rounded tip, Apple logo, and the words Pencil Pro.'\n\t\t[13749] paragraph 'Apple Pencil (USB-C)'\n\t\t\t[13753] StaticText '(USB‑C)'\n\t\t[13755] image 'The top of Apple Pencil USB-C is shown with a rounded top, Apple logo, and the word Pencil. The tip shows a line to represent where the cap slides open to allow connection to a USB-C cable.'\n\t\t[13992] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14001] image 'The tip of Apple Pencil is pointing downwards and the area it will touch is highlighted below.'\n\t\t[14021] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14030] StaticText 'Compatible with Apple Pencil (USB-C)'\n\t\t[14039] image 'Apple Pencil is shown horizontally, with a blue circle on the lower third representing the area a user can double tap.'\n\t\t[14044] StaticText 'Double-tap to change\\xa0tools'\n\t\t[14047] StaticText 'Quickly switch between tools.'\n\t\t[14056] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14065] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14074] image 'Apple Pencil is shown with arrows around the bottom third to represent a rotating motion. A thick blue wave line is being drawn.'\n\t\t[14079] StaticText 'Barrel roll'\n\t\t[14082] StaticText 'Rotate the barrel to change orientation of shaped pen and brush\\xa0tools.'\n\t\t[14091] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14100] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14109] image 'The botton third of Apple Pencil is shown horizontally with an arc of blue dots above and below representing the area a user can press to initiate the squeeze feature.'\n\t\t[14114] StaticText 'Squeeze'\n\t\t[14117] StaticText 'Opens a palette to switch tools,'\n\t\t[14119] StaticText ' line weights, and\\xa0colors.'\n\t\t[14128] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14137] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14146] image 'Apple Pencil is shown horizontally, with a blue dots on the lower third representing the area a user can feel haptic feedback.'\n\t\t[14151] StaticText 'Haptic feedback'\n\t\t[14154] StaticText 'Feel feedback when squeezing, tapping, and more.'\n\t\t[14163] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14172] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14181] image 'A green circle icon with a small blue circle emainating a blue beam to represent tracking capabilities.'\n\t\t[14186] StaticText 'Find My'\n\t\t[14189] StaticText 'Easily find Apple\\xa0Pencil in the Find\\xa0My app.'\n\t\t[14198] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14207] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14216] image 'The top of Apple Pencil is shown horizontally. The name Lisa has been engraved into Apple Pencil.'\n\t\t[14221] StaticText 'Free engraving'\n\t\t[14224] StaticText 'Make it unmistakably yours.'\n\t\t[14233] StaticText 'Compatible with Apple Pencil Pro'\n\t\t[14242] StaticText 'Not compatible with Apple Pencil (USB-C)'\n\t\t[14256] heading 'Find the Apple\\xa0Pencil that\\xa0works with your\\xa0iPad.'\n\t\t[11735] combobox 'Select your iPad Model' hasPopup: menu expanded: False\n\t\t[14368] region 'Apple Pencil compatibility with iPad'\n\t\t\t[14377] image 'Top right corner of iPad Pro with top of Apple Pencil Pro alongside. Top left corner of iPad Air with the tip of Apple Pencil USB-C alongside.' url: data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
   }
 ]

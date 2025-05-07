@@ -1,0 +1,171 @@
+[1] RootWebArea 'Boston Logan International Airport to North Station - Google Maps' focused: True url: https://www.google.com/maps/dir/Boston+Logan+International+Airport,+East+Boston,+MA+02128/North+Station,+135+Causeway+St,+Boston,+MA+02114/@42.367916,-71.0769936,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e37014d5da4937:0xc9394c31f2d5144!2m2!1d-71.0096136!2d42.365602!1m5!1m1!1s0x89e3708e162d05cb:0x651087057818603a!2m2!1d-71.061974!2d42.3664424!3e3?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[258] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[50] Canvas ''
+		[925] radiogroup '' required: False
+			[928] radio 'Best travel modes' checked: false
+				[929] image 'Best travel modes'
+			[938] radio 'Driving 8 min' checked: false
+				[939] image 'Driving'
+			[948] radio 'Transit 44 min' focused: True checked: true
+				[949] image 'Transit'
+			[958] radio 'Walking 48 min' checked: false
+				[959] image 'Walking'
+			[968] radio 'Cycling 23 min' checked: false
+				[969] image 'Cycling'
+			[978] radio 'Flights not available' disabled: True checked: false
+				[979] image 'Flights not available'
+		[987] button 'Close directions'
+		[1016] combobox '' hasPopup: grid required: False expanded: False
+			[1009] textbox 'Starting point Boston Logan International Airport' autocomplete: list required: False
+		[1010] button 'Search'
+		[1040] combobox '' hasPopup: grid required: False expanded: False
+			[1033] textbox 'Destination North Station, 135 Causeway St, Boston, MA 02114' autocomplete: list required: False
+		[1034] button 'Search'
+		[992] button 'Reverse starting point and destination'
+		[13] button 'Menu'
+		[468] button 'Saved'
+		[486] button 'Recents'
+		[1617] button 'North Station 44 min'
+		[1393] button '2 places Boston'
+			[1401] generic '2 places'
+		[516] button 'Get the app'
+		[1076] main 'Directions'
+			[1998] button 'Transit directions with multiple destinations are not supported.'
+			[1602] button 'Departure options' hasPopup: menu expanded: False
+				[1598] option 'Leave now' selected: True
+				[1608] StaticText '\xa0'
+			[1585] button 'Options' expanded: False
+			[2011] button 'Send directions to your phone'
+			[2016] button 'Copy link'
+			[2020] link 'Transit 28 min 9:28\u202fAM—9:56\u202fAM Bus 22 , then Subway Blue Line , then Light rail D , or E 9:29\u202fAM from Terminal B - Arrivals Stop 2 $2.40 Walking 3 minevery 12 min Details'
+				[2022] image 'Transit'
+					[2519] StaticText '\ue535'
+				[2027] heading '9:28\u202fAM—9:56\u202fAM'
+				[2032] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2498] StaticText '22'
+				[2045] image ', then'
+					[2499] StaticText '\ue315'
+				[2048] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2500] StaticText 'Blue Line'
+				[2061] image ', then'
+					[2501] StaticText '\ue315'
+				[2064] image 'Light rail' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2502] StaticText 'D'
+				[2503] StaticText 'E'
+				[2508] StaticText '9:29\u202fAM'
+				[2509] StaticText ' from '
+				[2510] StaticText 'Terminal B - Arrivals Stop 2'
+				[2512] StaticText '$2.40'
+				[2087] image 'Walking'
+					[2511] StaticText '\ue536'
+				[2515] StaticText '3 min'
+				[2517] StaticText 'every 12 min'
+				[2090] button 'Details'
+			[2095] button 'Transit 29 min 9:27\u202fAM—9:56\u202fAM Walk , then Bus 33 , then Subway Blue Line , then Light rail D , or E'
+				[2097] image 'Transit'
+					[2537] StaticText '\ue535'
+				[2102] heading '9:27\u202fAM—9:56\u202fAM'
+				[2107] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[2116] image ', then'
+					[2524] StaticText '\ue315'
+				[2119] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2525] StaticText '33'
+				[2132] image ', then'
+					[2526] StaticText '\ue315'
+				[2135] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2527] StaticText 'Blue Line'
+				[2148] image ', then'
+					[2528] StaticText '\ue315'
+				[2151] image 'Light rail' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2529] StaticText 'D'
+				[2530] StaticText 'E'
+			[2170] button 'Transit 30 min Information 9:28\u202fAM—9:58\u202fAM Bus 22 , then Subway Blue Line , then Subway Orange Line'
+				[2172] image 'Transit'
+					[2553] StaticText '\ue535'
+				[2177] heading 'Information 9:28\u202fAM—9:58\u202fAM'
+					[2179] image 'Information'
+						[2539] StaticText '\ue88e'
+				[2184] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2544] StaticText '22'
+				[2197] image ', then'
+					[2545] StaticText '\ue315'
+				[2200] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2546] StaticText 'Blue Line'
+				[2213] image ', then'
+					[2547] StaticText '\ue315'
+				[2216] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2548] StaticText 'Orange Line'
+			[2225] button 'Transit 31 min Information 9:27\u202fAM—9:58\u202fAM Walk , then Bus 33 , then Subway Blue Line , then Subway Orange Line'
+				[2227] image 'Transit'
+					[2572] StaticText '\ue535'
+				[2232] heading 'Information 9:27\u202fAM—9:58\u202fAM'
+					[2234] image 'Information'
+						[2555] StaticText '\ue88e'
+				[2239] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[2248] image ', then'
+					[2560] StaticText '\ue315'
+				[2251] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2561] StaticText '33'
+				[2264] image ', then'
+					[2562] StaticText '\ue315'
+				[2267] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2563] StaticText 'Blue Line'
+				[2280] image ', then'
+					[2564] StaticText '\ue315'
+				[2283] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2565] StaticText 'Orange Line'
+			[2292] button 'Transit 28 min 9:36\u202fAM—10:04\u202fAM Bus 88 , then Subway Blue Line , then Light rail E , or D'
+				[2294] image 'Transit'
+					[2587] StaticText '\ue535'
+				[2299] heading '9:36\u202fAM—10:04\u202fAM'
+				[2304] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2577] StaticText '88'
+				[2317] image ', then'
+					[2578] StaticText '\ue315'
+				[2320] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2579] StaticText 'Blue Line'
+				[2333] image ', then'
+					[2580] StaticText '\ue315'
+				[2336] image 'Light rail' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2581] StaticText 'E'
+				[2582] StaticText 'D'
+			[2354] button 'Transit 29 min Information 9:36\u202fAM—10:05\u202fAM Bus 88 , then Subway Blue Line , then Subway Orange Line'
+				[2356] image 'Transit'
+					[2603] StaticText '\ue535'
+				[2361] heading 'Information 9:36\u202fAM—10:05\u202fAM'
+					[2363] image 'Information'
+						[2589] StaticText '\ue88e'
+				[2368] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2381] image ', then'
+					[2595] StaticText '\ue315'
+				[2384] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2596] StaticText 'Blue Line'
+				[2397] image ', then'
+					[2597] StaticText '\ue315'
+				[2400] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2598] StaticText 'Orange Line'
+			[2411] heading 'Explore nearby North Station'
+			[2416] button 'Restaurants'
+			[2421] button 'Hotels'
+			[2426] button 'Bars'
+			[2431] button 'Coffee'
+			[2436] button 'More'
+		[1114] button 'Collapse side panel'
+		[562] button 'Google apps' expanded: False
+			[564] image ''
+		[567] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[614] button 'Show Your Location' pressed: false
+		[631] button 'Zoom in'
+		[662] button 'Zoom out'
+		[675] button 'Show Street View coverage'
+		[717] generic 'Interactive map'
+		[755] StaticText 'Layers'
+		[770] button 'Layers' expanded: False
+		[871] contentinfo ''
+			[873] StaticText 'Map data ©2025 Google'
+			[874] button 'United States'
+			[876] button 'Terms'
+			[878] button 'Privacy'
+			[880] button 'Send Product Feedback'
+		[883] button '1 mi'

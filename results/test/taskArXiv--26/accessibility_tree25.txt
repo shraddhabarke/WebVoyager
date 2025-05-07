@@ -1,0 +1,144 @@
+[8504] RootWebArea 'Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/?query=climate+change+modeling+cat%3Aastro-ph.EP&searchtype=all&abstracts=show&order=-announced_date_first&size=50
+	[8585] StaticText 'Skip to main content'
+	[8593] link 'logo' url: https://cornell.edu/
+		[8505] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[8599] StaticText 'We gratefully acknowledge support from'
+	[8601] StaticText 'the Simons Foundation, '
+	[8602] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[8604] StaticText ', and all contributors. '
+	[8605] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[8617] link 'arxiv-logo' url: https://arxiv.org/
+		[8506] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[8513] textbox 'Search term or terms' required: False
+	[8632] link 'Help' url: https://info.arxiv.org/help
+	[8634] StaticText ' | '
+	[8635] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[8514] combobox 'Field to search' hasPopup: menu expanded: False
+	[8695] button 'Search'
+	[8706] navigation 'User menu'
+		[8708] link 'Login' url: https://arxiv.org/login
+	[8714] main ''
+		[8720] heading 'Search'
+		[8730] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[8732] StaticText '\xa0\xa0'
+		[8744] StaticText 'Search term or terms'
+		[8508] textbox 'Search term or terms' required: False
+			[9242] StaticText 'climate change modeling cat:astro-ph.EP'
+		[8509] combobox '' hasPopup: menu expanded: False
+		[8790] button 'Search'
+		[8510] radio ' Show abstracts' checked: true
+		[8511] radio ' Hide abstracts' checked: false
+		[8813] link 'Advanced Search' url: https://arxiv.org/search/advanced?terms-0-term=climate+change+modeling+cat%3Aastro-ph.EP&terms-0-field=all&size=50&order=-announced_date_first
+		[8824] StaticText 'Sorry, your query for '
+		[8826] StaticText 'all: climate change modeling cat:astro-ph.EP'
+		[8827] StaticText ' produced no results.'
+		[8829] article ''
+			[8833] heading 'Searching by Author Name'
+			[8842] ListMarker '• '
+			[8843] StaticText 'Using the '
+			[8845] StaticText 'Author(s) field'
+			[8846] StaticText ' produces best results for author name searches.'
+			[8849] ListMarker '• '
+			[8850] StaticText 'For the most precise name search, follow '
+			[8852] StaticText 'surname(s), forename(s)'
+			[8853] StaticText ' or '
+			[8855] StaticText 'surname(s), initial(s)'
+			[8856] StaticText ' pattern: example Hawking, S or Hawking, Stephen'
+			[8859] ListMarker '• '
+			[8860] StaticText 'For best results on multiple author names, '
+			[8861] StaticText 'separate individuals with a ;'
+			[8862] StaticText ' (semicolon). Example: Jin, D S; Ye, J'
+			[8865] ListMarker '• '
+			[8866] StaticText 'Author names enclosed in quotes will return only '
+			[8868] StaticText 'exact matches'
+			[8869] StaticText '. For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.'
+			[8872] ListMarker '• '
+			[8873] StaticText 'Diacritic character variants are automatically searched in the Author(s) field.'
+			[8876] ListMarker '• '
+			[8877] StaticText 'Queries with no punctuation will treat each term independently.'
+		[8882] article ''
+			[8886] heading 'Searching by subcategory'
+			[8895] ListMarker '• '
+			[8896] StaticText 'To search within a subcategory select '
+			[8898] StaticText 'All fields'
+			[8899] StaticText '.'
+			[8902] ListMarker '• '
+			[8903] StaticText 'A subcategory search can be combined with an author or keyword search by clicking on '
+			[8905] StaticText 'add another term'
+			[8906] StaticText ' in advanced search.'
+		[8911] heading 'Tips'
+		[8915] StaticText 'Wildcards:'
+		[8920] ListMarker '• '
+		[8921] StaticText 'Use ? to replace a single character or * to replace any number of characters.'
+		[8924] ListMarker '• '
+		[8925] StaticText 'Can be used in any field, but not in the first character position. See Journal References tips for exceptions.'
+		[8929] StaticText 'Expressions:'
+		[8934] ListMarker '• '
+		[8935] StaticText 'TeX expressions can be searched, enclosed in single $ characters.'
+		[8939] StaticText 'Phrases:'
+		[8944] ListMarker '• '
+		[8945] StaticText 'Enclose phrases in double quotes for exact matches in title, abstract, and comments.'
+		[8949] StaticText 'Dates:'
+		[8954] ListMarker '• '
+		[8955] StaticText 'Sorting by announcement date will use the year and month the '
+		[8956] emphasis ''
+			[8957] StaticText 'original version'
+		[8958] StaticText ' (v1) of the paper was announced.'
+		[8961] ListMarker '• '
+		[8962] StaticText 'Sorting by submission date will use the year, month and day the '
+		[8963] emphasis ''
+			[8964] StaticText 'latest version'
+		[8965] StaticText ' of the paper was submitted.'
+		[8969] StaticText 'Journal References:'
+		[8974] ListMarker '• '
+		[8975] StaticText 'If a journal reference search contains a wildcard, matches will be made using wildcard matching as expected. For example, '
+		[8977] StaticText 'math*'
+		[8978] StaticText ' will match '
+		[8979] emphasis ''
+		[8981] StaticText ', '
+		[8982] emphasis ''
+			[8983] StaticText 'maths'
+		[8985] emphasis ''
+			[8986] StaticText 'mathematics'
+		[8987] StaticText '.'
+		[8990] ListMarker '• '
+		[8991] StaticText 'If a journal reference search does '
+		[8993] StaticText 'not'
+		[8994] StaticText ' contain a wildcard, only exact phrases entered will be matched. For example, '
+		[8996] StaticText 'math'
+		[8997] StaticText ' would match '
+		[8998] emphasis ''
+		[9000] StaticText ' or '
+		[9001] emphasis ''
+			[9002] StaticText 'math and science'
+		[9003] StaticText ' but not '
+		[9004] emphasis ''
+			[9005] StaticText 'maths'
+		[9006] StaticText ' or '
+		[9007] emphasis ''
+			[9008] StaticText 'mathematics'
+		[9009] StaticText '.'
+		[9012] ListMarker '• '
+		[9013] StaticText 'All journal reference searches that do not contain a wildcard are literal searches: a search for '
+		[9015] StaticText 'Physica A'
+		[9016] StaticText ' will match all papers with journal references containing '
+		[9017] emphasis ''
+		[9019] StaticText ', but a search for '
+		[9021] StaticText 'Physica A, 245 (1997) 181'
+		[9022] StaticText ' will only return the paper with journal reference '
+		[9023] emphasis ''
+		[9025] StaticText '.'
+	[9040] contentinfo ''
+		[9042] navigation 'Secondary'
+			[9055] link 'About' url: https://info.arxiv.org/about
+			[9059] link 'Help' url: https://info.arxiv.org/help
+			[9077] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[9090] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[9111] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[9115] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[9125] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[9132] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[9137] StaticText 'Get status notifications via '
+			[9138] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[9142] StaticText ' or '
+			[9143] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

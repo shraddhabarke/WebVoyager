@@ -1,0 +1,84 @@
+[9959] RootWebArea 'pysentimiento/bertweet-pt-sentiment · Hugging Face' focused: True url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment
+	[10174] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[9960] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[9965] textbox 'Search models, datasets, users...' required: False
+	[10186] button ''
+	[10273] main ''
+		[10276] sectionheader ''
+			[10278] heading 'pysentimiento / bertweet-pt-sentiment Copy model name to clipboard like 12 Follow pysentimiento 18'
+				[10285] link '' url: https://huggingface.co/pysentimiento
+				[10291] link 'pysentimiento' url: https://huggingface.co/pysentimiento
+				[10299] link 'bertweet-pt-sentiment' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment
+				[10302] button 'Copy model name to clipboard'
+				[10312] button 'like'
+				[10322] button '12'
+				[10330] button 'Follow pysentimiento'
+				[10338] button '18'
+			[10346] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[10364] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[10380] link 'Portuguese' url: https://huggingface.co/models?language=pt
+			[10395] link 'pysentimiento' url: https://huggingface.co/models?other=pysentimiento
+			[10405] link 'roberta' url: https://huggingface.co/models?other=roberta
+			[10415] link 'twitter' url: https://huggingface.co/models?other=twitter
+			[10425] link 'sentiment-analysis' url: https://huggingface.co/models?other=sentiment-analysis
+			[10438] button 'arxiv: 2106.09462'
+			[10472] link 'Model card' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment
+			[10483] link 'Files xet' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment/tree/main
+			[10507] link 'Community 1' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment/discussions
+			[10524] button ''
+		[10564] button ''
+		[10596] heading 'Sentiment Analysis in Portuguese'
+			[10598] link '' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment#sentiment-analysis-in-portuguese
+		[10610] StaticText 'Repository: '
+		[10611] link 'https://github.com/pysentimiento/pysentimiento/' url: https://github.com/pysentimiento/pysentimiento/
+		[10614] StaticText 'Model trained for polarity detection in Portuguese. Base model is '
+		[10615] link 'BERTabaporu' url: https://huggingface.co/pablocosta/bertabaporu-base-uncased
+		[10617] StaticText ', a RoBERTa model trained in Portuguese tweets.'
+		[10620] StaticText 'Uses '
+		[10621] code ''
+			[10624] StaticText 'POS'
+		[10625] StaticText ', '
+		[10626] code ''
+			[10629] StaticText 'NEG'
+		[10631] code ''
+			[10634] StaticText 'NEU'
+		[10635] StaticText ' labels.'
+		[10637] heading 'Usage'
+			[10639] link '' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment#usage
+		[10651] StaticText 'Use it directly with '
+		[10652] link 'pysentimiento' url: https://github.com/pysentimiento/pysentimiento
+		[10657] code ''
+			[10661] StaticText 'from'
+			[10662] StaticText ' pysentimiento '
+			[10664] StaticText 'import'
+			[10665] StaticText ' create_analyzer\nanalyzer = create_analyzer(task='
+			[10667] StaticText '"sentiment"'
+			[10668] StaticText ', lang='
+			[10670] StaticText '"pt"'
+			[10671] StaticText ')\n\nanalyzer.predict('
+			[10673] StaticText '"isto é bonito"'
+			[10676] StaticText '# returns AnalyzerOutput(output=POS, probas={POS: 0.998, NEG: 0.002, NEU: 0.000})'
+		[10678] button ''
+		[10684] heading 'Citation'
+			[10686] link '' url: https://huggingface.co/pysentimiento/bertweet-pt-sentiment#citation
+		[10698] StaticText 'If you use this model in your research, please cite pysentimiento and RoBERTuito papers:'
+		[10702] code ''
+			[10705] StaticText '@misc{perez2021pysentimiento,\n      title={pysentimiento: A Python Toolkit for Sentiment Analysis and SocialNLP tasks},\n      author={Juan Manuel Pérez and Juan Carlos Giudici and Franco Luque},\n      year={2021},\n      eprint={2106.09462},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc {pablo_botton_da_costa_2022,\nauthor = { {pablo botton da costa} },\ntitle = { bertabaporu-base-uncased (Revision 1982d0f) },\nyear = 2022,\nurl = { https://huggingface.co/pablocosta/bertabaporu-base-uncased },\ndoi = { 10.57967/hf/0019 },\npublisher = { Hugging Face }\n}\n@InProceedings{BRUM18.389,\n  author = {Henrico Brum and Maria das Gra\\c{c}as Volpe Nunes},\n  title = "{Building a Sentiment Corpus of Tweets in Brazilian Portuguese}",\n  booktitle = {Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)},\n  year = {2018},\n  month = {May 7-12, 2018},\n  address = {Miyazaki, Japan},\n  editor = {Nicoletta Calzolari (Conference chair) and Khalid Choukri and Christopher Cieri and Thierry Declerck and Sara Goggi and Koiti Hasida and Hitoshi Isahara and Bente Maegaard and Joseph Mariani and HÚlŔne Mazo and Asuncion Moreno and Jan Odijk and Stelios Piperidis and Takenobu Tokunaga},\n  publisher = {European Language Resources Association (ELRA)},\n  isbn = {979-10-95546-00-9},\n  language = {english}\n}\n'
+		[10706] button ''
+		[10717] DescriptionList ''
+			[10718] term 'Downloads last month'
+			[10720] definition ''
+				[10721] StaticText '11,631'
+		[10726] image ''
+		[10752] StaticText 'Safetensors'
+		[10753] link '' url: https://huggingface.co/docs/safetensors
+		[10762] StaticText 'Model size'
+		[10765] StaticText '135M'
+		[10766] StaticText ' params'
+		[10770] StaticText 'Tensor type'
+		[10773] StaticText 'I64'
+		[10776] StaticText '·'
+		[10777] StaticText 'F32'
+		[10784] button 'Files info'
+		[10806] StaticText 'Inference Providers'
+		[10826] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=pysentimiento/bertweet-pt-sentiment&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bpysentimiento%2Fbertweet-pt-sentiment%5D(%2Fpysentimiento%2Fbertweet-pt-sentiment)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A

@@ -1,0 +1,113 @@
+[2135] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced
+	[2252] StaticText 'Skip to main content'
+	[2260] link 'logo' url: https://cornell.edu/
+		[2168] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[2175] StaticText 'We gratefully acknowledge support from'
+	[2176] StaticText 'the Simons Foundation, '
+	[2266] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[2178] StaticText ', and all contributors. '
+	[2267] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[2279] link 'arxiv-logo' url: https://arxiv.org/
+		[2170] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[2137] textbox 'Search term or terms' required: False
+	[2294] link 'Help' url: https://info.arxiv.org/help
+	[2296] StaticText ' | '
+	[2297] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[2138] combobox 'Field to search' hasPopup: menu expanded: False
+	[2357] button 'Search'
+	[2368] navigation 'User menu'
+		[2370] link 'Login' url: https://arxiv.org/login
+	[2376] main ''
+		[2382] heading 'Advanced Search'
+		[2392] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[2394] StaticText '\xa0\xa0'
+		[2405] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+		[2172] group 'Search term(s)'
+			[2140] textbox 'Search term' required: False
+			[2453] StaticText 'Field to search'
+			[2141] combobox 'Field to search' hasPopup: menu expanded: False
+			[2500] button 'Add another term +'
+			[2505] button 'Search'
+		[2514] group 'Subject'
+			[2520] StaticText 'All classifications will be included by default.'
+			[2142] checkbox 'Computer Science (cs)' checked: false
+			[2143] checkbox 'Economics (econ)' checked: false
+			[2144] checkbox 'Electrical Engineering and Systems Science (eess)' checked: false
+			[2145] checkbox 'Mathematics (math)' checked: false
+			[2146] checkbox 'Physics' checked: false
+			[2598] StaticText 'Subtopic within physics'
+			[2147] combobox 'Subtopic within physics' hasPopup: menu expanded: False
+			[2148] checkbox 'Quantitative Biology (q-bio)' checked: false
+			[2149] checkbox 'Quantitative Finance (q-fin)' checked: false
+			[2150] checkbox 'Statistics (stat)' checked: false
+			[2151] radio ' Include cross-listed papers' checked: true
+			[2152] radio ' Exclude cross-listed papers' checked: false
+		[2688] group 'Date'
+			[2153] radio 'All dates' checked: true
+			[2154] radio 'Past 12 months' checked: false
+			[2155] radio 'Specific year' checked: false
+			[2734] StaticText 'Enter four digit year'
+			[2156] textbox 'Enter four digit year' required: False
+			[2157] radio 'Date range' checked: false
+			[2761] StaticText 'From'
+			[2158] textbox 'From' required: False
+			[2772] StaticText 'to'
+			[2159] textbox 'to' required: False
+			[2781] StaticText 'When limiting by date range, the lower bound of the "from" date and the upper bound of the "to" date are used.'
+			[2783] StaticText 'For example, searching with '
+			[2784] code ''
+				[2785] StaticText 'From: 2012-02'
+			[2786] StaticText ' and '
+			[2787] code ''
+				[2788] StaticText 'To: 2013'
+			[2789] StaticText ' will search for papers submitted from '
+			[2790] code ''
+				[2791] StaticText '2012-02-01'
+			[2792] StaticText ' to '
+			[2793] code ''
+				[2794] StaticText '2013-12-31'
+			[2795] StaticText '.'
+			[2800] separator '' orientation: horizontal
+			[2160] radio ' Submission date (most recent)' checked: true
+			[2161] radio ' Submission date (original)' checked: false
+			[2162] radio ' Announcement date' checked: false
+			[2819] StaticText 'You may filter on either submission date or announcement date. Note that announcement date supports only year and month granularity.'
+		[2163] radio ' Show abstracts' checked: true
+		[2164] radio ' Hide abstracts' checked: false
+		[2165] combobox 'results per page' hasPopup: menu expanded: False
+		[2166] checkbox 'Include older versions of papers' checked: false
+		[2891] button 'Search'
+		[2902] article ''
+			[2906] heading 'Searching by Author Name'
+			[2915] ListMarker '• '
+			[2916] StaticText 'Using the '
+			[2918] StaticText 'Author(s) field'
+			[2919] StaticText ' produces best results for author name searches.'
+			[2922] ListMarker '• '
+			[2923] StaticText 'For the most precise name search, follow '
+			[2925] StaticText 'surname(s), forename(s)'
+			[2926] StaticText ' or '
+			[2928] StaticText 'surname(s), initial(s)'
+			[2929] StaticText ' pattern: example Hawking, S or Hawking, Stephen'
+			[2932] ListMarker '• '
+			[2933] StaticText 'For best results on multiple author names, '
+			[2935] StaticText 'separate individuals with a ;'
+			[2936] StaticText ' (semicolon). Example: Jin, D S; Ye, J'
+			[2939] ListMarker '• '
+			[2940] StaticText 'Author names enclosed in quotes will return only '
+			[2942] StaticText 'exact matches'
+			[2943] StaticText '. For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.'
+			[2946] ListMarker '• '
+			[2947] StaticText 'Diacritic character variants are automatically searched in the Author(s) field.'
+			[2950] ListMarker '• '
+			[2951] StaticText 'Queries with no punctuation will treat each term independently.'
+		[2956] article ''
+			[2960] heading 'Searching by subcategory'
+			[2969] ListMarker '• '
+			[2970] StaticText 'To search within a subcategory select '
+			[2972] StaticText 'All fields'
+			[2973] StaticText '.'
+			[2976] ListMarker '• '
+			[2977] StaticText 'A subcategory search can be combined with an author or keyword search by clicking on '
+			[2979] StaticText 'add another term'
+			[2980] StaticText ' in advanced search.'

@@ -2,5 +2,93 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Investigate the trade-in value for an iPhone 11 Pro Max on Apple's website.  Please interact with https://www.apple.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to navigate to iPhone section where Apple Trade In info likely available.\nAction: Click [54]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need Apple Trade In value, easiest to search site for \"trade in value iPhone 11 Pro Max\".\nAction: Click [8866]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: In search overlay, there is quick link to Apple Trade In page, which likely shows trade‑in values.\nAction: Click [17313]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to view full list; click “See all iPhone values” to reveal iPhone 11 Pro Max trade‑in value.\nAction: Click [19677]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The table only shows latest models; need to scroll down to reveal full links or click correct button. Let's try scrolling first to look further down the page and confirm button label.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need full list; click button “See all iPhone values” (element 19677). Try again.\nAction: Click [19677]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The full list might be further down the page; need to scroll to look for iPhone 11 Pro Max value.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll further down to bring button into viewport; then click to view all iPhone values.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[18022] RootWebArea 'Apple Trade In - Apple' focused: True url: https://www.apple.com/shop/trade-in\n\t[19372] navigation 'Local'\n\t\t[19385] link 'Apple Trade In' url: https://www.apple.com/shop/trade-in\n\t\t[19397] button 'Find your trade-in value'\n\t[19414] main ''\n\t\t[20254] heading 'Two easy ways to trade in.'\n\t\t[20258] StaticText 'Trade in your way — online or at an Apple Store. From getting an estimate to returning your device, we’ll help every step of the way.'\n\t\t[20268] tablist '' multiselectable: False orientation: horizontal\n\t\t\t[20270] tab 'Online' selected: True controls: panel-:re:-0\n\t\t\t[20275] tab 'In Store' selected: False\n\t\t[20280] tabpanel 'Online'\n\t\t\t[20287] heading 'Get credit toward a new Apple product.'\n\t\t\t[20309] StaticText 'STEP 1'\n\t\t\t[20312] StaticText 'See how much you can save.'\n\t\t\t[20315] StaticText 'First, get your trade-in estimate. Then choose a new Apple product, add your trade-in device, and check out.'\n\t\t\t[20335] StaticText 'STEP 2'\n\t\t\t[20338] StaticText 'Get your device ready to trade in.'\n\t\t\t[20341] StaticText 'We’ll send you a trade-in confirmation email with instructions on how to back up your personal data and prepare your device.'\n\t\t\t[20361] StaticText 'STEP 3'\n\t\t\t[20364] StaticText 'Mail it in, or drop it off.'\n\t\t\t[20367] StaticText 'However you choose to return your device, your trade-in confirmation email will include step-by-step instructions.'\n\t\t\t[20378] heading 'Quick answers about trading in online.'\n\t\t[20494] heading 'All the reasons to trade in with Apple. Including one very big One. The letter O in the word One is replaced with Globe Emoji, showing the Americas.'\n\t\t\t[20495] StaticText 'All the reasons to trade in with Apple. Including one very big 🌎ne.'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to return to earlier section where “See all iPhone values” button is located by scrolling up.\nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[18022] RootWebArea 'Apple Trade In - Apple' focused: True url: https://www.apple.com/shop/trade-in\n\t[19372] navigation 'Local'\n\t\t[19385] link 'Apple Trade In' url: https://www.apple.com/shop/trade-in\n\t\t[19397] button 'Find your trade-in value'\n\t[19414] main ''\n\t\t[19589] tabpanel 'iPhone'\n\t\t\t[19613] table 'iPhone Trade In Values'\n\t\t\t\t[19615] caption ''\n\t\t\t\t[19618] rowgroup ''\n\t\t\t\t\t[19620] row ''\n\t\t\t\t\t\t[19622] columnheader 'Your device' required: False\n\t\t\t\t\t\t[19625] columnheader 'Estimated trade-in value \\xa0footnote\\xa0 ¹' required: False\n\t\t\t\t[19637] row ''\n\t\t\t\t\t[19639] cell 'iPhone 15 Pro Max'\n\t\t\t\t\t[19642] cell 'Up to $630'\n\t\t\t\t[19646] row ''\n\t\t\t\t\t[19648] cell 'iPhone\\xa015\\xa0Pro'\n\t\t\t\t\t[19651] cell 'Up to $500'\n\t\t\t\t[19655] row ''\n\t\t\t\t\t[19657] cell 'iPhone 15\\xa0Plus'\n\t\t\t\t\t[19660] cell 'Up to $440'\n\t\t\t\t[19664] row ''\n\t\t\t\t\t[19666] cell 'iPhone\\xa015'\n\t\t\t\t\t[19669] cell 'Up to $400'\n\t\t\t[19677] button 'See all iPhone values \\uf30f'\n\t\t\t[19684] button 'Find your trade-in value'\n\t\t\t[19694] image 'iPhone 16e, back exterior, 2-in-1 camera system, white color, iPhone 16, back exterior, advanced dual-camera system, ultramarine color, iPhone 16 Pro, back and front exterior, pro camera system, Desert Titanium color' url: https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphones-value-tradein-202502_GEO_US?wid=928&hei=866&fmt=png-alpha&.v=aHBjaGFSWjRFaHlmSUNGdm1BMTBlbis4eEFYRlRWbVdJai9XZ0F0NjdGVmU3c0NQM0JSWDJoNVEwZFdWYlRPZVp6UmJRVFlmVmZ6K3Rrem9QY3VvdmJ6aU55ZEZuQW00NjNUOHBsdCtLYnpYZjEvNHBLSE1OYVRzbENQMEd6Q3A\n\t\t[20224] StaticText 'Already started a trade-in?'\n\t\t[20226] link 'Check trade-in status' url: https://secure.store.apple.com/shop/order/list\n\t\t\t[20228] StaticText 'Check its status'\n\t\t[20254] heading 'Two easy ways to trade in.'\n\t\t[20258] StaticText 'Trade in your way — online or at an Apple Store. From getting an estimate to returning your device, we’ll help every step of the way.'\n\t\t[20268] tablist '' multiselectable: False orientation: horizontal\n\t\t\t[20270] tab 'Online' selected: True controls: panel-:re:-0\n\t\t\t[20275] tab 'In Store' selected: False\n\t\t[20280] tabpanel 'Online'\n\t\t\t[20287] heading 'Get credit toward a new Apple product.'\n\t\t\t[20309] StaticText 'STEP 1'\n\t\t\t[20312] StaticText 'See how much you can save.'\n\t\t\t[20315] StaticText 'First, get your trade-in estimate. Then choose a new Apple product, add your trade-in device, and check out.'\n\t\t\t[20335] StaticText 'STEP 2'\n\t\t\t[20338] StaticText 'Get your device ready to trade in.'\n\t\t\t[20341] StaticText 'We’ll send you a trade-in confirmation email with instructions on how to back up your personal data and prepare your device.'\n\t\t\t[20361] StaticText 'STEP 3'\n\t\t\t[20364] StaticText 'Mail it in, or drop it off.'\n\t\t\t[20367] StaticText 'However you choose to return your device, your trade-in confirmation email will include step-by-step instructions.'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Click the “See all iPhone values” button (element 19677) to expand the full list so we can locate the iPhone 11 Pro Max trade‑in value.  \nAction: Click [19677]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[18022] RootWebArea 'Apple Trade In - Apple' focused: True url: https://www.apple.com/shop/trade-in\n\t[23939] dialog 'iPhone Trade In Values' focused: True modal: True\n\t\t[23833] heading 'iPhone Trade In Values'\n\t\t[23834] table 'iPhone Trade In Values'\n\t\t\t[23835] caption ''\n\t\t\t[23836] rowgroup ''\n\t\t\t\t[23837] row ''\n\t\t\t\t\t[23838] columnheader 'Your device' required: False\n\t\t\t\t\t[23839] columnheader 'Estimated trade-in value \\xa0footnote\\xa0 ¹' required: False\n\t\t\t[23843] row ''\n\t\t\t\t[23844] cell 'iPhone 15 Pro Max'\n\t\t\t\t[23845] cell 'Up to $630'\n\t\t\t[23846] row ''\n\t\t\t\t[23847] cell 'iPhone\\xa015\\xa0Pro'\n\t\t\t\t[23848] cell 'Up to $500'\n\t\t\t[23849] row ''\n\t\t\t\t[23850] cell 'iPhone 15\\xa0Plus'\n\t\t\t\t[23851] cell 'Up to $440'\n\t\t\t[23852] row ''\n\t\t\t\t[23853] cell 'iPhone\\xa015'\n\t\t\t\t[23854] cell 'Up to $400'\n\t\t\t[23855] row ''\n\t\t\t\t[23856] cell 'iPhone 14 Pro Max'\n\t\t\t\t[23857] cell 'Up to $450'\n\t\t\t[23858] row ''\n\t\t\t\t[23859] cell 'iPhone 14 Pro'\n\t\t\t\t[23860] cell 'Up to $380'\n\t\t\t[23861] row ''\n\t\t\t\t[23862] cell 'iPhone 14 Plus'\n\t\t\t\t[23863] cell 'Up to $300'\n\t\t\t[23864] row ''\n\t\t\t\t[23865] cell 'iPhone\\xa014'\n\t\t\t\t[23866] cell 'Up to $290'\n\t\t\t[23867] row ''\n\t\t\t\t[23868] cell 'iPhone SE (3rd\\xa0generation)'\n\t\t\t\t[23869] cell 'Up to $100'\n\t\t\t[23871] row ''\n\t\t\t\t[23872] cell 'iPhone 13 Pro Max'\n\t\t\t\t[23873] cell 'Up to $370'\n\t\t\t[23874] row ''\n\t\t\t\t[23875] cell 'iPhone 13 Pro'\n\t\t\t\t[23876] cell 'Up to $300'\n\t\t\t[23877] row ''\n\t\t\t\t[23878] cell 'iPhone 13'\n\t\t\t\t[23879] cell 'Up to $250'\n\t\t\t[23880] row ''\n\t\t\t\t[23881] cell 'iPhone 13 mini'\n\t\t\t\t[23882] cell 'Up to $200'\n\t\t\t[23883] row ''\n\t\t\t\t[23884] cell 'iPhone 12 Pro Max'\n\t\t\t\t[23885] cell 'Up to $280'\n\t\t\t[23886] row ''\n\t\t\t\t[23887] cell 'iPhone 12 Pro'\n\t\t\t\t[23888] cell 'Up to $220'\n\t\t\t[23889] row ''\n\t\t\t\t[23890] cell 'iPhone 12'\n\t\t\t\t[23891] cell 'Up to $170'\n\t\t\t[23892] row ''\n\t\t\t\t[23893] cell 'iPhone 12 mini'\n\t\t\t\t[23894] cell 'Up to $120'\n\t\t\t[23895] row ''\n\t\t\t\t[23896] cell 'iPhone SE (2nd\\xa0generation)'\n\t\t\t\t[23897] cell 'Up to $50'\n\t\t\t[23899] row ''\n\t\t\t\t[23900] cell 'iPhone 11 Pro Max'\n\t\t\t\t[23901] cell 'Up to $180'\n\t\t\t[23902] row ''\n\t\t\t\t[23903] cell 'iPhone 11 Pro'\n\t\t\t\t[23904] cell 'Up to $150'\n\t\t\t[23905] row ''\n\t\t\t\t[23906] cell 'iPhone 11'\n\t\t\t\t[23907] cell 'Up to $130'\n\t\t\t[23908] row ''\n\t\t\t\t[23909] cell 'iPhone XS Max'\n\t\t\t\t[23910] cell 'Up to $120'\n\t\t\t[23911] row ''\n\t\t\t\t[23912] cell 'iPhone XS'\n\t\t\t\t[23913] cell 'Up to $90'\n\t\t\t[23915] row ''\n\t\t\t\t[23916] cell 'iPhone XR'\n\t\t\t\t[23917] cell 'Up to $100'\n\t\t\t[23919] row ''\n\t\t\t\t[23920] cell 'iPhone X'\n\t\t\t\t[23921] cell 'Up to $60'\n\t\t\t[23923] row ''\n\t\t\t\t[23924] cell 'iPhone 8 Plus'\n\t\t\t\t[23925] cell 'Up to $60'\n\t\t\t[23927] row ''\n\t\t\t\t[23928] cell 'iPhone 8'\n\t\t\t\t[23929] cell 'Up to $45'\n\t\t[23937] button 'Close'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The modal table displays \"iPhone 11 Pro Max – Up to $180\" as the estimated trade‑in value.\nAction: ANSWER; The current Apple Trade In value for an iPhone 11 Pro Max is up to $180 (USD)."
   }
 ]

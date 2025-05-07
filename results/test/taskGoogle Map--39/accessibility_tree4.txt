@@ -1,0 +1,116 @@
+[1] RootWebArea 'Miami, Florida to New Orleans, Louisiana - Google Maps' focused: True url: https://www.google.com/maps/dir/Miami,+Florida/New+Orleans,+Louisiana/@27.8640811,-95.7255422,5z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88d9b0a20ec8c111:0xff96f271ddad4f65!2m2!1d-80.1917902!2d25.7616798!1m5!1m1!1s0x8620a454b2118265:0xdb065be85e22d3b4!2m2!1d-90.0758356!2d29.9508941?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[167] generic 'Google Maps'
+		[244] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[46] Canvas ''
+		[913] radiogroup '' required: False
+			[916] radio 'Best travel modes' checked: true
+				[917] image 'Best travel modes'
+			[926] radio 'Driving 12 hr 5 min' checked: false
+				[927] image 'Driving'
+			[936] radio 'Transit 1 day' checked: false
+				[937] image 'Transit'
+			[946] radio 'Walking 14 days' checked: false
+				[947] image 'Walking'
+			[956] radio 'Cycling 4 days' checked: false
+				[957] image 'Cycling'
+			[966] radio 'Flights 2 hr' checked: false
+				[967] image 'Flights'
+		[975] button 'Close directions'
+		[1004] combobox '' hasPopup: grid required: False expanded: False
+			[997] textbox 'Starting point Miami, Florida' autocomplete: list required: False
+		[998] button 'Search'
+		[1028] combobox '' hasPopup: grid required: False expanded: False
+			[1021] textbox 'Destination New Orleans, Louisiana' autocomplete: list required: False
+		[1022] button 'Search'
+		[980] button 'Reverse starting point and destination'
+		[982] button 'Add destination'
+		[1751] region 'Available options for search along this route' roledescription: carousel
+			[1760] button 'Add stops along route'
+				[1956] StaticText 'Search along the route'
+			[1766] button 'Add hotels along route'
+				[1958] StaticText 'Hotels'
+			[1773] button 'Add gas stations along route'
+				[1960] StaticText 'Gas'
+			[1780] button 'Add electric vehicle charging stations along route'
+				[1962] StaticText 'EV charging'
+			[1787] button 'Add things to do along route'
+				[1964] StaticText 'Things to do'
+			[1794] button 'Add campgrounds along route'
+				[1966] StaticText 'Campgrounds'
+			[2187] button 'Next page'
+		[18] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1726] button 'New Orleans 12 hr'
+		[1588] button 'New Orleans'
+		[2195] button 'View more'
+		[501] button 'Get the app'
+		[1121] main 'Directions'
+			[1709] button 'Departure options' hasPopup: menu expanded: False
+				[1705] option 'Leave now' selected: True
+				[1715] StaticText '\xa0'
+			[1692] button 'Options' focused: True expanded: False
+			[1804] button 'Send directions to your phone'
+			[1809] button 'Copy link'
+			[1813] link "Driving 12 hr 5 min 865 miles via Florida's Tpke and I-10 W Fastest route, the usual traffic Warning This route has tolls. Warning Your destination is in a different time zone. Details"
+				[1815] image 'Driving'
+					[1929] StaticText '\ue531'
+				[1823] heading "via Florida's Tpke and I-10 W"
+				[1921] StaticText 'Fastest route, the usual traffic'
+				[1834] image 'Warning'
+					[1922] StaticText '\ue002'
+				[1835] heading 'This route has tolls.'
+				[1839] image 'Warning'
+				[1840] heading 'Your destination is in a different time zone.'
+				[1842] button 'Details'
+			[1847] button 'Driving 12 hr 37 min 897 miles via I-95 N and I-10 W'
+				[1849] image 'Driving'
+					[1934] StaticText '\ue531'
+				[1857] heading 'via I-95 N and I-10 W'
+			[1860] button 'Flights 2 hr from $158 Fort Lauderdale, FL—New Orleans, LA'
+				[1862] image 'Flights'
+					[1939] StaticText '\ue539'
+				[1869] heading 'Fort Lauderdale, FL—New Orleans, LA'
+			[1975] heading 'Explore new places along this route'
+			[1979] heading 'Add suggested stops'
+			[1984] button 'Norton Museum of Art · 4.7 stars · 2,657 Reviews'
+			[1989] image '4.7 stars 2,657 Reviews'
+			[2002] button 'Vero Beach Museum of Art · 4.7 stars · 880 Reviews'
+			[2007] image '4.7 stars 880 Reviews'
+			[2020] button 'Walt Disney World® Resort · 4.7 stars · 255,169 Reviews'
+			[2025] image '4.7 stars 255,169 Reviews'
+			[2038] button 'Magic Kingdom Park · 4.6 stars · 235,674 Reviews'
+			[2043] image '4.6 stars 235,674 Reviews'
+			[2056] button 'Three Sisters Springs · 4.6 stars · 3,706 Reviews'
+			[2061] image '4.6 stars 3,706 Reviews'
+			[2074] button 'Florida Museum of Natural History · 4.8 stars · 3,056 Reviews'
+			[2079] image '4.8 stars 3,056 Reviews'
+			[2092] button 'Alfred B. Maclay Gardens State Park · 4.8 stars · 1,609 Reviews'
+			[2097] image '4.8 stars 1,609 Reviews'
+			[2110] button 'Pier Park · 4.6 stars · 20,995 Reviews'
+			[2115] image '4.6 stars 20,995 Reviews'
+			[2128] button 'See more stops'
+			[1877] heading 'Explore New Orleans'
+			[1882] button 'Restaurants'
+			[1887] button 'Hotels'
+			[1892] button 'Gas stations'
+			[1897] button 'Parking Lots'
+			[1902] button 'More'
+		[1163] button 'Collapse side panel'
+		[547] button 'Google apps' expanded: False
+			[549] image ''
+		[552] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[599] button 'Show Your Location' pressed: false
+		[616] button 'Zoom in'
+		[647] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[701] generic 'Interactive map'
+		[739] StaticText 'Layers'
+		[754] button 'Layers' expanded: False
+		[858] contentinfo ''
+			[860] StaticText 'Map data ©2025 Google, INEGI'
+			[861] button 'United States'
+			[863] button 'Terms'
+			[865] button 'Privacy'
+			[867] button 'Send Product Feedback'
+		[870] button '200 mi'

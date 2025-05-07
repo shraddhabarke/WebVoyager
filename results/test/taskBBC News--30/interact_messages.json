@@ -2,5 +2,69 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: In the Culture section, identify the latest film release reviewed and provide a brief summary of the review.  Please interact with https://www.bbc.com/news/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to access Culture section to find latest film release reviewed. First step: click Culture link.\nAction: Click 19"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open newest film review article (Thunderbolts*) to summarise.\nAction: Click 2685"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Bring Thunderbolts* review link into view before clicking.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open film review article link “Thunderbolts* is 'the greatest Marvel in years'” to read and summarise.\nAction: Click 2685"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Gather more content from review to craft summary.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[4329] RootWebArea \"Thunderbolts* review: 'The greatest Marvel offering in years'\" focused: True url: https://www.bbc.com/culture/article/20250429-thunderbolts-film-review\n\t[4546] button 'Open menu' expanded: False\n\t\t[4547] image ''\n\t[4552] link 'British Broadcasting Corporation' url: https://www.bbc.com/\n\t\t[4369] image 'British Broadcasting Corporation'\n\t[4556] link 'Watch Live' url: https://www.bbc.com/watch-live-news/\n\t\t[4361] image ''\n\t[4560] link 'Register' url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fculture%2Farticle%2F20250429-thunderbolts-film-review\n\t\t[4356] button 'Register'\n\t[4562] link 'Sign In' url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fculture%2Farticle%2F20250429-thunderbolts-film-review\n\t\t[4375] button 'Sign In'\n\t[4569] link 'Home' url: https://www.bbc.com/\n\t[4573] link 'News' url: https://www.bbc.com/news\n\t[4332] link 'Sport' url: https://www.bbc.com/sport\n\t[4580] link 'Business' url: https://www.bbc.com/business\n\t[4584] link 'Innovation' url: https://www.bbc.com/innovation\n\t[4588] link 'Culture' url: https://www.bbc.com/culture\n\t[4592] link 'Arts' url: https://www.bbc.com/arts\n\t[4596] link 'Travel' url: https://www.bbc.com/travel\n\t[4600] link 'Earth' url: https://www.bbc.com/future-planet\n\t[4605] link 'Audio' url: https://www.bbc.com/audio\n\t[4609] link 'Video' url: https://www.bbc.com/video\n\t[4613] link 'Live' url: https://www.bbc.com/live\n\t[4748] main ''\n\t\t[4388] article ''\n\t\t\t[4761] time ''\n\t\t\t\t[4762] StaticText '13 hours ago'\n\t\t\t[4765] button 'Share'\n\t\t\t[4771] button 'Save'\n\t\t\t[4779] StaticText 'Nicholas Barber'\n\t\t\t[4799] figure ''\n\t\t\t\t[4330] image 'Disney A still of Florence Pugh in Thunderbolts* (Credit: Disney)' url: https://ichef.bbci.co.uk/images/ic/800xn/p0l74rbx.jpg.webp\n\t\t\t[4805] StaticText 'The latest in the superhero franchise \"is scrappy, scruffy-looking, down-to-earth fun\", with a \"charismatic\" Florence Pugh at its centre, writes Nicholas Barber.'\n\t\t\t[4808] StaticText 'Ever since '\n\t\t\t[4809] link 'Avengers: Endgame' url: https://www.bbc.com/culture/article/20190424-avengers-endgame-three-stars\n\t\t\t[4814] StaticText 'The Marvel films that have worked best since Endgame are the ones that have moved furthest away from the pattern set by the so-called \"Infinity Saga\" – the first 22 instalments in the franchise, which pivoted around a fight against uber-villain Thanos. Last year\\'s R-rated '\n\t\t\t[4815] link 'Deadpool & Wolverine' url: https://www.bbc.com/culture/article/20240723-deadpool-and-wolverine-review-the-action-is-a-slog\n\t\t\t[4817] StaticText ' used almost no characters from the main Marvel Cinematic Universe (MCU); the postmodern '\n\t\t\t[4818] link 'Spider-Man: No Way Home' url: https://www.bbc.com/culture/article/20211215-film-review-five-stars-for-spider-man-no-way-home\n\t\t\t[4823] Iframe 'youtube-embed'\n\t[4389] Iframe ''"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more of the review body for comprehensive summary, so scroll further.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[4329] RootWebArea \"Thunderbolts* review: 'The greatest Marvel offering in years'\" focused: True url: https://www.bbc.com/culture/article/20250429-thunderbolts-film-review\n\t[4546] button 'Open menu' expanded: False\n\t\t[4547] image ''\n\t[4552] link 'British Broadcasting Corporation' url: https://www.bbc.com/\n\t\t[4369] image 'British Broadcasting Corporation'\n\t[4556] link 'Watch Live' url: https://www.bbc.com/watch-live-news/\n\t\t[4361] image ''\n\t[4560] link 'Register' url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fculture%2Farticle%2F20250429-thunderbolts-film-review\n\t\t[4356] button 'Register'\n\t[4562] link 'Sign In' url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fculture%2Farticle%2F20250429-thunderbolts-film-review\n\t\t[4375] button 'Sign In'\n\t[4569] link 'Home' url: https://www.bbc.com/\n\t[4573] link 'News' url: https://www.bbc.com/news\n\t[4332] link 'Sport' url: https://www.bbc.com/sport\n\t[4580] link 'Business' url: https://www.bbc.com/business\n\t[4584] link 'Innovation' url: https://www.bbc.com/innovation\n\t[4588] link 'Culture' url: https://www.bbc.com/culture\n\t[4592] link 'Arts' url: https://www.bbc.com/arts\n\t[4596] link 'Travel' url: https://www.bbc.com/travel\n\t[4600] link 'Earth' url: https://www.bbc.com/future-planet\n\t[4605] link 'Audio' url: https://www.bbc.com/audio\n\t[4609] link 'Video' url: https://www.bbc.com/video\n\t[4613] link 'Live' url: https://www.bbc.com/live\n\t[4748] main ''\n\t\t[4388] article ''\n\t\t\t[4805] StaticText 'The latest in the superhero franchise \"is scrappy, scruffy-looking, down-to-earth fun\", with a \"charismatic\" Florence Pugh at its centre, writes Nicholas Barber.'\n\t\t\t[4808] StaticText 'Ever since '\n\t\t\t[4809] link 'Avengers: Endgame' url: https://www.bbc.com/culture/article/20190424-avengers-endgame-three-stars\n\t\t\t[4814] StaticText 'The Marvel films that have worked best since Endgame are the ones that have moved furthest away from the pattern set by the so-called \"Infinity Saga\" – the first 22 instalments in the franchise, which pivoted around a fight against uber-villain Thanos. Last year\\'s R-rated '\n\t\t\t[4815] link 'Deadpool & Wolverine' url: https://www.bbc.com/culture/article/20240723-deadpool-and-wolverine-review-the-action-is-a-slog\n\t\t\t[4817] StaticText ' used almost no characters from the main Marvel Cinematic Universe (MCU); the postmodern '\n\t\t\t[4818] link 'Spider-Man: No Way Home' url: https://www.bbc.com/culture/article/20211215-film-review-five-stars-for-spider-man-no-way-home\n\t\t\t[4823] Iframe 'youtube-embed'\n\t\t\t[4830] link 'Eternals' url: https://www.bbc.com/culture/article/20211024-three-stars-for-chlo-zhaos-disappointing-eternals\n\t\t\t[4832] StaticText ' and '\n\t\t\t[4833] link 'The Marvels' url: https://www.bbc.com/news/entertainment-arts-67401772\n\t\t\t[4836] link 'Black Widow' url: https://www.bbc.com/culture/article/20210629-film-review-four-stars-for-exciting-black-widow\n\t[4389] Iframe ''"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; Latest film reviewed: “Thunderbolts*”.\n\nBrief review summary: Critic Nicholas Barber calls Thunderbolts* “the greatest Marvel offering in years”. He praises its scrappy, down‑to‑earth tone, describing the film as fun, rough‑around‑the‑edges and refreshingly different from the grand, formulaic “Infinity Saga” entries. The story is smaller‑scale but energetic, held together by a charismatic lead performance from Florence Pugh, and overall offers an engaging, revitalising change of pace for the MCU."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We have opened the newest Culture film review (published 13 hours ago) and noted the critic’s key points. Ready to deliver the required answer.  \nAction: ANSWER; Latest film review in the Culture section: “Thunderbolts*”.  \nSummary of the review: Critic Nicholas Barber hails Thunderbolts* as “the greatest Marvel offering in years”. He says the film is “scrappy, scruffy‑looking, down‑to‑earth fun”, standing out from recent MCU entries by avoiding the grand “Infinity Saga” formula. Its smaller, energetic story is anchored by a “charismatic” performance from Florence Pugh, making the movie a refreshing, engaging new direction for the franchise."
   }
 ]

@@ -1,0 +1,982 @@
+{
+  "5054": {
+    "backend_id": 5054,
+    "union_bound": [
+      0.0,
+      0.0,
+      10.0,
+      10.0
+    ],
+    "text": "[5054] RootWebArea 'Project Management | Coursera' focused: True url: https://www.coursera.org/specializations/meem-project-management"
+  },
+  "5371": {
+    "backend_id": 5371,
+    "union_bound": [
+      16,
+      13,
+      36,
+      38
+    ],
+    "text": "[5371] navigation 'Main Menu'"
+  },
+  "5372": {
+    "backend_id": 5372,
+    "union_bound": [
+      16,
+      13,
+      36,
+      38
+    ],
+    "text": "[5372] button 'Open Navigation Menu' expanded: False"
+  },
+  "5377": {
+    "backend_id": 5377,
+    "union_bound": [
+      52,
+      7,
+      158,
+      50
+    ],
+    "text": "[5377] link 'Coursera' url: https://www.coursera.org/"
+  },
+  "5055": {
+    "backend_id": 5055,
+    "union_bound": [
+      77,
+      24.34375,
+      108,
+      15.328125
+    ],
+    "text": "[5055] image 'Coursera' url: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZpZXdCb3g9IjAgMCAxMTU1IDE2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiPjxwYXRoIGQ9Ik0xNTkuNzUgODEuNTRjMC00NC40OSAzNi42My04MC40NyA4Mi40My04MC40NyA0Ni4xMiAwIDgyLjc2IDM2IDgyLjc2IDgwLjQ3IDAgNDQuMTYtMzYuNjQgODAuOC04Mi43NiA4MC44LTQ1LjggMC04Mi40My0zNi42OC04Mi40My04MC44em0xMjUuNjEgMGMwLTIyLjI0LTE5LjMtNDEuODctNDMuMTgtNDEuODctMjMuNTUgMC00Mi44NSAxOS42My00Mi44NSA0MS44NyAwIDIyLjU3IDE5LjMgNDIuMiA0Mi44NSA0Mi4yIDIzLjkyIDAgNDMuMTgtMTkuNjMgNDMuMTgtNDIuMnptNzA1LjYzIDEuMzFjMC00OC43NCAzOS41OC04MS43OCA3NS41Ny04MS43OCAyNC41MyAwIDM4LjYgNy41MiA0OC4wOCAyMS45MmwzLjc3LTE5aDM2Ljc5djE1NS40aC0zNi43OWwtNC43NS0xNmMtMTAuNzkgMTEuNzgtMjQuMjEgMTktNDcuMSAxOS0zNS4zMy0uMDUtNzUuNTctMzEuMTMtNzUuNTctNzkuNTR6bTEyNS42MS0uMzNjLS4wOS0yMy41MjctMTkuNDctNDIuODM1LTQzLTQyLjgzNS0yMy41OSAwLTQzIDE5LjQxMS00MyA0M3YuMTY1YzAgMjEuNTkgMTkuMyA0MC44OSA0Mi44NiA0MC44OSAyMy44NSAwIDQzLjE0LTE5LjMgNDMuMTQtNDEuMjJ6TTk0NS43OCAyMlY0aC00MC4yM3YxNTUuMzloNDAuMjNWNzUuNjZjMC0yNS4xOSAxMi40NC0zOC4yNyAzNC0zOC4yNyAxLjQzIDAgMi43OS4xIDQuMTIuMjNMOTkxLjM2LjExYy0yMC45Ny4xMS0zNi4xNyA3LjMtNDUuNTggMjEuODl6bS00MDQuMjcuMDF2LTE4bC00MC4yMy4wOS4zNCAxNTUuMzcgNDAuMjMtLjA5LS4yMi04My43MmMtLjA2LTI1LjE4IDEyLjM1LTM4LjI5IDMzLjkzLTM4LjM0IDEuMzc2LjAwNCAyLjc1Mi4wODEgNC4xMi4yM0w1ODcuMSAwYy0yMSAuMTctMzYuMjIgNy4zOS00NS41OSAyMi4wMXpNMzM4Ljg4IDk5LjJWNC4wMWg0MC4yMlY5NC4zYzAgMTkuOTUgMTEuMTIgMzEuNzMgMzAuNDIgMzEuNzMgMjEuNTkgMCAzNC0xMy4wOSAzNC0zOC4yOFY0LjAxaDQwLjI0djE1NS4zOGgtNDAuMjF2LTE4Yy05LjQ4IDE0LjcyLTI0Ljg2IDIxLjkyLTQ2LjEyIDIxLjkyLTM1Ljk4LjAxLTU4LjU1LTI2LjE2LTU4LjU1LTY0LjExem0zOTEuNzQtMTcuNDhjLjA5LTQzLjUxIDMxLjIzLTgwLjc0IDgwLjYyLTgwLjY1IDQ1LjguMDkgNzguMTEgMzYuNzggNzggODAgLjAxIDQuMjczLS4zMyA4LjU0LTEgMTIuNzZsLTExOC40MS0uMjJjNC41NCAxOC42NSAxOS44OSAzMi4wOSA0My4xMiAzMi4xNCAxNC4wNiAwIDI5LjEyLTUuMTggMzguMy0xNi45NGwyNy40NCAyMmMtMTQuMTEgMTkuOTMtMzkgMzEuNjYtNjUuNDggMzEuNjEtNDYuNzUtLjE2LTgyLjY3LTM1LjIzLTgyLjU5LTgwLjd6bTExOC4xMi0xNi4xNGMtMi4yNi0xNS43LTE4LjU5LTI3Ljg0LTM3Ljg5LTI3Ljg3LTE4LjY1IDAtMzMuNzEgMTEuMDYtMzkuNjMgMjcuNzNsNzcuNTIuMTR6bS0yNjEuNCA1OS45NGwzNS43Ni0xOC43MmM1LjkxIDEyLjgxIDE3LjczIDIwLjM2IDM0LjQ4IDIwLjM2IDE1LjQzIDAgMjEuMzQtNC45MiAyMS4zNC0xMS44MiAwLTI1LTg0LjcxLTkuODUtODQuNzEtNjcgMC0zMS41MiAyNy41OC00OC4yNiA2MS43Mi00OC4yNiAyNS45NCAwIDQ4LjkyIDExLjQ5IDYxLjQgMzIuODNsLTM1LjQ0IDE4Ljc1Yy01LjI1LTEwLjUxLTE1LjEtMTYuNDItMjcuNTgtMTYuNDItMTIuMTQgMC0xOC4wNiA0LjI3LTE4LjA2IDExLjQ5IDAgMjQuMyA4NC43MSA4Ljg3IDg0LjcxIDY3IDAgMzAuMjEtMjQuNjIgNDguNTktNjQuMzUgNDguNTktMzMuODItLjAzLTU3LjQ2LTExLjE5LTY5LjI3LTM2Ljh6TTAgODEuNTRDMCAzNi43MyAzNi42My43NCA4Mi40My43NGMyNy45NDctLjE5NiA1NC4xODIgMTMuNzM3IDY5LjY3IDM3bC0zNC4zNCAxOS45MmE0Mi45NzIgNDIuOTcyIDAgMDAtMzUuMzMtMTguMzJjLTIzLjU1IDAtNDIuODUgMTkuNjMtNDIuODUgNDIuMiAwIDIyLjU3IDE5LjMgNDIuMiA0Mi44NSA0Mi4yYTQyLjUwMiA0Mi41MDIgMCAwMDM2LjMxLTIwbDM0IDIwLjI4Yy0xNS4zMDcgMjMuOTU1LTQxLjkwMiAzOC40MzEtNzAuMzMgMzguMjhDMzYuNjMgMTYyLjM0IDAgMTI1LjY2IDAgODEuNTR6IiBmaWxsPSIjMDA1NkQyIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4="
+  },
+  "5380": {
+    "backend_id": 5380,
+    "union_bound": [
+      929,
+      8,
+      48,
+      48
+    ],
+    "text": "[5380] button 'Search Coursera'"
+  },
+  "5385": {
+    "backend_id": 5385,
+    "union_bound": [
+      0,
+      -3007,
+      993,
+      6929.25
+    ],
+    "text": "[5385] main ''"
+  },
+  "6073": {
+    "backend_id": 6073,
+    "union_bound": [
+      53,
+      30.25,
+      264.28125,
+      28
+    ],
+    "text": "[6073] heading 'Course 2: Project Planning and Execution'"
+  },
+  "6074": {
+    "backend_id": 6074,
+    "union_bound": [
+      53,
+      31.25,
+      264.28125,
+      25
+    ],
+    "text": "[6074] link 'Course 2: Project Planning and Execution' url: https://www.coursera.org/learn/project-planning-execution?specialization=meem-project-management"
+  },
+  "6075": {
+    "backend_id": 6075,
+    "union_bound": [
+      53,
+      31.25,
+      264.28125,
+      25
+    ],
+    "text": "[6075] StaticText 'Project Planning and Execution'"
+  },
+  "6078": {
+    "backend_id": 6078,
+    "union_bound": [
+      53,
+      63.25,
+      50.578125,
+      18
+    ],
+    "text": "[6078] StaticText 'Course 2'"
+  },
+  "6083": {
+    "backend_id": 6083,
+    "union_bound": [
+      123.84375,
+      63.25,
+      50.21875,
+      18
+    ],
+    "text": "[6083] StaticText '26 hours'"
+  },
+  "6087": {
+    "backend_id": 6087,
+    "union_bound": [
+      194.328125,
+      62.25,
+      48.6875,
+      20
+    ],
+    "text": "[6087] group '4.8 stars'"
+  },
+  "6088": {
+    "backend_id": 6088,
+    "union_bound": [
+      194.328125,
+      62.25,
+      20.6875,
+      20
+    ],
+    "text": "[6088] StaticText '4.8'"
+  },
+  "6094": {
+    "backend_id": 6094,
+    "union_bound": [
+      243.015625,
+      63.25,
+      4.25,
+      18
+    ],
+    "text": "[6094] StaticText '('"
+  },
+  "6096": {
+    "backend_id": 6096,
+    "union_bound": [
+      247.265625,
+      63.25,
+      63.8125,
+      18
+    ],
+    "text": "[6096] StaticText '263 ratings'"
+  },
+  "6097": {
+    "backend_id": 6097,
+    "union_bound": [
+      311.078125,
+      63.25,
+      4.25,
+      18
+    ],
+    "text": "[6097] StaticText ')'"
+  },
+  "6098": {
+    "backend_id": 6098,
+    "union_bound": [
+      884,
+      18.25,
+      56,
+      76
+    ],
+    "text": "[6098] button 'Course details for Project Planning and Execution' expanded: False"
+  },
+  "6214": {
+    "backend_id": 6214,
+    "union_bound": [
+      53,
+      130.25,
+      262.328125,
+      28
+    ],
+    "text": "[6214] heading 'Course 3: Agile Project Management'"
+  },
+  "6215": {
+    "backend_id": 6215,
+    "union_bound": [
+      53,
+      131.25,
+      221.890625,
+      25
+    ],
+    "text": "[6215] link 'Course 3: Agile Project Management' url: https://www.coursera.org/learn/meem-agile-project-management?specialization=meem-project-management"
+  },
+  "6216": {
+    "backend_id": 6216,
+    "union_bound": [
+      53,
+      131.25,
+      221.890625,
+      25
+    ],
+    "text": "[6216] StaticText 'Agile Project Management'"
+  },
+  "6219": {
+    "backend_id": 6219,
+    "union_bound": [
+      53,
+      163.25,
+      50.578125,
+      18
+    ],
+    "text": "[6219] StaticText 'Course 3'"
+  },
+  "6224": {
+    "backend_id": 6224,
+    "union_bound": [
+      123.84375,
+      163.25,
+      50.21875,
+      18
+    ],
+    "text": "[6224] StaticText '18 hours'"
+  },
+  "6228": {
+    "backend_id": 6228,
+    "union_bound": [
+      194.328125,
+      162.25,
+      48.6875,
+      20
+    ],
+    "text": "[6228] group '4.7 stars'"
+  },
+  "6229": {
+    "backend_id": 6229,
+    "union_bound": [
+      194.328125,
+      162.25,
+      20.6875,
+      20
+    ],
+    "text": "[6229] StaticText '4.7'"
+  },
+  "6235": {
+    "backend_id": 6235,
+    "union_bound": [
+      243.015625,
+      163.25,
+      4.25,
+      18
+    ],
+    "text": "[6235] StaticText '('"
+  },
+  "6237": {
+    "backend_id": 6237,
+    "union_bound": [
+      247.265625,
+      163.25,
+      63.8125,
+      18
+    ],
+    "text": "[6237] StaticText '387 ratings'"
+  },
+  "6238": {
+    "backend_id": 6238,
+    "union_bound": [
+      311.078125,
+      163.25,
+      4.25,
+      18
+    ],
+    "text": "[6238] StaticText ')'"
+  },
+  "6239": {
+    "backend_id": 6239,
+    "union_bound": [
+      884,
+      118.25,
+      56,
+      76
+    ],
+    "text": "[6239] button 'Course details for Agile Project Management' expanded: False"
+  },
+  "6341": {
+    "backend_id": 6341,
+    "union_bound": [
+      50,
+      257.25,
+      893,
+      28
+    ],
+    "text": "[6341] heading 'Instructor'"
+  },
+  "6343": {
+    "backend_id": 6343,
+    "union_bound": [
+      50,
+      258.25,
+      84.25,
+      25
+    ],
+    "text": "[6343] StaticText 'Instructor'"
+  },
+  "6347": {
+    "backend_id": 6347,
+    "union_bound": [
+      53,
+      312.25,
+      44,
+      44
+    ],
+    "text": "[6347] image 'Christy Bozic, PhD, PMP' url: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/33/785b78b7e54d77801f0d0db010270a/BlackBack21.jpg?auto=format%2Ccompress&dpr=1&w=75&h=75&fit=crop"
+  },
+  "6350": {
+    "backend_id": 6350,
+    "union_bound": [
+      112,
+      311.25,
+      161.515625,
+      20
+    ],
+    "text": "[6350] link 'Christy Bozic, PhD, PMP' url: https://www.coursera.org/instructor/christy-bozic"
+  },
+  "6352": {
+    "backend_id": 6352,
+    "union_bound": [
+      112,
+      311.25,
+      161.515625,
+      20
+    ],
+    "text": "[6352] StaticText 'Christy Bozic, PhD, PMP'"
+  },
+  "6354": {
+    "backend_id": 6354,
+    "union_bound": [
+      112,
+      334.25,
+      179.28125,
+      18
+    ],
+    "text": "[6354] StaticText 'University of Colorado Boulder'"
+  },
+  "6358": {
+    "backend_id": 6358,
+    "union_bound": [
+      112,
+      356.25,
+      56.4375,
+      18
+    ],
+    "text": "[6358] StaticText '8 Courses'"
+  },
+  "6363": {
+    "backend_id": 6363,
+    "union_bound": [
+      189.3125,
+      356.25,
+      88.578125,
+      18
+    ],
+    "text": "[6363] StaticText '52,576 learners'"
+  },
+  "6366": {
+    "backend_id": 6366,
+    "union_bound": [
+      50,
+      427.25,
+      893,
+      28
+    ],
+    "text": "[6366] heading 'Offered by'"
+  },
+  "6367": {
+    "backend_id": 6367,
+    "union_bound": [
+      50,
+      428.25,
+      88.828125,
+      25
+    ],
+    "text": "[6367] StaticText 'Offered by'"
+  },
+  "6373": {
+    "backend_id": 6373,
+    "union_bound": [
+      116,
+      479.25,
+      209.59375,
+      24
+    ],
+    "text": "[6373] link 'University of Colorado Boulder' url: https://www.coursera.org/partners/boulder"
+  },
+  "6375": {
+    "backend_id": 6375,
+    "union_bound": [
+      116,
+      481.25,
+      209.59375,
+      20
+    ],
+    "text": "[6375] StaticText 'University of Colorado Boulder'"
+  },
+  "6376": {
+    "backend_id": 6376,
+    "union_bound": [
+      116,
+      511.25,
+      69.9375,
+      20
+    ],
+    "text": "[6376] button 'Learn more about University of Colorado Boulder'"
+  },
+  "6378": {
+    "backend_id": 6378,
+    "union_bound": [
+      116,
+      512.25,
+      69.9375,
+      18
+    ],
+    "text": "[6378] StaticText 'Learn more'"
+  },
+  "6417": {
+    "backend_id": 6417,
+    "union_bound": [
+      48,
+      653.25,
+      897,
+      30
+    ],
+    "text": "[6417] heading 'Build toward a degree'"
+  },
+  "6418": {
+    "backend_id": 6418,
+    "union_bound": [
+      48,
+      652.25,
+      222.921875,
+      31
+    ],
+    "text": "[6418] StaticText 'Build toward a degree'"
+  },
+  "6421": {
+    "backend_id": 6421,
+    "union_bound": [
+      48,
+      701.25,
+      888.8125,
+      44
+    ],
+    "text": "[6421] StaticText 'This Specialization is part of the following degree program(s) offered by University of Colorado Boulder. If you are admitted and enroll, your completed coursework may count toward your degree learning and your progress can transfer with you.\u00b9'"
+  },
+  "6423": {
+    "backend_id": 6423,
+    "union_bound": [
+      48,
+      759.25,
+      129.015625,
+      20
+    ],
+    "text": "[6423] button 'View eligible degrees'"
+  },
+  "6425": {
+    "backend_id": 6425,
+    "union_bound": [
+      48,
+      760.25,
+      129.015625,
+      18
+    ],
+    "text": "[6425] StaticText 'View eligible degrees'"
+  },
+  "6557": {
+    "backend_id": 6557,
+    "union_bound": [
+      16,
+      892.25,
+      961,
+      30
+    ],
+    "text": "[6557] heading 'Why people choose Coursera for their career'"
+  },
+  "6558": {
+    "backend_id": 6558,
+    "union_bound": [
+      16,
+      891.25,
+      449.03125,
+      31
+    ],
+    "text": "[6558] StaticText 'Why people choose Coursera for their career'"
+  },
+  "6567": {
+    "backend_id": 6567,
+    "union_bound": [
+      16,
+      1016.640625,
+      48,
+      48
+    ],
+    "text": "[6567] generic 'Go to previous testimonials'"
+  },
+  "6568": {
+    "backend_id": 6568,
+    "union_bound": [
+      16,
+      1016.640625,
+      48,
+      48
+    ],
+    "text": "[6568] button 'Previous'"
+  },
+  "6572": {
+    "backend_id": 6572,
+    "union_bound": [
+      -897,
+      954.25,
+      8361,
+      156
+    ],
+    "text": "[6572] group 'Slides' live: polite atomic: True relevant: additions text roledescription: Carousel"
+  },
+  "6576": {
+    "backend_id": 6576,
+    "union_bound": [
+      32,
+      954.25,
+      929,
+      156
+    ],
+    "text": "[6576] group 'Slide 3' roledescription: slide"
+  },
+  "6581": {
+    "backend_id": 6581,
+    "union_bound": [
+      90,
+      972.25,
+      64,
+      64
+    ],
+    "text": "[6581] image '' url: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/growth_testimonials/passionate_learner/Felipe_Moitta.png?auto=format%2Ccompress&dpr=1&w=64&h=64&fit=crop"
+  },
+  "6584": {
+    "backend_id": 6584,
+    "union_bound": [
+      170,
+      982.25,
+      60.78125,
+      20
+    ],
+    "text": "[6584] StaticText 'Felipe M.'"
+  },
+  "6586": {
+    "backend_id": 6586,
+    "union_bound": [
+      170,
+      1004.25,
+      123.65625,
+      20
+    ],
+    "text": "[6586] StaticText 'Learner since 2018'"
+  },
+  "6589": {
+    "backend_id": 6589,
+    "union_bound": [
+      90,
+      1046.25,
+      791.578125,
+      44
+    ],
+    "text": "[6589] StaticText '\"To be able to take courses at my own pace and rhythm has been an amazing experience. I can learn whenever it fits my schedule and mood.\"'"
+  },
+  "6636": {
+    "backend_id": 6636,
+    "union_bound": [
+      929,
+      1016.640625,
+      48,
+      48
+    ],
+    "text": "[6636] generic 'Go to next testimonials'"
+  },
+  "6637": {
+    "backend_id": 6637,
+    "union_bound": [
+      929,
+      1016.640625,
+      48,
+      48
+    ],
+    "text": "[6637] button 'Next'"
+  },
+  "6640": {
+    "backend_id": 6640,
+    "union_bound": [
+      32,
+      1126.25,
+      929,
+      20
+    ],
+    "text": "[6640] list 'slides'"
+  },
+  "6642": {
+    "backend_id": 6642,
+    "union_bound": [
+      432.5,
+      1126.25,
+      14,
+      14
+    ],
+    "text": "[6642] button 'slide 1'"
+  },
+  "6645": {
+    "backend_id": 6645,
+    "union_bound": [
+      468.5,
+      1126.25,
+      14,
+      14
+    ],
+    "text": "[6645] button 'slide 2'"
+  },
+  "6648": {
+    "backend_id": 6648,
+    "union_bound": [
+      504.5,
+      1126.25,
+      14,
+      14
+    ],
+    "text": "[6648] button 'slide 3'"
+  },
+  "6651": {
+    "backend_id": 6651,
+    "union_bound": [
+      540.5,
+      1126.25,
+      14,
+      14
+    ],
+    "text": "[6651] button 'slide 4'"
+  },
+  "6662": {
+    "backend_id": 6662,
+    "union_bound": [
+      16,
+      1222.25,
+      945,
+      24
+    ],
+    "text": "[6662] heading 'New to Leadership and Management? Start here.'"
+  },
+  "6663": {
+    "backend_id": 6663,
+    "union_bound": [
+      16,
+      1221.25,
+      412.28125,
+      25
+    ],
+    "text": "[6663] StaticText 'New to Leadership and Management? Start here.'"
+  },
+  "6665": {
+    "backend_id": 6665,
+    "union_bound": [
+      16,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6665] link '15 Common Management Interview Questions and How to Prepare March 18, 2025 Article' url: https://www.coursera.org/articles/management-interview-questions?trk_ref=articles_unified_description_page_recs_card"
+  },
+  "6666": {
+    "backend_id": 6666,
+    "union_bound": [
+      16,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6666] article ''"
+  },
+  "6668": {
+    "backend_id": 6668,
+    "union_bound": [
+      32,
+      1295.25,
+      192.25,
+      60
+    ],
+    "text": "[6668] heading '15 Common Management Interview Questions and How to Prepare'"
+  },
+  "6669": {
+    "backend_id": 6669,
+    "union_bound": [
+      32,
+      1295.25,
+      173.453125,
+      60
+    ],
+    "text": "[6669] StaticText '15 Common Management Interview Questions and How to Prepare'"
+  },
+  "6672": {
+    "backend_id": 6672,
+    "union_bound": [
+      32,
+      1400.25,
+      86.796875,
+      18
+    ],
+    "text": "[6672] StaticText 'March 18, 2025'"
+  },
+  "6674": {
+    "backend_id": 6674,
+    "union_bound": [
+      32,
+      1424.25,
+      37.5625,
+      18
+    ],
+    "text": "[6674] StaticText 'Article'"
+  },
+  "6676": {
+    "backend_id": 6676,
+    "union_bound": [
+      256.25,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6676] link 'Best Project Management Software for 2025 January 6, 2025 Article' url: https://www.coursera.org/articles/best-project-management-software?trk_ref=articles_unified_description_page_recs_card"
+  },
+  "6677": {
+    "backend_id": 6677,
+    "union_bound": [
+      256.25,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6677] article ''"
+  },
+  "6679": {
+    "backend_id": 6679,
+    "union_bound": [
+      272.25,
+      1295.25,
+      192.25,
+      40
+    ],
+    "text": "[6679] heading 'Best Project Management Software for 2025'"
+  },
+  "6680": {
+    "backend_id": 6680,
+    "union_bound": [
+      272.25,
+      1295.25,
+      173.265625,
+      40
+    ],
+    "text": "[6680] StaticText 'Best Project Management Software for 2025'"
+  },
+  "6683": {
+    "backend_id": 6683,
+    "union_bound": [
+      272.25,
+      1400.25,
+      91.734375,
+      18
+    ],
+    "text": "[6683] StaticText 'January 6, 2025'"
+  },
+  "6685": {
+    "backend_id": 6685,
+    "union_bound": [
+      272.25,
+      1424.25,
+      37.5625,
+      18
+    ],
+    "text": "[6685] StaticText 'Article'"
+  },
+  "6687": {
+    "backend_id": 6687,
+    "union_bound": [
+      496.5,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6687] link 'IT Project Management Methodologies - A Guide to Choosing the Right Approach March 18, 2025 Article' url: https://www.coursera.org/articles/it-project-management-methodologies?trk_ref=articles_unified_description_page_recs_card"
+  },
+  "6688": {
+    "backend_id": 6688,
+    "union_bound": [
+      496.5,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6688] article ''"
+  },
+  "6690": {
+    "backend_id": 6690,
+    "union_bound": [
+      512.5,
+      1295.25,
+      192.25,
+      80
+    ],
+    "text": "[6690] heading 'IT Project Management Methodologies - A Guide to Choosing the Right Approach'"
+  },
+  "6691": {
+    "backend_id": 6691,
+    "union_bound": [
+      512.5,
+      1295.25,
+      180.671875,
+      80
+    ],
+    "text": "[6691] StaticText 'IT Project Management Methodologies - A Guide to Choosing the Right Approach'"
+  },
+  "6694": {
+    "backend_id": 6694,
+    "union_bound": [
+      512.5,
+      1400.25,
+      86.796875,
+      18
+    ],
+    "text": "[6694] StaticText 'March 18, 2025'"
+  },
+  "6696": {
+    "backend_id": 6696,
+    "union_bound": [
+      512.5,
+      1424.25,
+      37.5625,
+      18
+    ],
+    "text": "[6696] StaticText 'Article'"
+  },
+  "6698": {
+    "backend_id": 6698,
+    "union_bound": [
+      736.75,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6698] link '5 Project Management Tools: Choosing the Best Fit for Your Team February 22, 2025 Article' url: https://www.coursera.org/articles/project-management-tools?trk_ref=articles_unified_description_page_recs_card"
+  },
+  "6699": {
+    "backend_id": 6699,
+    "union_bound": [
+      736.75,
+      1278.25,
+      224.25,
+      177
+    ],
+    "text": "[6699] article ''"
+  },
+  "6701": {
+    "backend_id": 6701,
+    "union_bound": [
+      752.75,
+      1295.25,
+      192.25,
+      60
+    ],
+    "text": "[6701] heading '5 Project Management Tools: Choosing the Best Fit for Your Team'"
+  },
+  "6702": {
+    "backend_id": 6702,
+    "union_bound": [
+      752.75,
+      1295.25,
+      185.78125,
+      60
+    ],
+    "text": "[6702] StaticText '5 Project Management Tools: Choosing the Best Fit for Your Team'"
+  },
+  "6705": {
+    "backend_id": 6705,
+    "union_bound": [
+      752.75,
+      1400.25,
+      103.53125,
+      18
+    ],
+    "text": "[6705] StaticText 'February 22, 2025'"
+  },
+  "6707": {
+    "backend_id": 6707,
+    "union_bound": [
+      752.75,
+      1424.25,
+      37.5625,
+      18
+    ],
+    "text": "[6707] StaticText 'Article'"
+  },
+  "6723": {
+    "backend_id": 6723,
+    "union_bound": [
+      48,
+      1542.859375,
+      120,
+      13
+    ],
+    "text": "[6723] image 'Coursera Plus' url: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/7a1c0e2e779c1ff27cae62480adfe003.png?auto=format%2Ccompress&dpr=1&w=120&h=15&q=40"
+  },
+  "6725": {
+    "backend_id": 6725,
+    "union_bound": [
+      48,
+      1567.25,
+      897,
+      36
+    ],
+    "text": "[6725] heading 'Open new doors with Coursera Plus'"
+  },
+  "6726": {
+    "backend_id": 6726,
+    "union_bound": [
+      48,
+      1567.25,
+      422.25,
+      36
+    ],
+    "text": "[6726] StaticText 'Open new doors with Coursera Plus'"
+  },
+  "6729": {
+    "backend_id": 6729,
+    "union_bound": [
+      48,
+      1620.25,
+      478.53125,
+      38
+    ],
+    "text": "[6729] StaticText 'Unlimited access to 10,000+ world-class courses, hands-on projects, and job-ready certificate programs - all included in your subscription'"
+  },
+  "7094": {
+    "backend_id": 7094,
+    "union_bound": [
+      16,
+      545,
+      961,
+      60
+    ],
+    "text": "[7094] button 'Enroll for Free Starts Apr 30'"
+  },
+  "7098": {
+    "backend_id": 7098,
+    "union_bound": [
+      453.109375,
+      557,
+      86.78125,
+      18
+    ],
+    "text": "[7098] StaticText 'Enroll for Free'"
+  },
+  "7101": {
+    "backend_id": 7101,
+    "union_bound": [
+      460.703125,
+      576,
+      71.59375,
+      16
+    ],
+    "text": "[7101] StaticText 'Starts Apr 30'"
+  }
+}

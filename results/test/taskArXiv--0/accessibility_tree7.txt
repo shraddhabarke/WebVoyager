@@ -1,0 +1,216 @@
+[2138] RootWebArea 'Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header
+	[2344] StaticText 'Skip to main content'
+	[2352] link 'logo' url: https://cornell.edu/
+		[2139] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[2166] StaticText 'We gratefully acknowledge support from'
+	[2167] StaticText 'the Simons Foundation, '
+	[2358] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[2169] StaticText ', and all contributors. '
+	[2359] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[2146] link 'arxiv-logo' url: https://arxiv.org/
+		[2141] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[2156] textbox 'Search term or terms' required: False
+	[2385] link 'Help' url: https://info.arxiv.org/help
+	[2387] StaticText ' | '
+	[2388] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[2157] combobox 'Field to search' hasPopup: menu expanded: False
+	[2448] button 'Search'
+	[2459] navigation 'User menu'
+		[2461] link 'Login' url: https://arxiv.org/login
+	[2467] main ''
+		[2473] heading 'Showing 1–50 of 47,392 results for all: quantum computing'
+		[2485] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[2487] StaticText '\xa0\xa0'
+		[2499] StaticText 'Search term or terms'
+		[2149] textbox 'Search term or terms' required: False
+			[10138] StaticText 'quantum computing'
+		[2150] combobox '' hasPopup: menu expanded: False
+		[2544] button 'Search'
+		[2151] radio ' Show abstracts' checked: true
+		[2152] radio ' Hide abstracts' checked: false
+		[2567] link 'Advanced Search' url: https://arxiv.org/search/advanced?terms-0-term=quantum+computing&terms-0-field=all&size=50&order=-announced_date_first
+		[2153] combobox 'results per page' hasPopup: menu expanded: False
+		[2174] StaticText 'Sort results by'
+		[2154] combobox 'Sort results by' focused: True hasPopup: menu expanded: False
+		[2179] button 'Go'
+		[2673] navigation 'pagination'
+			[2678] link 'Next' url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header&start=50
+			[2685] link 'Goto page 1' url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header&start=0
+			[2691] link 'Page 2' url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header&start=50
+			[2697] link 'Page 3' url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header&start=100
+			[2703] link 'Page 4' url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header&start=150
+			[2709] link 'Page 5' url: https://arxiv.org/search/?query=quantum+computing&searchtype=all&source=header&start=200
+			[2715] StaticText '…'
+		[2722] ListMarker '1. '
+		[2727] link 'arXiv:2504.20031' url: https://arxiv.org/abs/2504.20031
+		[2182] StaticText '\xa0['
+		[2729] link 'pdf' url: https://arxiv.org/pdf/2504.20031
+		[2184] StaticText ', '
+		[2730] link 'other' url: https://arxiv.org/format/2504.20031
+		[2186] StaticText ']\xa0'
+		[2736] StaticText 'cond-mat.supr-con'
+		[2740] StaticText 'Towards Scalable Braiding: Topological Superconductivity Unlocked under Nearly Arbitrary Magnetic Field Directions in Planar Josephson Junctions'
+		[2745] StaticText 'Authors:'
+		[2747] link 'Richang Huang' url: https://arxiv.org/search/?searchtype=author&query=Huang%2C+R
+		[2749] StaticText ', '
+		[2750] link 'Yongliang Hu' url: https://arxiv.org/search/?searchtype=author&query=Hu%2C+Y
+		[2752] link 'Xianzhang Chen' url: https://arxiv.org/search/?searchtype=author&query=Chen%2C+X
+		[2753] link 'Peng Yu' url: https://arxiv.org/search/?searchtype=author&query=Yu%2C+P
+		[2191] StaticText ', '
+		[2754] link 'Igor Zutic' url: https://arxiv.org/search/?searchtype=author&query=Zutic%2C+I
+		[2755] link 'Tong Zhou' url: https://arxiv.org/search/?searchtype=author&query=Zhou%2C+T
+		[2761] StaticText 'Abstract'
+		[2764] StaticText 'Majorana zero modes (MZM), distinguished by their non-locality and non-Abelian statistics, are central to the pursuit of fault-tolerant topological '
+		[2195] StaticText 'quantum'
+		[2196] StaticText '… '
+		[2766] link '▽ More'
+		[2790] StaticText 'Submitted'
+		[2791] StaticText ' 28 April, 2025; '
+		[2793] StaticText 'originally announced'
+		[2794] StaticText ' April 2025.'
+		[2799] StaticText 'Comments:'
+		[2802] StaticText '6 pages and 4 figures'
+		[2807] ListMarker '2. '
+		[2812] link 'arXiv:2504.19992' url: https://arxiv.org/abs/2504.19992
+		[2816] StaticText '\xa0['
+		[2817] link 'pdf' url: https://arxiv.org/pdf/2504.19992
+		[2819] StaticText ', '
+		[2820] link 'other' url: https://arxiv.org/format/2504.19992
+		[2822] StaticText ']\xa0'
+		[2828] StaticText 'quant-ph'
+		[2833] StaticText 'Towards Non-Abelian '
+		[2835] StaticText 'Quantum'
+		[2836] StaticText ' Signal Processing: Efficient Control of Hybrid Continuous- and Discrete-Variable Architectures'
+		[2841] StaticText 'Authors:'
+		[2843] link 'Shraddha Singh' url: https://arxiv.org/search/?searchtype=author&query=Singh%2C+S
+		[2845] StaticText ', '
+		[2846] link 'Baptiste Royer' url: https://arxiv.org/search/?searchtype=author&query=Royer%2C+B
+		[2849] link 'Steven M. Girvin' url: https://arxiv.org/search/?searchtype=author&query=Girvin%2C+S+M
+		[2856] StaticText 'Abstract'
+		[2859] StaticText 'Robust '
+		[2861] StaticText 'quantum'
+		[2862] StaticText ' control is crucial for achieving operations below the '
+		[2865] StaticText ' error correction threshold. '
+		[2867] StaticText 'Quantum'
+		[2868] StaticText ' Signal Processing (QSP) transforms a unitary parameterized by '
+		[2879] StaticText 'θ'
+		[2884] StaticText ' into one governed by a polynomial function '
+		[2907] StaticText ', a feature that underpins key… '
+		[2908] link '▽ More'
+		[3062] StaticText 'Submitted'
+		[3063] StaticText ' 28 April, 2025; '
+		[3065] StaticText 'originally announced'
+		[3066] StaticText ' April 2025.'
+		[3071] StaticText 'Comments:'
+		[3074] StaticText '16 figures, 2 tables'
+		[3079] ListMarker '3. '
+		[3084] link 'arXiv:2504.19836' url: https://arxiv.org/abs/2504.19836
+		[3088] StaticText '\xa0['
+		[3089] link 'pdf' url: https://arxiv.org/pdf/2504.19836
+		[3091] StaticText ', '
+		[3092] link 'ps' url: https://arxiv.org/ps/2504.19836
+		[3095] link 'other' url: https://arxiv.org/format/2504.19836
+		[3097] StaticText ']\xa0'
+		[3103] StaticText 'math.RA'
+		[3108] StaticText 'Independence Polynomials of 2-step Nilpotent Lie Algebras'
+		[3113] StaticText 'Authors:'
+		[3115] link 'Marco Aldi' url: https://arxiv.org/search/?searchtype=author&query=Aldi%2C+M
+		[3117] StaticText ', '
+		[3118] link 'Thor Gabrielsen' url: https://arxiv.org/search/?searchtype=author&query=Gabrielsen%2C+T
+		[3121] link 'Daniele Grandini' url: https://arxiv.org/search/?searchtype=author&query=Grandini%2C+D
+		[3124] link 'Joy Harris' url: https://arxiv.org/search/?searchtype=author&query=Harris%2C+J
+		[3126] StaticText ', '
+		[3127] link 'Kyle Kelley' url: https://arxiv.org/search/?searchtype=author&query=Kelley%2C+K
+		[3134] StaticText 'Abstract'
+		[3137] StaticText '…by the Dani-Mainkar construction, we extend the notion of independence polynomial of graphs to arbitrary 2-step nilpotent Lie algebras. After establishing efficiently '
+		[3139] StaticText 'computable'
+		[3140] StaticText ' upper and lower bounds for the independence number, we discuss a metric-dependent generalization motivated by a '
+		[3142] StaticText 'quantum'
+		[3143] StaticText ' mechanical interpretat… '
+		[3144] link '▽ More'
+		[3163] StaticText 'Submitted'
+		[3164] StaticText ' 28 April, 2025; '
+		[3166] StaticText 'originally announced'
+		[3167] StaticText ' April 2025.'
+		[3171] ListMarker '4. '
+		[3176] link 'arXiv:2504.19801' url: https://arxiv.org/abs/2504.19801
+		[3180] StaticText '\xa0['
+		[3181] link 'pdf' url: https://arxiv.org/pdf/2504.19801
+		[3183] StaticText ', '
+		[3184] link 'other' url: https://arxiv.org/format/2504.19801
+		[3186] StaticText ']\xa0'
+		[3192] StaticText 'quant-ph'
+		[3197] StaticText 'Stochastic '
+		[3199] StaticText 'quantum'
+		[3200] StaticText ' adiabatic algorithm with fractional Brownian motion'
+		[3205] StaticText 'Authors:'
+		[3207] link 'Osanda Chinthila' url: https://arxiv.org/search/?searchtype=author&query=Chinthila%2C+O
+		[3209] StaticText ', '
+		[3210] link 'Pani W. Fernando' url: https://arxiv.org/search/?searchtype=author&query=Fernando%2C+P+W
+		[3213] link 'Anuradha Mahasinghe' url: https://arxiv.org/search/?searchtype=author&query=Mahasinghe%2C+A
+		[3216] link 'Kaushika De Silva' url: https://arxiv.org/search/?searchtype=author&query=De+Silva%2C+K
+		[3218] StaticText ', '
+		[3219] link 'Sarath Kumara' url: https://arxiv.org/search/?searchtype=author&query=Kumara%2C+S
+		[3226] StaticText 'Abstract'
+		[3229] StaticText 'Adiabatic '
+		[3231] StaticText 'Quantum'
+		[3232] StaticText '… '
+		[3233] link '▽ More'
+		[3319] StaticText 'Submitted'
+		[3320] StaticText ' 28 April, 2025; '
+		[3322] StaticText 'originally announced'
+		[3323] StaticText ' April 2025.'
+		[3327] ListMarker '5. '
+		[3332] link 'arXiv:2504.19760' url: https://arxiv.org/abs/2504.19760
+		[3336] StaticText '\xa0['
+		[3337] link 'pdf' url: https://arxiv.org/pdf/2504.19760
+		[3339] StaticText ', '
+		[3340] link 'other' url: https://arxiv.org/format/2504.19760
+		[3342] StaticText ']\xa0'
+		[3348] StaticText 'quant-ph'
+		[3353] StaticText 'Efficient '
+		[3355] StaticText 'quantum'
+		[3356] StaticText ' state preparation through seniority driven operator selection'
+		[3361] StaticText 'Authors:'
+		[3363] link 'Dipanjali Halder' url: https://arxiv.org/search/?searchtype=author&query=Halder%2C+D
+		[3365] StaticText ', '
+		[3366] link 'Dibyendu Mondal' url: https://arxiv.org/search/?searchtype=author&query=Mondal%2C+D
+		[3369] link 'Rahul Maitra' url: https://arxiv.org/search/?searchtype=author&query=Maitra%2C+R
+		[3376] StaticText 'Abstract'
+		[3381] StaticText 'Quantum'
+		[3382] StaticText ' algorithms require accurate representations of electronic states on a… '
+		[3383] link '▽ More'
+		[3411] StaticText 'Submitted'
+		[3412] StaticText ' 28 April, 2025; '
+		[3414] StaticText 'originally announced'
+		[3415] StaticText ' April 2025.'
+		[3419] ListMarker '6. '
+		[3424] link 'arXiv:2504.19748' url: https://arxiv.org/abs/2504.19748
+		[3428] StaticText '\xa0['
+		[3429] link 'pdf' url: https://arxiv.org/pdf/2504.19748
+		[3431] StaticText ', '
+		[3432] link 'other' url: https://arxiv.org/format/2504.19748
+		[3434] StaticText ']\xa0'
+		[3440] StaticText 'cond-mat.mtrl-sci'
+		[3443] StaticText 'physics.atom-ph'
+		[3446] StaticText 'physics.comp-ph'
+		[3449] StaticText 'physics.optics'
+		[3452] StaticText 'quant-ph'
+		[3457] StaticText 'The charge cycle of group IV vacancy centers in diamond: From DFT to rate equations'
+		[3462] StaticText 'Authors:'
+		[3464] link 'Joshua Claes' url: https://arxiv.org/search/?searchtype=author&query=Claes%2C+J
+		[3466] StaticText ', '
+		[3467] link 'Bart Partoens' url: https://arxiv.org/search/?searchtype=author&query=Partoens%2C+B
+		[3470] link 'Dirk Lamoen' url: https://arxiv.org/search/?searchtype=author&query=Lamoen%2C+D
+		[3477] StaticText 'Abstract'
+		[3480] StaticText 'The silicon vacancy center in diamond is a promising system for '
+		[3482] StaticText 'quantum'
+		[3483] StaticText ' technologies due to its exceptional optical and spin properties. This has led to great interest in the silicon-vacancy center as well as in the other group IV vacancy centers. In this work, we model the charge cycle of the group IV vacancy centers from the '
+		[3492] StaticText '−'
+		[3508] StaticText '0'
+		[3513] StaticText ' charge state. As a… '
+		[3514] link '▽ More'
+		[3563] StaticText 'Submitted'
+		[3564] StaticText ' 28 April, 2025; '
+		[3566] StaticText 'originally announced'
+		[3567] StaticText ' April 2025.'

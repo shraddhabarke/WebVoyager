@@ -1,0 +1,128 @@
+[1801] RootWebArea 'flax-community/t5-recipe-generation · Hugging Face' focused: True url: https://huggingface.co/flax-community/t5-recipe-generation
+	[2048] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1802] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1807] textbox 'Search models, datasets, users...' required: False
+	[2060] button ''
+	[2147] main ''
+		[2150] sectionheader ''
+			[2152] heading 'flax-community / t5-recipe-generation Copy model name to clipboard like 65 Follow Flax Community 350'
+				[2159] link '' url: https://huggingface.co/flax-community
+				[2165] link 'flax-community' url: https://huggingface.co/flax-community
+				[2173] link 't5-recipe-generation' url: https://huggingface.co/flax-community/t5-recipe-generation
+				[1810] button 'Copy model name to clipboard'
+				[2181] button 'like'
+				[2191] button '65'
+				[1837] button 'Follow Flax Community'
+				[2205] button '350'
+			[2212] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+			[2230] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[2253] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[2271] link 'TensorFlow' url: https://huggingface.co/models?library=tf
+			[2301] link 'JAX' url: https://huggingface.co/models?library=jax
+			[2354] link 'TensorBoard' url: https://huggingface.co/models?library=tensorboard
+			[2365] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2381] link 'English' url: https://huggingface.co/models?language=en
+			[2396] link 't5' url: https://huggingface.co/models?other=t5
+			[2406] link 'seq2seq' url: https://huggingface.co/models?other=seq2seq
+			[2416] link 'text-generation' url: https://huggingface.co/models?other=text-generation
+			[2426] link 'recipe-generation' url: https://huggingface.co/models?other=recipe-generation
+			[2436] link 'text-generation-inference' url: https://huggingface.co/models?other=text-generation-inference
+			[2463] link 'Model card' url: https://huggingface.co/flax-community/t5-recipe-generation
+			[2474] link 'Files' url: https://huggingface.co/flax-community/t5-recipe-generation/tree/main
+			[2488] link 'Metrics' url: https://huggingface.co/flax-community/t5-recipe-generation/tensorboard
+			[1805] link 'Community 7' url: https://huggingface.co/flax-community/t5-recipe-generation/discussions
+			[2515] button ''
+			[2531] button 'Train'
+			[2546] button 'Deploy'
+			[1838] button 'Use this model'
+		[2590] button ''
+		[2645] link 'avatar' url: https://huggingface.co/flax-community/t5-recipe-generation/blob/main/chef-transformer.png
+			[1836] image 'avatar' url: https://huggingface.co/flax-community/t5-recipe-generation/resolve/main/chef-transformer.png
+		[1829] heading 'Chef Transformer (T5)'
+			[2648] link '' url: https://huggingface.co/flax-community/t5-recipe-generation#chef-transformer-t5
+		[1830] blockquote ''
+			[1831] StaticText 'This is part of the '
+			[2663] link 'Flax/Jax Community Week' url: https://discuss.huggingface.co/t/recipe-generation-model/7475
+			[1833] StaticText ', organized by '
+			[2664] link 'HuggingFace' url: https://huggingface.co/
+			[1835] StaticText ' and TPU usage sponsored by Google.'
+		[2669] link 'here' url: https://huggingface.co/spaces/flax-community/chef-transformer
+		[2673] heading 'Team Members'
+			[2675] link '' url: https://huggingface.co/flax-community/t5-recipe-generation#team-members
+		[2689] ListMarker '• '
+		[2690] StaticText 'Mehrdad Farahani ('
+		[2691] link 'm3hrdadfi' url: https://huggingface.co/m3hrdadfi
+		[2693] StaticText ')'
+		[2696] ListMarker '• '
+		[2697] StaticText 'Kartik Godawat ('
+		[2698] link 'dk-crazydiv' url: https://huggingface.co/dk-crazydiv
+		[2700] StaticText ')'
+		[2703] ListMarker '• '
+		[2704] StaticText 'Haswanth Aekula ('
+		[2705] link 'hassiahk' url: https://huggingface.co/hassiahk
+		[2707] StaticText ')'
+		[2710] ListMarker '• '
+		[2711] StaticText 'Deepak Pandian ('
+		[2712] link 'rays2pix' url: https://huggingface.co/rays2pix
+		[2714] StaticText ')'
+		[2717] ListMarker '• '
+		[2718] StaticText 'Nicholas Broad ('
+		[2719] link 'nbroad' url: https://huggingface.co/nbroad
+		[2721] StaticText ')'
+		[2724] heading 'Dataset'
+			[2726] link '' url: https://huggingface.co/flax-community/t5-recipe-generation#dataset
+		[2738] link 'RecipeNLG: A Cooking Recipes Dataset for Semi-Structured Text Generation' url: https://recipenlg.cs.put.poznan.pl/
+		[2740] StaticText '. This dataset contains '
+		[2742] StaticText '2,231,142'
+		[2743] StaticText ' cooking recipes (>2 millions) with size of '
+		[2745] StaticText '2.14 GB'
+		[2748] heading 'Example'
+			[2750] link '' url: https://huggingface.co/flax-community/t5-recipe-generation#example
+		[2763] code ''
+			[2767] StaticText '{'
+			[2768] StaticText '\n  '
+			[2770] StaticText '"NER"'
+			[2772] StaticText ':'
+			[2776] StaticText '\n    '
+			[2778] StaticText '"oyster crackers"'
+			[2780] StaticText ','
+			[2783] StaticText '"salad dressing"'
+			[2786] StaticText '\n    '
+			[2788] StaticText '"lemon pepper"'
+			[2790] StaticText ','
+			[2793] StaticText '"dill weed"'
+			[2796] StaticText '\n    '
+			[2798] StaticText '"garlic powder"'
+			[2800] StaticText ','
+			[2803] StaticText '"salad oil"'
+		[2918] button ''
+		[3347] DescriptionList ''
+			[3348] term 'Downloads last month'
+			[3350] definition ''
+				[3351] StaticText '2,114'
+		[3356] image ''
+		[3382] StaticText 'Safetensors'
+		[3383] link '' url: https://huggingface.co/docs/safetensors
+		[3392] StaticText 'Model size'
+		[3395] StaticText '223M'
+		[3396] StaticText ' params'
+		[3400] StaticText 'Tensor type'
+		[3403] StaticText 'F32'
+		[3410] button 'Files info'
+		[3431] StaticText 'Inference Providers'
+		[3442] link 'Text2Text Generation' url: https://huggingface.co/tasks/text-generation
+		[3462] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=flax-community/t5-recipe-generation&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bflax-community%2Ft5-recipe-generation%5D(%2Fflax-community%2Ft5-recipe-generation)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[3478] heading 'Spaces using flax-community/t5-recipe-generation 22'
+		[3494] link 'flax-community/chef-transformer' url: https://huggingface.co/spaces/flax-community/chef-transformer
+		[3502] link '💻 tonyliu404/Recipe-Generator' url: https://huggingface.co/spaces/tonyliu404/Recipe-Generator
+		[3509] link '📉 AndriiPets/ChefGen' url: https://huggingface.co/spaces/AndriiPets/ChefGen
+		[3516] link '👁 2006elad/AIChef' url: https://huggingface.co/spaces/2006elad/AIChef
+		[3523] link '🍲 Fa1dz/chef-transformer' url: https://huggingface.co/spaces/Fa1dz/chef-transformer
+		[3530] link '👁 jb8699/flax-community-t5-recipe-generation' url: https://huggingface.co/spaces/jb8699/flax-community-t5-recipe-generation
+		[3537] link '⚡ codes4aryan/flax-community-t5-recipe-generation' url: https://huggingface.co/spaces/codes4aryan/flax-community-t5-recipe-generation
+		[3544] link '😻 danielritchie/ai-peaks-demo' url: https://huggingface.co/spaces/danielritchie/ai-peaks-demo
+		[3551] link '🦀 laurarich/flax-community-t5-recipe-generation' url: https://huggingface.co/spaces/laurarich/flax-community-t5-recipe-generation
+		[3558] link '🐢 psusanadams/flax-community-t5-recipe-generation' url: https://huggingface.co/spaces/psusanadams/flax-community-t5-recipe-generation
+		[3565] link '👩🏻\u200d🍳 brainwavecollective/recipe-o-matic' url: https://huggingface.co/spaces/brainwavecollective/recipe-o-matic
+		[3572] link '👩🏻\u200d🍳 danielritchie/recipe-o-matic' url: https://huggingface.co/spaces/danielritchie/recipe-o-matic
+		[3585] button '+ 10 Spaces'

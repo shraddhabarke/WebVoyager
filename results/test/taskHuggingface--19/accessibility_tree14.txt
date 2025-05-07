@@ -1,0 +1,124 @@
+[2209] RootWebArea 'Models - Hugging Face' focused: True url: https://huggingface.co/models?pipeline_tag=summarization&sort=modified&search=huggingface
+	[2343] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[2210] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[2220] textbox 'Search models, datasets, users...' required: False
+	[2355] button ''
+	[2442] main ''
+		[2447] heading 'Edit Models filters'
+		[2452] button ''
+		[2458] button 'Tasks 1'
+		[2463] button 'Libraries'
+		[2468] button 'Datasets'
+		[2473] button 'Languages'
+		[2478] button 'Licenses'
+		[2483] button 'Other'
+		[2221] textbox 'Filter Tasks by name' required: False
+		[5066] button 'Reset Tasks'
+		[2499] StaticText 'Multimodal'
+		[2503] link 'Audio-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=audio-text-to-text
+		[2517] link 'Image-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=image-text-to-text
+		[2533] link 'Visual Question Answering' url: https://huggingface.co/models?pipeline_tag=visual-question-answering
+		[2548] link 'Document Question Answering' url: https://huggingface.co/models?pipeline_tag=document-question-answering
+			[2551] image ''
+		[2563] link 'Video-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=video-text-to-text
+		[2578] link 'Visual Document Retrieval' url: https://huggingface.co/models?pipeline_tag=visual-document-retrieval
+		[2594] link 'Any-to-Any' url: https://huggingface.co/models?pipeline_tag=any-to-any
+		[2612] StaticText 'Computer Vision'
+		[2616] link 'Depth Estimation' url: https://huggingface.co/models?pipeline_tag=depth-estimation
+			[2619] image ''
+		[2630] link 'Image Classification' url: https://huggingface.co/models?pipeline_tag=image-classification
+		[2646] link 'Object Detection' url: https://huggingface.co/models?pipeline_tag=object-detection
+		[2662] link 'Image Segmentation' url: https://huggingface.co/models?pipeline_tag=image-segmentation
+		[2677] link 'Text-to-Image' url: https://huggingface.co/models?pipeline_tag=text-to-image
+		[2693] link 'Image-to-Text' url: https://huggingface.co/models?pipeline_tag=image-to-text
+		[2709] link 'Image-to-Image' url: https://huggingface.co/models?pipeline_tag=image-to-image
+		[2724] link 'Image-to-Video' url: https://huggingface.co/models?pipeline_tag=image-to-video
+			[2727] image ''
+		[2738] link 'Unconditional Image Generation' url: https://huggingface.co/models?pipeline_tag=unconditional-image-generation
+		[2753] link 'Video Classification' url: https://huggingface.co/models?pipeline_tag=video-classification
+		[2767] link 'Text-to-Video' url: https://huggingface.co/models?pipeline_tag=text-to-video
+		[2781] link 'Zero-Shot Image Classification' url: https://huggingface.co/models?pipeline_tag=zero-shot-image-classification
+		[2797] link 'Mask Generation' url: https://huggingface.co/models?pipeline_tag=mask-generation
+		[2811] link 'Zero-Shot Object Detection' url: https://huggingface.co/models?pipeline_tag=zero-shot-object-detection
+		[2826] link 'Text-to-3D' url: https://huggingface.co/models?pipeline_tag=text-to-3d
+		[2841] link 'Image-to-3D' url: https://huggingface.co/models?pipeline_tag=image-to-3d
+		[2859] link 'Image Feature Extraction' url: https://huggingface.co/models?pipeline_tag=image-feature-extraction
+		[2873] link 'Keypoint Detection' url: https://huggingface.co/models?pipeline_tag=keypoint-detection
+		[2891] StaticText 'Natural Language Processing'
+		[2895] link 'Text Classification' url: https://huggingface.co/models?pipeline_tag=text-classification
+		[2922] link 'Token Classification' url: https://huggingface.co/models?pipeline_tag=token-classification
+		[2942] link 'Table Question Answering' url: https://huggingface.co/models?pipeline_tag=table-question-answering
+		[2956] link 'Question Answering' url: https://huggingface.co/models?pipeline_tag=question-answering
+			[2959] image ''
+		[2973] link 'Zero-Shot Classification' url: https://huggingface.co/models?pipeline_tag=zero-shot-classification
+		[2997] link 'Translation' url: https://huggingface.co/models?pipeline_tag=translation
+		[3012] link 'Summarization' url: https://huggingface.co/models?pipeline_tag=summarization
+		[3027] link 'Feature Extraction' url: https://huggingface.co/models?pipeline_tag=feature-extraction
+		[3041] link 'Text Generation' url: https://huggingface.co/models?pipeline_tag=text-generation
+		[3057] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+		[3073] link 'Fill-Mask' url: https://huggingface.co/models?pipeline_tag=fill-mask
+		[3089] link 'Sentence Similarity' url: https://huggingface.co/models?pipeline_tag=sentence-similarity
+		[3107] link 'Text Ranking' url: https://huggingface.co/models?pipeline_tag=text-ranking
+			[3110] image ''
+		[3128] StaticText 'Audio'
+		[3132] link 'Text-to-Speech' url: https://huggingface.co/models?pipeline_tag=text-to-speech
+		[3146] link 'Text-to-Audio' url: https://huggingface.co/models?pipeline_tag=text-to-audio
+		[3160] link 'Automatic Speech Recognition' url: https://huggingface.co/models?pipeline_tag=automatic-speech-recognition
+		[3174] link 'Audio-to-Audio' url: https://huggingface.co/models?pipeline_tag=audio-to-audio
+		[3188] link 'Audio Classification' url: https://huggingface.co/models?pipeline_tag=audio-classification
+		[3202] link 'Voice Activity Detection' url: https://huggingface.co/models?pipeline_tag=voice-activity-detection
+		[3220] StaticText 'Tabular'
+		[3224] link 'Tabular Classification' url: https://huggingface.co/models?pipeline_tag=tabular-classification
+		[3238] link 'Tabular Regression' url: https://huggingface.co/models?pipeline_tag=tabular-regression
+		[3252] link 'Time Series Forecasting' url: https://huggingface.co/models?pipeline_tag=time-series-forecasting
+		[3270] StaticText 'Reinforcement Learning'
+		[3274] link 'Reinforcement Learning' url: https://huggingface.co/models?pipeline_tag=reinforcement-learning
+		[3289] link 'Robotics' url: https://huggingface.co/models?pipeline_tag=robotics
+		[3307] StaticText 'Other'
+		[3311] link 'Graph Machine Learning' url: https://huggingface.co/models?pipeline_tag=graph-ml
+		[3333] button 'Apply filters'
+		[3341] heading 'Models'
+		[2222] searchbox 'Filter by name'
+			[7977] StaticText 'huggingface'
+		[3356] link 'Full-text search' url: https://huggingface.co/search/full-text?type=model
+		[3360] button 'Edit filters'
+		[3368] button 'Sort:\xa0 Recently updated'
+		[5079] StaticText 'Active filters:'
+		[5081] StaticText 'summarization'
+		[5074] button 'Clear all'
+		[8021] article ''
+			[8022] link 'Summarization • Updated Dec 20, 2023 • 14' url: https://huggingface.co/huggingface-course/mt5-finetuned-amazon-en-es
+				[8024] sectionheader ''
+					[8026] heading 'huggingface-course/mt5-finetuned-amazon-en-es'
+				[8033] time 'Wed, 20 Dec 2023 22:11:29 GMT'
+					[8041] StaticText 'Dec 20, 2023'
+				[8042] StaticText '•'
+				[8043] StaticText '14'
+		[8008] article ''
+			[8009] link 'Summarization • Updated Sep 2, 2023' url: https://huggingface.co/mw-huggingface/lora-finetune-flan-t5-large
+				[8011] sectionheader ''
+					[8013] heading 'mw-huggingface/lora-finetune-flan-t5-large'
+				[8020] time 'Sun, 03 Sep 2023 01:20:26 GMT'
+					[8048] StaticText 'Sep 2, 2023'
+		[7989] article ''
+			[7990] link 'Summarization • Updated Nov 11, 2021 • 401 • 7' url: https://huggingface.co/huggingface-course/mt5-small-finetuned-amazon-en-es
+				[7992] sectionheader ''
+					[7994] heading 'huggingface-course/mt5-small-finetuned-amazon-en-es'
+				[8001] time 'Thu, 11 Nov 2021 17:26:47 GMT'
+					[8053] StaticText 'Nov 11, 2021'
+				[8054] StaticText '•'
+				[8055] StaticText '401'
+				[8057] StaticText '7'
+	[4970] contentinfo ''
+		[4974] button 'System theme'
+		[4989] link 'TOS' url: https://huggingface.co/terms-of-service
+		[4992] link 'Privacy' url: https://huggingface.co/privacy
+		[4995] link 'About' url: https://huggingface.co/huggingface
+		[4998] link 'Jobs' url: https://apply.workable.com/huggingface/
+		[5001] link '' url: https://huggingface.co/
+			[5002] image ''
+		[5022] link 'Models' url: https://huggingface.co/models
+		[5025] link 'Datasets' url: https://huggingface.co/datasets
+		[5028] link 'Spaces' url: https://huggingface.co/spaces
+		[5031] link 'Pricing' url: https://huggingface.co/pricing
+		[2217] link 'Docs' url: https://huggingface.co/docs

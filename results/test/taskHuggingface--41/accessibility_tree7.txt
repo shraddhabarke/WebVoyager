@@ -1,0 +1,233 @@
+[1575] RootWebArea 'Models - Hugging Face' focused: True url: https://huggingface.co/models?pipeline_tag=text-to-3d&sort=trending
+	[1716] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1576] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1594] textbox 'Search models, datasets, users...' required: False
+	[1580] button ''
+	[1811] main ''
+		[1815] heading 'Edit Models filters'
+		[1820] button ''
+		[1826] button 'Tasks 1'
+		[1831] button 'Libraries'
+		[1836] button 'Datasets'
+		[1841] button 'Languages'
+		[1846] button 'Licenses'
+		[1851] button 'Other'
+		[1595] textbox 'Filter Tasks by name' focused: True required: False
+		[4431] button 'Reset Tasks'
+		[1867] StaticText 'Multimodal'
+		[1871] link 'Audio-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=audio-text-to-text
+		[1885] link 'Image-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=image-text-to-text
+		[1901] link 'Visual Question Answering' url: https://huggingface.co/models?pipeline_tag=visual-question-answering
+		[1916] link 'Document Question Answering' url: https://huggingface.co/models?pipeline_tag=document-question-answering
+			[1919] image ''
+		[1931] link 'Video-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=video-text-to-text
+		[1946] link 'Visual Document Retrieval' url: https://huggingface.co/models?pipeline_tag=visual-document-retrieval
+		[1962] link 'Any-to-Any' url: https://huggingface.co/models?pipeline_tag=any-to-any
+		[1980] StaticText 'Computer Vision'
+		[1984] link 'Depth Estimation' url: https://huggingface.co/models?pipeline_tag=depth-estimation
+			[1987] image ''
+		[1998] link 'Image Classification' url: https://huggingface.co/models?pipeline_tag=image-classification
+		[2014] link 'Object Detection' url: https://huggingface.co/models?pipeline_tag=object-detection
+		[2030] link 'Image Segmentation' url: https://huggingface.co/models?pipeline_tag=image-segmentation
+		[2045] link 'Text-to-Image' url: https://huggingface.co/models?pipeline_tag=text-to-image
+		[2061] link 'Image-to-Text' url: https://huggingface.co/models?pipeline_tag=image-to-text
+		[2077] link 'Image-to-Image' url: https://huggingface.co/models?pipeline_tag=image-to-image
+		[2092] link 'Image-to-Video' url: https://huggingface.co/models?pipeline_tag=image-to-video
+			[2095] image ''
+		[2106] link 'Unconditional Image Generation' url: https://huggingface.co/models?pipeline_tag=unconditional-image-generation
+		[2121] link 'Video Classification' url: https://huggingface.co/models?pipeline_tag=video-classification
+		[2135] link 'Text-to-Video' url: https://huggingface.co/models?pipeline_tag=text-to-video
+		[2149] link 'Zero-Shot Image Classification' url: https://huggingface.co/models?pipeline_tag=zero-shot-image-classification
+		[2165] link 'Mask Generation' url: https://huggingface.co/models?pipeline_tag=mask-generation
+		[2179] link 'Zero-Shot Object Detection' url: https://huggingface.co/models?pipeline_tag=zero-shot-object-detection
+		[2194] link 'Text-to-3D' url: https://huggingface.co/models?pipeline_tag=text-to-3d
+		[2209] link 'Image-to-3D' url: https://huggingface.co/models?pipeline_tag=image-to-3d
+		[2227] link 'Image Feature Extraction' url: https://huggingface.co/models?pipeline_tag=image-feature-extraction
+		[2241] link 'Keypoint Detection' url: https://huggingface.co/models?pipeline_tag=keypoint-detection
+		[2259] StaticText 'Natural Language Processing'
+		[2263] link 'Text Classification' url: https://huggingface.co/models?pipeline_tag=text-classification
+		[2290] link 'Token Classification' url: https://huggingface.co/models?pipeline_tag=token-classification
+		[2310] link 'Table Question Answering' url: https://huggingface.co/models?pipeline_tag=table-question-answering
+		[2324] link 'Question Answering' url: https://huggingface.co/models?pipeline_tag=question-answering
+			[2327] image ''
+		[2341] link 'Zero-Shot Classification' url: https://huggingface.co/models?pipeline_tag=zero-shot-classification
+		[2365] link 'Translation' url: https://huggingface.co/models?pipeline_tag=translation
+		[2380] link 'Summarization' url: https://huggingface.co/models?pipeline_tag=summarization
+		[2395] link 'Feature Extraction' url: https://huggingface.co/models?pipeline_tag=feature-extraction
+		[2409] link 'Text Generation' url: https://huggingface.co/models?pipeline_tag=text-generation
+		[2425] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+		[2441] link 'Fill-Mask' url: https://huggingface.co/models?pipeline_tag=fill-mask
+		[2457] link 'Sentence Similarity' url: https://huggingface.co/models?pipeline_tag=sentence-similarity
+		[2475] link 'Text Ranking' url: https://huggingface.co/models?pipeline_tag=text-ranking
+			[2478] image ''
+		[2496] StaticText 'Audio'
+		[2500] link 'Text-to-Speech' url: https://huggingface.co/models?pipeline_tag=text-to-speech
+		[2514] link 'Text-to-Audio' url: https://huggingface.co/models?pipeline_tag=text-to-audio
+		[2528] link 'Automatic Speech Recognition' url: https://huggingface.co/models?pipeline_tag=automatic-speech-recognition
+		[2542] link 'Audio-to-Audio' url: https://huggingface.co/models?pipeline_tag=audio-to-audio
+		[2556] link 'Audio Classification' url: https://huggingface.co/models?pipeline_tag=audio-classification
+		[2570] link 'Voice Activity Detection' url: https://huggingface.co/models?pipeline_tag=voice-activity-detection
+		[2588] StaticText 'Tabular'
+		[2592] link 'Tabular Classification' url: https://huggingface.co/models?pipeline_tag=tabular-classification
+		[2606] link 'Tabular Regression' url: https://huggingface.co/models?pipeline_tag=tabular-regression
+		[2620] link 'Time Series Forecasting' url: https://huggingface.co/models?pipeline_tag=time-series-forecasting
+		[2638] StaticText 'Reinforcement Learning'
+		[2642] link 'Reinforcement Learning' url: https://huggingface.co/models?pipeline_tag=reinforcement-learning
+		[2657] link 'Robotics' url: https://huggingface.co/models?pipeline_tag=robotics
+		[2675] StaticText 'Other'
+		[2679] link 'Graph Machine Learning' url: https://huggingface.co/models?pipeline_tag=graph-ml
+		[2701] button 'Apply filters'
+		[2709] heading 'Models'
+		[2713] StaticText '65'
+		[1596] searchbox 'Filter by name'
+		[1586] link 'Full-text search' url: https://huggingface.co/search/full-text?type=model
+		[2725] button 'Edit filters'
+		[2731] button 'Sort:\xa0 Trending'
+		[4444] StaticText 'Active filters:'
+		[4446] StaticText 'text-to-3d'
+		[4439] button 'Clear all'
+		[4951] article ''
+			[4952] link 'Text-to-3D • Updated Mar 24 • 23k • 9' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge
+				[4954] sectionheader ''
+					[4956] heading 'JeffreyXiang/TRELLIS-text-xlarge'
+				[4963] time 'Mon, 24 Mar 2025 12:51:07 GMT'
+					[4974] StaticText 'Mar 24'
+				[4975] StaticText '•'
+				[4976] StaticText '23k'
+		[4932] article ''
+			[4933] link 'Text-to-3D • Updated Dec 11, 2023 • 6.4k • 235' url: https://huggingface.co/openai/shap-e
+				[4935] sectionheader ''
+					[4937] heading 'openai/shap-e'
+				[4944] time 'Mon, 11 Dec 2023 22:51:57 GMT'
+					[4983] StaticText 'Dec 11, 2023'
+				[4984] StaticText '•'
+				[4985] StaticText '6.4k'
+				[4987] StaticText '235'
+		[4916] article ''
+			[4917] link 'Text-to-3D • Updated Jul 10, 2024 • 710' url: https://huggingface.co/stabilityai/stable-zero123
+				[4919] sectionheader ''
+					[4921] heading 'stabilityai/stable-zero123'
+				[4928] time 'Wed, 10 Jul 2024 12:39:10 GMT'
+					[4992] StaticText 'Jul 10, 2024'
+				[4993] StaticText '•'
+				[4994] StaticText '710'
+		[4897] article ''
+			[4898] link 'Text-to-3D • Updated Dec 6, 2024 • 1.44k • 157' url: https://huggingface.co/Zhengyi/LLaMA-Mesh
+				[4900] sectionheader ''
+					[4902] heading 'Zhengyi/LLaMA-Mesh'
+				[4909] time 'Sat, 07 Dec 2024 01:51:26 GMT'
+					[4999] StaticText 'Dec 6, 2024'
+				[5000] StaticText '•'
+				[5001] StaticText '1.44k'
+				[5003] StaticText '157'
+		[4878] article ''
+			[4879] link 'Text-to-3D • Updated Mar 24 • 3.87k • 2' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-base
+				[4881] sectionheader ''
+					[4883] heading 'JeffreyXiang/TRELLIS-text-base'
+				[4890] time 'Mon, 24 Mar 2025 12:46:13 GMT'
+					[5008] StaticText 'Mar 24'
+				[5009] StaticText '•'
+				[5010] StaticText '3.87k'
+		[4859] article ''
+			[4860] link 'Text-to-3D • Updated Mar 1, 2024 • 155 • 54' url: https://huggingface.co/Intel/ldm3d
+				[4862] sectionheader ''
+					[4864] heading 'Intel/ldm3d'
+				[4871] time 'Fri, 01 Mar 2024 11:04:53 GMT'
+					[5017] StaticText 'Mar 1, 2024'
+				[5018] StaticText '•'
+				[5019] StaticText '155'
+				[5021] StaticText '54'
+		[4840] article ''
+			[4841] link 'Text-to-3D • Updated Mar 1, 2024 • 739 • 39' url: https://huggingface.co/Intel/ldm3d-4c
+				[4843] sectionheader ''
+					[4845] heading 'Intel/ldm3d-4c'
+				[4852] time 'Fri, 01 Mar 2024 11:04:24 GMT'
+					[5026] StaticText 'Mar 1, 2024'
+				[5027] StaticText '•'
+				[5028] StaticText '739'
+		[4824] article ''
+			[4825] link 'Text-to-3D • Updated Feb 26, 2024 • 17' url: https://huggingface.co/One-2-3-45/code
+				[4827] sectionheader ''
+					[4829] heading 'One-2-3-45/code'
+				[4836] time 'Mon, 26 Feb 2024 11:16:13 GMT'
+					[5035] StaticText 'Feb 26, 2024'
+				[5036] StaticText '•'
+				[5037] StaticText '17'
+		[4805] article ''
+			[4806] link 'Text-to-3D • Updated Mar 11, 2024 • 31 • 55' url: https://huggingface.co/Intel/ldm3d-pano
+				[4808] sectionheader ''
+					[4810] heading 'Intel/ldm3d-pano'
+				[4817] time 'Mon, 11 Mar 2024 22:33:13 GMT'
+					[5042] StaticText 'Mar 11, 2024'
+				[5043] StaticText '•'
+				[5044] StaticText '31'
+				[5046] StaticText '55'
+		[4789] article ''
+			[4790] link 'Text-to-3D • Updated Jan 26, 2024 • 20' url: https://huggingface.co/Maikou/Michelangelo
+				[4792] sectionheader ''
+					[4794] heading 'Maikou/Michelangelo'
+				[4801] time 'Fri, 26 Jan 2024 11:12:45 GMT'
+					[5051] StaticText 'Jan 26, 2024'
+				[5052] StaticText '•'
+		[4773] article ''
+			[4774] link 'Text-to-3D • Updated Jan 16, 2024 • 8' url: https://huggingface.co/dylanebert/3dlfm
+				[4776] sectionheader ''
+					[4778] heading 'dylanebert/3dlfm'
+				[4785] time 'Tue, 16 Jan 2024 19:07:44 GMT'
+					[5058] StaticText 'Jan 16, 2024'
+				[5059] StaticText '•'
+		[4757] article ''
+			[4758] link 'Text-to-3D • Updated Feb 12, 2024 • 22' url: https://huggingface.co/hongfz16/3DTopia
+				[4760] sectionheader ''
+					[4762] heading 'hongfz16/3DTopia'
+				[4769] time 'Tue, 13 Feb 2024 01:58:23 GMT'
+					[5065] StaticText 'Feb 12, 2024'
+				[5066] StaticText '•'
+				[5067] StaticText '22'
+		[4741] article ''
+			[4742] link 'Text-to-3D • Updated Jan 25, 2024 • 4' url: https://huggingface.co/seungminh/zero123-pro_v1.0
+				[4744] sectionheader ''
+					[4746] heading 'seungminh/zero123-pro_v1.0'
+				[4753] time 'Fri, 26 Jan 2024 02:13:44 GMT'
+					[5072] StaticText 'Jan 25, 2024'
+				[5073] StaticText '•'
+		[4725] article ''
+			[4726] link 'Text-to-3D • Updated Jun 3, 2024 • 130' url: https://huggingface.co/ashawkey/LGM
+				[4728] sectionheader ''
+					[4730] heading 'ashawkey/LGM'
+				[4737] time 'Mon, 03 Jun 2024 09:47:14 GMT'
+					[5079] StaticText 'Jun 3, 2024'
+				[5080] StaticText '•'
+				[5081] StaticText '130'
+		[4709] article ''
+			[4710] link 'Text-to-3D • Updated Feb 22, 2024 • 10' url: https://huggingface.co/unity/sentis-alphafold-v1
+				[4712] sectionheader ''
+					[4714] heading 'unity/sentis-alphafold-v1'
+				[4721] time 'Fri, 23 Feb 2024 03:32:14 GMT'
+					[5086] StaticText 'Feb 22, 2024'
+				[5087] StaticText '•'
+				[5088] StaticText '10'
+		[4693] article ''
+			[4694] link 'Text-to-3D • Updated Oct 19, 2024 • 7' url: https://huggingface.co/yslan/LN3Diff
+				[4696] sectionheader ''
+					[4698] heading 'yslan/LN3Diff'
+				[4705] time 'Sat, 19 Oct 2024 07:42:46 GMT'
+					[5093] StaticText 'Oct 19, 2024'
+				[5094] StaticText '•'
+		[4674] article ''
+			[4675] link 'Text-to-3D • Updated Apr 19, 2024 • 23 • 6' url: https://huggingface.co/dylanebert/mvdream
+				[4677] sectionheader ''
+					[4679] heading 'dylanebert/mvdream'
+				[4686] time 'Fri, 19 Apr 2024 14:17:31 GMT'
+					[5100] StaticText 'Apr 19, 2024'
+				[5101] StaticText '•'
+				[5102] StaticText '23'
+				[5104] StaticText '6'
+		[4658] article ''
+			[4659] link 'Text-to-3D • Updated May 27, 2024 • 13' url: https://huggingface.co/wyysf/CraftsMan
+				[4661] sectionheader ''
+					[4663] heading 'wyysf/CraftsMan'
+				[4670] time 'Mon, 27 May 2024 16:47:07 GMT'
+					[5109] StaticText 'May 27, 2024'
+				[5110] StaticText '•'
+				[5111] StaticText '13'

@@ -1,0 +1,30 @@
+[1455] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[1525] link 'About' url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+	[1527] link 'Store' url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+	[1535] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[1538] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[1542] button 'Google apps' expanded: False
+		[1544] image ''
+	[1547] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ
+	[1558] image ''
+	[1454] search ''
+		[1610] image ''
+		[1453] combobox 'Search' autocomplete: both hasPopup: listbox required: False expanded: False
+		[1640] button 'Search by voice'
+			[1641] image ''
+		[1645] button 'Search by image'
+			[1646] image ''
+		[1810] button 'Google Search'
+		[1812] button "I'm Feeling Lucky"
+	[1891] contentinfo ''
+		[1896] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[1898] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[1900] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[1461] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[1906] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[1908] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[1469] button 'Settings' hasPopup: menu expanded: False
+			[1917] generic '' hasPopup: menu
+	[1473] generic 'Sign in to Google Get the most from your Google account Stay signed out Sign in' focused: True
+		[2005] button 'Stay signed out'
+		[2013] button 'Sign in'

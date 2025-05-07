@@ -2,5 +2,245 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Identify the most downloaded English-Chinese (en-zh) machine translation model on Huggingface and report its latest performance metrics and usage guidelines.  Please interact with https://huggingface.co/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need model list with filters. Click Browse models link.\nAction: Click 242"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to sort by downloads to find most downloaded model. Click the sort button to open options.\nAction: Click 2727"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Select \"Most downloads\" sorting.\nAction: Click 4432"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to filter by task Translation or language pair en-zh. Click Add filters button.\nAction: Click 2719"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: In filter panel, choose task Translation.\nAction: Click 2356"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to filter by languages to ensure en (English) and zh (Chinese) to identify most downloaded model.\nAction: Click 1832"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to add English language filter.\nAction: Click 7576"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to narrow down to models containing \"en-zh\" in name list; use name filter.\nAction: Type 1585; en-zh"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to include Chinese language as well so filter has both English and Chinese.\nAction: Click 7606"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Add Chinese language to filters by selecting the \"Chinese\" option in the Languages list.\nAction: Click 7606"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Replace the current text in the language filter search box with “zh” to look for Chinese language option.\nAction: Type 7571; zh"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Add Chinese to language filters by selecting the “Chinese” option.\nAction: Click 12164"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the top result “Helsinki-NLP/opus-mt-zh-en” to gather metrics and usage info.\nAction: Click 6467"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to apply the language filters so model list page loads; click “Apply filters”.\nAction: Click 2692"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to view the sorted model list; scroll down.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to adjust language filters to remove the unintended “mzh” language filter. Click on “Edit filters” to modify language selection.\nAction: Click 2719"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Clear current language selections to remove the unintended “mzh” filter, then we can add only English and Chinese back.\nAction: Click 9958"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Narrow model list to those whose names contain “en-zh” to find which has the highest download count.\nAction: Type 1585; en-zh"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to filter the model list by name to only show models containing “en-zh”, so I should type “en-zh” into the “Filter by name” search box (element 1585).\nAction: Type 1585; en-zh"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to narrow the model list by name to those containing “en-zh”. Enter “en-zh” into the “Filter by name” search box (element 1585).  \nAction: Type 1585; en-zh"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I need to focus the “Filter by name” search box (element 1585) so I can type the model name filter.  \nAction: Click 1585"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Filter model list by entering “en-zh” in the “Filter by name” search box to display only English-Chinese models.  \nAction: Type 1585; en-zh"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Must shift focus from the language-filter textbox to the “Filter by name” searchbox so I can enter “en-zh” and show only English-Chinese models.  \nAction: Click 1585"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To gather details of the most-downloaded English↔Chinese model (“Helsinki-NLP/opus-mt-zh-en”, 434 k downloads), open its page.  \nAction: Click 19401"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Try clicking the heading element inside the article for “Helsinki-NLP/opus-mt-zh-en” to open the model page.  \nAction: Click 19405"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the model page for “Helsinki-NLP/opus-mt-zh-en” by clicking its link element.\nAction: Click 19401"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; Due to repeated navigation errors with selecting the correct numerical label for the model link, I’m unable to proceed further in the browsing session."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to re-examine the model list to locate the correct clickable link for “Helsinki-NLP/opus-mt-zh-en”. I’ll scroll slightly to refresh the view and identify the proper element ID.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[1575] RootWebArea 'Models - Hugging Face' focused: True url: https://huggingface.co/models?pipeline_tag=translation&sort=downloads\n\t[1802] main ''\n\t\t[1806] heading 'Edit Models filters'\n\t\t[1811] button ''\n\t\t[1817] button 'Tasks 1'\n\t\t[1822] button 'Libraries'\n\t\t[1827] button 'Datasets'\n\t\t[1832] button 'Languages'\n\t\t[1837] button 'Licenses'\n\t\t[1842] button 'Other'\n\t\t[17858] textbox 'Filter Languages by name' focused: True required: False\n\t\t\t[33944] StaticText 'en-zh'\n\t\t[18868] StaticText ' with no match'\n\t\t[2692] button 'Apply filters'\n\t\t[19438] article ''\n\t\t\t[19439] link 'Translation • Updated Aug 16, 2023 • 478k • 44' url: https://huggingface.co/Helsinki-NLP/opus-mt-de-en\n\t\t\t\t[19441] sectionheader ''\n\t\t\t\t\t[19443] heading 'Helsinki-NLP/opus-mt-de-en'\n\t\t\t\t[19450] time 'Wed, 16 Aug 2023 11:27:46 GMT'\n\t\t\t\t\t[19595] StaticText 'Aug 16, 2023'\n\t\t\t\t[19596] StaticText '•'\n\t\t\t\t[19597] StaticText '478k'\n\t\t\t\t[19599] StaticText '44'\n\t\t[19419] article ''\n\t\t\t[19420] link 'Translation • Updated 2 days ago • 460k • 15' url: https://huggingface.co/ai4bharat/indictrans2-indic-en-1B\n\t\t\t\t[19422] sectionheader ''\n\t\t\t\t\t[19424] heading 'ai4bharat/indictrans2-indic-en-1B'\n\t\t\t\t[19431] time 'Fri, 02 May 2025 04:11:48 GMT'\n\t\t\t\t\t[19604] StaticText '2 days ago'\n\t\t\t\t[19605] StaticText '•'\n\t\t\t\t[19606] StaticText '460k'\n\t\t\t\t[19608] StaticText '15'\n\t\t[19400] article ''\n\t\t\t[19401] link 'Translation • Updated Aug 16, 2023 • 434k • 506' url: https://huggingface.co/Helsinki-NLP/opus-mt-zh-en\n\t\t\t\t[19403] sectionheader ''\n\t\t\t\t\t[19405] heading 'Helsinki-NLP/opus-mt-zh-en'\n\t\t\t\t[19412] time 'Wed, 16 Aug 2023 12:09:10 GMT'\n\t\t\t\t\t[19613] StaticText 'Aug 16, 2023'\n\t\t\t\t[19614] StaticText '•'\n\t\t\t\t[19615] StaticText '434k'\n\t\t\t\t[19617] StaticText '506'\n\t\t[19381] article ''\n\t\t\t[19382] link 'Translation • Updated Apr 6, 2023 • 418k • 204' url: https://huggingface.co/google-t5/t5-large\n\t\t\t\t[19384] sectionheader ''\n\t\t\t\t\t[19386] heading 'google-t5/t5-large'\n\t\t\t\t[19393] time 'Thu, 06 Apr 2023 13:42:27 GMT'\n\t\t\t\t\t[19622] StaticText 'Apr 6, 2023'\n\t\t\t\t[19623] StaticText '•'\n\t\t\t\t[19624] StaticText '418k'\n\t\t\t\t[19626] StaticText '204'\n\t\t[19362] article ''\n\t\t\t[19363] link 'Translation • Updated Aug 16, 2023 • 401k • 367' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-zh\n\t\t\t\t[19365] sectionheader ''\n\t\t\t\t\t[19367] heading 'Helsinki-NLP/opus-mt-en-zh'\n\t\t\t\t[19374] time 'Wed, 16 Aug 2023 11:31:42 GMT'\n\t\t\t\t\t[19631] StaticText 'Aug 16, 2023'\n\t\t\t\t[19632] StaticText '•'\n\t\t\t\t[19633] StaticText '401k'\n\t\t\t\t[19635] StaticText '367'\n\t\t[19343] article ''\n\t\t\t[19344] link 'Translation • Updated Feb 11, 2023 • 400k • 318' url: https://huggingface.co/facebook/nllb-200-3.3B\n\t\t\t\t[19346] sectionheader ''\n\t\t\t\t\t[19348] heading 'facebook/nllb-200-3.3B'\n\t\t\t\t[19355] time 'Sat, 11 Feb 2023 20:19:13 GMT'\n\t\t\t\t\t[19640] StaticText 'Feb 11, 2023'\n\t\t\t\t[19641] StaticText '•'\n\t\t\t\t[19642] StaticText '400k'\n\t\t\t\t[19644] StaticText '318'\n\t\t[19324] article ''\n\t\t\t[19325] link 'Translation • Updated Aug 16, 2023 • 367k • 72' url: https://huggingface.co/Helsinki-NLP/opus-mt-es-en\n\t\t\t\t[19327] sectionheader ''\n\t\t\t\t\t[19329] heading 'Helsinki-NLP/opus-mt-es-en'\n\t\t\t\t[19336] time 'Wed, 16 Aug 2023 11:32:34 GMT'\n\t\t\t\t\t[19649] StaticText 'Aug 16, 2023'\n\t\t\t\t[19650] StaticText '•'\n\t\t\t\t[19651] StaticText '367k'\n\t\t\t\t[19653] StaticText '72'\n\t\t[19305] article ''\n\t\t\t[19306] link 'Translation • Updated Feb 14, 2024 • 363k • 639' url: https://huggingface.co/facebook/nllb-200-distilled-600M\n\t\t\t\t[19308] sectionheader ''\n\t\t\t\t\t[19310] heading 'facebook/nllb-200-distilled-600M'\n\t\t\t\t[19317] time 'Wed, 14 Feb 2024 17:18:36 GMT'\n\t\t\t\t\t[19658] StaticText 'Feb 14, 2024'\n\t\t\t\t[19659] StaticText '•'\n\t\t\t\t[19660] StaticText '363k'\n\t\t\t\t[19662] StaticText '639'\n\t\t[19286] article ''\n\t\t\t[19287] link 'Translation • Updated Feb 14, 2024 • 360k • 58' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-fr\n\t\t\t\t[19289] sectionheader ''\n\t\t\t\t\t[19291] heading 'Helsinki-NLP/opus-mt-en-fr'\n\t\t\t\t[19298] time 'Wed, 14 Feb 2024 17:18:11 GMT'\n\t\t\t\t\t[19667] StaticText 'Feb 14, 2024'\n\t\t\t\t[19668] StaticText '•'\n\t\t\t\t[19669] StaticText '360k'\n\t\t\t\t[19671] StaticText '58'\n\t\t[19267] article ''\n\t\t\t[19268] link 'Translation • Updated Sep 28, 2023 • 359k • 357' url: https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt\n\t\t\t\t[19270] sectionheader ''\n\t\t\t\t\t[19272] heading 'facebook/mbart-large-50-many-to-many-mmt'\n\t\t\t\t[19279] time 'Thu, 28 Sep 2023 16:42:59 GMT'\n\t\t\t\t\t[19676] StaticText 'Sep 28, 2023'\n\t\t\t\t[19677] StaticText '•'\n\t\t\t\t[19678] StaticText '359k'\n\t\t\t\t[19680] StaticText '357'\n\t\t[19248] article ''\n\t\t\t[19249] link 'Translation • Updated Jan 29, 2024 • 342k • 46' url: https://huggingface.co/google-t5/t5-3b\n\t\t\t\t[19251] sectionheader ''\n\t\t\t\t\t[19253] heading 'google-t5/t5-3b'\n\t\t\t\t[19260] time 'Mon, 29 Jan 2024 15:44:49 GMT'\n\t\t\t\t\t[19685] StaticText 'Jan 29, 2024'\n\t\t\t\t[19686] StaticText '•'\n\t\t\t\t[19687] StaticText '342k'\n\t\t\t\t[19689] StaticText '46'\n\t\t[19229] article ''\n\t\t\t[19230] link 'Translation • Updated Aug 16, 2023 • 332k • 79' url: https://huggingface.co/Helsinki-NLP/opus-mt-ru-en\n\t\t\t\t[19232] sectionheader ''\n\t\t\t\t\t[19234] heading 'Helsinki-NLP/opus-mt-ru-en'\n\t\t\t\t[19241] time 'Wed, 16 Aug 2023 12:03:22 GMT'\n\t\t\t\t\t[19694] StaticText 'Aug 16, 2023'\n\t\t\t\t[19695] StaticText '•'\n\t\t\t\t[19696] StaticText '332k'\n\t\t\t\t[19698] StaticText '79'\n\t\t[19210] article ''\n\t\t\t[19211] link 'Translation • Updated Aug 16, 2023 • 326k • 9' url: https://huggingface.co/Helsinki-NLP/opus-mt-nl-en\n\t\t\t\t[19213] sectionheader ''\n\t\t\t\t\t[19215] heading 'Helsinki-NLP/opus-mt-nl-en'\n\t\t\t\t[19222] time 'Wed, 16 Aug 2023 12:01:39 GMT'\n\t\t\t\t\t[19703] StaticText 'Aug 16, 2023'\n\t\t\t\t[19704] StaticText '•'\n\t\t\t\t[19705] StaticText '326k'\n\t\t[19191] article ''\n\t\t\t[19192] link 'Translation • Updated Nov 16, 2023 • 252k • 23' url: https://huggingface.co/Rostlab/ProstT5\n\t\t\t\t[19194] sectionheader ''\n\t\t\t\t\t[19196] heading 'Rostlab/ProstT5'\n\t\t\t\t[19203] time 'Thu, 16 Nov 2023 08:51:30 GMT'\n\t\t\t\t\t[19712] StaticText 'Nov 16, 2023'\n\t\t\t\t[19713] StaticText '•'\n\t\t\t\t[19714] StaticText '252k'\n\t\t[19172] article ''\n\t\t\t[19173] link 'Translation • Updated Aug 16, 2023 • 232k • 39' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-de\n\t\t\t\t[19175] sectionheader ''\n\t\t\t\t\t[19177] heading 'Helsinki-NLP/opus-mt-en-de'\n\t\t\t\t[19184] time 'Wed, 16 Aug 2023 11:29:21 GMT'\n\t\t\t\t\t[19721] StaticText 'Aug 16, 2023'\n\t\t\t\t[19722] StaticText '•'\n\t\t\t\t[19723] StaticText '232k'\n\t\t\t\t[19725] StaticText '39'\n\t\t[19153] article ''\n\t\t\t[19154] link 'Translation • Updated Aug 16, 2023 • 203k • 109' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-es\n\t\t\t\t[19156] sectionheader ''\n\t\t\t\t\t[19158] heading 'Helsinki-NLP/opus-mt-en-es'\n\t\t\t\t[19165] time 'Wed, 16 Aug 2023 11:29:28 GMT'\n\t\t\t\t\t[19730] StaticText 'Aug 16, 2023'\n\t\t\t\t[19731] StaticText '•'\n\t\t\t\t[19732] StaticText '203k'\n\t\t\t\t[19734] StaticText '109'\n\t\t[19134] article ''\n\t\t\t[19135] link 'Translation • Updated Jan 2, 2023 • 181k • 62' url: https://huggingface.co/google-t5/t5-11b\n\t\t\t\t[19137] sectionheader ''\n\t\t\t\t\t[19139] heading 'google-t5/t5-11b'\n\t\t\t\t[19146] time 'Mon, 02 Jan 2023 16:15:50 GMT'\n\t\t\t\t\t[19739] StaticText 'Jan 2, 2023'\n\t\t\t\t[19740] StaticText '•'\n\t\t\t\t[19741] StaticText '181k'\n\t\t\t\t[19743] StaticText '62'\n\t\t[19115] article ''\n\t\t\t[19116] link 'Translation • Updated Aug 16, 2023 • 149k • 77' url: https://huggingface.co/Helsinki-NLP/opus-mt-mul-en\n\t\t\t\t[19118] sectionheader ''\n\t\t\t\t\t[19120] heading 'Helsinki-NLP/opus-mt-mul-en'\n\t\t\t\t[19127] time 'Wed, 16 Aug 2023 12:01:25 GMT'\n\t\t\t\t\t[19748] StaticText 'Aug 16, 2023'\n\t\t\t\t[19749] StaticText '•'\n\t\t\t\t[19750] StaticText '149k'\n\t\t\t\t[19752] StaticText '77'\n\t\t[19096] article ''\n\t\t\t[19097] link 'Translation • Updated Aug 16, 2023 • 148k • 84' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-ru\n\t\t\t\t[19099] sectionheader ''\n\t\t\t\t\t[19101] heading 'Helsinki-NLP/opus-mt-en-ru'\n\t\t\t\t[19108] time 'Wed, 16 Aug 2023 11:30:58 GMT'\n\t\t\t\t\t[19757] StaticText 'Aug 16, 2023'\n\t\t\t\t[19758] StaticText '•'\n\t\t\t\t[19759] StaticText '148k'\n\t\t\t\t[19761] StaticText '84'\n\t\t[19077] article ''\n\t\t\t[19078] link 'Translation • Updated Aug 16, 2023 • 148k • 16' url: https://huggingface.co/Helsinki-NLP/opus-mt-it-en\n\t\t\t\t[19080] sectionheader ''\n\t\t\t\t\t[19082] heading 'Helsinki-NLP/opus-mt-it-en'\n\t\t\t\t[19089] time 'Wed, 16 Aug 2023 11:58:49 GMT'\n\t\t\t\t\t[19766] StaticText 'Aug 16, 2023'\n\t\t\t\t[19767] StaticText '•'\n\t\t\t\t[19768] StaticText '148k'\n\t\t[19058] article ''\n\t\t\t[19059] link 'Translation • Updated Aug 16, 2023 • 145k • 35' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-hi\n\t\t\t\t[19061] sectionheader ''\n\t\t\t\t\t[19063] heading 'Helsinki-NLP/opus-mt-en-hi'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the model page for the most-downloaded English→Chinese model “Helsinki-NLP/opus-mt-en-zh” (link element 19363) to collect metrics and usage instructions.\nAction: Click 19363"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[1575] RootWebArea 'Models - Hugging Face' focused: True url: https://huggingface.co/models?pipeline_tag=translation&sort=downloads\n\t[1802] main ''\n\t\t[1806] heading 'Edit Models filters'\n\t\t[1811] button ''\n\t\t[1817] button 'Tasks 1'\n\t\t[1822] button 'Libraries'\n\t\t[1827] button 'Datasets'\n\t\t[1832] button 'Languages'\n\t\t[1837] button 'Licenses'\n\t\t[1842] button 'Other'\n\t\t[17858] textbox 'Filter Languages by name' required: False\n\t\t\t[33944] StaticText 'en-zh'\n\t\t[18868] StaticText ' with no match'\n\t\t[2692] button 'Apply filters'\n\t\t[19438] article ''\n\t\t\t[19439] link 'Translation • Updated Aug 16, 2023 • 478k • 44' url: https://huggingface.co/Helsinki-NLP/opus-mt-de-en\n\t\t\t\t[19441] sectionheader ''\n\t\t\t\t\t[19443] heading 'Helsinki-NLP/opus-mt-de-en'\n\t\t\t\t[19450] time 'Wed, 16 Aug 2023 11:27:46 GMT'\n\t\t\t\t\t[19595] StaticText 'Aug 16, 2023'\n\t\t\t\t[19596] StaticText '•'\n\t\t\t\t[19597] StaticText '478k'\n\t\t\t\t[19599] StaticText '44'\n\t\t[19419] article ''\n\t\t\t[19420] link 'Translation • Updated 2 days ago • 460k • 15' url: https://huggingface.co/ai4bharat/indictrans2-indic-en-1B\n\t\t\t\t[19422] sectionheader ''\n\t\t\t\t\t[19424] heading 'ai4bharat/indictrans2-indic-en-1B'\n\t\t\t\t[19431] time 'Fri, 02 May 2025 04:11:48 GMT'\n\t\t\t\t\t[19604] StaticText '2 days ago'\n\t\t\t\t[19605] StaticText '•'\n\t\t\t\t[19606] StaticText '460k'\n\t\t\t\t[19608] StaticText '15'\n\t\t[19400] article ''\n\t\t\t[19401] link 'Translation • Updated Aug 16, 2023 • 434k • 506' url: https://huggingface.co/Helsinki-NLP/opus-mt-zh-en\n\t\t\t\t[19403] sectionheader ''\n\t\t\t\t\t[19405] heading 'Helsinki-NLP/opus-mt-zh-en'\n\t\t\t\t[19412] time 'Wed, 16 Aug 2023 12:09:10 GMT'\n\t\t\t\t\t[19613] StaticText 'Aug 16, 2023'\n\t\t\t\t[19614] StaticText '•'\n\t\t\t\t[19615] StaticText '434k'\n\t\t\t\t[19617] StaticText '506'\n\t\t[19381] article ''\n\t\t\t[19382] link 'Translation • Updated Apr 6, 2023 • 418k • 204' url: https://huggingface.co/google-t5/t5-large\n\t\t\t\t[19384] sectionheader ''\n\t\t\t\t\t[19386] heading 'google-t5/t5-large'\n\t\t\t\t[19393] time 'Thu, 06 Apr 2023 13:42:27 GMT'\n\t\t\t\t\t[19622] StaticText 'Apr 6, 2023'\n\t\t\t\t[19623] StaticText '•'\n\t\t\t\t[19624] StaticText '418k'\n\t\t\t\t[19626] StaticText '204'\n\t\t[19362] article ''\n\t\t\t[19363] link 'Translation • Updated Aug 16, 2023 • 401k • 367' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-zh\n\t\t\t\t[19365] sectionheader ''\n\t\t\t\t\t[19367] heading 'Helsinki-NLP/opus-mt-en-zh'\n\t\t\t\t[19374] time 'Wed, 16 Aug 2023 11:31:42 GMT'\n\t\t\t\t\t[19631] StaticText 'Aug 16, 2023'\n\t\t\t\t[19632] StaticText '•'\n\t\t\t\t[19633] StaticText '401k'\n\t\t\t\t[19635] StaticText '367'\n\t\t[19343] article ''\n\t\t\t[19344] link 'Translation • Updated Feb 11, 2023 • 400k • 318' url: https://huggingface.co/facebook/nllb-200-3.3B\n\t\t\t\t[19346] sectionheader ''\n\t\t\t\t\t[19348] heading 'facebook/nllb-200-3.3B'\n\t\t\t\t[19355] time 'Sat, 11 Feb 2023 20:19:13 GMT'\n\t\t\t\t\t[19640] StaticText 'Feb 11, 2023'\n\t\t\t\t[19641] StaticText '•'\n\t\t\t\t[19642] StaticText '400k'\n\t\t\t\t[19644] StaticText '318'\n\t\t[19324] article ''\n\t\t\t[19325] link 'Translation • Updated Aug 16, 2023 • 367k • 72' url: https://huggingface.co/Helsinki-NLP/opus-mt-es-en\n\t\t\t\t[19327] sectionheader ''\n\t\t\t\t\t[19329] heading 'Helsinki-NLP/opus-mt-es-en'\n\t\t\t\t[19336] time 'Wed, 16 Aug 2023 11:32:34 GMT'\n\t\t\t\t\t[19649] StaticText 'Aug 16, 2023'\n\t\t\t\t[19650] StaticText '•'\n\t\t\t\t[19651] StaticText '367k'\n\t\t\t\t[19653] StaticText '72'\n\t\t[19305] article ''\n\t\t\t[19306] link 'Translation • Updated Feb 14, 2024 • 363k • 639' url: https://huggingface.co/facebook/nllb-200-distilled-600M\n\t\t\t\t[19308] sectionheader ''\n\t\t\t\t\t[19310] heading 'facebook/nllb-200-distilled-600M'\n\t\t\t\t[19317] time 'Wed, 14 Feb 2024 17:18:36 GMT'\n\t\t\t\t\t[19658] StaticText 'Feb 14, 2024'\n\t\t\t\t[19659] StaticText '•'\n\t\t\t\t[19660] StaticText '363k'\n\t\t\t\t[19662] StaticText '639'\n\t\t[19286] article ''\n\t\t\t[19287] link 'Translation • Updated Feb 14, 2024 • 360k • 58' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-fr\n\t\t\t\t[19289] sectionheader ''\n\t\t\t\t\t[19291] heading 'Helsinki-NLP/opus-mt-en-fr'\n\t\t\t\t[19298] time 'Wed, 14 Feb 2024 17:18:11 GMT'\n\t\t\t\t\t[19667] StaticText 'Feb 14, 2024'\n\t\t\t\t[19668] StaticText '•'\n\t\t\t\t[19669] StaticText '360k'\n\t\t\t\t[19671] StaticText '58'\n\t\t[19267] article ''\n\t\t\t[19268] link 'Translation • Updated Sep 28, 2023 • 359k • 357' url: https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt\n\t\t\t\t[19270] sectionheader ''\n\t\t\t\t\t[19272] heading 'facebook/mbart-large-50-many-to-many-mmt'\n\t\t\t\t[19279] time 'Thu, 28 Sep 2023 16:42:59 GMT'\n\t\t\t\t\t[19676] StaticText 'Sep 28, 2023'\n\t\t\t\t[19677] StaticText '•'\n\t\t\t\t[19678] StaticText '359k'\n\t\t\t\t[19680] StaticText '357'\n\t\t[19248] article ''\n\t\t\t[19249] link 'Translation • Updated Jan 29, 2024 • 342k • 46' url: https://huggingface.co/google-t5/t5-3b\n\t\t\t\t[19251] sectionheader ''\n\t\t\t\t\t[19253] heading 'google-t5/t5-3b'\n\t\t\t\t[19260] time 'Mon, 29 Jan 2024 15:44:49 GMT'\n\t\t\t\t\t[19685] StaticText 'Jan 29, 2024'\n\t\t\t\t[19686] StaticText '•'\n\t\t\t\t[19687] StaticText '342k'\n\t\t\t\t[19689] StaticText '46'\n\t\t[19229] article ''\n\t\t\t[19230] link 'Translation • Updated Aug 16, 2023 • 332k • 79' url: https://huggingface.co/Helsinki-NLP/opus-mt-ru-en\n\t\t\t\t[19232] sectionheader ''\n\t\t\t\t\t[19234] heading 'Helsinki-NLP/opus-mt-ru-en'\n\t\t\t\t[19241] time 'Wed, 16 Aug 2023 12:03:22 GMT'\n\t\t\t\t\t[19694] StaticText 'Aug 16, 2023'\n\t\t\t\t[19695] StaticText '•'\n\t\t\t\t[19696] StaticText '332k'\n\t\t\t\t[19698] StaticText '79'\n\t\t[19210] article ''\n\t\t\t[19211] link 'Translation • Updated Aug 16, 2023 • 326k • 9' url: https://huggingface.co/Helsinki-NLP/opus-mt-nl-en\n\t\t\t\t[19213] sectionheader ''\n\t\t\t\t\t[19215] heading 'Helsinki-NLP/opus-mt-nl-en'\n\t\t\t\t[19222] time 'Wed, 16 Aug 2023 12:01:39 GMT'\n\t\t\t\t\t[19703] StaticText 'Aug 16, 2023'\n\t\t\t\t[19704] StaticText '•'\n\t\t\t\t[19705] StaticText '326k'\n\t\t[19191] article ''\n\t\t\t[19192] link 'Translation • Updated Nov 16, 2023 • 252k • 23' url: https://huggingface.co/Rostlab/ProstT5\n\t\t\t\t[19194] sectionheader ''\n\t\t\t\t\t[19196] heading 'Rostlab/ProstT5'\n\t\t\t\t[19203] time 'Thu, 16 Nov 2023 08:51:30 GMT'\n\t\t\t\t\t[19712] StaticText 'Nov 16, 2023'\n\t\t\t\t[19713] StaticText '•'\n\t\t\t\t[19714] StaticText '252k'\n\t\t[19172] article ''\n\t\t\t[19173] link 'Translation • Updated Aug 16, 2023 • 232k • 39' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-de\n\t\t\t\t[19175] sectionheader ''\n\t\t\t\t\t[19177] heading 'Helsinki-NLP/opus-mt-en-de'\n\t\t\t\t[19184] time 'Wed, 16 Aug 2023 11:29:21 GMT'\n\t\t\t\t\t[19721] StaticText 'Aug 16, 2023'\n\t\t\t\t[19722] StaticText '•'\n\t\t\t\t[19723] StaticText '232k'\n\t\t\t\t[19725] StaticText '39'\n\t\t[19153] article ''\n\t\t\t[19154] link 'Translation • Updated Aug 16, 2023 • 203k • 109' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-es\n\t\t\t\t[19156] sectionheader ''\n\t\t\t\t\t[19158] heading 'Helsinki-NLP/opus-mt-en-es'\n\t\t\t\t[19165] time 'Wed, 16 Aug 2023 11:29:28 GMT'\n\t\t\t\t\t[19730] StaticText 'Aug 16, 2023'\n\t\t\t\t[19731] StaticText '•'\n\t\t\t\t[19732] StaticText '203k'\n\t\t\t\t[19734] StaticText '109'\n\t\t[19134] article ''\n\t\t\t[19135] link 'Translation • Updated Jan 2, 2023 • 181k • 62' url: https://huggingface.co/google-t5/t5-11b\n\t\t\t\t[19137] sectionheader ''\n\t\t\t\t\t[19139] heading 'google-t5/t5-11b'\n\t\t\t\t[19146] time 'Mon, 02 Jan 2023 16:15:50 GMT'\n\t\t\t\t\t[19739] StaticText 'Jan 2, 2023'\n\t\t\t\t[19740] StaticText '•'\n\t\t\t\t[19741] StaticText '181k'\n\t\t\t\t[19743] StaticText '62'\n\t\t[19115] article ''\n\t\t\t[19116] link 'Translation • Updated Aug 16, 2023 • 149k • 77' url: https://huggingface.co/Helsinki-NLP/opus-mt-mul-en\n\t\t\t\t[19118] sectionheader ''\n\t\t\t\t\t[19120] heading 'Helsinki-NLP/opus-mt-mul-en'\n\t\t\t\t[19127] time 'Wed, 16 Aug 2023 12:01:25 GMT'\n\t\t\t\t\t[19748] StaticText 'Aug 16, 2023'\n\t\t\t\t[19749] StaticText '•'\n\t\t\t\t[19750] StaticText '149k'\n\t\t\t\t[19752] StaticText '77'\n\t\t[19096] article ''\n\t\t\t[19097] link 'Translation • Updated Aug 16, 2023 • 148k • 84' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-ru\n\t\t\t\t[19099] sectionheader ''\n\t\t\t\t\t[19101] heading 'Helsinki-NLP/opus-mt-en-ru'\n\t\t\t\t[19108] time 'Wed, 16 Aug 2023 11:30:58 GMT'\n\t\t\t\t\t[19757] StaticText 'Aug 16, 2023'\n\t\t\t\t[19758] StaticText '•'\n\t\t\t\t[19759] StaticText '148k'\n\t\t\t\t[19761] StaticText '84'\n\t\t[19077] article ''\n\t\t\t[19078] link 'Translation • Updated Aug 16, 2023 • 148k • 16' url: https://huggingface.co/Helsinki-NLP/opus-mt-it-en\n\t\t\t\t[19080] sectionheader ''\n\t\t\t\t\t[19082] heading 'Helsinki-NLP/opus-mt-it-en'\n\t\t\t\t[19089] time 'Wed, 16 Aug 2023 11:58:49 GMT'\n\t\t\t\t\t[19766] StaticText 'Aug 16, 2023'\n\t\t\t\t[19767] StaticText '•'\n\t\t\t\t[19768] StaticText '148k'\n\t\t[19058] article ''\n\t\t\t[19059] link 'Translation • Updated Aug 16, 2023 • 145k • 35' url: https://huggingface.co/Helsinki-NLP/opus-mt-en-hi\n\t\t\t\t[19061] sectionheader ''\n\t\t\t\t\t[19063] heading 'Helsinki-NLP/opus-mt-en-hi'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To open the model page for “Helsinki-NLP/opus-mt-en-zh”, try clicking its heading element (id 19367) inside the link.  \nAction: Click 19367"
   }
 ]

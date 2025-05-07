@@ -2,5 +2,117 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.  Please interact with https://huggingface.co/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to browse the models page to filter by Text-to-3D and sort by downloads\nAction: Click [243]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to apply filter for \"Task: Text-to-3D\". First click Add filters button.\nAction: Click [2725]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Click Text-to-3D task filter link.\nAction: Click [2194]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to change sort to Downloads to find highest downloads. Click sort button.\nAction: Click [2731]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open sort dropdown to select Downloads.\nAction: Click [2731]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Maybe the sort menu hasn’t appeared yet; give the page a moment for the dropdown to render.\nAction: Wait"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open sort dropdown to change from Trending to Downloads.\nAction: Click [2731]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need model page; click first model JeffreyXiang/TRELLIS-text-xlarge to open details and check spaces.\nAction: Click [4952]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Close the filters panel first by clicking “Apply filters”, then we can interact with the list (links will work afterward).  \nAction: Click [2701]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the Sort menu to change to “Downloads” to list highest-downloaded model.  \nAction: Click [2731]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Select “Most downloads” in the sort dropdown so the list is ordered by highest-downloaded models.  \nAction: Click [5882]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[1575] RootWebArea 'Models - Hugging Face' focused: True url: https://huggingface.co/models?pipeline_tag=text-to-3d&sort=downloads\n\t[1716] link \"Hugging Face's logo Hugging Face\" url: https://huggingface.co/\n\t\t[1576] image \"Hugging Face's logo\" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg\n\t[1594] textbox 'Search models, datasets, users...' required: False\n\t[1580] button ''\n\t[1811] main ''\n\t\t[2709] heading 'Models'\n\t\t[2713] StaticText '65'\n\t\t[1596] searchbox 'Filter by name'\n\t\t[1586] link 'Full-text search' url: https://huggingface.co/search/full-text?type=model\n\t\t[2725] button 'Edit filters'\n\t\t[2731] button 'Sort:\\xa0 Most downloads'\n\t\t[4444] StaticText 'Active filters:'\n\t\t[4446] StaticText 'text-to-3d'\n\t\t[4439] button 'Clear all'\n\t\t[4951] article ''\n\t\t\t[4952] link 'Text-to-3D • Updated Mar 24 • 23k • 9' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge\n\t\t\t\t[4954] sectionheader ''\n\t\t\t\t\t[4956] heading 'JeffreyXiang/TRELLIS-text-xlarge'\n\t\t\t\t[4963] time 'Mon, 24 Mar 2025 12:51:07 GMT'\n\t\t\t\t\t[4974] StaticText 'Mar 24'\n\t\t\t\t[4975] StaticText '•'\n\t\t\t\t[4976] StaticText '23k'\n\t\t[4932] article ''\n\t\t\t[4933] link 'Text-to-3D • Updated Dec 11, 2023 • 6.4k • 235' url: https://huggingface.co/openai/shap-e\n\t\t\t\t[4935] sectionheader ''\n\t\t\t\t\t[4937] heading 'openai/shap-e'\n\t\t\t\t[4944] time 'Mon, 11 Dec 2023 22:51:57 GMT'\n\t\t\t\t\t[4983] StaticText 'Dec 11, 2023'\n\t\t\t\t[4984] StaticText '•'\n\t\t\t\t[4985] StaticText '6.4k'\n\t\t\t\t[4987] StaticText '235'\n\t\t[4878] article ''\n\t\t\t[4879] link 'Text-to-3D • Updated Mar 24 • 3.87k • 2' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-base\n\t\t\t\t[4881] sectionheader ''\n\t\t\t\t\t[4883] heading 'JeffreyXiang/TRELLIS-text-base'\n\t\t\t\t[4890] time 'Mon, 24 Mar 2025 12:46:13 GMT'\n\t\t\t\t\t[5008] StaticText 'Mar 24'\n\t\t\t\t[5009] StaticText '•'\n\t\t\t\t[5010] StaticText '3.87k'\n\t\t[6150] article ''\n\t\t\t[6151] link 'Text-to-3D • Updated Mar 24 • 3.43k' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-large\n\t\t\t\t[6153] sectionheader ''\n\t\t\t\t\t[6155] heading 'JeffreyXiang/TRELLIS-text-large'\n\t\t\t\t[6162] time 'Mon, 24 Mar 2025 12:49:23 GMT'\n\t\t\t\t\t[6170] StaticText 'Mar 24'\n\t\t\t\t[6171] StaticText '•'\n\t\t\t\t[6172] StaticText '3.43k'\n\t\t[6131] article ''\n\t\t\t[6132] link 'Text-to-3D • Updated Dec 6, 2024 • 1.63k • 30' url: https://huggingface.co/bartowski/LLaMA-Mesh-GGUF\n\t\t\t\t[6134] sectionheader ''\n\t\t\t\t\t[6136] heading 'bartowski/LLaMA-Mesh-GGUF'\n\t\t\t\t[6143] time 'Fri, 06 Dec 2024 16:54:30 GMT'\n\t\t\t\t\t[6177] StaticText 'Dec 6, 2024'\n\t\t\t\t[6178] StaticText '•'\n\t\t\t\t[6179] StaticText '1.63k'\n\t\t\t\t[6181] StaticText '30'\n\t\t[4897] article ''\n\t\t\t[4898] link 'Text-to-3D • Updated Dec 6, 2024 • 1.44k • 157' url: https://huggingface.co/Zhengyi/LLaMA-Mesh\n\t\t\t\t[4900] sectionheader ''\n\t\t\t\t\t[4902] heading 'Zhengyi/LLaMA-Mesh'\n\t\t\t\t[4909] time 'Sat, 07 Dec 2024 01:51:26 GMT'\n\t\t\t\t\t[4999] StaticText 'Dec 6, 2024'\n\t\t\t\t[5000] StaticText '•'\n\t\t\t\t[5001] StaticText '1.44k'\n\t\t\t\t[5003] StaticText '157'\n\t\t[6115] article ''\n\t\t\t[6116] link 'Text-to-3D • Updated 26 days ago • 841' url: https://huggingface.co/cavargas10/TRELLIS-text-xlarge\n\t\t\t\t[6118] sectionheader ''\n\t\t\t\t\t[6120] heading 'cavargas10/TRELLIS-text-xlarge'\n\t\t\t\t[6127] time 'Tue, 08 Apr 2025 01:40:29 GMT'\n\t\t\t\t\t[6186] StaticText '26 days ago'\n\t\t\t\t[6187] StaticText '•'\n\t\t\t\t[6188] StaticText '841'\n\t\t[4840] article ''\n\t\t\t[4841] link 'Text-to-3D • Updated Mar 1, 2024 • 739 • 39' url: https://huggingface.co/Intel/ldm3d-4c\n\t\t\t\t[4843] sectionheader ''\n\t\t\t\t\t[4845] heading 'Intel/ldm3d-4c'\n\t\t\t\t[4852] time 'Fri, 01 Mar 2024 11:04:24 GMT'\n\t\t\t\t\t[5026] StaticText 'Mar 1, 2024'\n\t\t\t\t[5027] StaticText '•'\n\t\t\t\t[5028] StaticText '739'\n\t\t[6096] article ''\n\t\t\t[6097] link 'Text-to-3D • Updated 14 days ago • 353 • 2' url: https://huggingface.co/dptech/Uni-3DAR\n\t\t\t\t[6099] sectionheader ''\n\t\t\t\t\t[6101] heading 'dptech/Uni-3DAR'\n\t\t\t\t[6108] time 'Sat, 19 Apr 2025 15:38:19 GMT'\n\t\t\t\t\t[6193] StaticText '14 days ago'\n\t\t\t\t[6194] StaticText '•'\n\t\t\t\t[6195] StaticText '353'\n\t\t\t\t[6197] StaticText '2'\n\t\t[4569] article ''\n\t\t\t[4570] link 'Text-to-3D • Updated Dec 23, 2024 • 291 • 23' url: https://huggingface.co/FreedomIntelligence/BlenderLLM\n\t\t\t\t[4572] sectionheader ''\n\t\t\t\t\t[4574] heading 'FreedomIntelligence/BlenderLLM'\n\t\t\t\t[4581] time 'Mon, 23 Dec 2024 12:48:19 GMT'\n\t\t\t\t\t[5148] StaticText 'Dec 23, 2024'\n\t\t\t\t[5149] StaticText '•'\n\t\t\t\t[5150] StaticText '291'\n\t\t[4623] article ''\n\t\t\t[4624] link 'Text-to-3D • Updated Jun 7, 2024 • 156 • 49' url: https://huggingface.co/MarcusLoren/MeshGPT-preview\n\t\t\t\t[4626] sectionheader ''\n\t\t\t\t\t[4628] heading 'MarcusLoren/MeshGPT-preview'\n\t\t\t\t[4635] time 'Sat, 08 Jun 2024 01:23:37 GMT'\n\t\t\t\t\t[5123] StaticText 'Jun 7, 2024'\n\t\t\t\t[5124] StaticText '•'\n\t\t\t\t[5125] StaticText '156'\n\t\t\t\t[5127] StaticText '49'\n\t\t[4859] article ''\n\t\t\t[4860] link 'Text-to-3D • Updated Mar 1, 2024 • 155 • 54' url: https://huggingface.co/Intel/ldm3d\n\t\t\t\t[4862] sectionheader ''\n\t\t\t\t\t[4864] heading 'Intel/ldm3d'\n\t\t\t\t[4871] time 'Fri, 01 Mar 2024 11:04:53 GMT'\n\t\t\t\t\t[5017] StaticText 'Mar 1, 2024'\n\t\t\t\t[5018] StaticText '•'\n\t\t\t\t[5019] StaticText '155'\n\t\t\t\t[5021] StaticText '54'\n\t\t[4534] article ''\n\t\t\t[4535] link 'Text-to-3D • Updated Feb 1 • 52 • 1' url: https://huggingface.co/hellork/BlenderLLM-IQ3_XXS-GGUF\n\t\t\t\t[4537] sectionheader ''\n\t\t\t\t\t[4539] heading 'hellork/BlenderLLM-IQ3_XXS-GGUF'\n\t\t\t\t[4546] time 'Sun, 02 Feb 2025 07:04:34 GMT'\n\t\t\t\t\t[5164] StaticText 'Feb 1'\n\t\t\t\t[5165] StaticText '•'\n\t\t\t\t[5166] StaticText '52'\n\t\t[4604] article ''\n\t\t\t[4605] link 'Text-to-3D • Updated Jun 29, 2024 • 44 • 5' url: https://huggingface.co/pabloruizponce/in2IN\n\t\t\t\t[4607] sectionheader ''\n\t\t\t\t\t[4609] heading 'pabloruizponce/in2IN'\n\t\t\t\t[4616] time 'Sat, 29 Jun 2024 17:32:05 GMT'\n\t\t\t\t\t[5132] StaticText 'Jun 29, 2024'\n\t\t\t\t[5133] StaticText '•'\n\t\t\t\t[5134] StaticText '44'\n\t\t[4805] article ''\n\t\t\t[4806] link 'Text-to-3D • Updated Mar 11, 2024 • 31 • 55' url: https://huggingface.co/Intel/ldm3d-pano\n\t\t\t\t[4808] sectionheader ''\n\t\t\t\t\t[4810] heading 'Intel/ldm3d-pano'\n\t\t\t\t[4817] time 'Mon, 11 Mar 2024 22:33:13 GMT'\n\t\t\t\t\t[5042] StaticText 'Mar 11, 2024'\n\t\t\t\t[5043] StaticText '•'\n\t\t\t\t[5044] StaticText '31'\n\t\t\t\t[5046] StaticText '55'\n\t\t[4674] article ''\n\t\t\t[4675] link 'Text-to-3D • Updated Apr 19, 2024 • 23 • 6' url: https://huggingface.co/dylanebert/mvdream\n\t\t\t\t[4677] sectionheader ''\n\t\t\t\t\t[4679] heading 'dylanebert/mvdream'\n\t\t\t\t[4686] time 'Fri, 19 Apr 2024 14:17:31 GMT'\n\t\t\t\t\t[5100] StaticText 'Apr 19, 2024'\n\t\t\t\t[5101] StaticText '•'\n\t\t\t\t[5102] StaticText '23'\n\t\t\t\t[5104] StaticText '6'\n\t\t[6080] article ''\n\t\t\t[6081] link 'Text-to-3D • Updated Dec 12, 2024 • 20' url: https://huggingface.co/trackdr/LLaMA-Mesh-Q4_K_M-GGUF\n\t\t\t\t[6083] sectionheader ''\n\t\t\t\t\t[6085] heading 'trackdr/LLaMA-Mesh-Q4_K_M-GGUF'\n\t\t\t\t[6092] time 'Fri, 13 Dec 2024 02:01:12 GMT'\n\t\t\t\t\t[6202] StaticText 'Dec 12, 2024'\n\t\t\t\t[6203] StaticText '•'\n\t\t[4499] article ''\n\t\t\t[4500] link 'Text-to-3D • Updated Feb 26 • 20 • 1' url: https://huggingface.co/alexgusevski/LLaMA-Mesh-mlx\n\t\t\t\t[4502] sectionheader ''\n\t\t\t\t\t[4504] heading 'alexgusevski/LLaMA-Mesh-mlx'\n\t\t\t\t[4511] time 'Wed, 26 Feb 2025 11:30:16 GMT'\n\t\t\t\t\t[5180] StaticText 'Feb 26'\n\t\t\t\t[5181] StaticText '•'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the top-downloaded model “JeffreyXiang/TRELLIS-text-xlarge” page to check if any Spaces use it.  \nAction: Click [4952]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[6610] RootWebArea 'JeffreyXiang/TRELLIS-text-xlarge · Hugging Face' focused: True url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge\n\t[6822] link \"Hugging Face's logo Hugging Face\" url: https://huggingface.co/\n\t\t[6611] image \"Hugging Face's logo\" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg\n\t[6609] textbox 'Search models, datasets, users...' required: False\n\t[6834] button ''\n\t[6921] main ''\n\t\t[6924] sectionheader ''\n\t\t\t[6926] heading 'JeffreyXiang / TRELLIS-text-xlarge Copy model name to clipboard like 9'\n\t\t\t\t[6933] link '' url: https://huggingface.co/JeffreyXiang\n\t\t\t\t[6939] link 'JeffreyXiang' url: https://huggingface.co/JeffreyXiang\n\t\t\t\t[6947] link 'TRELLIS-text-xlarge' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge\n\t\t\t\t[6616] button 'Copy model name to clipboard'\n\t\t\t\t[6955] button 'like'\n\t\t\t\t[6965] button '9'\n\t\t\t[6975] link 'Text-to-3D' url: https://huggingface.co/models?pipeline_tag=text-to-3d\n\t\t\t[6992] link 'Trellis' url: https://huggingface.co/models?library=trellis\n\t\t\t[7005] link 'English' url: https://huggingface.co/models?language=en\n\t\t\t[7021] button 'arxiv: 2412.01506'\n\t\t\t[7046] button 'License: mit'\n\t\t\t\t[7048] image ''\n\t\t\t[7078] link 'Model card' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge\n\t\t\t[7089] link 'Files' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge/tree/main\n\t\t\t[7103] link 'Community' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge/discussions\n\t\t\t[7118] button ''\n\t\t\t[6621] button 'Use this model'\n\t\t[7167] button ''\n\t\t[7187] heading 'TRELLIS Text XL'\n\t\t\t[7189] link '' url: https://huggingface.co/JeffreyXiang/TRELLIS-text-xlarge#trellis-text-xl\n\t\t[7201] StaticText 'The text conditioned version of TRELLIS with model size XL, a large 3D genetive model. It was introduced in the paper '\n\t\t[7202] link 'Structured 3D Latents for Scalable and Versatile 3D Generation' url: https://huggingface.co/papers/2412.01506\n\t\t[7207] StaticText 'Project page: '\n\t\t[7208] link 'https://trellis3d.github.io/' url: https://trellis3d.github.io/\n\t\t[7211] StaticText 'Code: '\n\t\t[7212] link 'https://github.com/Microsoft/TRELLIS' url: https://github.com/Microsoft/TRELLIS\n\t\t[7220] DescriptionList ''\n\t\t\t[7221] term 'Downloads last month'\n\t\t\t[7223] definition ''\n\t\t\t\t[7224] StaticText '22,986'\n\t\t[7229] image ''\n\t\t[7259] StaticText 'Inference Providers'\n\t\t[7270] link 'Text-to-3D' url: https://huggingface.co/tasks/text-to-3d\n\t\t[7289] link '🙋 1 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/1443\n\t\t[7305] heading 'Spaces using JeffreyXiang/TRELLIS-text-xlarge 3'\n\t\t[7321] link '🏢 PUM4CH3N/TRELLIS_TextTo3D' url: https://huggingface.co/spaces/PUM4CH3N/TRELLIS_TextTo3D\n\t\t[6613] link '🏢 souging/TRELLIS_TextTo3D' url: https://huggingface.co/spaces/souging/TRELLIS_TextTo3D\n\t\t[7334] link '🏢 dkatz2391/TRELLIS_TextTo3D_Try2' url: https://huggingface.co/spaces/dkatz2391/TRELLIS_TextTo3D_Try2\n\t[7351] contentinfo ''\n\t\t[7355] button 'System theme'\n\t\t[7370] link 'TOS' url: https://huggingface.co/terms-of-service\n\t\t[7373] link 'Privacy' url: https://huggingface.co/privacy\n\t\t[7376] link 'About' url: https://huggingface.co/huggingface\n\t\t[7379] link 'Jobs' url: https://apply.workable.com/huggingface/\n\t\t[7382] link '' url: https://huggingface.co/\n\t\t\t[7383] image ''\n\t\t[7403] link 'Models' url: https://huggingface.co/models\n\t\t[7406] link 'Datasets' url: https://huggingface.co/datasets\n\t\t[7409] link 'Spaces' url: https://huggingface.co/spaces\n\t\t[7412] link 'Pricing' url: https://huggingface.co/pricing\n\t\t[7415] link 'Docs' url: https://huggingface.co/docs"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; The Text-to-3D model with the highest number of downloads is  \n“JeffreyXiang/TRELLIS-text-xlarge” – about 23 k downloads (≈ 22,986 last month).\n\nYes, there are Spaces that use this model (currently 3), for example:  \n• PUM4CH3N/TRELLIS_TextTo3D  \n• souging/TRELLIS_TextTo3D  \n• dkatz2391/TRELLIS_TextTo3D_Try2"
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We have identified the top-downloaded Text-to-3D model (“JeffreyXiang/TRELLIS-text-xlarge”) and confirmed it is used in three Spaces.\nAction: ANSWER; The Text-to-3D model with the highest number of downloads on Hugging Face is  \n“JeffreyXiang/TRELLIS-text-xlarge” – roughly 23 k downloads (22,986 in the last month).  \n\nSpaces using this model (currently 3):  \n• PUM4CH3N/TRELLIS_TextTo3D  \n• souging/TRELLIS_TextTo3D  \n• dkatz2391/TRELLIS_TextTo3D_Try2"
   }
 ]

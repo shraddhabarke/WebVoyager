@@ -1,0 +1,74 @@
+[1] RootWebArea 'Find Cheap Flights Worldwide & Book Your Ticket - Google Flights' focused: True url: https://www.google.com/travel/flights?tfs=CBwQARoqEgoyMDI1LTA1LTAzagwIAxIIL20vMDEydHNyDggDEgovbS8wMmhyaDBfQAFIAXABggELCP___________wGYAQI&tfu=KgIIAw
+	[227] button 'Main menu' expanded: False
+		[228] image ''
+	[238] link 'Google' url: https://www.google.com/
+	[42] button 'Skip to main content'
+	[255] button 'Accessibility feedback' hasPopup: dialog
+	[267] link 'Travel'
+		[274] image ''
+	[282] link 'Explore'
+		[289] image ''
+	[296] link 'Flights'
+		[303] image ''
+	[310] link 'Hotels'
+		[317] image ''
+	[327] link 'Vacation rentals'
+		[334] image ''
+	[351] button 'Change appearance' hasPopup: menu expanded: False
+		[360] image ''
+	[372] button 'Google apps' expanded: False
+		[374] image ''
+	[377] link 'Sign in' url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARoqEgoyMDI1LTA1LTAzagwIAxIIL20vMDEydHNyDggDEgovbS8wMmhyaDBfQAFIAXABggELCP___________wGYAQI%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARoqEgoyMDI1LTA1LTAzagwIAxIIL20vMDEydHNyDggDEgovbS8wMmhyaDBfQAFIAXABggELCP___________wGYAQI%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+	[539] StaticText 'Flights'
+	[542] search 'Flight'
+		[550] combobox 'Change ticket type. One way' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[615] button '1 passenger' hasPopup: dialog
+			[623] image ''
+			[627] image ''
+		[771] combobox 'Change seating class. Economy' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[6] combobox 'Where from?' autocomplete: inline hasPopup: menu required: False expanded: False
+			[4565] StaticText 'Auckland'
+		[846] image ''
+		[904] button 'Swap origin and destination.'
+			[909] image ''
+		[8] combobox 'Where to?' autocomplete: inline hasPopup: menu required: False expanded: False
+			[5587] StaticText 'Honolulu'
+		[920] image ''
+		[978] image ''
+		[10] textbox 'Departure' focused: True required: False describedby: i32
+			[6358] StaticText 'Sat, May 3'
+		[1167] button 'Search'
+	[1179] main ''
+		[1181] heading 'Find and book cheap flights worldwide and track prices'
+		[5] heading 'Find cheap flights from Seattle to anywhere'
+		[1188] button 'More information on suggested flights.' hasPopup: menu
+			[37] image ''
+		[1232] button 'Portland'
+		[1234] button 'Everett'
+		[1235] button 'Bellingham'
+		[1267] button 'Explore more destinations from Seattle'
+		[1279] button 'Dublin 452 US dollars Aug 11 — Aug 20 Nonstop·9 hr 5 min'
+			[1286] generic '452 US dollars'
+				[1287] StaticText '$452'
+		[1297] button 'Los Angeles 86 US dollars May 31 — Jun 7 Nonstop·2 hr 45 min'
+			[1304] generic '86 US dollars'
+				[1305] StaticText '$86'
+		[1315] button 'New York 189 US dollars May 24 — May 30 1 stop·11 hr 22 min'
+			[1322] generic '189 US dollars'
+				[1323] StaticText '$189'
+		[1333] button 'Tokyo 780 US dollars Aug 31 — Sep 9 1 stop·12 hr 55 min'
+			[1340] generic '780 US dollars'
+				[1341] StaticText '$780'
+		[1352] heading 'Useful tools to help you find the best flight deals'
+		[1356] button 'Find the cheapest days to fly The Date grid and Price graph make it easy to find the best flight deals'
+			[1358] image ''
+		[1368] button 'Know when to book with price insights Price history and trend data show you the best time to book your airline ticket to get the cheapest price for your flight'
+			[1370] image ''
+		[1396] StaticText 'Insightful tools help you choose your trip dates'
+		[1398] StaticText 'If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the '
+		[1400] StaticText 'Date grid'
+		[1401] StaticText ' and '
+		[1403] StaticText 'Price graph'
+		[1404] StaticText ' options on the '
+		[1405] StaticText 'Search'
+		[1406] StaticText ' page to find the cheapest days to fly and book your tickets.'

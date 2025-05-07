@@ -1,0 +1,73 @@
+[1] RootWebArea 'Find Cheap Flights Worldwide & Book Your Ticket - Google Flights' focused: True url: https://www.google.com/travel/flights/
+	[227] button 'Main menu' expanded: False
+		[228] image ''
+	[238] link 'Google' url: https://www.google.com/
+	[247] button 'Skip to main content'
+	[256] button 'Accessibility feedback' hasPopup: dialog
+	[268] link 'Travel'
+		[275] image ''
+	[283] link 'Explore'
+		[290] image ''
+	[297] link 'Flights'
+		[304] image ''
+	[311] link 'Hotels'
+		[318] image ''
+	[328] link 'Vacation rentals'
+		[335] image ''
+	[352] button 'Change appearance' hasPopup: menu expanded: False
+		[361] image ''
+	[373] button 'Google apps' expanded: False
+		[375] image ''
+	[378] link 'Sign in' url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights/&followup=https://www.google.com/travel/flights/&ec=GAZAlQM
+	[539] StaticText 'Flights'
+	[542] search 'Flight'
+		[550] combobox 'Change ticket type. Round trip' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[615] button '1 passenger, change number of passengers.' hasPopup: dialog
+			[623] image ''
+			[627] image ''
+		[771] combobox 'Change seating class. Economy' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[4] combobox 'Where from?' autocomplete: inline hasPopup: menu required: False expanded: False
+			[2219] StaticText 'Seattle'
+		[846] image ''
+		[904] button 'Swap origin and destination.' disabled: True
+			[909] image ''
+		[6] combobox 'Where to? ' autocomplete: inline hasPopup: menu required: False expanded: False
+		[920] image ''
+		[978] image ''
+		[8] textbox 'Departure' required: False describedby: i32
+		[9] textbox 'Return' required: False describedby: i32
+		[1167] button 'Explore destinations'
+	[1179] main ''
+		[1181] heading 'Find and book cheap flights worldwide and track prices'
+		[44] heading 'Find cheap flights from Seattle to anywhere'
+		[1188] button 'More information on suggested flights.' hasPopup: menu
+			[37] image ''
+		[1231] button 'Portland'
+		[1233] button 'Everett'
+		[1234] button 'Bellingham'
+		[1266] button 'Explore more destinations from Seattle'
+		[1277] button 'Dublin 452 US dollars Aug 11 — Aug 20 Nonstop·9 hr 5 min'
+			[1284] generic '452 US dollars'
+				[1285] StaticText '$452'
+		[1295] button 'New York 189 US dollars May 24 — May 30 1 stop·11 hr 22 min'
+			[1302] generic '189 US dollars'
+				[1303] StaticText '$189'
+		[1313] button 'Los Angeles 91 US dollars May 24 — May 31 Nonstop·2 hr 45 min'
+			[1320] generic '91 US dollars'
+				[1321] StaticText '$91'
+		[1331] button 'Tokyo 780 US dollars Aug 31 — Sep 9 1 stop·12 hr 55 min'
+			[1338] generic '780 US dollars'
+				[1339] StaticText '$780'
+		[1350] heading 'Useful tools to help you find the best flight deals'
+		[1354] button 'Find the cheapest days to fly The Date grid and Price graph make it easy to find the best flight deals'
+			[1356] image ''
+		[1366] button 'Know when to book with price insights Price history and trend data show you the best time to book your airline ticket to get the cheapest price for your flight'
+			[1368] image ''
+		[1394] StaticText 'Insightful tools help you choose your trip dates'
+		[1396] StaticText 'If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the '
+		[1398] StaticText 'Date grid'
+		[1399] StaticText ' and '
+		[1401] StaticText 'Price graph'
+		[1402] StaticText ' options on the '
+		[1403] StaticText 'Search'
+		[1404] StaticText ' page to find the cheapest days to fly and book your tickets.'

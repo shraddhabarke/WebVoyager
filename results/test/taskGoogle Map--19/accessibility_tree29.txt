@@ -1,0 +1,64 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/@40.4916261,-80.32296,12z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[265] search ''
+			[26463] StaticText 'Search Google Maps'
+			[2] combobox 'Search Google Maps' focused: True hasPopup: grid required: False expanded: True controls: ydp1wd-haAclf
+			[270] button 'Search'
+			[24564] button 'Directions'
+			[26465] grid 'Suggestions' multiselectable: False
+				[26468] row 'Recently viewed DoubleTree by Hilton Hotel Pittsburgh Airport 8402 University Blvd, Moon Twp, PA 15108 Delete'
+					[26469] gridcell 'Recently viewed DoubleTree by Hilton Hotel Pittsburgh Airport 8402 University Blvd, Moon Twp, PA 15108' required: False
+						[26472] image 'Recently viewed'
+							[26536] StaticText '\ue8b5'
+				[26489] row 'Recently viewed Hilton Garden Inn Pittsburgh Airport 9600 University Blvd, Moon Twp, PA 15108 Delete'
+					[26490] gridcell 'Recently viewed Hilton Garden Inn Pittsburgh Airport 9600 University Blvd, Moon Twp, PA 15108' required: False
+						[26493] image 'Recently viewed'
+							[26540] StaticText '\ue8b5'
+				[26510] row 'Recently viewed hilton hotel near pittsburgh international airport Delete'
+					[26511] gridcell 'Recently viewed hilton hotel near pittsburgh international airport' required: False
+						[26514] image 'Recently viewed'
+							[26544] StaticText '\ue8b5'
+				[26529] row 'More from recent history'
+					[26530] gridcell 'More from recent history' required: False
+		[26549] region 'This area'
+			[26552] heading 'This area'
+			[26623] StaticText '63°'
+			[26622] image 'Cloudy' url: https://ssl.gstatic.com/onebox/weather/128/cloudy.png
+			[26554] region 'Traffic'
+				[26555] button 'Light traffic in this area No delays nearby'
+		[25193] region 'Available options for search along this route' roledescription: carousel
+			[26382] button 'Restaurants'
+			[26571] button 'Hotels'
+			[26403] button 'Things to do'
+			[26578] button 'Museums'
+			[26585] button 'Transit'
+			[26592] button 'Pharmacies'
+			[26599] button 'ATMs'
+			[25238] button 'Next page'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[4084] button 'Giant Eagle Supermarket 33 min'
+		[1687] button '4 places Carnot-Moon'
+			[1695] generic '4 places'
+		[500] button 'Get the app'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[660] button 'Show imagery'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

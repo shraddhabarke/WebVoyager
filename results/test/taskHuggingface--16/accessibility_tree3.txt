@@ -1,0 +1,118 @@
+[1801] RootWebArea 'nickmuchi/deberta-v3-base-finetuned-finance-text-classification · Hugging Face' focused: True url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification
+	[2052] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1802] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1805] textbox 'Search models, datasets, users...' required: False
+	[2064] button ''
+	[2151] main ''
+		[2154] sectionheader ''
+			[2156] heading 'nickmuchi / deberta-v3-base-finetuned-finance-text-classification Copy model name to clipboard like 21'
+				[2163] link '' url: https://huggingface.co/nickmuchi
+				[2169] link 'nickmuchi' url: https://huggingface.co/nickmuchi
+				[2176] link 'deberta-v3-base-finetuned-finance-text-classification' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification
+				[1809] button 'Copy model name to clipboard'
+				[2184] button 'like'
+				[2194] button '21'
+			[2203] link 'Text Classification' url: https://huggingface.co/models?pipeline_tag=text-classification
+			[2232] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[2255] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[2273] link 'TensorBoard' url: https://huggingface.co/models?library=tensorboard
+			[2284] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2300] button 'financial_phrasebank'
+			[2319] button 'Kaggle_Self_label'
+			[2338] button 'nickmuchi/financial-classification'
+			[2359] link 'deberta-v2' url: https://huggingface.co/models?other=deberta-v2
+			[2369] link 'Generated from Trainer' url: https://huggingface.co/models?other=generated_from_trainer
+			[2379] link 'financial-sentiment-analysis' url: https://huggingface.co/models?other=financial-sentiment-analysis
+			[2389] link 'sentiment-analysis' url: https://huggingface.co/models?other=sentiment-analysis
+			[2399] link 'sentence_50agree' url: https://huggingface.co/models?other=sentence_50agree
+			[2409] link 'stocks' url: https://huggingface.co/models?other=stocks
+			[2419] link 'sentiment' url: https://huggingface.co/models?other=sentiment
+			[2429] link 'finance' url: https://huggingface.co/models?other=finance
+			[2441] button 'License: mit'
+				[2442] image ''
+			[2470] link 'Model card' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification
+			[2481] link 'Files' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification/tree/main
+			[2495] link 'Metrics' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification/tensorboard
+			[2508] link 'Community 2' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification/discussions
+			[2523] button ''
+			[1843] button 'Train'
+			[2553] button 'Deploy'
+			[2571] button 'Use this model'
+		[2595] button ''
+		[2650] heading 'deberta-v3-base-finetuned-finance-text-classification'
+			[2652] link '' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification#deberta-v3-base-finetuned-finance-text-classification
+		[2663] StaticText 'This model is a fine-tuned version of '
+		[2664] link 'microsoft/deberta-v3-base' url: https://huggingface.co/microsoft/deberta-v3-base
+		[2666] StaticText ' on the sentence_50Agree '
+		[2667] link 'financial-phrasebank + Kaggle Dataset' url: https://huggingface.co/datasets/nickmuchi/financial-classification
+		[2669] StaticText ', a dataset consisting of 4840 Financial News categorised by sentiment (negative, neutral, positive). The Kaggle dataset includes Covid-19 sentiment data and can be found here: '
+		[2670] link 'sentiment-classification-selflabel-dataset' url: https://www.kaggle.com/percyzheng/sentiment-classification-selflabel-dataset
+		[2675] StaticText 'It achieves the following results on the evaluation set:'
+		[2680] ListMarker '• '
+		[2681] StaticText 'Loss: 0.7687'
+		[2684] ListMarker '• '
+		[2685] StaticText 'Accuracy: 0.8913'
+		[2688] ListMarker '• '
+		[2689] StaticText 'F1: 0.8912'
+		[2692] ListMarker '• '
+		[2693] StaticText 'Precision: 0.8927'
+		[2696] ListMarker '• '
+		[2697] StaticText 'Recall: 0.8913'
+		[2700] heading 'Model description'
+			[1803] link '' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification#model-description
+		[2713] StaticText 'More information needed'
+		[2715] heading 'Intended uses & limitations'
+			[2717] link '' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification#intended-uses--limitations
+		[2731] heading 'Training and evaluation data'
+			[2733] link '' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification#training-and-evaluation-data
+		[2745] StaticText 'More information needed'
+		[2747] heading 'Training procedure'
+			[2749] link '' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification#training-procedure
+		[2760] heading 'Training hyperparameters'
+			[2762] link '' url: https://huggingface.co/nickmuchi/deberta-v3-base-finetuned-finance-text-classification#training-hyperparameters
+		[2774] StaticText 'The following hyperparameters were used during training:'
+		[2779] ListMarker '• '
+		[2780] StaticText 'learning_rate: 2e-05'
+		[2783] ListMarker '• '
+		[2784] StaticText 'train_batch_size: 16'
+		[3302] DescriptionList ''
+			[3303] term 'Downloads last month'
+			[3305] definition ''
+				[3306] StaticText '1,964'
+		[1841] image ''
+		[3336] StaticText 'Safetensors'
+		[3337] link '' url: https://huggingface.co/docs/safetensors
+		[3346] StaticText 'Model size'
+		[3349] StaticText '184M'
+		[3350] StaticText ' params'
+		[3354] StaticText 'Tensor type'
+		[3357] StaticText 'I64'
+		[3360] StaticText '·'
+		[3361] StaticText 'F32'
+		[3368] button 'Files info'
+		[3389] StaticText 'Inference Providers'
+		[3400] link 'Text Classification' url: https://huggingface.co/tasks/text-classification
+		[3431] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=nickmuchi/deberta-v3-base-finetuned-finance-text-classification&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bnickmuchi%2Fdeberta-v3-base-finetuned-finance-text-classification%5D(%2Fnickmuchi%2Fdeberta-v3-base-finetuned-finance-text-classification)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[3447] heading 'Datasets used to train nickmuchi/deberta-v3-base-finetuned-finance-text-classification'
+		[3458] article ''
+			[3459] link 'Updated Jan 18, 2024 • 6.73k • 221' url: https://huggingface.co/datasets/takala/financial_phrasebank
+				[3461] sectionheader ''
+					[3468] heading 'takala/financial_phrasebank'
+				[3476] time 'Thu, 18 Jan 2024 11:03:40 GMT'
+					[3477] StaticText 'Jan 18, 2024'
+				[3480] StaticText '•'
+				[3484] StaticText '6.73k'
+				[3490] StaticText '221'
+		[3492] article ''
+			[3493] link 'Viewer • Updated Jan 27, 2023 • 5.06k • 384 • 12' url: https://huggingface.co/datasets/nickmuchi/financial-classification
+				[3495] sectionheader ''
+					[3502] heading 'nickmuchi/financial-classification'
+				[3515] time 'Fri, 27 Jan 2023 23:44:03 GMT'
+					[3516] StaticText 'Jan 27, 2023'
+				[3519] StaticText '•'
+				[3525] StaticText '5.06k'
+				[3532] StaticText '384'
+				[3538] StaticText '12'
+		[3544] heading 'Evaluation results'
+			[3550] link '' url: https://huggingface.co/docs/hub/model-cards#evaluation-results
+		[3562] link 'Metadata error: specify a dataset to view leaderboard' url: https://github.com/huggingface/hub-docs/blame/main/modelcard.md

@@ -1,0 +1,50 @@
+[8038] RootWebArea 'GitHub Copilot · Your AI pair programmer · GitHub' focused: True url: https://github.com/features/copilot
+	[9587] main ''
+		[9958] sectionheader ''
+			[9964] heading 'Take flight with GitHub Copilot'
+		[9968] StaticText 'Pricing plans'
+		[9969] tablist 'Pricing plans' multiselectable: False orientation: horizontal
+			[9970] tab 'For individuals' selected: True controls: individual-plan-tab-panel
+			[9972] tab 'For businesses' selected: False
+		[9976] generic 'For individuals'
+			[9978] heading 'Free'
+			[9981] StaticText 'A fast way to get started with GitHub Copilot.'
+			[9986] StaticText '$0'
+			[9988] StaticText 'USD'
+			[9991] link 'Get started' url: https://github.com/copilot
+			[9995] link 'Open in VS Code' url: vscode://github.copilot-chat
+			[10000] group ''
+				[10001] DisclosureTriangle "What's included" expanded: True
+					[10003] heading "What's included"
+				[10012] image 'Includes'
+				[10015] StaticText '50 agent mode or chat requests per month'
+				[10017] image 'Includes'
+				[10020] StaticText '2,000 completions per month'
+				[10022] image 'Includes'
+				[10025] StaticText 'Access to Claude 3.5 Sonnet, GPT-4o, and more'
+			[10028] heading 'Pro'
+			[10034] StaticText 'Most popular'
+			[10036] StaticText 'Unlimited completions and chats with access to more models.'
+			[10040] deletion ''
+				[10042] StaticText '$19'
+			[10044] StaticText '$10'
+			[10046] StaticText 'USD'
+			[10049] StaticText 'per month or $100 per year'
+			[10051] link 'Try for 30 days free' url: https://github.com/github-copilot/pro?cft=copilot_lo.features_copilot.cfi
+			[10056] group ''
+				[10057] DisclosureTriangle "What's included" expanded: True
+					[10059] heading "What's included"
+				[10066] heading 'Everything in Free and:'
+				[10070] image 'Includes'
+				[10074] StaticText 'Unlimited'
+				[10075] StaticText ' agent mode and chats with GPT-4o'
+				[10077] image 'Includes'
+				[10082] StaticText ' code completions'
+				[10084] image 'Includes'
+				[10087] StaticText 'Access to code review, Claude 3.7 Sonnet, o1, and more'
+				[10089] image 'Includes'
+				[10092] StaticText '6x more premium requests to use latest models than Free, with the option to buy more'
+				[10093] link '1' url: https://github.com/features/copilot#footnote-1
+					[10094] superscript ''
+			[10097] StaticText 'Free for verified students, teachers, and maintainers of popular open source projects.'
+			[10100] link 'Learn more' url: https://github.com/education

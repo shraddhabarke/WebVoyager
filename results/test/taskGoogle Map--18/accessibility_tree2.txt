@@ -1,0 +1,63 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir//Redmond,+WA/@47.6721755,-122.1822004,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x54900cad2000ee23:0x5e0390eac5d804f2!2m2!1d-122.121512!2d47.6739881?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[189] generic 'Google Maps'
+		[266] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[47] Canvas ''
+		[1275] radiogroup '' required: False
+			[1278] radio 'Best travel modes' checked: true
+				[1279] image 'Best travel modes'
+			[1288] radio 'Driving' checked: false
+				[1289] image 'Driving'
+			[1298] radio 'Transit' checked: false
+				[1299] image 'Transit'
+			[1308] radio 'Walking' checked: false
+				[1309] image 'Walking'
+			[1318] radio 'Cycling' checked: false
+				[1319] image 'Cycling'
+			[1328] radio 'Flights' checked: false
+				[1329] image 'Flights'
+		[1337] button 'Close directions'
+		[1366] combobox '' hasPopup: grid required: False expanded: True owns: sbsg50
+			[1359] textbox 'Choose starting point, or click on the map...' focused: True autocomplete: list required: False controls: sbsg50
+			[1374] grid '' multiselectable: False
+				[1470] row ''
+					[1461] row ''
+						[1462] gridcell 'Your location Your location' required: False
+							[1464] image 'Your location'
+								[1487] StaticText '\ue55c'
+				[1484] row ''
+					[1475] row ''
+						[1476] gridcell 'Recently viewed Redmond' required: False
+							[1478] image 'Recently viewed'
+								[1489] StaticText '\ue8b5'
+		[1360] button 'Search'
+		[1390] combobox '' hasPopup: grid required: False
+			[1383] textbox 'Destination Redmond, WA' autocomplete: list required: False
+		[1384] button 'Search'
+		[1342] button 'Reverse starting point and destination'
+		[12] button 'Menu'
+		[474] button 'Saved'
+		[492] button 'Recents'
+		[62] button 'Redmond'
+		[549] button 'Get the app'
+		[1492] main 'Directions'
+			[1546] heading 'Delays'
+			[1562] StaticText 'Light traffic in this area'
+			[1564] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[883] button 'Collapse side panel'
+		[897] button 'Google apps' expanded: False
+			[899] image ''
+		[902] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[949] button 'Show Your Location' pressed: false
+		[966] button 'Zoom in'
+		[998] button 'Zoom out'
+		[1010] button 'Show Street View coverage'
+		[1053] generic 'Interactive map'
+		[1088] StaticText 'Layers'
+		[61] button 'Layers' expanded: False
+		[1202] contentinfo ''
+			[1204] StaticText 'Map data ©2025 Google'
+			[1205] button 'United States'
+			[1207] button 'Terms'
+			[1209] button 'Privacy'
+			[1211] button 'Send Product Feedback'
+		[1213] button '1 mi'

@@ -1,0 +1,213 @@
+[15055] RootWebArea 'Panthers 6-3 Lightning (Apr 30, 2025) Final Score - ESPN' focused: True url: https://www.espn.com/nhl/game/_/gameId/401768135/panthers-lightning
+	[16795] region 'HeaderScoreboard'
+		[15061] combobox 'Sports' hasPopup: menu expanded: False
+		[15116] combobox 'Sports Dates' hasPopup: menu expanded: False
+		[16861] group ''
+			[16863] link 'Gamecast (WSH vs MTL)' url: https://www.espn.com/nhl/game/_/gameId/401768142/canadiens-capitals
+			[16870] link 'MTL 1 WSH 4' url: https://www.espn.com/nhl/game/_/gameId/401768142/canadiens-capitals
+				[16873] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/mtl.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[16883] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/wsh.png&w=32&h=32&scale=crop&cquality=40&location=origin
+			[16896] StaticText 'Final'
+		[16898] group ''
+			[16907] link 'STL 3 WPG 5' url: https://www.espn.com/nhl/game/_/gameId/401768158/blues-jets
+				[16910] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/stl.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[16920] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/wpg.png&w=32&h=32&scale=crop&cquality=40&location=origin
+			[16933] StaticText 'Final'
+		[16937] link 'Full Scoreboard »' url: https://www.espn.com/nhl/scoreboard
+	[16942] navigation 'Global Navigation'
+		[15071] button 'Menu' hasPopup: menu expanded: False
+		[15058] link 'ESPN Home Page' url: https://www.espn.com/
+		[16961] link '' url: https://www.espn.com/where-to-watch
+		[16968] button 'Search' expanded: False
+		[16974] button 'Profile Management' hasPopup: menu expanded: False
+			[16976] image 'Profile Management'
+	[16987] main ''
+		[17001] StaticText 'East 1st Round - Game 5'
+		[17004] StaticText 'FLA wins series 4-1'
+		[17010] link 'Florida Panthers' url: https://www.espn.com/nhl/team/_/name/fla/florida-panthers
+			[15072] image 'Florida Panthers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=96&h=96
+		[17016] link 'Panthers' url: https://www.espn.com/nhl/team/_/name/fla/florida-panthers
+			[17017] heading 'Panthers'
+		[17021] StaticText '47-31-4'
+		[17023] StaticText ', '
+		[17025] StaticText '20-19-2 Away'
+		[17028] StaticText '6'
+		[17030] image 'Winner Icon Florida Panthers'
+		[17040] StaticText 'Final'
+		[17047] table ''
+			[17048] rowgroup ''
+				[17049] row ''
+					[17050] columnheader '' required: False
+					[17052] columnheader '1' required: False
+					[17054] columnheader '2' required: False
+					[17056] columnheader '3' required: False
+					[17058] columnheader 'T' required: False
+			[17061] row ''
+				[17062] cell 'FLA'
+				[17064] cell '2'
+				[17066] cell '2'
+				[17068] cell '2'
+				[17070] cell '6'
+			[17072] row ''
+				[17073] cell 'TB'
+				[17075] cell '2'
+				[17077] cell '1'
+				[17079] cell '0'
+				[17081] cell '3'
+		[17088] link 'Tampa Bay Lightning' url: https://www.espn.com/nhl/team/_/name/tb/tampa-bay-lightning
+			[15073] image 'Tampa Bay Lightning' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/tb.png&scale=crop&cquality=40&location=origin&w=96&h=96
+		[17094] link 'Lightning' url: https://www.espn.com/nhl/team/_/name/tb/tampa-bay-lightning
+			[17095] heading 'Lightning'
+		[17099] StaticText '47-27-8'
+		[17101] StaticText ', '
+		[17103] StaticText '29-8-4 Home'
+		[17111] navigation 'Secondary Navigation'
+			[17114] link 'Gamecast' url: https://www.espn.com/nhl/game/_/gameId/401768135/panthers-lightning
+			[17118] link 'Box Score' url: https://www.espn.com/nhl/boxscore/_/gameId/401768135
+			[17122] link 'Play-by-Play' url: https://www.espn.com/nhl/playbyplay/_/gameId/401768135
+			[17126] link 'Team Stats' url: https://www.espn.com/nhl/matchup/_/gameId/401768135
+			[17130] link 'Videos' url: https://www.espn.com/nhl/video/_/gameId/401768135
+		[15129] Iframe 'Advertisement'
+		[17139] main ''
+			[17142] sectionheader 'Game Highlights'
+				[17144] heading 'Game Highlights'
+			[17147] region 'Video Highlights'
+				[17152] button ''
+				[17156] listbox '' multiselectable: False orientation: vertical required: False
+					[17158] option '0:31 Video Player Sam Reinhart ices it with empty-netter for Panthers' selected: True
+						[17163] figure ''
+						[17173] region 'Video Player'
+							[15118] Video ''
+							[17706] StaticText 'AD'
+							[17708] StaticText 'Learn More'
+							[15125] Video 'Advertisement'
+							[15126] Iframe 'Advertisement'
+						[17832] heading 'Sam Reinhart ices it with empty-netter for Panthers'
+					[17834] option '1:59 Florida Panthers vs. Tampa Bay Lightning: Game Highlights' selected: False
+						[17839] figure ''
+						[17851] heading 'Florida Panthers vs. Tampa Bay Lightning: Game Highlights'
+					[17853] option "0:49 Eetu Luostarinen's goal gives Panthers breathing room" selected: False
+						[17858] figure ''
+						[17871] heading "Eetu Luostarinen's goal gives Panthers breathing room"
+					[17873] option '0:35 Sam Bennett scores nice goal for Panthers' selected: False
+						[17878] figure ''
+						[17891] heading 'Sam Bennett scores nice goal for Panthers'
+					[17893] option '0:52 Jake Guentzel equalizes for Lightning on the power play' selected: False
+						[17898] figure ''
+						[17911] heading 'Jake Guentzel equalizes for Lightning on the power play'
+			[17913] sectionfooter ''
+				[17914] link 'All Highlights' url: https://www.espn.com/nhl/video/_/gameId/401768135
+			[17918] sectionheader 'Stars of the Game'
+				[17920] heading 'Stars of the Game'
+			[17923] link '1 star Eetu Luostarinen C - FLA 1Goals, 3Assists' url: https://www.espn.com/nhl/player/_/id/4233877
+				[17926] figure ''
+					[17929] image 'Eetu Luostarinen' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4233877.png&h=112&w=112&scale=crop
+				[17935] heading 'Eetu Luostarinen C - FLA'
+				[17946] StaticText 'Goals'
+				[17952] StaticText 'Assists'
+			[17953] link '2 star Brad Marchand C - FLA 0Goals, 2Assists' url: https://www.espn.com/nhl/player/_/id/3852
+				[17956] figure ''
+					[17959] image 'Brad Marchand' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/3852.png&h=112&w=112&scale=crop
+				[17966] heading 'Brad Marchand C - FLA'
+				[17975] StaticText '0'
+				[17977] StaticText 'Goals'
+				[17981] StaticText '2'
+				[17983] StaticText 'Assists'
+			[17984] link '3 star Gage Goncalves C - TB 1Goals, 0Assists' url: https://www.espn.com/nhl/player/_/id/4697470
+				[17987] figure ''
+					[17990] image 'Gage Goncalves' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/4697470.png&h=112&w=112&scale=crop
+				[17998] heading 'Gage Goncalves C - TB'
+				[18009] StaticText 'Goals'
+				[18015] StaticText 'Assists'
+			[18016] sectionfooter ''
+				[18017] link 'Full Box Score' url: https://www.espn.com/nhl/boxscore/_/gameId/401768135
+			[18023] tablist '' multiselectable: False orientation: horizontal
+				[18024] tab 'Scoring Summary' selected: True
+					[18025] tab 'Scoring Summary' selected: False
+				[18027] tab 'Penalties' selected: False
+					[18028] tab 'Penalties' selected: False
+			[18030] tabpanel ''
+				[18097] table ''
+					[18104] rowgroup ''
+						[18105] row ''
+							[18106] columnheader '1ST PERIOD' required: False
+							[18108] columnheader 'FLA' required: False
+							[18110] columnheader 'TB' required: False
+					[18113] row ''
+						[18114] cell '2:33'
+						[18116] cell ''
+							[18117] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/tb.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18118] cell 'Gage Goncalves (1) Assists: Luke Glendening (1), Victor Hedman (2)'
+						[18127] cell '0'
+						[18129] cell '1'
+					[18131] row ''
+						[18132] cell '5:21'
+						[18134] cell ''
+							[18135] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18136] cell 'Carter Verhaeghe (2) (Power Play) Assists: Matthew Tkachuk (2), Sam Reinhart (4)'
+						[18146] cell '1'
+						[18148] cell '1'
+					[18150] row ''
+						[18151] cell '10:06'
+						[18153] cell ''
+							[18154] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18155] cell 'Anton Lundell (2) Assists: Brad Marchand (3), Eetu Luostarinen (2)'
+						[18164] cell '2'
+						[18166] cell '1'
+					[18168] row ''
+						[18169] cell '12:16'
+						[18171] cell ''
+							[18172] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/tb.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18173] cell 'Nick Paul (2) Assists: Conor Geekie (1)'
+						[18182] cell '2'
+						[18184] cell '2'
+				[18192] table ''
+					[18199] rowgroup ''
+						[18200] row ''
+							[18201] columnheader '2ND PERIOD' required: False
+							[18203] columnheader 'FLA' required: False
+							[18205] columnheader 'TB' required: False
+					[18208] row ''
+						[18209] cell '0:52'
+						[18211] cell ''
+							[18212] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18213] cell 'Aleksander Barkov (1) Assists: Gustav Forsling (1), Eetu Luostarinen (3)'
+						[18222] cell '3'
+						[18224] cell '2'
+					[18226] row ''
+						[18227] cell '9:57'
+						[18229] cell ''
+							[18230] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/tb.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18231] cell 'Jake Guentzel (3) (Power Play) Assists: Victor Hedman (3)'
+						[18241] cell '3'
+						[18243] cell '3'
+					[18245] row ''
+						[18246] cell '15:13'
+						[18248] cell ''
+							[18249] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18250] cell 'Sam Bennett (3) Assists: Anton Lundell (2), Eetu Luostarinen (4)'
+						[18259] cell '4'
+						[18261] cell '3'
+				[18269] table ''
+					[18276] rowgroup ''
+						[18277] row ''
+							[18278] columnheader '3RD PERIOD' required: False
+							[18280] columnheader 'FLA' required: False
+							[18282] columnheader 'TB' required: False
+					[18285] row ''
+						[18286] cell '13:02'
+						[18288] cell ''
+							[18289] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18290] cell 'Eetu Luostarinen (1) Assists: Brad Marchand (4), Anton Lundell (3)'
+						[18299] cell '5'
+						[18301] cell '3'
+					[18303] row ''
+						[18304] cell '15:36'
+						[18306] cell ''
+							[18307] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/fla.png&scale=crop&cquality=40&location=origin&w=40&h=40
+						[18308] cell 'Sam Reinhart (2) (Empty Net) Unassisted'
+						[18316] cell '6'
+						[18318] cell '3'
+			[18322] sectionheader 'Shot Chart'
+				[18324] heading 'Shot Chart'
+	[20938] Iframe 'Advertisement'

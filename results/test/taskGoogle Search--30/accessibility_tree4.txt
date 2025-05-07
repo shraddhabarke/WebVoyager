@@ -1,0 +1,176 @@
+[1] RootWebArea 'Lady Gaga | Spotify' focused: True url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms
+	[463] link 'Spotify' url: https://open.spotify.com/
+		[464] image 'Spotify'
+	[3] button 'Home'
+	[7] search ''
+		[10] combobox 'What do you want to play?' hasPopup: listbox required: False expanded: True
+		[495] button 'Browse'
+	[502] button 'Premium'
+	[504] button 'Support'
+	[506] button 'Download'
+	[509] link 'Install App' url: https://open.spotify.com/download
+	[517] button 'Sign up'
+	[519] button 'Log in'
+	[524] navigation 'Main'
+		[528] sectionheader ''
+			[531] heading 'Your Library'
+			[12] button 'Create playlist or folder'
+		[546] StaticText 'Create your first playlist'
+		[550] button 'Create playlist'
+		[560] link 'Browse podcasts' url: https://open.spotify.com/genre/podcasts-web
+		[585] link 'Legal' url: https://www.spotify.com/us/legal/
+		[589] link 'Safety & Privacy Center' url: https://www.spotify.com/us/safetyandprivacy/
+		[593] link 'Privacy Policy' url: https://www.spotify.com/us/legal/privacy-policy/
+		[597] link 'Cookies' url: https://www.spotify.com/us/legal/cookies-policy/
+		[601] link 'About Ads' url: https://www.spotify.com/us/legal/privacy-policy/#s3
+		[605] link 'Accessibility' url: https://www.spotify.com/us/accessibility/
+		[609] link 'Notice at Collection' url: https://www.spotify.com/us/legal/notice-at-collection/
+		[27] button 'Your Privacy Choices'
+		[614] image 'California Consumer Privacy Act (CCPA) Opt-Out Icon'
+		[621] link 'Cookies' url: https://www.spotify.com/legal/cookies-policy/
+		[624] button 'English'
+	[632] StaticText 'Resize main navigation'
+	[11] slider 'Resize main navigation' orientation: horizontal valuemin: 280 valuemax: 420 valuetext: 
+	[634] contentinfo ''
+		[637] StaticText 'Preview of Spotify'
+		[639] StaticText 'Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.'
+		[640] button 'Sign up free'
+		[647] generic 'Player controls'
+			[650] switch 'Enable shuffle' disabled: True checked: false
+			[655] button 'Previous' disabled: True
+			[659] button 'Pause' disabled: True
+			[665] button 'Next' disabled: True
+			[669] checkbox 'Disable repeat' disabled: True checked: false
+			[675] StaticText '-:--'
+			[679] StaticText 'Change progress'
+			[13] slider 'Change progress' disabled: True orientation: horizontal valuemin: 0 valuemax: 0 valuetext: -:--/-:--
+		[691] button 'Now playing view' disabled: True pressed: false
+		[697] button 'Mute' describedby: volume-icon
+			[698] image 'Volume high'
+		[704] StaticText 'Change volume'
+		[14] slider 'Change volume' orientation: horizontal valuemin: 0 valuemax: 1 valuetext: 
+	[714] banner 'Top bar and user menu'
+	[731] main 'Lady Gaga | Spotify' focused: True
+		[3240] image 'Verified account'
+		[4946] StaticText 'Verified Artist'
+		[3242] heading 'Lady Gaga'
+		[4948] StaticText '114,550,710 monthly listeners'
+		[3254] button 'Play'
+		[3260] button 'Follow'
+		[3261] button 'More options for Lady Gaga' hasPopup: menu
+		[3288] heading 'Popular'
+		[3286] grid 'popular tracks' multiselectable: False
+			[5418] row '1 Play Die With A Smile by Lady Gaga, Bruno Mars Die With A Smile 2,397,477,230 Add to Liked Songs 4:11 More options for Die With A Smile by Lady Gaga, Bruno Mars' selected: False
+				[5334] gridcell '1 Play Die With A Smile by Lady Gaga, Bruno Mars' required: False
+					[5317] button 'Play Die With A Smile by Lady Gaga, Bruno Mars'
+				[5335] gridcell 'Die With A Smile' required: False
+					[5321] image '' url: https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c
+					[5320] link 'Die With A Smile' url: https://open.spotify.com/track/7so0lgd0zP2Sbgs2d7a1SZ
+				[5336] gridcell '2,397,477,230' required: False
+				[5337] gridcell 'Add to Liked Songs 4:11 More options for Die With A Smile by Lady Gaga, Bruno Mars' required: False
+					[5331] button 'Add to Liked Songs'
+					[5333] button 'More options for Die With A Smile by Lady Gaga, Bruno Mars' hasPopup: menu
+			[5419] row '2 Play Abracadabra by Lady Gaga Abracadabra 333,576,502 Add to Liked Songs 3:43 More options for Abracadabra by Lady Gaga' selected: False
+				[5359] gridcell '2 Play Abracadabra by Lady Gaga' required: False
+					[5342] button 'Play Abracadabra by Lady Gaga'
+				[5360] gridcell 'Abracadabra' required: False
+					[5346] image '' url: https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c
+					[5345] link 'Abracadabra' url: https://open.spotify.com/track/2LHNTC9QZxsL3nWpt8iaSR
+				[5361] gridcell '333,576,502' required: False
+				[5362] gridcell 'Add to Liked Songs 3:43 More options for Abracadabra by Lady Gaga' required: False
+					[5356] button 'Add to Liked Songs'
+					[5358] button 'More options for Abracadabra by Lady Gaga' hasPopup: menu
+			[5420] row '3 Play Poker Face by Lady Gaga Poker Face Explicit 1,665,522,911 Add to Liked Songs 3:57 More options for Poker Face by Lady Gaga' selected: False
+				[5387] gridcell '3 Play Poker Face by Lady Gaga' required: False
+					[5367] button 'Play Poker Face by Lady Gaga'
+				[5388] gridcell 'Poker Face Explicit' required: False
+					[5374] image '' url: https://i.scdn.co/image/ab67616d00001e02613aaa3ae566d9f36008aed0
+					[5372] link 'Poker Face' url: https://open.spotify.com/track/5R8dQOPq8haW94K7mgERlO
+					[5371] generic 'Explicit'
+				[5389] gridcell '1,665,522,911' required: False
+				[5390] gridcell 'Add to Liked Songs 3:57 More options for Poker Face by Lady Gaga' required: False
+					[5384] button 'Add to Liked Songs'
+					[5386] button 'More options for Poker Face by Lady Gaga' hasPopup: menu
+			[5750] row "4 Play Just Dance by Lady Gaga, Colby O'Donis Just Dance 1,351,853,714 Add to Liked Songs 4:01 More options for Just Dance by Lady Gaga, Colby O'Donis" selected: False
+				[5717] gridcell "4 Play Just Dance by Lady Gaga, Colby O'Donis" required: False
+					[5700] button "Play Just Dance by Lady Gaga, Colby O'Donis"
+				[5718] gridcell 'Just Dance' required: False
+					[5704] image '' url: https://i.scdn.co/image/ab67616d00001e02613aaa3ae566d9f36008aed0
+					[5703] link 'Just Dance' url: https://open.spotify.com/track/2x7MyWybabEz6Y6wvHuwGE
+				[5719] gridcell '1,351,853,714' required: False
+				[5720] gridcell "Add to Liked Songs 4:01 More options for Just Dance by Lady Gaga, Colby O'Donis" required: False
+					[5714] button 'Add to Liked Songs'
+					[5716] button "More options for Just Dance by Lady Gaga, Colby O'Donis" hasPopup: menu
+			[5751] row '5 Play Bad Romance by Lady Gaga Bad Romance Explicit 1,509,102,450 Add to Liked Songs 4:54 More options for Bad Romance by Lady Gaga' selected: False
+				[5745] gridcell '5 Play Bad Romance by Lady Gaga' required: False
+					[5725] button 'Play Bad Romance by Lady Gaga'
+				[5746] gridcell 'Bad Romance Explicit' required: False
+					[5732] image '' url: https://i.scdn.co/image/ab67616d00001e025c9890c0456a3719eeecd8aa
+					[5730] link 'Bad Romance' url: https://open.spotify.com/track/0SiywuOBRcynK0uKGWdCnn
+					[5729] generic 'Explicit'
+				[5747] gridcell '1,509,102,450' required: False
+				[5748] gridcell 'Add to Liked Songs 4:54 More options for Bad Romance by Lady Gaga' required: False
+					[5742] button 'Add to Liked Songs'
+					[5744] button 'More options for Bad Romance by Lady Gaga' hasPopup: menu
+		[3290] button 'See more' expanded: False
+		[3302] heading 'Artist pick'
+		[3300] group ''
+			[3291] image '' url: https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c
+		[3294] figure 'Lady Gaga'
+			[3292] image 'Lady Gaga' url: https://i.scdn.co/image/ab6761610000f178aadc18cac8d48124357c38e6
+		[4951] StaticText 'Posted By Lady Gaga'
+		[3296] link 'MAYHEM' url: https://open.spotify.com/album/2MHUaRi9OCyTN02SoyRRBJ
+		[4953] StaticText 'Album'
+		[4913] region 'Discography'
+			[3316] group ''
+				[3310] heading 'Discography'
+					[3308] link 'Discography' url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms/discography/all
+				[3312] link 'Show all' describedby: :r0: :r1: url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms/discography/all
+			[3321] checkbox 'Popular releases' checked: true
+			[3322] checkbox 'Albums' checked: false
+			[3323] checkbox 'Singles and EPs' checked: false
+			[3324] checkbox 'Compilations' checked: false
+			[3566] group 'Abracadabra (Gesaffelstein Remix)'
+				[3346] button 'Abracadabra (Gesaffelstein Remix) Latest Release • Single' describedby: onClickHintspotify:album:313T8fnlDeKWEtoq9vwWAO-0
+				[3326] image '' url: https://i.scdn.co/image/ab67616d00001e0238084527d62ac5860fc89a44
+				[3332] button 'Play Abracadabra (Gesaffelstein Remix)'
+				[3342] link 'Abracadabra (Gesaffelstein Remix)' url: https://open.spotify.com/album/313T8fnlDeKWEtoq9vwWAO
+					[3338] paragraph '' describedby: onClickHintspotify:album:313T8fnlDeKWEtoq9vwWAO-0
+				[3339] time ''
+					[4973] StaticText 'Latest Release • '
+				[4974] StaticText 'Single'
+			[3567] group 'MAYHEM'
+				[3370] button 'MAYHEM 2025 • Album' describedby: onClickHintspotify:album:2MHUaRi9OCyTN02SoyRRBJ-1
+				[3350] image '' url: https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c
+				[3356] button 'Play MAYHEM'
+				[3366] link 'MAYHEM' url: https://open.spotify.com/album/2MHUaRi9OCyTN02SoyRRBJ
+					[3362] paragraph '' describedby: onClickHintspotify:album:2MHUaRi9OCyTN02SoyRRBJ-1
+				[3363] time ''
+					[4976] StaticText '2025 • '
+				[4977] StaticText 'Album'
+			[3568] group 'Abracadabra'
+				[3394] button 'Abracadabra 2025 • Single' describedby: onClickHintspotify:album:2I6LyArz82waG94e9V5B9d-2
+				[3374] image '' url: https://i.scdn.co/image/ab67616d00001e0225304f6dc9dea023ce4b985c
+				[3380] button 'Play Abracadabra'
+				[3390] link 'Abracadabra' url: https://open.spotify.com/album/2I6LyArz82waG94e9V5B9d
+					[3386] paragraph '' describedby: onClickHintspotify:album:2I6LyArz82waG94e9V5B9d-2
+				[3387] time ''
+					[4979] StaticText '2025 • '
+				[4980] StaticText 'Single'
+		[4914] region 'Featuring Lady Gaga'
+			[3587] group ''
+				[3581] heading 'Featuring Lady Gaga'
+					[3579] link 'Featuring Lady Gaga' url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms/featuring
+				[3583] link 'Show all' describedby: :r2: :r3: url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms/featuring
+			[3772] group 'This Is Lady Gaga'
+				[3607] button 'This Is Lady Gaga Listen to all her biggest hits, in one place.' describedby: onClickHintspotify:playlist:37i9dQZF1DXc7FZ2VBjaeT-0
+				[3588] image '' url: https://i.scdn.co/image/ab67706f0000000216398254324a2e0684df8569
+				[3594] button 'Play This Is Lady Gaga'
+			[3773] group 'Lady Gaga Radio'
+				[3630] button 'Lady Gaga Radio With Britney Spears, Rihanna, Miley Cyrus and more' describedby: onClickHintspotify:playlist:37i9dQZF1E4Aop0u3mbfpJ-1
+				[3611] image '' url: https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1HY2Jd0NmPuamShAr6KMms/en
+				[3617] button 'Play Lady Gaga Radio'
+			[3774] group 'Today’s Top Hits'
+				[3653] button 'Today’s Top Hits The hottest 50. Cover: Lorde' describedby: onClickHintspotify:playlist:37i9dQZF1DXcBWIGoYBM5M-2
+				[3634] image '' url: https://i.scdn.co/image/ab67706f0000000265611a61b1f0c0b9dcd62309
+				[3640] button 'Play Today’s Top Hits'

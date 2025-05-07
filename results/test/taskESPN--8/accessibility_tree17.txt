@@ -1,0 +1,362 @@
+[38232] RootWebArea 'NBA Player Stat Leaders, 2024-25 Postseason - ESPN' focused: True url: https://www.espn.com/nba/stats
+	[39887] region 'HeaderScoreboard'
+		[38236] combobox 'Sports' hasPopup: menu expanded: False
+		[38253] combobox 'Sports Dates' hasPopup: menu expanded: False
+		[39954] group ''
+			[39961] link 'GS 87 HOU 109 8:44 - 4th TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401767912
+				[39966] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[39976] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[39998] group ''
+			[40005] link 'MIN 3-1 LAL 1-3 7:00 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+				[40010] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[40020] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[40044] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard
+	[40049] navigation 'Global Navigation'
+		[40055] button 'Menu' hasPopup: menu expanded: False
+		[38249] link 'ESPN Home Page' url: https://www.espn.com/
+		[40069] link '' url: https://www.espn.com/where-to-watch
+		[40076] button 'Search' expanded: False
+		[40082] button 'Profile Management' hasPopup: menu expanded: False
+			[40084] image 'Profile Management'
+	[40088] navigation 'NBA Menu - LIVE'
+		[40092] link 'ESPN NBA Home Page' url: https://www.espn.com/nba/
+			[40093] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=64&h=64&scale=crop&cquality=40&location=origin
+		[40097] link 'Home' url: https://www.espn.com/nba/
+		[40101] link 'Scores' url: https://www.espn.com/nba/scoreboard
+		[40105] link 'Schedule' url: https://www.espn.com/nba/schedule
+		[40109] link 'Playoffs' url: https://www.espn.com/nba/story/_/id/44610574/nba-playoffs-2025-postseason-news-scores-highlights
+		[40113] link 'Playoffs Bracket' url: https://www.espn.com/nba/playoff-bracket
+		[40117] link 'Standings' url: https://www.espn.com/nba/standings
+		[40121] link 'Stats' url: https://www.espn.com/nba/stats
+		[40125] link 'Teams' url: https://www.espn.com/nba/teams
+		[40129] link 'Odds' url: https://www.espn.com/nba/odds
+		[40133] link 'More' url: https://www.espn.com/nba/stats#
+		[38248] button 'More' hasPopup: menu expanded: False
+	[40147] main ''
+		[42243] Iframe 'Advertisement'
+		[40159] main 'Standings Page'
+			[38250] heading 'NBA Postseason Stat Leaders 2024-25'
+			[38238] combobox '' hasPopup: menu expanded: False
+			[40233] tablist '' multiselectable: False orientation: horizontal
+				[40234] tab 'Player' selected: True
+					[40235] link 'Player' url: https://www.espn.com/nba/stats
+				[40237] tab 'Team' selected: False
+					[40238] link 'Team' url: https://www.espn.com/nba/stats/_/view/team
+			[38240] combobox '' focused: True hasPopup: menu expanded: True
+			[40347] StaticText 'Offensive Leaders'
+			[40353] table ''
+				[40357] rowgroup ''
+					[40358] row ''
+						[40359] columnheader 'POINTS' required: False
+						[40361] columnheader 'PTS' required: False
+				[40365] row ''
+					[40366] cell '1 Giannis Antetokounmpo MIL'
+						[40370] link 'Giannis Antetokounmpo' url: https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo
+							[40372] figure ''
+								[40375] image 'Giannis Antetokounmpo' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&h=80&w=110&scale=crop
+						[40378] StaticText 'MIL'
+					[40379] cell '33.0'
+				[40381] row ''
+					[40382] cell '2 Jayson Tatum BOS'
+						[40386] link 'Jayson Tatum' url: https://www.espn.com/nba/player/_/id/4065648/jayson-tatum
+							[40388] figure ''
+								[40391] image 'Jayson Tatum' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4065648.png&h=80&w=110&scale=crop
+						[40394] StaticText 'BOS'
+					[40395] cell '31.3'
+				[40397] row ''
+					[40398] cell '3 Luka Doncic LAL'
+						[40402] link 'Luka Doncic' url: https://www.espn.com/nba/player/_/id/3945274/luka-doncic
+							[40404] figure ''
+								[40407] image 'Luka Doncic' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3945274.png&h=80&w=110&scale=crop
+						[40410] StaticText 'LAL'
+					[40411] cell '30.8'
+				[40413] row ''
+					[40414] cell '4 Jalen Brunson NY'
+						[40418] link 'Jalen Brunson' url: https://www.espn.com/nba/player/_/id/3934672/jalen-brunson
+							[40420] figure ''
+								[40423] image 'Jalen Brunson' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3934672.png&h=80&w=110&scale=crop
+						[40426] StaticText 'NY'
+					[40427] cell '29.8'
+				[40429] row ''
+					[40430] cell '4 Anthony Edwards MIN'
+						[40434] link 'Anthony Edwards' url: https://www.espn.com/nba/player/_/id/4594268/anthony-edwards
+							[40436] figure ''
+								[40439] image 'Anthony Edwards' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4594268.png&h=80&w=110&scale=crop
+						[40442] StaticText 'MIN'
+					[40443] cell '29.8'
+				[40445] row ''
+					[40446] cell 'Complete Leaders'
+						[40448] link 'Complete Leaders' url: https://www.espn.com/nba/stats/player
+			[40456] table ''
+				[40460] rowgroup ''
+					[40461] row ''
+						[40462] columnheader 'ASSISTS' required: False
+						[40464] columnheader 'AST' required: False
+				[40468] row ''
+					[40469] cell '1 Tyrese Haliburton IND'
+						[40473] link 'Tyrese Haliburton' url: https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton
+							[40475] figure ''
+								[40478] image 'Tyrese Haliburton' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396993.png&h=80&w=110&scale=crop
+						[40481] StaticText 'IND'
+					[40482] cell '11.6'
+				[40484] row ''
+					[40485] cell '2 Nikola Jokic DEN'
+						[40489] link 'Nikola Jokic' url: https://www.espn.com/nba/player/_/id/3112335/nikola-jokic
+							[40491] figure ''
+								[40494] image 'Nikola Jokic' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3112335.png&h=80&w=110&scale=crop
+						[40497] StaticText 'DEN'
+					[40498] cell '11.0'
+				[40500] row ''
+					[40501] cell '3 Cade Cunningham DET'
+						[40505] link 'Cade Cunningham' url: https://www.espn.com/nba/player/_/id/4432166/cade-cunningham
+							[40507] figure ''
+								[40510] image 'Cade Cunningham' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432166.png&h=80&w=110&scale=crop
+						[40513] StaticText 'DET'
+					[40514] cell '8.8'
+				[40516] row ''
+					[40517] cell '4 James Harden LAC'
+						[40521] link 'James Harden' url: https://www.espn.com/nba/player/_/id/3992/james-harden
+							[40523] figure ''
+								[40526] image 'James Harden' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3992.png&h=80&w=110&scale=crop
+						[40529] StaticText 'LAC'
+					[40530] cell '8.6'
+				[40532] row ''
+					[40533] cell '5 Jalen Brunson NY'
+						[40537] link 'Jalen Brunson' url: https://www.espn.com/nba/player/_/id/3934672/jalen-brunson
+							[40539] figure ''
+								[40542] image 'Jalen Brunson' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3934672.png&h=80&w=110&scale=crop
+						[40545] StaticText 'NY'
+					[40546] cell '8.4'
+				[40548] row ''
+					[40549] cell 'Complete Leaders'
+						[40551] link 'Complete Leaders' url: https://www.espn.com/nba/stats/player/_/table/offensive/sort/avgAssists/dir/desc
+			[40559] table ''
+				[40563] rowgroup ''
+					[40564] row ''
+						[40565] columnheader '3-POINTERS MADE' required: False
+						[40567] columnheader '3PM' required: False
+				[40571] row ''
+					[40572] cell '1 Gary Trent Jr. MIL'
+						[40576] link 'Gary Trent Jr.' url: https://www.espn.com/nba/player/_/id/4277843/gary-trent-jr
+							[40578] figure ''
+								[40581] image 'Gary Trent Jr.' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4277843.png&h=80&w=110&scale=crop
+						[40584] StaticText 'MIL'
+					[40585] cell '4.4'
+				[40587] row ''
+					[40588] cell '2 Stephen Curry GS'
+						[40592] link 'Stephen Curry' url: https://www.espn.com/nba/player/_/id/3975/stephen-curry
+							[40594] figure ''
+								[40597] image 'Stephen Curry' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3975.png&h=80&w=110&scale=crop
+						[40600] StaticText 'GS'
+					[40601] cell '4.0'
+				[40603] row ''
+					[40604] cell '2 Donovan Mitchell CLE'
+						[40608] link 'Donovan Mitchell' url: https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell
+							[40610] figure ''
+								[40613] image 'Donovan Mitchell' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3908809.png&h=80&w=110&scale=crop
+						[40616] StaticText 'CLE'
+					[40617] cell '4.0'
+				[40619] row ''
+					[40620] cell '2 Anthony Edwards MIN'
+						[40624] link 'Anthony Edwards' url: https://www.espn.com/nba/player/_/id/4594268/anthony-edwards
+							[40626] figure ''
+								[40629] image 'Anthony Edwards' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4594268.png&h=80&w=110&scale=crop
+						[40632] StaticText 'MIN'
+					[40633] cell '4.0'
+				[40635] row ''
+					[40636] cell '5 AJ Green MIL'
+						[40640] link 'AJ Green' url: https://www.espn.com/nba/player/_/id/4397475/aj-green
+							[40642] figure ''
+								[40645] image 'AJ Green' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4397475.png&h=80&w=110&scale=crop
+						[40648] StaticText 'MIL'
+					[40649] cell '3.6'
+				[40651] row ''
+					[40652] cell 'Complete Leaders'
+						[40654] link 'Complete Leaders' url: https://www.espn.com/nba/stats/player/_/table/offensive/sort/avgThreePointFieldGoalsMade/dir/desc
+			[40660] StaticText 'Defensive Leaders'
+			[40666] table ''
+				[40670] rowgroup ''
+					[40671] row ''
+						[40672] columnheader 'REBOUNDS' required: False
+						[40674] columnheader 'REB' required: False
+				[40678] row ''
+					[40679] cell '1 Giannis Antetokounmpo MIL'
+						[40683] link 'Giannis Antetokounmpo' url: https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo
+							[40685] figure ''
+								[40688] image 'Giannis Antetokounmpo' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&h=80&w=110&scale=crop
+						[40691] StaticText 'MIL'
+					[40692] cell '15.4'
+				[40694] row ''
+					[40695] cell '2 Nikola Jokic DEN'
+						[40699] link 'Nikola Jokic' url: https://www.espn.com/nba/player/_/id/3112335/nikola-jokic
+							[40701] figure ''
+								[40704] image 'Nikola Jokic' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3112335.png&h=80&w=110&scale=crop
+						[40707] StaticText 'DEN'
+					[40708] cell '12.8'
+				[40710] row ''
+					[40711] cell '3 Jalen Duren DET'
+						[40715] link 'Jalen Duren' url: https://www.espn.com/nba/player/_/id/4433621/jalen-duren
+							[40717] figure ''
+								[40720] image 'Jalen Duren' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4433621.png&h=80&w=110&scale=crop
+						[40723] StaticText 'DET'
+					[40724] cell '11.6'
+				[40726] row ''
+					[40727] cell '4 Alperen Sengun HOU'
+						[40731] link 'Alperen Sengun' url: https://www.espn.com/nba/player/_/id/4871144/alperen-sengun
+							[40733] figure ''
+								[40736] image 'Alperen Sengun' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4871144.png&h=80&w=110&scale=crop
+						[40739] StaticText 'HOU'
+					[40740] cell '11.5'
+				[40742] row ''
+					[40743] cell '5 Jayson Tatum BOS'
+						[40747] link 'Jayson Tatum' url: https://www.espn.com/nba/player/_/id/4065648/jayson-tatum
+							[40749] figure ''
+								[40752] image 'Jayson Tatum' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4065648.png&h=80&w=110&scale=crop
+						[40755] StaticText 'BOS'
+					[40756] cell '11.3'
+				[40758] row ''
+					[40759] cell 'Complete Leaders'
+						[40761] link 'Complete Leaders' url: https://www.espn.com/nba/stats/player/_/table/general/sort/avgRebounds/dir/desc
+			[40769] table ''
+				[40773] rowgroup ''
+					[40774] row ''
+						[40775] columnheader 'BLOCKS' required: False
+						[40777] columnheader 'BLK' required: False
+				[40781] row ''
+					[40782] cell '1 Chet Holmgren OKC'
+						[40786] link 'Chet Holmgren' url: https://www.espn.com/nba/player/_/id/4433255/chet-holmgren
+							[40788] figure ''
+								[40791] image 'Chet Holmgren' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4433255.png&h=80&w=110&scale=crop
+						[40794] StaticText 'OKC'
+					[40795] cell '2.8'
+				[40797] row ''
+					[40798] cell '2 Zach Edey MEM'
+						[40802] link 'Zach Edey' url: https://www.espn.com/nba/player/_/id/4600663/zach-edey
+							[40804] figure ''
+								[40807] image 'Zach Edey' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4600663.png&h=80&w=110&scale=crop
+						[40810] StaticText 'MEM'
+					[40811] cell '2.5'
+				[40813] row ''
+					[40814] cell '3 LeBron James LAL'
+						[40818] link 'LeBron James' url: https://www.espn.com/nba/player/_/id/1966/lebron-james
+							[40820] figure ''
+								[40823] image 'LeBron James' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&h=80&w=110&scale=crop
+						[40826] StaticText 'LAL'
+					[40827] cell '2.3'
+				[40829] row ''
+					[40830] cell '4 Myles Turner IND'
+						[40834] link 'Myles Turner' url: https://www.espn.com/nba/player/_/id/3133628/myles-turner
+							[40836] figure ''
+								[40839] image 'Myles Turner' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3133628.png&h=80&w=110&scale=crop
+						[40842] StaticText 'IND'
+					[40843] cell '2.2'
+				[40845] row ''
+					[40846] cell '5 Braxton Key GS'
+						[40850] link 'Braxton Key' url: https://www.espn.com/nba/player/_/id/4066240/braxton-key
+							[40852] figure ''
+								[40855] image 'Braxton Key' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066240.png&h=80&w=110&scale=crop
+						[40858] StaticText 'GS'
+					[40859] cell '2.0'
+				[40861] row ''
+					[40862] cell 'Complete Leaders'
+						[40864] link 'Complete Leaders' url: https://www.espn.com/nba/stats/player/_/table/defensive/sort/avgBlocks/dir/desc
+			[40872] table ''
+				[40876] rowgroup ''
+					[40877] row ''
+						[40878] columnheader 'STEALS' required: False
+						[40880] columnheader 'STL' required: False
+				[40884] row ''
+					[40885] cell '1 Gary Trent Jr. MIL'
+						[40889] link 'Gary Trent Jr.' url: https://www.espn.com/nba/player/_/id/4277843/gary-trent-jr
+							[40891] figure ''
+								[40894] image 'Gary Trent Jr.' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4277843.png&h=80&w=110&scale=crop
+						[40897] StaticText 'MIL'
+					[40898] cell '2.6'
+				[40900] row ''
+					[40901] cell '2 Jarrett Allen CLE'
+						[40905] link 'Jarrett Allen' url: https://www.espn.com/nba/player/_/id/4066328/jarrett-allen
+							[40907] figure ''
+								[40910] image 'Jarrett Allen' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066328.png&h=80&w=110&scale=crop
+						[40913] StaticText 'CLE'
+					[40914] cell '2.5'
+				[40916] row ''
+					[40917] cell '3 OG Anunoby NY'
+						[40921] link 'OG Anunoby' url: https://www.espn.com/nba/player/_/id/3934719/og-anunoby
+							[40923] figure ''
+								[40926] image 'OG Anunoby' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3934719.png&h=80&w=110&scale=crop
+						[40929] StaticText 'NY'
+					[40930] cell '2.4'
+				[40932] row ''
+					[40933] cell '4 Alex Caruso OKC'
+						[40937] link 'Alex Caruso' url: https://www.espn.com/nba/player/_/id/2991350/alex-caruso
+							[40939] figure ''
+								[40942] image 'Alex Caruso' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991350.png&h=80&w=110&scale=crop
+						[40945] StaticText 'OKC'
+					[40946] cell '2.3'
+				[40948] row ''
+					[40949] cell '5 LeBron James LAL'
+						[40953] link 'LeBron James' url: https://www.espn.com/nba/player/_/id/1966/lebron-james
+							[40955] figure ''
+								[40958] image 'LeBron James' url: https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&h=80&w=110&scale=crop
+						[40961] StaticText 'LAL'
+					[40962] cell '2.0'
+				[40964] row ''
+					[40965] cell 'Complete Leaders'
+						[40967] link 'Complete Leaders' url: https://www.espn.com/nba/stats/player/_/table/defensive/sort/avgSteals/dir/desc
+			[40971] StaticText 'Statistics are updated nightly'
+			[40975] StaticText 'Player Statistics'
+			[40983] table ''
+				[40986] rowgroup ''
+					[40987] row ''
+						[40988] columnheader 'OFFENSIVE' required: False
+				[40991] row ''
+					[40992] cell 'Points'
+						[40993] link 'Points' url: https://www.espn.com/nba/stats/player
+				[40995] row ''
+					[40996] cell 'Assists'
+						[40997] link 'Assists' url: https://www.espn.com/nba/stats/player/_/table/offensive/sort/avgAssists/dir/desc
+				[40999] row ''
+					[41000] cell '3-Pointers Made'
+						[41001] link '3-Pointers Made' url: https://www.espn.com/nba/stats/player/_/table/offensive/sort/avgThreePointFieldGoalsMade/dir/desc
+			[41010] table ''
+				[41013] rowgroup ''
+					[41014] row ''
+						[41015] columnheader 'DEFENSIVE' required: False
+				[41018] row ''
+					[41019] cell 'Rebounds'
+						[41020] link 'Rebounds' url: https://www.espn.com/nba/stats/player/_/table/general/sort/avgRebounds/dir/desc
+				[41022] row ''
+					[41023] cell 'Blocks'
+						[41024] link 'Blocks' url: https://www.espn.com/nba/stats/player/_/table/defensive/sort/avgBlocks/dir/desc
+				[41026] row ''
+					[41027] cell 'Steals'
+						[41028] link 'Steals' url: https://www.espn.com/nba/stats/player/_/table/defensive/sort/avgSteals/dir/desc
+			[41034] StaticText 'Team Statistics'
+			[41042] table ''
+				[41045] rowgroup ''
+					[41046] row ''
+						[41047] columnheader 'TEAM' required: False
+				[41050] row ''
+					[41051] cell 'Points'
+						[41052] link 'Points' url: https://www.espn.com/nba/stats/team
+				[41054] row ''
+					[41055] cell 'Rebounds'
+			[41069] table ''
+				[41072] rowgroup ''
+					[41073] row ''
+						[41074] columnheader 'OPPONENT' required: False
+				[41077] row ''
+					[41078] cell 'Opponent Points'
+						[41079] link 'Opponent Points' url: https://www.espn.com/nba/stats/team/_/view/opponent/table/offensive/sort/avgPoints/dir/desc
+				[41081] row ''
+					[41082] cell 'Opponent Rebounds'
+			[41096] table ''
+				[41099] rowgroup ''
+					[41100] row ''
+						[41101] columnheader 'DIFFERENTIAL' required: False
+				[41104] row ''
+					[41105] cell 'Points Differential'
+						[41106] link 'Points Differential' url: https://www.espn.com/nba/stats/team/_/view/differential/table/offensive/sort/avgPoints/dir/desc
+				[41108] row ''
+					[41109] cell 'Rebounds Differential'
+	[41580] Iframe 'Advertisement'

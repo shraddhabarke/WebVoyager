@@ -1,0 +1,58 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir/City+Lot,+102+Rogers+St,+Gloucester,+MA+01930//@42.6125,-70.7423578,12z/data=!4m8!4m7!1m5!1m1!1s0x89e3251b49c0cb17:0xc5aacb9dd27da59f!2m2!1d-70.659956!2d42.6124032!1m0?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[162] generic 'Google Maps'
+		[240] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[21] Canvas ''
+		[1730] radiogroup '' required: False
+			[1733] radio 'Best travel modes' checked: true
+				[1734] image 'Best travel modes'
+			[1743] radio 'Driving' checked: false
+				[1744] image 'Driving'
+			[1753] radio 'Transit' checked: false
+				[1754] image 'Transit'
+			[1763] radio 'Walking' checked: false
+				[1764] image 'Walking'
+			[1773] radio 'Cycling' checked: false
+				[1774] image 'Cycling'
+			[1783] radio 'Flights' checked: false
+				[1784] image 'Flights'
+		[1792] button 'Close directions'
+		[1821] combobox '' hasPopup: grid required: False expanded: False
+			[1814] textbox 'Starting point City Lot, 102 Rogers St, Gloucester, MA 01930' autocomplete: list required: False
+		[1815] button 'Search'
+		[1845] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[1838] textbox 'Choose destination, or click on the map...' focused: True autocomplete: list required: False controls: sbsg51
+			[1853] grid '' multiselectable: False
+				[2076] row ''
+					[2067] row ''
+						[2068] gridcell 'Your location Your location' required: False
+							[2070] image 'Your location'
+								[2079] StaticText '\ue55c'
+		[1839] button 'Search'
+		[1797] button 'Reverse starting point and destination'
+		[9] button 'Menu'
+		[451] button 'Saved'
+		[469] button 'Recents'
+		[2109] button 'City Lot'
+		[499] button 'Get the app'
+		[1936] main 'Directions'
+			[2092] heading 'Delays'
+			[2106] StaticText 'Light traffic in this area'
+			[2108] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1641] button 'Collapse side panel'
+		[545] button 'Google apps' expanded: False
+			[547] image ''
+		[550] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[597] button 'Show Your Location' pressed: false
+		[614] button 'Zoom in'
+		[646] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[702] generic 'Interactive map'
+		[740] StaticText 'Layers'
+		[755] button 'Layers' expanded: False
+		[856] contentinfo ''
+			[858] StaticText 'Map data ©2025 Google'
+			[17] button 'United States'
+			[860] button 'Terms'
+			[862] button 'Privacy'
+			[864] button 'Send Product Feedback'
+		[867] button '2 mi'

@@ -1,0 +1,50 @@
+[61] RootWebArea 'Catchup' focused: True url: https://arxiv.org/catchup?group=grp_physics&%2Fcatchup=Catchup
+	[103] StaticText 'Skip to main content'
+	[111] link 'Cornell University' url: https://www.cornell.edu/
+		[62] image 'Cornell University' url: https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg
+	[118] StaticText 'We gratefully acknowledge support from the Simons Foundation, '
+	[119] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[121] StaticText ', and all contributors.'
+	[123] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[134] link 'arxiv logo' url: https://arxiv.org/
+		[63] image 'arxiv logo' url: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+	[137] StaticText '>'
+	[140] StaticText 'catchup'
+	[55] textbox 'Search term or terms' required: False
+	[152] link 'Help' url: https://info.arxiv.org/help
+	[154] StaticText ' | '
+	[155] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[56] combobox 'Field to search' focused: True hasPopup: menu expanded: True
+	[215] button 'Search'
+	[303] main ''
+		[307] heading 'Catchup on:'
+		[311] group 'Subject:'
+			[313] heading 'Subject:'
+			[319] StaticText 'Group:'
+			[19] combobox 'Group:' hasPopup: menu expanded: False
+			[353] StaticText 'Archive:'
+			[20] combobox '' hasPopup: menu expanded: False
+			[462] StaticText 'Category:'
+			[29] combobox '' hasPopup: menu expanded: False
+		[1038] group 'Changes Since:'
+			[1040] heading 'Changes Since:'
+			[50] combobox '' hasPopup: menu expanded: False
+			[51] combobox '' hasPopup: menu expanded: False
+			[52] combobox '' hasPopup: menu expanded: False
+		[1193] StaticText 'Include abstracts: '
+		[53] checkbox 'Include abstracts: ' checked: false
+		[1199] button 'Go'
+	[1207] contentinfo ''
+		[1209] navigation 'Secondary'
+			[1222] link 'About' url: https://info.arxiv.org/about
+			[1226] link 'Help' url: https://info.arxiv.org/help
+			[1244] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[1257] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[1278] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[1282] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[1292] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[1299] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[1304] StaticText 'Get status notifications via '
+			[1305] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[1309] StaticText ' or '
+			[1310] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

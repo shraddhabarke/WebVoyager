@@ -1,0 +1,170 @@
+[6219] RootWebArea 'Booking.com: Hotels in Barcelona. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Barcelona&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-372490&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=01ee5eca5f9b0671&ac_meta=GhAwMWVlNWVjYTVmOWIwNjcxIAAoATICZW46CUJhcmNlbG9uYUAASgBQAA%3D%3D&group_adults=2&no_rooms=1&group_children=0
+	[7024] tabpanel 'Calendar'
+		[7037] grid '' multiselectable: False
+			[7171] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[7172] gridcell '27 April 2025' required: False
+					[7173] checkbox '27 April 2025' checked: false
+				[7176] gridcell '28 April 2025' required: False
+					[7177] checkbox '28 April 2025' checked: false
+				[7180] gridcell '29 April 2025' required: False
+					[7181] checkbox '29 April 2025' checked: false
+				[7184] gridcell '30 April 2025' required: False
+					[6350] checkbox '30 April 2025' checked: false
+		[7194] grid '' multiselectable: False
+			[7347] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[7348] gridcell '25 May 2025' required: False
+					[7349] checkbox '25 May 2025' checked: false
+				[7353] gridcell '26 May 2025' required: False
+					[7354] checkbox '26 May 2025' checked: false
+				[7358] gridcell '27 May 2025' required: False
+					[7359] checkbox '27 May 2025' checked: false
+				[7363] gridcell '28 May 2025' required: False
+					[7364] checkbox '28 May 2025' checked: false
+				[7368] gridcell '29 May 2025' required: False
+					[7369] checkbox '29 May 2025' checked: false
+				[7373] gridcell '30 May 2025' required: False
+					[7374] checkbox '30 May 2025' checked: false
+				[7378] gridcell '31 May 2025' required: False
+					[7379] checkbox '31 May 2025' checked: false
+		[7385] group ''
+			[7387] region '' roledescription: carousel
+				[6341] group '' roledescription: slide
+					[6353] checkbox 'Exact dates' checked: true
+				[6342] group '' roledescription: slide
+					[6354] checkbox '1 day' checked: false
+				[6343] group '' roledescription: slide
+					[6355] checkbox '2 days' checked: false
+				[6344] group '' roledescription: slide
+					[6356] checkbox '3 days' checked: false
+				[6345] group '' roledescription: slide
+					[6357] checkbox '7 days' checked: false
+	[7521] region 'Filters'
+		[7529] group 'Popular filters'
+			[6361] checkbox 'Air conditioning: 3316 properties' checked: false
+			[6362] checkbox 'Villas: 8 properties' checked: false
+			[6363] checkbox 'Guesthouses: 196 properties' checked: false
+			[6364] checkbox 'Private pool: 46 properties' checked: false
+			[6365] checkbox 'Wonderful: 9+: 624 properties' checked: false
+			[7663] StaticText 'Based on guest reviews'
+		[7675] StaticText 'Smart filters'
+		[7683] StaticText 'What are you looking for?'
+		[6366] textbox 'What are you looking for?' required: False
+		[7691] button 'Find properties'
+		[7700] group 'Amenities'
+			[6367] checkbox 'Parking: 964 properties' checked: false
+			[6368] checkbox 'Restaurant: 235 properties' checked: false
+			[6369] checkbox 'Pet friendly: 818 properties' checked: false
+			[6370] checkbox 'Room service: 305 properties' checked: false
+			[6371] checkbox '24-hour front desk: 674 properties' checked: false
+			[7785] button 'Show all 14' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7797] group 'Property Type'
+			[6372] checkbox 'Apartments: 2813 properties' checked: false
+			[6373] checkbox 'Hotels: 492 properties' checked: false
+			[6374] checkbox 'Guesthouses: 196 properties' checked: false
+			[6375] checkbox 'Hostels: 118 properties' checked: false
+			[6376] checkbox 'Bed and Breakfasts: 46 properties' checked: false
+			[6377] checkbox 'Boats: 43 properties' checked: false
+			[6378] checkbox 'Vacation Homes: 19 properties' checked: false
+			[6379] checkbox 'Homestays: 11 properties' checked: false
+			[6380] checkbox 'Student accommodations: 9 properties' checked: false
+			[6381] checkbox 'Villas: 8 properties' checked: false
+			[6382] checkbox 'Campgrounds: 4 properties' checked: false
+			[6383] checkbox 'Luxury tents: 2 properties' checked: false
+			[6384] checkbox 'Resorts: 1 property' checked: false
+		[8014] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6385] checkbox '1 star: 56 properties' checked: false
+			[6386] checkbox '2 stars: 162 properties' checked: false
+			[6387] checkbox '3 stars: 1185 properties' checked: false
+			[6388] checkbox '4 stars: 1716 properties' checked: false
+			[6389] checkbox '5 stars: 49 properties' checked: false
+		[8118] group 'Room amenities'
+			[6390] checkbox 'Private bathroom: 3161 properties' checked: false
+			[6391] checkbox 'Air conditioning: 3316 properties' checked: false
+			[6392] checkbox 'Balcony: 1914 properties' checked: false
+			[6393] checkbox 'Sea view: 109 properties' checked: false
+			[6394] checkbox 'Kitchen/Kitchenette: 2899 properties' checked: false
+			[8203] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r2u:
+		[8214] group 'Review score'
+			[6395] checkbox 'Wonderful: 9+: 624 properties' checked: false
+			[6396] checkbox 'Very Good: 8+: 2163 properties' checked: false
+			[6397] checkbox 'Good: 7+: 2882 properties' checked: false
+			[6398] checkbox 'Pleasant: 6+: 3128 properties' checked: false
+	[9618] listitem 'Property'
+		[9692] StaticText 'Pensión Portugal is located in the center of Barcelona’s Gothic Quarter, less than 656 feet from Las Ramblas. This guest house features a 24-hour reception and some rooms with balconies.'
+	[9727] listitem 'Property'
+		[9738] button 'Save this item to a trip list' expanded: False
+		[9751] heading 'Leon Opens in new window'
+			[9752] link 'Leon Opens in new window' url: https://www.booking.com/hotel/es/leon-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[9765] link 'Gràcia, Barcelona· Show on map' url: https://www.booking.com/hotel/es/leon-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults&map=1
+		[9775] button '0.1 miles from downtown'
+		[9780] button 'Subway Access'
+		[9783] StaticText 'Just a 14-minute walk from La Pedrera and 0.8 miles from Passeig de Gracia, Leon features accommodations in Barcelona with a terrace.'
+		[9789] button 'Show prices'
+	[9798] listitem 'Property'
+		[9809] button 'Save this item to a trip list' expanded: False
+		[9822] heading 'Hostal Porxos Garden Opens in new window'
+			[9823] link 'Hostal Porxos Garden Opens in new window' url: https://www.booking.com/hotel/es/hostal-porxos-garden.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[9836] link 'Ciutat Vella, Barcelona· Show on map' url: https://www.booking.com/hotel/es/hostal-porxos-garden.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults&map=1
+		[9846] button '0.8 miles from downtown'
+		[9851] button 'Subway Access'
+		[9856] button 'Beach Nearby'
+		[9865] StaticText '2,800 feet from beach'
+		[9867] StaticText 'Hostal Porxos Garden is a guest house featuring rooms with free Wifi and air conditioning in the center of Barcelona.'
+		[9871] link 'Scored 9.3 Wonderful 550 reviews' url: https://www.booking.com/hotel/es/hostal-porxos-garden.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[9885] link 'Location: Scored 9.6 ' url: https://www.booking.com/hotel/es/hostal-porxos-garden.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[9893] button 'Show prices'
+	[9902] listitem 'Property'
+		[9913] button 'Save this item to a trip list' expanded: False
+		[9926] heading 'Motel One Barcelona-Ciutadella Opens in new window'
+			[9927] link 'Motel One Barcelona-Ciutadella Opens in new window' url: https://www.booking.com/hotel/es/motel-one-barcelona-ciutadella-barcelona12345.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults
+		[9940] link 'Sant Martí, Barcelona· Show on map' url: https://www.booking.com/hotel/es/motel-one-barcelona-ciutadella-barcelona12345.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults&map=1
+		[9950] button '450 feet from downtown'
+		[9955] button 'Subway Access'
+		[9960] button 'Beach Nearby'
+		[9969] StaticText '3,700 feet from beach'
+		[9976] StaticText 'Sustainability certification'
+		[9978] StaticText 'Set in Barcelona’s Born District, right beside Ciutadella Park, Motel One Barcelona-Ciutadella offers modern, air-conditioned rooms with a private bathroom and an interactive TV.'
+		[9982] link 'Scored 8.8 Excellent 11,579 reviews' url: https://www.booking.com/hotel/es/motel-one-barcelona-ciutadella-barcelona12345.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults
+		[9996] link 'Location: Scored 9.4 ' url: https://www.booking.com/hotel/es/motel-one-barcelona-ciutadella-barcelona12345.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults
+		[10004] button 'Show prices'
+	[10014] listitem 'Property'
+		[10025] button 'Save this item to a trip list' expanded: False
+		[10038] heading 'The Conica Deluxe Bed&Breakfast Opens in new window'
+			[10039] link 'The Conica Deluxe Bed&Breakfast Opens in new window' url: https://www.booking.com/hotel/es/the-conica-deluxe-bed-amp-breakfast.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[10045] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[10046] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[10047] image ''
+		[10057] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/the-conica-deluxe-bed-amp-breakfast.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults&map=1
+		[10067] button 'Downtown'
+		[10072] button 'Subway Access'
+		[10075] StaticText 'Set in the Eixample district in Barcelona, 1640 feet from La Pedrera, The Conica Deluxe Bed&Breakfast features air-conditioned rooms with free WiFi throughout the property.'
+		[10079] link 'Scored 9.0 Wonderful 1,189 reviews' url: https://www.booking.com/hotel/es/the-conica-deluxe-bed-amp-breakfast.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[10093] link 'Location: Scored 9.5 ' url: https://www.booking.com/hotel/es/the-conica-deluxe-bed-amp-breakfast.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[10101] button 'Show prices'
+	[10110] listitem 'Property'
+		[10121] button 'Save this item to a trip list' expanded: False
+		[10134] heading 'Hotel Barcelona Catedral Opens in new window'
+			[10135] link 'Hotel Barcelona Catedral Opens in new window' url: https://www.booking.com/hotel/es/barcelona-catedral.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults
+		[10141] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[10142] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[10143] image ''
+		[10153] link 'Ciutat Vella, Barcelona· Show on map' url: https://www.booking.com/hotel/es/barcelona-catedral.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults&map=1
+		[10163] button 'Downtown'
+		[10168] button 'Subway Access'
+		[10173] button 'Beach Nearby'
+		[10182] StaticText '5,200 feet from beach'
+		[10189] StaticText 'Sustainability certification'
+		[10191] StaticText 'There is a gym and a rooftop chill-out terrace with a swimming pool and wonderful city views. It is located 328 feet from Barcelona Cathedral, in the historic Gothic Quarter.'
+		[10195] link 'Scored 9.3 Wonderful 220 reviews' url: https://www.booking.com/hotel/es/barcelona-catedral.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults
+		[10209] link 'Location: Scored 9.8 ' url: https://www.booking.com/hotel/es/barcelona-catedral.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from_sustainable_property_sr=1&from=searchresults
+		[10217] button 'Show prices'
+	[10226] listitem 'Property'
+		[10237] button 'Save this item to a trip list' expanded: False
+		[10250] heading 'Boutique Hostemplo Sagrada Familia Opens in new window'
+			[10251] link 'Boutique Hostemplo Sagrada Familia Opens in new window' url: https://www.booking.com/hotel/es/boutique-hostemplo-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[10257] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[10258] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[10259] image ''
+		[10269] link 'Eixample, Barcelona· Show on map' url: https://www.booking.com/hotel/es/boutique-hostemplo-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults&map=1
+		[10304] link 'Scored 8.8 Excellent 2,250 reviews' url: https://www.booking.com/hotel/es/boutique-hostemplo-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults
+		[10318] link 'Location: Scored 9.5 ' url: https://www.booking.com/hotel/es/boutique-hostemplo-barcelona.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKVy8jABsACAdICJDc4MzA5YWI4LWYyMTctNGQ0YS1hOTAxLTkyY2FlOTkwMWFlZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-372490&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=00c55edac8d201ab&srepoch=1746019766&from=searchresults

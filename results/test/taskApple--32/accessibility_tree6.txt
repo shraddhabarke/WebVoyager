@@ -1,0 +1,52 @@
+[18022] RootWebArea 'Apple Trade In - Apple' focused: True url: https://www.apple.com/shop/trade-in
+	[19372] navigation 'Local'
+		[19385] link 'Apple Trade In' url: https://www.apple.com/shop/trade-in
+		[19397] button 'Find your trade-in value'
+	[19414] main ''
+		[19467] StaticText 'With Apple Trade In, you can get great value for your current device and apply it toward a new one, online or at an Apple Store. If your device isn’t eligible for credit, we’ll recycle it — and any accessories you no longer use — securely and for free. It’s a great deal for you and a great way to protect the earth’s precious resources.'
+		[19488] tablist '' multiselectable: False orientation: horizontal
+			[19490] tab 'iPhone' selected: True controls: panel-:rd:-0
+				[19496] image ''
+			[19505] tab 'Apple Watch' selected: False
+				[19511] image ''
+			[19520] tab 'iPad' selected: False
+				[19526] image ''
+			[19535] tab 'Mac' selected: False
+				[19541] image ''
+			[19554] tab 'Android' selected: False
+				[19560] image ''
+			[19569] tab 'Recycling' selected: False
+				[19575] image ''
+		[19589] tabpanel 'iPhone'
+			[19601] heading 'Get $45–$630 when you trade in an iPhone. \xa0footnote\xa0 ¹'
+			[19613] table 'iPhone Trade In Values'
+				[19615] caption ''
+				[19618] rowgroup ''
+					[19620] row ''
+						[19622] columnheader 'Your device' required: False
+						[19625] columnheader 'Estimated trade-in value \xa0footnote\xa0 ¹' required: False
+				[19637] row ''
+					[19639] cell 'iPhone 15 Pro Max'
+					[19642] cell 'Up to $630'
+				[19646] row ''
+					[19648] cell 'iPhone\xa015\xa0Pro'
+					[19651] cell 'Up to $500'
+				[19655] row ''
+					[19657] cell 'iPhone 15\xa0Plus'
+					[19660] cell 'Up to $440'
+				[19664] row ''
+					[19666] cell 'iPhone\xa015'
+					[19669] cell 'Up to $400'
+			[19677] button 'See all iPhone values \uf30f'
+			[19684] button 'Find your trade-in value'
+			[19694] image 'iPhone 16e, back exterior, 2-in-1 camera system, white color, iPhone 16, back exterior, advanced dual-camera system, ultramarine color, iPhone 16 Pro, back and front exterior, pro camera system, Desert Titanium color' url: https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphones-value-tradein-202502_GEO_US?wid=928&hei=866&fmt=png-alpha&.v=aHBjaGFSWjRFaHlmSUNGdm1BMTBlbis4eEFYRlRWbVdJai9XZ0F0NjdGVmU3c0NQM0JSWDJoNVEwZFdWYlRPZVp6UmJRVFlmVmZ6K3Rrem9QY3VvdmJ6aU55ZEZuQW00NjNUOHBsdCtLYnpYZjEvNHBLSE1OYVRzbENQMEd6Q3A
+		[20224] StaticText 'Already started a trade-in?'
+		[20226] link 'Check trade-in status' url: https://secure.store.apple.com/shop/order/list
+			[20228] StaticText 'Check its status'
+		[20254] heading 'Two easy ways to trade in.'
+		[20258] StaticText 'Trade in your way — online or at an Apple Store. From getting an estimate to returning your device, we’ll help every step of the way.'
+		[20268] tablist '' multiselectable: False orientation: horizontal
+			[20270] tab 'Online' selected: True controls: panel-:re:-0
+			[20275] tab 'In Store' selected: False
+		[20280] tabpanel 'Online'
+			[20287] heading 'Get credit toward a new Apple product.'

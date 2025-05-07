@@ -1,0 +1,58 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir/San+Francisco+International+Airport,+San+Francisco,+CA+94128//@37.6192218,-122.4640295,12z/data=!4m8!4m7!1m5!1m1!1s0x808f778c55555555:0xa4f25c571acded3f!2m2!1d-122.3816274!2d37.6191145!1m0?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[167] generic 'Google Maps'
+		[244] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[50] Canvas ''
+		[932] radiogroup '' required: False
+			[935] radio 'Best travel modes' checked: true
+				[936] image 'Best travel modes'
+			[945] radio 'Driving' checked: false
+				[946] image 'Driving'
+			[955] radio 'Transit' checked: false
+				[956] image 'Transit'
+			[965] radio 'Walking' checked: false
+				[966] image 'Walking'
+			[975] radio 'Cycling' checked: false
+				[976] image 'Cycling'
+			[985] radio 'Flights' checked: false
+				[986] image 'Flights'
+		[994] button 'Close directions'
+		[1023] combobox '' hasPopup: grid required: False expanded: False
+			[1016] textbox 'Starting point San Francisco International Airport' autocomplete: list required: False
+		[1017] button 'Search'
+		[1047] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[1040] textbox 'Choose destination, or click on the map...' focused: True autocomplete: list required: False controls: sbsg51
+			[1055] grid '' multiselectable: False
+				[1448] row ''
+					[1439] row ''
+						[1440] gridcell 'Your location Your location' required: False
+							[1442] image 'Your location'
+								[1451] StaticText '\ue55c'
+		[1041] button 'Search'
+		[999] button 'Reverse starting point and destination'
+		[16] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1467] button 'San Francisco International Airport'
+		[501] button 'Get the app'
+		[1140] main 'Directions'
+			[1202] heading 'Delays'
+			[1218] StaticText 'Light traffic in this area'
+			[1220] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1182] button 'Collapse side panel'
+		[547] button 'Google apps' expanded: False
+			[549] image ''
+		[552] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[599] button 'Show Your Location' pressed: false
+		[616] button 'Zoom in'
+		[647] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[701] generic 'Interactive map'
+		[739] StaticText 'Layers'
+		[754] button 'Layers' expanded: False
+		[858] contentinfo ''
+			[860] StaticText 'Map data ©2025 '
+			[861] button 'United States'
+			[863] button 'Terms'
+			[865] button 'Privacy'
+			[867] button 'Send Product Feedback'
+		[870] button '2 mi'

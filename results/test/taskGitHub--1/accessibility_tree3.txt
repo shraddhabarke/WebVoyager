@@ -1,0 +1,66 @@
+[1] RootWebArea 'GitHub · Build and ship software on a single, collaborative platform · GitHub' focused: True url: https://github.com/
+	[312] link 'Skip to content' url: https://github.com/#start-of-content
+	[349] heading 'Navigation Menu'
+	[352] button 'Toggle navigation' expanded: True
+	[364] button 'Toggle navigation' expanded: True
+	[378] link 'Homepage' url: https://github.com/
+	[388] link 'Sign in' url: https://github.com/login
+	[397] navigation 'Global'
+		[403] button 'Product' expanded: False
+		[612] button 'Solutions' expanded: False
+		[735] button 'Resources' expanded: False
+		[843] button 'Open Source' expanded: False
+		[918] button 'Enterprise' expanded: False
+		[1019] link 'Pricing' url: https://github.com/pricing
+	[1031] button 'Search or jump to…' hasPopup: dialog
+		[1042] StaticText 'Search or jump to...'
+	[1058] heading 'Search code, repositories, users, issues, pull requests...'
+	[18] combobox 'Search' focused: True autocomplete: list hasPopup: listbox required: False expanded: True describedby: validation-e70fab44-a8a9-42d1-aad1-76f1d8085897 controls: query-builder-test-results
+	[1102] StaticText 'Clear'
+	[1183] listbox 'Suggestions' multiselectable: False orientation: vertical required: False
+		[3346] option 'Enterprise, jump to this explore page' selected: False
+			[3347] link 'Enterprise' url: https://github.com/enterprise?ref_loc=search
+		[3355] option 'Security, jump to this explore page' selected: False
+			[3356] link 'Security' url: https://github.com/security?ref_loc=search
+		[3364] option 'Copilot, jump to this explore page' selected: False
+			[3365] link 'Copilot' url: https://github.com/features/copilot?ref_loc=search
+		[3374] option 'Pricing, jump to this explore page' selected: False
+			[3375] link 'Pricing' url: https://github.com/pricing?ref_loc=search
+	[1325] generic '' live: polite atomic: True relevant: additions text
+		[3472] StaticText '4 suggestions.'
+	[1331] link 'Search syntax tips' url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+	[1498] link 'Sign up' url: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+	[1501] button 'Reseting focus'
+	[1558] main ''
+		[1579] StaticText 'Mona the Octocat, Copilot, and Ducky float jubilantly upward from behind the GitHub product demo accompanied by a purple glow and a scattering of stars.'
+		[1581] region 'Build and ship software on a single, collaborative platform'
+			[1585] heading 'Build and ship software on a single, collaborative platform'
+			[1588] StaticText 'Join the world’s most widely adopted AI-powered developer platform.'
+		[16] form 'Create your GitHub account'
+			[1594] StaticText 'Enter your email'
+			[17] textbox 'Enter your email' required: False
+			[1596] button 'Sign up for GitHub'
+		[1600] link 'Try GitHub Copilot' url: https://github.com/features/copilot
+		[1605] heading 'GitHub features'
+		[1608] button 'Pause demo'
+		[1617] StaticText 'A demonstration animation of a code editor using GitHub Copilot Chat, where the user requests GitHub Copilot to refactor duplicated logic and extract it into a reusable function for a given code snippet.'
+		[8] Video ''
+		[1627] tablist '' multiselectable: False orientation: horizontal controls: heroCarouselDescription
+			[1635] tab 'Code' selected: False
+			[1639] tab 'Plan' selected: False
+			[1643] tab 'Collaborate' selected: False
+			[1647] tab 'Automate' selected: False
+			[1651] tab 'Secure' selected: False
+		[1665] paragraph '' live: polite atomic: False relevant: additions text
+			[1666] StaticText 'Build code quickly and more securely with GitHub Copilot embedded throughout your workflows.'
+		[1669] heading 'GitHub is used by'
+		[1681] image 'Ford' url: https://github.githubassets.com/assets/ford-2fb5195a4c7c.svg
+		[1682] image 'Mercedes Benz' url: https://github.githubassets.com/assets/mercedes-b9190458c80e.svg
+		[1683] image 'Société Générale' url: https://github.githubassets.com/assets/societe-generale-7a3414490494.svg
+		[1684] image 'Vodafone' url: https://github.githubassets.com/assets/vodafone-6e0f322de6cd.svg
+		[1685] image 'Philips' url: https://github.githubassets.com/assets/philips-8087a5f95f5c.svg
+		[1705] button 'Logo suite animation is currently playing. Click to pause.' pressed: false
+			[1710] StaticText 'Pause'
+		[1720] sectionheader ''
+			[1721] heading 'Accelerate performance'
+		[2402] link 'Back to top' url: https://github.com/#hero

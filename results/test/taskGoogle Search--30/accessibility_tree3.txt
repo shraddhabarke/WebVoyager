@@ -1,0 +1,322 @@
+[1] RootWebArea 'Top 50 - Global | Spotify Playlist' focused: True url: https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF
+	[463] link 'Spotify' url: https://open.spotify.com/
+		[464] image 'Spotify'
+	[3] button 'Home'
+	[7] search ''
+		[10] combobox 'What do you want to play?' hasPopup: listbox required: False expanded: True
+		[495] button 'Browse'
+	[502] button 'Premium'
+	[504] button 'Support'
+	[506] button 'Download'
+	[509] link 'Install App' url: https://open.spotify.com/download
+	[517] button 'Sign up'
+	[519] button 'Log in'
+	[524] navigation 'Main'
+		[528] sectionheader ''
+			[531] heading 'Your Library'
+			[12] button 'Create playlist or folder'
+		[546] StaticText 'Create your first playlist'
+		[550] button 'Create playlist'
+		[560] link 'Browse podcasts' url: https://open.spotify.com/genre/podcasts-web
+		[585] link 'Legal' url: https://www.spotify.com/us/legal/
+		[589] link 'Safety & Privacy Center' url: https://www.spotify.com/us/safetyandprivacy/
+		[593] link 'Privacy Policy' url: https://www.spotify.com/us/legal/privacy-policy/
+		[597] link 'Cookies' url: https://www.spotify.com/us/legal/cookies-policy/
+		[601] link 'About Ads' url: https://www.spotify.com/us/legal/privacy-policy/#s3
+		[605] link 'Accessibility' url: https://www.spotify.com/us/accessibility/
+		[609] link 'Notice at Collection' url: https://www.spotify.com/us/legal/notice-at-collection/
+		[27] button 'Your Privacy Choices'
+		[614] image 'California Consumer Privacy Act (CCPA) Opt-Out Icon'
+		[621] link 'Cookies' url: https://www.spotify.com/legal/cookies-policy/
+		[624] button 'English'
+	[632] StaticText 'Resize main navigation'
+	[11] slider 'Resize main navigation' orientation: horizontal valuemin: 280 valuemax: 420 valuetext: 
+	[634] contentinfo ''
+		[637] StaticText 'Preview of Spotify'
+		[639] StaticText 'Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.'
+		[640] button 'Sign up free'
+		[647] generic 'Player controls'
+			[650] switch 'Enable shuffle' disabled: True checked: false
+			[655] button 'Previous' disabled: True
+			[659] button 'Pause' disabled: True
+			[665] button 'Next' disabled: True
+			[669] checkbox 'Disable repeat' disabled: True checked: false
+			[675] StaticText '-:--'
+			[679] StaticText 'Change progress'
+			[13] slider 'Change progress' disabled: True orientation: horizontal valuemin: 0 valuemax: 0 valuetext: -:--/-:--
+		[691] button 'Now playing view' disabled: True pressed: false
+		[697] button 'Mute' describedby: volume-icon
+			[698] image 'Volume high'
+		[704] StaticText 'Change volume'
+		[14] slider 'Change volume' orientation: horizontal valuemin: 0 valuemax: 1 valuetext: 
+	[714] banner 'Top bar and user menu'
+	[731] main 'Top 50 - Global | Spotify Playlist' focused: True
+		[740] group ''
+			[741] group ''
+				[22] image '' url: https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg
+		[744] StaticText 'Public Playlist'
+		[746] heading 'Top 50 - Global'
+		[750] StaticText 'Your daily update of the most played tracks right now - Global.'
+		[753] figure 'Spotify'
+			[21] image 'Spotify' url: https://i.scdn.co/image/ab67757000003b8255c25988a6ac314394d3fbf5
+		[756] link 'Spotify' url: https://open.spotify.com/user/spotify
+		[759] StaticText '•'
+		[761] StaticText '17,233,454 saves'
+		[769] StaticText 'about 2 hr 45 min'
+		[774] StaticText '3 new entries'
+		[782] button 'Play Top 50 - Global'
+		[787] button 'Save to Your Library'
+		[792] button 'More options for Top 50 - Global' hasPopup: menu
+		[796] combobox '' hasPopup: menu required: False expanded: False
+			[799] StaticText 'List'
+		[815] grid 'Top 50 - Global' multiselectable: False
+			[817] row '# Title Plays Duration'
+				[818] columnheader '#' required: False
+				[821] columnheader 'Title' required: False
+				[826] columnheader 'Plays' required: False
+				[835] columnheader 'Duration' required: False
+					[837] generic 'Duration'
+			[853] row '1 Play Die With A Smile by Lady Gaga, Bruno Mars Die With A Smile Lady Gaga, Bruno Mars 5,639,439 Add to Liked Songs 4:11 More options for Die With A Smile by Lady Gaga, Bruno Mars' selected: False
+				[855] gridcell '1 Play Die With A Smile by Lady Gaga, Bruno Mars' required: False
+					[23] button 'Play Die With A Smile by Lady Gaga, Bruno Mars'
+				[862] gridcell 'Die With A Smile Lady Gaga, Bruno Mars' required: False
+					[863] image '' url: https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c
+					[869] link 'Lady Gaga' url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms
+					[872] link 'Bruno Mars' url: https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C
+				[874] gridcell '5,639,439' required: False
+				[881] gridcell 'Add to Liked Songs 4:11 More options for Die With A Smile by Lady Gaga, Bruno Mars' required: False
+					[882] button 'Add to Liked Songs'
+					[889] button 'More options for Die With A Smile by Lady Gaga, Bruno Mars' hasPopup: menu
+			[893] row '2 Play Ordinary by Alex Warren Ordinary Alex Warren 5,561,043 Add to Liked Songs 3:06 More options for Ordinary by Alex Warren' selected: False
+				[895] gridcell '2 Play Ordinary by Alex Warren' required: False
+					[900] button 'Play Ordinary by Alex Warren'
+				[903] gridcell 'Ordinary Alex Warren' required: False
+					[904] image '' url: https://i.scdn.co/image/ab67616d000048511648716c6562145bea491cb6
+					[910] link 'Alex Warren' url: https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB
+				[912] gridcell '5,561,043' required: False
+				[919] gridcell 'Add to Liked Songs 3:06 More options for Ordinary by Alex Warren' required: False
+					[920] button 'Add to Liked Songs'
+					[927] button 'More options for Ordinary by Alex Warren' hasPopup: menu
+			[931] row '3 Play BIRDS OF A FEATHER by Billie Eilish BIRDS OF A FEATHER Billie Eilish 4,854,606 Add to Liked Songs 3:30 More options for BIRDS OF A FEATHER by Billie Eilish' selected: False
+				[933] gridcell '3 Play BIRDS OF A FEATHER by Billie Eilish' required: False
+					[938] button 'Play BIRDS OF A FEATHER by Billie Eilish'
+				[941] gridcell 'BIRDS OF A FEATHER Billie Eilish' required: False
+					[942] image '' url: https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62
+					[948] link 'Billie Eilish' url: https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH
+				[950] gridcell '4,854,606' required: False
+				[957] gridcell 'Add to Liked Songs 3:30 More options for BIRDS OF A FEATHER by Billie Eilish' required: False
+					[958] button 'Add to Liked Songs'
+					[965] button 'More options for BIRDS OF A FEATHER by Billie Eilish' hasPopup: menu
+			[969] row '4 Play APT. by ROSÉ, Bruno Mars APT. ROSÉ, Bruno Mars 4,196,797 Add to Liked Songs 2:49 More options for APT. by ROSÉ, Bruno Mars' selected: False
+				[971] gridcell '4 Play APT. by ROSÉ, Bruno Mars' required: False
+					[976] button 'Play APT. by ROSÉ, Bruno Mars'
+				[979] gridcell 'APT. ROSÉ, Bruno Mars' required: False
+					[980] image '' url: https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678
+					[986] link 'ROSÉ' url: https://open.spotify.com/artist/3eVa5w3URK5duf6eyVDbu9
+					[989] link 'Bruno Mars' url: https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C
+				[991] gridcell '4,196,797' required: False
+				[998] gridcell 'Add to Liked Songs 2:49 More options for APT. by ROSÉ, Bruno Mars' required: False
+					[999] button 'Add to Liked Songs'
+					[1006] button 'More options for APT. by ROSÉ, Bruno Mars' hasPopup: menu
+			[1010] row '5 Play La Plena - W Sound 05 by W Sound, Beéle, Ovy On The Drums La Plena - W Sound 05 Explicit W Sound, Beéle, Ovy On The Drums 4,035,813 Add to Liked Songs 2:30 More options for La Plena - W Sound 05 by W Sound, Beéle, Ovy On The Drums' selected: False
+				[1012] gridcell '5 Play La Plena - W Sound 05 by W Sound, Beéle, Ovy On The Drums' required: False
+					[1017] button 'Play La Plena - W Sound 05 by W Sound, Beéle, Ovy On The Drums'
+				[1020] gridcell 'La Plena - W Sound 05 Explicit W Sound, Beéle, Ovy On The Drums' required: False
+					[1021] image '' url: https://i.scdn.co/image/ab67616d000048514740100d84f3667f1eae6870
+					[1026] generic 'Explicit'
+					[1031] link 'W Sound' url: https://open.spotify.com/artist/5uwa6tAMMfNbBFIHiI6NV4
+					[1033] StaticText ', '
+					[1034] link 'Beéle' url: https://open.spotify.com/artist/7a0XAaPaK2aDSqa8p3QnC7
+					[1037] link 'Ovy On The Drums' url: https://open.spotify.com/artist/3m5qlPf2OkihLz3dRYnkPA
+				[1039] gridcell '4,035,813' required: False
+				[1046] gridcell 'Add to Liked Songs 2:30 More options for La Plena - W Sound 05 by W Sound, Beéle, Ovy On The Drums' required: False
+					[1047] button 'Add to Liked Songs'
+					[1054] button 'More options for La Plena - W Sound 05 by W Sound, Beéle, Ovy On The Drums' hasPopup: menu
+			[1058] row '6 Play like JENNIE by JENNIE like JENNIE Explicit JENNIE 3,685,125 Add to Liked Songs 2:03 More options for like JENNIE by JENNIE' selected: False
+				[1060] gridcell '6 Play like JENNIE by JENNIE' required: False
+					[1065] button 'Play like JENNIE by JENNIE'
+				[1068] gridcell 'like JENNIE Explicit JENNIE' required: False
+					[1069] image '' url: https://i.scdn.co/image/ab67616d000048515a43918ea90bf1e44b7bdcfd
+					[1074] generic 'Explicit'
+					[1079] link 'JENNIE' url: https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M
+				[1081] gridcell '3,685,125' required: False
+				[1088] gridcell 'Add to Liked Songs 2:03 More options for like JENNIE by JENNIE' required: False
+					[1089] button 'Add to Liked Songs'
+					[1096] button 'More options for like JENNIE by JENNIE' hasPopup: menu
+			[1100] row '7 Play That’s So True by Gracie Abrams That’s So True Explicit Gracie Abrams 3,640,795 Add to Liked Songs 2:46 More options for That’s So True by Gracie Abrams' selected: False
+				[1102] gridcell '7 Play That’s So True by Gracie Abrams' required: False
+					[1107] button 'Play That’s So True by Gracie Abrams'
+				[1110] gridcell 'That’s So True Explicit Gracie Abrams' required: False
+					[1111] image '' url: https://i.scdn.co/image/ab67616d000048511dac3694b3289cd903cb3acf
+					[1116] generic 'Explicit'
+					[1121] link 'Gracie Abrams' url: https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5
+				[1123] gridcell '3,640,795' required: False
+				[1130] gridcell 'Add to Liked Songs 2:46 More options for That’s So True by Gracie Abrams' required: False
+					[1131] button 'Add to Liked Songs'
+					[1138] button 'More options for That’s So True by Gracie Abrams' hasPopup: menu
+			[1142] row '8 Play luther (with sza) by Kendrick Lamar, SZA luther (with sza) Kendrick Lamar, SZA 3,470,225 Add to Liked Songs 2:57 More options for luther (with sza) by Kendrick Lamar, SZA' selected: False
+				[1144] gridcell '8 Play luther (with sza) by Kendrick Lamar, SZA' required: False
+					[1149] button 'Play luther (with sza) by Kendrick Lamar, SZA'
+				[1152] gridcell 'luther (with sza) Kendrick Lamar, SZA' required: False
+					[1153] image '' url: https://i.scdn.co/image/ab67616d0000485109d6ed214f03fbb663e46531
+					[1159] link 'Kendrick Lamar' url: https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg
+					[1162] link 'SZA' url: https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP
+				[1164] gridcell '3,470,225' required: False
+				[1171] gridcell 'Add to Liked Songs 2:57 More options for luther (with sza) by Kendrick Lamar, SZA' required: False
+					[1172] button 'Add to Liked Songs'
+					[1179] button 'More options for luther (with sza) by Kendrick Lamar, SZA' hasPopup: menu
+			[1183] row '9 Play DtMF by Bad Bunny DtMF Explicit Bad Bunny 3,177,933 Add to Liked Songs 3:57 More options for DtMF by Bad Bunny' selected: False
+				[1185] gridcell '9 Play DtMF by Bad Bunny' required: False
+					[1190] button 'Play DtMF by Bad Bunny'
+				[1193] gridcell 'DtMF Explicit Bad Bunny' required: False
+					[1194] image '' url: https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411
+					[1199] generic 'Explicit'
+					[1204] link 'Bad Bunny' url: https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X
+				[1206] gridcell '3,177,933' required: False
+				[1213] gridcell 'Add to Liked Songs 3:57 More options for DtMF by Bad Bunny' required: False
+					[1214] button 'Add to Liked Songs'
+					[1221] button 'More options for DtMF by Bad Bunny' hasPopup: menu
+			[1225] row '10 Play Messy by Lola Young Messy Explicit Lola Young 3,155,659 Add to Liked Songs 4:44 More options for Messy by Lola Young' selected: False
+				[1227] gridcell '10 Play Messy by Lola Young' required: False
+					[1234] button 'Play Messy by Lola Young'
+				[1237] gridcell 'Messy Explicit Lola Young' required: False
+					[1238] image '' url: https://i.scdn.co/image/ab67616d000048516aa2a180c7b009ca8454ef89
+					[1243] generic 'Explicit'
+					[1248] link 'Lola Young' url: https://open.spotify.com/artist/67FB4n52MgexGQIG8s0yUH
+				[1250] gridcell '3,155,659' required: False
+				[1257] gridcell 'Add to Liked Songs 4:44 More options for Messy by Lola Young' required: False
+					[1258] button 'Add to Liked Songs'
+					[1265] button 'More options for Messy by Lola Young' hasPopup: menu
+			[1269] row '11 Play Beautiful Things by Benson Boone Beautiful Things Benson Boone 3,148,414 Add to Liked Songs 3:00 More options for Beautiful Things by Benson Boone' selected: False
+				[1271] gridcell '11 Play Beautiful Things by Benson Boone' required: False
+					[1278] button 'Play Beautiful Things by Benson Boone'
+				[1281] gridcell 'Beautiful Things Benson Boone' required: False
+					[1282] image '' url: https://i.scdn.co/image/ab67616d00004851cc04ff3e70e146ba9abacf40
+					[1288] link 'Benson Boone' url: https://open.spotify.com/artist/22wbnEMDvgVIAGdFeek6ET
+				[1290] gridcell '3,148,414' required: False
+				[1297] gridcell 'Add to Liked Songs 3:00 More options for Beautiful Things by Benson Boone' required: False
+					[1298] button 'Add to Liked Songs'
+					[1305] button 'More options for Beautiful Things by Benson Boone' hasPopup: menu
+			[1309] row '12 Play Espresso by Sabrina Carpenter Espresso Explicit Sabrina Carpenter 3,087,952 Add to Liked Songs 2:55 More options for Espresso by Sabrina Carpenter' selected: False
+				[1311] gridcell '12 Play Espresso by Sabrina Carpenter' required: False
+					[1316] button 'Play Espresso by Sabrina Carpenter'
+				[1319] gridcell 'Espresso Explicit Sabrina Carpenter' required: False
+					[1320] image '' url: https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626
+					[1325] generic 'Explicit'
+					[1330] link 'Sabrina Carpenter' url: https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B
+				[1332] gridcell '3,087,952' required: False
+				[1339] gridcell 'Add to Liked Songs 2:55 More options for Espresso by Sabrina Carpenter' required: False
+					[1340] button 'Add to Liked Songs'
+					[1347] button 'More options for Espresso by Sabrina Carpenter' hasPopup: menu
+			[1351] row '13 Play back to friends by sombr back to friends sombr 3,066,863 Add to Liked Songs 3:19 More options for back to friends by sombr' selected: False
+				[1353] gridcell '13 Play back to friends by sombr' required: False
+					[1360] button 'Play back to friends by sombr'
+				[1363] gridcell 'back to friends sombr' required: False
+					[1364] image '' url: https://i.scdn.co/image/ab67616d000048519d24f74c1e2d8a12b1e591ec
+					[1370] link 'sombr' url: https://open.spotify.com/artist/4G9NDjRyZFDlJKMRL8hx3S
+				[1372] gridcell '3,066,863' required: False
+				[1379] gridcell 'Add to Liked Songs 3:19 More options for back to friends by sombr' required: False
+					[1380] button 'Add to Liked Songs'
+					[1387] button 'More options for back to friends by sombr' hasPopup: menu
+			[1391] row '14 Play Sailor Song by Gigi Perez Sailor Song Gigi Perez 2,958,701 Add to Liked Songs 3:31 More options for Sailor Song by Gigi Perez' selected: False
+				[1393] gridcell '14 Play Sailor Song by Gigi Perez' required: False
+					[1400] button 'Play Sailor Song by Gigi Perez'
+				[1403] gridcell 'Sailor Song Gigi Perez' required: False
+					[1404] image '' url: https://i.scdn.co/image/ab67616d00004851bc5665902cfbbb15af08e5c4
+					[1410] link 'Gigi Perez' url: https://open.spotify.com/artist/1iCnM8foFssWlPRLfAbIwo
+				[1412] gridcell '2,958,701' required: False
+				[1419] gridcell 'Add to Liked Songs 3:31 More options for Sailor Song by Gigi Perez' required: False
+					[1420] button 'Add to Liked Songs'
+					[1427] button 'More options for Sailor Song by Gigi Perez' hasPopup: menu
+			[1431] row '15 Play WILDFLOWER by Billie Eilish WILDFLOWER Billie Eilish 2,945,398 Add to Liked Songs 4:21 More options for WILDFLOWER by Billie Eilish' selected: False
+				[1433] gridcell '15 Play WILDFLOWER by Billie Eilish' required: False
+					[1438] button 'Play WILDFLOWER by Billie Eilish'
+				[1441] gridcell 'WILDFLOWER Billie Eilish' required: False
+					[1442] image '' url: https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62
+					[1448] link 'Billie Eilish' url: https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH
+				[1450] gridcell '2,945,398' required: False
+				[1457] gridcell 'Add to Liked Songs 4:21 More options for WILDFLOWER by Billie Eilish' required: False
+					[1458] button 'Add to Liked Songs'
+					[1465] button 'More options for WILDFLOWER by Billie Eilish' hasPopup: menu
+			[1469] row '16 Play Te Quería Ver by Alemán, Neton Vega Te Quería Ver Alemán, Neton Vega 2,924,805 Add to Liked Songs 2:56 More options for Te Quería Ver by Alemán, Neton Vega' selected: False
+				[1471] gridcell '16 Play Te Quería Ver by Alemán, Neton Vega' required: False
+					[1476] button 'Play Te Quería Ver by Alemán, Neton Vega'
+				[1479] gridcell 'Te Quería Ver Alemán, Neton Vega' required: False
+					[1480] image '' url: https://i.scdn.co/image/ab67616d00004851ae64174efffec9d44d5152a8
+					[1486] link 'Alemán' url: https://open.spotify.com/artist/4QFG9KrGWEbr6hNA58CAqE
+					[1489] link 'Neton Vega' url: https://open.spotify.com/artist/6pV5zH2LzjOUHaAvENdMMa
+				[1491] gridcell '2,924,805' required: False
+				[1498] gridcell 'Add to Liked Songs 2:56 More options for Te Quería Ver by Alemán, Neton Vega' required: False
+					[1499] button 'Add to Liked Songs'
+					[1506] button 'More options for Te Quería Ver by Alemán, Neton Vega' hasPopup: menu
+			[1510] row '17 Play undressed by sombr undressed sombr 2,915,675 Add to Liked Songs 3:02 More options for undressed by sombr' selected: False
+				[1512] gridcell '17 Play undressed by sombr' required: False
+					[1519] button 'Play undressed by sombr'
+				[1522] gridcell 'undressed sombr' required: False
+					[1523] image '' url: https://i.scdn.co/image/ab67616d00004851dad39d4906f76b7c176effb1
+					[1529] link 'sombr' url: https://open.spotify.com/artist/4G9NDjRyZFDlJKMRL8hx3S
+				[1531] gridcell '2,915,675' required: False
+				[1538] gridcell 'Add to Liked Songs 3:02 More options for undressed by sombr' required: False
+					[1539] button 'Add to Liked Songs'
+					[1546] button 'More options for undressed by sombr' hasPopup: menu
+			[1550] row '18 Play Who by Jimin Who Jimin 2,903,650 Add to Liked Songs 2:50 More options for Who by Jimin' selected: False
+				[1552] gridcell '18 Play Who by Jimin' required: False
+					[1557] button 'Play Who by Jimin'
+				[1560] gridcell 'Who Jimin' required: False
+					[1561] image '' url: https://i.scdn.co/image/ab67616d00004851f02c451189a709b9a952aaec
+					[1567] link 'Jimin' url: https://open.spotify.com/artist/1oSPZhvZMIrWW5I41kPkkY
+				[1569] gridcell '2,903,650' required: False
+				[1576] gridcell 'Add to Liked Songs 2:50 More options for Who by Jimin' required: False
+					[1577] button 'Add to Liked Songs'
+					[1584] button 'More options for Who by Jimin' hasPopup: menu
+			[1588] row '19 Play Show Me Love by WizTheMc, bees & honey Show Me Love WizTheMc, bees & honey 2,888,465 Add to Liked Songs 2:56 More options for Show Me Love by WizTheMc, bees & honey' selected: False
+				[1590] gridcell '19 Play Show Me Love by WizTheMc, bees & honey' required: False
+					[1597] button 'Play Show Me Love by WizTheMc, bees & honey'
+				[1600] gridcell 'Show Me Love WizTheMc, bees & honey' required: False
+					[1601] image '' url: https://i.scdn.co/image/ab67616d000048519263dc4504ccf1b02899d9ae
+					[1607] link 'WizTheMc' url: https://open.spotify.com/artist/3ebS2RuCq8QeLyndUDmgB5
+					[1610] link 'bees & honey' url: https://open.spotify.com/artist/2OFij1ppCwYFCOTq7vzafi
+				[1612] gridcell '2,888,465' required: False
+				[1619] gridcell 'Add to Liked Songs 2:56 More options for Show Me Love by WizTheMc, bees & honey' required: False
+					[1620] button 'Add to Liked Songs'
+					[1627] button 'More options for Show Me Love by WizTheMc, bees & honey' hasPopup: menu
+			[1631] row '20 Play Abracadabra by Lady Gaga Abracadabra Lady Gaga 2,864,790 Add to Liked Songs 3:43 More options for Abracadabra by Lady Gaga' selected: False
+				[1633] gridcell '20 Play Abracadabra by Lady Gaga' required: False
+					[1640] button 'Play Abracadabra by Lady Gaga'
+				[1643] gridcell 'Abracadabra Lady Gaga' required: False
+					[1644] image '' url: https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c
+					[1650] link 'Lady Gaga' url: https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms
+				[1652] gridcell '2,864,790' required: False
+				[1659] gridcell 'Add to Liked Songs 3:43 More options for Abracadabra by Lady Gaga' required: False
+					[1660] button 'Add to Liked Songs'
+					[1667] button 'More options for Abracadabra by Lady Gaga' hasPopup: menu
+			[1671] row '21 Play Anxiety by Doechii Anxiety Explicit Doechii 2,833,660 Add to Liked Songs 4:09 More options for Anxiety by Doechii' selected: False
+				[1673] gridcell '21 Play Anxiety by Doechii' required: False
+					[1680] button 'Play Anxiety by Doechii'
+				[1683] gridcell 'Anxiety Explicit Doechii' required: False
+					[1684] image '' url: https://i.scdn.co/image/ab67616d00004851ea29212b801087f18319c187
+					[1689] generic 'Explicit'
+					[1694] link 'Doechii' url: https://open.spotify.com/artist/4E2rKHVDssGJm2SCDOMMJB
+				[1696] gridcell '2,833,660' required: False
+				[1703] gridcell 'Add to Liked Songs 4:09 More options for Anxiety by Doechii' required: False
+					[1704] button 'Add to Liked Songs'
+					[1711] button 'More options for Anxiety by Doechii' hasPopup: menu
+			[1715] row '22 Play BAILE INoLVIDABLE by Bad Bunny BAILE INoLVIDABLE Explicit Bad Bunny 2,735,551 Add to Liked Songs 6:07 More options for BAILE INoLVIDABLE by Bad Bunny' selected: False
+				[1717] gridcell '22 Play BAILE INoLVIDABLE by Bad Bunny' required: False
+					[1722] button 'Play BAILE INoLVIDABLE by Bad Bunny'
+				[1725] gridcell 'BAILE INoLVIDABLE Explicit Bad Bunny' required: False
+					[1726] image '' url: https://i.scdn.co/image/ab67616d00004851bbd45c8d36e0e045ef640411
+					[1731] generic 'Explicit'
+					[1736] link 'Bad Bunny' url: https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X
+				[1738] gridcell '2,735,551' required: False
+				[1745] gridcell 'Add to Liked Songs 6:07 More options for BAILE INoLVIDABLE by Bad Bunny' required: False
+					[1746] button 'Add to Liked Songs'
+					[1753] button 'More options for BAILE INoLVIDABLE by Bad Bunny' hasPopup: menu
+			[1757] row '23 Play Timeless (feat Playboi Carti) by The Weeknd, Playboi Carti Timeless (feat Playboi Carti) Explicit The Weeknd, Playboi Carti 2,667,638 Add to Liked Songs 4:16 More options for Timeless (feat Playboi Carti) by The Weeknd, Playboi Carti' selected: False
+				[1759] gridcell '23 Play Timeless (feat Playboi Carti) by The Weeknd, Playboi Carti' required: False
+				[1769] gridcell 'Timeless (feat Playboi Carti) Explicit The Weeknd, Playboi Carti' required: False
+					[1770] image '' url: https://i.scdn.co/image/ab67616d00004851982320da137d0de34410df61
+				[1785] gridcell '2,667,638' required: False
+				[1792] gridcell 'Add to Liked Songs 4:16 More options for Timeless (feat Playboi Carti) by The Weeknd, Playboi Carti' required: False
+					[1793] button 'Add to Liked Songs'
+					[1800] button 'More options for Timeless (feat Playboi Carti) by The Weeknd, Playboi Carti' hasPopup: menu

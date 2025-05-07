@@ -1,0 +1,144 @@
+[7711] RootWebArea 'Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/?query=cat%3Acs.SY&searchtype=all&abstracts=show&order=-announced_date_first&size=50
+	[7794] StaticText 'Skip to main content'
+	[7802] link 'logo' url: https://cornell.edu/
+		[7712] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[7808] StaticText 'We gratefully acknowledge support from'
+	[7810] StaticText 'the Simons Foundation, '
+	[7811] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[7813] StaticText ', and all contributors. '
+	[7814] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[7826] link 'arxiv-logo' url: https://arxiv.org/
+		[7713] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[7722] textbox 'Search term or terms' required: False
+	[7841] link 'Help' url: https://info.arxiv.org/help
+	[7843] StaticText ' | '
+	[7844] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[7723] combobox 'Field to search' hasPopup: menu expanded: False
+	[7904] button 'Search'
+	[7915] navigation 'User menu'
+		[7917] link 'Login' url: https://arxiv.org/login
+	[7923] main ''
+		[7929] heading 'Search'
+		[7939] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[7941] StaticText '\xa0\xa0'
+		[7953] StaticText 'Search term or terms'
+		[7717] textbox 'Search term or terms' required: False
+			[8449] StaticText 'cat:cs.SY'
+		[7718] combobox '' hasPopup: menu expanded: False
+		[7999] button 'Search'
+		[7719] radio ' Show abstracts' checked: true
+		[7720] radio ' Hide abstracts' checked: false
+		[8022] link 'Advanced Search' url: https://arxiv.org/search/advanced?terms-0-term=cat%3Acs.SY&terms-0-field=all&size=50&order=-announced_date_first
+		[8032] StaticText 'Sorry, your query for '
+		[8034] StaticText 'all: cat:cs.SY'
+		[8035] StaticText ' produced no results.'
+		[8037] article ''
+			[8041] heading 'Searching by Author Name'
+			[8050] ListMarker '• '
+			[8051] StaticText 'Using the '
+			[8053] StaticText 'Author(s) field'
+			[8054] StaticText ' produces best results for author name searches.'
+			[8057] ListMarker '• '
+			[8058] StaticText 'For the most precise name search, follow '
+			[8060] StaticText 'surname(s), forename(s)'
+			[8061] StaticText ' or '
+			[8063] StaticText 'surname(s), initial(s)'
+			[8064] StaticText ' pattern: example Hawking, S or Hawking, Stephen'
+			[8067] ListMarker '• '
+			[8068] StaticText 'For best results on multiple author names, '
+			[8069] StaticText 'separate individuals with a ;'
+			[8070] StaticText ' (semicolon). Example: Jin, D S; Ye, J'
+			[8072] ListMarker '• '
+			[8073] StaticText 'Author names enclosed in quotes will return only '
+			[8075] StaticText 'exact matches'
+			[8076] StaticText '. For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.'
+			[8079] ListMarker '• '
+			[8080] StaticText 'Diacritic character variants are automatically searched in the Author(s) field.'
+			[8083] ListMarker '• '
+			[8084] StaticText 'Queries with no punctuation will treat each term independently.'
+		[8089] article ''
+			[8093] heading 'Searching by subcategory'
+			[8102] ListMarker '• '
+			[8103] StaticText 'To search within a subcategory select '
+			[8105] StaticText 'All fields'
+			[8106] StaticText '.'
+			[8109] ListMarker '• '
+			[8110] StaticText 'A subcategory search can be combined with an author or keyword search by clicking on '
+			[8112] StaticText 'add another term'
+			[8113] StaticText ' in advanced search.'
+		[8118] heading 'Tips'
+		[8122] StaticText 'Wildcards:'
+		[8127] ListMarker '• '
+		[8128] StaticText 'Use ? to replace a single character or * to replace any number of characters.'
+		[8131] ListMarker '• '
+		[8132] StaticText 'Can be used in any field, but not in the first character position. See Journal References tips for exceptions.'
+		[8136] StaticText 'Expressions:'
+		[8141] ListMarker '• '
+		[8142] StaticText 'TeX expressions can be searched, enclosed in single $ characters.'
+		[8146] StaticText 'Phrases:'
+		[8151] ListMarker '• '
+		[8152] StaticText 'Enclose phrases in double quotes for exact matches in title, abstract, and comments.'
+		[8156] StaticText 'Dates:'
+		[8161] ListMarker '• '
+		[8162] StaticText 'Sorting by announcement date will use the year and month the '
+		[8163] emphasis ''
+			[8164] StaticText 'original version'
+		[8165] StaticText ' (v1) of the paper was announced.'
+		[8168] ListMarker '• '
+		[8169] StaticText 'Sorting by submission date will use the year, month and day the '
+		[8170] emphasis ''
+			[8171] StaticText 'latest version'
+		[8172] StaticText ' of the paper was submitted.'
+		[8176] StaticText 'Journal References:'
+		[8181] ListMarker '• '
+		[8182] StaticText 'If a journal reference search contains a wildcard, matches will be made using wildcard matching as expected. For example, '
+		[8184] StaticText 'math*'
+		[8185] StaticText ' will match '
+		[8186] emphasis ''
+		[8188] StaticText ', '
+		[8189] emphasis ''
+			[8190] StaticText 'maths'
+		[8192] emphasis ''
+			[8193] StaticText 'mathematics'
+		[8194] StaticText '.'
+		[8197] ListMarker '• '
+		[8198] StaticText 'If a journal reference search does '
+		[8200] StaticText 'not'
+		[8201] StaticText ' contain a wildcard, only exact phrases entered will be matched. For example, '
+		[8203] StaticText 'math'
+		[8204] StaticText ' would match '
+		[8205] emphasis ''
+		[8207] StaticText ' or '
+		[8208] emphasis ''
+			[8209] StaticText 'math and science'
+		[8210] StaticText ' but not '
+		[8211] emphasis ''
+			[8212] StaticText 'maths'
+		[8213] StaticText ' or '
+		[8214] emphasis ''
+			[8215] StaticText 'mathematics'
+		[8216] StaticText '.'
+		[8219] ListMarker '• '
+		[8220] StaticText 'All journal reference searches that do not contain a wildcard are literal searches: a search for '
+		[8222] StaticText 'Physica A'
+		[8223] StaticText ' will match all papers with journal references containing '
+		[8224] emphasis ''
+		[8226] StaticText ', but a search for '
+		[8228] StaticText 'Physica A, 245 (1997) 181'
+		[8229] StaticText ' will only return the paper with journal reference '
+		[8230] emphasis ''
+		[8232] StaticText '.'
+	[8247] contentinfo ''
+		[8249] navigation 'Secondary'
+			[8262] link 'About' url: https://info.arxiv.org/about
+			[8266] link 'Help' url: https://info.arxiv.org/help
+			[8284] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[8297] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[8318] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[8322] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[8332] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[8339] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[8344] StaticText 'Get status notifications via '
+			[8345] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[8349] StaticText ' or '
+			[8350] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

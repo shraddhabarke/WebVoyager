@@ -1,0 +1,64 @@
+[1] RootWebArea 'GitHub · Build and ship software on a single, collaborative platform · GitHub' focused: True url: https://github.com/
+	[314] link 'Skip to content' url: https://github.com/#start-of-content
+	[353] heading 'Navigation Menu'
+	[356] button 'Toggle navigation' expanded: True
+	[368] button 'Toggle navigation' expanded: True
+	[382] link 'Homepage' url: https://github.com/
+	[392] link 'Sign in' url: https://github.com/login
+	[401] navigation 'Global'
+		[407] button 'Product' expanded: False
+		[616] button 'Solutions' expanded: False
+		[739] button 'Resources' expanded: False
+		[847] button 'Open Source' expanded: False
+		[922] button 'Enterprise' expanded: False
+		[1023] link 'Pricing' url: https://github.com/pricing
+	[1035] button 'Search or jump to…' hasPopup: dialog
+		[1046] StaticText 'Search or jump to...'
+	[1062] heading 'Search code, repositories, users, issues, pull requests...'
+	[20] combobox 'Search' focused: True autocomplete: list hasPopup: listbox required: False expanded: True describedby: validation-7906efb9-e966-4b40-85fd-747e80f3d279 controls: query-builder-test-results
+	[1106] StaticText 'Clear'
+	[1187] listbox 'Suggestions' multiselectable: False orientation: vertical required: False
+		[3352] option 'Enterprise, jump to this explore page' selected: False
+			[3353] link 'Enterprise' url: https://github.com/enterprise?ref_loc=search
+		[3361] option 'Security, jump to this explore page' selected: False
+			[3362] link 'Security' url: https://github.com/security?ref_loc=search
+		[3370] option 'Copilot, jump to this explore page' selected: False
+			[3371] link 'Copilot' url: https://github.com/features/copilot?ref_loc=search
+		[3380] option 'Pricing, jump to this explore page' selected: False
+			[3381] link 'Pricing' url: https://github.com/pricing?ref_loc=search
+	[1329] generic '' live: polite atomic: True relevant: additions text
+		[3477] StaticText '4 suggestions.'
+	[1335] link 'Search syntax tips' url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+	[1502] link 'Sign up' url: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+	[1505] button 'Reseting focus'
+	[1562] main ''
+		[1583] StaticText 'Mona the Octocat, Copilot, and Ducky float jubilantly upward from behind the GitHub product demo accompanied by a purple glow and a scattering of stars.'
+		[1585] region 'Build and ship software on a single, collaborative platform'
+			[1589] heading 'Build and ship software on a single, collaborative platform'
+			[1592] StaticText 'Join the world’s most widely adopted AI-powered developer platform.'
+		[18] form 'Create your GitHub account'
+			[1598] StaticText 'Enter your email'
+			[19] textbox 'Enter your email' required: False
+			[1600] button 'Sign up for GitHub'
+		[1604] link 'Try GitHub Copilot' url: https://github.com/features/copilot
+		[1609] heading 'GitHub features'
+		[1612] button 'Pause demo'
+		[1621] StaticText 'A demonstration animation of a code editor using GitHub Copilot Chat, where the user requests GitHub Copilot to refactor duplicated logic and extract it into a reusable function for a given code snippet.'
+		[10] Video ''
+		[1631] tablist '' multiselectable: False orientation: horizontal controls: heroCarouselDescription
+			[1639] tab 'Code' selected: False
+			[1643] tab 'Plan' selected: False
+			[1647] tab 'Collaborate' selected: False
+			[1651] tab 'Automate' selected: False
+			[1655] tab 'Secure' selected: False
+		[1669] paragraph '' live: polite atomic: False relevant: additions text
+			[1670] StaticText 'Build code quickly and more securely with GitHub Copilot embedded throughout your workflows.'
+		[1673] heading 'GitHub is used by'
+		[1690] image 'SAP' url: https://github.githubassets.com/assets/sap-ea7dcd02e37d.svg
+		[1691] image 'Infosys' url: https://github.githubassets.com/assets/infosys-7587455de0bd.svg
+		[1692] image 'Spotify' url: https://github.githubassets.com/assets/spotify-591ecb426c1e.svg
+		[1709] button 'Logo suite animation is currently playing. Click to pause.' pressed: false
+			[1714] StaticText 'Pause'
+		[1724] sectionheader ''
+			[1725] heading 'Accelerate performance'
+		[2404] link 'Back to top' url: https://github.com/#hero

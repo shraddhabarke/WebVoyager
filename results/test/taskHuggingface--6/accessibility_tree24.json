@@ -1,0 +1,1022 @@
+{
+  "1781": {
+    "backend_id": 1781,
+    "union_bound": [
+      0.0,
+      0.0,
+      10.0,
+      10.0
+    ],
+    "text": "[1781] RootWebArea 'sentence-transformers/all-MiniLM-L6-v2 \u00b7 Hugging Face' focused: True url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "2096": {
+    "backend_id": 2096,
+    "union_bound": [
+      0,
+      -3007,
+      993,
+      6457.84375
+    ],
+    "text": "[2096] main ''"
+  },
+  "2616": {
+    "backend_id": 2616,
+    "union_bound": [
+      80.5,
+      18.796875,
+      18,
+      18
+    ],
+    "text": "[2616] button ''"
+  },
+  "2952": {
+    "backend_id": 2952,
+    "union_bound": [
+      128.5,
+      -66.03125,
+      359.0625,
+      168.953125
+    ],
+    "text": "[2952] StaticText 'Our model is intended to be used as a sentence and short paragraph encoder. Given an input text, it outputs a vector which captures the semantic information. The sentence vector may be used for information retrieval, clustering or sentence similarity tasks.'"
+  },
+  "2955": {
+    "backend_id": 2955,
+    "union_bound": [
+      128.5,
+      131.3125,
+      359.734375,
+      51.390625
+    ],
+    "text": "[2955] StaticText 'By default, input text longer than 256 word pieces is truncated.'"
+  },
+  "2957": {
+    "backend_id": 2957,
+    "union_bound": [
+      128.5,
+      224.203125,
+      371.328125,
+      24.734375
+    ],
+    "text": "[2957] heading 'Training procedure'"
+  },
+  "2959": {
+    "backend_id": 2959,
+    "union_bound": [
+      100.5,
+      221.5625,
+      28,
+      30
+    ],
+    "text": "[2959] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#training-procedure"
+  },
+  "2967": {
+    "backend_id": 2967,
+    "union_bound": [
+      128.5,
+      224.203125,
+      151.09375,
+      23
+    ],
+    "text": "[2967] StaticText 'Training procedure'"
+  },
+  "2970": {
+    "backend_id": 2970,
+    "union_bound": [
+      128.5,
+      272.125,
+      371.328125,
+      28.140625
+    ],
+    "text": "[2970] heading 'Pre-training'"
+  },
+  "2972": {
+    "backend_id": 2972,
+    "union_bound": [
+      100.5,
+      271.1875,
+      28,
+      30
+    ],
+    "text": "[2972] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#pre-training"
+  },
+  "2980": {
+    "backend_id": 2980,
+    "union_bound": [
+      128.5,
+      275.125,
+      90.609375,
+      22
+    ],
+    "text": "[2980] StaticText 'Pre-training'"
+  },
+  "2984": {
+    "backend_id": 2984,
+    "union_bound": [
+      128.5,
+      324.0625,
+      156.25,
+      22
+    ],
+    "text": "[2984] StaticText 'We use the pretrained '"
+  },
+  "2985": {
+    "backend_id": 2985,
+    "union_bound": [
+      128.5,
+      324.0625,
+      357.859375,
+      51.390625
+    ],
+    "text": "[2985] link 'nreimers/MiniLM-L6-H384-uncased' url: https://huggingface.co/nreimers/MiniLM-L6-H384-uncased"
+  },
+  "2986": {
+    "backend_id": 2986,
+    "union_bound": [
+      128.5,
+      327.0625,
+      357.859375,
+      47.390625
+    ],
+    "text": "[2986] code ''"
+  },
+  "2989": {
+    "backend_id": 2989,
+    "union_bound": [
+      128.5,
+      327.0625,
+      357.859375,
+      47.390625
+    ],
+    "text": "[2989] StaticText 'nreimers/MiniLM-L6-H384-uncased'"
+  },
+  "2990": {
+    "backend_id": 2990,
+    "union_bound": [
+      128.5,
+      353.453125,
+      346.59375,
+      80.78125
+    ],
+    "text": "[2990] StaticText ' model. Please refer to the model card for more detailed information about the pre-training procedure.'"
+  },
+  "2992": {
+    "backend_id": 2992,
+    "union_bound": [
+      128.5,
+      466.78125,
+      371.328125,
+      28.140625
+    ],
+    "text": "[2992] heading 'Fine-tuning'"
+  },
+  "2994": {
+    "backend_id": 2994,
+    "union_bound": [
+      100.5,
+      465.84375,
+      28,
+      30
+    ],
+    "text": "[2994] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#fine-tuning"
+  },
+  "3002": {
+    "backend_id": 3002,
+    "union_bound": [
+      128.5,
+      469.78125,
+      87.40625,
+      22
+    ],
+    "text": "[3002] StaticText 'Fine-tuning'"
+  },
+  "3006": {
+    "backend_id": 3006,
+    "union_bound": [
+      128.5,
+      518.71875,
+      370.578125,
+      139.5625
+    ],
+    "text": "[3006] StaticText 'We fine-tune the model using a contrastive objective. Formally, we compute the cosine similarity from each possible sentence pairs from the batch. We then apply the cross entropy loss by comparing with true pairs.'"
+  },
+  "3008": {
+    "backend_id": 3008,
+    "union_bound": [
+      128.5,
+      687.859375,
+      371.328125,
+      25.1875
+    ],
+    "text": "[3008] heading 'Hyper parameters'"
+  },
+  "3010": {
+    "backend_id": 3010,
+    "union_bound": [
+      100.5,
+      685.453125,
+      28,
+      30
+    ],
+    "text": "[3010] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#hyper-parameters"
+  },
+  "3018": {
+    "backend_id": 3018,
+    "union_bound": [
+      128.5,
+      688.859375,
+      129.671875,
+      22
+    ],
+    "text": "[3018] StaticText 'Hyper parameters'"
+  },
+  "3022": {
+    "backend_id": 3022,
+    "union_bound": [
+      128.5,
+      735.234375,
+      355.125,
+      198.34375
+    ],
+    "text": "[3022] StaticText 'We trained our model on a TPU v3-8. We train the model during 100k steps using a batch size of 1024 (128 per TPU core). We use a learning rate warm up of 500. The sequence length was limited to 128 tokens. We used the AdamW optimizer with a 2e-5 learning rate. The full training script is accessible in this current repository: '"
+  },
+  "3023": {
+    "backend_id": 3023,
+    "union_bound": [
+      292.390625,
+      914.578125,
+      130,
+      18
+    ],
+    "text": "[3023] code ''"
+  },
+  "3026": {
+    "backend_id": 3026,
+    "union_bound": [
+      294.390625,
+      914.578125,
+      126,
+      18
+    ],
+    "text": "[3026] StaticText 'train_script.py'"
+  },
+  "3027": {
+    "backend_id": 3027,
+    "union_bound": [
+      422.390625,
+      911.578125,
+      4.1875,
+      22
+    ],
+    "text": "[3027] StaticText '.'"
+  },
+  "3029": {
+    "backend_id": 3029,
+    "union_bound": [
+      128.5,
+      963.15625,
+      371.328125,
+      25.1875
+    ],
+    "text": "[3029] heading 'Training data'"
+  },
+  "3031": {
+    "backend_id": 3031,
+    "union_bound": [
+      100.5,
+      960.75,
+      28,
+      30
+    ],
+    "text": "[3031] link '' url: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#training-data"
+  },
+  "3039": {
+    "backend_id": 3039,
+    "union_bound": [
+      128.5,
+      964.15625,
+      94.859375,
+      22
+    ],
+    "text": "[3039] StaticText 'Training data'"
+  },
+  "3043": {
+    "backend_id": 3043,
+    "union_bound": [
+      128.5,
+      1010.53125,
+      359.5,
+      139.5625
+    ],
+    "text": "[3043] StaticText 'We use the concatenation from multiple datasets to fine-tune our model. The total number of sentence pairs is above 1 billion sentences. We sampled each dataset given a weighted probability which configuration is detailed in the '"
+  },
+  "3044": {
+    "backend_id": 3044,
+    "union_bound": [
+      344.1875,
+      1131.09375,
+      138.40625,
+      18
+    ],
+    "text": "[3044] code ''"
+  },
+  "3047": {
+    "backend_id": 3047,
+    "union_bound": [
+      346.1875,
+      1131.09375,
+      134.40625,
+      18
+    ],
+    "text": "[3047] StaticText 'data_config.json'"
+  },
+  "3048": {
+    "backend_id": 3048,
+    "union_bound": [
+      128.5,
+      1157.484375,
+      25.828125,
+      22
+    ],
+    "text": "[3048] StaticText ' file.'"
+  },
+  "3052": {
+    "backend_id": 3052,
+    "union_bound": [
+      128.5,
+      1234.265625,
+      371.328125,
+      2091.1875
+    ],
+    "text": "[3052] table ''"
+  },
+  "3054": {
+    "backend_id": 3054,
+    "union_bound": [
+      129.5,
+      1235.265625,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3054] rowgroup ''"
+  },
+  "3055": {
+    "backend_id": 3055,
+    "union_bound": [
+      129.5,
+      1235.265625,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3055] row ''"
+  },
+  "3057": {
+    "backend_id": 3057,
+    "union_bound": [
+      129.5,
+      1235.265625,
+      161.03125,
+      67.40625
+    ],
+    "text": "[3057] columnheader 'Dataset' required: False"
+  },
+  "3058": {
+    "backend_id": 3058,
+    "union_bound": [
+      185.484375,
+      1258.859375,
+      48.046875,
+      18
+    ],
+    "text": "[3058] StaticText 'Dataset'"
+  },
+  "3060": {
+    "backend_id": 3060,
+    "union_bound": [
+      290.53125,
+      1235.265625,
+      90.328125,
+      67.40625
+    ],
+    "text": "[3060] columnheader 'Paper' required: False"
+  },
+  "3061": {
+    "backend_id": 3061,
+    "union_bound": [
+      316.796875,
+      1258.859375,
+      36.796875,
+      18
+    ],
+    "text": "[3061] StaticText 'Paper'"
+  },
+  "3063": {
+    "backend_id": 3063,
+    "union_bound": [
+      380.859375,
+      1235.265625,
+      117.96875,
+      67.40625
+    ],
+    "text": "[3063] columnheader 'Number of training tuples' required: False"
+  },
+  "3064": {
+    "backend_id": 3064,
+    "union_bound": [
+      393.71875,
+      1246.265625,
+      92.234375,
+      43.203125
+    ],
+    "text": "[3064] StaticText 'Number of training tuples'"
+  },
+  "3068": {
+    "backend_id": 3068,
+    "union_bound": [
+      129.5,
+      1302.671875,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3068] row ''"
+  },
+  "3070": {
+    "backend_id": 3070,
+    "union_bound": [
+      129.5,
+      1302.671875,
+      161.03125,
+      67.40625
+    ],
+    "text": "[3070] cell 'Reddit comments (2015-2018)'"
+  },
+  "3071": {
+    "backend_id": 3071,
+    "union_bound": [
+      137.5,
+      1313.671875,
+      108.328125,
+      43.203125
+    ],
+    "text": "[3071] link 'Reddit comments (2015-2018)' url: https://github.com/PolyAI-LDN/conversational-datasets/tree/master/reddit"
+  },
+  "3072": {
+    "backend_id": 3072,
+    "union_bound": [
+      137.5,
+      1313.671875,
+      108.328125,
+      43.203125
+    ],
+    "text": "[3072] StaticText 'Reddit comments (2015-2018)'"
+  },
+  "3074": {
+    "backend_id": 3074,
+    "union_bound": [
+      290.53125,
+      1302.671875,
+      90.328125,
+      67.40625
+    ],
+    "text": "[3074] cell 'paper'"
+  },
+  "3075": {
+    "backend_id": 3075,
+    "union_bound": [
+      317.25,
+      1313.671875,
+      35.890625,
+      18
+    ],
+    "text": "[3075] link 'paper' url: https://arxiv.org/abs/1904.06472"
+  },
+  "3076": {
+    "backend_id": 3076,
+    "union_bound": [
+      317.25,
+      1313.671875,
+      35.890625,
+      18
+    ],
+    "text": "[3076] StaticText 'paper'"
+  },
+  "3078": {
+    "backend_id": 3078,
+    "union_bound": [
+      380.859375,
+      1302.671875,
+      117.96875,
+      67.40625
+    ],
+    "text": "[3078] cell '726,484,430'"
+  },
+  "3079": {
+    "backend_id": 3079,
+    "union_bound": [
+      403.328125,
+      1313.671875,
+      73.03125,
+      18
+    ],
+    "text": "[3079] StaticText '726,484,430'"
+  },
+  "3082": {
+    "backend_id": 3082,
+    "union_bound": [
+      129.5,
+      1370.078125,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3082] row ''"
+  },
+  "3084": {
+    "backend_id": 3084,
+    "union_bound": [
+      129.5,
+      1370.078125,
+      161.03125,
+      67.40625
+    ],
+    "text": "[3084] cell 'S2ORC Citation pairs (Abstracts)'"
+  },
+  "3085": {
+    "backend_id": 3085,
+    "union_bound": [
+      137.5,
+      1381.078125,
+      41.65625,
+      18
+    ],
+    "text": "[3085] link 'S2ORC' url: https://github.com/allenai/s2orc"
+  },
+  "3086": {
+    "backend_id": 3086,
+    "union_bound": [
+      137.5,
+      1381.078125,
+      41.65625,
+      18
+    ],
+    "text": "[3086] StaticText 'S2ORC'"
+  },
+  "3087": {
+    "backend_id": 3087,
+    "union_bound": [
+      137.5,
+      1381.078125,
+      126.125,
+      43.203125
+    ],
+    "text": "[3087] StaticText ' Citation pairs (Abstracts)'"
+  },
+  "3089": {
+    "backend_id": 3089,
+    "union_bound": [
+      290.53125,
+      1370.078125,
+      90.328125,
+      67.40625
+    ],
+    "text": "[3089] cell 'paper'"
+  },
+  "3090": {
+    "backend_id": 3090,
+    "union_bound": [
+      317.25,
+      1381.078125,
+      35.890625,
+      18
+    ],
+    "text": "[3090] link 'paper' url: https://aclanthology.org/2020.acl-main.447/"
+  },
+  "3091": {
+    "backend_id": 3091,
+    "union_bound": [
+      317.25,
+      1381.078125,
+      35.890625,
+      18
+    ],
+    "text": "[3091] StaticText 'paper'"
+  },
+  "3093": {
+    "backend_id": 3093,
+    "union_bound": [
+      380.859375,
+      1370.078125,
+      117.96875,
+      67.40625
+    ],
+    "text": "[3093] cell '116,288,806'"
+  },
+  "3094": {
+    "backend_id": 3094,
+    "union_bound": [
+      403.328125,
+      1381.078125,
+      73.03125,
+      18
+    ],
+    "text": "[3094] StaticText '116,288,806'"
+  },
+  "3097": {
+    "backend_id": 3097,
+    "union_bound": [
+      129.5,
+      1437.484375,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3097] row ''"
+  },
+  "3099": {
+    "backend_id": 3099,
+    "union_bound": [
+      129.5,
+      1437.484375,
+      161.03125,
+      67.40625
+    ],
+    "text": "[3099] cell 'WikiAnswers Duplicate question pairs'"
+  },
+  "3100": {
+    "backend_id": 3100,
+    "union_bound": [
+      137.5,
+      1448.484375,
+      77.203125,
+      18
+    ],
+    "text": "[3100] link 'WikiAnswers' url: https://github.com/afader/oqa#wikianswers-corpus"
+  },
+  "3101": {
+    "backend_id": 3101,
+    "union_bound": [
+      137.5,
+      1448.484375,
+      77.203125,
+      18
+    ],
+    "text": "[3101] StaticText 'WikiAnswers'"
+  },
+  "3102": {
+    "backend_id": 3102,
+    "union_bound": [
+      137.5,
+      1448.484375,
+      138.484375,
+      43.203125
+    ],
+    "text": "[3102] StaticText ' Duplicate question pairs'"
+  },
+  "3104": {
+    "backend_id": 3104,
+    "union_bound": [
+      290.53125,
+      1437.484375,
+      90.328125,
+      67.40625
+    ],
+    "text": "[3104] cell 'paper'"
+  },
+  "3105": {
+    "backend_id": 3105,
+    "union_bound": [
+      317.25,
+      1448.484375,
+      35.890625,
+      18
+    ],
+    "text": "[3105] link 'paper' url: https://doi.org/10.1145/2623330.2623677"
+  },
+  "3106": {
+    "backend_id": 3106,
+    "union_bound": [
+      317.25,
+      1448.484375,
+      35.890625,
+      18
+    ],
+    "text": "[3106] StaticText 'paper'"
+  },
+  "3108": {
+    "backend_id": 3108,
+    "union_bound": [
+      380.859375,
+      1437.484375,
+      117.96875,
+      67.40625
+    ],
+    "text": "[3108] cell '77,427,422'"
+  },
+  "3109": {
+    "backend_id": 3109,
+    "union_bound": [
+      406.96875,
+      1448.484375,
+      65.734375,
+      18
+    ],
+    "text": "[3109] StaticText '77,427,422'"
+  },
+  "3112": {
+    "backend_id": 3112,
+    "union_bound": [
+      129.5,
+      1504.890625,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3112] row ''"
+  },
+  "3114": {
+    "backend_id": 3114,
+    "union_bound": [
+      129.5,
+      1504.890625,
+      161.03125,
+      67.40625
+    ],
+    "text": "[3114] cell 'PAQ (Question, Answer) pairs'"
+  },
+  "3115": {
+    "backend_id": 3115,
+    "union_bound": [
+      137.5,
+      1515.890625,
+      25.1875,
+      18
+    ],
+    "text": "[3115] link 'PAQ' url: https://github.com/facebookresearch/PAQ"
+  },
+  "3116": {
+    "backend_id": 3116,
+    "union_bound": [
+      137.5,
+      1515.890625,
+      25.1875,
+      18
+    ],
+    "text": "[3116] StaticText 'PAQ'"
+  },
+  "3117": {
+    "backend_id": 3117,
+    "union_bound": [
+      137.5,
+      1515.890625,
+      91.71875,
+      43.203125
+    ],
+    "text": "[3117] StaticText ' (Question, Answer) pairs'"
+  },
+  "3119": {
+    "backend_id": 3119,
+    "union_bound": [
+      290.53125,
+      1504.890625,
+      90.328125,
+      67.40625
+    ],
+    "text": "[3119] cell 'paper'"
+  },
+  "3120": {
+    "backend_id": 3120,
+    "union_bound": [
+      317.25,
+      1515.890625,
+      35.890625,
+      18
+    ],
+    "text": "[3120] link 'paper' url: https://arxiv.org/abs/2102.07033"
+  },
+  "3121": {
+    "backend_id": 3121,
+    "union_bound": [
+      317.25,
+      1515.890625,
+      35.890625,
+      18
+    ],
+    "text": "[3121] StaticText 'paper'"
+  },
+  "3123": {
+    "backend_id": 3123,
+    "union_bound": [
+      380.859375,
+      1504.890625,
+      117.96875,
+      67.40625
+    ],
+    "text": "[3123] cell '64,371,441'"
+  },
+  "3124": {
+    "backend_id": 3124,
+    "union_bound": [
+      406.96875,
+      1515.890625,
+      65.734375,
+      18
+    ],
+    "text": "[3124] StaticText '64,371,441'"
+  },
+  "3127": {
+    "backend_id": 3127,
+    "union_bound": [
+      129.5,
+      1572.296875,
+      369.328125,
+      67.40625
+    ],
+    "text": "[3127] row ''"
+  },
+  "3129": {
+    "backend_id": 3129,
+    "union_bound": [
+      129.5,
+      1572.296875,
+      161.03125,
+      67.40625
+    ],
+    "text": "[3129] cell 'S2ORC Citation pairs (Titles)'"
+  },
+  "3130": {
+    "backend_id": 3130,
+    "union_bound": [
+      137.5,
+      1583.296875,
+      41.65625,
+      18
+    ],
+    "text": "[3130] link 'S2ORC' url: https://github.com/allenai/s2orc"
+  },
+  "3131": {
+    "backend_id": 3131,
+    "union_bound": [
+      137.5,
+      1583.296875,
+      41.65625,
+      18
+    ],
+    "text": "[3131] StaticText 'S2ORC'"
+  },
+  "3132": {
+    "backend_id": 3132,
+    "union_bound": [
+      137.5,
+      1583.296875,
+      126.125,
+      43.203125
+    ],
+    "text": "[3132] StaticText ' Citation pairs (Titles)'"
+  },
+  "3134": {
+    "backend_id": 3134,
+    "union_bound": [
+      290.53125,
+      1572.296875,
+      90.328125,
+      67.40625
+    ],
+    "text": "[3134] cell 'paper'"
+  },
+  "3135": {
+    "backend_id": 3135,
+    "union_bound": [
+      317.25,
+      1583.296875,
+      35.890625,
+      18
+    ],
+    "text": "[3135] link 'paper' url: https://aclanthology.org/2020.acl-main.447/"
+  },
+  "3136": {
+    "backend_id": 3136,
+    "union_bound": [
+      317.25,
+      1583.296875,
+      35.890625,
+      18
+    ],
+    "text": "[3136] StaticText 'paper'"
+  },
+  "3138": {
+    "backend_id": 3138,
+    "union_bound": [
+      380.859375,
+      1572.296875,
+      117.96875,
+      67.40625
+    ],
+    "text": "[3138] cell '52,603,982'"
+  },
+  "3139": {
+    "backend_id": 3139,
+    "union_bound": [
+      406.96875,
+      1583.296875,
+      65.734375,
+      18
+    ],
+    "text": "[3139] StaticText '52,603,982'"
+  },
+  "3142": {
+    "backend_id": 3142,
+    "union_bound": [
+      129.5,
+      1639.703125,
+      369.328125,
+      42.203125
+    ],
+    "text": "[3142] row ''"
+  },
+  "3144": {
+    "backend_id": 3144,
+    "union_bound": [
+      129.5,
+      1639.703125,
+      161.03125,
+      42.203125
+    ],
+    "text": "[3144] cell 'S2ORC (Title, Abstract)'"
+  },
+  "3145": {
+    "backend_id": 3145,
+    "union_bound": [
+      137.5,
+      1650.703125,
+      41.65625,
+      18
+    ],
+    "text": "[3145] link 'S2ORC' url: https://github.com/allenai/s2orc"
+  },
+  "3146": {
+    "backend_id": 3146,
+    "union_bound": [
+      137.5,
+      1650.703125,
+      41.65625,
+      18
+    ],
+    "text": "[3146] StaticText 'S2ORC'"
+  },
+  "3147": {
+    "backend_id": 3147,
+    "union_bound": [
+      179.15625,
+      1650.703125,
+      96.53125,
+      18
+    ],
+    "text": "[3147] StaticText ' (Title, Abstract)'"
+  },
+  "3149": {
+    "backend_id": 3149,
+    "union_bound": [
+      290.53125,
+      1639.703125,
+      90.328125,
+      42.203125
+    ],
+    "text": "[3149] cell 'paper'"
+  },
+  "3150": {
+    "backend_id": 3150,
+    "union_bound": [
+      317.25,
+      1650.703125,
+      35.890625,
+      18
+    ],
+    "text": "[3150] link 'paper' url: https://aclanthology.org/2020.acl-main.447/"
+  },
+  "3151": {
+    "backend_id": 3151,
+    "union_bound": [
+      317.25,
+      1650.703125,
+      35.890625,
+      18
+    ],
+    "text": "[3151] StaticText 'paper'"
+  },
+  "3153": {
+    "backend_id": 3153,
+    "union_bound": [
+      380.859375,
+      1639.703125,
+      117.96875,
+      42.203125
+    ],
+    "text": "[3153] cell '41,769,185'"
+  },
+  "3154": {
+    "backend_id": 3154,
+    "union_bound": [
+      406.96875,
+      1650.703125,
+      65.734375,
+      18
+    ],
+    "text": "[3154] StaticText '41,769,185'"
+  }
+}

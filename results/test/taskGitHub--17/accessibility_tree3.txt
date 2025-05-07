@@ -1,0 +1,62 @@
+[1] RootWebArea 'GitHub · Build and ship software on a single, collaborative platform · GitHub' focused: True url: https://github.com/
+	[314] link 'Skip to content' url: https://github.com/#start-of-content
+	[353] heading 'Navigation Menu'
+	[356] button 'Toggle navigation' expanded: True
+	[368] button 'Toggle navigation' expanded: True
+	[382] link 'Homepage' url: https://github.com/
+	[392] link 'Sign in' url: https://github.com/login
+	[401] navigation 'Global'
+		[407] button 'Product' expanded: False
+		[615] button 'Solutions' expanded: False
+		[738] button 'Resources' expanded: False
+		[846] button 'Open Source' expanded: False
+		[921] button 'Enterprise' expanded: False
+		[1022] link 'Pricing' url: https://github.com/pricing
+	[1034] button 'Search or jump to…' hasPopup: dialog
+		[1045] StaticText 'Search or jump to...'
+	[1061] heading 'Search code, repositories, users, issues, pull requests...'
+	[5] combobox 'Search' focused: True autocomplete: list hasPopup: listbox required: False expanded: True describedby: validation-de5f3579-f30f-4cf3-ab73-2a6de84204e1 controls: query-builder-test-results
+	[1105] StaticText 'Clear'
+	[1186] listbox 'Suggestions' multiselectable: False orientation: vertical required: False
+		[3352] option 'Enterprise, jump to this explore page' selected: False
+			[3353] link 'Enterprise' url: https://github.com/enterprise?ref_loc=search
+		[3361] option 'Security, jump to this explore page' selected: False
+			[3362] link 'Security' url: https://github.com/security?ref_loc=search
+		[3370] option 'Copilot, jump to this explore page' selected: False
+			[3371] link 'Copilot' url: https://github.com/features/copilot?ref_loc=search
+		[3380] option 'Pricing, jump to this explore page' selected: False
+			[3381] link 'Pricing' url: https://github.com/pricing?ref_loc=search
+	[1328] generic '' live: polite atomic: True relevant: additions text
+		[3477] StaticText '4 suggestions.\xa0'
+	[1334] link 'Search syntax tips' url: https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+	[1501] link 'Sign up' url: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+	[1504] button 'Reseting focus'
+	[1561] main ''
+		[1581] StaticText 'Mona the Octocat, Copilot, and Ducky float jubilantly upward from behind the GitHub product demo accompanied by a purple glow and a scattering of stars.'
+		[1583] region 'Build and ship software on a single, collaborative platform'
+			[1587] heading 'Build and ship software on a single, collaborative platform'
+			[1590] StaticText 'Join the world’s most widely adopted AI-powered developer platform.'
+		[3] form 'Create your GitHub account'
+			[1596] StaticText 'Enter your email'
+			[4] textbox 'Enter your email' required: False
+			[15] button 'Sign up for GitHub'
+		[1601] link 'Try GitHub Copilot' url: https://github.com/features/copilot
+		[1606] heading 'GitHub features'
+		[1609] button 'Pause demo'
+		[1618] StaticText 'A demonstration animation of a code editor using GitHub Copilot Chat, where the user requests GitHub Copilot to refactor duplicated logic and extract it into a reusable function for a given code snippet.'
+		[22] Video ''
+		[1628] tablist '' multiselectable: False orientation: horizontal controls: heroCarouselDescription
+			[1636] tab 'Code' selected: False
+			[1640] tab 'Plan' selected: False
+			[1644] tab 'Collaborate' selected: False
+			[1648] tab 'Automate' selected: False
+			[1652] tab 'Secure' selected: False
+		[1666] paragraph '' live: polite atomic: False relevant: additions text
+			[1667] StaticText 'Build code quickly and more securely with GitHub Copilot embedded throughout your workflows.'
+		[1670] heading 'GitHub is used by'
+		[1689] image 'Spotify' url: https://github.githubassets.com/assets/spotify-591ecb426c1e.svg
+		[1706] button 'Logo suite animation is currently playing. Click to pause.' pressed: false
+			[1711] StaticText 'Pause'
+		[1721] sectionheader ''
+			[1722] heading 'Accelerate performance'
+		[2403] link 'Back to top' url: https://github.com/#hero

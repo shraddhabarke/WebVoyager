@@ -1,0 +1,257 @@
+[1575] RootWebArea 'Models - Hugging Face' focused: True url: https://huggingface.co/models
+	[1708] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1576] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1584] textbox 'Search models, datasets, users...' required: False
+	[1581] button ''
+	[1803] main ''
+		[1807] heading 'Edit Models filters'
+		[1812] button ''
+		[1818] button 'Tasks'
+		[1823] button 'Libraries'
+		[1828] button 'Datasets'
+		[1833] button 'Languages'
+		[1838] button 'Licenses'
+		[1843] button 'Other'
+		[1585] textbox 'Filter Tasks by name' required: False
+		[1859] StaticText 'Multimodal'
+		[1863] link 'Audio-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=audio-text-to-text
+		[1877] link 'Image-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=image-text-to-text
+		[1893] link 'Visual Question Answering' url: https://huggingface.co/models?pipeline_tag=visual-question-answering
+		[1908] link 'Document Question Answering' url: https://huggingface.co/models?pipeline_tag=document-question-answering
+			[1911] image ''
+		[1923] link 'Video-Text-to-Text' url: https://huggingface.co/models?pipeline_tag=video-text-to-text
+		[1938] link 'Visual Document Retrieval' url: https://huggingface.co/models?pipeline_tag=visual-document-retrieval
+		[1954] link 'Any-to-Any' url: https://huggingface.co/models?pipeline_tag=any-to-any
+		[1972] StaticText 'Computer Vision'
+		[1976] link 'Depth Estimation' url: https://huggingface.co/models?pipeline_tag=depth-estimation
+			[1979] image ''
+		[1990] link 'Image Classification' url: https://huggingface.co/models?pipeline_tag=image-classification
+		[2006] link 'Object Detection' url: https://huggingface.co/models?pipeline_tag=object-detection
+		[2022] link 'Image Segmentation' url: https://huggingface.co/models?pipeline_tag=image-segmentation
+		[2037] link 'Text-to-Image' url: https://huggingface.co/models?pipeline_tag=text-to-image
+		[2053] link 'Image-to-Text' url: https://huggingface.co/models?pipeline_tag=image-to-text
+		[2069] link 'Image-to-Image' url: https://huggingface.co/models?pipeline_tag=image-to-image
+		[2084] link 'Image-to-Video' url: https://huggingface.co/models?pipeline_tag=image-to-video
+			[2087] image ''
+		[2098] link 'Unconditional Image Generation' url: https://huggingface.co/models?pipeline_tag=unconditional-image-generation
+		[2113] link 'Video Classification' url: https://huggingface.co/models?pipeline_tag=video-classification
+		[2127] link 'Text-to-Video' url: https://huggingface.co/models?pipeline_tag=text-to-video
+		[2141] link 'Zero-Shot Image Classification' url: https://huggingface.co/models?pipeline_tag=zero-shot-image-classification
+		[2157] link 'Mask Generation' url: https://huggingface.co/models?pipeline_tag=mask-generation
+		[2171] link 'Zero-Shot Object Detection' url: https://huggingface.co/models?pipeline_tag=zero-shot-object-detection
+		[2186] link 'Text-to-3D' url: https://huggingface.co/models?pipeline_tag=text-to-3d
+		[2201] link 'Image-to-3D' url: https://huggingface.co/models?pipeline_tag=image-to-3d
+		[2219] link 'Image Feature Extraction' url: https://huggingface.co/models?pipeline_tag=image-feature-extraction
+		[2233] link 'Keypoint Detection' url: https://huggingface.co/models?pipeline_tag=keypoint-detection
+		[2251] StaticText 'Natural Language Processing'
+		[2255] link 'Text Classification' url: https://huggingface.co/models?pipeline_tag=text-classification
+		[2282] link 'Token Classification' url: https://huggingface.co/models?pipeline_tag=token-classification
+		[2302] link 'Table Question Answering' url: https://huggingface.co/models?pipeline_tag=table-question-answering
+		[2316] link 'Question Answering' url: https://huggingface.co/models?pipeline_tag=question-answering
+			[2319] image ''
+		[2333] link 'Zero-Shot Classification' url: https://huggingface.co/models?pipeline_tag=zero-shot-classification
+		[2357] link 'Translation' url: https://huggingface.co/models?pipeline_tag=translation
+		[2372] link 'Summarization' url: https://huggingface.co/models?pipeline_tag=summarization
+		[2387] link 'Feature Extraction' url: https://huggingface.co/models?pipeline_tag=feature-extraction
+		[2401] link 'Text Generation' url: https://huggingface.co/models?pipeline_tag=text-generation
+		[2417] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+		[2433] link 'Fill-Mask' url: https://huggingface.co/models?pipeline_tag=fill-mask
+		[2449] link 'Sentence Similarity' url: https://huggingface.co/models?pipeline_tag=sentence-similarity
+		[2467] link 'Text Ranking' url: https://huggingface.co/models?pipeline_tag=text-ranking
+			[2470] image ''
+		[2488] StaticText 'Audio'
+		[2492] link 'Text-to-Speech' url: https://huggingface.co/models?pipeline_tag=text-to-speech
+		[2506] link 'Text-to-Audio' url: https://huggingface.co/models?pipeline_tag=text-to-audio
+		[2520] link 'Automatic Speech Recognition' url: https://huggingface.co/models?pipeline_tag=automatic-speech-recognition
+		[2534] link 'Audio-to-Audio' url: https://huggingface.co/models?pipeline_tag=audio-to-audio
+		[2548] link 'Audio Classification' url: https://huggingface.co/models?pipeline_tag=audio-classification
+		[2562] link 'Voice Activity Detection' url: https://huggingface.co/models?pipeline_tag=voice-activity-detection
+		[2580] StaticText 'Tabular'
+		[2584] link 'Tabular Classification' url: https://huggingface.co/models?pipeline_tag=tabular-classification
+		[2598] link 'Tabular Regression' url: https://huggingface.co/models?pipeline_tag=tabular-regression
+		[2612] link 'Time Series Forecasting' url: https://huggingface.co/models?pipeline_tag=time-series-forecasting
+		[2630] StaticText 'Reinforcement Learning'
+		[2634] link 'Reinforcement Learning' url: https://huggingface.co/models?pipeline_tag=reinforcement-learning
+		[2649] link 'Robotics' url: https://huggingface.co/models?pipeline_tag=robotics
+		[2667] StaticText 'Other'
+		[2671] link 'Graph Machine Learning' url: https://huggingface.co/models?pipeline_tag=graph-ml
+		[2693] button 'Apply filters'
+		[2701] heading 'Models'
+		[2705] StaticText '1,658,348'
+		[1586] searchbox 'Filter by name'
+		[2716] link 'Full-text search' url: https://huggingface.co/search/full-text?type=model
+		[2720] button 'Add filters' focused: True
+		[2728] button 'Sort:\xa0 Trending'
+		[2741] article ''
+			[2742] link 'Text Generation • Updated 3 days ago • 28.6k • • 634' url: https://huggingface.co/Qwen/Qwen3-235B-A22B
+				[2744] sectionheader ''
+					[2748] heading 'Qwen/Qwen3-235B-A22B'
+				[2768] time 'Thu, 01 May 2025 00:52:38 GMT'
+					[2769] StaticText '3 days ago'
+				[2773] StaticText '•'
+				[2778] StaticText '28.6k'
+				[2794] StaticText '634'
+		[2799] article ''
+			[2800] link 'Text Generation • Updated 3 days ago • 1.71k • • 618' url: https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B
+				[2802] sectionheader ''
+					[2806] heading 'deepseek-ai/DeepSeek-Prover-V2-671B'
+				[2826] time 'Wed, 30 Apr 2025 15:57:41 GMT'
+					[2827] StaticText '3 days ago'
+				[2831] StaticText '•'
+				[2836] StaticText '1.71k'
+				[2852] StaticText '618'
+		[2857] article ''
+			[1588] link 'Text-to-Speech • Updated 7 days ago • 108k • • 1.76k' url: https://huggingface.co/nari-labs/Dia-1.6B
+				[2859] sectionheader ''
+					[2863] heading 'nari-labs/Dia-1.6B'
+				[2881] time 'Sun, 27 Apr 2025 02:28:47 GMT'
+					[2882] StaticText '7 days ago'
+				[2886] StaticText '•'
+				[2891] StaticText '108k'
+				[2907] StaticText '1.76k'
+		[2912] article ''
+			[2913] link 'Text Generation • Updated 4 days ago • 39.8k • • 424' url: https://huggingface.co/Qwen/Qwen3-30B-A3B
+				[2915] sectionheader ''
+					[2919] heading 'Qwen/Qwen3-30B-A3B'
+				[2939] time 'Wed, 30 Apr 2025 04:50:57 GMT'
+					[2940] StaticText '4 days ago'
+				[2944] StaticText '•'
+				[2949] StaticText '39.8k'
+				[2965] StaticText '424'
+		[2970] article ''
+			[2971] link 'Text Generation • Updated 5 days ago • 73k • • 261' url: https://huggingface.co/Qwen/Qwen3-32B
+				[2973] sectionheader ''
+					[2977] heading 'Qwen/Qwen3-32B'
+				[2997] time 'Tue, 29 Apr 2025 08:52:30 GMT'
+					[2998] StaticText '5 days ago'
+				[3002] StaticText '•'
+				[3007] StaticText '73k'
+				[3023] StaticText '261'
+		[3028] article ''
+			[3029] link 'Text Generation • Updated 1 day ago • 2.17k • 211' url: https://huggingface.co/tngtech/DeepSeek-R1T-Chimera
+				[1589] sectionheader ''
+					[3034] heading 'tngtech/DeepSeek-R1T-Chimera'
+				[3054] time 'Fri, 02 May 2025 18:34:24 GMT'
+					[3055] StaticText '1 day ago'
+				[3059] StaticText '•'
+				[3064] StaticText '2.17k'
+				[3074] StaticText '211'
+		[3079] article ''
+			[3080] link 'Text-to-Speech • Updated 5 days ago • 3.09k • 274' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
+				[3082] sectionheader ''
+					[3086] heading 'moonshotai/Kimi-Audio-7B-Instruct'
+				[3104] time 'Mon, 28 Apr 2025 14:27:29 GMT'
+					[3105] StaticText '5 days ago'
+				[3109] StaticText '•'
+				[3114] StaticText '3.09k'
+				[3124] StaticText '274'
+		[3129] article ''
+			[3130] link 'Text Generation • Updated 5 days ago • 74.7k • 201' url: https://huggingface.co/Qwen/Qwen3-8B
+				[3132] sectionheader ''
+					[3136] heading 'Qwen/Qwen3-8B'
+				[3156] time 'Tue, 29 Apr 2025 08:54:04 GMT'
+					[3157] StaticText '5 days ago'
+				[3161] StaticText '•'
+				[3166] StaticText '74.7k'
+				[3176] StaticText '201'
+		[3181] article ''
+			[3182] link 'Updated 4 days ago • 1.92k • 189' url: https://huggingface.co/XiaomiMiMo/MiMo-7B-RL
+				[3184] sectionheader ''
+					[3188] heading 'XiaomiMiMo/MiMo-7B-RL'
+				[3198] time 'Wed, 30 Apr 2025 00:37:14 GMT'
+					[3199] StaticText '4 days ago'
+				[3203] StaticText '•'
+				[3208] StaticText '1.92k'
+				[3218] StaticText '189'
+		[3223] article ''
+			[3224] link 'Text Generation • Updated 3 days ago • 431 • 183' url: https://huggingface.co/JetBrains/Mellum-4b-base
+				[3226] sectionheader ''
+					[3230] heading 'JetBrains/Mellum-4b-base'
+				[3250] time 'Wed, 30 Apr 2025 11:02:58 GMT'
+					[3251] StaticText '3 days ago'
+				[3255] StaticText '•'
+				[3260] StaticText '431'
+				[3270] StaticText '183'
+		[3275] article ''
+			[3276] link 'Text Generation • Updated 5 days ago • 63.7k • 176' url: https://huggingface.co/Qwen/Qwen3-0.6B
+				[3278] sectionheader ''
+					[3282] heading 'Qwen/Qwen3-0.6B'
+				[3302] time 'Tue, 29 Apr 2025 08:56:31 GMT'
+					[3303] StaticText '5 days ago'
+				[3307] StaticText '•'
+				[3312] StaticText '63.7k'
+				[3322] StaticText '176'
+		[3327] article ''
+			[3328] link 'Image-to-Image • Updated 7 days ago • • 233' url: https://huggingface.co/stepfun-ai/Step1X-Edit
+				[3330] sectionheader ''
+					[3334] heading 'stepfun-ai/Step1X-Edit'
+				[3353] time 'Sun, 27 Apr 2025 05:55:42 GMT'
+					[3354] StaticText '7 days ago'
+				[3359] StaticText '•'
+				[3372] StaticText '233'
+		[3377] article ''
+			[3378] link 'Text Generation • Updated 1 day ago • 1.67k • 156' url: https://huggingface.co/microsoft/Phi-4-reasoning-plus
+				[3380] sectionheader ''
+					[3384] heading 'microsoft/Phi-4-reasoning-plus'
+				[3404] time 'Fri, 02 May 2025 22:10:21 GMT'
+					[3405] StaticText '1 day ago'
+				[3409] StaticText '•'
+				[3414] StaticText '1.67k'
+				[3424] StaticText '156'
+		[3429] article ''
+			[3430] link 'Any-to-Any • Updated 4 days ago • 2.2k • 149' url: https://huggingface.co/Qwen/Qwen2.5-Omni-3B
+				[3432] sectionheader ''
+					[3436] heading 'Qwen/Qwen2.5-Omni-3B'
+				[3454] time 'Wed, 30 Apr 2025 04:01:19 GMT'
+					[3455] StaticText '4 days ago'
+				[3459] StaticText '•'
+				[3464] StaticText '2.2k'
+				[3474] StaticText '149'
+		[3479] article ''
+			[3480] link 'Text Generation • Updated 5 days ago • 78.7k • 142' url: https://huggingface.co/Qwen/Qwen3-4B
+				[3482] sectionheader ''
+					[3486] heading 'Qwen/Qwen3-4B'
+				[3506] time 'Tue, 29 Apr 2025 08:54:46 GMT'
+					[3507] StaticText '5 days ago'
+				[3511] StaticText '•'
+				[3516] StaticText '78.7k'
+				[3526] StaticText '142'
+		[3531] article ''
+			[3532] link 'Text Generation • Updated 3 days ago • 43.3k • 923' url: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
+				[3534] sectionheader ''
+					[3538] heading 'microsoft/bitnet-b1.58-2B-4T'
+				[3558] time 'Thu, 01 May 2025 05:21:59 GMT'
+					[3559] StaticText '3 days ago'
+				[3563] StaticText '•'
+				[3568] StaticText '43.3k'
+				[3578] StaticText '923'
+		[3583] article ''
+			[3584] link 'Image-to-Video • Updated 4 days ago • 529' url: https://huggingface.co/sand-ai/MAGI-1
+				[3586] sectionheader ''
+					[3590] heading 'sand-ai/MAGI-1'
+				[3596] image ''
+				[3600] StaticText 'Image-to-Video'
+				[3603] StaticText '•'
+				[3607] StaticText 'Updated '
+				[3608] time 'Wed, 30 Apr 2025 09:03:24 GMT'
+					[3609] StaticText '4 days ago'
+				[3616] StaticText '•'
+				[3621] StaticText '529'
+		[3626] article ''
+			[3627] link 'Text Generation • Updated 1 day ago • 1.37k • 120' url: https://huggingface.co/microsoft/Phi-4-reasoning
+				[3629] sectionheader ''
+					[3633] heading 'microsoft/Phi-4-reasoning'
+				[3653] time 'Fri, 02 May 2025 22:09:17 GMT'
+					[3654] StaticText '1 day ago'
+				[3658] StaticText '•'
+				[3663] StaticText '1.37k'
+				[3673] StaticText '120'
+		[3678] article ''
+			[3679] link 'Text Generation • Updated 1 day ago • 137k • 118' url: https://huggingface.co/unsloth/Qwen3-30B-A3B-GGUF
+				[3681] sectionheader ''
+					[3685] heading 'unsloth/Qwen3-30B-A3B-GGUF'
+				[3705] time 'Fri, 02 May 2025 14:21:15 GMT'
+					[3706] StaticText '1 day ago'
+				[3710] StaticText '•'
+				[3715] StaticText '137k'
+				[3725] StaticText '118'

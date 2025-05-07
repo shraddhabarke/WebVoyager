@@ -2,5 +2,245 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Find 5 places that serve burgers near 44012 zip code and sort these 5 places by highest rating.  Please interact with https://www.google.com/maps/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to search Google Maps for \"burgers near 44012\" to get list of burger places and ratings.\nAction: Type [2]; burgers near 44012"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Want to open the Rating filter/sort menu to view results sorted by rating.\nAction: Click [1055]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Close the Rating filter menu so we can scroll the results list to find more high‑rated places.\nAction: Click [1055]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Close the Rating dropdown so that I can scroll the results list to find additional places.\nAction: Click [1055]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reveal more results; scroll results feed down to find additional burger places.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The Rating filter menu is still open, preventing the results list from scrolling; close it by clicking the “Rating” button again.\nAction: Click [1055]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Select the feed area to close the open Rating filter dropdown so we can scroll through the results list.\nAction: Click [1099]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to view additional burger places to collect at least five; scroll the results list further.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll further to load more burger places below current list so we have at least five candidates.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to move farther down in the results list to reveal more restaurants; try scrolling the page (window) instead of feed element.\nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more burger places; scroll results list further down.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reveal more burger places; keep scrolling the results feed downward.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To view additional burger places beyond current list, click the “Next page” button to load more results.\nAction: Click [51]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reveal additional burger places below the currently visible list; scroll down within the results feed.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to scroll further within the results feed to reveal more places down the list so we can capture a fifth establishment.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Still need at least one more restaurant entry; keep scrolling down inside results list to load additional entries.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to load more restaurant entries—the list hasn’t moved yet; try scrolling further down within the results feed.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Fewer than five establishments are visible; scroll the results list further to load additional burger places below the current entries.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to load additional results; the “Next page” button [51] should bring more burger places.\nAction: Click [51]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reveal more burger places further down; keep scrolling results feed downward.\nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need one more burger place; open previous page of results to obtain additional restaurant.\nAction: Click [1922]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to reach additional burger listings below the current visible set in the results feed; try scrolling the feed further down.  \nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To load more burger places, open the next page of results.  \nAction: Click [1926]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more burger places; try scrolling down in the window to load additional listings below the current results.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need an additional high‑rated burger place; open the next results page to view more listings.  \nAction: Click [1926]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more burger places; attempt to scroll within the results feed to reveal additional listings further down.  \nAction: Scroll [1099]; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to load the next set of listings to reach more burger places; click the “Next page” button in the results carousel.\nAction: Click [1926]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[1] RootWebArea 'burgers near 44012 - Google Maps' focused: True url: https://www.google.com/maps/search/burgers+near+44012/@41.4828593,-82.0649811,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D\n\t[166] generic 'Google Maps'\n\t\t[260] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'\n\t\t\t[48] Canvas ''\n\t\t[1888] alert '' live: assertive atomic: True relevant: additions text\n\t\t[282] search ''\n\t\t\t[2] combobox '' hasPopup: grid required: False expanded: False\n\t\t\t\t[944] StaticText 'burgers near 44012'\n\t\t\t[287] button 'Search'\n\t\t\t[1038] button 'Close'\n\t\t[1203] button 'Search this area'\n\t\t[358] region 'Available search options for this area' roledescription: carousel\n\t\t\t[1922] button 'Previous page'\n\t\t\t\t[1925] StaticText '\\ue5cb'\n\t\t\t[1048] button 'Price' hasPopup: menu\n\t\t\t[1055] button 'Rating' hasPopup: menu\n\t\t\t[1062] button 'Hamburger' hasPopup: menu\n\t\t\t[1069] button 'Hours' hasPopup: dialog\n\t\t\t[1076] button 'All filters'\n\t\t\t[1926] button 'Next page'\n\t\t\t\t[1928] generic '\\ue5cc' focused: True\n\t\t[15] button 'Menu'\n\t\t[469] button 'Saved'\n\t\t[487] button 'Recents' disabled: True\n\t\t[517] button 'Get the app'\n\t\t[1097] main ''\n\t\t\t[1099] feed 'Results for burgers near 44012'\n\t\t\t\t[1149] heading 'Results'\n\t\t\t\t[1160] button 'Learn more about legal disclosure regarding public reviews on Google Maps'\n\t\t\t\t[1183] button 'Share'\n\t\t\t\t[1190] link 'Red Robin Gourmet Burgers and Brews' url: https://www.google.com/maps/place/Red+Robin+Gourmet+Burgers+and+Brews/data=!4m7!3m6!1s0x88309041878d8e65:0xc73efec95a9c2f05!8m2!3d41.461043!4d-82.012809!16s%2Fg%2F1tflsnry!19sChIJZY6Nh0GQMIgRBS-cWsn-Psc?authuser=0&hl=en&rclk=1\n\t\t\t\t[1249] heading 'Sponsored'\n\t\t\t\t\t[1253] button 'Why this ad?' hasPopup: menu\n\t\t\t\t[1225] image '4.3 stars 1,932 Reviews'\n\t\t\t\t[1235] image 'Moderately priced'\n\t\t\t\t\t[1638] StaticText '$$'\n\t\t\t\t[1639] StaticText 'Restaurant'\n\t\t\t\t[1643] StaticText '35858 Detroit Road'\n\t\t\t\t[1644] StaticText 'Closed'\n\t\t\t\t[1645] StaticText ' ⋅ Opens 11\\u202fAM'\n\t\t\t\t[1647] StaticText 'Dine-in'\n\t\t\t\t[1649] StaticText 'Takeout'\n\t\t\t\t[1651] StaticText 'Delivery'\n\t\t\t\t[1280] link 'Ad · Thicker & Juicier Burgers · New, Thicker, Juicier <b>Burgers</b> - Discover Red Robin’s Juicy <b>Burgers</b>, Epic Apps, &amp; Signature Drinks Perfect For Every Taste. · Visit Site · redrobin.com' url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjpqKncuYeNAxWgEa0GHScFC5kYABAAGgJwdg&co=1&gclid=EAIaIQobChMI6aip3LmHjQMVoBGtBh0nBQuZEBAYASAAEgKDBPD_BwE&ohost=www.google.com&cid=CAASE-RoUMiLGNePy6Yk60R-9nap2xU&sig=AOD64_0PMDg5XJAoR3MV2v30QTXn6chHZQ&adurl=&rct=j\n\t\t\t\t\t[1658] StaticText ', Epic Apps, & Signature Drinks Perfect For Every Taste.'\n\t\t\t\t[1296] link \"Parker's Grille & Tavern\" url: https://www.google.com/maps/place/Parker%27s+Grille+%26+Tavern/data=!4m7!3m6!1s0x88308fe88d480241:0x51ac9585b1ddb67c!8m2!3d41.495123!4d-82.0222371!16s%2Fg%2F12qhcp2x5!19sChIJQQJIjeiPMIgRfLbdsYWVrFE?authuser=0&hl=en&rclk=1\n\t\t\t\t[1325] image '4.5 stars 754 Reviews'\n\t\t\t\t[1666] StaticText '$20–30'\n\t\t\t\t[1668] StaticText 'Restaurant'\n\t\t\t\t[1342] image 'Wheelchair accessible entrance'\n\t\t\t\t\t[1667] StaticText '\\ue934'\n\t\t\t\t[1675] StaticText '32858 Walker Rd'\n\t\t\t\t[1676] StaticText 'Choice American eats in modern surrounds'\n\t\t\t\t[1677] StaticText 'Closed'\n\t\t\t\t[1678] StaticText ' ⋅ Opens 4\\u202fPM'\n\t\t\t\t[1680] StaticText '\"Black and blue '\n\t\t\t\t[1681] StaticText 'burger'\n\t\t\t\t[1682] StaticText ' was cooked exactly right and well seasoned.\"'\n\t\t\t\t[1369] link \"Jake's On the Lake\" url: https://www.google.com/maps/place/Jake%27s+On+the+Lake/data=!4m7!3m6!1s0x88308fafcfbbcea9:0xeeaf892fc4913e55!8m2!3d41.513449!4d-82.005831!16s%2Fg%2F1tq8k5vn!19sChIJqc67z6-PMIgRVT6RxC-Jr-4?authuser=0&hl=en&rclk=1\n\t\t\t\t[1398] image '4.6 stars 1,563 Reviews'\n\t\t\t\t[1689] StaticText '$10–20'\n\t\t\t\t[1690] StaticText 'American'\n\t\t\t\t[1694] StaticText '32485 Lake Rd'\n\t\t\t\t[1695] StaticText 'Relaxed American restaurant with a bar'\n\t\t\t\t[1696] StaticText 'Closed'\n\t\t\t\t[1697] StaticText ' ⋅ Opens 11\\u202fAM'\n\t\t\t\t[1699] StaticText '\"The shrimp '\n\t\t\t\t[1700] StaticText 'burger'\n\t\t\t\t[1701] StaticText ' special was fantastic!\"'\n\t\t\t\t[1441] link '3rd Base Bar & Grill' url: https://www.google.com/maps/place/3rd+Base+Bar+%26+Grill/data=!4m7!3m6!1s0x8830855dea1fd475:0x95ffdccb7aaa6c3b!8m2!3d41.504394!4d-82.04723!16s%2Fg%2F1tctg7n_!19sChIJddQf6l2FMIgRO2yqesvc_5U?authuser=0&hl=en&rclk=1\n\t\t\t\t[1470] image '4.4 stars 342 Reviews'\n\t\t\t\t[1708] StaticText '$10–20'\n\t\t\t\t[1487] image 'Wheelchair accessible entrance'\n\t\t\t\t\t[1709] StaticText '\\ue934'\n\t\t\t\t[1717] StaticText '118 Moore Rd'\n\t\t\t\t[1718] StaticText 'Closed'\n\t\t\t\t[1719] StaticText ' ⋅ Opens 10:30\\u202fAM'\n\t\t\t\t[1721] StaticText '\"The third base '\n\t\t\t\t[1722] StaticText 'burger'\n\t\t\t\t[1723] StaticText ' and fries is yummy!\"'\n\t\t\t\t[1512] link 'ORDER ONLINE' url: https://www.google.com/viewer/chooseprovider?mid=/g/1tctg7n_&g2lbs=AAEPWCsey9c2_tK6ndJ4jMCrob7YlM7HpaTmrdejTY_J92zkDFnmmwrjmbdXTykg_-pOBoEkNyNY&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=HSAWaNStCLHI0PEP7uPGgQo&ei=HSAWaNStCLHI0PEP7uPGgQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp\n\t\t\t\t[1518] link 'Red Robin Gourmet Burgers and Brews' url: https://www.google.com/maps/place/Red+Robin+Gourmet+Burgers+and+Brews/data=!4m7!3m6!1s0x88309041878d8e65:0xc73efec95a9c2f05!8m2!3d41.4610432!4d-82.0128094!16s%2Fg%2F1tflsnry!19sChIJZY6Nh0GQMIgRBS-cWsn-Psc?authuser=0&hl=en&rclk=1\n\t\t\t\t[1547] image '4.3 stars 1,933 Reviews'\n\t\t\t\t[1731] StaticText '$10–20'\n\t\t\t\t[1733] StaticText 'Hamburger'\n\t\t\t\t[1564] image 'Wheelchair accessible entrance'\n\t\t\t\t\t[1732] StaticText '\\ue934'\n\t\t\t\t[1740] StaticText '35858 Detroit Rd'\n\t\t\t\t[1741] StaticText 'Specialty burger & shake chain'\n\t\t\t\t[1742] StaticText 'Closed'\n\t\t\t\t[1743] StaticText ' ⋅ Opens 11\\u202fAM'\n\t\t\t\t[1745] StaticText 'Dine-in'\n\t\t\t\t[1747] StaticText 'Curbside pickup'\n\t\t\t\t[1749] StaticText 'Delivery'\n\t\t\t\t[1596] link 'ORDER ONLINE' url: https://www.google.com/viewer/chooseprovider?mid=/g/1tflsnry&g2lbs=AAEPWCu6VGgzqLe8TjPI6lLz8qN1uUeI_BhfLQ-3poWcOIxbYZ8Z3F7F9YwmbDXV2y23PYmuxBv3&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=HSAWaNStCLHI0PEP7uPGgQo&ei=HSAWaNStCLHI0PEP7uPGgQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp\n\t\t\t[1604] checkbox 'Update results when map moves' checked: false\n\t\t[1618] button 'Collapse side panel'\n\t\t[563] button 'Google apps' expanded: False\n\t\t\t[565] image ''\n\t\t[568] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ\n\t\t[615] button 'Show Your Location' pressed: false\n\t\t[632] button 'Zoom in'\n\t\t[663] button 'Zoom out'\n\t\t[676] button 'Show Street View coverage'\n\t\t[717] generic 'Interactive map'\n\t\t[755] StaticText 'Layers'\n\t\t[770] button 'Layers' expanded: False\n\t\t[874] contentinfo ''\n\t\t\t[876] StaticText 'Map data ©2025 '\n\t\t\t[877] button 'United States'\n\t\t\t[879] button 'Terms'\n\t\t\t[881] button 'Privacy'\n\t\t\t[883] button 'Send Product Feedback'\n\t\t[886] button '1 mi'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need another burger place; search for “Five Guys near 44012” in the Maps search box to add one more listing.  \nAction: Type [2]; Five Guys near 44012"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[1] RootWebArea 'Five Guys near 44012 - Google Maps' focused: True url: https://www.google.com/maps/search/Five+Guys+near+44012/@41.4830558,-82.1885937,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D\n\t[17] generic '' focused: True\n\t\t[166] generic 'Google Maps'\n\t\t\t[260] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'\n\t\t\t\t[48] Canvas ''\n\t\t\t[1888] alert '' live: assertive atomic: True relevant: additions text\n\t\t\t[282] search ''\n\t\t\t\t[2] combobox '' hasPopup: grid required: False expanded: False\n\t\t\t\t\t[1959] StaticText 'Five Guys near 44012'\n\t\t\t\t[287] button 'Search'\n\t\t\t\t[1038] button 'Close'\n\t\t\t[1203] button 'Search this area'\n\t\t\t[358] region 'Available search options for this area' roledescription: carousel\n\t\t\t\t[1069] button 'Hours' hasPopup: dialog\n\t\t\t\t[1076] button 'All filters'\n\t\t\t[15] button 'Menu'\n\t\t\t[469] button 'Saved'\n\t\t\t[487] button 'Recents' disabled: True\n\t\t\t[517] button 'Get the app'\n\t\t\t[1980] main ''\n\t\t\t\t[1982] feed 'Results for Five Guys near 44012'\n\t\t\t\t\t[2010] heading 'Results'\n\t\t\t\t\t[2021] button 'Learn more about legal disclosure regarding public reviews on Google Maps'\n\t\t\t\t\t[2044] button 'Share'\n\t\t\t\t\t[2051] link 'Five Guys' url: https://www.google.com/maps/place/Five+Guys/data=!4m7!3m6!1s0x8830906bcb058e7f:0x5d364cc3bb28c3a3!8m2!3d41.4601754!4d-82.022462!16s%2Fg%2F1w0r0k9d!19sChIJf44Fy2uQMIgRo8Mou8NMNl0?authuser=0&hl=en&rclk=1\n\t\t\t\t\t[2077] image '4.3 stars 742 Reviews'\n\t\t\t\t\t[2373] StaticText '$10–20'\n\t\t\t\t\t[2375] StaticText 'Fast Food'\n\t\t\t\t\t[2094] image 'Wheelchair accessible entrance'\n\t\t\t\t\t\t[2374] StaticText '\\ue934'\n\t\t\t\t\t[2382] StaticText '36050-A Detroit Rd'\n\t\t\t\t\t[2383] StaticText 'Fast-food burger & fries chain'\n\t\t\t\t\t[2384] StaticText 'Closed'\n\t\t\t\t\t[2385] StaticText ' ⋅ Opens 11\\u202fAM'\n\t\t\t\t\t[2388] StaticText '(440) 937-4897'\n\t\t\t\t\t[2133] link \"Visit Five Guys's website\" url: https://restaurants.fiveguys.com/36050-a-detroit-rd\n\t\t\t\t\t\t[2390] StaticText 'Website'\n\t\t\t\t\t[2139] button 'Get directions to Five Guys'\n\t\t\t\t\t\t[2392] StaticText 'Directions'\n\t\t\t\t\t[2394] StaticText 'Dine-in'\n\t\t\t\t\t[2396] StaticText 'Takeout'\n\t\t\t\t\t[2398] StaticText 'Delivery'\n\t\t\t\t\t[2129] link 'ORDER ONLINE' url: https://www.google.com/viewer/chooseprovider?mid=/g/1w0r0k9d&g2lbs=AAEPWCuHW9h0JY6gpV1YAymaKMUXFpXuM8CXGwdtRcbDDtWsaM808ViKOlOSwITB-YoPQxCtdNdY&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=liEWaILIOuOw0PEPn-_k8QE&ei=liEWaILIOuOw0PEPn-_k8QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp\n\t\t\t\t\t[2147] link 'Five Guys' url: https://www.google.com/maps/place/Five+Guys/data=!4m7!3m6!1s0x883091f45bab30e9:0xc04d2ec1747f7d54!8m2!3d41.4622652!4d-81.9557304!16s%2Fg%2F11h1gv8jj!19sChIJ6TCrW_SRMIgRVH1_dMEuTcA?authuser=0&hl=en&rclk=1\n\t\t\t\t\t[2173] image '4.4 stars 643 Reviews'\n\t\t\t\t\t[2406] StaticText '$10–20'\n\t\t\t\t\t[2408] StaticText 'Fast Food'\n\t\t\t\t\t[2190] image 'Wheelchair accessible entrance'\n\t\t\t\t\t\t[2407] StaticText '\\ue934'\n\t\t\t\t\t[2415] StaticText '30297 Detroit Rd'\n\t\t\t\t\t[2416] StaticText 'Fast-food burger & fries chain'\n\t\t\t\t\t[2417] StaticText 'Closed'\n\t\t\t\t\t[2418] StaticText ' ⋅ Opens 11\\u202fAM'\n\t\t\t\t\t[2421] StaticText '(440) 871-5300'\n\t\t\t\t\t[2229] link \"Visit Five Guys's website\" url: https://restaurants.fiveguys.com/30297-detroit-rd\n\t\t\t\t\t\t[2423] StaticText 'Website'\n\t\t\t\t\t[2235] button 'Get directions to Five Guys'\n\t\t\t\t\t\t[2425] StaticText 'Directions'\n\t\t\t\t\t[2427] StaticText 'Dine-in'\n\t\t\t\t\t[2429] StaticText 'Takeout'\n\t\t\t\t\t[2431] StaticText 'No-contact delivery'\n\t\t\t\t\t[2225] link 'ORDER ONLINE' url: https://www.google.com/viewer/chooseprovider?mid=/g/11h1gv8jj&g2lbs=AAEPWCtxh07EelJh6sf16fo23ItIf0jxMoLWFimmDjgDvm2miNZXShG4q0bdiLYIimMcms_NyBBl&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=liEWaILIOuOw0PEPn-_k8QE&ei=liEWaILIOuOw0PEPn-_k8QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp\n\t\t\t\t\t[2243] link 'Five Guys' url: https://www.google.com/maps/place/Five+Guys/data=!4m7!3m6!1s0x8830930a0a54c13b:0xdfd2c12d650f2bc6!8m2!3d41.4203302!4d-81.9095381!16s%2Fg%2F1tfv15ws!19sChIJO8FUCgqTMIgRxisPZS3B0t8?authuser=0&hl=en&rclk=1\n\t\t\t\t\t[2269] image '4.4 stars 686 Reviews'\n\t\t\t\t\t[2439] StaticText '$10–20'\n\t\t\t\t\t[2441] StaticText 'Fast Food'\n\t\t\t\t\t[2286] image 'Wheelchair accessible entrance'\n\t\t\t\t\t\t[2440] StaticText '\\ue934'\n\t\t\t\t\t[2448] StaticText '26037 Lorain Rd'\n\t\t\t\t\t[2449] StaticText 'Fast-food burger & fries chain'\n\t\t\t\t\t[2450] StaticText 'Closed'\n\t\t\t\t\t[2451] StaticText ' ⋅ Opens 11\\u202fAM'\n\t\t\t\t\t[2454] StaticText '(440) 716-6000'\n\t\t\t\t\t[2325] link \"Visit Five Guys's website\" url: https://restaurants.fiveguys.com/26037-lorain-rd\n\t\t\t\t\t\t[2456] StaticText 'Website'\n\t\t\t\t\t[2331] button 'Get directions to Five Guys'\n\t\t\t\t\t\t[2458] StaticText 'Directions'\n\t\t\t\t\t[2460] StaticText 'Dine-in'\n\t\t\t\t\t[2462] StaticText 'Takeout'\n\t\t\t\t\t[2464] StaticText 'No-contact delivery'\n\t\t\t\t\t[2321] link 'ORDER ONLINE' url: https://www.google.com/viewer/chooseprovider?mid=/g/1tfv15ws&g2lbs=AAEPWCvUBsNn7wjVAetImKuVrbE9IlyICTpdYu9vYctqmUT2c_-i3rJls0plQhE94lv9vLHjN9Vk&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=liEWaILIOuOw0PEPn-_k8QE&ei=liEWaILIOuOw0PEPn-_k8QE&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp\n\t\t\t\t[2346] checkbox 'Update results when map moves' checked: false\n\t\t\t[1618] button 'Collapse side panel'\n\t\t\t[563] button 'Google apps' expanded: False\n\t\t\t\t[565] image ''\n\t\t\t[568] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ\n\t\t\t[615] button 'Show Your Location' pressed: false\n\t\t\t[632] button 'Zoom in'\n\t\t\t[663] button 'Zoom out'\n\t\t\t[676] button 'Show Street View coverage'\n\t\t\t[717] generic 'Interactive map'\n\t\t\t[755] StaticText 'Layers'\n\t\t\t[770] button 'Layers' expanded: False\n\t\t\t[874] contentinfo ''\n\t\t\t\t[876] StaticText 'Map data ©2025 Google'\n\t\t\t\t[877] button 'United States'\n\t\t\t\t[879] button 'Terms'\n\t\t\t\t[881] button 'Privacy'\n\t\t\t\t[883] button 'Send Product Feedback'\n\t\t\t[886] button '2 mi'"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; 5 highest‑rated places that serve burgers near the 44012 area (listed from highest to lowest rating)\n\n1. Jake’s On the Lake – 4.6 stars (1,563 reviews) – 32485 Lake Rd, Avon Lake, OH 44012  \n2. Parker’s Grille & Tavern – 4.5 stars (754 reviews) – 32858 Walker Rd, Avon Lake, OH 44012  \n3. Five Guys – 4.4 stars (643 reviews) – 30297 Detroit Rd, Westlake, OH 44145  \n4. Five Guys – 4.4 stars (686 reviews) – 26037 Lorain Rd, North Olmsted, OH 44070  \n5. 3rd Base Bar & Grill – 4.4 stars (342 reviews) – 118 Moore Rd, Avon Lake, OH 44012"
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I have gathered at least five burger‑serving places near the 44012 ZIP code and arranged them in order from the highest to the next‑highest Google rating.\nAction: ANSWER; 5 highest‑rated burger places near 44012 (from highest to lower rating)\n\n1. Jake’s On the Lake – 4.6 stars (1,563 reviews) – 32485 Lake Rd, Avon Lake, OH 44012  \n2. Parker’s Grille & Tavern – 4.5 stars (754 reviews) – 32858 Walker Rd, Avon Lake, OH 44012  \n3. Five Guys – 4.4 stars (643 reviews) – 30297 Detroit Rd, Westlake, OH 44145  \n4. Five Guys – 4.4 stars (686 reviews) – 26037 Lorain Rd, North Olmsted, OH 44070  \n5. 3rd Base Bar & Grill – 4.4 stars (342 reviews) – 118 Moore Rd, Avon Lake, OH 44012"
   }
 ]

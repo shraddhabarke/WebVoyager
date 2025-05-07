@@ -1,0 +1,101 @@
+[1] RootWebArea 'Hilton Garden Inn Pittsburgh Airport to Giant Eagle Supermarket - Google Maps' focused: True url: https://www.google.com/maps/dir/Hilton+Garden+Inn+Pittsburgh+Airport,+9600+University+Blvd,+Moon+Twp,+PA+15108/Giant+Eagle+Supermarket,+5990+University+Blvd+%234,+Coraopolis,+PA+15108/@40.4916261,-80.32296,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88345c52e07a6425:0x744bbf2af57f829d!2m2!1d-80.2234387!2d40.5020566!1m5!1m1!1s0x88357be11f2d8ac3:0x48c9dff0c06116f8!2m2!1d-80.2200576!2d40.5218721?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[3509] radiogroup '' required: False
+			[3512] radio 'Best travel modes' checked: true
+				[3513] image 'Best travel modes'
+			[3522] radio 'Driving 7 min' checked: false
+				[3523] image 'Driving'
+			[3532] radio 'Transit 15 min' checked: false
+				[3533] image 'Transit'
+			[3542] radio 'Walking 33 min' checked: false
+				[3543] image 'Walking'
+			[3552] radio 'Cycling 9 min' checked: false
+				[3553] image 'Cycling'
+			[3562] radio 'Flights not available' disabled: True checked: false
+				[3563] image 'Flights not available'
+		[3571] button 'Close directions'
+		[3600] combobox '' hasPopup: grid required: False expanded: False
+			[3593] textbox 'Starting point Hilton Garden Inn Pittsburgh Airport, 9600 University Blvd, Moon Twp, PA 15108' autocomplete: list required: False
+		[3594] button 'Search'
+		[3624] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[3617] textbox 'Destination Giant Eagle Supermarket, 5990 University Blvd #4, Coraopolis, PA 15108' autocomplete: list required: False controls: sbsg51
+			[3632] grid '' multiselectable: False
+				[26077] row 'Did you mean: A different supermarket'
+					[26114] gridcell 'Did you mean: A different supermarket' required: False
+		[3618] button 'Search'
+		[3576] button 'Reverse starting point and destination'
+		[3578] button 'Add destination'
+		[25193] region 'Available options for search along this route' roledescription: carousel
+			[25202] button 'Add stops along route'
+				[25230] StaticText 'Search along the route'
+			[25208] button 'Add gas stations along route'
+				[25232] StaticText 'Gas'
+			[25215] button 'Add electric vehicle charging stations along route'
+				[25234] StaticText 'EV charging'
+			[25222] button 'Add hotels along route'
+				[25236] StaticText 'Hotels'
+			[25238] button 'Next page'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[4084] button 'Giant Eagle Supermarket 7 min'
+		[1687] button '4 places Carnot-Moon'
+			[1695] generic '4 places'
+		[500] button 'Get the app'
+		[24624] main 'Directions'
+			[25007] button 'Departure options' focused: True hasPopup: menu expanded: False
+				[25003] option 'Leave now' selected: True
+				[25013] StaticText '\xa0'
+			[24990] button 'Options' expanded: False
+			[26129] button 'Send directions to your phone'
+			[26134] button 'Copy link'
+			[26138] link 'Driving 7 min 1.5 miles via University Blvd Best route Details'
+				[26140] image 'Driving'
+					[26270] StaticText '\ue531'
+				[26148] heading 'via University Blvd'
+				[26268] StaticText 'Best route'
+				[26156] button 'Details'
+			[26161] button 'Driving 7 min 1.7 miles via University Blvd and Grant Dr'
+				[26163] image 'Driving'
+					[26275] StaticText '\ue531'
+				[26171] heading 'via University Blvd and Grant Dr'
+			[26174] button 'Transit 15 min Information 10:44\u202fAM—10:59\u202fAM Walk , then Bus 21 , then Walk'
+				[26176] image 'Transit'
+					[26289] StaticText '\ue535'
+				[26181] heading 'Information 10:44\u202fAM—10:59\u202fAM'
+					[26183] image 'Information'
+						[26277] StaticText '\ue88e'
+				[26188] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[26197] image ', then'
+					[26282] StaticText '\ue315'
+				[26200] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[26283] StaticText '21'
+				[26213] image ', then'
+					[26284] StaticText '\ue315'
+				[26216] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+			[26224] heading 'Explore nearby Giant Eagle Supermarket'
+			[26229] button 'Restaurants'
+			[26234] button 'Hotels'
+			[26239] button 'Gas stations'
+			[26244] button 'Parking Lots'
+			[26249] button 'More'
+		[1498] button 'Collapse side panel'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

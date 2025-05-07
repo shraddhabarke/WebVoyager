@@ -1,0 +1,88 @@
+[1] RootWebArea 'Pittsburgh International Airport to DoubleTree by Hilton Hotel Pittsburgh Airport - Google Maps' focused: True url: https://www.google.com/maps/dir/Pittsburgh+International+Airport,+1000+Airport+Blvd,+Pittsburgh,+PA+15231/DoubleTree+by+Hilton+Hotel+Pittsburgh+Airport,+8402+University+Blvd,+Moon+Twp,+PA+15108/@40.4916261,-80.32296,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88345cc34ecd5b37:0xc812270d148d3f59!2m2!1d-80.2372941!2d40.4928542!1m5!1m1!1s0x88345dae79b42495:0x4039a9c692692296!2m2!1d-80.2242976!2d40.5090559?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[3509] radiogroup '' required: False
+			[3512] radio 'Best travel modes' checked: true
+				[3513] image 'Best travel modes'
+			[3522] radio 'Driving 10 min' checked: false
+				[3523] image 'Driving'
+			[3532] radio 'Transit 1h 20m' checked: false
+				[3533] image 'Transit'
+			[3542] radio 'Walking 2h 4m' checked: false
+				[3543] image 'Walking'
+			[3552] radio 'Cycling 37 min' checked: false
+				[3553] image 'Cycling'
+			[3562] radio 'Flights not available' disabled: True checked: false
+				[3563] image 'Flights not available'
+		[3571] button 'Close directions'
+		[3600] combobox '' hasPopup: grid required: False expanded: False
+			[3593] textbox 'Starting point Pittsburgh International Airport' autocomplete: list required: False
+		[3594] button 'Search'
+		[3624] combobox '' hasPopup: grid required: False
+			[3617] textbox 'Destination DoubleTree by Hilton Hotel Pittsburgh Airport, 8402 University Blvd, Moon Twp, PA 15108' autocomplete: list required: False
+		[3618] button 'Search'
+		[3576] button 'Reverse starting point and destination'
+		[3578] button 'Add destination'
+		[8848] region 'Available options for search along this route' roledescription: carousel
+			[8857] button 'Add stops along route'
+				[8922] StaticText 'Search along the route'
+			[8863] button 'Add gas stations along route'
+				[8924] StaticText 'Gas'
+			[8870] button 'Add electric vehicle charging stations along route'
+				[8926] StaticText 'EV charging'
+			[8877] button 'Add hotels along route'
+				[8928] StaticText 'Hotels'
+			[8933] button 'Next page'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[4084] button 'DoubleTree by Hilton Hotel Pittsburgh Airport 10 min'
+		[1687] button '3 places Carnot-Moon'
+			[1695] generic '3 places'
+		[500] button 'Get the app'
+		[8457] main 'Directions'
+			[8736] button 'Departure options' hasPopup: menu expanded: False
+				[8732] option 'Leave now' selected: True
+				[8742] StaticText '\xa0'
+			[8719] button 'Options' focused: True expanded: False
+			[8756] button 'Send directions to your phone'
+			[8761] button 'Copy link'
+			[8765] link 'Driving 10 min 7.2 miles via I-376BL E Fastest route, the usual traffic Details'
+				[8767] image 'Driving'
+					[8897] StaticText '\ue531'
+				[8775] heading 'via I-376BL E'
+				[8895] StaticText 'Fastest route, the usual traffic'
+				[8783] button 'Details'
+			[8788] button 'Driving 12 min 7.1 miles via Moon Clinton Rd'
+				[8790] image 'Driving'
+					[8902] StaticText '\ue531'
+				[8798] heading 'via Moon Clinton Rd'
+			[8801] button 'Driving 12 min 9.8 miles via I-376 E'
+				[8803] image 'Driving'
+					[8907] StaticText '\ue531'
+				[8811] heading 'via I-376 E'
+			[8816] heading 'Explore nearby DoubleTree by Hilton Hotel Pittsburgh Airport'
+			[8821] button 'Restaurants'
+			[8826] button 'Hotels'
+			[8831] button 'Gas stations'
+			[8836] button 'Parking Lots'
+			[8841] button 'More'
+		[1498] button 'Collapse side panel'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

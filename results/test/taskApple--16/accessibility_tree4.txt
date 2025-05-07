@@ -1,0 +1,129 @@
+[11976] RootWebArea 'AirPods - Compare Models - Apple' focused: True url: https://www.apple.com/airpods/compare/
+	[12222] navigation 'Global'
+		[12231] link 'Apple' url: https://www.apple.com/
+			[12233] image ''
+		[12246] link 'Store' url: https://www.apple.com/us/shop/goto/store
+			[12249] image ''
+		[12027] button 'Store menu' expanded: False
+			[12258] image ''
+		[12332] link 'Mac' url: https://www.apple.com/mac/
+			[12335] image ''
+		[12343] button 'Mac menu' expanded: False
+			[12345] image ''
+		[11980] link 'iPad' url: https://www.apple.com/ipad/
+			[11981] image ''
+		[12447] button 'iPad menu' expanded: False
+			[12449] image ''
+		[11984] link 'iPhone' url: https://www.apple.com/iphone/
+			[11985] image ''
+		[12537] button 'iPhone menu' expanded: False
+			[12539] image ''
+		[11988] link 'Watch' url: https://www.apple.com/watch/
+			[11989] image ''
+		[12632] button 'Watch menu' expanded: False
+			[12634] image ''
+		[11992] link 'Vision' url: https://www.apple.com/apple-vision-pro/
+			[11993] image ''
+		[12724] button 'Vision menu' expanded: False
+			[12726] image ''
+		[11996] link 'AirPods' url: https://www.apple.com/airpods/
+			[11997] image ''
+		[12786] button 'AirPods menu' expanded: False
+			[12788] image ''
+		[12000] link 'TV and Home' url: https://www.apple.com/tv-home/
+			[12001] image ''
+			[12846] StaticText 'TV & Home'
+		[12851] button 'TV and Home menu' expanded: False
+			[12853] image ''
+		[12004] link 'Entertainment' url: https://www.apple.com/entertainment/
+			[12005] image ''
+		[12937] button 'Entertainment menu' expanded: False
+			[12939] image ''
+		[12008] link 'Accessories' url: https://www.apple.com/us/shop/goto/buy_accessories
+			[12009] image ''
+		[13001] button 'Accessories menu' expanded: False
+			[13003] image ''
+		[12012] link 'Support' url: https://support.apple.com/?cid=gn-ols-home-hp-tab
+			[12013] image ''
+		[13062] button 'Support menu' expanded: False
+			[13064] image ''
+		[12015] button 'Search apple.com'
+			[12016] image ''
+		[12019] button 'Shopping Bag'
+			[12020] image ''
+	[13304] main ''
+		[13308] heading 'Compare AirPods models'
+		[13313] button 'See all models \uf301'
+		[13321] StaticText 'Get help choosing.'
+		[13323] link 'Chat with a Specialist \uf301' url: https://contactretail.apple.com/?pg=COM:airpods_compare&ap=COM&c=us&l=en&ag=FASTPASS
+		[19930] table 'Compare AirPods models'
+			[19932] row ''
+				[19933] columnheader '\xa0' required: False
+				[19936] columnheader 'AirPods 4 with Active Noise Cancellation' required: False
+				[19938] columnheader 'AirPods Pro 2' required: False
+			[19941] rowgroup ''
+				[19942] row ''
+					[19945] StaticText 'Dropdown'
+					[19947] cell 'AirPods 4 with Active Noise Cancellation'
+						[12036] combobox '' hasPopup: menu expanded: False
+					[19975] cell 'AirPods Pro 2'
+						[12038] combobox '' hasPopup: menu expanded: False
+			[20003] rowgroup ''
+				[20004] row ''
+					[20007] StaticText 'Finish'
+					[20009] cell 'Learn more about AirPods 4 with Active Noise Cancellation'
+						[20010] link 'Learn more about AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/airpods-4/
+						[20018] button ''
+							[20019] figure ''
+								[20021] Figcaption ''
+									[20022] StaticText 'White'
+					[20023] cell 'Learn more about AirPods Pro 2'
+						[20024] link 'Learn more about AirPods Pro 2' url: https://www.apple.com/airpods-pro/
+						[20032] button ''
+							[20033] figure ''
+								[20035] Figcaption ''
+									[20036] StaticText 'White'
+			[20037] rowgroup ''
+				[20041] row ''
+					[20044] cell '\xa0'
+					[20051] cell '\xa0'
+				[20058] row ''
+					[20061] cell '$179'
+					[20068] cell '$249'
+			[20075] rowgroup ''
+				[20079] row ''
+					[20082] cell 'Buy AirPods 4 with Active Noise Cancellation'
+						[20083] link 'Buy AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/us/shop/goto/buy_airpods/airpods_4/with_active_noise_cancellation
+					[20085] cell 'Buy AirPods Pro 2'
+						[20086] link 'Buy AirPods Pro 2' url: https://www.apple.com/us/shop/goto/buy_airpods/airpods_pro_2
+			[20088] rowgroup ''
+				[20092] row ''
+					[20095] cell 'Learn more about AirPods 4 with Active Noise Cancellation'
+						[20096] link 'Learn more about AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/airpods-4/
+					[20101] cell 'Learn more about AirPods Pro 2'
+						[20102] link 'Learn more about AirPods Pro 2' url: https://www.apple.com/airpods-pro/
+			[20107] rowgroup ''
+				[20111] row ''
+					[20112] rowheader 'Quick\xa0Look' required: False
+					[20119] cell 'H2 chip'
+						[20121] figure ''
+					[20125] cell 'H2 chip'
+						[20127] figure ''
+				[20131] row ''
+					[20134] cell 'Active Noise Cancellation, Adaptive Audio,footnote 1 and Transparency modefootnote 3'
+						[20136] figure ''
+						[20140] superscript ''
+							[20141] link 'footnote 1' url: https://www.apple.com/airpods/compare/#footnote-1
+						[20143] StaticText ' and Transparency mode'
+						[20144] superscript ''
+							[20145] link 'footnote 3' url: https://www.apple.com/airpods/compare/#footnote-3
+					[20147] cell 'Up to 2x more Active Noise Cancellation,footnote 2 with Adaptive Audiofootnote 1 and Transparency modefootnote 3'
+						[20149] figure ''
+						[20153] superscript ''
+							[20154] link 'footnote 2' url: https://www.apple.com/airpods/compare/#footnote-2
+						[20156] StaticText ' with Adaptive Audio'
+						[20157] superscript ''
+							[20158] link 'footnote 1' url: https://www.apple.com/airpods/compare/#footnote-1
+						[20160] StaticText ' and Transparency mode'
+						[20161] superscript ''
+							[20162] link 'footnote 3' url: https://www.apple.com/airpods/compare/#footnote-3

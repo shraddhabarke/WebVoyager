@@ -1,0 +1,42 @@
+[25206] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=Chinese+Benchmark&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2023-12&date-to_date=2023-12&date-date_type=announced_date_first&abstracts=show&size=50&order=-announced_date_first
+	[25283] StaticText 'Skip to main content'
+	[25291] link 'logo' url: https://cornell.edu/
+		[25207] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[25297] StaticText 'We gratefully acknowledge support from'
+	[25299] StaticText 'the Simons Foundation, '
+	[25300] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[25302] StaticText ', and all contributors. '
+	[25303] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[25315] link 'arxiv-logo' url: https://arxiv.org/
+		[25208] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[25211] textbox 'Search term or terms' required: False
+	[25330] link 'Help' url: https://info.arxiv.org/help
+	[25332] StaticText ' | '
+	[25333] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[25212] combobox 'Field to search' hasPopup: menu expanded: False
+	[25393] button 'Search'
+	[25404] navigation 'User menu'
+		[25406] link 'Login' url: https://arxiv.org/login
+	[25412] main ''
+		[25418] heading 'Sorry, your query returned no results'
+		[25428] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[25430] StaticText '\xa0\xa0'
+		[25441] StaticText 'Query: '
+		[25442] link 'order: -announced_date_first; size: 50; date_range: from 2023-12-01 to 2023-12-31; include_cross_list: True; terms: AND title=Chinese Benchmark' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=Chinese+Benchmark&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2023-12&date-to_date=2023-12&date-date_type=announced_date_first&abstracts=show&size=50&order=-announced_date_first
+		[25446] link 'Refine query' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=Chinese+Benchmark&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2023-12&date-to_date=2023-12&date-date_type=announced_date_first&abstracts=show&size=50&order=-announced_date_first
+		[25448] link 'New search' url: https://arxiv.org/search/advanced
+		[25457] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+	[25209] contentinfo ''
+		[25476] navigation 'Secondary'
+			[25489] link 'About' url: https://info.arxiv.org/about
+			[25493] link 'Help' url: https://info.arxiv.org/help
+			[25511] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[25524] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[25545] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[25549] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[25558] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[25565] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[25570] StaticText 'Get status notifications via '
+			[25571] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[25575] StaticText ' or '
+			[25576] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

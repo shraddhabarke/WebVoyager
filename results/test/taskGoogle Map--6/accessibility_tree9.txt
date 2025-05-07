@@ -1,0 +1,55 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/@41.8826738,-87.6307118,17z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[170] generic 'Google Maps'
+		[247] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[55] Canvas ''
+		[269] search ''
+			[5734] StaticText 'Search Google Maps'
+			[2] combobox 'Search Google Maps' focused: True hasPopup: grid required: False expanded: True controls: ydp1wd-haAclf
+			[274] button 'Search'
+			[5731] button 'Directions'
+			[5736] grid 'Suggestions' multiselectable: False
+				[5739] row 'Recently viewed UNIQLO State Street 22 N State St, Chicago, IL 60602 Closed ⋅ Opens 10\u202fAM Delete'
+					[5740] gridcell 'Recently viewed UNIQLO State Street 22 N State St, Chicago, IL 60602 Closed ⋅ Opens 10\u202fAM' required: False
+						[5743] image 'Recently viewed'
+							[5770] StaticText '\ue8b5'
+				[5763] row 'More from recent history'
+					[5764] gridcell 'More from recent history' required: False
+		[5782] region 'Chicago Loop'
+			[5785] heading 'Chicago Loop'
+			[5786] group 'Chicago Loop weather'
+				[5818] StaticText '44°'
+				[5817] image 'Partly cloudy' url: https://ssl.gstatic.com/onebox/weather/128/partly_cloudy.png
+			[5787] region 'Traffic'
+				[5788] button 'Light traffic in this area No delays nearby'
+		[4733] region 'Available search options for this area' roledescription: carousel
+			[4742] button 'Restaurants'
+			[4749] button 'Hotels'
+			[4756] button 'Things to do'
+			[5797] button 'Museums'
+			[4763] button 'Transit'
+			[4777] button 'Pharmacies'
+			[4784] button 'ATMs'
+			[5140] button 'Next page'
+		[18] button 'Menu'
+		[457] button 'Saved'
+		[475] button 'Recents'
+		[1064] button 'UNIQLO State Street'
+		[505] button 'Get the app'
+		[551] button 'Google apps' expanded: False
+			[553] image ''
+		[556] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[603] button 'Show Your Location' pressed: false
+		[620] button 'Zoom in'
+		[651] button 'Zoom out'
+		[664] button 'Show Street View coverage'
+		[665] button 'Show imagery'
+		[705] generic 'Interactive map'
+		[743] StaticText 'Layers'
+		[758] button 'Layers' expanded: False
+		[859] contentinfo ''
+			[861] StaticText 'Map data ©2025 Google'
+			[25] button 'United States'
+			[863] button 'Terms'
+			[865] button 'Privacy'
+			[867] button 'Send Product Feedback'
+		[870] button '200 ft'

@@ -1,0 +1,70 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir//DoubleTree+by+Hilton+Hotel+Pittsburgh+Airport,+8402+University+Blvd,+Moon+Twp,+PA+15108/@40.5090559,-80.5126887,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88345dae79b42495:0x4039a9c692692296!2m2!1d-80.2242976!2d40.5090559?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[3509] radiogroup '' required: False
+			[3512] radio 'Best travel modes' checked: true
+				[3513] image 'Best travel modes'
+			[3522] radio 'Driving' checked: false
+				[3523] image 'Driving'
+			[3532] radio 'Transit' checked: false
+				[3533] image 'Transit'
+			[3542] radio 'Walking' checked: false
+				[3543] image 'Walking'
+			[3552] radio 'Cycling' checked: false
+				[3553] image 'Cycling'
+			[3562] radio 'Flights' checked: false
+				[3563] image 'Flights'
+		[3571] button 'Close directions'
+		[3600] combobox '' hasPopup: grid required: False expanded: True owns: sbsg50
+			[3593] textbox 'Choose starting point, or click on the map...' focused: True autocomplete: list required: False controls: sbsg50
+			[3608] grid '' multiselectable: False
+				[3700] row ''
+					[24572] row ''
+						[24573] gridcell 'Your location Your location' required: False
+							[24575] image 'Your location'
+								[24610] StaticText '\ue55c'
+				[3715] row ''
+					[24585] row ''
+						[24586] gridcell 'Recently viewed DoubleTree by Hilton Hotel Pittsburgh Airport 8402 University Blvd, Moon Twp, PA 15108' required: False
+							[24588] image 'Recently viewed'
+								[24612] StaticText '\ue8b5'
+				[3975] row ''
+					[24599] row ''
+						[24600] gridcell 'Recently viewed Hilton Garden Inn Pittsburgh Airport 9600 University Blvd, Moon Twp, PA 15108' required: False
+							[24602] image 'Recently viewed'
+								[24616] StaticText '\ue8b5'
+		[3594] button 'Search'
+		[3624] combobox '' hasPopup: grid required: False expanded: False
+			[3617] textbox 'Destination DoubleTree by Hilton Hotel Pittsburgh Airport, 8402 University Blvd, Moon Twp, PA 15108' autocomplete: list required: False
+		[3618] button 'Search'
+		[3576] button 'Reverse starting point and destination'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[4084] button 'Hilton Garden Inn Pittsburgh Airport 11 min'
+		[1687] button '3 places Carnot-Moon'
+			[1695] generic '3 places'
+		[500] button 'Get the app'
+		[24624] main 'Directions'
+			[24680] heading 'Delays'
+			[24696] StaticText 'Light traffic in this area'
+			[24698] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1498] button 'Collapse side panel'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

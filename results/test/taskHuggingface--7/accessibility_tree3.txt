@@ -1,0 +1,98 @@
+[1854] RootWebArea 'moonshotai/Kimi-Audio-7B-Instruct · Hugging Face' focused: True url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
+	[2081] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1855] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1860] textbox 'Search models, datasets, users...' required: False
+	[2093] button ''
+	[2180] main ''
+		[2183] sectionheader ''
+			[2185] heading 'moonshotai / Kimi-Audio-7B-Instruct Copy model name to clipboard like 274 Follow Moonshot AI 658'
+				[2192] link '' url: https://huggingface.co/moonshotai
+				[2198] link 'moonshotai' url: https://huggingface.co/moonshotai
+				[2206] link 'Kimi-Audio-7B-Instruct' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
+				[1863] button 'Copy model name to clipboard'
+				[2214] button 'like'
+				[2224] button '274'
+				[1872] button 'Follow Moonshot AI'
+				[2238] button '658'
+			[2246] link 'Text-to-Speech' url: https://huggingface.co/models?pipeline_tag=text-to-speech
+			[2262] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[2278] link 'English' url: https://huggingface.co/models?language=en
+			[2291] link 'Chinese' url: https://huggingface.co/models?language=zh
+			[2306] link 'audio' url: https://huggingface.co/models?other=audio
+			[2316] link 'audio-language-model' url: https://huggingface.co/models?other=audio-language-model
+			[2326] link 'speech-recognition' url: https://huggingface.co/models?other=speech-recognition
+			[2336] link 'audio-understanding' url: https://huggingface.co/models?other=audio-understanding
+			[2346] link 'audio-generation' url: https://huggingface.co/models?other=audio-generation
+			[2356] link 'chat' url: https://huggingface.co/models?other=chat
+			[2366] link 'kimi-audio' url: https://huggingface.co/models?other=kimi-audio
+			[2376] link 'custom_code' url: https://huggingface.co/models?other=custom_code
+			[2389] button 'License: mit'
+				[2391] image ''
+			[2420] link 'Model card' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
+			[2431] link 'Files' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct/tree/main
+			[2445] link 'Community 11' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct/discussions
+			[2462] button ''
+		[2503] button ''
+		[2553] heading 'Kimi-Audio'
+			[2555] link '' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct#kimi-audio
+		[1870] image '' url: https://raw.githubusercontent.com/MoonshotAI/Kimi-Audio/master/assets/kimia_logo.png
+		[2572] link '🤗 Kimi-Audio-7B' url: https://huggingface.co/moonshotai/Kimi-Audio-7B
+		[2574] StaticText '\xa0 | '
+		[2575] link '🤗 Kimi-Audio-7B-Instruct ' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
+		[2578] link '📑 Paper' url: https://raw.githubusercontent.com/MoonshotAI/Kimi-Audio/master/assets/kimia_report.pdf
+		[1868] heading 'Introduction'
+			[1856] link '' url: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct#introduction
+		[2593] StaticText 'We present Kimi-Audio, an open-source audio foundation model excelling in '
+		[2595] StaticText 'audio understanding, generation, and conversation'
+		[2596] StaticText '. This repository hosts the model checkpoints for Kimi-Audio-7B-Instruct.'
+		[2599] StaticText 'Kimi-Audio is designed as a universal audio foundation model capable of handling a wide variety of audio processing tasks within a single unified framework. Key features include:'
+		[2604] ListMarker '• '
+		[2606] StaticText 'Universal Capabilities:'
+		[2607] StaticText ' Handles diverse tasks like speech recognition (ASR), audio question answering (AQA), audio captioning (AAC), speech emotion recognition (SER), sound event/scene classification (SEC/ASC) and end-to-end speech conversation.'
+		[2610] ListMarker '• '
+		[2612] StaticText 'State-of-the-Art Performance:'
+		[2613] StaticText ' Achieves SOTA results on numerous audio benchmarks (see our '
+		[2614] link 'Technical Report' url: https://raw.githubusercontent.com/MoonshotAI/Kimi-Audio/master/assets/kimia_report.pdf
+		[2616] StaticText ').'
+		[2619] ListMarker '• '
+		[2621] StaticText 'Large-Scale Pre-training:'
+		[2622] StaticText ' Pre-trained on over 13 million hours of diverse audio data (speech, music, sounds) and text data.'
+		[2625] ListMarker '• '
+		[2627] StaticText 'Novel Architecture:'
+		[2628] StaticText ' Employs a hybrid audio input (continuous acoustic + discrete semantic tokens) and an LLM core with parallel heads for text and audio token generation.'
+		[2631] ListMarker '• '
+		[2633] StaticText 'Efficient Inference:'
+		[2634] StaticText ' Features a chunk-wise streaming detokenizer based on flow matching for low-latency audio generation.'
+		[2638] StaticText 'For more details, please refer to our '
+		[2639] link 'GitHub Repository' url: https://github.com/MoonshotAI/Kimi-Audio
+		[2641] StaticText ' and '
+		[2642] link 'Technical Report' url: https://raw.githubusercontent.com/MoonshotAI/Kimi-Audio/master/assets/kimia_report.pdf
+		[3117] DescriptionList ''
+			[3118] term 'Downloads last month'
+			[3120] definition ''
+				[3121] StaticText '3,088'
+		[3126] image ''
+		[3152] StaticText 'Safetensors'
+		[3153] link '' url: https://huggingface.co/docs/safetensors
+		[3162] StaticText 'Model size'
+		[3165] StaticText '9.77B'
+		[3166] StaticText ' params'
+		[3170] StaticText 'Tensor type'
+		[3173] StaticText 'BF16'
+		[3180] button 'Files info'
+		[3201] StaticText 'Inference Providers'
+		[3212] link 'Text-to-Speech' url: https://huggingface.co/tasks/text-to-speech
+		[1857] link '🙋 19 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/1211
+		[3247] heading 'Collection including moonshotai/Kimi-Audio-7B-Instruct'
+		[3259] article ''
+			[3260] link 'Kimi-Audio-7B Kimi audio 7B models • 3 items • Updated 6 days ago • 8' url: https://huggingface.co/collections/moonshotai/kimi-audio-7b-680defb21c47be2edf281bd0
+				[3261] sectionheader 'Kimi-Audio-7B'
+					[3262] heading 'Kimi-Audio-7B'
+					[3270] StaticText 'Collection'
+				[3274] StaticText 'Kimi audio 7B models'
+				[3277] StaticText '•'
+				[3280] StaticText '3 items'
+				[3286] StaticText 'Updated '
+				[3287] time '2025-04-28T03:51:50.192Z'
+					[3288] StaticText '6 days ago'
+				[3291] StaticText '•'

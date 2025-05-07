@@ -2,5 +2,229 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Show the scores and main highlight of the Denver Nuggets game that occurred within the last 3 days on ESPN.  Please interact with https://www.espn.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I need to open ESPN search to look up Denver Nuggets recent game.  \nAction: Click [4344]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Search box is focused; input query to find Denver Nuggets game.  \nAction: Type [6]; Denver Nuggets"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the recap article of Nuggets vs Clippers from 21h ago to get score & highlight.  \nAction: Click [9963]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Scroll down in article to capture more highlight details.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need more highlight details (e.g., Jamal Murray’s point total) further down in recap.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need the exact headline; it's already visible but maybe we should capture Jamal Murray's point total if present further. Let's scroll more to get mention of his points.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Look further down the article for Murray’s exact point total (“XXX points”) to state highlight precisely.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to locate earlier paragraphs for Murray’s point total; scroll up to reach top of article.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Continue scrolling up to find beginning paragraphs with Murray’s point total.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We’re near top of article but need headline text above that likely contains Murray’s point total. Scroll further up.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to locate Jamal Murray’s exact point total; continue a bit farther down the article.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We still need Jamal Murray’s exact point total for the highlight, which should appear a bit farther down in the recap article.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to continue downward to locate a sentence that states Murray’s point total.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: At the end of recap; need to scroll back upward to early paragraphs where Jamal Murray’s point total is likely stated.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: We still haven’t seen the opening paragraphs that usually state Jamal Murray’s exact point total; need to move further up toward the start of the recap.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Earlier part of article still above; need to scroll a bit further up to find Jamal Murray’s point total figure (e.g., “Murray scored XX points”) within first paragraph.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to find a sentence stating Jamal Murray’s exact point total; it likely appears slightly lower in the article.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: There might be an opening sentence just above the current paragraph that states Jamal Murray’s exact point total; it’s likely a few lines up. I should scroll slightly upward to capture it.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; \n• Score: Denver Nuggets 131, Los Angeles Clippers 115 (final).  \n• Highlight: Guard Jamal Murray lit up the Clippers, drilling 17‑of‑26 shots (8‑for‑14 from three) to lead Denver; his hot shooting helped the Nuggets control the game wire‑to‑wire and seize a 3‑2 series lead."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The first few paragraphs that likely state Jamal Murray’s exact point total are still above the current viewport, so I should scroll slightly further up in the article to capture them.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The article text continues below the current view; likely the next paragraph contains the sentence with Jamal Murray’s point total.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to locate Jamal Murray’s total points number, which is likely in the next paragraphs below.  \nAction: Scroll WINDOW; down"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: To get Jamal Murray’s exact point total for the highlight, opening the game’s Box Score will list every player’s points.  \nAction: Click [15891]"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The navigation tabs (Box Score, Gamecast, Play-by-Play, etc.) are typically located near the top of an ESPN recap page and aren’t visible yet. I should scroll up a bit to look for the “Box Score” link so I can confirm Jamal Murray’s point total.  \nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The navigation tabs (“Box Score”, “Gamecast”, etc.) are usually located a bit above the heading we’re viewing, so scrolling upward slightly should reveal the “Box Score” link to confirm Jamal Murray’s point total.\nAction: Scroll WINDOW; up"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[13833] RootWebArea 'Nuggets 131-115 Clippers (Apr 29, 2025) Game Recap - ESPN' focused: True url: https://www.espn.com/nba/recap?gameId=401768064\n\t[15551] region 'HeaderScoreboard'\n\t\t[13836] combobox 'Sports' hasPopup: menu expanded: False\n\t\t[13877] combobox 'Sports Dates' hasPopup: menu expanded: False\n\t\t[15617] group ''\n\t\t\t[15624] link 'MIN 59 LAL 51 11:19 - 3rd TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058\n\t\t\t\t[15629] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t\t\t[15639] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t[15661] group ''\n\t\t\t[15670] link 'GS 116 HOU 131' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets\n\t\t\t\t[15673] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t\t\t[15683] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t\t[15696] StaticText 'Final'\n\t\t[15700] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard\n\t[15705] navigation 'Global Navigation'\n\t\t[13841] button 'Menu' hasPopup: menu expanded: False\n\t\t[13834] link 'ESPN Home Page' url: https://www.espn.com/\n\t\t[15724] link '' url: https://www.espn.com/where-to-watch\n\t\t[15731] button 'Search' expanded: False\n\t\t[15737] button 'Profile Management' hasPopup: menu expanded: False\n\t\t\t[15739] image 'Profile Management'\n\t[15750] main ''\n\t\t[15764] StaticText 'West 1st Round - Game 5'\n\t\t[15767] StaticText 'DEN leads series 3-2'\n\t\t[15773] link 'LA Clippers' url: https://www.espn.com/nba/team/_/name/lac/la-clippers\n\t\t\t[13842] image 'LA Clippers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lac.png&scale=crop&cquality=40&location=origin&w=96&h=96\n\t\t[15779] link 'Clippers' url: https://www.espn.com/nba/team/_/name/lac/la-clippers\n\t\t\t[15780] heading 'Clippers'\n\t\t[15784] StaticText '50-32'\n\t\t[15786] StaticText ', '\n\t\t[15788] StaticText '20-21 Away'\n\t\t[15791] StaticText '115'\n\t\t[15799] StaticText 'Final'\n\t\t[15806] table ''\n\t\t\t[15807] rowgroup ''\n\t\t\t\t[15808] row ''\n\t\t\t\t\t[15809] columnheader '' required: False\n\t\t\t\t\t[15811] columnheader '1' required: False\n\t\t\t\t\t[15813] columnheader '2' required: False\n\t\t\t\t\t[15815] columnheader '3' required: False\n\t\t\t\t\t[15817] columnheader '4' required: False\n\t\t\t\t\t[15819] columnheader 'T' required: False\n\t\t\t[15822] row ''\n\t\t\t\t[15823] cell 'LAC'\n\t\t\t\t[15825] cell '23'\n\t\t\t\t[15827] cell '36'\n\t\t\t\t[15829] cell '24'\n\t\t\t\t[15831] cell '32'\n\t\t\t\t[15833] cell '115'\n\t\t\t[15835] row ''\n\t\t\t\t[15836] cell 'DEN'\n\t\t\t\t[15838] cell '35'\n\t\t\t\t[15840] cell '32'\n\t\t\t\t[15842] cell '32'\n\t\t\t\t[15844] cell '32'\n\t\t\t\t[15846] cell '131'\n\t\t[15853] link 'Denver Nuggets' url: https://www.espn.com/nba/team/_/name/den/denver-nuggets\n\t\t\t[13843] image 'Denver Nuggets' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/den.png&scale=crop&cquality=40&location=origin&w=96&h=96\n\t\t[15859] link 'Nuggets' url: https://www.espn.com/nba/team/_/name/den/denver-nuggets\n\t\t\t[15860] heading 'Nuggets'\n\t\t[15864] StaticText '50-32'\n\t\t[15866] StaticText ', '\n\t\t[15868] StaticText '26-15 Home'\n\t\t[15871] StaticText '131'\n\t\t[15873] image 'Winner Icon Denver Nuggets'\n\t\t[15880] navigation 'Secondary Navigation'\n\t\t\t[15883] link 'Gamecast' url: https://www.espn.com/nba/game/_/gameId/401768064/clippers-nuggets\n\t\t\t[15887] link 'Recap' url: https://www.espn.com/nba/recap/_/gameId/401768064\n\t\t\t[15891] link 'Box Score' url: https://www.espn.com/nba/boxscore/_/gameId/401768064\n\t\t\t[15895] link 'Play-by-Play' url: https://www.espn.com/nba/playbyplay/_/gameId/401768064\n\t\t\t[15899] link 'Team Stats' url: https://www.espn.com/nba/matchup/_/gameId/401768064\n\t\t\t[15903] link 'Videos' url: https://www.espn.com/nba/video/_/gameId/401768064\n\t\t[13898] Iframe 'Advertisement'\n\t\t[15913] main ''\n\t\t\t[13851] sectionheader ''\n\t\t\t\t[15916] heading \"Jamal Murray, Russell Westbrook spark the Nuggets' 131-115 win over the Clippers\"\n\t\t\t\t[15923] figure ''\n\t\t\t\t[15932] StaticText '2:07'\n\t\t\t\t[15933] region 'Video Player: Draymond and Jalen Green get into it after Game 3'\n\t\t\t\t\t[13897] Video ''\n\t\t\t\t\t[15947] button 'Playing content. Pause Button.'\n\t\t\t\t\t[15952] button 'Unmute'\n\t\t\t\t\t[15962] button 'Skip Backward 10 Seconds'\n\t\t\t\t\t[15966] button 'Skip Forwards 10 Seconds'\n\t\t\t\t\t[27842] StaticText '0:30'\n\t\t\t\t\t[15985] slider 'Progress Bar' orientation: horizontal valuemin: 0 valuemax: 100 valuetext: 0:11 of 0:30\n\t\t\t\t\t[16021] StaticText '\\xa0'\n\t\t\t\t\t[13883] button 'Share' live: polite atomic: False relevant: additions text\n\t\t\t\t\t[16085] button 'Closed Captions' pressed: false\n\t\t\t\t\t[16090] button 'Settings' hasPopup: menu expanded: False\n\t\t\t\t\t[16118] button 'Full Screen'\n\t\t\t\t[16590] heading 'LA Clippers vs. Denver Nuggets: Game Highlights'\n\t\t\t\t[16594] separator '' orientation: horizontal\n\t\t\t[16599] generic 'By AP'\n\t\t\t[16609] StaticText 'Apr 29, 2025, 11:24 pm'\n\t\t\t[16611] button 'Facebook'\n\t\t\t[16616] button 'Facebook Messenger'\n\t\t\t[16621] button 'Twitter'\n\t\t\t[16626] button 'Email'\n\t\t\t[16633] StaticText 'DENVER -- — Nuggets interim coach David Adelman sensed one of '\n\t\t\t[16634] link 'Jamal Murray' url: http://www.espn.com/nba/player/_/id/3936299/jamal-murray\n\t\t\t[16640] StaticText 'Murray was 17-of-26 shooting, including 8 for 14 from long range.'\n\t\t\t[16642] StaticText '“Tonight, he played great,\" '\n\t\t\t[16643] link 'Kawhi Leonard' url: http://www.espn.com/nba/player/_/id/6450/kawhi-leonard\n\t\t\t[16645] StaticText ' said. \"He came out, made shots, got hot, found his teammates and we pretty much couldn’t stop him. He played amazing. Russ (Westbrook) came in and played great, as well.”'\n\t\t\t[16647] StaticText 'Westbrook scored 21 points in his return from a left foot injury, including 16 of them in 12 first-half minutes as Denver led wire-to-wire.'\n\t[16972] Iframe 'Advertisement'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The \"Box Score\" link [15891] is visible in the secondary navigation; clicking it will open the box score and display each player’s point totals to confirm Jamal Murray’s points for the highlight.  \nAction: Click [15891]"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[13833] RootWebArea 'Nuggets 131-115 Clippers (Apr 29, 2025) Box Score - ESPN' focused: True url: https://www.espn.com/nba/boxscore/_/gameId/401768064\n\t[15551] region 'HeaderScoreboard'\n\t\t[13836] combobox 'Sports' hasPopup: menu expanded: False\n\t\t[13877] combobox 'Sports Dates' hasPopup: menu expanded: False\n\t\t[15617] group ''\n\t\t\t[15624] link 'MIN 59 LAL 51 11:19 - 3rd TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058\n\t\t\t\t[15629] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t\t\t[15639] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t[15661] group ''\n\t\t\t[15670] link 'GS 116 HOU 131' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets\n\t\t\t\t[15673] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t\t\t[15683] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin\n\t\t\t[15696] StaticText 'Final'\n\t\t[15700] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard\n\t[15705] navigation 'Global Navigation'\n\t\t[13841] button 'Menu' hasPopup: menu expanded: False\n\t\t[13834] link 'ESPN Home Page' url: https://www.espn.com/\n\t\t[15724] link '' url: https://www.espn.com/where-to-watch\n\t\t[15731] button 'Search' expanded: False\n\t\t[15737] button 'Profile Management' hasPopup: menu expanded: False\n\t\t\t[15739] image 'Profile Management'\n\t[15750] main ''\n\t\t[15764] StaticText 'West 1st Round - Game 5'\n\t\t[15767] StaticText 'DEN leads series 3-2'\n\t\t[15773] link 'LA Clippers' url: https://www.espn.com/nba/team/_/name/lac/la-clippers\n\t\t\t[13842] image 'LA Clippers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lac.png&scale=crop&cquality=40&location=origin&w=96&h=96\n\t\t[15779] link 'Clippers' url: https://www.espn.com/nba/team/_/name/lac/la-clippers\n\t\t\t[15780] heading 'Clippers'\n\t\t[15784] StaticText '50-32'\n\t\t[15786] StaticText ', '\n\t\t[15788] StaticText '20-21 Away'\n\t\t[15791] StaticText '115'\n\t\t[15799] StaticText 'Final'\n\t\t[15806] table ''\n\t\t\t[15807] rowgroup ''\n\t\t\t\t[15808] row ''\n\t\t\t\t\t[15809] columnheader '' required: False\n\t\t\t\t\t[15811] columnheader '1' required: False\n\t\t\t\t\t[15813] columnheader '2' required: False\n\t\t\t\t\t[15815] columnheader '3' required: False\n\t\t\t\t\t[15817] columnheader '4' required: False\n\t\t\t\t\t[15819] columnheader 'T' required: False\n\t\t\t[15822] row ''\n\t\t\t\t[15823] cell 'LAC'\n\t\t\t\t[15825] cell '23'\n\t\t\t\t[15827] cell '36'\n\t\t\t\t[15829] cell '24'\n\t\t\t\t[15831] cell '32'\n\t\t\t\t[15833] cell '115'\n\t\t\t[15835] row ''\n\t\t\t\t[15836] cell 'DEN'\n\t\t\t\t[15838] cell '35'\n\t\t\t\t[15840] cell '32'\n\t\t\t\t[15842] cell '32'\n\t\t\t\t[15844] cell '32'\n\t\t\t\t[15846] cell '131'\n\t\t[15853] link 'Denver Nuggets' url: https://www.espn.com/nba/team/_/name/den/denver-nuggets\n\t\t\t[13843] image 'Denver Nuggets' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/den.png&scale=crop&cquality=40&location=origin&w=96&h=96\n\t\t[15859] link 'Nuggets' url: https://www.espn.com/nba/team/_/name/den/denver-nuggets\n\t\t\t[15860] heading 'Nuggets'\n\t\t[15864] StaticText '50-32'\n\t\t[15866] StaticText ', '\n\t\t[15868] StaticText '26-15 Home'\n\t\t[15871] StaticText '131'\n\t\t[15873] image 'Winner Icon Denver Nuggets'\n\t\t[15880] navigation 'Secondary Navigation'\n\t\t\t[15883] link 'Gamecast' url: https://www.espn.com/nba/game/_/gameId/401768064/clippers-nuggets\n\t\t\t[15887] link 'Recap' url: https://www.espn.com/nba/recap/_/gameId/401768064\n\t\t\t[15891] link 'Box Score' focused: True url: https://www.espn.com/nba/boxscore/_/gameId/401768064\n\t\t\t[15895] link 'Play-by-Play' url: https://www.espn.com/nba/playbyplay/_/gameId/401768064\n\t\t\t[15899] link 'Team Stats' url: https://www.espn.com/nba/matchup/_/gameId/401768064\n\t\t\t[15903] link 'Videos' url: https://www.espn.com/nba/video/_/gameId/401768064\n\t\t[31632] Iframe 'Advertisement'\n\t\t[30061] main ''\n\t\t\t[29092] image 'LA Clippers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lac.png&scale=crop&cquality=40&location=origin&w=40&h=40\n\t\t\t[29551] table ''\n\t\t\t\t[29193] row ''\n\t\t\t\t\t[29096] cell 'STARTERS'\n\t\t\t\t[29194] row ''\n\t\t\t\t\t[29102] cell 'Kawhi Leonard #2'\n\t\t\t\t\t\t[29099] link 'Kawhi Leonard' url: https://www.espn.com/nba/player/_/id/6450/kawhi-leonard\n\t\t\t\t[29195] row ''\n\t\t\t\t\t[29108] cell 'Ivica Zubac #40'\n\t\t\t\t\t\t[29105] link 'Ivica Zubac' url: https://www.espn.com/nba/player/_/id/4017837/ivica-zubac\n\t\t\t\t[29196] row ''\n\t\t\t\t\t[29114] cell 'James Harden #1'\n\t\t\t\t\t\t[29111] link 'James Harden' url: https://www.espn.com/nba/player/_/id/3992/james-harden\n\t\t\t\t[29197] row ''\n\t\t\t\t\t[29120] cell 'Norman Powell #24'\n\t\t\t\t\t\t[29117] link 'Norman Powell' url: https://www.espn.com/nba/player/_/id/2595516/norman-powell\n\t\t\t\t[29198] row ''\n\t\t\t\t\t[29126] cell 'Kris Dunn #8'\n\t\t\t\t\t\t[29123] link 'Kris Dunn' url: https://www.espn.com/nba/player/_/id/2991139/kris-dunn\n\t\t\t\t[29199] row ''\n\t\t\t\t\t[29128] cell 'BENCH'\n\t\t\t\t[29200] row ''\n\t\t\t\t\t[29134] cell 'Nicolas Batum #33'\n\t\t\t\t\t\t[29131] link 'Nicolas Batum' url: https://www.espn.com/nba/player/_/id/3416/nicolas-batum\n\t\t\t\t[29201] row ''\n\t\t\t\t\t[29140] cell 'Drew Eubanks #15'\n\t\t\t\t\t\t[29137] link 'Drew Eubanks' url: https://www.espn.com/nba/player/_/id/3914285/drew-eubanks\n\t\t\t\t[29202] row ''\n\t\t\t\t\t[29146] cell 'Derrick Jones Jr. #55'\n\t\t\t\t\t\t[29143] link 'Derrick Jones Jr.' url: https://www.espn.com/nba/player/_/id/3936099/derrick-jones-jr\n\t\t\t\t[29203] row ''\n\t\t\t\t\t[29152] cell 'Ben Simmons #25'\n\t\t\t\t\t\t[29149] link 'Ben Simmons' url: https://www.espn.com/nba/player/_/id/3907387/ben-simmons\n\t\t\t\t[29204] row ''\n\t\t\t\t\t[29158] cell 'Bogdan Bogdanovic #10'\n\t\t\t\t\t\t[29155] link 'Bogdan Bogdanovic' url: https://www.espn.com/nba/player/_/id/3037789/bogdan-bogdanovic\n\t\t\t\t[29205] row ''\n\t\t\t\t\t[29164] cell 'Jordan Miller #11'\n\t\t\t\t\t\t[29161] link 'Jordan Miller' url: https://www.espn.com/nba/player/_/id/4396818/jordan-miller\n\t\t\t\t[29206] row ''\n\t\t\t\t\t[29170] cell 'Kobe Brown #21'\n\t\t\t\t\t\t[29167] link 'Kobe Brown' url: https://www.espn.com/nba/player/_/id/4431752/kobe-brown\n\t\t\t\t[29207] row ''\n\t\t\t\t\t[29176] cell 'Cam Christie #12'\n\t\t\t\t\t\t[29173] link 'Cam Christie' url: https://www.espn.com/nba/player/_/id/4845363/cam-christie\n\t\t\t\t[29208] row ''\n\t\t\t\t\t[29182] cell 'Patty Mills #88'\n\t\t\t\t\t\t[29179] link 'Patty Mills' url: https://www.espn.com/nba/player/_/id/4004/patty-mills\n\t\t\t\t[29209] row ''\n\t\t\t\t\t[29188] cell 'Amir Coffey #7'\n\t\t\t\t\t\t[29185] link 'Amir Coffey' url: https://www.espn.com/nba/player/_/id/4066387/amir-coffey\n\t\t\t\t[29210] row ''\n\t\t\t\t\t[29190] cell 'TEAM'\n\t\t\t\t[29211] row ''\n\t\t\t\t\t[29192] cell ''\n\t\t\t[29547] table ''\n\t\t\t\t[29525] row ''\n\t\t\t\t\t[29243] cell 'MIN'\n\t\t\t\t\t[29244] cell 'FG'\n\t\t\t\t\t[29245] cell '3PT'\n\t\t\t\t\t[29246] cell 'FT'\n\t\t\t\t\t[29247] cell 'OREB'\n\t\t\t\t\t[29248] cell 'DREB'\n\t\t\t\t\t[29249] cell 'REB'\n\t\t\t\t\t[29250] cell 'AST'\n\t\t\t\t\t[29251] cell 'STL'\n\t\t\t\t\t[29252] cell 'BLK'\n\t\t\t\t\t[29253] cell 'TO'\n\t\t\t\t\t[29254] cell 'PF'\n\t\t\t\t\t[29255] cell '+/-'\n\t\t\t\t\t[29256] cell 'PTS'\n\t\t\t\t[29526] row ''\n\t\t\t\t\t[29257] cell '37'\n\t\t\t\t\t[29258] cell '8-15'\n\t\t\t\t\t[29259] cell '1-4'\n\t\t\t\t\t[29260] cell '3-7'\n\t\t\t\t\t[29261] cell '2'\n\t\t\t\t\t[29262] cell '7'\n\t\t\t\t\t[29263] cell '9'\n\t\t\t\t\t[29264] cell '11'\n\t\t\t\t\t[29265] cell '1'\n\t\t\t\t\t[29266] cell '2'\n\t\t\t\t\t[29267] cell '1'\n\t\t\t\t\t[29268] cell '2'\n\t\t\t\t\t[29269] cell '-7'\n\t\t\t\t\t[29270] cell '20'\n\t\t\t\t[29527] row ''\n\t\t\t\t\t[29271] cell '37'\n\t\t\t\t\t[29272] cell '11-15'\n\t\t\t\t\t[29273] cell '0-0'\n\t\t\t\t\t[29274] cell '5-8'\n\t\t\t\t\t[29275] cell '3'\n\t\t\t\t\t[29276] cell '2'\n\t\t\t\t\t[29277] cell '5'\n\t\t\t\t\t[29278] cell '1'\n\t\t\t\t\t[29279] cell '0'\n\t\t\t\t\t[29280] cell '2'\n\t\t\t\t\t[29281] cell '1'\n\t\t\t\t\t[29282] cell '2'\n\t\t\t\t\t[29283] cell '-15'\n\t\t\t\t\t[29284] cell '27'\n\t\t\t\t[29528] row ''\n\t\t\t\t\t[29285] cell '35'\n\t\t\t\t\t[29286] cell '3-9'\n\t\t\t\t\t[29287] cell '0-2'\n\t\t\t\t\t[29288] cell '5-8'\n\t\t\t\t\t[29289] cell '1'\n\t\t\t\t\t[29290] cell '7'\n\t\t\t\t\t[29291] cell '8'\n\t\t\t\t\t[29292] cell '5'\n\t\t\t\t\t[29293] cell '2'\n\t\t\t\t\t[29294] cell '0'\n\t\t\t\t\t[29295] cell '4'\n\t\t\t\t\t[29296] cell '4'\n\t\t\t\t\t[29297] cell '-16'\n\t\t\t\t\t[29298] cell '11'\n\t\t\t\t[29529] row ''\n\t\t\t\t\t[29299] cell '32'\n\t\t\t\t\t[29300] cell '5-12'\n\t\t\t\t\t[29301] cell '1-5'\n\t\t\t\t\t[29302] cell '1-1'\n\t\t\t\t\t[29303] cell '0'\n\t\t\t\t\t[29304] cell '4'\n\t\t\t\t\t[29305] cell '4'\n\t\t\t\t\t[29306] cell '3'\n\t\t\t\t\t[29307] cell '0'\n\t\t\t\t\t[29308] cell '0'\n\t\t\t\t\t[29309] cell '1'\n\t\t\t\t\t[29310] cell '2'\n\t\t\t\t\t[29311] cell '-12'\n\t\t\t\t\t[29312] cell '12'\n\t\t\t\t[29530] row ''\n\t\t\t\t\t[29313] cell '25'\n\t\t\t\t\t[29314] cell '6-7'\n\t\t\t\t\t[29315] cell '3-4'\n\t\t\t\t\t[29316] cell '0-0'\n\t\t\t\t\t[29317] cell '0'\n\t\t\t\t\t[29318] cell '0'\n\t\t\t\t\t[29319] cell '0'\n\t\t\t\t\t[29320] cell '2'\n\t\t\t\t\t[29321] cell '2'\n\t\t\t\t\t[29322] cell '1'\n\t\t\t\t\t[29323] cell '0'\n\t\t\t\t\t[29324] cell '3'\n\t\t\t\t\t[29325] cell '-5'\n\t\t\t\t\t[29326] cell '15'\n\t\t\t\t[29531] row ''\n\t\t\t\t\t[29341] cell 'MIN'\n\t\t\t\t\t[29342] cell 'FG'\n\t\t\t\t\t[29343] cell '3PT'\n\t\t\t\t\t[29344] cell 'FT'\n\t\t\t\t\t[29345] cell 'OREB'\n\t\t\t\t\t[29346] cell 'DREB'\n\t\t\t\t\t[29347] cell 'REB'\n\t\t\t\t\t[29348] cell 'AST'\n\t\t\t\t\t[29349] cell 'STL'\n\t\t\t\t\t[29350] cell 'BLK'\n\t\t\t\t\t[29351] cell 'TO'\n\t\t\t\t\t[29352] cell 'PF'\n\t\t\t\t\t[29353] cell '+/-'\n\t\t\t\t\t[29354] cell 'PTS'\n\t\t\t\t[29532] row ''\n\t\t\t\t\t[29355] cell '21'\n\t\t\t\t\t[29356] cell '0-2'\n\t\t\t\t\t[29357] cell '0-2'\n\t\t\t\t\t[29358] cell '0-0'\n\t\t\t\t\t[29359] cell '2'\n\t\t\t\t\t[29360] cell '4'\n\t\t\t\t\t[29361] cell '6'\n\t\t\t\t\t[29362] cell '2'\n\t\t\t\t\t[29363] cell '0'\n\t\t\t\t\t[29364] cell '2'\n\t\t\t\t\t[29365] cell '1'\n\t\t\t\t\t[29366] cell '2'\n\t\t\t\t\t[29367] cell '-7'\n\t\t\t\t\t[29368] cell '0'\n\t\t\t\t[29533] row ''\n\t\t\t\t\t[29369] cell '3'\n\t\t\t\t\t[29370] cell '0-0'\n\t\t\t\t\t[29371] cell '0-0'\n\t\t\t\t\t[29372] cell '0-0'\n\t\t\t\t\t[29373] cell '0'\n\t\t\t\t\t[29374] cell '1'\n\t\t\t\t\t[29375] cell '1'\n\t\t\t\t\t[29376] cell '0'\n\t\t\t\t\t[29377] cell '0'\n\t\t\t\t\t[29378] cell '0'\n\t\t\t\t\t[29379] cell '0'\n\t\t\t\t\t[29380] cell '1'\n\t\t\t\t\t[29381] cell '+1'\n\t\t\t\t\t[29382] cell '0'\n\t\t\t\t[29534] row ''\n\t\t\t\t\t[29383] cell '14'\n\t\t\t\t\t[29384] cell '3-6'\n\t\t\t\t\t[29385] cell '1-3'\n\t\t\t\t\t[29386] cell '0-0'\n\t\t\t\t\t[29387] cell '1'\n\t\t\t\t\t[29388] cell '0'\n\t\t\t\t\t[29389] cell '1'\n\t\t\t\t\t[29390] cell '0'\n\t\t\t\t\t[29391] cell '0'\n\t\t\t\t\t[29392] cell '0'\n\t\t\t\t\t[29393] cell '0'\n\t\t\t\t\t[29394] cell '0'\n\t\t\t\t\t[29395] cell '-10'\n\t\t\t\t\t[29396] cell '7'\n\t\t\t\t[29535] row ''\n\t\t\t\t\t[29397] cell '5'\n\t\t\t\t\t[29398] cell '0-1'\n\t\t\t\t\t[29399] cell '0-0'\n\t\t\t\t\t[29400] cell '0-0'\n\t\t\t\t\t[29401] cell '0'\n\t\t\t\t\t[29402] cell '1'\n\t\t\t\t\t[29403] cell '1'\n\t\t\t\t\t[29404] cell '0'\n\t\t\t\t\t[29405] cell '0'\n\t\t\t\t\t[29406] cell '1'\n\t\t\t\t\t[29407] cell '0'\n\t\t\t\t\t[29408] cell '0'\n\t\t\t\t\t[29409] cell '-4'\n\t\t\t\t\t[29410] cell '0'\n\t\t\t\t[29536] row ''\n\t\t\t\t\t[29411] cell '23'\n\t\t\t\t\t[29412] cell '5-11'\n\t\t\t\t\t[29413] cell '4-8'\n\t\t\t\t\t[29414] cell '4-4'\n\t\t\t\t\t[29415] cell '1'\n\t\t\t\t\t[29416] cell '2'\n\t\t\t\t\t[29417] cell '3'\n\t\t\t\t\t[29418] cell '5'\n\t\t\t\t\t[29419] cell '0'\n\t\t\t\t\t[29420] cell '0'\n\t\t\t\t\t[29421] cell '2'\n\t\t\t\t\t[29422] cell '5'\n\t\t\t\t\t[29423] cell '-8'\n\t\t\t\t\t[29424] cell '18'\n\t\t\t\t[29537] row ''\n\t\t\t\t\t[29425] cell '3'\n\t\t\t\t\t[29426] cell '1-3'\n\t\t\t\t\t[29427] cell '0-0'\n\t\t\t\t\t[29428] cell '0-0'\n\t\t\t\t\t[29429] cell '0'\n\t\t\t\t\t[29430] cell '0'\n\t\t\t\t\t[29431] cell '0'\n\t\t\t\t\t[29432] cell '0'\n\t\t\t\t\t[29433] cell '0'\n\t\t\t\t\t[29434] cell '0'\n\t\t\t\t\t[29435] cell '0'\n\t\t\t\t\t[29436] cell '0'\n\t\t\t\t\t[29437] cell '+1'\n\t\t\t\t\t[29438] cell '2'\n\t\t\t\t[29538] row ''\n\t\t\t\t\t[29439] cell '3'\n\t\t\t\t\t[29440] cell '1-1'\n\t\t\t\t\t[29441] cell '1-1'\n\t\t\t\t\t[29442] cell '0-0'\n\t\t\t\t\t[29443] cell '0'\n\t\t\t\t\t[29444] cell '0'\n\t\t\t\t\t[29445] cell '0'\n\t\t\t\t\t[29446] cell '0'\n\t\t\t\t\t[29447] cell '0'\n\t\t\t\t\t[29448] cell '0'\n\t\t\t\t\t[29449] cell '0'\n\t\t\t\t\t[29450] cell '0'\n\t\t\t\t\t[29451] cell '+1'\n\t\t\t\t\t[29452] cell '3'\n\t\t\t\t[29539] row ''\n\t\t\t\t\t[29453] cell '3'\n\t\t\t\t\t[29454] cell '0-0'\n\t\t\t\t\t[29455] cell '0-0'\n\t\t\t\t\t[29456] cell '0-0'\n\t\t\t\t\t[29457] cell '0'\n\t\t\t\t\t[29458] cell '0'\n\t\t\t\t\t[29459] cell '0'\n\t\t\t\t\t[29460] cell '0'\n\t\t\t\t\t[29461] cell '1'\n\t\t\t\t\t[29462] cell '0'\n\t\t\t\t\t[29463] cell '0'\n\t\t\t\t\t[29464] cell '0'\n\t\t\t\t\t[29465] cell '+1'\n\t\t\t\t\t[29466] cell '0'\n\t\t\t\t[29540] row ''\n\t\t\t\t\t[29467] cell \"DNP-COACH'S DECISION\"\n\t\t\t\t[29541] row ''\n\t\t\t\t\t[29468] cell \"DNP-COACH'S DECISION\"\n\t\t\t\t[29542] row ''\n\t\t\t\t\t[29483] cell ''\n\t\t\t\t\t[29484] cell '43-82'\n\t\t\t\t\t[29485] cell '11-29'\n\t\t\t\t\t[29486] cell '18-28'\n\t\t\t\t\t[29487] cell '10'\n\t\t\t\t\t[29488] cell '28'\n\t\t\t\t\t[29489] cell '38'\n\t\t\t\t\t[29490] cell '29'\n\t\t\t\t\t[29491] cell '6'\n\t\t\t\t\t[29492] cell '8'\n\t\t\t\t\t[29493] cell '10'\n\t\t\t\t\t[29494] cell '21'\n\t\t\t\t\t[29495] cell ''\n\t\t\t\t\t[29496] cell '115'\n\t\t\t\t[29543] row ''\n\t\t\t\t\t[29511] cell ''\n\t\t\t\t\t[29512] cell '52.4%'\n\t\t\t\t\t[29513] cell '37.9%'\n\t\t\t\t\t[29514] cell '64.3%'\n\t\t\t\t\t[29515] cell ''\n\t\t\t\t\t[29516] cell ''\n\t\t\t\t\t[29517] cell ''\n\t\t\t\t\t[29518] cell ''\n\t\t\t\t\t[29519] cell ''\n\t\t\t\t\t[29520] cell ''\n\t\t\t\t\t[29521] cell ''\n\t\t\t\t\t[29522] cell ''\n\t\t\t\t\t[29523] cell ''\n\t\t\t\t\t[29524] cell ''\n\t\t\t[29557] image 'Denver Nuggets' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/den.png&scale=crop&cquality=40&location=origin&w=40&h=40\n\t\t\t[30007] table ''\n\t\t\t\t[29652] row ''\n\t\t\t\t\t[29561] cell 'STARTERS'\n\t\t\t\t[29653] row ''\n\t\t\t\t\t[29567] cell 'Aaron Gordon #32'\n\t\t\t\t\t\t[29564] link 'Aaron Gordon' url: https://www.espn.com/nba/player/_/id/3064290/aaron-gordon\n\t\t\t\t[29654] row ''\n\t\t\t\t\t[29573] cell 'Michael Porter Jr. #1'\n\t\t\t\t\t\t[29570] link 'Michael Porter Jr.' url: https://www.espn.com/nba/player/_/id/4278104/michael-porter-jr\n\t\t\t\t[29655] row ''\n\t\t\t\t\t[29579] cell 'Nikola Jokic #15'\n\t\t\t\t\t\t[29576] link 'Nikola Jokic' url: https://www.espn.com/nba/player/_/id/3112335/nikola-jokic\n\t\t\t\t[29656] row ''\n\t\t\t\t\t[29585] cell 'Jamal Murray #27'\n\t\t\t\t\t\t[29582] link 'Jamal Murray' url: https://www.espn.com/nba/player/_/id/3936299/jamal-murray\n\t\t\t\t[29657] row ''\n\t\t\t\t\t[29591] cell 'Christian Braun #0'\n\t\t\t\t\t\t[29588] link 'Christian Braun' url: https://www.espn.com/nba/player/_/id/4431767/christian-braun\n\t\t\t\t[29658] row ''\n\t\t\t\t\t[29593] cell 'BENCH'\n\t\t\t\t[29659] row ''\n\t\t\t\t\t[29599] cell 'Zeke Nnaji #22'\n\t\t\t\t\t\t[29596] link 'Zeke Nnaji' url: https://www.espn.com/nba/player/_/id/4431690/zeke-nnaji\n\t\t\t\t[29660] row ''\n\t\t\t\t\t[29605] cell 'Hunter Tyson #5'\n\t\t\t\t\t\t[29602] link 'Hunter Tyson' url: https://www.espn.com/nba/player/_/id/4395620/hunter-tyson\n\t\t\t\t[29661] row ''\n\t\t\t\t\t[29611] cell 'Peyton Watson #8'\n\t\t\t\t\t\t[29608] link 'Peyton Watson' url: https://www.espn.com/nba/player/_/id/4576087/peyton-watson\n\t\t\t\t[29662] row ''\n\t\t\t\t\t[29617] cell 'Vlatko Cancar #31'\n\t\t\t\t\t\t[29614] link 'Vlatko Cancar' url: https://www.espn.com/nba/player/_/id/4230557/vlatko-cancar\n\t\t\t\t[29663] row ''\n\t\t\t\t\t[29623] cell 'DeAndre Jordan #6'\n\t\t\t\t\t\t[29620] link 'DeAndre Jordan' url: https://www.espn.com/nba/player/_/id/3442/deandre-jordan\n\t\t\t\t[29664] row ''\n\t\t\t\t\t[29629] cell 'Russell Westbrook #4'\n\t\t\t\t\t\t[29626] link 'Russell Westbrook' url: https://www.espn.com/nba/player/_/id/3468/russell-westbrook\n\t\t\t\t[29665] row ''\n\t\t\t\t\t[29635] cell 'Jalen Pickett #24'\n\t\t\t\t\t\t[29632] link 'Jalen Pickett' url: https://www.espn.com/nba/player/_/id/4398390/jalen-pickett\n\t\t\t\t[29666] row ''\n\t\t\t\t\t[29641] cell 'Julian Strawther #3'\n\t\t\t\t\t\t[29638] link 'Julian Strawther' url: https://www.espn.com/nba/player/_/id/4432181/julian-strawther\n\t\t\t\t[29667] row ''\n\t\t\t\t\t[29647] cell 'Dario Saric #9'\n\t\t\t\t\t\t[29644] link 'Dario Saric' url: https://www.espn.com/nba/player/_/id/3032978/dario-saric\n\t\t\t\t[29668] row ''\n\t\t\t\t\t[29649] cell 'TEAM'\n\t\t\t\t[29669] row ''\n\t\t\t\t\t[29651] cell ''\n\t\t\t[30003] table ''\n\t\t\t\t[29982] row ''\n\t\t\t\t\t[29701] cell 'MIN'\n\t\t\t\t\t[29702] cell 'FG'\n\t\t\t\t\t[29703] cell '3PT'\n\t\t\t\t\t[29704] cell 'FT'\n\t\t\t\t\t[29705] cell 'OREB'\n\t\t\t\t\t[29706] cell 'DREB'\n\t\t\t\t\t[29707] cell 'REB'\n\t\t\t\t\t[29708] cell 'AST'\n\t\t\t\t\t[29709] cell 'STL'\n\t\t\t\t\t[29710] cell 'BLK'\n\t\t\t\t\t[29711] cell 'TO'\n\t\t\t\t\t[29712] cell 'PF'\n\t\t\t\t\t[29713] cell '+/-'\n\t\t\t\t\t[29714] cell 'PTS'\n\t\t\t\t[29983] row ''\n\t\t\t\t\t[29715] cell '37'\n\t\t\t\t\t[29716] cell '7-11'\n\t\t\t\t\t[29717] cell '1-2'\n\t\t\t\t\t[29718] cell '8-9'\n\t\t\t\t\t[29719] cell '2'\n\t\t\t\t\t[29720] cell '2'\n\t\t\t\t\t[29721] cell '4'\n\t\t\t\t\t[29722] cell '2'\n\t\t\t\t\t[29723] cell '0'\n\t\t\t\t\t[29724] cell '0'\n\t\t\t\t\t[29725] cell '1'\n\t\t\t\t\t[29726] cell '4'\n\t\t\t\t\t[29727] cell '+13'\n\t\t\t\t\t[29728] cell '23'\n\t\t\t\t[29984] row ''\n\t\t\t\t\t[29729] cell '37'\n\t\t\t\t\t[29730] cell '5-10'\n\t\t\t\t\t[29731] cell '3-5'\n\t\t\t\t\t[29732] cell '1-1'\n\t\t\t\t\t[29733] cell '0'\n\t\t\t\t\t[29734] cell '2'\n\t\t\t\t\t[29735] cell '2'\n\t\t\t\t\t[29736] cell '1'\n\t\t\t\t\t[29737] cell '0'\n\t\t\t\t\t[29738] cell '1'\n\t\t\t\t\t[29739] cell '0'\n\t\t\t\t\t[29740] cell '4'\n\t\t\t\t\t[29741] cell '+34'\n\t\t\t\t\t[29742] cell '14'\n\t\t\t\t[29985] row ''\n\t\t\t\t\t[29743] cell '37'\n\t\t\t\t\t[29744] cell '4-13'\n\t\t\t\t\t[29745] cell '1-4'\n\t\t\t\t\t[29746] cell '4-5'\n\t\t\t\t\t[29747] cell '1'\n\t\t\t\t\t[29748] cell '9'\n\t\t\t\t\t[29749] cell '10'\n\t\t\t\t\t[29750] cell '12'\n\t\t\t\t\t[29751] cell '1'\n\t\t\t\t\t[29752] cell '2'\n\t\t\t\t\t[29753] cell '2'\n\t\t\t\t\t[29754] cell '1'\n\t\t\t\t\t[29755] cell '+18'\n\t\t\t\t\t[29756] cell '13'\n\t\t\t\t[29986] row ''\n\t\t\t\t\t[29757] cell '40'\n\t\t\t\t\t[29758] cell '17-26'\n\t\t\t\t\t[29759] cell '8-14'\n\t\t\t\t\t[29760] cell '1-1'\n\t\t\t\t\t[29761] cell '0'\n\t\t\t\t\t[29762] cell '5'\n\t\t\t\t\t[29763] cell '5'\n\t\t\t\t\t[29764] cell '7'\n\t\t\t\t\t[29765] cell '3'\n\t\t\t\t\t[29766] cell '1'\n\t\t\t\t\t[29767] cell '1'\n\t\t\t\t\t[29768] cell '2'\n\t\t\t\t\t[29769] cell '+17'\n\t\t\t\t\t[29770] cell '43'\n\t\t\t\t[29987] row ''\n\t\t\t\t\t[29771] cell '37'\n\t\t\t\t\t[29772] cell '5-8'\n\t\t\t\t\t[29773] cell '1-2'\n\t\t\t\t\t[29774] cell '0-2'\n\t\t\t\t\t[29775] cell '4'\n\t\t\t\t\t[29776] cell '8'\n\t\t\t\t\t[29777] cell '12'\n\t\t\t\t\t[29778] cell '3'\n\t\t\t\t\t[29779] cell '2'\n\t\t\t\t\t[29780] cell '0'\n\t\t\t\t\t[29781] cell '0'\n\t\t\t\t\t[29782] cell '4'\n\t\t\t\t\t[29783] cell '+18'\n\t\t\t\t\t[29784] cell '11'\n\t\t\t\t[29988] row ''\n\t\t\t\t\t[29799] cell 'MIN'\n\t\t\t\t\t[29800] cell 'FG'\n\t\t\t\t\t[29801] cell '3PT'\n\t\t\t\t\t[29802] cell 'FT'\n\t\t\t\t\t[29803] cell 'OREB'\n\t\t\t\t\t[29804] cell 'DREB'\n\t\t\t\t\t[29805] cell 'REB'\n\t\t\t\t\t[29806] cell 'AST'\n\t\t\t\t\t[29807] cell 'STL'\n\t\t\t\t\t[29808] cell 'BLK'\n\t\t\t\t\t[29809] cell 'TO'\n\t\t\t\t\t[29810] cell 'PF'\n\t\t\t\t\t[29811] cell '+/-'\n\t\t\t\t\t[29812] cell 'PTS'\n\t\t\t\t[29989] row ''\n\t\t\t\t\t[29813] cell '2'\n\t\t\t\t\t[29814] cell '0-0'\n\t\t\t\t\t[29815] cell '0-0'\n\t\t\t\t\t[29816] cell '2-3'\n\t\t\t\t\t[29817] cell '0'\n\t\t\t\t\t[29818] cell '0'\n\t\t\t\t\t[29819] cell '0'\n\t\t\t\t\t[29820] cell '0'\n\t\t\t\t\t[29821] cell '0'\n\t\t\t\t\t[29822] cell '1'\n\t\t\t\t\t[29823] cell '0'\n\t\t\t\t\t[29824] cell '0'\n\t\t\t\t\t[29825] cell '-4'\n\t\t\t\t\t[29826] cell '2'\n\t\t\t\t[29990] row ''\n\t\t\t\t\t[29827] cell '2'\n\t\t\t\t\t[29828] cell '1-1'\n\t\t\t\t\t[29829] cell '0-0'\n\t\t\t\t\t[29830] cell '0-0'\n\t\t\t\t\t[29831] cell '0'\n\t\t\t\t\t[29832] cell '0'\n\t\t\t\t\t[29833] cell '0'\n\t\t\t\t\t[29834] cell '0'\n\t\t\t\t\t[29835] cell '0'\n\t\t\t\t\t[29836] cell '0'\n\t\t\t\t\t[29837] cell '0'\n\t\t\t\t\t[29838] cell '0'\n\t\t\t\t\t[29839] cell '-4'\n\t\t\t\t\t[29840] cell '2'\n\t\t\t\t[29991] row ''\n\t\t\t\t\t[29841] cell '8'\n\t\t\t\t\t[29842] cell '1-2'\n\t\t\t\t\t[29843] cell '0-0'\n\t\t\t\t\t[29844] cell '0-0'\n\t\t\t\t\t[29845] cell '1'\n\t\t\t\t\t[29846] cell '1'\n\t\t\t\t\t[29847] cell '2'\n\t\t\t\t\t[29848] cell '1'\n\t\t\t\t\t[29849] cell '1'\n\t\t\t\t\t[29850] cell '1'\n\t\t\t\t\t[29851] cell '0'\n\t\t\t\t\t[29852] cell '1'\n\t\t\t\t\t[29853] cell '+2'\n\t\t\t\t\t[29854] cell '2'\n\t\t\t\t[29992] row ''\n\t\t\t\t\t[29855] cell '2'\n\t\t\t\t\t[29856] cell '0-0'\n\t\t\t\t\t[29857] cell '0-0'\n\t\t\t\t\t[29858] cell '0-0'\n\t\t\t\t\t[29859] cell '0'\n\t\t\t\t\t[29860] cell '0'\n\t\t\t\t\t[29861] cell '0'\n\t\t\t\t\t[29862] cell '0'\n\t\t\t\t\t[29863] cell '0'\n\t\t\t\t\t[29864] cell '0'\n\t\t\t\t\t[29865] cell '0'\n\t\t\t\t\t[29866] cell '0'\n\t\t\t\t\t[29867] cell '-4'\n\t\t\t\t\t[29868] cell '0'\n\t\t\t\t[29993] row ''\n\t\t\t\t\t[29869] cell '10'\n\t\t\t\t\t[29870] cell '0-0'\n\t\t\t\t\t[29871] cell '0-0'\n\t\t\t\t\t[29872] cell '0-0'\n\t\t\t\t\t[29873] cell '0'\n\t\t\t\t\t[29874] cell '2'\n\t\t\t\t\t[29875] cell '2'\n\t\t\t\t\t[29876] cell '2'\n\t\t\t\t\t[29877] cell '0'\n\t\t\t\t\t[29878] cell '1'\n\t\t\t\t\t[29879] cell '0'\n\t\t\t\t\t[29880] cell '2'\n\t\t\t\t\t[29881] cell '+2'\n\t\t\t\t\t[29882] cell '0'\n\t\t\t\t[29994] row ''\n\t\t\t\t\t[29883] cell '25'\n\t\t\t\t\t[29884] cell '8-15'\n\t\t\t\t\t[29885] cell '3-6'\n\t\t\t\t\t[29886] cell '2-2'\n\t\t\t\t\t[29887] cell '0'\n\t\t\t\t\t[29888] cell '1'\n\t\t\t\t\t[29889] cell '1'\n\t\t\t\t\t[29890] cell '1'\n\t\t\t\t\t[29891] cell '0'\n\t\t\t\t\t[29892] cell '0'\n\t\t\t\t\t[29893] cell '4'\n\t\t\t\t\t[29894] cell '3'\n\t\t\t\t\t[29895] cell '-4'\n\t\t\t\t\t[29896] cell '21'\n\t\t\t\t[29995] row ''\n\t\t\t\t\t[29897] cell '2'\n\t\t\t\t\t[29898] cell '0-0'\n\t\t\t\t\t[29899] cell '0-0'\n\t\t\t\t\t[29900] cell '0-0'\n\t\t\t\t\t[29901] cell '0'\n\t\t\t\t\t[29902] cell '0'\n\t\t\t\t\t[29903] cell '0'\n\t\t\t\t\t[29904] cell '0'\n\t\t\t\t\t[29905] cell '0'\n\t\t\t\t\t[29906] cell '0'\n\t\t\t\t\t[29907] cell '1'\n\t\t\t\t\t[29908] cell '0'\n\t\t\t\t\t[29909] cell '-4'\n\t\t\t\t\t[29910] cell '0'\n\t\t\t\t[29996] row ''\n\t\t\t\t\t[29911] cell '2'\n\t\t\t\t\t[29912] cell '0-0'\n\t\t\t\t\t[29913] cell '0-0'\n\t\t\t\t\t[29914] cell '0-0'\n\t\t\t\t\t[29915] cell '0'\n\t\t\t\t\t[29916] cell '0'\n\t\t\t\t\t[29917] cell '0'\n\t\t\t\t\t[29918] cell '0'\n\t\t\t\t\t[29919] cell '0'\n\t\t\t\t\t[29920] cell '0'\n\t\t\t\t\t[29921] cell '0'\n\t\t\t\t\t[29922] cell '0'\n\t\t\t\t\t[29923] cell '-4'\n\t\t\t\t\t[29924] cell '0'\n\t\t\t\t[29997] row ''\n\t\t\t\t\t[29925] cell \"DNP-COACH'S DECISION\"\n\t\t\t\t[29998] row ''\n\t\t\t\t\t[29940] cell ''\n\t\t\t\t\t[29941] cell '48-86'\n\t\t\t\t\t[29942] cell '17-33'\n\t\t\t\t\t[29943] cell '18-23'\n\t\t\t\t\t[29944] cell '8'\n\t\t\t\t\t[29945] cell '30'\n\t\t\t\t\t[29946] cell '38'\n\t\t\t\t\t[29947] cell '29'\n\t\t\t\t\t[29948] cell '7'\n\t\t\t\t\t[29949] cell '7'\n\t\t\t\t\t[29950] cell '9'\n\t\t\t\t\t[29951] cell '21'\n\t\t\t\t\t[29952] cell ''\n\t\t\t\t\t[29953] cell '131'\n\t\t\t\t[29999] row ''\n\t\t\t\t\t[29968] cell ''\n\t\t\t\t\t[29969] cell '55.8%'\n\t\t\t\t\t[29970] cell '51.5%'\n\t\t\t\t\t[29971] cell '78.3%'\n\t\t\t\t\t[29972] cell ''\n\t\t\t\t\t[29973] cell ''\n\t\t\t\t\t[29974] cell ''\n\t\t\t\t\t[29975] cell ''\n\t\t\t\t\t[29976] cell ''\n\t\t\t\t\t[29977] cell ''\n\t\t\t\t\t[29978] cell ''\n\t\t\t\t\t[29979] cell ''\n\t\t\t\t\t[29980] cell ''\n\t\t\t\t\t[29981] cell ''\n\t\t\t[30053] sectionheader 'Game Information'\n\t\t\t\t[30020] heading 'Game Information'\n\t\t\t[30026] figure ''\n\t\t\t\t[30022] image 'Ball Arena' url: https://a.espncdn.com/combiner/i?img=/i/venues/nba/day/892.jpg&cquality=80&h=622&w=1486&location=manual&scale=crop&x=0&y=0\n\t[31170] Iframe 'Advertisement'"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; \n• Final score (Apr 29, 2025): Denver Nuggets 131, Los Angeles Clippers 115.  \n• Main highlight: Jamal Murray exploded for 43 points on 17‑of‑26 shooting (8‑for‑14 from three), and Russell Westbrook chipped in 21 off the bench as the Nuggets controlled the game wire‑to‑wire to take a 3‑2 series lead."
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply."
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: I have found the required information on the ESPN recap and box‑score pages: the Nuggets beat the Clippers 131‑115 on Apr 29 2025, and Jamal Murray’s 43‑point outburst (17‑of‑26 FG, 8‑of‑14 3PT) was the key highlight, with Russell Westbrook adding 21 points off the bench.  \nAction: ANSWER; Denver Nuggets 131 – 115 Los Angeles Clippers (Apr 29 2025).  Highlight: Jamal Murray erupted for 43 points on 17‑of‑26 shooting (8‑for‑14 from three) while Russell Westbrook scored 21 off the bench, powering Denver to a wire‑to‑wire win and a 3‑2 series lead."
   }
 ]

@@ -1,0 +1,148 @@
+[11976] RootWebArea 'AirPods - Compare Models - Apple' focused: True url: https://www.apple.com/airpods/compare/
+	[13304] main ''
+		[13308] heading 'Compare AirPods models'
+		[13313] button 'See all models \uf301'
+		[13321] StaticText 'Get help choosing.'
+		[13323] link 'Chat with a Specialist \uf301' url: https://contactretail.apple.com/?pg=COM:airpods_compare&ap=COM&c=us&l=en&ag=FASTPASS
+		[19930] table 'Compare AirPods models'
+			[19932] row ''
+				[19933] columnheader '\xa0' required: False
+				[19936] columnheader 'AirPods 4 with Active Noise Cancellation' required: False
+				[19938] columnheader 'AirPods Pro 2' required: False
+			[19941] rowgroup ''
+				[19942] row ''
+					[19945] StaticText 'Dropdown'
+					[19947] cell 'AirPods 4 with Active Noise Cancellation'
+						[12036] combobox '' hasPopup: menu expanded: False
+					[19975] cell 'AirPods Pro 2'
+						[12038] combobox '' hasPopup: menu expanded: False
+			[20003] rowgroup ''
+				[20004] row ''
+					[20007] StaticText 'Finish'
+					[20009] cell 'Learn more about AirPods 4 with Active Noise Cancellation'
+						[20010] link 'Learn more about AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/airpods-4/
+						[20018] button ''
+							[20019] figure ''
+								[20021] Figcaption ''
+									[20022] StaticText 'White'
+					[20023] cell 'Learn more about AirPods Pro 2'
+						[20024] link 'Learn more about AirPods Pro 2' url: https://www.apple.com/airpods-pro/
+						[20032] button ''
+							[20033] figure ''
+								[20035] Figcaption ''
+									[20036] StaticText 'White'
+			[20037] rowgroup ''
+				[20041] row ''
+					[20044] cell '\xa0'
+					[20051] cell '\xa0'
+				[20058] row ''
+					[20061] cell '$179'
+					[20068] cell '$249'
+			[20075] rowgroup ''
+				[20079] row ''
+					[20082] cell 'Buy AirPods 4 with Active Noise Cancellation'
+						[20083] link 'Buy AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/us/shop/goto/buy_airpods/airpods_4/with_active_noise_cancellation
+					[20085] cell 'Buy AirPods Pro 2'
+						[20086] link 'Buy AirPods Pro 2' url: https://www.apple.com/us/shop/goto/buy_airpods/airpods_pro_2
+			[20088] rowgroup ''
+				[20092] row ''
+					[20095] cell 'Learn more about AirPods 4 with Active Noise Cancellation'
+						[20096] link 'Learn more about AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/airpods-4/
+					[20101] cell 'Learn more about AirPods Pro 2'
+						[20102] link 'Learn more about AirPods Pro 2' url: https://www.apple.com/airpods-pro/
+			[20107] rowgroup ''
+				[20111] row ''
+					[20112] rowheader 'Quick\xa0Look' required: False
+					[20119] cell 'H2 chip'
+						[20121] figure ''
+					[20125] cell 'H2 chip'
+						[20127] figure ''
+				[20131] row ''
+					[20134] cell 'Active Noise Cancellation, Adaptive Audio,footnote 1 and Transparency modefootnote 3'
+						[20136] figure ''
+						[20140] superscript ''
+							[20141] link 'footnote 1' url: https://www.apple.com/airpods/compare/#footnote-1
+						[20143] StaticText ' and Transparency mode'
+						[20144] superscript ''
+							[20145] link 'footnote 3' url: https://www.apple.com/airpods/compare/#footnote-3
+					[20147] cell 'Up to 2x more Active Noise Cancellation,footnote 2 with Adaptive Audiofootnote 1 and Transparency modefootnote 3'
+						[20149] figure ''
+						[20153] superscript ''
+							[20154] link 'footnote 2' url: https://www.apple.com/airpods/compare/#footnote-2
+						[20156] StaticText ' with Adaptive Audio'
+						[20157] superscript ''
+							[20158] link 'footnote 1' url: https://www.apple.com/airpods/compare/#footnote-1
+						[20160] StaticText ' and Transparency mode'
+						[20161] superscript ''
+							[20162] link 'footnote 3' url: https://www.apple.com/airpods/compare/#footnote-3
+	[22380] dialog 'All AirPods models' focused: True modal: True
+		[22381] LayoutTable ''
+			[22387] heading 'All AirPods models'
+			[22393] figure ''
+				[22397] StaticText 'AirPods 4'
+			[22404] StaticText '$129'
+			[22410] link 'Buy AirPods 4' url: https://www.apple.com/us/shop/goto/buy_airpods/airpods_4/without_active_noise_cancellation
+			[22413] link 'Learn more about AirPods 4' url: https://www.apple.com/airpods-4/
+			[22420] StaticText 'White'
+			[22422] StaticText 'Personalized Spatial\xa0Audio with dynamic head tracking'
+			[22423] superscript ''
+				[22424] link ' footnote 4' url: https://www.apple.com/airpods/compare/#footnote-4
+			[22427] StaticText 'H2 chip'
+			[22429] StaticText 'Voice Isolation'
+			[22430] superscript ''
+				[22431] link 'footnote 16' url: https://www.apple.com/airpods/compare/#footnote-16
+			[22434] StaticText 'Siri Interactions'
+			[22435] superscript ''
+				[22436] link 'footnote 16' url: https://www.apple.com/airpods/compare/#footnote-16
+			[22439] StaticText 'Dust, sweat, and water resistant (IP54)'
+			[22440] superscript ''
+				[22441] link 'footnote 13' url: https://www.apple.com/airpods/compare/#footnote-13
+			[22444] StaticText '“Hey\xa0Siri” always on'
+			[22446] StaticText 'Up to 5 hours of listening time on one charge'
+			[22447] superscript ''
+				[22448] link 'footnote 8' url: https://www.apple.com/airpods/compare/#footnote-8
+			[22451] StaticText 'Up to 30 hours of listening time with charging case'
+			[22452] superscript ''
+				[22453] link 'footnote 8' url: https://www.apple.com/airpods/compare/#footnote-8
+			[22456] StaticText 'Charging Case (USB‑C)'
+			[22457] superscript ''
+				[22458] link 'footnote 11' url: https://www.apple.com/airpods/compare/#footnote-11
+			[22461] StaticText 'Personalized engraving with initials, emoji, and more'
+			[22464] figure ''
+				[22468] StaticText 'AirPods 4 with Active Noise Cancellation'
+			[22475] StaticText '$179'
+			[22481] link 'Buy AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/us/shop/goto/buy_airpods/airpods_4/with_active_noise_cancellation
+			[22484] link 'Learn more about AirPods 4 with Active Noise Cancellation' url: https://www.apple.com/airpods-4/
+			[22491] StaticText 'White'
+			[22495] StaticText 'Adaptive Audio'
+			[22496] superscript ''
+				[22497] link ' footnote 1' url: https://www.apple.com/airpods/compare/#footnote-1
+			[22500] StaticText 'Transparency mode'
+			[22502] StaticText 'Conversation Awareness'
+			[22503] superscript ''
+				[22504] link ' footnote 1' url: https://www.apple.com/airpods/compare/#footnote-1
+			[22507] StaticText 'Personalized Spatial\xa0Audio with dynamic head tracking'
+			[22508] superscript ''
+				[22509] link ' footnote 4' url: https://www.apple.com/airpods/compare/#footnote-4
+			[22512] StaticText 'H2 chip'
+			[22514] StaticText 'Voice Isolation'
+			[22515] superscript ''
+				[22516] link 'footnote 16' url: https://www.apple.com/airpods/compare/#footnote-16
+			[22519] StaticText 'Siri Interactions'
+			[22520] superscript ''
+				[22521] link 'footnote 16' url: https://www.apple.com/airpods/compare/#footnote-16
+			[22524] StaticText 'Dust, sweat, and water resistant (IP54)'
+			[22525] superscript ''
+				[22526] link 'footnote 13' url: https://www.apple.com/airpods/compare/#footnote-13
+			[22529] StaticText '“Hey\xa0Siri” always on'
+			[22531] StaticText 'Up to 5 hours of listening time on one charge'
+			[22532] superscript ''
+				[22533] link 'footnote 8' url: https://www.apple.com/airpods/compare/#footnote-8
+			[22536] StaticText 'Up to 30 hours of listening time with charging case'
+			[22537] superscript ''
+				[22538] link 'footnote 8' url: https://www.apple.com/airpods/compare/#footnote-8
+			[22541] StaticText 'Charging Case (USB‑C) with speaker; Apple\xa0Watch and Qi wireless charging'
+			[22542] superscript ''
+				[22543] link 'footnote 9' url: https://www.apple.com/airpods/compare/#footnote-9
+			[22546] StaticText 'Personalized engraving with initials, emoji, and more'
+			[22838] button 'Close'

@@ -1,0 +1,168 @@
+[6222] RootWebArea 'Booking.com: Hotels in Lisbon. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Lisbon&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-2167973&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=faf360d178a0015c&ac_meta=GhBmYWYzNjBkMTc4YTAwMTVjIAAoATICZW46Bkxpc2JvbkAASgBQAA%3D%3D&group_adults=2&no_rooms=1&group_children=0
+	[6922] tabpanel 'Calendar'
+		[6924] generic 'Next month April 2025 May 2025' focused: True
+			[6935] grid '' multiselectable: False
+				[7069] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+					[7070] gridcell '27 April 2025' required: False
+						[7071] checkbox '27 April 2025' checked: false
+					[7074] gridcell '28 April 2025' required: False
+						[7075] checkbox '28 April 2025' checked: false
+					[7078] gridcell '29 April 2025' required: False
+						[7079] checkbox '29 April 2025' checked: false
+					[7082] gridcell '30 April 2025' required: False
+						[6346] checkbox '30 April 2025' checked: false
+			[7092] grid '' multiselectable: False
+				[7245] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+					[7246] gridcell '25 May 2025' required: False
+						[7247] checkbox '25 May 2025' checked: false
+					[7251] gridcell '26 May 2025' required: False
+						[7252] checkbox '26 May 2025' checked: false
+					[7256] gridcell '27 May 2025' required: False
+						[7257] checkbox '27 May 2025' checked: false
+					[7261] gridcell '28 May 2025' required: False
+						[7262] checkbox '28 May 2025' checked: false
+					[7266] gridcell '29 May 2025' required: False
+						[7267] checkbox '29 May 2025' checked: false
+					[7271] gridcell '30 May 2025' required: False
+						[7272] checkbox '30 May 2025' checked: false
+					[7276] gridcell '31 May 2025' required: False
+						[7277] checkbox '31 May 2025' checked: false
+		[7283] group ''
+			[7285] region '' roledescription: carousel
+				[6338] group '' roledescription: slide
+					[6349] checkbox 'Exact dates' checked: true
+				[6339] group '' roledescription: slide
+					[6350] checkbox '1 day' checked: false
+				[6340] group '' roledescription: slide
+					[6351] checkbox '2 days' checked: false
+				[6341] group '' roledescription: slide
+					[6352] checkbox '3 days' checked: false
+				[6342] group '' roledescription: slide
+					[6353] checkbox '7 days' checked: false
+	[7411] region 'Filters'
+		[7419] group 'Popular filters'
+			[6357] checkbox 'Sea view: 118 properties' checked: false
+			[6358] checkbox 'Bed and Breakfasts: 59 properties' checked: false
+			[6359] checkbox 'Villas: 11 properties' checked: false
+			[6360] checkbox 'Wonderful: 9+: 1301 properties' checked: false
+			[7539] StaticText 'Based on guest reviews'
+			[6361] checkbox 'TV: 4233 properties' checked: false
+		[7567] StaticText 'Smart filters'
+		[7575] StaticText 'What are you looking for?'
+		[6362] textbox 'What are you looking for?' required: False
+		[7583] button 'Find properties'
+		[7592] group 'Amenities'
+			[6363] checkbox 'Parking: 1629 properties' checked: false
+			[6364] checkbox 'Restaurant: 221 properties' checked: false
+			[6365] checkbox 'Pet friendly: 684 properties' checked: false
+			[6366] checkbox 'Room service: 253 properties' checked: false
+			[6367] checkbox '24-hour front desk: 587 properties' checked: false
+			[7677] button 'Show all 15' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7689] group 'Property Type'
+			[6368] checkbox 'Apartments: 5022 properties' checked: false
+			[6369] checkbox 'Guesthouses: 400 properties' checked: false
+			[6370] checkbox 'Hotels: 335 properties' checked: false
+			[6371] checkbox 'Homestays: 152 properties' checked: false
+			[6372] checkbox 'Hostels: 122 properties' checked: false
+			[6373] checkbox 'Bed and Breakfasts: 59 properties' checked: false
+			[6374] checkbox 'Vacation Homes: 37 properties' checked: false
+			[6375] checkbox 'Boats: 35 properties' checked: false
+			[6376] checkbox 'Villas: 11 properties' checked: false
+			[6377] checkbox 'Luxury tents: 4 properties' checked: false
+			[6378] checkbox 'Campgrounds: 2 properties' checked: false
+		[7874] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6379] checkbox '1 star: 4 properties' checked: false
+			[6380] checkbox '2 stars: 36 properties' checked: false
+			[6381] checkbox '3 stars: 3419 properties' checked: false
+			[6382] checkbox '4 stars: 1301 properties' checked: false
+			[6383] checkbox '5 stars: 50 properties' checked: false
+		[7978] group 'Room amenities'
+			[6384] checkbox 'Private bathroom: 5083 properties' checked: false
+			[6385] checkbox 'Air conditioning: 3251 properties' checked: false
+			[6386] checkbox 'Balcony: 2311 properties' checked: false
+			[6387] checkbox 'Sea view: 118 properties' checked: false
+			[6388] checkbox 'Kitchen/Kitchenette: 5201 properties' checked: false
+			[8063] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r2q:
+		[8074] group 'Review score'
+			[6389] checkbox 'Wonderful: 9+: 1301 properties' checked: false
+			[6390] checkbox 'Very Good: 8+: 3504 properties' checked: false
+			[6391] checkbox 'Good: 7+: 4780 properties' checked: false
+			[6392] checkbox 'Pleasant: 6+: 5311 properties' checked: false
+		[8147] group 'Neighborhood'
+	[9398] listitem 'Property'
+	[9481] listitem 'Property'
+		[9492] button 'Save this item to a trip list' expanded: False
+		[9505] heading 'Chiado Patio Apartment Opens in new window'
+			[9506] link 'Chiado Patio Apartment Opens in new window' url: https://www.booking.com/hotel/pt/chiado-patio-apartment-rentexperience.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9512] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9513] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9514] image ''
+		[9518] link 'Santa Maria Maior, Lisbon· Show on map' url: https://www.booking.com/hotel/pt/chiado-patio-apartment-rentexperience.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults&map=1
+		[9528] button '0.2 miles from downtown'
+		[9533] button 'Subway Access'
+		[9536] StaticText 'Chiado Patio Apartment is located in Lisbon, just one mile from Miradouro da Senhora do Monte and 4.4 miles from Jeronimos Monastery.'
+		[9540] link 'Scored 8.9 Excellent 168 reviews' url: https://www.booking.com/hotel/pt/chiado-patio-apartment-rentexperience.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9554] link 'Location: Scored 9.5 ' url: https://www.booking.com/hotel/pt/chiado-patio-apartment-rentexperience.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9562] button 'Show prices'
+	[9571] listitem 'Property'
+		[9582] button 'Save this item to a trip list' expanded: False
+		[9595] heading 'Alfama Yellow House Opens in new window'
+			[9596] link 'Alfama Yellow House Opens in new window' url: https://www.booking.com/hotel/pt/alfama-yellow-house.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9602] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9603] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9604] image ''
+		[9608] link 'Santa Maria Maior, Lisbon· Show on map' url: https://www.booking.com/hotel/pt/alfama-yellow-house.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults&map=1
+		[9618] button '0.6 miles from downtown'
+		[9621] StaticText 'Featuring accommodations in apartments and studios, Alfama Yellow House is located in a historical Lisbon neighborhood.'
+		[9625] link 'Scored 7.4 Good 833 reviews' url: https://www.booking.com/hotel/pt/alfama-yellow-house.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9640] button 'Show prices'
+	[9649] listitem 'Property'
+		[9660] button 'Save this item to a trip list' expanded: False
+		[9673] heading 'Local House Lisbon Opens in new window'
+			[9674] link 'Local House Lisbon Opens in new window' url: https://www.booking.com/hotel/pt/local-house-lisbon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9680] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9681] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9682] image ''
+		[9686] link 'Misericordia, Lisbon· Show on map' url: https://www.booking.com/hotel/pt/local-house-lisbon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults&map=1
+		[9696] button '0.3 miles from downtown'
+		[9701] button 'Subway Access'
+		[9704] StaticText 'Local House Lisbon is a guest house featuring rooms with free Wifi and air conditioning in the center of Lisbon. The property is around 1.1 miles from St.'
+		[9708] link 'Scored 8.3 Very Good 1,892 reviews' url: https://www.booking.com/hotel/pt/local-house-lisbon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9722] link 'Location: Scored 9.3 ' url: https://www.booking.com/hotel/pt/local-house-lisbon.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9730] button 'Show prices'
+	[9740] listitem 'Property'
+		[9751] button 'Save this item to a trip list' expanded: False
+		[9764] heading 'Casas de São Bento Opens in new window'
+			[9765] link 'Casas de São Bento Opens in new window' url: https://www.booking.com/hotel/pt/casas-de-sao-bento.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9771] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9772] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9773] image ''
+		[9777] link 'Misericordia, Lisbon· Show on map' url: https://www.booking.com/hotel/pt/casas-de-sao-bento.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults&map=1
+		[9787] button '0.8 miles from downtown'
+		[9792] button 'Subway Access'
+		[9795] StaticText 'Casas de Sao Bento features air-conditioned rooms and self-catering apartments, each with a flat-screen TV in the Misericordia district of Lisbon.'
+		[9799] link 'Scored 9.3 Wonderful 900 reviews' url: https://www.booking.com/hotel/pt/casas-de-sao-bento.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9813] link 'Location: Scored 9.5 ' url: https://www.booking.com/hotel/pt/casas-de-sao-bento.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9821] button 'Show prices'
+	[9828] listitem 'Property'
+		[9839] button 'Save this item to a trip list' expanded: False
+		[9852] heading 'Alvalade Palace Opens in new window'
+			[9853] link 'Alvalade Palace Opens in new window' url: https://www.booking.com/hotel/pt/alvalade-palace.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9859] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9860] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9861] image ''
+		[9865] link 'Alvalade, Lisbon· Show on map' url: https://www.booking.com/hotel/pt/alvalade-palace.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults&map=1
+		[9875] button '3 miles from downtown'
+		[9878] StaticText 'Alvalade Palace in Lisbon provides accommodations with a garden and a shared lounge.'
+		[9882] link 'Scored 8.7 Excellent 2,348 reviews' url: https://www.booking.com/hotel/pt/alvalade-palace.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9897] button 'Show prices'
+	[9906] listitem 'Property'
+		[9917] button 'Save this item to a trip list' expanded: False
+		[9930] heading 'Lisbon Finestay 8 Building Apartments Opens in new window'
+			[9931] link 'Lisbon Finestay 8 Building Apartments Opens in new window' url: https://www.booking.com/hotel/pt/8-building-praca-dom-luis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9937] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9938] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9939] image ''
+		[9943] link 'Misericordia, Lisbon· Show on map' url: https://www.booking.com/hotel/pt/8-building-praca-dom-luis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults&map=1
+		[9965] link 'Scored 8.1 Very Good 1,520 reviews' url: https://www.booking.com/hotel/pt/8-building-praca-dom-luis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults
+		[9979] link 'Location: Scored 9.4 ' url: https://www.booking.com/hotel/pt/8-building-praca-dom-luis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKj08jABsACAdICJDFkNjdmMTE1LWVlOGMtNGU3Yi1hYThjLTQwZGEyNjMzM2JiZtgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-2167973&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=3e4360dfc6230376&srepoch=1746020799&from=searchresults

@@ -1,0 +1,75 @@
+[1] RootWebArea 'Google Flights - Find Cheap Flight Options & Track Prices' focused: True url: https://www.google.com/travel/flights?tfs=CBwQARoPag0IAxIJL20vMDFmMDhyGg9yDQgDEgkvbS8wMWYwOHJAAUgBcAGCAQsI____________AZgBAQ&tfu=KgIIAw
+	[225] button 'Main menu' expanded: False
+		[226] image ''
+	[236] link 'Google' url: https://www.google.com/
+	[245] button 'Skip to main content'
+	[254] button 'Accessibility feedback' hasPopup: dialog
+	[266] link 'Travel'
+		[273] image ''
+	[281] link 'Explore'
+		[288] image ''
+	[295] link 'Flights'
+		[302] image ''
+	[309] link 'Hotels'
+		[316] image ''
+	[326] link 'Vacation rentals'
+		[333] image ''
+	[350] button 'Change appearance' hasPopup: menu expanded: False
+		[359] image ''
+	[371] button 'Google apps' expanded: False
+		[373] image ''
+	[376] link 'Sign in' url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARoPag0IAxIJL20vMDFmMDhyGg9yDQgDEgkvbS8wMWYwOHJAAUgBcAGCAQsI____________AZgBAQ%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARoPag0IAxIJL20vMDFmMDhyGg9yDQgDEgkvbS8wMWYwOHJAAUgBcAGCAQsI____________AZgBAQ%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+	[538] StaticText 'Flights'
+	[541] search 'Flight'
+		[549] combobox 'Change ticket type. Round trip' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[614] button '1 passenger' hasPopup: dialog
+			[622] image ''
+			[626] image ''
+		[770] combobox 'Change seating class. Economy' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[26] combobox 'Where from?' focused: True autocomplete: inline hasPopup: menu required: False expanded: False
+			[2721] StaticText 'Dubai'
+		[845] image ''
+		[903] button 'Swap origin and destination.' disabled: True
+			[908] image ''
+		[28] combobox 'Where to? ' autocomplete: inline hasPopup: menu required: False expanded: False
+		[919] image ''
+		[977] image ''
+		[30] textbox 'Departure' required: False describedby: i32
+		[31] textbox 'Return' required: False describedby: i32
+		[1166] button 'Explore destinations'
+	[1178] main ''
+		[1180] heading 'Find and book cheap flights worldwide and track prices'
+		[5] heading 'Find cheap flights from Seattle to anywhere'
+		[1187] button 'More information on suggested flights.' hasPopup: menu
+			[21] image ''
+		[1231] button 'Portland'
+		[1233] button 'Everett'
+		[1234] button 'Bellingham'
+		[1266] button 'Explore more destinations from Seattle'
+		[1277] button 'Dublin 452 US dollars Aug 11 — Aug 20 Nonstop·9 hr 5 min'
+			[1284] generic '452 US dollars'
+				[1285] StaticText '$452'
+		[1295] button 'Los Angeles 86 US dollars May 31 — Jun 7 Nonstop·2 hr 45 min'
+			[1302] generic '86 US dollars'
+				[1303] StaticText '$86'
+		[1313] button 'New York 189 US dollars May 24 — May 30 1 stop·11 hr 22 min'
+			[1320] generic '189 US dollars'
+				[1321] StaticText '$189'
+		[1331] button 'Tokyo 780 US dollars Aug 31 — Sep 9 1 stop·12 hr 55 min'
+			[1338] generic '780 US dollars'
+				[1339] StaticText '$780'
+		[1350] heading 'Useful tools to help you find the best deals'
+		[1354] button 'Find the cheapest days to fly The Date grid and Price graph make it easy to see the best flight deals'
+			[1356] image ''
+		[1366] button 'See the whole picture with price insights Price history and trend data show you when to book to get the best price on your flight'
+			[1368] image ''
+		[1377] button 'Track prices for a trip Not ready to book yet? Observe price changes for a route or flight and get notified when prices drop.'
+			[1379] image ''
+		[1394] StaticText 'Insightful tools help you choose your trip dates'
+		[1396] StaticText 'If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the '
+		[1398] StaticText 'Date grid'
+		[1399] StaticText ' and '
+		[1401] StaticText 'Price graph'
+		[1402] StaticText ' options on the '
+		[1403] StaticText 'Search'
+		[1404] StaticText ' page to find the cheapest days to get to your destination – and back again for round trips.'

@@ -1,0 +1,26 @@
+[3396] RootWebArea 'Transformers' focused: True url: https://huggingface.co/docs/transformers/index
+	[3623] main ''
+		[3635] StaticText ' documentation'
+		[3644] button ''
+		[4136] ListMarker '• '
+		[4137] link 'Trainer' url: https://huggingface.co/docs/transformers/trainer
+		[4139] StaticText ': A comprehensive trainer that supports features such as mixed precision, torch.compile, and FlashAttention for training and distributed training for PyTorch models.'
+		[4142] ListMarker '• '
+		[4143] link 'generate' url: https://huggingface.co/docs/transformers/llm_tutorial
+		[4145] StaticText ': Fast text generation with large language models (LLMs) and vision language models (VLMs), including support for streaming and multiple decoding strategies.'
+		[4147] heading 'Design'
+			[4148] link '' url: https://huggingface.co/docs/transformers/index#design
+		[4160] StaticText 'Read our '
+		[4161] link 'Philosophy' url: https://huggingface.co/docs/transformers/philosophy
+		[4163] StaticText ' to learn more about Transformers’ design principles.'
+		[4166] StaticText 'Transformers is designed for developers and machine learning engineers and researchers. Its main design principles are:'
+		[4170] ListMarker '1. '
+		[4171] StaticText 'Fast and easy to use: Every model is implemented from only three main classes (configuration, model, and preprocessor) and can be quickly used for inference or training with '
+		[4172] link 'Pipeline' url: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/pipelines#transformers.Pipeline
+		[4175] link 'Trainer' url: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/trainer#transformers.Trainer
+		[4180] ListMarker '2. '
+		[4181] StaticText 'Pretrained models: Reduce your carbon footprint, compute cost and time by using a pretrained model instead of training an entirely new one. Each pretrained model is reproduced as closely as possible to the original model and offers state-of-the-art performance.'
+		[4184] link 'HuggingFace Expert Acceleration Program' url: https://huggingface.co/support
+			[4185] image 'HuggingFace Expert Acceleration Program' url: https://hf.co/datasets/huggingface/documentation-images/resolve/81d7d9201fd4ceb537fc4cebc22c29c37a2ed216/transformers/transformers-index.png
+		[4187] link '< > Update on GitHub' url: https://github.com/huggingface/transformers/blob/main/docs/source/en/index.md
+		[4210] link 'Installation →' url: https://huggingface.co/docs/transformers/installation

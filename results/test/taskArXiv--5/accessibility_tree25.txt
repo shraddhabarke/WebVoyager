@@ -1,0 +1,144 @@
+[13162] RootWebArea 'Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/?query=quantum+computing+cat%3Aquant-ph&searchtype=all&abstracts=show&order=-announced_date_first&size=50
+	[13245] StaticText 'Skip to main content'
+	[13253] link 'logo' url: https://cornell.edu/
+		[13163] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[13259] StaticText 'We gratefully acknowledge support from'
+	[13261] StaticText 'the Simons Foundation, '
+	[13262] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[13264] StaticText ', and all contributors. '
+	[13265] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[13277] link 'arxiv-logo' url: https://arxiv.org/
+		[13164] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[13173] textbox 'Search term or terms' required: False
+	[13292] link 'Help' url: https://info.arxiv.org/help
+	[13294] StaticText ' | '
+	[13295] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[13174] combobox 'Field to search' hasPopup: menu expanded: False
+	[13355] button 'Search'
+	[13366] navigation 'User menu'
+		[13368] link 'Login' url: https://arxiv.org/login
+	[13374] main ''
+		[13380] heading 'Search'
+		[13390] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[13392] StaticText '\xa0\xa0'
+		[13404] StaticText 'Search term or terms'
+		[13168] textbox 'Search term or terms' required: False
+			[13900] StaticText 'quantum computing cat:quant-ph'
+		[13169] combobox '' hasPopup: menu expanded: False
+		[13450] button 'Search'
+		[13170] radio ' Show abstracts' checked: true
+		[13171] radio ' Hide abstracts' checked: false
+		[13473] link 'Advanced Search' url: https://arxiv.org/search/advanced?terms-0-term=quantum+computing+cat%3Aquant-ph&terms-0-field=all&size=50&order=-announced_date_first
+		[13483] StaticText 'Sorry, your query for '
+		[13485] StaticText 'all: quantum computing cat:quant-ph'
+		[13486] StaticText ' produced no results.'
+		[13488] article ''
+			[13492] heading 'Searching by Author Name'
+			[13501] ListMarker '• '
+			[13502] StaticText 'Using the '
+			[13504] StaticText 'Author(s) field'
+			[13505] StaticText ' produces best results for author name searches.'
+			[13508] ListMarker '• '
+			[13509] StaticText 'For the most precise name search, follow '
+			[13511] StaticText 'surname(s), forename(s)'
+			[13512] StaticText ' or '
+			[13514] StaticText 'surname(s), initial(s)'
+			[13515] StaticText ' pattern: example Hawking, S or Hawking, Stephen'
+			[13518] ListMarker '• '
+			[13519] StaticText 'For best results on multiple author names, '
+			[13520] StaticText 'separate individuals with a ;'
+			[13521] StaticText ' (semicolon). Example: Jin, D S; Ye, J'
+			[13523] ListMarker '• '
+			[13524] StaticText 'Author names enclosed in quotes will return only '
+			[13526] StaticText 'exact matches'
+			[13527] StaticText '. For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.'
+			[13530] ListMarker '• '
+			[13531] StaticText 'Diacritic character variants are automatically searched in the Author(s) field.'
+			[13534] ListMarker '• '
+			[13535] StaticText 'Queries with no punctuation will treat each term independently.'
+		[13540] article ''
+			[13544] heading 'Searching by subcategory'
+			[13553] ListMarker '• '
+			[13554] StaticText 'To search within a subcategory select '
+			[13556] StaticText 'All fields'
+			[13557] StaticText '.'
+			[13560] ListMarker '• '
+			[13561] StaticText 'A subcategory search can be combined with an author or keyword search by clicking on '
+			[13563] StaticText 'add another term'
+			[13564] StaticText ' in advanced search.'
+		[13569] heading 'Tips'
+		[13573] StaticText 'Wildcards:'
+		[13578] ListMarker '• '
+		[13579] StaticText 'Use ? to replace a single character or * to replace any number of characters.'
+		[13582] ListMarker '• '
+		[13583] StaticText 'Can be used in any field, but not in the first character position. See Journal References tips for exceptions.'
+		[13587] StaticText 'Expressions:'
+		[13592] ListMarker '• '
+		[13593] StaticText 'TeX expressions can be searched, enclosed in single $ characters.'
+		[13597] StaticText 'Phrases:'
+		[13602] ListMarker '• '
+		[13603] StaticText 'Enclose phrases in double quotes for exact matches in title, abstract, and comments.'
+		[13607] StaticText 'Dates:'
+		[13612] ListMarker '• '
+		[13613] StaticText 'Sorting by announcement date will use the year and month the '
+		[13614] emphasis ''
+			[13615] StaticText 'original version'
+		[13616] StaticText ' (v1) of the paper was announced.'
+		[13619] ListMarker '• '
+		[13620] StaticText 'Sorting by submission date will use the year, month and day the '
+		[13621] emphasis ''
+			[13622] StaticText 'latest version'
+		[13623] StaticText ' of the paper was submitted.'
+		[13627] StaticText 'Journal References:'
+		[13632] ListMarker '• '
+		[13633] StaticText 'If a journal reference search contains a wildcard, matches will be made using wildcard matching as expected. For example, '
+		[13635] StaticText 'math*'
+		[13636] StaticText ' will match '
+		[13637] emphasis ''
+		[13639] StaticText ', '
+		[13640] emphasis ''
+			[13641] StaticText 'maths'
+		[13643] emphasis ''
+			[13644] StaticText 'mathematics'
+		[13645] StaticText '.'
+		[13648] ListMarker '• '
+		[13649] StaticText 'If a journal reference search does '
+		[13651] StaticText 'not'
+		[13652] StaticText ' contain a wildcard, only exact phrases entered will be matched. For example, '
+		[13654] StaticText 'math'
+		[13655] StaticText ' would match '
+		[13656] emphasis ''
+		[13658] StaticText ' or '
+		[13659] emphasis ''
+			[13660] StaticText 'math and science'
+		[13661] StaticText ' but not '
+		[13662] emphasis ''
+			[13663] StaticText 'maths'
+		[13664] StaticText ' or '
+		[13665] emphasis ''
+			[13666] StaticText 'mathematics'
+		[13667] StaticText '.'
+		[13670] ListMarker '• '
+		[13671] StaticText 'All journal reference searches that do not contain a wildcard are literal searches: a search for '
+		[13673] StaticText 'Physica A'
+		[13674] StaticText ' will match all papers with journal references containing '
+		[13675] emphasis ''
+		[13677] StaticText ', but a search for '
+		[13679] StaticText 'Physica A, 245 (1997) 181'
+		[13680] StaticText ' will only return the paper with journal reference '
+		[13681] emphasis ''
+		[13683] StaticText '.'
+	[13698] contentinfo ''
+		[13700] navigation 'Secondary'
+			[13713] link 'About' url: https://info.arxiv.org/about
+			[13717] link 'Help' url: https://info.arxiv.org/help
+			[13735] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[13748] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[13769] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[13773] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[13783] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[13790] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[13795] StaticText 'Get status notifications via '
+			[13796] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[13800] StaticText ' or '
+			[13801] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

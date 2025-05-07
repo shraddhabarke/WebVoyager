@@ -1,0 +1,27 @@
+[1] RootWebArea 'Google Flights - Find Cheap Flight Options & Track Prices' focused: True url: https://www.google.com/travel/flights?tfs=CBwQARoOagwIAxIIL20vMDNoNjRAAUgBcAGCAQsI____________AZgBAg&tfu=KgIIAw
+	[536] search 'Flight'
+		[919] dialog 'Enter your destination' modal: True
+			[29] combobox 'Where to? ' focused: True autocomplete: both hasPopup: menu required: False expanded: True describedby: i29 owns: h0T7hb-15
+			[933] image ''
+			[939] button 'Destination, Select multiple airports'
+				[942] image ''
+			[4459] listbox '' multiselectable: True orientation: vertical required: False
+				[4460] option 'Anywhere' selected: False describedby: c26 
+					[4462] image ''
+					[4687] StaticText 'Search for trips to anywhere in the world'
+				[4470] option 'Europe' selected: False describedby: c28 
+					[4472] image ''
+					[4689] StaticText 'Continent'
+				[4479] option 'Paris, France' selected: False describedby: c30 c31 
+					[4481] image ''
+					[4691] StaticText 'Capital of France'
+				[4492] button 'Toggle nearby airports for Paris, France' expanded: False
+					[4495] image ''
+				[4560] option 'Japan' selected: False describedby: c48 
+					[4562] image ''
+					[4693] StaticText 'Country in East Asia'
+				[4569] option 'London, United Kingdom' selected: False describedby: c50 c51 
+					[4571] image ''
+					[4695] StaticText 'Capital of England'
+				[4582] button 'Toggle nearby airports for London, United Kingdom' expanded: False
+					[4585] image ''

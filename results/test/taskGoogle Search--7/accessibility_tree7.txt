@@ -1,0 +1,31 @@
+[3] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[70] link 'About' url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+	[72] link 'Store' url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+	[80] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[83] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[87] button 'Google apps' expanded: False
+		[89] image ''
+	[92] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_ctr_og_so_72776761_p
+	[103] image ''
+	[2] search ''
+		[155] image ''
+		[1] combobox 'Search' autocomplete: both hasPopup: listbox required: False expanded: False
+		[185] button 'Search by voice'
+			[186] image ''
+		[190] button 'Search by image'
+			[191] image ''
+		[356] button 'Google Search'
+		[358] button "I'm Feeling Lucky"
+	[440] contentinfo ''
+		[445] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[447] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[449] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[452] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[455] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[457] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[17] button 'Settings' hasPopup: menu expanded: False
+			[466] generic '' hasPopup: menu
+	[551] StaticText 'Sign in to Google'
+	[553] StaticText 'Get the most from your Google account'
+	[556] button 'Stay signed out'
+	[564] button 'Sign in'

@@ -1,0 +1,29 @@
+[1] RootWebArea 'City Lot to North Plymouth, Plymouth, MA - Google Maps' focused: True url: https://www.google.com/maps/dir/City+Lot,+102+Rogers+St,+Gloucester,+MA+01930/North+Plymouth,+Plymouth,+MA/@42.2975622,-71.6243474,9z/am=t/data=!4m13!4m12!1m5!1m1!1s0x89e3251b49c0cb17:0xc5aacb9dd27da59f!2m2!1d-70.659956!2d42.6124032!1m5!1m1!1s0x89e4bb32a45bfec7:0x261ec0fbaddbf228!2m2!1d-70.6828139!2d41.9709365?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[162] generic 'Google Maps'
+		[240] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[21] Canvas ''
+		[1641] button 'Expand side panel' focused: True
+		[545] button 'Google apps' expanded: False
+			[547] image ''
+		[550] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[2818] status '' live: polite atomic: True relevant: additions text
+			[2908] listbox '' disabled: True hasPopup: menu multiselectable: False orientation: vertical required: False
+				[2904] option 'Live traffic' selected: True
+				[2913] StaticText '\xa0'
+			[2914] StaticText 'Fast'
+			[2915] StaticText 'Slow'
+			[2827] checkbox ' Show traffic ' checked: false
+		[597] button 'Show Your Location' pressed: false
+		[614] button 'Zoom in'
+		[646] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[702] generic 'Interactive map'
+		[740] StaticText 'Layers'
+		[755] button 'Layers' expanded: False
+		[856] contentinfo ''
+			[858] StaticText 'Map data ©2025 Google'
+			[17] button 'United States'
+			[860] button 'Terms'
+			[862] button 'Privacy'
+			[864] button 'Send Product Feedback'
+		[867] button '10 mi'

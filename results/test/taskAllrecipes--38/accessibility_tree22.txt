@@ -1,0 +1,73 @@
+[11655] RootWebArea 'Ratatouille Recipe' focused: True url: https://www.allrecipes.com/recipe/18411/ratatouille/
+	[12420] button 'Main menu for Allrecipes'
+		[12424] image ''
+	[11657] link "Visit Allrecipes' homepage" url: https://www.allrecipes.com/
+		[12444] image ''
+	[11667] search ''
+		[12519] StaticText 'Search the site'
+		[11661] textbox 'Search the site' required: True
+		[12522] button 'Click to search'
+			[11669] image ''
+	[12547] link 'Log In' url: https://www.allrecipes.com/authentication/login?regSource=3675&relativeRedirectUrl=%2Frecipe%2F18411%2Fratatouille%2F
+		[12549] image ''
+	[12673] link 'Trigger interstitial modal to log in to MyRecipes' url: javascript:void(0)
+		[12675] image ''
+	[14153] Iframe 'Advertisement'
+	[14184] main ''
+		[11673] article ''
+			[14192] link 'RECIPES' url: https://www.allrecipes.com/recipes/
+			[14196] image ''
+			[14202] link 'SIDE DISH' url: https://www.allrecipes.com/recipes/81/side-dish/
+			[14206] image ''
+			[14212] link 'VEGETABLES' url: https://www.allrecipes.com/recipes/225/side-dish/vegetables/
+			[11672] heading 'Ratatouille'
+			[14224] image ''
+			[14229] image ''
+			[14234] image ''
+			[14239] image ''
+			[14244] image ''
+			[14251] StaticText '4.6'
+			[14254] StaticText '(1,122)'
+			[14257] StaticText '803 REVIEWS'
+			[14260] StaticText '136 PHOTOS'
+			[14272] StaticText 'Submitted by'
+			[14275] StaticText 'lynette'
+			[14279] StaticText 'Updated on November 13, 2024'
+			[14289] button 'Save Recipe'
+				[14292] StaticText 'SAVE'
+				[14294] image ''
+			[14304] button 'Rate'
+				[14307] StaticText 'RATE'
+				[14309] image ''
+			[11668] form 'Print this article.'
+				[14318] button 'Print this article.'
+					[14319] StaticText 'PRINT'
+					[14320] image ''
+			[14334] button 'Share' expanded: False
+				[14337] StaticText 'SHARE'
+				[14339] image ''
+			[14399] application 'Video Player - Ratatouille' describedby: jw-article__primary-video-jw_1-0-shortcuts-tooltip-explanation
+				[14414] generic '' live: assertive atomic: False relevant: additions text
+				[14415] generic '' live: assertive atomic: False relevant: additions text
+					[21548] StaticText 'Volume 0%'
+				[20051] button 'Close'
+					[20052] image ''
+				[14417] StaticText '\xa0'
+			[14420] button 'Add Photo'
+				[14422] image ''
+			[14428] button 'close up view of Ratatouille on a white plate'
+				[14434] image 'close up view of Ratatouille on a white plate' url: https://www.allrecipes.com/thmb/VqAtIJHlqeZOiMFw1YiMmz-T9rQ=/160x90/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/818555-ratatouille-Hannah-T-1x1-1-cf09e472bf504f9e9286df70ba7b6899.jpg
+			[14440] button ''
+			[14449] button '136'
+			[14477] StaticText 'Prep Time:'
+			[14480] StaticText '15 mins'
+			[14486] StaticText 'Cook Time:'
+			[14489] StaticText '45 mins'
+			[14495] StaticText 'Total Time:'
+			[14498] StaticText '1 hr'
+			[14504] StaticText 'Servings:'
+			[14513] StaticText 'Jump to Nutrition Facts'
+			[14518] button 'JUMP TO RECIPE'
+				[14520] image ''
+			[14533] heading 'What Is Ratatouille?\xa0'
+			[16858] Iframe 'Advertisement'

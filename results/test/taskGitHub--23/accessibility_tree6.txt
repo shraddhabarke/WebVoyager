@@ -1,0 +1,181 @@
+[4226] RootWebArea 'GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.' focused: True url: https://github.com/ohmyzsh/ohmyzsh/wiki
+	[7686] link 'Skip to content' url: https://github.com/ohmyzsh/ohmyzsh/wiki#start-of-content
+	[7695] heading 'Navigation Menu'
+	[7701] button 'Toggle navigation' expanded: False
+	[7707] link 'Homepage' url: https://github.com/
+	[7711] link 'Sign in' url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fohmyzsh%2Fohmyzsh
+	[8117] main ''
+		[8125] link 'ohmyzsh' url: https://github.com/ohmyzsh
+		[8128] link 'ohmyzsh' url: https://github.com/ohmyzsh/ohmyzsh
+		[10293] StaticText 'Public'
+		[11602] button 'Sponsor ohmyzsh/ohmyzsh'
+		[8136] link 'You must be signed in to change notification settings' describedby: tooltip-dbb51e3d-c4a4-49d3-8b35-d27c87b16dc3 url: https://github.com/login?return_to=%2Fohmyzsh%2Fohmyzsh
+			[10294] StaticText 'Notifications'
+		[8141] link 'Fork 26.1k' url: https://github.com/login?return_to=%2Fohmyzsh%2Fohmyzsh
+		[8147] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fohmyzsh%2Fohmyzsh
+			[10298] StaticText ' Star '
+			[8151] generic '178087 users starred this repository'
+				[10297] StaticText '178k'
+		[8199] navigation 'Repository'
+			[8202] link 'Code' url: https://github.com/ohmyzsh/ohmyzsh
+			[8208] link 'Issues 129' url: https://github.com/ohmyzsh/ohmyzsh/issues
+			[8215] link 'Pull requests 342' url: https://github.com/ohmyzsh/ohmyzsh/pulls
+			[8221] link 'Discussions' url: https://github.com/ohmyzsh/ohmyzsh/discussions
+			[8227] link 'Actions' url: https://github.com/ohmyzsh/ohmyzsh/actions
+			[8233] link 'Projects 1' url: https://github.com/ohmyzsh/ohmyzsh/projects
+			[8239] link 'Wiki' focused: True url: https://github.com/ohmyzsh/ohmyzsh/wiki
+			[8245] link 'Security' url: https://github.com/ohmyzsh/ohmyzsh/security
+			[8259] button 'Additional navigation options' hasPopup: menu expanded: False
+		[17483] heading 'Home'
+		[20497] StaticText 'Carlo Sala edited this page '
+		[17487] generic 'Dec 22, 2024, 7:29 AM PST'
+			[20498] StaticText 'on Dec 22, 2024'
+		[20499] StaticText ' · '
+		[17488] link '52 revisions' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Home/_history
+		[17494] blockquote ''
+			[17496] emphasis ''
+				[20501] StaticText 'This wiki is automatically published from '
+				[17497] link 'ohmyzsh/wiki' url: https://github.com/ohmyzsh/wiki
+				[20503] StaticText '. To edit this page,'
+			[17498] emphasis ''
+				[20505] StaticText 'go to '
+				[17499] link 'ohmyzsh/wiki' url: https://github.com/ohmyzsh/wiki
+				[20507] StaticText ', make your changes and submit a Pull Request.'
+		[20718] image 'Oh My Zsh' url: https://camo.githubusercontent.com/41da1086e4c3ec341b78f7c4376f3b94aff529e61a5c3211cdae315bf92e97c3/68747470733a2f2f6f686d797a73682e73332e616d617a6f6e6177732e636f6d2f6f6d7a2d616e73692d6769746875622e706e67
+		[17503] heading 'Welcome to Oh My Zsh!'
+		[17504] link 'Permalink: Welcome to Oh My Zsh!' url: https://github.com/ohmyzsh/ohmyzsh/wiki#welcome-to-oh-my-zsh
+		[20509] StaticText 'Oh My Zsh is an open source, community-driven framework for managing your '
+		[17508] link 'zsh' url: https://www.zsh.org/
+		[20511] StaticText ' configuration.'
+		[20442] ListMarker '• '
+		[17512] code ''
+			[20513] StaticText 'zsh'
+		[20514] StaticText ' to install '
+		[20515] StaticText 'Oh My Zsh'
+		[20516] StaticText '. Run '
+		[17514] code ''
+			[20517] StaticText 'zsh --version'
+		[20518] StaticText ' to check if you have it:'
+		[20519] StaticText '$ '
+		[20522] StaticText 'zsh 5.8 (x86_64-ubuntu-linux-gnu)'
+		[20373] button 'Copy'
+		[20443] ListMarker '• '
+		[20523] StaticText 'If you see '
+		[17521] code ''
+			[20524] StaticText 'command not found'
+		[17522] link 'Installing Zsh' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+		[20527] StaticText ' for instructions.'
+		[20444] ListMarker '• '
+		[20528] StaticText 'Once you have zsh, you can install Oh My Zsh by simply running one of these commands:'
+		[17525] table ''
+			[17526] rowgroup ''
+				[17527] row ''
+					[17528] columnheader 'Method' required: False
+					[17529] columnheader 'Command' required: False
+			[17531] row ''
+				[17532] cell 'curl'
+				[17534] cell 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
+					[17535] code ''
+			[17536] row ''
+				[17537] cell 'wget'
+				[17539] cell 'sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
+					[17540] code ''
+			[17541] row ''
+				[17542] cell 'fetch'
+				[17544] cell 'sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
+					[17545] code ''
+		[20537] StaticText 'NOTE: the installer will rename an existing '
+		[17548] code ''
+			[20538] StaticText '.zshrc'
+		[20539] StaticText ' file to '
+		[17549] code ''
+			[20540] StaticText '.zshrc.pre-oh-my-zsh'
+		[20445] ListMarker '• '
+		[20542] StaticText 'Alternatively, the installer is also mirrored outside GitHub. '
+		[17553] code ''
+			[20544] StaticText 'raw.githubusercontent.com'
+		[20545] StaticText ':'
+		[17554] table ''
+			[17555] rowgroup ''
+				[17556] row ''
+					[17557] columnheader 'Method' required: False
+					[17558] columnheader 'Command' required: False
+			[17560] row ''
+				[17561] cell 'curl'
+				[17563] cell 'sh -c "$(curl -fsSL https://install.ohmyz.sh)"'
+					[17564] code ''
+			[17565] row ''
+				[17566] cell 'wget'
+				[17568] cell 'sh -c "$(wget -O- https://install.ohmyz.sh)"'
+					[17569] code ''
+			[17570] row ''
+				[17571] cell 'fetch'
+				[17573] cell 'sh -c "$(fetch -o - https://install.ohmyz.sh)"'
+					[17574] code ''
+		[17576] heading 'Getting started'
+		[17577] link 'Permalink: Getting started' url: https://github.com/ohmyzsh/ohmyzsh/wiki#getting-started
+		[20555] StaticText 'Once Oh My Zsh is installed:'
+		[17648] navigation 'Pages 23'
+			[17651] heading 'Toggle table of contents Pages 23'
+				[17652] button 'Toggle table of contents'
+		[20461] ListMarker '• '
+		[18119] link 'Home' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Home
+		[20462] ListMarker '• '
+		[18122] link 'FAQ' url: https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ
+		[20463] ListMarker '• '
+		[18125] link 'Plugins Overview' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview
+		[20464] ListMarker '• '
+		[20621] StaticText 'Documentation'
+		[20465] ListMarker '◦ '
+		[18130] link 'Installing ZSH' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+		[20466] ListMarker '◦ '
+		[18132] link 'Settings' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Settings
+		[20467] ListMarker '◦ '
+		[18134] link 'Plugins' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
+		[20468] ListMarker '◦ '
+		[18136] link 'Themes' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+		[20469] ListMarker '◦ '
+		[18138] link 'Cheatsheet' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet
+		[20470] ListMarker '◦ '
+		[18140] link 'Customization' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Customization
+		[20471] ListMarker '◦ '
+		[18142] link 'Resources' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Resources
+		[20472] ListMarker '◦ '
+		[18144] link 'Troubleshooting' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Troubleshooting
+		[20473] ListMarker '• '
+		[20630] StaticText 'Community'
+		[20474] ListMarker '◦ '
+		[18149] link 'Articles' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Articles
+		[20475] ListMarker '◦ '
+		[18151] link 'External plugins' url: https://github.com/ohmyzsh/ohmyzsh/wiki/External-plugins
+		[20476] ListMarker '◦ '
+		[18153] link 'External themes' url: https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes
+		[20477] ListMarker '◦ '
+		[18155] link 'Testimonials' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Testimonials
+		[20478] ListMarker '• '
+		[20635] StaticText 'Contributing'
+		[20479] ListMarker '◦ '
+		[18160] link 'Volunteers' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Volunteers
+		[20480] ListMarker '◦ '
+		[18162] link 'Design' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Design
+		[20481] ListMarker '◦ '
+		[18164] link 'Code Style Guide' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Code-Style-Guide
+		[20482] ListMarker '◦ '
+		[18166] link 'Wiki Style Guide' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Wiki-Style-Guide
+		[20483] ListMarker '◦ '
+		[18168] link 'Contribution Technical Practices' url: https://github.com/ohmyzsh/ohmyzsh/wiki/Contribution-Technical-Practices
+		[18169] separator '' orientation: horizontal
+		[18172] link 'Get a t-shirt!' url: https://shop.planetargon.com/products/ohmyzsh-t-shirts
+		[18174] link 'Black Oh My Zsh t-shirt' url: https://shop.planetargon.com/products/ohmyzsh-t-shirts
+			[20722] image 'Black Oh My Zsh t-shirt' url: https://camo.githubusercontent.com/0a4d6ef049f6d69afff3c852e78d6127c1d9c235c0bea2ecce4839be7cc507de/68747470733a2f2f63646e2e73686f706966792e636f6d2f732f66696c65732f312f303130312f383735322f70726f64756374732f494d475f373637325f3130323478313032342e6a7067
+		[18178] link 'Get stickers!' url: https://shop.planetargon.com/collections/everything/products/ohmyzsh-logo-stickers
+		[18180] link 'Oh My Zsh stickers' url: https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers
+			[20723] image 'Oh My Zsh stickers' url: https://camo.githubusercontent.com/f27fb189498ca2a4fa6e72ab3f5fdad1d077b3ffda9805e39509a14eeb23fb1d/68747470733a2f2f63646e2e73686f706966792e636f6d2f732f66696c65732f312f303130312f383735322f70726f64756374732f323031332d30392d32355f31312e33352e31345f6d656469756d2e6a7067
+		[20643] StaticText 'We have other stuff, '
+		[18184] link 'have a look!' url: https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github
+		[18185] heading 'Clone this wiki locally'
+		[18186] LayoutTable ''
+			[18189] textbox 'Clone URL for this wiki' required: False
+				[20325] StaticText 'https://github.com/ohmyzsh/ohmyzsh.wiki.git'
+			[18192] button 'Copy to clipboard'
+			[18198] generic '' live: polite atomic: True relevant: additions text

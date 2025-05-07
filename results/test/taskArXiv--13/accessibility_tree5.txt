@@ -1,0 +1,162 @@
+[3644] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=SimCSE&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+	[3762] StaticText 'Skip to main content'
+	[3770] link 'logo' url: https://cornell.edu/
+		[3645] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[3776] StaticText 'We gratefully acknowledge support from'
+	[3778] StaticText 'the Simons Foundation, '
+	[3779] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[3781] StaticText ', and all contributors. '
+	[3782] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[3794] link 'arxiv-logo' url: https://arxiv.org/
+		[3646] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[3650] textbox 'Search term or terms' required: False
+	[3809] link 'Help' url: https://info.arxiv.org/help
+	[3811] StaticText ' | '
+	[3812] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[3651] combobox 'Field to search' hasPopup: menu expanded: False
+	[3872] button 'Search'
+	[3883] navigation 'User menu'
+		[3885] link 'Login' url: https://arxiv.org/login
+	[3891] main ''
+		[3897] heading 'Showing 1–5 of 5 results'
+		[3907] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[3909] StaticText '\xa0\xa0'
+		[3920] StaticText 'Query: '
+		[3921] link 'order: -announced_date_first; size: 50; include_cross_list: True; terms: AND title=SimCSE' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=SimCSE&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[3926] link 'Refine query' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=SimCSE&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[3928] link 'New search' url: https://arxiv.org/search/advanced
+		[3937] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+		[3678] combobox 'results per page' hasPopup: menu expanded: False
+		[4188] StaticText 'Sort results by'
+		[3679] combobox 'Sort results by' hasPopup: menu expanded: False
+		[4208] button 'Go'
+		[4218] ListMarker '1. '
+		[4223] link 'arXiv:2501.13758' url: https://arxiv.org/abs/2501.13758
+		[4227] StaticText '\xa0['
+		[4228] link 'pdf' url: https://arxiv.org/pdf/2501.13758
+		[4230] StaticText ', '
+		[4231] link 'other' url: https://arxiv.org/format/2501.13758
+		[4233] StaticText ']\xa0'
+		[4239] StaticText 'cs.CL'
+		[4242] StaticText 'cs.AI'
+		[4245] StaticText 'cs.LG'
+		[4250] StaticText '2-Tier '
+		[4252] StaticText 'SimCSE'
+		[4253] StaticText ': Elevating BERT for Robust Sentence Embeddings'
+		[4258] StaticText 'Authors:'
+		[4260] link 'Yumeng Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+Y
+		[4262] StaticText ', '
+		[4263] link 'Ziran Zhou' url: https://arxiv.org/search/?searchtype=author&query=Zhou%2C+Z
+		[4266] link 'Junjin Wang' url: https://arxiv.org/search/?searchtype=author&query=Wang%2C+J
+		[4273] StaticText 'Abstract'
+		[4276] StaticText 'Effective sentence embeddings that capture semantic nuances and generalize well across diverse contexts are crucial for natural language processing tasks. We address this challenge by applying SimCSE (Simple Contrastive Learning of Sentence Embeddings) using contrastive learning to fine-tune the minBERT model for sentiment analysis, semantic textual similarity (STS), and paraphrase detection. Our… '
+		[4277] link '▽ More'
+		[4290] StaticText 'Submitted'
+		[4291] StaticText ' 23 January, 2025; '
+		[4293] StaticText 'originally announced'
+		[4294] StaticText ' January 2025.'
+		[4298] ListMarker '2. '
+		[4303] link 'arXiv:2310.19349' url: https://arxiv.org/abs/2310.19349
+		[4307] StaticText '\xa0['
+		[4308] link 'pdf' url: https://arxiv.org/pdf/2310.19349
+		[4310] StaticText ', '
+		[4311] link 'other' url: https://arxiv.org/format/2310.19349
+		[4313] StaticText ']\xa0'
+		[4319] StaticText 'cs.CL'
+		[4324] StaticText 'Japanese '
+		[4326] StaticText 'SimCSE'
+		[4327] StaticText ' Technical Report'
+		[4332] StaticText 'Authors:'
+		[4334] link 'Hayato Tsukagoshi' url: https://arxiv.org/search/?searchtype=author&query=Tsukagoshi%2C+H
+		[4336] StaticText ', '
+		[4337] link 'Ryohei Sasano' url: https://arxiv.org/search/?searchtype=author&query=Sasano%2C+R
+		[4340] link 'Koichi Takeda' url: https://arxiv.org/search/?searchtype=author&query=Takeda%2C+K
+		[4347] StaticText 'Abstract'
+		[4350] StaticText 'We report the development of Japanese SimCSE, Japanese sentence embedding models fine-tuned with SimCSE. Since there is a lack of sentence embedding models for Japanese that can be used as a baseline in sentence embedding research, we conducted extensive experiments on Japanese sentence embeddings involving 24 pre-trained Japanese or multilingual language models, five supervised datasets, and four… '
+		[4351] link '▽ More'
+		[4364] StaticText 'Submitted'
+		[4365] StaticText ' 30 October, 2023; '
+		[4367] StaticText 'originally announced'
+		[4368] StaticText ' October 2023.'
+		[4372] ListMarker '3. '
+		[4377] link 'arXiv:2305.13192' url: https://arxiv.org/abs/2305.13192
+		[4381] StaticText '\xa0['
+		[4382] link 'pdf' url: https://arxiv.org/pdf/2305.13192
+		[4384] StaticText ', '
+		[4385] link 'other' url: https://arxiv.org/format/2305.13192
+		[4387] StaticText ']\xa0'
+		[4393] StaticText 'cs.CL'
+		[4401] StaticText 'doi'
+		[4404] link '10.18653/v1/2023.emnlp-main.737' url: https://doi.org/10.18653/v1/2023.emnlp-main.737
+		[4414] StaticText 'SimCSE'
+		[4415] StaticText '++: Improving Contrastive Learning for Sentence Embeddings from Two Perspectives'
+		[4420] StaticText 'Authors:'
+		[4422] link 'Jiahao Xu' url: https://arxiv.org/search/?searchtype=author&query=Xu%2C+J
+		[4424] StaticText ', '
+		[4425] link 'Wei Shao' url: https://arxiv.org/search/?searchtype=author&query=Shao%2C+W
+		[4428] link 'Lihui Chen' url: https://arxiv.org/search/?searchtype=author&query=Chen%2C+L
+		[4431] link 'Lemao Liu' url: https://arxiv.org/search/?searchtype=author&query=Liu%2C+L
+		[4438] StaticText 'Abstract'
+		[4442] link '▽ More'
+		[4455] StaticText 'Submitted'
+		[4456] StaticText ' 20 October, 2023; '
+		[4458] StaticText 'v1'
+		[4459] StaticText ' submitted 22 May, 2023; '
+		[4461] StaticText 'originally announced'
+		[4462] StaticText ' May 2023.'
+		[4467] StaticText 'Journal ref:'
+		[4468] StaticText ' In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 12028--12040, Singapore. Association for Computational Linguistics'
+		[4472] ListMarker '4. '
+		[4477] link 'arXiv:2111.11750' url: https://arxiv.org/abs/2111.11750
+		[4481] StaticText '\xa0['
+		[4482] link 'pdf' url: https://arxiv.org/pdf/2111.11750
+		[4484] StaticText ', '
+		[4485] link 'ps' url: https://arxiv.org/ps/2111.11750
+		[4488] link 'other' url: https://arxiv.org/format/2111.11750
+		[4490] StaticText ']\xa0'
+		[4496] StaticText 'cs.CL'
+		[4501] StaticText 'S-'
+		[4503] StaticText 'SimCSE'
+		[4504] StaticText ': Sampled Sub-networks for Contrastive Learning of Sentence Embedding'
+		[4509] StaticText 'Authors:'
+		[4511] link 'Junlei Zhang' url: https://arxiv.org/search/?searchtype=author&query=Zhang%2C+J
+		[4513] StaticText ', '
+		[4514] link 'Zhenzhong lan' url: https://arxiv.org/search/?searchtype=author&query=lan%2C+Z
+		[4521] StaticText 'Abstract'
+		[4524] StaticText 'Contrastive learning has been studied for improving the performance of learning sentence embeddings. The current state-of-the-art method is the SimCSE, which takes dropout as the data augmentation method and feeds a pre-trained transformer encoder the same input sentence twice. The corresponding outputs, two sentence embeddings derived from the same sentence with different dropout masks, can be us… '
+		[4525] link '▽ More'
+		[4583] StaticText 'Submitted'
+		[4584] StaticText ' 24 November, 2021; '
+		[4586] StaticText 'v1'
+		[4587] StaticText ' submitted 23 November, 2021; '
+		[4589] StaticText 'originally announced'
+		[4590] StaticText ' November 2021.'
+		[4595] StaticText 'Comments:'
+		[4598] StaticText '2 pages'
+		[4603] ListMarker '5. '
+		[4608] link 'arXiv:2104.08821' url: https://arxiv.org/abs/2104.08821
+		[4612] StaticText '\xa0['
+		[4613] link 'pdf' url: https://arxiv.org/pdf/2104.08821
+		[4615] StaticText ', '
+		[4616] link 'other' url: https://arxiv.org/format/2104.08821
+		[4618] StaticText ']\xa0'
+		[4624] StaticText 'cs.CL'
+		[4627] StaticText 'cs.LG'
+		[4634] StaticText 'SimCSE'
+		[4635] StaticText ': Simple Contrastive Learning of Sentence Embeddings'
+		[4640] StaticText 'Authors:'
+		[4642] link 'Tianyu Gao' url: https://arxiv.org/search/?searchtype=author&query=Gao%2C+T
+		[4644] StaticText ', '
+		[4645] link 'Xingcheng Yao' url: https://arxiv.org/search/?searchtype=author&query=Yao%2C+X
+		[4648] link 'Danqi Chen' url: https://arxiv.org/search/?searchtype=author&query=Chen%2C+D
+		[4655] StaticText 'Abstract'
+		[4658] StaticText 'This paper presents SimCSE, a simple contrastive learning framework that greatly advances state-of-the-art sentence embeddings. We first describe an unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise. This simple method works surprisingly well, performing on par with previous supervised counterparts. We find… '
+		[4659] link '▽ More'
+		[4672] StaticText 'Submitted'
+		[4673] StaticText ' 18 May, 2022; '
+		[4675] StaticText 'v1'
+		[4676] StaticText ' submitted 18 April, 2021; '
+		[4678] StaticText 'originally announced'
+		[4679] StaticText ' April 2021.'
+		[4684] StaticText 'Comments:'
+		[4687] StaticText 'Accepted to EMNLP 2021. The code and pre-trained models are available at https://github.com/princeton-nlp/simcse'

@@ -1,0 +1,160 @@
+[6444] RootWebArea 'Booking.com: Hotels in Shenzhen. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Shenzhen&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-1925268&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=539671c7b0400356&ac_meta=GhA1Mzk2NzFjN2IwNDAwMzU2IAAoATICZW46CFNoZW56aGVuQABKAFAA&group_adults=2&no_rooms=1&group_children=0
+	[7227] tabpanel 'Calendar'
+		[7240] grid '' multiselectable: False
+			[7374] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[7375] gridcell '27 April 2025' required: False
+					[7376] checkbox '27 April 2025' checked: false
+				[7379] gridcell '28 April 2025' required: False
+					[7380] checkbox '28 April 2025' checked: false
+				[7383] gridcell '29 April 2025' required: False
+					[7384] checkbox '29 April 2025' checked: false
+				[7387] gridcell '30 April 2025' required: False
+					[6565] checkbox '30 April 2025' checked: false
+		[7397] grid '' multiselectable: False
+			[7550] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[7551] gridcell '25 May 2025' required: False
+					[7552] checkbox '25 May 2025' checked: false
+				[7556] gridcell '26 May 2025' required: False
+					[7557] checkbox '26 May 2025' checked: false
+				[7561] gridcell '27 May 2025' required: False
+					[7562] checkbox '27 May 2025' checked: false
+				[7566] gridcell '28 May 2025' required: False
+					[7567] checkbox '28 May 2025' checked: false
+				[7571] gridcell '29 May 2025' required: False
+					[7572] checkbox '29 May 2025' checked: false
+				[7576] gridcell '30 May 2025' required: False
+					[7577] checkbox '30 May 2025' checked: false
+				[7581] gridcell '31 May 2025' required: False
+					[7582] checkbox '31 May 2025' checked: false
+		[7588] group ''
+			[7590] region '' roledescription: carousel
+				[6556] group '' roledescription: slide
+					[6568] checkbox 'Exact dates' checked: true
+				[6557] group '' roledescription: slide
+					[6569] checkbox '1 day' checked: false
+				[6558] group '' roledescription: slide
+					[6570] checkbox '2 days' checked: false
+				[6559] group '' roledescription: slide
+					[6571] checkbox '3 days' checked: false
+				[6560] group '' roledescription: slide
+					[6572] checkbox '7 days' checked: false
+	[7724] region 'Filters'
+		[7732] group 'Popular filters'
+			[7770] StaticText 'Based on guest reviews'
+			[6575] checkbox '4 stars: 169 properties' checked: false
+			[6576] checkbox 'Resorts: 3 properties' checked: false
+			[6577] checkbox 'Swimming pool: 84 properties' checked: false
+			[6578] checkbox 'Hot tub: 72 properties' checked: false
+			[6579] checkbox 'Vacation Homes: 1 property' checked: false
+			[6580] checkbox 'Sauna: 51 properties' checked: false
+		[7891] StaticText 'Smart filters'
+		[7899] StaticText 'What are you looking for?'
+		[6581] textbox 'What are you looking for?' required: False
+		[7907] button 'Find properties'
+		[7916] group 'Amenities'
+			[6582] checkbox 'Parking: 340 properties' checked: false
+			[6583] checkbox 'Restaurant: 298 properties' checked: false
+			[6584] checkbox 'Pet friendly: 40 properties' checked: false
+			[6585] checkbox 'Room service: 275 properties' checked: false
+			[6586] checkbox '24-hour front desk: 417 properties' checked: false
+			[8001] button 'Show all 14' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[8012] group 'Neighborhood'
+			[6587] checkbox 'Nanshan: 145 properties' checked: false
+			[6588] checkbox 'Futian: 103 properties' checked: false
+			[6589] checkbox 'Luohu: 72 properties' checked: false
+			[6590] checkbox 'Central Business District: 52 properties' checked: false
+			[6591] checkbox "Guests' favorite area: 37 properties" checked: false
+			[6592] checkbox "Bao'an: 34 properties" checked: false
+			[6593] checkbox 'Houhai: 31 properties' checked: false
+			[6594] checkbox 'Huaqiangbei : 26 properties' checked: false
+			[6595] checkbox 'Yantian: 10 properties' checked: false
+			[6596] checkbox 'Chegongmiao: 10 properties' checked: false
+			[6597] checkbox 'Shenzhen Overseas Chinese Town: 8 properties' checked: false
+		[8200] group 'Room amenities'
+			[6598] checkbox 'Sea view: 38 properties' checked: false
+			[6599] checkbox 'Private bathroom: 319 properties' checked: false
+			[6600] checkbox 'Private pool: 2 properties' checked: false
+			[6601] checkbox 'Balcony: 75 properties' checked: false
+			[6602] checkbox 'Kitchen/Kitchenette: 68 properties' checked: false
+			[8285] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r2f:
+		[8296] group 'Landmarks'
+			[6603] checkbox 'COCO Park: 7 properties' checked: false
+			[6604] checkbox 'Window of the World Station: 4 properties' checked: false
+			[6605] checkbox 'Overseas Chinese Town West: 3 properties' checked: false
+		[8354] group 'Property Type'
+			[6606] checkbox 'Hotels: 442 properties' checked: false
+			[6607] checkbox 'Apartments: 52 properties' checked: false
+			[6608] checkbox 'Homestays: 5 properties' checked: false
+			[6609] checkbox 'Hostels: 4 properties' checked: false
+			[6610] checkbox 'Resorts: 3 properties' checked: false
+			[6611] checkbox 'Guesthouses: 2 properties' checked: false
+			[6612] checkbox 'Vacation Homes: 1 property' checked: false
+	[9720] listitem 'Property'
+		[9770] StaticText 'Located in Shenzhen, within 18 miles of Shenzhen North Railway Station and 23 miles of Civic Center Station, Holiday Inn Express Shenzhen Guangming Cloud Park by IHG provides accommodations with a...'
+	[9804] listitem 'Property'
+		[9815] button 'Save this item to a trip list' expanded: False
+		[9828] heading 'The St. Regis Shenzhen Opens in new window'
+			[9829] link 'The St. Regis Shenzhen Opens in new window' url: https://www.booking.com/hotel/cn/st-regis-shenzhen.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[9835] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[9836] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[9837] image ''
+		[9841] link 'Luohu, Shenzhen· Show on map' url: https://www.booking.com/hotel/cn/st-regis-shenzhen.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults&map=1
+		[9851] button '1.3 miles from downtown'
+		[9856] button 'Subway Access'
+		[9859] StaticText 'Luxury awaits at The St Regis Shenzhen with its 5 dining options, indoor heated pool and spa.'
+		[9863] link 'Scored 9.2 Wonderful 150 reviews' url: https://www.booking.com/hotel/cn/st-regis-shenzhen.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[6561] link 'Location: Scored 9.4 ' url: https://www.booking.com/hotel/cn/st-regis-shenzhen.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[9884] button 'Show prices'
+	[9893] listitem 'Property'
+		[9904] button 'Save this item to a trip list' expanded: False
+		[9917] heading 'Shenzhen Marriott Hotel Nanshan Opens in new window'
+			[9918] link 'Shenzhen Marriott Hotel Nanshan Opens in new window' url: https://www.booking.com/hotel/cn/shenzhen-marriott-nanshan.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[9924] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[9925] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[9926] image ''
+		[9930] link 'Nanshan, Shenzhen (Houhai)· Show on map' url: https://www.booking.com/hotel/cn/shenzhen-marriott-nanshan.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults&map=1
+		[9940] button '7 miles from downtown'
+		[9945] button 'Subway Access'
+		[9948] StaticText 'Featuring free WiFi throughout the property, Shenzhen Marriott Hotel Nanshan offers accommodations in Shenzhen, a 5-minute walk to Houhai Underground Station (Line 2) Exit E and a 10-minute drive from...'
+		[9952] link 'Scored 8.8 Excellent 156 reviews' url: https://www.booking.com/hotel/cn/shenzhen-marriott-nanshan.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[9967] button 'Show prices'
+	[9974] listitem 'Property'
+		[9985] button 'Save this item to a trip list' expanded: False
+		[9998] heading 'Sheraton Shenzhen Nanshan Opens in new window'
+			[9999] link 'Sheraton Shenzhen Nanshan Opens in new window' url: https://www.booking.com/hotel/cn/shen-zhen-bo-lin-tian-rui-xi-lai-deng-jiu-dian.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10005] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[10006] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[10007] image ''
+		[10011] link 'Nanshan, Shenzhen· Show on map' url: https://www.booking.com/hotel/cn/shen-zhen-bo-lin-tian-rui-xi-lai-deng-jiu-dian.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults&map=1
+		[10021] button '5.5 miles from downtown'
+		[10024] StaticText 'Located in Shenzhen, 4.9 miles from Shenzhen North Railway Station, Sheraton Shenzhen Nanshan provides accommodations with free bikes, free private parking, a fitness center and a garden.'
+		[10028] link 'Scored 9.1 Wonderful 143 reviews' url: https://www.booking.com/hotel/cn/shen-zhen-bo-lin-tian-rui-xi-lai-deng-jiu-dian.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10043] button 'Show prices'
+	[10051] listitem 'Property'
+		[10062] button 'Save this item to a trip list' expanded: False
+		[10075] heading 'Pullman Shenzhen North Opens in new window'
+			[10076] link 'Pullman Shenzhen North Opens in new window' url: https://www.booking.com/hotel/cn/pullman-shenzhen-north.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10083] link 'Shenzhen· Show on map' url: https://www.booking.com/hotel/cn/pullman-shenzhen-north.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults&map=1
+		[10093] button '4.6 miles from downtown'
+		[10096] StaticText 'Featuring a seasonal outdoor swimming pool, a fitness center and a restaurant, Pullman Shenzhen North is located in Shenzhen and is a 6-minute walk from Shenzhen North Railway Station.'
+		[10100] link 'Scored 8.9 Excellent 225 reviews' url: https://www.booking.com/hotel/cn/pullman-shenzhen-north.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10114] link 'Location: Scored 9.3 ' url: https://www.booking.com/hotel/cn/pullman-shenzhen-north.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10122] button 'Show prices'
+	[10129] listitem 'Property'
+		[10140] button 'Save this item to a trip list' expanded: False
+		[10153] heading 'Moxy Shenzhen North Station Opens in new window'
+			[10154] link 'Moxy Shenzhen North Station Opens in new window' url: https://www.booking.com/hotel/cn/moxy-shenzhen-north-station.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10160] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[10161] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[10162] image ''
+		[10166] link 'Shenzhen· Show on map' url: https://www.booking.com/hotel/cn/moxy-shenzhen-north-station.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults&map=1
+		[10176] button '5.2 miles from downtown'
+		[10179] StaticText 'Moxy Shenzhen North Station features a fitness center, shared lounge, a restaurant and bar in Shenzhen. Featuring luggage storage space, this property also provides guests with a sun terrace.'
+		[10183] link 'Scored 8.3 Very Good 94 reviews' url: https://www.booking.com/hotel/cn/moxy-shenzhen-north-station.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from=searchresults
+		[10198] button 'Show prices'
+	[10207] listitem 'Property'
+		[10218] button 'Save this item to a trip list' expanded: False
+		[10231] heading "DoubleTree by Hilton Hotel Shenzhen Longhua, Near Huawei, Foxcnn, Shenzhen North Railway, Uniwalk & Uniworld Shopping Mall, Sam's Club Opens in new window"
+			[10232] link "DoubleTree by Hilton Hotel Shenzhen Longhua, Near Huawei, Foxcnn, Shenzhen North Railway, Uniwalk & Uniworld Shopping Mall, Sam's Club Opens in new window" url: https://www.booking.com/hotel/cn/doubletree-by-hilton-shenzhen-longhua.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from_sustainable_property_sr=1&from=searchresults
+		[10268] link 'Scored 9.0 Wonderful 112 reviews' url: https://www.booking.com/hotel/cn/doubletree-by-hilton-shenzhen-longhua.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKPl8nABsACAdICJDVlY2U4Y2FkLWE3MjItNDkzMy1hNTI4LWZiNjU2YmUyNTMyZdgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1925268&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=5cb771d5b7a10079&srepoch=1746029483&from_sustainable_property_sr=1&from=searchresults
+		[10283] button 'Show prices'

@@ -1,0 +1,78 @@
+[1] RootWebArea 'Central Park Zoo, New York, NY 10021 to Broadway Theatre - Google Maps' focused: True url: https://www.google.com/maps/dir/Central+Park+Zoo,+New+York,+NY+10021/Broadway+Theatre,+1681+Broadway,+New+York,+NY+10019/@40.7647788,-73.9878644,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89c258f1fcd66869:0x65d72e84d91a3f14!2m2!1d-73.9719906!2d40.7677061!1m5!1m1!1s0x89c2585665784711:0x5bbfed74cc606bf6!2m2!1d-73.9831387!2d40.7632484!3e2?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[242] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[50] Canvas ''
+		[908] radiogroup '' required: False
+			[911] radio 'Best travel modes' checked: false
+				[912] image 'Best travel modes'
+			[921] radio 'Driving 7 min' checked: false
+				[922] image 'Driving'
+			[931] radio 'Transit 13 min' checked: false
+				[932] image 'Transit'
+			[941] radio 'Walking 20 min' focused: True checked: true
+				[942] image 'Walking'
+			[951] radio 'Cycling 8 min' checked: false
+				[952] image 'Cycling'
+			[961] radio 'Flights not available' disabled: True checked: false
+				[962] image 'Flights not available'
+		[970] button 'Close directions'
+		[999] combobox '' hasPopup: grid required: False expanded: False
+			[992] textbox 'Starting point Central Park Zoo, New York, NY 10021' autocomplete: list required: False
+		[993] button 'Search'
+		[1023] combobox '' hasPopup: grid required: False expanded: False
+			[1016] textbox 'Destination Broadway Theatre, 1681 Broadway, New York, NY 10019' autocomplete: list required: False
+		[1017] button 'Search'
+		[975] button 'Reverse starting point and destination'
+		[977] button 'Add destination'
+		[2025] region 'Available options for search along this route' roledescription: carousel
+			[2034] button 'Add stops along route'
+				[2061] StaticText 'Search along the route'
+			[2172] button 'Add restaurants along route'
+				[2220] StaticText 'Restaurants'
+			[2179] button 'Add coffee shops along route'
+				[2222] StaticText 'Coffee'
+			[2186] button 'Add groceries along route'
+				[2224] StaticText 'Groceries'
+			[2193] button 'Add things to do along route'
+				[2226] StaticText 'Things to do'
+			[2071] button 'Next page'
+		[13] button 'Menu'
+		[451] button 'Saved'
+		[469] button 'Recents'
+		[1764] button 'Broadway Theatre 20 min'
+		[1438] button '2 places New York'
+			[1446] generic '2 places'
+		[499] button 'Get the app'
+		[1116] main 'Directions'
+			[1732] button 'Options' expanded: False
+			[2128] button 'Send directions to your phone'
+			[2133] button 'Copy link'
+			[2137] link 'Walking 20 min 0.9 mile via 7th Ave Details'
+				[2139] image 'Walking'
+					[2211] StaticText '\ue536'
+				[2146] heading 'via 7th Ave'
+				[2149] button 'Details'
+			[2154] button 'Walking 21 min 0.9 mile via 6th Ave/Ave of the Americas and W 53rd St'
+				[2156] image 'Walking'
+					[2216] StaticText '\ue536'
+				[2163] heading 'via 6th Ave/Ave of the Americas and W 53rd St'
+			[2217] StaticText 'All routes are mostly flat'
+			[2169] button 'Show elevation profile'
+		[1158] button 'Collapse side panel'
+		[545] button 'Google apps' expanded: False
+			[547] image ''
+		[550] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[597] button 'Show Your Location' pressed: false
+		[614] button 'Zoom in'
+		[645] button 'Zoom out'
+		[658] button 'Show Street View coverage'
+		[699] generic 'Interactive map'
+		[737] StaticText 'Layers'
+		[752] button 'Layers' expanded: False
+		[853] contentinfo ''
+			[855] StaticText 'Map data ©2025 Google'
+			[856] button 'United States'
+			[858] button 'Terms'
+			[860] button 'Privacy'
+			[862] button 'Send Product Feedback'
+		[865] button '1000 ft'

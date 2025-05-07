@@ -1,0 +1,96 @@
+[1856] RootWebArea 'openai-community/gpt2 · Hugging Face' focused: True url: https://huggingface.co/openai-community/gpt2
+	[2203] main ''
+		[2694] button ''
+		[2778] StaticText 'Pretrained model on English language using a causal language modeling (CLM) objective. It was introduced in '
+		[2779] link 'this paper' url: https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+		[2781] StaticText ' and first released at '
+		[2782] link 'this page' url: https://openai.com/blog/better-language-models/
+		[2787] StaticText 'Disclaimer: The team releasing GPT-2 also wrote a '
+		[2788] link 'model card' url: https://github.com/openai/gpt-2/blob/master/model_card.md
+		[2790] StaticText ' for their model. Content from this model card has been written by the Hugging Face team to complete the information they provided and give specific examples of bias.'
+		[2792] heading 'Model description'
+			[2794] link '' url: https://huggingface.co/openai-community/gpt2#model-description
+		[2806] StaticText 'GPT-2 is a transformers model pretrained on a very large corpus of English data in a self-supervised fashion. This means it was pretrained on the raw texts only, with no humans labelling them in any way (which is why it can use lots of publicly available data) with an automatic process to generate inputs and labels from those texts. More precisely, it was trained to guess the next word in sentences.'
+		[2809] StaticText 'More precisely, inputs are sequences of continuous text of a certain length and the targets are the same sequence, shifted one token (word or piece of word) to the right. The model uses internally a mask-mechanism to make sure the predictions for the token '
+		[2810] code ''
+		[2814] StaticText ' only uses the inputs from '
+		[2815] code ''
+		[2819] StaticText ' to '
+		[2820] code ''
+		[2824] StaticText ' but not the future tokens.'
+		[2827] StaticText 'This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks. The model is best at what it was pretrained for however, which is generating texts from a prompt.'
+		[2830] StaticText 'This is the '
+		[2832] StaticText 'smallest'
+		[2833] StaticText ' version of GPT-2, with 124M parameters.'
+		[2837] StaticText 'Related Models:'
+		[2839] link 'GPT-Large' url: https://huggingface.co/gpt2-large
+		[2842] link 'GPT-Medium' url: https://huggingface.co/gpt2-medium
+		[2844] StaticText ' and '
+		[2845] link 'GPT-XL' url: https://huggingface.co/gpt2-xl
+		[2848] heading 'Intended uses & limitations'
+			[2850] link '' url: https://huggingface.co/openai-community/gpt2#intended-uses--limitations
+		[2862] StaticText 'You can use the raw model for text generation or fine-tune it to a downstream task. See the '
+		[2863] link 'model hub' url: https://huggingface.co/models?filter=gpt2
+		[2865] StaticText ' to look for fine-tuned versions on a task that interests you.'
+		[2867] heading 'How to use'
+			[2869] link '' url: https://huggingface.co/openai-community/gpt2#how-to-use
+		[2881] StaticText 'You can use this model directly with a pipeline for text generation. Since the generation relies on some randomness, we set a seed for reproducibility:'
+		[2885] code ''
+			[2889] StaticText '>>> '
+			[2891] StaticText 'from'
+			[2892] StaticText ' transformers '
+			[2894] StaticText 'import'
+			[2895] StaticText ' pipeline, set_seed\n'
+			[2897] StaticText '>>> '
+			[2898] StaticText 'generator = pipeline('
+			[2901] StaticText ', model='
+			[2904] StaticText ')\n'
+			[2906] StaticText '>>> '
+			[2907] StaticText 'set_seed('
+			[2909] StaticText '42'
+			[2910] StaticText ')\n'
+			[2912] StaticText '>>> '
+			[2913] StaticText 'generator('
+			[2915] StaticText '"Hello, I\'m a language model,"'
+			[2916] StaticText ', max_length='
+			[2918] StaticText '30'
+			[2919] StaticText ', num_return_sequences='
+			[2921] StaticText '5'
+			[2922] StaticText ')\n\n[{'
+		[2953] button ''
+		[3446] StaticText 'Model size'
+		[3449] StaticText '137M'
+		[3450] StaticText ' params'
+		[3454] StaticText 'Tensor type'
+		[3457] StaticText 'F32'
+		[3464] button 'Files info'
+		[3485] StaticText 'Inference Providers'
+		[3496] link 'Text Generation' url: https://huggingface.co/tasks/text-generation
+		[3516] link '🙋 1 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/849
+		[3534] heading 'Model tree for openai-community/gpt2'
+		[3555] image ''
+		[3559] StaticText 'Adapters'
+		[3563] link '1632 models' url: https://huggingface.co/models?other=base_model:adapter:openai-community/gpt2
+		[3570] image ''
+		[3574] StaticText 'Finetunes'
+		[3578] link '1611 models' url: https://huggingface.co/models?other=base_model:finetune:openai-community/gpt2
+		[3585] image ''
+		[3589] StaticText 'Merges'
+		[3593] link '10 models' url: https://huggingface.co/models?other=base_model:merge:openai-community/gpt2
+		[3600] image ''
+		[3604] StaticText 'Quantizations'
+		[3608] link '72 models' url: https://huggingface.co/models?other=base_model:quantized:openai-community/gpt2
+		[3614] heading 'Spaces using openai-community/gpt2 100'
+		[3630] link '😻 Gustavosta/MagicPrompt-Stable-Diffusion' url: https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion
+		[3637] link '🏆🏋️ optimum/llm-perf-leaderboard' url: https://huggingface.co/spaces/optimum/llm-perf-leaderboard
+		[3644] link '🚀 shi-labs/Versatile-Diffusion' url: https://huggingface.co/spaces/shi-labs/Versatile-Diffusion
+		[3651] link '📉 gunship999/SexyImages' url: https://huggingface.co/spaces/gunship999/SexyImages
+		[3658] link '🌍 microsoft/Promptist' url: https://huggingface.co/spaces/microsoft/Promptist
+		[3665] link '🪅🌐 Yntec/ToyWorld' url: https://huggingface.co/spaces/Yntec/ToyWorld
+		[3672] link '🐢 Manmay/tortoise-tts' url: https://huggingface.co/spaces/Manmay/tortoise-tts
+		[3679] link '🎶 jadechoghari/OpenMusic' url: https://huggingface.co/spaces/jadechoghari/OpenMusic
+		[3686] link '🏆 eduagarcia/open_pt_llm_leaderboard' url: https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard
+		[3693] link '🏆 Intel/low_bit_open_llm_leaderboard' url: https://huggingface.co/spaces/Intel/low_bit_open_llm_leaderboard
+		[3700] link '🚀 wangrongsheng/ChatPaper' url: https://huggingface.co/spaces/wangrongsheng/ChatPaper
+		[1897] link '🏃 llamameta/flux-pro-uncensored' url: https://huggingface.co/spaces/llamameta/flux-pro-uncensored
+		[3719] button '+ 88 Spaces'

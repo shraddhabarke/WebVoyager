@@ -1,0 +1,166 @@
+[6215] RootWebArea 'Booking.com: Hotels in Rio de Janeiro. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Rio+de+Janeiro&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-666610&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=b15f6a23da1501df&ac_meta=GhBiMTVmNmEyM2RhMTUwMWRmIAAoATICZW46DlJpbyBkZSBKYW5laXJvQABKAFAA&group_adults=2&no_rooms=1&group_children=0
+	[7026] tabpanel 'Calendar'
+		[7039] grid '' multiselectable: False
+			[7173] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[7174] gridcell '27 April 2025' required: False
+					[7175] checkbox '27 April 2025' checked: false
+				[7178] gridcell '28 April 2025' required: False
+					[7179] checkbox '28 April 2025' checked: false
+				[7182] gridcell '29 April 2025' required: False
+					[7183] checkbox '29 April 2025' checked: false
+				[7186] gridcell '30 April 2025' required: False
+					[6345] checkbox '30 April 2025' checked: false
+		[7196] grid '' multiselectable: False
+			[7349] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[7350] gridcell '25 May 2025' required: False
+					[7351] checkbox '25 May 2025' checked: false
+				[7355] gridcell '26 May 2025' required: False
+					[7356] checkbox '26 May 2025' checked: false
+				[7360] gridcell '27 May 2025' required: False
+					[7361] checkbox '27 May 2025' checked: false
+				[7365] gridcell '28 May 2025' required: False
+					[7366] checkbox '28 May 2025' checked: false
+				[7370] gridcell '29 May 2025' required: False
+					[7371] checkbox '29 May 2025' checked: false
+				[7375] gridcell '30 May 2025' required: False
+					[7376] checkbox '30 May 2025' checked: false
+				[7380] gridcell '31 May 2025' required: False
+					[7381] checkbox '31 May 2025' checked: false
+		[7387] group ''
+			[7389] region '' roledescription: carousel
+				[6338] group '' roledescription: slide
+					[6348] checkbox 'Exact dates' checked: true
+				[6339] group '' roledescription: slide
+					[6349] checkbox '1 day' checked: false
+				[6340] group '' roledescription: slide
+					[6350] checkbox '2 days' checked: false
+				[6341] group '' roledescription: slide
+					[6351] checkbox '3 days' checked: false
+				[6342] group '' roledescription: slide
+					[6352] checkbox '7 days' checked: false
+	[7523] region 'Filters'
+		[7531] group 'Popular filters'
+			[6355] checkbox 'Sea view: 979 properties' checked: false
+			[6356] checkbox 'Swimming pool: 1325 properties' checked: false
+			[6357] checkbox 'Vacation Homes: 185 properties' checked: false
+			[6358] checkbox 'Hotels: 476 properties' checked: false
+			[6359] checkbox 'Wonderful: 9+: 2612 properties' checked: false
+			[7651] StaticText 'Based on guest reviews'
+			[6360] checkbox 'Ipanema: 538 properties' checked: false
+		[7679] StaticText 'Smart filters'
+		[7687] StaticText 'What are you looking for?'
+		[6361] textbox 'What are you looking for?' required: False
+		[7695] button 'Find properties'
+		[7704] group 'Amenities'
+			[6362] checkbox 'Parking: 2159 properties' checked: false
+			[6363] checkbox 'Restaurant: 593 properties' checked: false
+			[6364] checkbox 'Pet friendly: 1757 properties' checked: false
+			[6365] checkbox 'Room service: 378 properties' checked: false
+			[6366] checkbox '24-hour front desk: 2287 properties' checked: false
+			[7789] button 'Show all 14' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7801] group 'Property Type'
+			[6367] checkbox 'Apartments: 4829 properties' checked: false
+			[6368] checkbox 'Hotels: 476 properties' checked: false
+			[6369] checkbox 'Homestays: 230 properties' checked: false
+			[6370] checkbox 'Vacation Homes: 185 properties' checked: false
+			[6371] checkbox 'Hostels: 107 properties' checked: false
+			[6372] checkbox 'Guesthouses: 88 properties' checked: false
+			[6373] checkbox 'Bed and Breakfasts: 37 properties' checked: false
+			[6374] checkbox 'Love Hotels: 32 properties' checked: false
+			[6375] checkbox 'Villas: 15 properties' checked: false
+			[6376] checkbox 'Campgrounds: 11 properties' checked: false
+			[6377] checkbox 'Luxury tents: 8 properties' checked: false
+			[6378] checkbox 'Boats: 5 properties' checked: false
+			[6379] checkbox 'Chalets: 5 properties' checked: false
+			[6380] checkbox 'Resorts: 1 property' checked: false
+			[6381] checkbox 'Resort Villages: 1 property' checked: false
+			[6382] checkbox 'Lodges: 1 property' checked: false
+			[6383] checkbox 'Country Houses: 1 property' checked: false
+		[8082] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6384] checkbox '1 star: 3 properties' checked: false
+			[6385] checkbox '2 stars: 20 properties' checked: false
+			[6386] checkbox '3 stars: 2738 properties' checked: false
+			[6387] checkbox '4 stars: 994 properties' checked: false
+			[6388] checkbox '5 stars: 56 properties' checked: false
+		[8186] group 'Room amenities'
+			[6389] checkbox 'Rooftop pool: 141 properties' checked: false
+			[6390] checkbox 'Sofa bed: 1928 properties' checked: false
+			[6391] checkbox 'Outdoor dining area: 456 properties' checked: false
+			[6392] checkbox 'Dining area: 2672 properties' checked: false
+			[6393] checkbox 'Kitchen: 4457 properties' checked: false
+			[8271] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r36:
+	[9663] listitem 'Property'
+		[9721] StaticText 'Copacabana - Avenida Atlântica - Praia offers accommodations in Rio de Janeiro, a few steps from Copacabana Beach and a 2-minute walk from Leme Beach.'
+	[9757] listitem 'Property'
+		[9768] button 'Save this item to a trip list' expanded: False
+		[9781] heading 'Hotel Pouso Real Opens in new window'
+			[9782] link 'Hotel Pouso Real Opens in new window' url: https://www.booking.com/hotel/br/pouso-real.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[9788] button "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+			[9789] image "This property is part of our Preferred Partner Program. It's committed to providing excellent service and good value. It’ll pay us a higher commission if you make a booking."
+				[9790] image ''
+		[9794] link 'Downtown Rio de Janeiro, Rio de Janeiro (Lapa)· Show on map' url: https://www.booking.com/hotel/br/pouso-real.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults&map=1
+		[9804] button '0.8 miles from downtown'
+		[9809] button 'Beach Nearby'
+		[9818] StaticText '1.1 miles from beach'
+		[9820] StaticText 'This hotel in Lapa, Rio de Janeiro is located near popular bars, restaurants and beaches. The hotel offers air-conditioned rooms and private parking.'
+		[9824] link 'Scored 6.9 Review score 12,394 reviews' url: https://www.booking.com/hotel/br/pouso-real.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[9839] button 'Show prices'
+	[9846] listitem 'Property'
+		[9857] button 'Save this item to a trip list' expanded: False
+		[9870] heading 'Lagune Barra Hotel Opens in new window'
+			[9871] link 'Lagune Barra Hotel Opens in new window' url: https://www.booking.com/hotel/br/lagune-barra-rio-de-janeiro.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[9877] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9878] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9879] image ''
+		[9883] link 'Barra da Tijuca, Rio de Janeiro· Show on map' url: https://www.booking.com/hotel/br/lagune-barra-rio-de-janeiro.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults&map=1
+		[9893] button '15.7 miles from downtown'
+		[9896] StaticText 'Located in Rio de Janeiro, 17 miles from Maracanã Stadium, Lagune Barra Hotel has accommodations with an outdoor swimming pool, free private parking, a fitness center and a restaurant.'
+		[9900] link 'Scored 8.9 Excellent 4,822 reviews' url: https://www.booking.com/hotel/br/lagune-barra-rio-de-janeiro.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[9915] button 'Show prices'
+	[9924] listitem 'Property'
+		[9935] button 'Save this item to a trip list' expanded: False
+		[9948] heading 'Hotel Monte Alegre Opens in new window'
+			[9949] link 'Hotel Monte Alegre Opens in new window' url: https://www.booking.com/hotel/br/montealegre.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[9955] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9956] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9957] image ''
+		[9961] link 'Downtown Rio de Janeiro, Rio de Janeiro (Lapa)· Show on map' url: https://www.booking.com/hotel/br/montealegre.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults&map=1
+		[9971] button '1.1 miles from downtown'
+		[9976] button 'Beach Nearby'
+		[9985] StaticText '1.3 miles from beach'
+		[9987] StaticText 'The Hotel Monte Alegre is an economic option located in the center of Rio de Janeiro, near the popular Lapa district and with easy access to museums, theaters and other attractions.'
+		[9991] link 'Scored 8.3 Very Good 5,492 reviews' url: https://www.booking.com/hotel/br/montealegre.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10006] button 'Show prices'
+	[10016] listitem 'Property'
+		[10027] button 'Save this item to a trip list' expanded: False
+		[10040] heading 'Flat Luxuoso Coração de Copacabana Opens in new window'
+			[10041] link 'Flat Luxuoso Coração de Copacabana Opens in new window' url: https://www.booking.com/hotel/br/flat-luxuoso-coracao-de-copacabana.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10047] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10048] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10049] image ''
+		[10053] link 'Copacabana, Rio de Janeiro· Show on map' url: https://www.booking.com/hotel/br/flat-luxuoso-coracao-de-copacabana.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults&map=1
+		[10063] button '4.6 miles from downtown'
+		[10068] button 'Subway Access'
+		[10077] StaticText 'Beachfront'
+		[10079] StaticText 'Offering a garden and a shared lounge, Flat Luxuoso Coração de Copacabana in Rio de Janeiro is close to Copacabana Beach and Leme Beach.'
+		[10083] link 'Scored 8.2 Very Good 74 reviews' url: https://www.booking.com/hotel/br/flat-luxuoso-coracao-de-copacabana.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10097] link 'Location: Scored 9.6 ' url: https://www.booking.com/hotel/br/flat-luxuoso-coracao-de-copacabana.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10105] button 'Show prices'
+	[10114] listitem 'Property'
+		[10125] button 'Save this item to a trip list' expanded: False
+		[10138] heading 'Studio completo ao lado da praia de Copacabana com ar, duas camas, wifi, canais a cabo, até 3 pessoas, pauloangerami DF125 Opens in new window'
+			[10139] link 'Studio completo ao lado da praia de Copacabana com ar, duas camas, wifi, canais a cabo, até 3 pessoas, pauloangerami DF125 Opens in new window' url: https://www.booking.com/hotel/br/copacabana-3-quartos-premium-luxury-posto-6-perto-ipanema.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10145] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10146] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10147] image ''
+		[10151] link 'Copacabana, Rio de Janeiro· Show on map' url: https://www.booking.com/hotel/br/copacabana-3-quartos-premium-luxury-posto-6-perto-ipanema.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults&map=1
+		[10161] button '5 miles from downtown'
+		[10170] StaticText 'Beachfront'
+		[10172] StaticText 'Offering a garden and a terrace, Studio completo ao lado da praia de Copacabana com ar, duas camas, wifi, canais a cabo, até 3 pessoas, pauloangerami DF125 in Rio de Janeiro is close to Copacabana...'
+		[10176] link 'Scored 8.3 Very Good 15 reviews' url: https://www.booking.com/hotel/br/copacabana-3-quartos-premium-luxury-posto-6-perto-ipanema.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10191] button 'Show prices'
+	[10198] listitem 'Property'
+		[10209] button 'Save this item to a trip list' expanded: False
+		[10222] heading 'Mirador Rio Copacabana Hotel Opens in new window'
+			[10223] link 'Mirador Rio Copacabana Hotel Opens in new window' url: https://www.booking.com/hotel/br/mirador-rio.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults
+		[10270] link 'Scored 8.3 Very Good 2,966 reviews' url: https://www.booking.com/hotel/br/mirador-rio.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuALG-MjABsACAdICJDFhNzk0OWE3LTFlNDQtNDY1Yy05YWJmLTVlMmUzOGExNzgwN9gCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-666610&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=68cd6a30c3a21ea1&srepoch=1746025571&from=searchresults

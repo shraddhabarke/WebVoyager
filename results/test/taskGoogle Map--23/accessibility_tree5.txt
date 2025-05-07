@@ -1,0 +1,82 @@
+[1] RootWebArea 'The Metropolitan Museum of Art to Times Square, Manhattan, NY 10036 - Google Maps' focused: True url: https://www.google.com/maps/dir/The+Metropolitan+Museum+of+Art,+1000+5th+Ave,+New+York,+NY+10028/Times+Square,+Manhattan,+NY+10036/@40.7680804,-73.9947863,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89c25896f660c26f:0x3b2fa4f4b6c6a1fa!2m2!1d-73.963244!2d40.7794366!1m5!1m1!1s0x89c25855c6480299:0x55194ec5a1ae072e!2m2!1d-73.9855426!2d40.7579747!3e2?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[48] Canvas ''
+		[937] radiogroup '' required: False
+			[940] radio 'Best travel modes' checked: false
+				[941] image 'Best travel modes'
+			[950] radio 'Driving 14 min' checked: false
+				[951] image 'Driving'
+			[960] radio 'Transit 26 min' checked: false
+				[961] image 'Transit'
+			[970] radio 'Walking 42 min' focused: True checked: true
+				[971] image 'Walking'
+			[980] radio 'Cycling 12 min' checked: false
+				[981] image 'Cycling'
+			[990] radio 'Flights not available' disabled: True checked: false
+				[991] image 'Flights not available'
+		[999] button 'Close directions'
+		[1028] combobox '' hasPopup: grid required: False expanded: False
+			[1021] textbox 'Starting point The Metropolitan Museum of Art, 1000 5th Ave, New York, NY 10028' autocomplete: list required: False
+		[1022] button 'Search'
+		[1052] combobox '' hasPopup: grid required: False expanded: False
+			[1045] textbox 'Destination Times Square, Manhattan, NY 10036' autocomplete: list required: False
+		[1046] button 'Search'
+		[1004] button 'Reverse starting point and destination'
+		[1006] button 'Add destination'
+		[2029] region 'Available options for search along this route' roledescription: carousel
+			[2038] button 'Add stops along route'
+				[2130] StaticText 'Search along the route'
+			[2197] button 'Add restaurants along route'
+				[2284] StaticText 'Restaurants'
+			[2204] button 'Add coffee shops along route'
+				[2286] StaticText 'Coffee'
+			[2211] button 'Add groceries along route'
+				[2288] StaticText 'Groceries'
+			[2218] button 'Add things to do along route'
+				[2290] StaticText 'Things to do'
+			[2137] button 'Next page'
+		[16] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1846] button 'Times Square 42 min'
+		[1627] button '2 places New York'
+			[1635] generic '2 places'
+		[501] button 'Get the app'
+		[1146] main 'Directions'
+			[1814] button 'Options' expanded: False
+			[2228] button 'Send directions to your phone'
+			[2233] button 'Copy link'
+			[2237] link 'Walking 42 min 1.9 miles via 7th Ave Details'
+				[2239] image 'Walking'
+					[2305] StaticText '\ue536'
+				[2246] heading 'via 7th Ave'
+				[2249] button 'Details'
+			[2254] button 'Walking 46 min 2.1 miles via 5th Ave'
+				[2256] image 'Walking'
+					[2310] StaticText '\ue536'
+				[2263] heading 'via 5th Ave'
+			[2266] button 'Walking 45 min 2.1 miles via 6th Ave/Ave of the Americas'
+				[2268] image 'Walking'
+					[2315] StaticText '\ue536'
+				[2275] heading 'via 6th Ave/Ave of the Americas'
+			[2316] StaticText 'All routes are mostly flat'
+			[2281] button 'Show elevation profile'
+		[1187] button 'Collapse side panel'
+		[19] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[647] button 'Zoom out'
+		[661] button 'Show Street View coverage'
+		[703] generic 'Interactive map'
+		[741] StaticText 'Layers'
+		[756] button 'Layers' expanded: False
+		[860] contentinfo ''
+			[862] StaticText 'Map data ©2025 Google'
+			[863] button 'United States'
+			[865] button 'Terms'
+			[867] button 'Privacy'
+			[869] button 'Send Product Feedback'
+		[872] button '2000 ft'

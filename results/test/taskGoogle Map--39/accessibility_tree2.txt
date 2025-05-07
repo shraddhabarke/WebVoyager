@@ -1,0 +1,57 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir///@47.6741632,-122.1165056,13z?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[167] generic 'Google Maps'
+		[244] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[46] Canvas ''
+		[913] radiogroup '' required: False
+			[916] radio 'Best travel modes' checked: true
+				[917] image 'Best travel modes'
+			[926] radio 'Driving' checked: false
+				[927] image 'Driving'
+			[936] radio 'Transit' checked: false
+				[937] image 'Transit'
+			[946] radio 'Walking' checked: false
+				[947] image 'Walking'
+			[956] radio 'Cycling' checked: false
+				[957] image 'Cycling'
+			[966] radio 'Flights' checked: false
+				[967] image 'Flights'
+		[975] button 'Close directions'
+		[1004] combobox '' hasPopup: grid required: False expanded: True owns: sbsg50
+			[997] textbox 'Choose starting point, or click on the map...' focused: True autocomplete: list required: False controls: sbsg50
+			[1012] grid '' multiselectable: False
+				[1115] row ''
+					[1106] row ''
+						[1107] gridcell 'Your location Your location' required: False
+							[1109] image 'Your location'
+								[1118] StaticText '\ue55c'
+		[998] button 'Search'
+		[1028] combobox '' hasPopup: grid required: False
+			[1021] textbox 'Choose destination...' autocomplete: list required: False
+		[1022] button 'Search'
+		[980] button 'Reverse starting point and destination'
+		[18] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents' disabled: True
+		[501] button 'Get the app'
+		[1121] main 'Directions'
+			[1183] heading 'Delays'
+			[1199] StaticText 'Heavy traffic in this area'
+			[1201] StaticText 'No known road disruptions. Traffic incidents will show up here.'
+		[1163] button 'Collapse side panel'
+		[547] button 'Google apps' expanded: False
+			[549] image ''
+		[552] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[599] button 'Your Location' pressed: true
+		[616] button 'Zoom in'
+		[647] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[701] generic 'Interactive map'
+		[739] StaticText 'Layers'
+		[754] button 'Layers' expanded: False
+		[858] contentinfo ''
+			[860] StaticText 'Map data ©2025 Google'
+			[861] button 'United States'
+			[863] button 'Terms'
+			[865] button 'Privacy'
+			[867] button 'Send Product Feedback'
+		[870] button '2000 ft'

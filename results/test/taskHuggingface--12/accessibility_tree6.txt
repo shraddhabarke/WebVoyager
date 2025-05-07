@@ -1,0 +1,87 @@
+[3080] RootWebArea 'leslyarun/grammatical-error-correction · Hugging Face' focused: True url: https://huggingface.co/leslyarun/grammatical-error-correction
+	[3295] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[3081] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[3083] textbox 'Search models, datasets, users...' required: False
+	[3307] button ''
+	[3394] main ''
+		[3397] sectionheader ''
+			[3399] heading 'leslyarun / grammatical-error-correction Copy model name to clipboard like 2'
+				[3406] link '' url: https://huggingface.co/leslyarun
+				[3412] link 'leslyarun' url: https://huggingface.co/leslyarun
+				[3420] link 'grammatical-error-correction' url: https://huggingface.co/leslyarun/grammatical-error-correction
+				[3423] button 'Copy model name to clipboard'
+				[3433] button 'like'
+				[3443] button '2'
+			[3453] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+			[3471] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[3494] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[3512] link 'Safetensors' url: https://huggingface.co/models?library=safetensors
+			[3529] button 'leslyarun/c4_200m_gec_train100k_test25k'
+			[3551] link 'English' url: https://huggingface.co/models?language=en
+			[3566] link 't5' url: https://huggingface.co/models?other=t5
+			[3576] link 'grammar' url: https://huggingface.co/models?other=grammar
+			[3586] link 'text-generation-inference' url: https://huggingface.co/models?other=text-generation-inference
+			[3614] link 'Model card' url: https://huggingface.co/leslyarun/grammatical-error-correction
+			[3625] link 'Files' url: https://huggingface.co/leslyarun/grammatical-error-correction/tree/main
+			[3639] link 'Community 1' url: https://huggingface.co/leslyarun/grammatical-error-correction/discussions
+			[3656] button ''
+			[3674] button 'Train'
+			[3692] button 'Deploy'
+			[3713] button 'Use this model'
+		[3742] button ''
+		[3768] heading 'Get Grammatical corrections on your English text, trained on a subset of c4-200m dataset'
+			[3770] link '' url: https://huggingface.co/leslyarun/grammatical-error-correction#get-grammatical-corrections-on-your-english-text-trained-on-a-subset-of-c4-200m-dataset
+		[3781] heading 'Use the below code for running the model'
+			[3783] link '' url: https://huggingface.co/leslyarun/grammatical-error-correction#use-the-below-code-for-running-the-model
+		[3085] code ''
+			[3800] StaticText 'from'
+			[3801] StaticText ' transformers '
+			[3803] StaticText 'import'
+			[3804] StaticText ' AutoTokenizer, AutoModelForSeq2SeqLM\n'
+			[3806] StaticText 'from'
+			[3807] StaticText ' transformers '
+			[3809] StaticText 'import'
+			[3810] StaticText ' pipeline\n\ntokenizer = AutoTokenizer.from_pretrained('
+			[3812] StaticText '"leslyarun/grammatical-error-correction"'
+			[3813] StaticText ')\nmodel = AutoModelForSeq2SeqLM.from_pretrained('
+			[3816] StaticText ')\n  \ntext2text_generator = pipeline('
+			[3818] StaticText '"text2text-generation"'
+			[3819] StaticText ', model=model, tokenizer=tokenizer)\noutput = text2text_generator('
+			[3821] StaticText '"grammar: "'
+			[3822] StaticText ' + sentence)\n'
+			[3824] StaticText 'print'
+			[3825] StaticText '(output['
+			[3827] StaticText '0'
+			[3828] StaticText ']['
+			[3830] StaticText '"generated_text"'
+			[3831] StaticText '])\n'
+		[3086] button ''
+		[3842] DescriptionList ''
+			[3843] term 'Downloads last month'
+			[3845] definition ''
+				[3846] StaticText '324'
+		[3851] image ''
+		[3877] StaticText 'Safetensors'
+		[3878] link '' url: https://huggingface.co/docs/safetensors
+		[3887] StaticText 'Model size'
+		[3890] StaticText '223M'
+		[3891] StaticText ' params'
+		[3895] StaticText 'Tensor type'
+		[3898] StaticText 'F32'
+		[3905] button 'Files info'
+		[3926] StaticText 'Inference Providers'
+		[3937] link 'Text2Text Generation' url: https://huggingface.co/tasks/text-generation
+		[3957] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=leslyarun/grammatical-error-correction&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bleslyarun%2Fgrammatical-error-correction%5D(%2Fleslyarun%2Fgrammatical-error-correction)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+	[3976] contentinfo ''
+		[3980] button 'System theme'
+		[3995] link 'TOS' url: https://huggingface.co/terms-of-service
+		[3998] link 'Privacy' url: https://huggingface.co/privacy
+		[4001] link 'About' url: https://huggingface.co/huggingface
+		[4004] link 'Jobs' url: https://apply.workable.com/huggingface/
+		[4007] link '' url: https://huggingface.co/
+			[4008] image ''
+		[4028] link 'Models' url: https://huggingface.co/models
+		[4031] link 'Datasets' url: https://huggingface.co/datasets
+		[4034] link 'Spaces' url: https://huggingface.co/spaces
+		[4037] link 'Pricing' url: https://huggingface.co/pricing
+		[4040] link 'Docs' url: https://huggingface.co/docs

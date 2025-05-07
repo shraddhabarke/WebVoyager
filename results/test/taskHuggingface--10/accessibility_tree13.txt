@@ -1,0 +1,74 @@
+[1763] RootWebArea 'Full Text Search - Hugging Face' focused: True url: https://huggingface.co/search/full-text?q=argilla%2Fnotux-chat-ui&type=space
+	[1860] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[1764] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[1767] textbox 'Search models, datasets, users...' required: False
+	[1775] button ''
+	[1765] main ''
+		[1963] StaticText 'Full-text search'
+		[1768] checkbox 'Models' checked: false
+		[1769] checkbox 'Datasets' checked: false
+		[1770] checkbox 'Spaces' checked: true
+		[1771] textbox 'Search anything on the Hub' focused: True required: False
+			[8080] StaticText 'argilla/notux-chat-ui'
+		[8826] StaticText '+'
+		[8828] StaticText '1,000'
+		[8829] StaticText ' results'
+		[8094] sectionheader 'argilla/synthetic-data-generator'
+			[8097] heading 'argilla / synthetic-data-generator'
+				[8098] link 'argilla' url: https://huggingface.co/argilla
+				[8100] link 'synthetic-data-generator' url: https://huggingface.co/spaces/argilla/synthetic-data-generator
+			[8103] heading 'app.py'
+				[8104] link 'app.py' url: https://huggingface.co/spaces/argilla/synthetic-data-generator/blob/main/app.py
+			[8837] StaticText ' matches'
+		[8114] link '1 2 3 4 5 from synthetic_dataset_generator import launch\xa0 \xa0 if __name__ == "__main__":\xa0 launch()\xa0 \xa0' url: https://huggingface.co/spaces/argilla/synthetic-data-generator/blob/main/app.py
+		[8128] sectionheader 'argilla/argilla-template-space'
+			[8131] heading 'argilla / argilla-template-space'
+				[8132] link 'argilla' url: https://huggingface.co/argilla
+				[8134] link 'argilla-template-space' url: https://huggingface.co/spaces/argilla/argilla-template-space
+			[8137] heading 'Dockerfile'
+				[8138] link 'Dockerfile' url: https://huggingface.co/spaces/argilla/argilla-template-space/blob/main/Dockerfile
+			[8858] StaticText ' matches'
+		[8148] link '1 2 3 4 5 FROM argilla/argilla-hf-spaces:v2.8.0\xa0 \xa0 # Copy the auth config section\xa0 COPY .oauth.yaml /home/argilla/\xa0 \xa0' url: https://huggingface.co/spaces/argilla/argilla-template-space/blob/main/Dockerfile
+		[8164] sectionheader 'argilla/README'
+			[8167] heading 'argilla / README'
+				[8168] link 'argilla' url: https://huggingface.co/argilla
+				[8170] link 'README' url: https://huggingface.co/spaces/argilla/README
+			[8173] heading 'README.md'
+				[8174] link 'README.md' url: https://huggingface.co/spaces/argilla/README/blob/main/README.md?code=true
+			[8883] StaticText ' matches'
+		[8184] link 'tags: static' url: https://huggingface.co/spaces/argilla/README/blob/main/README.md?code=true
+		[8187] link "10 11 12 13 14 e to Argilla's page 👋\xa0 \xa0 Argilla is a free, open-source tool to build and iterate on datasets for AI\xa0 \xa0 Here, you'll find cool datasets, models, and Spaces for all things data for AI.\xa0" url: https://huggingface.co/spaces/argilla/README/blob/main/README.md?code=true#L10
+		[8203] sectionheader 'argilla/argilla-dolly-cleaner'
+			[8206] heading 'argilla / argilla-dolly-cleaner'
+				[8207] link 'argilla' url: https://huggingface.co/argilla
+				[8209] link 'argilla-dolly-cleaner' url: https://huggingface.co/spaces/argilla/argilla-dolly-cleaner
+			[8212] heading 'app.py'
+				[8213] link 'app.py' url: https://huggingface.co/spaces/argilla/argilla-dolly-cleaner/blob/main/app.py
+			[8909] StaticText '6'
+			[8910] StaticText ' matches'
+		[8223] link '4 5 6 7 8 port argilla as rg\xa0 import streamlit as st\xa0 from PIL import Image\xa0 \xa0 st.set_page_config(\xa0' url: https://huggingface.co/spaces/argilla/argilla-dolly-cleaner/blob/main/app.py#L4
+		[8238] sectionheader 'argilla/argilla-testers'
+			[8241] heading 'argilla / argilla-testers'
+				[8242] link 'argilla' url: https://huggingface.co/argilla
+				[8244] link 'argilla-testers' url: https://huggingface.co/spaces/argilla/argilla-testers
+			[8247] heading 'Dockerfile'
+				[8248] link 'Dockerfile' url: https://huggingface.co/spaces/argilla/argilla-testers/blob/main/Dockerfile
+			[8934] StaticText ' matches'
+		[8258] link '1 2 3 4 5 FROM argilla/argilla-quickstart:pr-3268\xa0 \xa0 \xa0 # Define datasets to preload: full=all datasets, single=one dataset, and none=no datasets.\xa0 ENV LOAD_DATASETS=single\xa0' url: https://huggingface.co/spaces/argilla/argilla-testers/blob/main/Dockerfile
+		[8273] sectionheader 'argilla/kato-explorer'
+			[8276] heading 'argilla / kato-explorer'
+				[8277] link 'argilla' url: https://huggingface.co/argilla
+				[8279] link 'kato-explorer' url: https://huggingface.co/spaces/argilla/kato-explorer
+			[8282] heading 'Dockerfile'
+				[8283] link 'Dockerfile' url: https://huggingface.co/spaces/argilla/kato-explorer/blob/main/Dockerfile
+			[8956] StaticText '4'
+			[8957] StaticText ' matches'
+		[8293] link '1 2 3 4 5 FROM argilla/argilla-quickstart:v1.21.0\xa0 \xa0 \xa0 # Define datasets to preload: full=all datasets, single=one dataset, and none=no datasets.\xa0 ENV LOAD_DATASETS=none\xa0' url: https://huggingface.co/spaces/argilla/kato-explorer/blob/main/Dockerfile
+		[8308] sectionheader 'argilla/DiBTSpanishDashboard'
+			[8311] heading 'argilla / DiBTSpanishDashboard'
+				[8312] link 'argilla' url: https://huggingface.co/argilla
+				[8314] link 'DiBTSpanishDashboard' url: https://huggingface.co/spaces/argilla/DiBTSpanishDashboard
+			[8317] heading 'app.py'
+				[8318] link 'app.py' url: https://huggingface.co/spaces/argilla/DiBTSpanishDashboard/blob/main/app.py
+			[8980] StaticText ' matches'
+		[8328] link '7 8 9 10 11 port argilla as rg\xa0 from argilla.feedback import FeedbackDataset\xa0 from argilla.client.feedback.dataset.remote.dataset import RemoteFeedbackDataset\xa0 import gradio as gr\xa0 import pandas as pd\xa0' url: https://huggingface.co/spaces/argilla/DiBTSpanishDashboard/blob/main/app.py#L7

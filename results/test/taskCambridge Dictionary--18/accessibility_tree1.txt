@@ -1,0 +1,89 @@
+[3] RootWebArea 'Cambridge Dictionary | English Dictionary, Translations & Thesaurus' focused: True url: https://dictionary.cambridge.org/
+	[349] button 'Close autocomplete'
+		[359] button 'Open site navigation panel'
+		[383] link 'Dictionary' url: https://dictionary.cambridge.org/dictionary/
+		[388] link 'Translate' url: https://dictionary.cambridge.org/translate/
+		[393] link 'Grammar' url: https://dictionary.cambridge.org/grammar/british-grammar/
+		[396] link 'Thesaurus' url: https://dictionary.cambridge.org/thesaurus/
+		[400] link '+Plus' url: https://dictionary.cambridge.org/plus/
+		[410] link 'Games' url: https://dictionary.cambridge.org/games/
+		[415] link 'Shop \uf35d' url: https://cambridgedictionaryshop.com/?utm_source=CDO&utm_medium=mainnav&utm_campaign=merchandise&utm_id=Experiments
+			[24] superscript ''
+		[483] link '\uf09a' url: https://www.facebook.com/CUPCambridgeDictionary/
+		[487] link '\uf16d' url: https://www.instagram.com/cambridgewords
+		[491] link '\ue909' url: https://twitter.com/CambridgeWords
+		[540] StaticText 'Log in'
+		[542] StaticText ' / '
+		[546] StaticText 'Sign up'
+		[551] button 'Open language selection panel'
+			[557] StaticText 'English (UK)'
+	[570] main 'Close header popups' focused: True
+		[574] image ''
+		[579] image ''
+		[593] image ''
+		[607] image ''
+		[629] link 'Cambridge Dictionary' url: https://dictionary.cambridge.org/
+			[633] image 'Cambridge Dictionary' url: https://dictionary.cambridge.org/external/images/logo-lrg.png?version=6.0.49
+		[642] StaticText 'Make your words meaningful'
+		[1] textbox 'Search' required: True
+		[674] button '\uf00d'
+		[682] button 'Choose a dictionary'
+			[685] StaticText 'English'
+		[693] button 'Search'
+		[733] button 'Set dictionary search to Grammar'
+		[738] button 'Set dictionary search to English–Spanish'
+		[743] button 'Set dictionary search to Spanish–English'
+		[772] Iframe ''
+		[782] heading 'Explore the Cambridge Dictionary'
+		[801] image ''
+		[820] heading 'English dictionaries'
+		[827] link 'English' url: https://dictionary.cambridge.org/dictionary/english/
+		[833] link 'Learner’s Dictionary' url: https://dictionary.cambridge.org/dictionary/learner-english/
+		[839] link 'Essential British English' url: https://dictionary.cambridge.org/dictionary/essential-british-english/
+		[845] link 'Essential American English' url: https://dictionary.cambridge.org/dictionary/essential-american-english/
+		[859] image ''
+		[876] heading 'Grammar'
+			[878] link 'Grammar' url: https://dictionary.cambridge.org/grammar/british-grammar/
+		[891] image ''
+		[906] heading 'Thesaurus'
+			[908] link 'Thesaurus' url: https://dictionary.cambridge.org/thesaurus/
+		[921] image ''
+		[940] heading 'Pronunciation'
+			[942] link 'Pronunciation' url: https://dictionary.cambridge.org/pronunciation/
+		[964] image ''
+		[976] image ''
+		[991] heading 'Translation dictionaries'
+		[995] StaticText 'Click on the arrows to change the translation direction.'
+		[1001] button 'Change language direction'
+		[1007] link 'English–Chinese (Simplified)' url: https://dictionary.cambridge.org/dictionary/english-chinese-simplified/
+		[1016] button 'Change language direction'
+		[1022] link 'English–Chinese (Traditional)' url: https://dictionary.cambridge.org/dictionary/english-chinese-traditional/
+		[1031] button 'Change language direction'
+		[1037] link 'English–Dutch' url: https://dictionary.cambridge.org/dictionary/english-dutch/
+		[1046] button 'Change language direction'
+		[1052] link 'English–French' url: https://dictionary.cambridge.org/dictionary/english-french/
+		[1061] button 'Change language direction'
+		[1067] link 'English–German' url: https://dictionary.cambridge.org/dictionary/english-german/
+		[1081] button 'See more' expanded: False
+		[1430] link 'Word Scramble' url: https://dictionary.cambridge.org/plus/games/word-scramble
+			[1435] image 'Word Scramble' url: https://dictionary.cambridge.org/external/images/games/ws_placeholder_tile.svg?version=6.0.49
+		[1442] heading 'Word Scramble'
+		[1448] StaticText 'Challenge yourself with word games from Cambridge Dictionary.'
+		[1451] StaticText 'Read the definition. Can you beat the clock and spell the word?'
+		[1458] link 'Play' url: https://dictionary.cambridge.org/plus/games/word-scramble
+		[35] image 'Plus promo' url: https://dictionary.cambridge.org/external/images/ptn-plus.svg
+		[1939] StaticText 'Cambridge'
+		[1945] StaticText 'Dictionary +Plus'
+		[1952] StaticText 'Free word lists and quizzes to create, download and share!'
+		[1956] link 'Go to + Plus' url: https://dictionary.cambridge.org/plus/
+		[1961] StaticText ' or '
+		[1963] StaticText 'Log in'
+		[1992] Iframe ''
+	[3742] region 'Cookie banner'
+		[3743] dialog 'Privacy' modal: False
+			[3751] StaticText 'By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. '
+			[3752] link 'More information about your privacy, opens in a new tab' url: https://www.cambridge.org/legal/privacy
+				[3753] StaticText 'Privacy and Cookies Policy'
+			[37] button 'Cookies Settings'
+			[3759] button 'Accept All Cookies'
+			[3763] button 'Close'

@@ -1,0 +1,44 @@
+[3] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[80] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[83] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[87] button 'Google apps' expanded: False
+		[89] image ''
+	[92] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ
+	[97] IframePresentational ''
+	[14] image ''
+	[2] search ''
+		[19] image ''
+		[1] combobox 'Search' focused: True autocomplete: both hasPopup: listbox required: False expanded: True
+		[185] button 'Search by voice'
+			[20] image ''
+		[189] button 'Search by image'
+			[21] image ''
+		[1241] StaticText 'Trending searches'
+		[612] listbox '' multiselectable: False orientation: vertical required: False
+			[624] option 'cheerleading worlds 2025 results' selected: False
+			[655] option 'slate trucks' selected: False
+			[686] option 'samson nacua fan' selected: False
+			[717] option 'spain portugal power outages' selected: False
+			[748] option 'dallas cowboys amari cooper signing' selected: False
+			[779] option 'us citizen children' selected: False
+			[810] option 'weather storms tornadoes' selected: False
+			[841] option 'the pitt season 2' selected: False
+			[872] option 'costco salsa recall' selected: False
+			[903] option 'los angeles county workers strike' selected: False
+		[339] button 'Google Search'
+		[341] button "I'm Feeling Lucky"
+		[347] button 'Report inappropriate predictions'
+		[353] button 'Google Search'
+		[355] button "I'm Feeling Lucky"
+	[416] StaticText 'It’s almost Mother’s Day: '
+	[417] link 'Shop every store in one place for that perfect gift'
+	[435] contentinfo ''
+		[5] link 'About' url: https://about.google/?utm_source=google-US&utm_medium=referral&utm_campaign=hp-footer&fg=1
+		[441] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[443] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[445] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[448] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[451] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[453] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[25] button 'Settings' hasPopup: menu expanded: False
+			[462] generic '' hasPopup: menu

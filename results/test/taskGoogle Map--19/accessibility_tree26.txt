@@ -1,0 +1,99 @@
+[1] RootWebArea 'Hilton Garden Inn Pittsburgh Airport to Pittsburgh International Airport - Google Maps' focused: True url: https://www.google.com/maps/dir/Hilton+Garden+Inn+Pittsburgh+Airport,+9600+University+Blvd,+Moon+Twp,+PA+15108/Pittsburgh+International+Airport,+1000+Airport+Blvd,+Pittsburgh,+PA+15231/@40.4916261,-80.32296,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88345c52e07a6425:0x744bbf2af57f829d!2m2!1d-80.2234387!2d40.5020566!1m5!1m1!1s0x88345cc34ecd5b37:0xc812270d148d3f59!2m2!1d-80.2372941!2d40.4928542?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+	[166] generic 'Google Maps'
+		[243] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[51] Canvas ''
+		[3509] radiogroup '' required: False
+			[3512] radio 'Best travel modes' checked: true
+				[3513] image 'Best travel modes'
+			[3522] radio 'Driving 9 min' checked: false
+				[3523] image 'Driving'
+			[3532] radio 'Transit 2h 3m' checked: false
+				[3533] image 'Transit'
+			[3542] radio 'Walking 2h 12m' checked: false
+				[3543] image 'Walking'
+			[3552] radio 'Cycling 40 min' checked: false
+				[3553] image 'Cycling'
+			[3562] radio 'Flights not available' disabled: True checked: false
+				[3563] image 'Flights not available'
+		[3571] button 'Close directions'
+		[3600] combobox '' hasPopup: grid required: False expanded: False
+			[3593] textbox 'Starting point Hilton Garden Inn Pittsburgh Airport, 9600 University Blvd, Moon Twp, PA 15108' autocomplete: list required: False
+		[3594] button 'Search'
+		[3624] combobox '' hasPopup: grid required: False expanded: False
+			[3617] textbox 'Destination Pittsburgh International Airport' autocomplete: list required: False
+		[3618] button 'Search'
+		[3576] button 'Reverse starting point and destination' focused: True
+		[3578] button 'Add destination'
+		[25193] region 'Available options for search along this route' roledescription: carousel
+			[25202] button 'Add stops along route'
+				[25230] StaticText 'Search along the route'
+			[25208] button 'Add gas stations along route'
+				[25232] StaticText 'Gas'
+			[25215] button 'Add electric vehicle charging stations along route'
+				[25234] StaticText 'EV charging'
+			[25222] button 'Add hotels along route'
+				[25236] StaticText 'Hotels'
+			[25238] button 'Next page'
+		[14] button 'Menu'
+		[452] button 'Saved'
+		[470] button 'Recents'
+		[4084] button 'Pittsburgh International Airport 9 min'
+		[1687] button '3 places Carnot-Moon'
+			[1695] generic '3 places'
+		[500] button 'Get the app'
+		[24624] main 'Directions'
+			[25007] button 'Departure options' hasPopup: menu expanded: False
+				[25003] option 'Leave now' selected: True
+				[25013] StaticText '\xa0'
+			[24990] button 'Options' expanded: False
+			[25742] button 'Send directions to your phone'
+			[25747] button 'Copy link'
+			[25751] link 'Driving 9 min 6.0 miles via I-376BL Fastest route, the usual traffic Details'
+				[25753] image 'Driving'
+					[25889] StaticText '\ue531'
+				[25761] heading 'via I-376BL'
+				[25887] StaticText 'Fastest route, the usual traffic'
+				[25769] button 'Details'
+			[25774] button 'Driving 10 min 7.5 miles via I-376BL E and I-376 W'
+				[25776] image 'Driving'
+					[25894] StaticText '\ue531'
+				[25784] heading 'via I-376BL E and I-376 W'
+			[25787] button 'Transit 2 hr 3 min Information 10:44\u202fAM—12:47\u202fPM Walk , then Bus 21 , then Bus 28X'
+				[25789] image 'Transit'
+					[25909] StaticText '\ue535'
+				[25794] heading 'Information 10:44\u202fAM—12:47\u202fPM'
+					[25796] image 'Information'
+						[25896] StaticText '\ue88e'
+				[25801] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[25810] image ', then'
+					[25901] StaticText '\ue315'
+				[25813] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[25902] StaticText '21'
+				[25826] image ', then'
+					[25903] StaticText '\ue315'
+				[25829] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[25904] StaticText '28X'
+			[25841] heading 'Explore nearby Pittsburgh International Airport'
+			[25846] button 'Restaurants'
+			[25851] button 'Hotels'
+			[25856] button 'Gas stations'
+			[25861] button 'Parking Lots'
+			[25866] button 'More'
+		[1498] button 'Collapse side panel'
+		[546] button 'Google apps' expanded: False
+			[548] image ''
+		[551] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[598] button 'Show Your Location' pressed: false
+		[615] button 'Zoom in'
+		[646] button 'Zoom out'
+		[659] button 'Show Street View coverage'
+		[700] generic 'Interactive map'
+		[738] StaticText 'Layers'
+		[753] button 'Layers' expanded: False
+		[854] contentinfo ''
+			[856] StaticText 'Map data ©2025 Google'
+			[857] button 'United States'
+			[859] button 'Terms'
+			[861] button 'Privacy'
+			[863] button 'Send Product Feedback'
+		[866] button '2 mi'

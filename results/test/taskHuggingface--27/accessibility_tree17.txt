@@ -1,0 +1,107 @@
+[18223] RootWebArea 'BeIR/query-gen-msmarco-t5-large-v1 · Hugging Face' focused: True url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1
+	[18430] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[18224] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[18227] textbox 'Search models, datasets, users...' required: False
+	[18442] button ''
+	[18529] main ''
+		[18532] sectionheader ''
+			[18534] heading 'BeIR / query-gen-msmarco-t5-large-v1 Copy model name to clipboard like 17 Follow BEIR 42'
+				[18541] link '' url: https://huggingface.co/BeIR
+				[18547] link 'BeIR' url: https://huggingface.co/BeIR
+				[18555] link 'query-gen-msmarco-t5-large-v1' url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1
+				[18558] button 'Copy model name to clipboard'
+				[18568] button 'like'
+				[18578] button '17'
+				[18230] button 'Follow BEIR'
+				[18593] button '42'
+			[18601] link 'Text2Text Generation' url: https://huggingface.co/models?pipeline_tag=text2text-generation
+			[18619] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[18642] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[18660] link 'JAX' url: https://huggingface.co/models?library=jax
+			[18715] link 't5' url: https://huggingface.co/models?other=t5
+			[18725] link 'text-generation-inference' url: https://huggingface.co/models?other=text-generation-inference
+			[18753] link 'Model card' url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1
+			[18764] link 'Files' url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1/tree/main
+			[18778] link 'Community 2' url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1/discussions
+			[18795] button ''
+			[18813] button 'Train'
+			[18831] button 'Deploy'
+			[18852] button 'Use this model'
+		[18879] StaticText 'YAML Metadata Warning:'
+		[18880] StaticText ' empty or missing yaml metadata in repo card ('
+		[18882] link 'https://huggingface.co/docs/hub/model-cards#model-card-metadata' url: https://huggingface.co/docs/hub/model-cards#model-card-metadata
+		[18885] StaticText ')'
+		[18893] button ''
+		[18919] heading 'Query Generation'
+			[18921] link '' url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1#query-generation
+		[18933] StaticText 'This model is the t5-base model from '
+		[18934] link 'docTTTTTquery' url: https://github.com/castorini/docTTTTTquery
+		[18938] StaticText 'The T5-base model was trained on the '
+		[18939] link 'MS MARCO Passage Dataset' url: https://github.com/microsoft/MSMARCO-Passage-Ranking
+		[18941] StaticText ', which consists of about 500k real search queries from Bing together with the relevant passage.'
+		[18944] StaticText 'The model can be used for query generation to learn semantic search models without requiring annotated training data: '
+		[18945] link 'Synthetic Query Generation' url: https://github.com/UKPLab/sentence-transformers/tree/master/examples/unsupervised_learning/query_generation
+		[18949] heading 'Usage'
+			[18951] link '' url: https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1#usage
+		[18964] code ''
+			[18968] StaticText 'from'
+			[18969] StaticText ' transformers '
+			[18971] StaticText 'import'
+			[18972] StaticText ' T5Tokenizer, T5ForConditionalGeneration\n\ntokenizer = T5Tokenizer.from_pretrained('
+			[18975] StaticText ')\nmodel = T5ForConditionalGeneration.from_pretrained('
+			[18978] StaticText ')\n\npara = '
+			[18980] StaticText '"Python is an interpreted, high-level and general-purpose programming language. Python\'s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."'
+			[18981] StaticText '\n\ninput_ids = tokenizer.encode(para, return_tensors='
+			[18984] StaticText ')\noutputs = model.generate(\n    input_ids=input_ids,\n    max_length='
+			[18986] StaticText '64'
+			[18987] StaticText ',\n    do_sample='
+			[18989] StaticText 'True'
+			[18990] StaticText ',\n    top_p='
+			[18992] StaticText '0.95'
+			[18993] StaticText ',\n    num_return_sequences='
+			[18996] StaticText ')\n\n'
+			[18998] StaticText 'print'
+			[18999] StaticText '('
+			[19001] StaticText '"Paragraph:"'
+			[19002] StaticText ')\n'
+			[19004] StaticText 'print'
+			[19005] StaticText '(para)\n\n'
+			[19010] StaticText '"\\nGenerated Queries:"'
+			[19013] StaticText 'for'
+			[19014] StaticText ' i '
+			[19016] StaticText 'in'
+			[19019] StaticText 'range'
+			[19020] StaticText '('
+			[19022] StaticText 'len'
+			[19023] StaticText '(outputs)):\n    query = tokenizer.decode(outputs[i], skip_special_tokens='
+			[19025] StaticText 'True'
+			[19026] StaticText ')\n    '
+			[19028] StaticText 'print'
+			[19029] StaticText '('
+			[19033] StaticText '{i + '
+			[19036] StaticText '}'
+			[19037] StaticText ': '
+			[19039] StaticText '{query}'
+			[19041] StaticText ')\n'
+		[19042] button ''
+		[19053] DescriptionList ''
+			[19054] term 'Downloads last month'
+			[19056] definition ''
+				[19057] StaticText '241'
+		[19062] image ''
+		[19091] StaticText 'Inference Providers'
+		[19102] link 'Text2Text Generation' url: https://huggingface.co/tasks/text-generation
+		[19122] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=BeIR/query-gen-msmarco-t5-large-v1&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5BBeIR%2Fquery-gen-msmarco-t5-large-v1%5D(%2FBeIR%2Fquery-gen-msmarco-t5-large-v1)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+	[19141] contentinfo ''
+		[19145] button 'System theme'
+		[19160] link 'TOS' url: https://huggingface.co/terms-of-service
+		[19163] link 'Privacy' url: https://huggingface.co/privacy
+		[19166] link 'About' url: https://huggingface.co/huggingface
+		[19169] link 'Jobs' url: https://apply.workable.com/huggingface/
+		[19172] link '' url: https://huggingface.co/
+			[19173] image ''
+		[19193] link 'Models' url: https://huggingface.co/models
+		[19196] link 'Datasets' url: https://huggingface.co/datasets
+		[19199] link 'Spaces' url: https://huggingface.co/spaces
+		[19202] link 'Pricing' url: https://huggingface.co/pricing
+		[19205] link 'Docs' url: https://huggingface.co/docs

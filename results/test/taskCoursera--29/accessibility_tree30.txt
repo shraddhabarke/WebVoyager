@@ -1,0 +1,28 @@
+[2748] RootWebArea 'Top Coursera Plus Subscription Price Courses - Learn Coursera Plus Subscription Price Online' focused: True url: https://www.coursera.org/search?authMode=login&query=coursera+plus+subscription+price&sortBy=BEST_MATCH
+	[7435] dialog 'Authentication modal' modal: True
+		[7433] button 'Close'
+			[7347] image 'Close'
+		[7428] sectionheader ''
+			[7348] heading 'Welcome back'
+		[7439] StaticText 'Email'
+		[7359] textbox 'Email' focused: True required: True
+		[7444] StaticText 'Password'
+		[7376] textbox 'Password' required: True
+		[7372] generic '' live: polite atomic: False relevant: additions text
+			[7447] StaticText 'Your password is hidden'
+		[7373] button 'Show password' controls: cds-react-aria9207610614-:r8p:
+		[7381] button 'Forgot password?'
+		[7387] button 'Login'
+		[7415] generic '' live: assertive atomic: False relevant: additions text
+		[7408] button 'Google Continue with Google'
+		[7409] button 'Facebook Continue with Facebook'
+		[7410] button 'Apple Continue with Apple'
+		[7456] StaticText 'New to Coursera? '
+		[7411] button 'Sign up'
+		[7413] button 'Log in with your organization'
+		[7458] StaticText 'Having trouble logging in? '
+		[7421] link 'Learner help center' url: https://learner.coursera.help/hc/articles/209818553
+		[7460] StaticText 'This site is protected by reCAPTCHA Enterprise and the Google '
+		[7423] link 'Privacy Policy' url: https://policies.google.com/privacy
+		[7424] link 'Terms of Service' url: https://policies.google.com/terms
+		[7464] StaticText ' apply.'

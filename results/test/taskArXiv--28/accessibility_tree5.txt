@@ -1,0 +1,110 @@
+[1256] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=Poly+encoder&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+	[1366] StaticText 'Skip to main content'
+	[1374] link 'logo' url: https://cornell.edu/
+		[1257] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[1380] StaticText 'We gratefully acknowledge support from'
+	[1382] StaticText 'the Simons Foundation, '
+	[1383] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[1385] StaticText ', and all contributors. '
+	[1386] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[1398] link 'arxiv-logo' url: https://arxiv.org/
+		[1258] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[1260] textbox 'Search term or terms' required: False
+	[1413] link 'Help' url: https://info.arxiv.org/help
+	[1415] StaticText ' | '
+	[1416] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[1261] combobox 'Field to search' hasPopup: menu expanded: False
+	[1476] button 'Search'
+	[1487] navigation 'User menu'
+		[1489] link 'Login' url: https://arxiv.org/login
+	[1495] main ''
+		[1501] heading 'Showing 1–2 of 2 results'
+		[1511] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[1513] StaticText '\xa0\xa0'
+		[1524] StaticText 'Query: '
+		[1525] link 'order: -announced_date_first; size: 50; include_cross_list: True; terms: AND title=Poly encoder' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=Poly+encoder&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[1529] link 'Refine query' url: https://arxiv.org/search/advanced?terms-0-operator=AND&terms-0-term=Poly+encoder&terms-0-field=title&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
+		[1531] link 'New search' url: https://arxiv.org/search/advanced
+		[1540] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+		[1288] combobox 'results per page' hasPopup: menu expanded: False
+		[1792] StaticText 'Sort results by'
+		[1289] combobox 'Sort results by' hasPopup: menu expanded: False
+		[1812] button 'Go'
+		[1823] ListMarker '1. '
+		[1828] link 'arXiv:2309.16770' url: https://arxiv.org/abs/2309.16770
+		[1832] StaticText '\xa0['
+		[1833] link 'pdf' url: https://arxiv.org/pdf/2309.16770
+		[1835] StaticText ', '
+		[1836] link 'other' url: https://arxiv.org/format/2309.16770
+		[1838] StaticText ']\xa0'
+		[1844] StaticText 'cs.CL'
+		[1847] StaticText 'cs.AI'
+		[1850] StaticText 'cs.LG'
+		[1858] StaticText 'doi'
+		[1861] link '10.1109/ICTAI59109.2023.00044' url: https://doi.org/10.1109/ICTAI59109.2023.00044
+		[1869] StaticText 'Persona-Coded '
+		[1871] StaticText 'Poly'
+		[1874] StaticText 'Encoder'
+		[1875] StaticText ': Persona-Guided Multi-Stream Conversational Sentence Scoring'
+		[1880] StaticText 'Authors:'
+		[1882] link 'Junfeng Liu' url: https://arxiv.org/search/?searchtype=author&query=Liu%2C+J
+		[1884] StaticText ', '
+		[1885] link 'Christopher Symons' url: https://arxiv.org/search/?searchtype=author&query=Symons%2C+C
+		[1888] link 'Ranga Raju Vatsavai' url: https://arxiv.org/search/?searchtype=author&query=Vatsavai%2C+R+R
+		[1894] StaticText 'Abstract'
+		[1897] StaticText 'Recent advances in machine learning and deep learning have led to the widespread use of Conversational AI in many practical applications. However, it is still very challenging to leverage auxiliary information that can provide conversational context or personalized tuning to improve the quality of conversations. For example, there has only been limited research on using an individuals persona info… '
+		[1898] link '▽ More'
+		[1911] StaticText 'Submitted'
+		[1912] StaticText ' 1 December, 2023; '
+		[1914] StaticText 'v1'
+		[1915] StaticText ' submitted 28 September, 2023; '
+		[1917] StaticText 'originally announced'
+		[1918] StaticText ' September 2023.'
+		[1923] StaticText 'Comments:'
+		[1926] StaticText 'The 35th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)'
+		[1932] StaticText 'Journal ref:'
+		[1933] StaticText ' 2023 IEEE 35th International Conference on Tools with Artificial Intelligence (ICTAI)'
+		[1937] ListMarker '2. '
+		[1942] link 'arXiv:1905.01969' url: https://arxiv.org/abs/1905.01969
+		[1946] StaticText '\xa0['
+		[1947] link 'pdf' url: https://arxiv.org/pdf/1905.01969
+		[1949] StaticText ', '
+		[1950] link 'other' url: https://arxiv.org/format/1905.01969
+		[1952] StaticText ']\xa0'
+		[1958] StaticText 'cs.CL'
+		[1961] StaticText 'cs.AI'
+		[1968] StaticText 'Poly'
+		[1969] StaticText '-'
+		[1971] StaticText 'encoders'
+		[1972] StaticText ': Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring'
+		[1977] StaticText 'Authors:'
+		[1979] link 'Samuel Humeau' url: https://arxiv.org/search/?searchtype=author&query=Humeau%2C+S
+		[1981] StaticText ', '
+		[1982] link 'Kurt Shuster' url: https://arxiv.org/search/?searchtype=author&query=Shuster%2C+K
+		[1985] link 'Marie-Anne Lachaux' url: https://arxiv.org/search/?searchtype=author&query=Lachaux%2C+M
+		[1988] link 'Jason Weston' url: https://arxiv.org/search/?searchtype=author&query=Weston%2C+J
+		[1995] StaticText 'Abstract'
+		[1998] StaticText 'The use of deep pre-trained bidirectional transformers has led to remarkable progress in a number of applications (Devlin et al., 2018). For tasks that make pairwise comparisons between sequences, matching a given input with a corresponding label, two approaches are common: Cross-encoders performing full self-attention over the pair and Bi-encoders encoding the pair separately. The former often pe… '
+		[1999] link '▽ More'
+		[2012] StaticText 'Submitted'
+		[2013] StaticText ' 25 March, 2020; '
+		[2015] StaticText 'v1'
+		[2016] StaticText ' submitted 21 April, 2019; '
+		[2018] StaticText 'originally announced'
+		[2019] StaticText ' May 2019.'
+		[2024] StaticText 'Comments:'
+		[2027] StaticText 'ICLR 2020'
+	[2044] contentinfo ''
+		[2046] navigation 'Secondary'
+			[2059] link 'About' url: https://info.arxiv.org/about
+			[2063] link 'Help' url: https://info.arxiv.org/help
+			[2081] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[2094] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[2115] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[2119] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[2129] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[2136] link 'arXiv Operational Status ' url: https://status.arxiv.org/
+			[2141] StaticText 'Get status notifications via '
+			[2142] link 'email' url: https://subscribe.sorryapp.com/24846f03/email/new
+			[2146] StaticText ' or '
+			[2147] link 'slack' url: https://subscribe.sorryapp.com/24846f03/slack/new

@@ -1,0 +1,42 @@
+[1801] RootWebArea 'google/flan-t5-base · Hugging Face' focused: True url: https://huggingface.co/google/flan-t5-base#uses
+	[2128] main ''
+		[2629] button ''
+		[3232] group ''
+			[3234] DisclosureTriangle 'Click to expand' expanded: False
+		[3284] heading 'Uses'
+			[3286] link '' focused: True url: https://huggingface.co/google/flan-t5-base#uses
+		[3297] heading 'Direct Use and Downstream Use'
+			[3299] link '' url: https://huggingface.co/google/flan-t5-base#direct-use-and-downstream-use
+		[3311] StaticText 'The authors write in '
+		[3312] link "the original paper's model card" url: https://arxiv.org/pdf/2210.11416.pdf
+		[3314] StaticText ' that:'
+		[3316] blockquote ''
+			[3321] StaticText 'The primary use is research on language models, including: research on zero-shot NLP tasks and in-context few-shot learning NLP tasks, such as reasoning, and question answering; advancing fairness and safety research, and understanding limitations of current large language models'
+		[3325] StaticText 'See the '
+		[3326] link 'research paper' url: https://arxiv.org/pdf/2210.11416.pdf
+		[3328] StaticText ' for further details.'
+		[3330] heading 'Out-of-Scope Use'
+			[3332] link '' url: https://huggingface.co/google/flan-t5-base#out-of-scope-use
+		[3344] StaticText 'More information needed.'
+		[3346] heading 'Bias, Risks, and Limitations'
+			[3348] link '' url: https://huggingface.co/google/flan-t5-base#bias-risks-and-limitations
+		[3361] link 'official model card' url: https://arxiv.org/pdf/2210.11416.pdf
+		[3365] blockquote ''
+			[3370] StaticText 'Language models, including Flan-T5, can potentially be used for language generation in a harmful way, according to Rae et al. (2021). Flan-T5 should not be used directly in any application, without a prior assessment of safety and fairness concerns specific to the application.'
+		[3373] heading 'Ethical considerations and risks'
+			[3375] link '' url: https://huggingface.co/google/flan-t5-base#ethical-considerations-and-risks
+		[3386] blockquote ''
+			[3391] StaticText 'Flan-T5 is fine-tuned on a large corpus of text data that was not filtered for explicit content or assessed for existing biases. As a result the model itself is potentially vulnerable to generating equivalently inappropriate content or replicating inherent biases in the underlying data.'
+		[3394] heading 'Known Limitations'
+			[3396] link '' url: https://huggingface.co/google/flan-t5-base#known-limitations
+		[3407] blockquote ''
+			[3412] StaticText 'Flan-T5 has not been tested in real world applications.'
+		[3415] heading 'Sensitive Use:'
+			[3417] link '' url: https://huggingface.co/google/flan-t5-base#sensitive-use
+		[3428] blockquote ''
+			[3433] StaticText 'Flan-T5 should not be applied for any unacceptable use cases, e.g., generation of abusive speech.'
+		[3436] heading 'Training Details'
+			[3438] link '' url: https://huggingface.co/google/flan-t5-base#training-details
+		[3449] heading 'Training Data'
+			[3451] link '' url: https://huggingface.co/google/flan-t5-base#training-data
+		[3463] StaticText 'The model was trained on a mixture of tasks, that includes the tasks described in the table below (from the original paper, figure 2):'

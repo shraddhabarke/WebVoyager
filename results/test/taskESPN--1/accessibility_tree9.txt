@@ -1,0 +1,40 @@
+[8350] RootWebArea 'ESPN Search' focused: True url: https://www.espn.com/search
+	[9965] region 'HeaderScoreboard'
+		[8356] combobox 'Sports' hasPopup: menu expanded: False
+		[15309] combobox 'Sports Dates' hasPopup: menu expanded: False
+		[15353] group ''
+			[15352] link 'GS 48-34 HOU 52-30 4:30 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+				[15333] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[15338] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[15379] group ''
+			[15378] link 'MIN 49-33 LAL 50-32 7:00 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+				[15359] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[15364] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[15431] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard
+	[11286] navigation 'Global Navigation'
+		[11292] button 'Menu' hasPopup: menu expanded: False
+		[8353] link 'ESPN Home Page' url: https://www.espn.com/
+		[11306] link '' url: https://www.espn.com/where-to-watch
+		[11313] button 'Search' expanded: False
+		[11319] button 'Profile Management' hasPopup: menu expanded: False
+			[11321] image 'Profile Management'
+	[11332] main ''
+		[8354] search ''
+			[8355] searchbox 'Search' focused: True
+			[11343] button 'Search'
+		[15514] StaticText 'No search results to display.'
+		[11602] region 'Page Footer'
+			[11608] region 'Legal Footer Navigation'
+				[11613] link 'Terms of Use' url: https://disneytermsofuse.com/english/
+				[11617] link 'Privacy Policy' url: https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/
+				[11621] link 'Your US State Privacy Rights' url: https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/
+				[11625] link "Children's Online Privacy Policy" url: https://disneyprivacycenter.com/kids-privacy-policy/english/
+				[11629] link 'Interest-Based Ads' url: https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/
+				[11633] link 'About Nielsen Measurement' url: http://www.nielsen.com/digitalprivacy
+				[11637] link 'Do Not Sell or Share My Personal Information' url: https://privacy.thewaltdisneycompany.com/en/dnssmpi/
+				[11641] link 'Contact Us' url: https://www.espn.com/espn/news/story?page=contact-index
+				[11645] link 'Disney Ad Sales Site' url: https://www.disneyadvertising.com/
+				[11649] link 'Work for ESPN' url: https://jobs.disneycareers.com/espn
+				[11653] link 'Corrections' url: https://www.espn.com/espn/corrections
+				[11658] StaticText 'Copyright: © 2025 ESPN Enterprises, Inc. All rights reserved.'
+	[15563] Iframe 'Advertisement'

@@ -1,0 +1,136 @@
+[3386] RootWebArea 'Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/?order=-announced_date_first&size=50
+	[3467] StaticText 'Skip to main content'
+	[3475] link 'logo' url: https://cornell.edu/
+		[3387] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[3481] StaticText 'We gratefully acknowledge support from'
+	[3483] StaticText 'the Simons Foundation, '
+	[3484] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[3486] StaticText ', and all contributors. '
+	[3487] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[3499] link 'arxiv-logo' url: https://arxiv.org/
+		[3388] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[3397] textbox 'Search term or terms' required: False
+	[3514] link 'Help' url: https://info.arxiv.org/help
+	[3516] StaticText ' | '
+	[3517] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[3398] combobox 'Field to search' hasPopup: menu expanded: False
+	[3577] button 'Search'
+	[3588] navigation 'User menu'
+		[3590] link 'Login' url: https://arxiv.org/login
+	[3596] main ''
+		[3602] heading 'Search'
+		[3612] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[3614] StaticText '\xa0\xa0'
+		[3626] StaticText 'Search term or terms'
+		[3392] textbox 'Search term or terms' required: False
+		[3393] combobox '' hasPopup: menu expanded: False
+		[3672] button 'Search'
+		[3394] radio ' Show abstracts' checked: true
+		[3395] radio ' Hide abstracts' checked: false
+		[3696] link 'Advanced Search' url: https://arxiv.org/search/advanced
+		[3706] article ''
+			[3710] heading 'Searching by Author Name'
+			[3719] ListMarker '• '
+			[3720] StaticText 'Using the '
+			[3722] StaticText 'Author(s) field'
+			[3723] StaticText ' produces best results for author name searches.'
+			[3726] ListMarker '• '
+			[3727] StaticText 'For the most precise name search, follow '
+			[3728] StaticText 'surname(s), forename(s)'
+			[3729] StaticText ' or '
+			[3731] StaticText 'surname(s), initial(s)'
+			[3732] StaticText ' pattern: example Hawking, S or Hawking, Stephen'
+			[3735] ListMarker '• '
+			[3736] StaticText 'For best results on multiple author names, '
+			[3738] StaticText 'separate individuals with a ;'
+			[3739] StaticText ' (semicolon). Example: Jin, D S; Ye, J'
+			[3742] ListMarker '• '
+			[3743] StaticText 'Author names enclosed in quotes will return only '
+			[3745] StaticText 'exact matches'
+			[3746] StaticText '. For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.'
+			[3749] ListMarker '• '
+			[3750] StaticText 'Diacritic character variants are automatically searched in the Author(s) field.'
+			[3753] ListMarker '• '
+			[3754] StaticText 'Queries with no punctuation will treat each term independently.'
+		[3759] article ''
+			[3763] heading 'Searching by subcategory'
+			[3772] ListMarker '• '
+			[3773] StaticText 'To search within a subcategory select '
+			[3775] StaticText 'All fields'
+			[3776] StaticText '.'
+			[3779] ListMarker '• '
+			[3780] StaticText 'A subcategory search can be combined with an author or keyword search by clicking on '
+			[3782] StaticText 'add another term'
+			[3783] StaticText ' in advanced search.'
+		[3788] heading 'Tips'
+		[3792] StaticText 'Wildcards:'
+		[3797] ListMarker '• '
+		[3798] StaticText 'Use ? to replace a single character or * to replace any number of characters.'
+		[3801] ListMarker '• '
+		[3802] StaticText 'Can be used in any field, but not in the first character position. See Journal References tips for exceptions.'
+		[3806] StaticText 'Expressions:'
+		[3811] ListMarker '• '
+		[3812] StaticText 'TeX expressions can be searched, enclosed in single $ characters.'
+		[3816] StaticText 'Phrases:'
+		[3821] ListMarker '• '
+		[3822] StaticText 'Enclose phrases in double quotes for exact matches in title, abstract, and comments.'
+		[3826] StaticText 'Dates:'
+		[3831] ListMarker '• '
+		[3832] StaticText 'Sorting by announcement date will use the year and month the '
+		[3833] emphasis ''
+			[3834] StaticText 'original version'
+		[3835] StaticText ' (v1) of the paper was announced.'
+		[3838] ListMarker '• '
+		[3839] StaticText 'Sorting by submission date will use the year, month and day the '
+		[3840] emphasis ''
+			[3841] StaticText 'latest version'
+		[3842] StaticText ' of the paper was submitted.'
+		[3846] StaticText 'Journal References:'
+		[3851] ListMarker '• '
+		[3852] StaticText 'If a journal reference search contains a wildcard, matches will be made using wildcard matching as expected. For example, '
+		[3854] StaticText 'math*'
+		[3855] StaticText ' will match '
+		[3856] emphasis ''
+		[3858] StaticText ', '
+		[3859] emphasis ''
+			[3860] StaticText 'maths'
+		[3862] emphasis ''
+			[3863] StaticText 'mathematics'
+		[3864] StaticText '.'
+		[3867] ListMarker '• '
+		[3868] StaticText 'If a journal reference search does '
+		[3870] StaticText 'not'
+		[3871] StaticText ' contain a wildcard, only exact phrases entered will be matched. For example, '
+		[3873] StaticText 'math'
+		[3874] StaticText ' would match '
+		[3875] emphasis ''
+		[3877] StaticText ' or '
+		[3878] emphasis ''
+			[3879] StaticText 'math and science'
+		[3880] StaticText ' but not '
+		[3881] emphasis ''
+			[3882] StaticText 'maths'
+		[3883] StaticText ' or '
+		[3884] emphasis ''
+			[3885] StaticText 'mathematics'
+		[3886] StaticText '.'
+		[3889] ListMarker '• '
+		[3890] StaticText 'All journal reference searches that do not contain a wildcard are literal searches: a search for '
+		[3892] StaticText 'Physica A'
+		[3893] StaticText ' will match all papers with journal references containing '
+		[3894] emphasis ''
+		[3896] StaticText ', but a search for '
+		[3898] StaticText 'Physica A, 245 (1997) 181'
+		[3899] StaticText ' will only return the paper with journal reference '
+		[3900] emphasis ''
+		[3902] StaticText '.'
+	[3917] contentinfo ''
+		[3919] navigation 'Secondary'
+			[3932] link 'About' url: https://info.arxiv.org/about
+			[3936] link 'Help' url: https://info.arxiv.org/help
+			[3954] link 'Contact' url: https://info.arxiv.org/help/contact.html
+			[3967] link 'Subscribe' url: https://info.arxiv.org/help/subscribe
+			[3988] link 'Copyright' url: https://info.arxiv.org/help/license/index.html
+			[3992] link 'Privacy Policy' url: https://info.arxiv.org/help/policies/privacy_policy.html
+			[4002] link 'Web Accessibility Assistance' url: https://info.arxiv.org/help/web_accessibility.html
+			[4009] link 'arXiv Operational Status ' url: https://status.arxiv.org/

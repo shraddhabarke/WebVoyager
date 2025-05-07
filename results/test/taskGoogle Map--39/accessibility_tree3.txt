@@ -1,0 +1,60 @@
+[1] RootWebArea 'Google Maps' focused: True url: https://www.google.com/maps/dir/Miami,+Florida//@25.7618112,-80.2741928,12z/data=!4m8!4m7!1m5!1m1!1s0x88d9b0a20ec8c111:0xff96f271ddad4f65!2m2!1d-80.1917902!2d25.7616798!1m0?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[167] generic 'Google Maps'
+		[244] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[46] Canvas ''
+		[913] radiogroup '' required: False
+			[916] radio 'Best travel modes' checked: true
+				[917] image 'Best travel modes'
+			[926] radio 'Driving' checked: false
+				[927] image 'Driving'
+			[936] radio 'Transit' checked: false
+				[937] image 'Transit'
+			[946] radio 'Walking' checked: false
+				[947] image 'Walking'
+			[956] radio 'Cycling' checked: false
+				[957] image 'Cycling'
+			[966] radio 'Flights' checked: false
+				[967] image 'Flights'
+		[975] button 'Close directions'
+		[1004] combobox '' hasPopup: grid required: False expanded: False
+			[997] textbox 'Starting point Miami, Florida' autocomplete: list required: False
+		[998] button 'Search'
+		[1028] combobox '' hasPopup: grid required: False expanded: True owns: sbsg51
+			[1021] textbox 'Choose destination, or click on the map...' focused: True autocomplete: list required: False controls: sbsg51
+			[1036] grid '' multiselectable: False
+				[1532] row ''
+					[1523] row ''
+						[1524] gridcell 'Your location Your location' required: False
+							[1526] image 'Your location'
+								[1535] StaticText '\ue55c'
+		[1022] button 'Search'
+		[980] button 'Reverse starting point and destination'
+		[18] button 'Menu'
+		[453] button 'Saved'
+		[471] button 'Recents'
+		[1588] button 'Miami'
+		[501] button 'Get the app'
+		[1121] main 'Directions'
+			[1183] heading 'Delays'
+			[1199] StaticText 'Moderate traffic in this area'
+			[1545] button 'Slowdown on US-27 5-min delay'
+			[1558] button 'Slowdown on NW\xa012th\xa0Ave 6-min delay'
+			[1571] button 'Slowdown on NW\xa036th\xa0St 7-min delay'
+		[1163] button 'Collapse side panel'
+		[547] button 'Google apps' expanded: False
+			[549] image ''
+		[552] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[599] button 'Show Your Location' pressed: false
+		[616] button 'Zoom in'
+		[647] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[701] generic 'Interactive map'
+		[739] StaticText 'Layers'
+		[754] button 'Layers' expanded: False
+		[858] contentinfo ''
+			[860] StaticText 'Map data ©2025 '
+			[861] button 'United States'
+			[863] button 'Terms'
+			[865] button 'Privacy'
+			[867] button 'Send Product Feedback'
+		[870] button '2 mi'

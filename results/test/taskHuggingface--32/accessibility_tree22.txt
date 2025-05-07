@@ -1,0 +1,49 @@
+[1801] RootWebArea 'EleutherAI/gpt-j-6b · Hugging Face' focused: True url: https://huggingface.co/EleutherAI/gpt-j-6b
+	[2115] main ''
+		[2596] button ''
+		[2705] figure ''
+			[2709] table ''
+				[3100] row ''
+					[3102] cell ''
+					[3148] cell '50257/50400† (same tokenizer as GPT-2/3)'
+				[3152] row ''
+					[3154] cell 'Positional Encoding'
+					[3157] cell 'Rotary Position Embedding (RoPE)'
+						[3158] link 'Rotary Position Embedding (RoPE)' url: https://arxiv.org/abs/2104.09864
+				[3162] row ''
+					[3164] cell 'RoPE Dimensions'
+					[3167] cell '64'
+						[3168] link '64' url: https://github.com/kingoflolz/mesh-transformer-jax/blob/f2aa66e0925de6593dcbb70e72399b97b4130482/mesh_transformer/layers.py#L223
+			[3175] Figcaption ''
+				[3178] StaticText '*'
+				[3179] StaticText ' Each layer consists of one feedforward block and one self attention block.'
+				[3183] StaticText '†'
+				[3184] StaticText ' Although the embedding matrix has a size of 50400, only 50257 entries are used by the GPT-2 tokenizer.'
+		[3187] StaticText 'The model consists of 28 layers with a model dimension of 4096, and a feedforward dimension of 16384. The model dimension is split into 16 heads, each with a dimension of 256. Rotary Position Embedding (RoPE) is applied to 64 dimensions of each head. The model is trained with a tokenization vocabulary of 50257, using the same set of BPEs as GPT-2/GPT-3.'
+		[3189] heading 'Intended Use and Limitations'
+			[3191] link '' url: https://huggingface.co/EleutherAI/gpt-j-6b#intended-use-and-limitations
+		[3203] StaticText 'GPT-J learns an inner representation of the English language that can be used to extract features useful for downstream tasks. The model is best at what it was pretrained for however, which is generating text from a prompt.'
+		[3205] heading 'Out-of-scope use'
+			[3207] link '' url: https://huggingface.co/EleutherAI/gpt-j-6b#out-of-scope-use
+		[3219] StaticText 'GPT-J-6B is '
+		[3221] StaticText 'not'
+		[3222] StaticText ' intended for deployment without fine-tuning, supervision, and/or moderation. It is not a in itself a product and cannot be used for human-facing interactions. For example, the model may generate harmful or offensive text. Please evaluate the risks associated with your particular use case.'
+		[3225] StaticText 'GPT-J-6B was trained on an English-language only dataset, and is thus '
+		[3228] StaticText ' suitable for translation or generating text in other languages.'
+		[3231] StaticText 'GPT-J-6B has not been fine-tuned for downstream contexts in which language models are commonly deployed, such as writing genre prose, or commercial chatbots. This means GPT-J-6B will '
+		[3234] StaticText ' respond to a given prompt the way a product like ChatGPT does. This is because, unlike this model, ChatGPT was fine-tuned using methods such as Reinforcement Learning from Human Feedback (RLHF) to better “follow” human instructions.'
+		[3236] heading 'Limitations and Biases'
+			[3238] link '' url: https://huggingface.co/EleutherAI/gpt-j-6b#limitations-and-biases
+		[3250] StaticText 'The core functionality of GPT-J is taking a string of text and predicting the next token. While language models are widely used for tasks other than this, there are a lot of unknowns with this work. When prompting GPT-J it is important to remember that the statistically most likely next token is often not the token that produces the most "accurate" text. Never depend upon GPT-J to produce factually accurate output.'
+		[4320] link '🏆 Intel/low_bit_open_llm_leaderboard' url: https://huggingface.co/spaces/Intel/low_bit_open_llm_leaderboard
+		[4327] link '🏆 BAAI/open_cn_llm_leaderboard' url: https://huggingface.co/spaces/BAAI/open_cn_llm_leaderboard
+		[4334] link '😻 Sharathhebbar24/One-stop-for-Open-source-models' url: https://huggingface.co/spaces/Sharathhebbar24/One-stop-for-Open-source-models
+		[4341] link '🐠 Gradio-Blocks/GPTJ6B_Poetry_LatentDiff_Illustration' url: https://huggingface.co/spaces/Gradio-Blocks/GPTJ6B_Poetry_LatentDiff_Illustration
+		[4348] link '🧠 Gradio-Blocks/zero-and-few-shot-reasoning' url: https://huggingface.co/spaces/Gradio-Blocks/zero-and-few-shot-reasoning
+		[4355] link '😻 GTBench/GTBench' url: https://huggingface.co/spaces/GTBench/GTBench
+		[4362] link '🏆 Vikhrmodels/small-shlepa-lb' url: https://huggingface.co/spaces/Vikhrmodels/small-shlepa-lb
+		[4369] link '🔢 Vikhrmodels/DOoM-lb' url: https://huggingface.co/spaces/Vikhrmodels/DOoM-lb
+		[4376] link '🚀 zjunlp/EasyEdit' url: https://huggingface.co/spaces/zjunlp/EasyEdit
+		[4383] link '🏃 Glaciohound/LM-Steer' url: https://huggingface.co/spaces/Glaciohound/LM-Steer
+		[4390] link '📘 🎨 Xhaheen/GPTJ_PLUS_DALL_E' url: https://huggingface.co/spaces/Xhaheen/GPTJ_PLUS_DALL_E
+		[4403] button '+ 88 Spaces'

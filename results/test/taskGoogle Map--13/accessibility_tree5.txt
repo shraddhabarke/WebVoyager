@@ -1,0 +1,123 @@
+[1] RootWebArea 'City Lot to North Plymouth, Plymouth, MA - Google Maps' focused: True url: https://www.google.com/maps/dir/City+Lot,+102+Rogers+St,+Gloucester,+MA+01930/North+Plymouth,+Plymouth,+MA/@42.2975622,-71.6243474,9z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89e3251b49c0cb17:0xc5aacb9dd27da59f!2m2!1d-70.659956!2d42.6124032!1m5!1m1!1s0x89e4bb32a45bfec7:0x261ec0fbaddbf228!2m2!1d-70.6828139!2d41.9709365?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[162] generic 'Google Maps'
+		[240] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[21] Canvas ''
+		[1730] radiogroup '' required: False
+			[1733] radio 'Best travel modes' checked: true
+				[1734] image 'Best travel modes'
+			[1743] radio 'Driving 1h 30m' checked: false
+				[1744] image 'Driving'
+			[1753] radio 'Transit 4h 43m' checked: false
+				[1754] image 'Transit'
+			[1763] radio 'Walking 1 day' checked: false
+				[1764] image 'Walking'
+			[1773] radio 'Cycling 7 hr' checked: false
+				[1774] image 'Cycling'
+			[1783] radio 'Flights not available' disabled: True checked: false
+				[1784] image 'Flights not available'
+		[1792] button 'Close directions'
+		[1821] combobox '' hasPopup: grid required: False expanded: False
+			[1814] textbox 'Starting point City Lot, 102 Rogers St, Gloucester, MA 01930' autocomplete: list required: False
+		[1815] button 'Search'
+		[1845] combobox '' hasPopup: grid required: False expanded: False
+			[1838] textbox 'Destination North Plymouth, Plymouth, MA' autocomplete: list required: False
+		[1839] button 'Search'
+		[1797] button 'Reverse starting point and destination'
+		[1799] button 'Add destination'
+		[2683] region 'Available options for search along this route' roledescription: carousel
+			[2692] button 'Add stops along route'
+				[2727] StaticText 'Search along the route'
+			[2698] button 'Add gas stations along route'
+				[2729] StaticText 'Gas'
+			[2705] button 'Add electric vehicle charging stations along route'
+				[2731] StaticText 'EV charging'
+			[2712] button 'Add things to do along route'
+				[2733] StaticText 'Things to do'
+			[2719] button 'Add hotels along route'
+				[2735] StaticText 'Hotels'
+			[2737] button 'Next page'
+		[9] button 'Menu'
+		[451] button 'Saved'
+		[469] button 'Recents'
+		[2331] button 'North Plymouth 1h 30m'
+		[2109] button 'North Plymouth'
+		[2741] button 'View more'
+		[499] button 'Get the app'
+		[1936] main 'Directions'
+			[2316] button 'Departure options' hasPopup: menu expanded: False
+				[2312] option 'Leave now' selected: True
+				[2322] StaticText '\xa0'
+			[2299] button 'Options' focused: True expanded: False
+			[2375] button 'Send directions to your phone'
+			[2380] button 'Copy link'
+			[2384] link 'Driving 1 hr 30 min 73.7 miles via MA-128 S and MA-3 S Fastest route, the usual traffic Warning This route has tolls. Details'
+				[2386] image 'Driving'
+					[2621] StaticText '\ue531'
+				[2394] heading 'via MA-128 S and MA-3 S'
+				[2616] StaticText 'Fastest route, the usual traffic'
+				[2405] image 'Warning'
+					[2617] StaticText '\ue002'
+				[2406] heading 'This route has tolls.'
+				[2408] button 'Details'
+			[2413] button 'Driving 1 hr 38 min 91.7 miles via I-95 S and MA-3 S'
+				[2415] image 'Driving'
+					[2626] StaticText '\ue531'
+				[2423] heading 'via I-95 S and MA-3 S'
+			[2426] button 'Transit 4 hr 43 min Warning 11:26\u202fAM—4:09\u202fPM Walk , then Bus 7 , then Walk , then Bus DV , then Bus SL1 , then Walk , then Train Kingston Line , then Bus LIB , then Walk'
+				[2428] image 'Transit'
+					[2661] StaticText '\ue535'
+				[2433] heading 'Warning 11:26\u202fAM—4:09\u202fPM'
+					[2435] image 'Warning'
+						[2628] StaticText '\ue002'
+				[2440] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[2449] image ', then'
+					[2633] StaticText '\ue315'
+				[2452] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2634] StaticText '7'
+				[2465] image ', then'
+					[2635] StaticText '\ue315'
+				[2468] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[2477] image ', then'
+				[2480] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2637] StaticText 'DV'
+				[2493] image ', then'
+					[2638] StaticText '\ue315'
+				[2496] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2639] StaticText 'SL1'
+				[2509] image ', then'
+					[2640] StaticText '\ue315'
+				[2512] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+				[2521] image ', then'
+				[2524] image 'Train' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[2642] StaticText 'Kingston Line'
+				[2537] image ', then'
+					[2643] StaticText '\ue315'
+				[2540] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[2644] StaticText 'LIB'
+				[2553] image ', then'
+					[2645] StaticText '\ue315'
+				[2556] image 'Walk' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg
+			[2563] heading 'Explore North Plymouth'
+			[2568] button 'Restaurants'
+			[2573] button 'Hotels'
+			[2578] button 'Gas stations'
+			[2583] button 'Parking Lots'
+			[2588] button 'More'
+		[1641] button 'Collapse side panel'
+		[545] button 'Google apps' expanded: False
+			[547] image ''
+		[550] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[597] button 'Show Your Location' pressed: false
+		[614] button 'Zoom in'
+		[646] button 'Zoom out'
+		[660] button 'Show Street View coverage'
+		[702] generic 'Interactive map'
+		[740] StaticText 'Layers'
+		[755] button 'Layers' expanded: False
+		[856] contentinfo ''
+			[858] StaticText 'Map data ©2025 Google'
+			[17] button 'United States'
+			[860] button 'Terms'
+			[862] button 'Privacy'
+			[864] button 'Send Product Feedback'
+		[867] button '10 mi'

@@ -1,0 +1,88 @@
+[26191] RootWebArea 'facebook/nllb-200-3.3B · Hugging Face' focused: True url: https://huggingface.co/facebook/nllb-200-3.3B
+	[26414] link "Hugging Face's logo Hugging Face" url: https://huggingface.co/
+		[26192] image "Hugging Face's logo" url: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+	[26213] textbox 'Search models, datasets, users...' required: False
+	[26198] button ''
+	[26509] main ''
+		[26512] sectionheader ''
+			[26513] heading 'facebook / nllb-200-3.3B Copy model name to clipboard like 318 Follow AI at Meta 5.78k'
+				[26194] link '' url: https://huggingface.co/facebook
+				[26524] link 'facebook' url: https://huggingface.co/facebook
+				[26532] link 'nllb-200-3.3B' url: https://huggingface.co/facebook/nllb-200-3.3B
+				[26202] button 'Copy model name to clipboard'
+				[26540] button 'like'
+				[26550] button '318'
+				[26214] button 'Follow AI at Meta'
+				[26564] button '5.78k'
+			[26572] link 'Translation' url: https://huggingface.co/models?pipeline_tag=translation
+			[26589] link 'Transformers' url: https://huggingface.co/models?library=transformers
+			[26612] link 'PyTorch' url: https://huggingface.co/models?library=pytorch
+			[26632] button 'flores-200'
+			[26653] button '196 languages'
+			[26666] link 'm2m_100' url: https://huggingface.co/models?other=m2m_100
+			[26676] link 'text2text-generation' url: https://huggingface.co/models?other=text2text-generation
+			[26686] link 'nllb' url: https://huggingface.co/models?other=nllb
+			[26699] button 'License: cc-by-nc-4.0'
+				[26701] image ''
+			[26731] link 'Model card' url: https://huggingface.co/facebook/nllb-200-3.3B
+			[26742] link 'Files' url: https://huggingface.co/facebook/nllb-200-3.3B/tree/main
+			[26756] link 'Community 18' url: https://huggingface.co/facebook/nllb-200-3.3B/discussions
+			[26773] button ''
+			[26791] button 'Train'
+			[26809] button 'Deploy'
+			[26830] button 'Use this model'
+		[26860] button ''
+		[26922] heading 'NLLB-200'
+			[26924] link '' url: https://huggingface.co/facebook/nllb-200-3.3B#nllb-200
+		[26939] StaticText 'Here are the '
+		[26940] link 'metrics' url: https://tinyurl.com/nllb200dense3bmetrics
+		[26942] StaticText ' for that particular checkpoint.'
+		[26946] ListMarker '• '
+		[26947] StaticText 'Information about training algorithms, parameters, fairness constraints or other applied approaches, and features. The exact training algorithm, data and the strategies to handle data imbalances for high and low resource languages that were used to train NLLB-200 is described in the paper.'
+		[26950] ListMarker '• '
+		[26951] StaticText 'Paper or other resource for more information NLLB Team et al, No Language Left Behind: Scaling Human-Centered Machine Translation, Arxiv, 2022'
+		[26954] ListMarker '• '
+		[26955] StaticText 'License: CC-BY-NC'
+		[26958] ListMarker '• '
+		[26959] StaticText 'Where to send questions or comments about the model: '
+		[26960] link 'https://github.com/facebookresearch/fairseq/issues' url: https://github.com/facebookresearch/fairseq/issues
+		[26964] heading 'Intended Use'
+			[26966] link '' url: https://huggingface.co/facebook/nllb-200-3.3B#intended-use
+		[26980] ListMarker '• '
+		[26981] StaticText 'Primary intended uses: NLLB-200 is a machine translation model primarily intended for research in machine translation, - especially for low-resource languages. It allows for single sentence translation among 200 languages. Information on how to - use the model can be found in Fairseq code repository along with the training code and references to evaluation and training data.'
+		[26984] ListMarker '• '
+		[26985] StaticText 'Primary intended users: Primary users are researchers and machine translation research community.'
+		[26988] ListMarker '• '
+		[26989] StaticText 'Out-of-scope use cases: NLLB-200 is a research model and is not released for production deployment. NLLB-200 is trained on general domain text data and is not intended to be used with domain specific texts, such as medical domain or legal domain. The model is not intended to be used for document translation. The model was trained with input lengths not exceeding 512 tokens, therefore translating longer sequences might result in quality degradation. NLLB-200 translations can not be used as certified translations.'
+		[27105] DescriptionList ''
+			[27106] term 'Downloads last month'
+			[27108] definition ''
+				[27109] StaticText '400,143'
+		[27114] image ''
+		[27143] StaticText 'Inference Providers'
+		[27154] link 'Translation' url: https://huggingface.co/tasks/translation
+		[27173] link '🙋 Ask for provider support' url: https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new?title=facebook/nllb-200-3.3B&description=React%20to%20this%20comment%20with%20an%20emoji%20to%20vote%20for%20%5Bfacebook%2Fnllb-200-3.3B%5D(%2Ffacebook%2Fnllb-200-3.3B)%20to%20be%20supported%20by%20Inference%20Providers.%0A%0A(optional)%20Which%20providers%20are%20you%20interested%20in%3F%20(Novita%2C%20Hyperbolic%2C%20Together%E2%80%A6)%0A
+		[27189] heading 'Model tree for facebook/nllb-200-3.3B'
+		[27210] image ''
+		[27214] StaticText 'Adapters'
+		[27218] link '10 models' url: https://huggingface.co/models?other=base_model:adapter:facebook/nllb-200-3.3B
+		[27225] image ''
+		[27229] StaticText 'Finetunes'
+		[27233] link '15 models' url: https://huggingface.co/models?other=base_model:finetune:facebook/nllb-200-3.3B
+		[27240] image ''
+		[27244] StaticText 'Quantizations'
+		[27248] link '3 models' url: https://huggingface.co/models?other=base_model:quantized:facebook/nllb-200-3.3B
+		[27254] heading 'Spaces using facebook/nllb-200-3.3B 72'
+		[27270] link '🌐 UNESCO/nllb' url: https://huggingface.co/spaces/UNESCO/nllb
+		[27277] link '🚀 jhj0517/Whisper-WebUI' url: https://huggingface.co/spaces/jhj0517/Whisper-WebUI
+		[27284] link '👁 utrobinmv/TREX_benchmark_en_ru_zh' url: https://huggingface.co/spaces/utrobinmv/TREX_benchmark_en_ru_zh
+		[27291] link '👀 vutuka/nllb-vutuka-translation' url: https://huggingface.co/spaces/vutuka/nllb-vutuka-translation
+		[27298] link '🏆 metricspace/OcTra' url: https://huggingface.co/spaces/metricspace/OcTra
+		[27305] link '📈 k1ngtai/nllb-translation' url: https://huggingface.co/spaces/k1ngtai/nllb-translation
+		[27312] link '💬 kamau1/sematranslator' url: https://huggingface.co/spaces/kamau1/sematranslator
+		[27319] link '🚀 aspmirlab/ASPMIR-MACHINE-TRANSLATION-TESTBED' url: https://huggingface.co/spaces/aspmirlab/ASPMIR-MACHINE-TRANSLATION-TESTBED
+		[27326] link '🚀 soiz1/Whisper-WebUI' url: https://huggingface.co/spaces/soiz1/Whisper-WebUI
+		[27333] link '📈 DhumraAI/ai_translator_nllb' url: https://huggingface.co/spaces/DhumraAI/ai_translator_nllb
+		[27340] link '🌍 bhavanishankarpullela/CoSTA' url: https://huggingface.co/spaces/bhavanishankarpullela/CoSTA
+		[27347] link '📈 Azwaw/Text_Translation_Multi-languages' url: https://huggingface.co/spaces/Azwaw/Text_Translation_Multi-languages
+		[27360] button '+ 60 Spaces'

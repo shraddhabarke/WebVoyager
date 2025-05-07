@@ -1,0 +1,169 @@
+[22299] RootWebArea 'NBA Transactions - 2024-25 Season - ESPN' focused: True url: https://www.espn.com/nba/transactions
+	[23928] region 'HeaderScoreboard'
+		[22302] combobox 'Sports' hasPopup: menu expanded: False
+		[22317] combobox 'Sports Dates' hasPopup: menu expanded: False
+		[23994] group ''
+			[24001] link 'GS 3-1 HOU 1-3 4:30 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401767912/warriors-rockets
+				[24006] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[24016] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[24038] group ''
+			[24045] link 'MIN 3-1 LAL 1-3 7:00 PM TNT /truTV /Max' url: https://www.espn.com/nba/game/_/gameId/401768058/timberwolves-lakers
+				[24050] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=32&h=32&scale=crop&cquality=40&location=origin
+				[24060] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=32&h=32&scale=crop&cquality=40&location=origin
+		[24084] link 'Full Scoreboard »' url: https://www.espn.com/nba/scoreboard
+	[24089] navigation 'Global Navigation'
+		[24095] button 'Menu' hasPopup: menu expanded: False
+		[22301] link 'ESPN Home Page' url: https://www.espn.com/
+		[24109] link '' url: https://www.espn.com/where-to-watch
+		[25338] searchbox 'Search' focused: True
+		[24116] button 'Search' expanded: True
+		[24122] button 'Profile Management' hasPopup: menu expanded: False
+			[24124] image 'Profile Management'
+	[24128] navigation 'NBA Menu - LIVE'
+		[24132] link 'ESPN NBA Home Page' url: https://www.espn.com/nba/
+			[24133] image '' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=64&h=64&scale=crop&cquality=40&location=origin
+		[24137] link 'Home' url: https://www.espn.com/nba/
+		[24141] link 'Scores' url: https://www.espn.com/nba/scoreboard
+		[24145] link 'Schedule' url: https://www.espn.com/nba/schedule
+		[24149] link 'Playoffs' url: https://www.espn.com/nba/story/_/id/44610574/nba-playoffs-2025-postseason-news-scores-highlights
+		[24153] link 'Playoffs Bracket' url: https://www.espn.com/nba/playoff-bracket
+		[24157] link 'Standings' url: https://www.espn.com/nba/standings
+		[24161] link 'Stats' url: https://www.espn.com/nba/stats
+		[24165] link 'Teams' url: https://www.espn.com/nba/teams
+		[24169] link 'Odds' url: https://www.espn.com/nba/odds
+		[24173] link 'More' url: https://www.espn.com/nba/transactions#
+		[22306] button 'More' hasPopup: menu expanded: False
+	[24187] main ''
+		[25249] Iframe 'Advertisement'
+		[24198] main 'Standings Page'
+			[24201] heading 'NBA Transactions'
+			[22304] combobox '' hasPopup: menu expanded: False
+			[24273] StaticText 'Monday, April 21'
+			[24278] table ''
+				[24282] rowgroup ''
+					[24283] row ''
+						[24284] columnheader '' required: False
+						[24286] columnheader 'TRANSACTION' required: False
+				[24289] row ''
+					[24290] cell 'Atlanta Hawks'
+						[24291] link 'Atlanta Hawks' url: https://www.espn.com/nba/team/_/name/atl/atlanta-hawks
+							[24292] image 'Atlanta Hawks' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/atl.png&h=80&w=80
+					[24293] cell 'Fired general manager Landry Fields.'
+			[24299] StaticText 'Sunday, April 13'
+			[24304] table ''
+				[24308] rowgroup ''
+					[24309] row ''
+						[24310] columnheader '' required: False
+						[24312] columnheader 'TRANSACTION' required: False
+				[24315] row ''
+					[24316] cell 'Charlotte Hornets'
+						[24317] link 'Charlotte Hornets' url: https://www.espn.com/nba/team/_/name/cha/charlotte-hornets
+							[24318] image 'Charlotte Hornets' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/cha.png&h=80&w=80
+					[24319] cell 'Signed G Jaylen Sims to a rest-of-season contract.'
+				[24322] row ''
+					[24323] cell 'Toronto Raptors'
+						[24324] link 'Toronto Raptors' url: https://www.espn.com/nba/team/_/name/tor/toronto-raptors
+							[24325] image 'Toronto Raptors' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/tor.png&h=80&w=80
+					[22308] cell 'Signed C Colin Castleton to a rest-of-season contract.'
+				[24328] row ''
+					[24329] cell 'Golden State Warriors'
+						[24330] link 'Golden State Warriors' url: https://www.espn.com/nba/team/_/name/gs/golden-state-warriors
+							[24331] image 'Golden State Warriors' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/gs.png&h=80&w=80
+					[24332] cell 'Converted the contract of F Braxton Key to an NBA contract.'
+				[24335] row ''
+					[24336] cell 'New Orleans Pelicans'
+						[24337] link 'New Orleans Pelicans' url: https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans
+							[24338] image 'New Orleans Pelicans' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/no.png&h=80&w=80
+					[24339] cell 'Signed C Kylor Kelley to a 10-day contract.'
+				[24342] row ''
+					[24343] cell 'Boston Celtics'
+						[24344] link 'Boston Celtics' url: https://www.espn.com/nba/team/_/name/bos/boston-celtics
+							[24345] image 'Boston Celtics' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/bos.png&h=80&w=80
+					[24346] cell 'Re-signed G JD Davison to a rest-of-season contract.'
+			[24352] StaticText 'Friday, April 11'
+			[24357] table ''
+				[24361] rowgroup ''
+					[24362] row ''
+						[24363] columnheader '' required: False
+						[24365] columnheader 'TRANSACTION' required: False
+				[24368] row ''
+					[24369] cell 'New Orleans Pelicans'
+						[24370] link 'New Orleans Pelicans' url: https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans
+							[24371] image 'New Orleans Pelicans' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/no.png&h=80&w=80
+					[24372] cell 'Re-signed G Elfrid Payton to a rest-of season contract.'
+			[24378] StaticText 'Thursday, April 10'
+			[24383] table ''
+				[24387] rowgroup ''
+					[24388] row ''
+						[24389] columnheader '' required: False
+						[24391] columnheader 'TRANSACTION' required: False
+				[24394] row ''
+					[24395] cell 'Toronto Raptors'
+						[24396] link 'Toronto Raptors' url: https://www.espn.com/nba/team/_/name/tor/toronto-raptors
+							[24397] image 'Toronto Raptors' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/tor.png&h=80&w=80
+					[24398] cell 'Waived C Orlando Robinson and F Cole Swider.'
+				[24401] row ''
+					[24402] cell 'Dallas Mavericks'
+						[24403] link 'Dallas Mavericks' url: https://www.espn.com/nba/team/_/name/dal/dallas-mavericks
+							[24404] image 'Dallas Mavericks' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/dal.png&h=80&w=80
+					[24405] cell 'Re-signed G Brandon Williams to a rest-of-season contract.'
+			[24411] StaticText 'Wednesday, April 9'
+			[24416] table ''
+				[24420] rowgroup ''
+					[24421] row ''
+						[24422] columnheader '' required: False
+						[24424] columnheader 'TRANSACTION' required: False
+				[24427] row ''
+					[24428] cell 'Sacramento Kings'
+						[24429] link 'Sacramento Kings' url: https://www.espn.com/nba/team/_/name/sac/sacramento-kings
+							[24430] image 'Sacramento Kings' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/sac.png&h=80&w=80
+					[24431] cell 'Signed G Terence Davis to a rest-of-season contract.'
+			[24437] StaticText 'Tuesday, April 8'
+			[24442] table ''
+				[24446] rowgroup ''
+					[24447] row ''
+						[24448] columnheader '' required: False
+						[24450] columnheader 'TRANSACTION' required: False
+				[24453] row ''
+					[24454] cell 'Denver Nuggets'
+						[24455] link 'Denver Nuggets' url: https://www.espn.com/nba/team/_/name/den/denver-nuggets
+							[24456] image 'Denver Nuggets' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/den.png&h=80&w=80
+					[24457] cell 'Fired head coach Michael Malone and general manager Calvin Booth. Named David Adelman interim head coach.'
+			[24463] StaticText 'Friday, April 4'
+			[24468] table ''
+				[24472] rowgroup ''
+					[24473] row ''
+						[24474] columnheader '' required: False
+						[24476] columnheader 'TRANSACTION' required: False
+				[24479] row ''
+					[24480] cell 'New York Knicks'
+						[24481] link 'New York Knicks' url: https://www.espn.com/nba/team/_/name/ny/new-york-knicks
+							[24482] image 'New York Knicks' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/ny.png&h=80&w=80
+					[24483] cell 'Recalled F Pacome Dadiet from the Westchester Knicks of the G League.'
+				[24486] row ''
+					[24487] cell 'Indiana Pacers'
+						[24488] link 'Indiana Pacers' url: https://www.espn.com/nba/team/_/name/ind/indiana-pacers
+							[24489] image 'Indiana Pacers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/ind.png&h=80&w=80
+					[24490] cell 'Recalled F Johnny Furphy from the Indiana Mad Ants of the G League.'
+			[24496] StaticText 'Thursday, April 3'
+			[24501] table ''
+				[24505] rowgroup ''
+					[24506] row ''
+						[24507] columnheader '' required: False
+						[24509] columnheader 'TRANSACTION' required: False
+				[24512] row ''
+					[24513] cell 'Charlotte Hornets'
+						[24514] link 'Charlotte Hornets' url: https://www.espn.com/nba/team/_/name/cha/charlotte-hornets
+							[24515] image 'Charlotte Hornets' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/cha.png&h=80&w=80
+					[24516] cell 'Signed G Jaylen Sims to a 10-day contract.'
+				[24519] row ''
+					[24520] cell 'Philadelphia 76ers'
+						[24521] link 'Philadelphia 76ers' url: https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers
+							[24522] image 'Philadelphia 76ers' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/phi.png&h=80&w=80
+					[24523] cell 'Signed C Colin Castleton to a 10-day contract.'
+				[24526] row ''
+					[24527] cell 'New Orleans Pelicans'
+						[24528] link 'New Orleans Pelicans' url: https://www.espn.com/nba/team/_/name/no/new-orleans-pelicans
+							[24529] image 'New Orleans Pelicans' url: https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/no.png&h=80&w=80
+					[24530] cell 'Signed C Kylor Kelley to a 10-day contract.'
+	[25180] Iframe 'Advertisement'

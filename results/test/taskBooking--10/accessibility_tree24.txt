@@ -1,0 +1,163 @@
+[6124] RootWebArea 'Booking.com: Hotels in Paris. Book your hotel now!' focused: True url: https://www.booking.com/searchresults.html?ss=Paris&label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-1456928&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=6a7f4887a5e00b38&ac_meta=GhA2YTdmNDg4N2E1ZTAwYjM4IAAoATICZW46BVBhcmlzQABKAFAA&group_adults=2&no_rooms=1&group_children=0
+	[17478] tabpanel 'Calendar'
+		[17292] grid '' multiselectable: False
+			[17288] row '27 April 2025 28 April 2025 29 April 2025 30 April 2025'
+				[17277] gridcell '27 April 2025' required: False
+					[17270] checkbox '27 April 2025' checked: false
+				[17278] gridcell '28 April 2025' required: False
+					[17272] checkbox '28 April 2025' checked: false
+				[17279] gridcell '29 April 2025' required: False
+					[17274] checkbox '29 April 2025' checked: false
+				[17280] gridcell '30 April 2025' required: False
+					[17276] checkbox '30 April 2025' checked: false
+		[17413] grid '' multiselectable: False
+			[17409] row '25 May 2025 26 May 2025 27 May 2025 28 May 2025 29 May 2025 30 May 2025 31 May 2025'
+				[17398] gridcell '25 May 2025' required: False
+					[17385] checkbox '25 May 2025' checked: false
+				[17399] gridcell '26 May 2025' required: False
+					[17387] checkbox '26 May 2025' checked: false
+				[17400] gridcell '27 May 2025' required: False
+					[17389] checkbox '27 May 2025' checked: false
+				[17401] gridcell '28 May 2025' required: False
+					[17391] checkbox '28 May 2025' checked: false
+				[17402] gridcell '29 May 2025' required: False
+					[17393] checkbox '29 May 2025' checked: false
+				[17403] gridcell '30 May 2025' required: False
+					[17395] checkbox '30 May 2025' checked: false
+				[17404] gridcell '31 May 2025' required: False
+					[17397] checkbox '31 May 2025' checked: false
+		[17472] group ''
+			[17469] region '' roledescription: carousel
+				[17454] group '' roledescription: slide
+					[17419] checkbox 'Exact dates' checked: true
+				[17455] group '' roledescription: slide
+					[17427] checkbox '1 day' checked: false
+				[17456] group '' roledescription: slide
+					[17435] checkbox '2 days' checked: false
+				[17457] group '' roledescription: slide
+					[17443] checkbox '3 days' checked: false
+				[17458] group '' roledescription: slide
+					[17451] checkbox '7 days' checked: false
+	[7447] region 'Filters'
+		[7455] group 'Popular filters'
+			[7509] StaticText 'Based on guest reviews'
+			[6271] checkbox 'Paris City Center: 4968 properties' checked: false
+			[6272] checkbox '4 stars: 6463 properties' checked: false
+			[6273] checkbox 'Free Wifi: 11379 properties' checked: false
+			[6274] checkbox 'Private pool: 18 properties' checked: false
+			[6275] checkbox 'Bed and Breakfasts: 82 properties' checked: false
+		[7603] StaticText 'Smart filters'
+		[7611] StaticText 'What are you looking for?'
+		[6276] textbox 'What are you looking for?' required: False
+		[7619] button 'Find properties'
+		[7628] group 'Amenities'
+			[6277] checkbox 'Parking: 1502 properties' checked: false
+			[6278] checkbox 'Restaurant: 310 properties' checked: false
+			[6279] checkbox 'Pet friendly: 2302 properties' checked: false
+			[6280] checkbox 'Room service: 819 properties' checked: false
+			[6281] checkbox '24-hour front desk: 2248 properties' checked: false
+			[7713] button 'Show all 15' expanded: False controls: filter_group_hotelfacility_:r1d:
+		[7725] group 'Property Type'
+			[6282] checkbox 'Apartments: 10052 properties' checked: false
+			[6283] checkbox 'Hotels: 1791 properties' checked: false
+			[6284] checkbox 'Vacation Homes: 167 properties' checked: false
+			[6285] checkbox 'Homestays: 160 properties' checked: false
+			[6286] checkbox 'Bed and Breakfasts: 82 properties' checked: false
+			[6287] checkbox 'Hostels: 38 properties' checked: false
+			[6288] checkbox 'Guesthouses: 33 properties' checked: false
+			[6289] checkbox 'Villas: 12 properties' checked: false
+			[6290] checkbox 'Boats: 3 properties' checked: false
+			[6291] checkbox 'Campgrounds: 1 property' checked: false
+		[7894] group 'Property rating Find high-quality hotels and vacation rentals'
+			[6292] checkbox '1 star: 164 properties' checked: false
+			[6293] checkbox '2 stars: 295 properties' checked: false
+			[6294] checkbox '3 stars: 2448 properties' checked: false
+			[6295] checkbox '4 stars: 6463 properties' checked: false
+			[6296] checkbox '5 stars: 187 properties' checked: false
+		[7998] group 'Room amenities'
+			[6297] checkbox 'Private bathroom: 9584 properties' checked: false
+			[6298] checkbox 'View: 2597 properties' checked: false
+			[6299] checkbox 'Balcony: 1406 properties' checked: false
+			[6300] checkbox 'Air conditioning: 3634 properties' checked: false
+			[6301] checkbox 'Sea view: 4 properties' checked: false
+			[8083] button 'Show all 25' expanded: False controls: filter_group_roomfacility_:r2o:
+		[8094] group 'Review score'
+			[6302] checkbox 'Wonderful: 9+: 2616 properties' checked: false
+			[6303] checkbox 'Very Good: 8+: 6312 properties' checked: false
+			[6304] checkbox 'Good: 7+: 8442 properties' checked: false
+			[6305] checkbox 'Pleasant: 6+: 9323 properties' checked: false
+		[8167] group 'Chain'
+			[6306] checkbox 'Belvilla: 1114 properties' checked: false
+	[9642] listitem 'Property'
+		[9704] StaticText 'Located just a 5-minute walk from Opera Garnier and La Madeleine, Hôtel Saint-Pétersbourg Opéra & Spa offers accommodations in Paris. Free WiFi and nearby parking are available.'
+	[9740] listitem 'Property'
+		[9751] button 'Save this item to a trip list' expanded: False
+		[9764] heading 'Hotel Vacances Bleues Provinces Opera Opens in new window'
+			[9765] link 'Hotel Vacances Bleues Provinces Opera Opens in new window' url: https://www.booking.com/hotel/fr/provinces-opera.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9771] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9772] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9773] image ''
+		[9777] link '10th arr., Paris· Show on map' url: https://www.booking.com/hotel/fr/provinces-opera.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults&map=1
+		[9787] button '1 miles from downtown'
+		[9792] button 'Subway Access'
+		[9795] StaticText 'Hôtel Vacances Bleues Provinces Opera is located in the lively neighborhood of the Grands Boulevards, next to the theaters and 984 feet from Grand Rex cinema.'
+		[9799] link 'Scored 8.5 Very Good 5,961 reviews' url: https://www.booking.com/hotel/fr/provinces-opera.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9814] button 'Show prices'
+	[9823] listitem 'Property'
+		[9834] button 'Save this item to a trip list' expanded: False
+		[9847] heading 'Le Petit Beaumarchais Hotel & Spa Opens in new window'
+			[9848] link 'Le Petit Beaumarchais Hotel & Spa Opens in new window' url: https://www.booking.com/hotel/fr/original-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9854] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9855] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9856] image ''
+		[9860] link '11th arr., Paris· Show on map' url: https://www.booking.com/hotel/fr/original-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults&map=1
+		[9870] button '40 feet from downtown'
+		[9875] button 'Subway Access'
+		[9878] StaticText 'This modern hotel is set in the heart of Paris, just a 3-minute walk from Place de la Bastille and Place des Vosges. It offers an on-site bar and brightly decorated rooms with free Wi-Fi access.'
+		[9882] link 'Scored 8.8 Excellent 975 reviews' url: https://www.booking.com/hotel/fr/original-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9896] link 'Location: Scored 9.6 ' url: https://www.booking.com/hotel/fr/original-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9904] button 'Show prices'
+	[9913] listitem 'Property'
+		[9924] button 'Save this item to a trip list' expanded: False
+		[9937] heading 'Hôtel Des Mines Opens in new window'
+			[9938] link 'Hôtel Des Mines Opens in new window' url: https://www.booking.com/hotel/fr/hoteldesminesparis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9944] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[9945] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[9946] image ''
+		[9950] link '5th arr., Paris (Latin Quarter)· Show on map' url: https://www.booking.com/hotel/fr/hoteldesminesparis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults&map=1
+		[9960] button 'Downtown'
+		[9963] StaticText 'Hotel Des Mines is located in central Paris, 656 feet from the Jardin du Luxembourg and 0.9 mi from Montparnasse Train Station. It offers air-conditioned rooms and free WiFi access.'
+		[9967] link 'Scored 8.3 Very Good 1,228 reviews' url: https://www.booking.com/hotel/fr/hoteldesminesparis.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[9982] button 'Show prices'
+	[9992] listitem 'Property'
+		[10003] button 'Save this item to a trip list' expanded: False
+		[10016] heading 'UCPA SPORT STATION HOSTEL PARIS Opens in new window'
+			[10017] link 'UCPA SPORT STATION HOSTEL PARIS Opens in new window' url: https://www.booking.com/hotel/fr/ucpa-sport-station-hostel-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[10023] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10024] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10025] image ''
+		[10029] link '19th arr., Paris (La Villette)· Show on map' url: https://www.booking.com/hotel/fr/ucpa-sport-station-hostel-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults&map=1
+		[10039] button '2 miles from downtown'
+		[10042] StaticText 'UCPA SPORT STATION HOSTEL PARIS features a fitness center, terrace, a restaurant and bar in Paris.'
+		[10046] link 'Scored 8.1 Very Good 7,574 reviews' url: https://www.booking.com/hotel/fr/ucpa-sport-station-hostel-paris.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[10061] button 'Show prices'
+	[10074] heading 'Sign in, save money'
+	[10077] StaticText 'Unlock member-only discounts in Paris'
+	[10080] link 'Sign in to Booking.com.' url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=searchresults_irene&prompt=signin&state=UqsFceUHkeOBdZ1lRFpwr8T55PLh-4ykmYrCOEpOBGPEjGyxDjk-HAlPhPWXhWNegP_6zE13DwT7cdBv2Jz3dmO3oVLSFIt2UwVaB3-PnktlKuHGbRqyz3Wmyc22KD1H7-hzH47yn1iF8h6UJCCvHu-sAyq3H7TMbuDFDFXFLtjR4Io0ruoTY3wSqbT8gBCKsqtmVdJnYa2tNq-DqUW9x5tN5oD5hLumFA-M0caMa9V99NNHcsES9JmmrJ4911vtpdIxTOfSHiPzOUJC168tauqCtTw1um8TvgzcTDDuqJ_HZGGgkRCKVwbn6i5DBjvg5lO4LYVUwIs19IHIDr0eHDVGxDu_vFHeeIjgh--VLM3G_ZXBSlmuOua5yPzvfRGX5xT3NQczymT3Cnn1yxn7jd9eQ946l18HR1IoYz19duWU0W0avOfOVVvM1rgf7FZ7hbb8MbOL_vrzUQb1duIrdbw-pNSgSUcXl7BSttQOVNZ5uPcjaQKeHUmUS46N9fbvD0bFk62KJ-C_qGS5KBuhMiAK9FT8oIYba9ZNyDgAHZ87eweoXGDwVO4sk-mQy5ChQJLBGxwd2D3jmWKzGMwH6R6Te_suMKr6GluwWp-D8ytTxwKFZNOogtjR6p_m6X7-6CdFgZpPYMrfx6gEZ6moS0CCOUM3QkGneM9t59alYDc0nK5vJ7Q1QTV4WFnX5MHRJQyNsztpPRB10ev9juIL93rJi-AZGIV9Aef_SJIE5nxErBEZNrGsO511genkt7VNBTGut2T5MztkZb1TuHd6riLwYDRmb1g2gFfHLYUOJBOonzDlYiEZRbERoZi-4tCjWpoxCRPsrpx4l992Uj-uAnGyshq4b93YaauXGzvEd24Fesk0G0bfS3XqVgWFGZ05FCH3adsVFMKqP3rLAYE%3D*eyJpZCI6InNlYXJjaF9yZXN1bHRzIn0%3D
+	[10084] link 'Create a Booking.com account.' url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=searchresults_irene&prompt=signin&state=UqsFceUHkeOBdZ1lRFpwr8T55PLh-4ykmYrCOEpOBGPEjGyxDjk-HAlPhPWXhWNegP_6zE13DwT7cdBv2Jz3dmO3oVLSFIt2UwVaB3-PnktlKuHGbRqyz3Wmyc22KD1H7-hzH47yn1iF8h6UJCCvHu-sAyq3H7TMbuDFDFXFLtjR4Io0ruoTY3wSqbT8gBCKsqtmVdJnYa2tNq-DqUW9x5tN5oD5hLumFA-M0caMa9V99NNHcsES9JmmrJ4911vtpdIxTOfSHiPzOUJC168tauqCtTw1um8TvgzcTDDuqJ_HZGGgkRCKVwbn6i5DBjvg5lO4LYVUwIs19IHIDr0eHDVGxDu_vFHeeIjgh--VLM3G_ZXBSlmuOua5yPzvfRGX5xT3NQczymT3Cnn1yxn7jd9eQ946l18HR1IoYz19duWU0W0avOfOVVvM1rgf7FZ7hbb8MbOL_vrzUQb1duIrdbw-pNSgSUcXl7BSttQOVNZ5uPcjaQKeHUmUS46N9fbvD0bFk62KJ-C_qGS5KBuhMiAK9FT8oIYba9ZNyDgAHZ87eweoXGDwVO4sk-mQy5ChQJLBGxwd2D3jmWKzGMwH6R6Te_suMKr6GluwWp-D8ytTxwKFZNOogtjR6p_m6X7-6CdFgZpPYMrfx6gEZ6moS0CCOUM3QkGneM9t59alYDc0nK5vJ7Q1QTV4WFnX5MHRJQyNsztpPRB10ev9juIL93rJi-AZGIV9Aef_SJIE5nxErBEZNrGsO511genkt7VNBTGut2T5MztkZb1TuHd6riLwYDRmb1g2gFfHLYUOJBOonzDlYiEZRbERoZi-4tCjWpoxCRPsrpx4l992Uj-uAnGyshq4b93YaauXGzvEd24Fesk0G0bfS3XqVgWFGZ05FCH3adsVFMKqP3rLAYE%3D*eyJpZCI6InNlYXJjaF9yZXN1bHRzIn0%3D
+		[10086] StaticText 'Register'
+	[10090] image 'Sign in, save money' url: https://t-cf.bstatic.com/design-assets/assets/v3.148.1/illustrations-traveller/GeniusGenericGiftBox-dark@2x.png
+	[10093] listitem 'Property'
+		[10104] button 'Save this item to a trip list' expanded: False
+		[10117] heading 'Hôtel de Lille - Saint-Germain des Près Opens in new window'
+			[10118] link 'Hôtel de Lille - Saint-Germain des Près Opens in new window' url: https://www.booking.com/hotel/fr/hoteldelille.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[10124] button "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+			[10125] image "This property is part of our Preferred Plus Program. It's committed to providing outstanding service and excellent value. It'll pay us a higher commission if you make a booking."
+				[10126] image ''
+		[10130] link '7th arr., Paris (Saint Germain des Pres)· Show on map' url: https://www.booking.com/hotel/fr/hoteldelille.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults&map=1
+		[10140] button 'Downtown'
+		[10145] button 'Subway Access'
+		[10148] StaticText 'The Hôtel de Lille - Saint-Germain des Près is a four-star boutique hotel located in Paris, in the Saint-Germain-des-Prés neighborhood.'
+		[10152] link 'Scored 8.7 Excellent 975 reviews' url: https://www.booking.com/hotel/fr/hoteldelille.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[10166] link 'Location: Scored 9.7 ' url: https://www.booking.com/hotel/fr/hoteldelille.html?label=gen173nr-1FCAEoggI46AdIM1gEaLQCiAEBmAExuAEZyAEM2AEB6AEB-AECiAIBqAIDuAKO8sfABsACAdICJDI3ZDM2NjhlLWExZDEtNDU1Yy1iNWRkLWIwOTc5NWQ1MzdlZNgCBeACAQ&aid=304142&ucfs=1&arphpl=1&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=popularity&srpvid=72b2489556461100&srepoch=1746008537&from=searchresults
+		[10174] button 'Show prices'

@@ -1,0 +1,177 @@
+[17270] RootWebArea 'iPhone - Compare Models - Apple' focused: True url: https://www.apple.com/iphone/compare/
+	[17533] navigation 'Global'
+		[17542] link 'Apple' url: https://www.apple.com/
+			[17544] image ''
+		[17557] link 'Store' url: https://www.apple.com/us/shop/goto/store
+			[17560] image ''
+		[17568] button 'Store menu' expanded: False
+			[17570] image ''
+		[17644] link 'Mac' url: https://www.apple.com/mac/
+			[17647] image ''
+		[17655] button 'Mac menu' expanded: False
+			[17657] image ''
+		[17275] link 'iPad' url: https://www.apple.com/ipad/
+			[17276] image ''
+		[17758] button 'iPad menu' expanded: False
+			[17760] image ''
+		[17279] link 'iPhone' url: https://www.apple.com/iphone/
+			[17280] image ''
+		[17850] button 'iPhone menu' expanded: False
+			[17852] image ''
+		[17283] link 'Watch' url: https://www.apple.com/watch/
+			[17284] image ''
+		[17945] button 'Watch menu' expanded: False
+			[17947] image ''
+		[17287] link 'Vision' url: https://www.apple.com/apple-vision-pro/
+			[17288] image ''
+		[18038] button 'Vision menu' expanded: False
+			[18040] image ''
+		[17291] link 'AirPods' url: https://www.apple.com/airpods/
+			[17292] image ''
+		[18100] button 'AirPods menu' expanded: False
+			[18102] image ''
+		[17295] link 'TV and Home' url: https://www.apple.com/tv-home/
+			[17296] image ''
+			[18160] StaticText 'TV & Home'
+		[18165] button 'TV and Home menu' expanded: False
+			[18167] image ''
+		[17299] link 'Entertainment' url: https://www.apple.com/entertainment/
+			[17300] image ''
+		[18250] button 'Entertainment menu' expanded: True controls: globalnav-submenu-link-entertainment
+			[18252] image ''
+		[18257] generic 'Entertainment menu'
+			[18261] heading 'Explore Entertainment'
+			[18263] list 'Explore Entertainment'
+				[18265] link 'Explore Entertainment' url: https://www.apple.com/services/
+				[18268] link 'Apple One' url: https://www.apple.com/apple-one/
+				[18271] link 'Apple TV+' url: https://www.apple.com/apple-tv-plus/
+				[18274] link 'Apple Music' url: https://www.apple.com/apple-music/
+				[18277] link 'Apple Arcade' url: https://www.apple.com/apple-arcade/
+				[18280] link 'Apple Fitness+' url: https://www.apple.com/apple-fitness-plus/
+				[18283] link 'Apple News+' url: https://www.apple.com/apple-news/
+				[18286] link 'Apple Podcasts' url: https://www.apple.com/apple-podcasts/
+				[18289] link 'Apple Books' url: https://www.apple.com/apple-books/
+				[18292] link 'App Store' url: https://www.apple.com/app-store/
+			[18295] heading 'Support'
+			[18297] list 'Support'
+				[18299] link 'Apple TV+ Support' url: https://support.apple.com/tv?cid=gn-ols-tvplus-psp-prodfly
+				[18302] link 'Apple Music Support' url: https://support.apple.com/music?cid=gn-ols-music-psp-prodfly
+		[17303] link 'Accessories' url: https://www.apple.com/us/shop/goto/buy_accessories
+			[17304] image ''
+		[18314] button 'Accessories menu' expanded: False
+			[18316] image ''
+		[17307] link 'Support' url: https://support.apple.com/?cid=gn-ols-home-hp-tab
+			[17308] image ''
+		[18375] button 'Support menu' expanded: False
+			[18377] image ''
+		[17310] button 'Search apple.com'
+			[17311] image ''
+		[17314] button 'Shopping Bag'
+			[17315] image ''
+	[18617] main ''
+		[18634] StaticText 'Get $170–'
+		[18636] StaticText '$630 in credit toward iPhone\xa016 or iPhone\xa016\xa0Pro when you trade in iPhone\xa012 or\xa0higher.'
+		[18637] superscript ''
+			[18639] link 'Footnote Δ symbol' url: https://www.apple.com/iphone/compare/#footnote%CE%94-1
+		[18641] link 'Shop\xa0iPhone \uf301' url: https://www.apple.com/us/shop/goto/buy_iphone
+		[18650] heading 'Compare iPhone\xa0models'
+		[18655] link 'Shop iPhone \uf301' url: https://www.apple.com/us/shop/goto/buy_iphone
+		[18662] StaticText 'Get help choosing.'
+		[17271] link 'Chat with a Specialist \uf301' url: https://contactretail.apple.com/?c=us&l=en&ap=COM&pg=COM:iphone_compare&ag=FASTPASS
+		[18670] button 'Watch a guided tour of iPhone\xa016 and iPhone\xa016\xa0Pro\uf31e'
+		[76532] table 'Compare iPhone\xa0models'
+			[76534] row ''
+				[76535] columnheader '\xa0' required: False
+				[76538] columnheader 'iPhone 16 Pro Max' required: False
+				[76540] columnheader 'iPhone 16' required: False
+			[76543] rowgroup ''
+				[76544] row ''
+					[76547] StaticText 'Dropdown'
+					[76549] cell 'iPhone 16 Pro Max'
+						[17335] combobox '' hasPopup: menu expanded: False
+					[76673] cell 'iPhone 16'
+						[17337] combobox '' focused: True hasPopup: menu expanded: True
+			[17344] rowgroup ''
+				[17334] row ''
+					[76799] StaticText 'Finish'
+					[76801] cell 'Learn more about iPhone 16 Pro Max Select a finish for iPhone 16 Pro Max'
+						[17345] link 'Learn more about iPhone 16 Pro Max' url: https://www.apple.com/iphone-16-pro/
+						[76810] list 'Select a finish for iPhone 16 Pro Max'
+							[76812] button ''
+								[76813] figure ''
+									[76815] Figcaption ''
+										[76816] StaticText 'Desert Titanium'
+							[76818] button ''
+								[76819] figure ''
+									[76821] Figcaption ''
+										[76822] StaticText 'Natural Titanium'
+							[76824] button ''
+								[76825] figure ''
+									[76827] Figcaption ''
+										[76828] StaticText 'White Titanium'
+							[76830] button ''
+								[76831] figure ''
+									[76833] Figcaption ''
+										[76834] StaticText 'Black Titanium'
+					[76835] cell 'Learn more about iPhone 16 Select a finish for iPhone 16'
+						[17346] link 'Learn more about iPhone 16' url: https://www.apple.com/iphone-16/
+						[76845] list 'Select a finish for iPhone 16'
+							[76847] button ''
+								[76848] figure ''
+									[76850] Figcaption ''
+										[76851] StaticText 'Ultramarine'
+							[76853] button ''
+								[76854] figure ''
+									[76856] Figcaption ''
+										[76857] StaticText 'Teal'
+							[76859] button ''
+								[76860] figure ''
+									[76862] Figcaption ''
+										[76863] StaticText 'Pink'
+							[76865] button ''
+								[76866] figure ''
+									[76868] Figcaption ''
+										[76869] StaticText 'White'
+							[76871] button ''
+								[76872] figure ''
+									[76874] Figcaption ''
+										[76875] StaticText 'Black'
+			[76899] rowgroup ''
+				[76903] row ''
+					[76906] cell 'From $1199 or $49.95/mo. for\xa024\xa0mo. Footnote * symbol'
+						[76913] link 'Footnote * symbol' url: https://www.apple.com/iphone/compare/#footnote*-1
+					[76915] cell 'From $799 or $33.29/mo. for\xa024\xa0mo. Footnote * symbol'
+						[76922] link 'Footnote * symbol' url: https://www.apple.com/iphone/compare/#footnote*-1
+				[76939] row ''
+					[76942] cell 'buy iPhone 16 Pro Max'
+						[76943] link 'buy iPhone 16 Pro Max' url: https://www.apple.com/us/shop/goto/buy_iphone/iphone_16_pro
+							[76944] StaticText 'Buy'
+					[76945] cell 'Buy iPhone 16'
+						[76946] link 'Buy iPhone 16' url: https://www.apple.com/us/shop/goto/buy_iphone/iphone_16
+				[76948] row ''
+					[76951] cell 'Learn more about iPhone 16 Pro Max'
+						[76952] link 'Learn more about iPhone 16 Pro Max' url: https://www.apple.com/iphone-16-pro/
+					[76957] cell 'Learn more about iPhone 16'
+						[76958] link 'Learn more about iPhone 16' url: https://www.apple.com/iphone-16/
+			[76963] rowgroup ''
+				[76967] row ''
+					[76968] rowheader 'Summary' required: False
+					[76972] cell ''
+						[76973] figure ''
+							[76975] StaticText '6.9″'
+					[76976] cell ''
+						[76977] figure ''
+							[76979] StaticText '6.1″'
+				[76980] row ''
+					[76983] cell 'Super Retina XDR displayfootnote 1'
+						[76989] superscript ''
+							[76990] link 'footnote 1' url: https://www.apple.com/iphone/compare/#footnote-1
+					[76992] cell 'Super Retina XDR displayfootnote 1'
+						[76998] superscript ''
+							[76999] link 'footnote 1' url: https://www.apple.com/iphone/compare/#footnote-1
+				[77001] row ''
+					[77004] cell 'ProMotion technology'
+					[77010] cell 'Not available'
+				[77017] row ''
+					[77020] cell 'Always-On display'
+					[77026] cell 'Not available'

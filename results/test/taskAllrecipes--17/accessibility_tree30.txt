@@ -1,0 +1,89 @@
+[12751] RootWebArea 'Easy Vegetarian Spinach Lasagna' focused: True url: https://www.allrecipes.com/recipe/229764/easy-vegetarian-spinach-lasagna/
+	[13498] button 'Main menu for Allrecipes'
+		[13502] image ''
+	[13518] link "Visit Allrecipes' homepage" url: https://www.allrecipes.com/
+		[13523] image ''
+	[12763] search ''
+		[13598] StaticText 'Search the site'
+		[12757] textbox 'Search the site' required: True
+		[13601] button 'Click to search'
+			[13603] image ''
+	[13627] link 'Log In' url: https://www.allrecipes.com/authentication/login?regSource=3675&relativeRedirectUrl=%2Frecipe%2F229764%2Feasy-vegetarian-spinach-lasagna%2F
+		[13629] image ''
+	[13753] link 'Trigger interstitial modal to log in to MyRecipes' url: javascript:void(0)
+		[13755] image ''
+	[27448] Iframe 'Advertisement'
+	[15264] main ''
+		[12768] article ''
+			[22244] application 'Video Player - Stanley Tucci High Protein Bean and Tuna Salad' describedby: jw-mntl-jwplayer-broad__video_1-0-shortcuts-tooltip-explanation
+				[26658] Video ''
+				[22256] generic '' live: assertive atomic: False relevant: additions text
+					[27361] StaticText '0 of 15 seconds'
+				[22257] generic '' live: assertive atomic: False relevant: additions text
+					[22567] StaticText 'Volume 0%'
+				[22263] StaticText '\xa0'
+			[26778] StaticText 'Stanley Tucci High Protein Bean and Tuna Salad'
+			[15496] button 'CLOSE'
+				[15500] image ''
+			[15906] StaticText 'Spread 1/4 cup pasta sauce on the bottom of the prepared casserole dish. Top with 3 lasagna noodles, 1/2 of the ricotta-egg mixture, and 1/4 cup pasta sauce. Repeat layers of 3 more noodles, 1/2 cup ricotta-egg mixture, and 1/4 cup pasta sauce. End with remaining 3 noodles and 1/4 cup pasta sauce. Sprinkle with remaining 1/2 cup shredded mozzarella cheese. Top with Parmesan cheese. Cover casserole with aluminum foil.'
+			[15915] StaticText 'Bake in the preheated oven for 25 minutes. Uncover casserole and continue baking until lasagna is bubbling and lightly browned, about 25 more minutes. Let lasagna stand 5 minutes before serving.'
+			[15922] button 'I Made It'
+				[15923] StaticText 'I MADE IT'
+				[15924] image ''
+			[12761] form 'Print this article.'
+				[15931] button 'Print this article.'
+					[15932] StaticText 'PRINT'
+					[15933] image ''
+			[15946] StaticText '326'
+			[15949] StaticText 'home cooks made it!'
+			[15954] heading 'Nutrition Facts (per serving)'
+			[15959] LayoutTable ''
+				[15963] LayoutTableRow ''
+					[15965] LayoutTableCell '305'
+					[15968] LayoutTableCell 'Calories'
+				[15972] LayoutTableRow ''
+					[15974] LayoutTableCell '10g'
+					[15977] LayoutTableCell 'Fat'
+				[15981] LayoutTableRow ''
+					[15983] LayoutTableCell '37g'
+					[15986] LayoutTableCell 'Carbs'
+				[15990] LayoutTableRow ''
+					[15992] LayoutTableCell '18g'
+					[15995] LayoutTableCell 'Protein'
+			[16006] button 'Show Full Nutrition Label'
+			[16237] heading 'Ask the Community'
+			[16247] image ''
+			[16250] StaticText 'Get recipe help and connect with the community'
+			[16251] button 'ASK THE FIRST QUESTION'
+			[16262] heading 'Reviews (93)'
+			[16272] StaticText 'Check out our '
+			[16273] link 'Community Guidelines' url: https://www.allrecipes.com/about-us-6648102#toc-community-guidelines
+			[16275] StaticText ' about reviews.'
+			[16286] StaticText 'Easy Vegetarian Spinach Lasagna'
+			[16289] StaticText 'My Rating '
+			[16291] StaticText '(required)'
+			[16297] StaticText 'Rate this a 1'
+			[16298] image ''
+			[12771] radio 'Rate this a 1' checked: false
+			[16302] StaticText 'Rate this a 2'
+			[16303] image ''
+			[12772] radio 'Rate this a 2' checked: false
+			[16307] StaticText 'Rate this a 3'
+			[16308] image ''
+			[12773] radio 'Rate this a 3' checked: false
+			[16312] StaticText 'Rate this a 4'
+			[16313] image ''
+			[12774] radio 'Rate this a 4' checked: false
+			[16317] StaticText 'Rate this a 5'
+			[16318] image ''
+			[12775] radio 'Rate this a 5' checked: false
+			[16324] StaticText 'My Review'
+			[12776] textbox 'My Review' required: False
+			[16332] button 'CANCEL' disabled: True
+			[16334] button 'SUBMIT' disabled: True
+			[27969] Iframe 'Advertisement'
+			[28154] link 'Equinox gives you the room to do what you like when you like' url: javascript:ntv.Stories._instances['ntv1170508-627942-72391'].open()
+				[28156] image 'Equinox gives you the room to do what you like when you like' url: https://ntvcld-a.akamaihd.net/image/upload/w_600,h_338,c_fill,g_auto:text,f_auto/assets/7446AA8D0E3B4F7EB9E80CFE7D8E785D.jpg
+			[28157] link 'SPONSORED CONTENT Equinox gives you the room to do what you like when you like By Chevrolet' url: javascript:ntv.Stories._instances['ntv1170508-627942-72391'].open()
+	[25455] dialog 'Modal Overlay Box' modal: False
+		[25459] Iframe 'Modal Overlay Box Frame'

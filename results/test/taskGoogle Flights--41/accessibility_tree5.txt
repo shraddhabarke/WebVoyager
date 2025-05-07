@@ -1,0 +1,74 @@
+[1] RootWebArea 'Google Flights - Find Cheap Flight Options & Track Prices' focused: True url: https://www.google.com/travel/flights?tfs=CBwQARoOagwIAxIIL20vMDNoNjRAAUgBcAGCAQsI____________AZgBAg&tfu=KgIIAw
+	[221] button 'Main menu' expanded: False
+		[222] image ''
+	[232] link 'Google' url: https://www.google.com/
+	[241] button 'Skip to main content'
+	[250] button 'Accessibility feedback' hasPopup: dialog
+	[262] link 'Travel'
+		[269] image ''
+	[277] link 'Explore'
+		[284] image ''
+	[291] link 'Flights'
+		[298] image ''
+	[305] link 'Hotels'
+		[312] image ''
+	[322] link 'Vacation rentals'
+		[329] image ''
+	[346] button 'Change appearance' hasPopup: menu expanded: False
+		[355] image ''
+	[367] button 'Google apps' expanded: False
+		[18] image ''
+	[371] link 'Sign in' url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARoOagwIAxIIL20vMDNoNjRAAUgBcAGCAQsI____________AZgBAg%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%3Ftfs%3DCBwQARoOagwIAxIIL20vMDNoNjRAAUgBcAGCAQsI____________AZgBAg%26tfu%3DKgIIAw%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+	[533] StaticText 'Flights'
+	[536] search 'Flight'
+		[544] combobox 'Change ticket type. One way' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[609] button '1 passenger' hasPopup: dialog
+			[617] image ''
+			[621] image ''
+		[765] combobox 'Change seating class. Economy' live: polite atomic: False relevant: additions text hasPopup: listbox required: False expanded: False
+		[26] combobox 'Where from?' focused: True autocomplete: inline hasPopup: menu required: False expanded: False
+			[4418] StaticText 'Hong Kong'
+		[840] image ''
+		[898] button 'Swap origin and destination.' disabled: True
+			[903] image ''
+		[28] combobox 'Where to? ' autocomplete: inline hasPopup: menu required: False expanded: False
+		[914] image ''
+		[972] image ''
+		[30] textbox 'Departure' required: False describedby: i32
+		[1161] button 'Explore destinations'
+	[1173] main ''
+		[1175] heading 'Find and book cheap flights worldwide and track prices'
+		[21] heading 'Find cheap flights from Seattle to anywhere'
+		[1182] button 'More information on suggested flights.' hasPopup: menu
+			[1185] image ''
+		[1228] button 'Portland'
+		[1231] button 'Everett'
+		[1234] button 'Bellingham'
+		[1267] button 'Explore more destinations from Seattle'
+		[1278] button 'Dublin 452 US dollars Aug 11 — Aug 20 Nonstop·9 hr 5 min'
+			[1285] generic '452 US dollars'
+				[1286] StaticText '$452'
+		[1296] button 'Los Angeles 86 US dollars May 31 — Jun 7 Nonstop·2 hr 45 min'
+			[1303] generic '86 US dollars'
+				[1304] StaticText '$86'
+		[1314] button 'New York 189 US dollars May 24 — May 30 1 stop·11 hr 22 min'
+			[1321] generic '189 US dollars'
+				[1322] StaticText '$189'
+		[1332] button 'Tokyo 780 US dollars Aug 31 — Sep 9 1 stop·12 hr 55 min'
+			[1339] generic '780 US dollars'
+				[1340] StaticText '$780'
+		[1351] heading 'Useful tools to help you find the best deals'
+		[1355] button 'Find the cheapest days to fly The Date grid and Price graph make it easy to see the best flight deals'
+			[1357] image ''
+		[1367] button 'See the whole picture with price insights Price history and trend data show you when to book to get the best price on your flight'
+			[1369] image ''
+		[1378] button 'Track prices for a trip Not ready to book yet? Observe price changes for a route or flight and get notified when prices drop.'
+			[1380] image ''
+		[1395] StaticText 'Insightful tools help you choose your trip dates'
+		[1397] StaticText 'If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the '
+		[1399] StaticText 'Date grid'
+		[1400] StaticText ' and '
+		[1402] StaticText 'Price graph'
+		[1403] StaticText ' options on the '
+		[1404] StaticText 'Search'
+		[1405] StaticText ' page to find the cheapest days to get to your destination – and back again for round trips.'

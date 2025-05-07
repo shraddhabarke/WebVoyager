@@ -1,0 +1,98 @@
+[10308] RootWebArea 'Quantifying the Noise of Structural Perturbations on Graph Adversarial Attacks' focused: True url: https://arxiv.org/html/2504.20869v1
+	[10480] link 'Back to arXiv' url: https://arxiv.org/
+	[10491] StaticText 'This is '
+	[10493] StaticText 'experimental HTML'
+	[10494] StaticText ' to improve accessibility. We invite you to report rendering errors. '
+	[10497] StaticText 'Learn more '
+	[10341] link 'about this project' url: https://info.arxiv.org/about/accessible_HTML.html
+	[10499] StaticText ' and '
+	[10500] link 'help improve conversions' url: https://info.arxiv.org/help/submit_latex_best_practices.html
+	[10506] link 'Why HTML?' url: https://info.arxiv.org/about/accessible_HTML.html
+	[10348] link 'Report Issue' url: https://arxiv.org/html/2504.20869v1/#myForm
+	[10350] link 'Back to Abstract' url: https://arxiv.org/abs/2504.20869v1
+	[10352] link 'Download PDF' url: https://arxiv.org/pdf/2504.20869v1
+	[10511] link 'Switch to light mode' url: javascript:toggleColorScheme()
+		[10513] LabelText 'Switch to light mode'
+			[10515] image ''
+	[10316] navigation 'Table of Contents'
+		[10549] image ''
+		[10556] link ' Abstract' url: https://arxiv.org/html/2504.20869v1#abstract
+		[10564] link '1 Introduction' url: https://arxiv.org/html/2504.20869v1#S1
+		[10569] link '2 Related Work' url: https://arxiv.org/html/2504.20869v1#S2
+		[10598] link '3 Preliminaries' url: https://arxiv.org/html/2504.20869v1#S3
+		[10620] link '4 Proposed Methods' url: https://arxiv.org/html/2504.20869v1#S4
+		[10663] link '5 Experiments' url: https://arxiv.org/html/2504.20869v1#S5
+		[10752] link '6 Conclusion' url: https://arxiv.org/html/2504.20869v1#S6
+		[10782] link ' References' url: https://arxiv.org/html/2504.20869v1#bib
+	[10792] link 'License: arXiv.org perpetual non-exclusive license' url: https://info.arxiv.org/help/license/index.html#licenses-available
+	[10376] StaticText 'arXiv:2504.20869v1 [cs.LG] 29 Apr 2025'
+	[10340] article ''
+		[10796] heading 'Quantifying the Noise of Structural Perturbations on Graph Adversarial Attacks'
+		[10377] StaticText 'Junyuan Fang'
+		[10808] StaticText 'Department of Electrical Engineering, City University of Hong Kong'
+		[10810] StaticText 'Hong Kong SAR'
+		[10812] StaticText 'China'
+		[10816] link 'junyufang2-c@my.cityu.edu.hk' url: mailto:junyufang2-c@my.cityu.edu.hk
+		[10378] StaticText 'Han Yang'
+		[10826] StaticText 'School of Computer Science and Engineering, Sun Yat-sen University'
+		[10828] StaticText 'Guangzhou'
+		[10830] StaticText 'China'
+		[10834] link 'yangh396@mail2.sysu.edu.cn' url: mailto:yangh396@mail2.sysu.edu.cn
+		[10379] StaticText 'Haixian Wen'
+		[10844] StaticText 'School of Computer Science and Engineering, Sun Yat-sen University'
+		[10846] StaticText 'Guangzhou'
+		[10848] StaticText 'China'
+		[10345] link 'wenhx6@mail2.sysu.edu.cn' url: mailto:wenhx6@mail2.sysu.edu.cn
+		[10380] StaticText 'Jiajing Wu'
+		[10861] StaticText 'School of Software Engineering, Sun Yat-sen University'
+		[10863] StaticText 'Zhuhai'
+		[10865] StaticText 'China'
+		[10868] link 'wujiajing@mail.sysu.edu.cn' url: mailto:wujiajing@mail.sysu.edu.cn
+		[10874] StaticText 'Zibin Zheng'
+		[10879] StaticText 'School of Software Engineering, Sun Yat-sen University'
+		[10881] StaticText 'Zhuhai'
+		[10883] StaticText 'China'
+		[10887] link 'zhzibin@mail.sysu.edu.cn' url: mailto:zhzibin@mail.sysu.edu.cn
+		[10894] StaticText 'Chi K. Tse'
+		[10899] StaticText 'Department of Electrical Engineering, City University of Hong Kong'
+		[10901] StaticText 'Hong Kong SAR'
+		[10903] StaticText 'China'
+		[10907] link 'chitse@cityu.edu.hk' url: mailto:chitse@cityu.edu.hk
+		[10915] StaticText '(2018; '
+		[10917] StaticText 'April 29, 2025'
+		[10918] StaticText ')'
+		[10922] heading 'Abstract.'
+		[10929] StaticText 'Graph neural networks have been widely utilized to solve graph-related tasks because of their strong learning power in utilizing the local information of neighbors. However, recent studies on graph adversarial attacks have proven that current graph neural networks are not robust against malicious attacks. Yet much of the existing work has focused on the optimization objective based on attack performance to obtain (near) optimal perturbations, but paid less attention to the strength quantification of each perturbation such as the injection of a particular node/link, which makes the choice of perturbations a black-box model that lacks interpretability. In this work, we propose the concept of noise to quantify the attack strength of each adversarial link. Furthermore, we propose three attack strategies based on the defined noise and classification margins in terms of single and multiple steps optimization. Extensive experiments conducted on benchmark datasets against three representative graph neural networks demonstrate the effectiveness of the proposed attack strategies. Particularly, we also investigate the preferred patterns of effective adversarial perturbations by analyzing the corresponding properties of the selected perturbation nodes.'
+		[10937] StaticText 'Graph Neural Networks, Graph Adversarial Attacks, Robustness, Noise Propagation'
+		[10945] superscript ''
+			[10946] StaticText '†'
+		[10948] StaticText 'copyright: '
+		[10949] StaticText 'acmlicensed'
+		[10955] superscript ''
+			[10956] StaticText '†'
+		[10958] StaticText 'journalyear: '
+		[10959] StaticText '2018'
+		[10965] superscript ''
+			[10966] StaticText '†'
+		[10968] StaticText 'doi: '
+		[10969] StaticText 'XXXXXXX.XXXXXXX'
+		[10975] superscript ''
+			[10976] StaticText '†'
+		[10978] StaticText 'journal: '
+		[10979] StaticText 'JACM'
+		[10985] superscript ''
+			[10986] StaticText '†'
+		[10988] StaticText 'journalvolume: '
+		[10989] StaticText '37'
+		[10995] superscript ''
+			[10996] StaticText '†'
+		[10998] StaticText 'journalnumber: '
+		[10999] StaticText '4'
+		[11005] superscript ''
+			[11006] StaticText '†'
+		[11008] StaticText 'article: '
+		[11009] StaticText '111'
+		[11015] superscript ''
+			[11016] StaticText '†'
+		[11018] StaticText 'publicationmonth: '
+	[10354] button 'Report Issue'

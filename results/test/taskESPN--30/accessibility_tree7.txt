@@ -1,0 +1,34 @@
+[3] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[67] link 'About' url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+	[69] link 'Store' url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+	[77] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[80] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[84] button 'Google apps' expanded: False
+		[86] image ''
+	[89] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ
+	[104] link 'Asian Pacific American Heritage Month 2025' url: https://www.google.com/search?sca_esv=217f17c28f4e2843&q=ukulele+history&oi=ddle&noiga=1&ct=396464676&hl=en&si=APYL9bu1Sl4M4TWndGcDs6ZL5WJXWNYEL_kgEEwAe0iMZIocdVcvzEvIVvk-9N-FrBBU91sgjXXtMSxmfX-NefmlVsIO1EN2jyy-yQf_Uc0sc6l04IMufwZkzLaPT_Dih0zVfyPLvXCgLIlgjeYbSXqTeSD17-0TkeGOWpGgaxEdyUwcpcJMfwY%3D&sa=X&ved=0ahUKEwiyksP0toGNAxXgHTQIHRIACy4QPQgE
+		[5] image 'Asian Pacific American Heritage Month 2025' url: https://www.google.com/logos/doodles/2025/celebrating-the-ukulele-6753651837110747-l.webp
+	[112] button 'Share'
+		[117] image ''
+	[2] search ''
+		[184] image ''
+		[1] combobox 'Search' autocomplete: both hasPopup: listbox required: False expanded: False
+		[214] button 'Search by voice'
+			[215] image ''
+		[219] button 'Search by image'
+			[220] image ''
+		[385] button 'Google Search'
+		[14] button "I'm Feeling Lucky"
+	[466] contentinfo ''
+		[471] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[473] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[475] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[478] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[481] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[483] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[13] button 'Settings' hasPopup: menu expanded: False
+			[492] generic '' hasPopup: menu
+	[641] StaticText 'Sign in to Google'
+	[643] StaticText 'Get the most from your Google account'
+	[646] button 'Stay signed out'
+	[654] button 'Sign in'

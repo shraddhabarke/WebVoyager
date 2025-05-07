@@ -1,0 +1,31 @@
+[3] RootWebArea 'Google' focused: True url: https://www.google.com/
+	[77] link 'Gmail ' url: https://mail.google.com/mail/&ogbl
+	[80] link 'Search for Images ' url: https://www.google.com/imghp?hl=en&ogbl
+	[84] button 'Google apps' expanded: False
+		[86] image ''
+	[89] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_ctr_og_so_72776761_p
+	[100] image ''
+	[2] search ''
+		[152] image ''
+		[1] combobox 'Search' focused: True autocomplete: both hasPopup: listbox required: False expanded: False
+		[182] button 'Search by voice'
+			[183] image ''
+		[187] button 'Search by image'
+			[188] image ''
+		[352] button 'Google Search'
+		[354] button "I'm Feeling Lucky"
+	[414] link 'Say goodbye to ‘forgot password’ and say hello to Sign in with Google'
+	[445] contentinfo ''
+		[450] link 'About' url: https://about.google/?utm_source=google-US&utm_medium=referral&utm_campaign=hp-footer&fg=1
+		[452] link 'Advertising' url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+		[454] link 'Business' url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+		[456] link 'How Search works' url: https://google.com/search/howsearchworks/?fg=1
+		[459] link 'Applying AI towards science and the environment' url: https://ai.google/advancing-ai/social-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+		[462] link 'Privacy' url: https://policies.google.com/privacy?hl=en&fg=1
+		[464] link 'Terms' url: https://policies.google.com/terms?hl=en&fg=1
+		[15] button 'Settings' hasPopup: menu expanded: False
+			[473] generic '' hasPopup: menu
+	[555] StaticText 'Sign in to Google'
+	[557] StaticText 'Get the most from your Google account'
+	[560] button 'Stay signed out'
+	[568] button 'Sign in'

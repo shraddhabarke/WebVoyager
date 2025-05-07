@@ -1,0 +1,114 @@
+[18130] RootWebArea 'Advanced Search | arXiv e-print repository' focused: True url: https://arxiv.org/search/advanced?terms-0-term=neural+networks+for+image+processing&terms-0-field=all&size=50&order=-announced_date_first
+	[18263] StaticText 'Skip to main content'
+	[18271] link 'logo' url: https://cornell.edu/
+		[18131] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg
+	[18277] StaticText 'We gratefully acknowledge support from'
+	[18279] StaticText 'the Simons Foundation, '
+	[18280] link 'member institutions' url: https://info.arxiv.org/about/ourmembers.html
+	[18282] StaticText ', and all contributors. '
+	[18283] link 'Donate' url: https://info.arxiv.org/about/donate.html
+	[18295] link 'arxiv-logo' url: https://arxiv.org/
+		[18132] image 'logo' url: https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg
+	[18166] textbox 'Search term or terms' required: False
+	[18310] link 'Help' url: https://info.arxiv.org/help
+	[18312] StaticText ' | '
+	[18313] link 'Advanced Search' url: https://arxiv.org/search/advanced
+	[18167] combobox 'Field to search' hasPopup: menu expanded: False
+	[18373] button 'Search'
+	[18384] navigation 'User menu'
+		[18386] link 'Login' url: https://arxiv.org/login
+	[18133] main ''
+		[18397] heading 'Advanced Search'
+		[18406] link 'Search v0.5.6 released 2020-02-24' url: https://github.com/arXiv/arxiv-search/releases
+		[18408] StaticText '\xa0\xa0'
+		[18418] link 'Simple Search' url: https://arxiv.org/search/?order=-announced_date_first&size=50
+		[18163] group 'Search term(s)'
+			[18138] textbox 'Search term' required: False
+				[19379] StaticText 'neural networks for image processing'
+			[18464] StaticText 'Field to search'
+			[18141] combobox 'Field to search' hasPopup: menu expanded: False
+			[18145] button 'Add another term +'
+			[18146] button 'Search'
+		[18520] group 'Subject'
+			[18525] StaticText 'All classifications will be included by default.'
+			[18169] checkbox 'Computer Science (cs)' focused: True checked: true
+			[18170] checkbox 'Economics (econ)' checked: false
+			[18171] checkbox 'Electrical Engineering and Systems Science (eess)' checked: false
+			[18172] checkbox 'Mathematics (math)' checked: false
+			[18173] checkbox 'Physics' checked: false
+			[18593] StaticText 'Subtopic within physics'
+			[18174] combobox 'Subtopic within physics' hasPopup: menu expanded: False
+			[18175] checkbox 'Quantitative Biology (q-bio)' checked: false
+			[18176] checkbox 'Quantitative Finance (q-fin)' checked: false
+			[18177] checkbox 'Statistics (stat)' checked: false
+			[18178] radio ' Include cross-listed papers' checked: true
+			[18179] radio ' Exclude cross-listed papers' checked: false
+		[18682] group 'Date'
+			[18180] radio 'All dates' checked: true
+			[18181] radio 'Past 12 months' checked: false
+			[18182] radio 'Specific year' checked: false
+			[18728] StaticText 'Enter four digit year'
+			[18183] textbox 'Enter four digit year' required: False
+			[18184] radio 'Date range' checked: false
+			[18755] StaticText 'From'
+			[18185] textbox 'From' required: False
+			[18766] StaticText 'to'
+			[18186] textbox 'to' required: False
+			[18775] StaticText 'When limiting by date range, the lower bound of the "from" date and the upper bound of the "to" date are used.'
+			[18777] StaticText 'For example, searching with '
+			[18778] code ''
+				[18779] StaticText 'From: 2012-02'
+			[18780] StaticText ' and '
+			[18781] code ''
+				[18782] StaticText 'To: 2013'
+			[18783] StaticText ' will search for papers submitted from '
+			[18784] code ''
+				[18785] StaticText '2012-02-01'
+			[18786] StaticText ' to '
+			[18787] code ''
+				[18788] StaticText '2013-12-31'
+			[18789] StaticText '.'
+			[18794] separator '' orientation: horizontal
+			[18187] radio ' Submission date (most recent)' checked: true
+			[18188] radio ' Submission date (original)' checked: false
+			[18189] radio ' Announcement date' checked: false
+			[18813] StaticText 'You may filter on either submission date or announcement date. Note that announcement date supports only year and month granularity.'
+		[18190] radio ' Show abstracts' checked: true
+		[18191] radio ' Hide abstracts' checked: false
+		[18192] combobox 'results per page' hasPopup: menu expanded: False
+		[18193] checkbox 'Include older versions of papers' checked: false
+		[18885] button 'Search'
+		[18896] article ''
+			[18900] heading 'Searching by Author Name'
+			[18909] ListMarker '• '
+			[18910] StaticText 'Using the '
+			[18912] StaticText 'Author(s) field'
+			[18913] StaticText ' produces best results for author name searches.'
+			[18916] ListMarker '• '
+			[18917] StaticText 'For the most precise name search, follow '
+			[18919] StaticText 'surname(s), forename(s)'
+			[18920] StaticText ' or '
+			[18922] StaticText 'surname(s), initial(s)'
+			[18923] StaticText ' pattern: example Hawking, S or Hawking, Stephen'
+			[18926] ListMarker '• '
+			[18927] StaticText 'For best results on multiple author names, '
+			[18929] StaticText 'separate individuals with a ;'
+			[18930] StaticText ' (semicolon). Example: Jin, D S; Ye, J'
+			[18933] ListMarker '• '
+			[18934] StaticText 'Author names enclosed in quotes will return only '
+			[18936] StaticText 'exact matches'
+			[18937] StaticText '. For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.'
+			[18940] ListMarker '• '
+			[18941] StaticText 'Diacritic character variants are automatically searched in the Author(s) field.'
+			[18944] ListMarker '• '
+			[18945] StaticText 'Queries with no punctuation will treat each term independently.'
+		[18950] article ''
+			[18954] heading 'Searching by subcategory'
+			[18963] ListMarker '• '
+			[18964] StaticText 'To search within a subcategory select '
+			[18966] StaticText 'All fields'
+			[18967] StaticText '.'
+			[18970] ListMarker '• '
+			[18971] StaticText 'A subcategory search can be combined with an author or keyword search by clicking on '
+			[18973] StaticText 'add another term'
+			[18974] StaticText ' in advanced search.'

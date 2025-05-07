@@ -1,0 +1,31 @@
+[10939] RootWebArea 'AI in Healthcare | Coursera' focused: True url: https://www.coursera.org/specializations/ai-healthcare?action=enroll&authMode=signup
+	[14712] dialog 'Authentication modal' modal: True
+		[14710] button 'Close'
+			[14606] image 'Close'
+		[14705] sectionheader ''
+			[14608] heading 'Sign up'
+			[14717] StaticText 'Learn on your own time from top universities and businesses.'
+		[14719] StaticText 'Full Name'
+		[14624] textbox 'Full Name' focused: True required: True
+		[14724] StaticText 'Email'
+		[14634] textbox 'Email' required: True
+		[14729] StaticText 'Password'
+		[14731] StaticText 'Between 8 and 72 characters'
+		[14653] textbox 'Password' required: True describedby: cds-react-aria2700553092-:r14:-support-text
+		[14649] generic '' live: polite atomic: False relevant: additions text
+			[14733] StaticText 'Your password is hidden'
+		[14650] button 'Show password' controls: cds-react-aria2700553092-:r14:
+		[14664] button 'Join for Free'
+		[14692] generic '' live: assertive atomic: False relevant: additions text
+		[14685] button 'Google Continue with Google'
+		[14686] button 'Facebook Continue with Facebook'
+		[14687] button 'Apple Continue with Apple'
+		[14741] StaticText 'Already on Coursera? '
+		[14688] button 'Log in'
+		[14690] button 'Sign up with your organization'
+		[14743] StaticText 'Having trouble logging in? '
+		[14698] link 'Learner help center' url: https://learner.coursera.help/hc/articles/209818553
+		[14745] StaticText 'This site is protected by reCAPTCHA Enterprise and the Google '
+		[14700] link 'Privacy Policy' url: https://policies.google.com/privacy
+		[14701] link 'Terms of Service' url: https://policies.google.com/terms
+		[14749] StaticText ' apply.'

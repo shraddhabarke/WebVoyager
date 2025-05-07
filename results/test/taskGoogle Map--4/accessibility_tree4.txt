@@ -1,0 +1,102 @@
+[1] RootWebArea 'Boston Logan International Airport to North Station - Google Maps' focused: True url: https://www.google.com/maps/dir/Boston+Logan+International+Airport,+East+Boston,+MA+02128/North+Station,+135+Causeway+St,+Boston,+MA+02114/@42.3608563,-71.0769936,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89e37014d5da4937:0xc9394c31f2d5144!2m2!1d-71.0096136!2d42.365602!1m5!1m1!1s0x89e3708e162d05cb:0x651087057818603a!2m2!1d-71.061974!2d42.3664424?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D
+	[165] generic 'Google Maps'
+		[258] application 'Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key.'
+			[50] Canvas ''
+		[925] radiogroup '' required: False
+			[928] radio 'Best travel modes' checked: true
+				[929] image 'Best travel modes'
+			[938] radio 'Driving 8 min' checked: false
+				[939] image 'Driving'
+			[948] radio 'Transit 28 min' checked: false
+				[949] image 'Transit'
+			[958] radio 'Walking 48 min' checked: false
+				[959] image 'Walking'
+			[968] radio 'Cycling 23 min' checked: false
+				[969] image 'Cycling'
+			[978] radio 'Flights not available' disabled: True checked: false
+				[979] image 'Flights not available'
+		[987] button 'Close directions'
+		[1016] combobox '' hasPopup: grid required: False expanded: False
+			[1009] textbox 'Starting point Boston Logan International Airport' autocomplete: list required: False
+		[1010] button 'Search'
+		[1040] combobox '' hasPopup: grid required: False expanded: False
+			[1033] textbox 'Destination North Station, 135 Causeway St, Boston, MA 02114' autocomplete: list required: False
+		[1034] button 'Search'
+		[992] button 'Reverse starting point and destination'
+		[994] button 'Add destination'
+		[1891] region 'Available options for search along this route' roledescription: carousel
+			[1900] button 'Add stops along route'
+				[1930] StaticText 'Search along the route'
+			[1906] button 'Add gas stations along route'
+				[1932] StaticText 'Gas'
+			[1915] button 'Add electric vehicle charging stations along route'
+				[1934] StaticText 'EV charging'
+			[1922] button 'Add hotels along route'
+				[1936] StaticText 'Hotels'
+			[1938] button 'Next page'
+		[13] button 'Menu'
+		[468] button 'Saved'
+		[486] button 'Recents'
+		[1617] button 'North Station 8 min'
+		[1393] button '2 places Boston'
+			[1401] generic '2 places'
+		[516] button 'Get the app'
+		[1076] main 'Directions'
+			[1602] button 'Departure options' hasPopup: menu expanded: False
+				[1598] option 'Leave now' selected: True
+				[1608] StaticText '\xa0'
+			[1585] button 'Options' focused: True expanded: False
+			[1681] button 'Send directions to your phone'
+			[1686] button 'Copy link'
+			[1690] link 'Driving 8 min 3.8 miles via MA-1A S Fastest route, the usual traffic Warning This route has tolls. Details'
+				[1692] image 'Driving'
+					[1853] StaticText '\ue531'
+				[1700] heading 'via MA-1A S'
+				[1848] StaticText 'Fastest route, the usual traffic'
+				[1711] image 'Warning'
+					[1849] StaticText '\ue002'
+				[1712] heading 'This route has tolls.'
+				[1714] button 'Details'
+			[1720] button 'Driving 10 min 4.8 miles via I-90 W'
+				[1722] image 'Driving'
+					[1858] StaticText '\ue531'
+				[1730] heading 'via I-90 W'
+			[1733] button 'Transit 28 min 9:28\u202fAM—9:56\u202fAM Bus 22 , then Subway Blue Line , then Light rail D , or E'
+				[1735] image 'Transit'
+					[1873] StaticText '\ue535'
+				[1740] heading '9:28\u202fAM—9:56\u202fAM'
+				[1745] image 'Bus' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg
+				[1863] StaticText '22'
+				[1758] image ', then'
+					[1864] StaticText '\ue315'
+				[1761] image 'Subway' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[1865] StaticText 'Blue Line'
+				[1774] image ', then'
+					[1866] StaticText '\ue315'
+				[1777] image 'Light rail' url: https://maps.gstatic.com/mapfiles/transit/iw2/svg/us-boston-mbta.svg
+				[1867] StaticText 'D'
+				[1868] StaticText 'E'
+			[1797] heading 'Explore nearby North Station'
+			[1802] button 'Restaurants'
+			[1807] button 'Hotels'
+			[1812] button 'Gas stations'
+			[1817] button 'Parking Lots'
+			[1822] button 'More'
+		[1114] button 'Collapse side panel'
+		[562] button 'Google apps' expanded: False
+			[564] image ''
+		[567] link 'Sign in' url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F&service=local&ec=GAZAcQ
+		[614] button 'Show Your Location' pressed: false
+		[631] button 'Zoom in'
+		[662] button 'Zoom out'
+		[675] button 'Show Street View coverage'
+		[717] generic 'Interactive map'
+		[755] StaticText 'Layers'
+		[770] button 'Layers' expanded: False
+		[871] contentinfo ''
+			[873] StaticText 'Map data ©2025 Google'
+			[874] button 'United States'
+			[876] button 'Terms'
+			[878] button 'Privacy'
+			[880] button 'Send Product Feedback'
+		[883] button '1 mi'

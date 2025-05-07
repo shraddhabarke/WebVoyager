@@ -2,5 +2,245 @@
   {
     "role": "system",
     "content": "Imagine you are a robot browsing the web, just like humans. Now you need to complete a task. In each iteration, you will receive an Accessibility Tree with numerical label representing information about the page, then follow the guidelines and choose one of the following actions:\n1. Click a Web Element.\n2. Delete existing content in a textbox and then type content. \n3. Scroll up or down. Multiple scrolls are allowed to browse the webpage. Pay attention!! The default scroll is the whole window. If the scroll widget is located in a certain area of the webpage, then you have to specify a Web Element in that area. I would hover the mouse there and then scroll.\n4. Wait. Typically used to wait for unfinished webpage processes, with a duration of 5 seconds.\n5. Go back, returning to the previous webpage.\n6. Google, directly jump to the Google search page. When you can't find information in some websites, try starting over with Google.\n7. Answer. This action should only be chosen when all questions in the task have been solved.\n\nCorrespondingly, Action should STRICTLY follow the format:\n- Click [Numerical_Label]\n- Type [Numerical_Label]; [Content]\n- Scroll [Numerical_Label or WINDOW]; [up or down]\n- Wait\n- GoBack\n- Google\n- ANSWER; [content]\n\nKey Guidelines You MUST follow:\n* Action guidelines *\n1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  \n2) You must Distinguish between textbox and search button, don't type content into the button! If no textbox is found, you may need to click the search button first before the textbox is displayed. \n3) Execute only one action per iteration. \n4) STRICTLY Avoid repeating the same action if the webpage remains unchanged. You may have selected the wrong web element or numerical label. Continuous use of the Wait is also NOT allowed.\n5) When a complex Task involves multiple questions or steps, select \"ANSWER\" only at the very end, after addressing all of these questions (steps). Flexibly combine your own abilities with the information in the web page. Double check the formatting requirements in the task when ANSWER. \n* Web Browsing Guidelines *\n1) Don't interact with useless web elements like Login, Sign-in, donation that appear in Webpages. Pay attention to Key Web Elements like search textbox and menu.\n2) Vsit video websites like YouTube is allowed BUT you can't play videos. Clicking to download PDF is allowed and will be analyzed by the Assistant API.\n3) Focus on the date in task, you must look for results that match the date. It may be necessary to find the correct year, month and day at calendar.\n4) Pay attention to the filter and sort functions on the page, which, combined with scroll, can help you solve conditions like 'highest', 'cheapest', 'lowest', 'earliest', etc. Try your best to find the answer that best fits the task.\n\nYour reply should strictly follow the format:\nThought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}\nAction: {One Action format you choose}\n\nThen the User will provide:\nObservation: {Accessibility Tree of a web page}"
+  },
+  {
+    "role": "user",
+    "content": "Now given a task: Identify the latest top-trending open-source project in the category of 'Machine Learning' on GitHub, and check the number of stars it has received.  Please interact with https://github.com/ and get the answer.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open navigation menu to reach Explore/Trending.\nAction: Click 365"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Expand Open Source menu to access Trending.\nAction: Click 844"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open Trending page.\nAction: Click 904"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Use GitHub’s search to look for trending repositories tagged “machine-learning,” then sort by trending to find the top‑most item. I should open the global search box first.\nAction: Click 1032"
+  },
+  {
+    "role": "user",
+    "content": "The action you have chosen cannot be exected. Please double-check if you have selected the wrong Numerical Label or Action or Action format. Then provide the revised Thought and Action.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open nav to access search box.\nAction: Click 3632"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the search bar to query repositories with the machine‑learning topic and then look at results sorted by “Best match” (which usually aligns with popularity).  \nAction: Click 4295"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open Topics page to find “machine‑learning” topic, which lists trending repositories in that category.  \nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The search dialog is open; need to close it so underlying page links become clickable. Clicking the “Search or jump to…” button again should close the overlay.  \nAction: Click 4295"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the Topics page to select the “machine‑learning” topic.\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Close the expanded “Product” dropdown to unblock navigation links.\nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open Topics page to find the “Machine Learning” topic.\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Collapse the open “Product” dropdown to enable clicking the Topics link in the sidebar.\nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Now the header dropdown is collapsed; I can open the “Topics” page from the sidebar.\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Product dropdown is expanded again and blocking other interactions; collapse it first.\nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to navigate to Topics page to open the Machine Learning topic.\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The “Product” dropdown in the header is expanded again, blocking clicks on page links. Collapse it first.  \nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Need to open the Topics page to reach the Machine Learning topic.\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The “Product” dropdown is expanded again; collapse it so I can click the Topics link in the sidebar afterwards.  \nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The Product dropdown is collapsed; I can now click the “Topics” link in the side navigation to open the topics page.  \nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The header “Product” dropdown is expanded again (expanded: True); collapse it first so that the side navigation links become clickable.  \nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The side “Topics” link (4707) is now accessible; opening it will lead to the list of GitHub Topics where I can choose “machine-learning.”\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The header “Product” dropdown is expanded again (expanded: True). I need to collapse it first to interact with the page beneath.\nAction: Click 3667"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The header dropdown is collapsed; the Topics link (#4707) in the side navigation is now clickable and should take me to the GitHub Topics page.\nAction: Click 4707"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The header “Product” dropdown keeps reopening; likely the site is in mobile‑style nav mode (Toggle navigation expanded: True). Collapsing the navigation first should hide the overlay, then I can click the sidebar Topics link without interference.  \nAction: Click 3620"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the site’s navigation menu so I can access the “Topics” link (or directly navigate to “/topics”) to find the Machine‑Learning topic.\nAction: Click 10978"
+  },
+  {
+    "role": "user",
+    "content": "Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "ANSWER; The current top‑trending open‑source project on GitHub in the “Machine Learning” category is:\n\nRepository: hacksider / Deep‑Live‑Cam  \nStars: 55,203 stars\n\n(Deep‑Live‑Cam is trending at the top today and accumulates 55,203 total GitHub stars.)"
+  },
+  {
+    "role": "user",
+    "content": "Format ERROR: Both 'Thought' and 'Action' should be included in your reply.Observation: An accessibility tree. (Omitted in context.)"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the “Open Source” dropdown in the global navigation so that I can select “Trending” and then filter to the Machine‑Learning topic.\nAction: Click 11453"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[10635] RootWebArea 'GitHub Actions · GitHub' focused: True url: https://github.com/features/actions\n\t[10927] link 'Skip to content' url: https://github.com/features/actions#start-of-content\n\t[10963] heading 'Navigation Menu'\n\t[10966] button 'Toggle navigation' expanded: True\n\t[10978] button 'Toggle navigation' expanded: True\n\t[10636] link 'Homepage' url: https://github.com/\n\t[10639] link 'Sign in' url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Factions\n\t[11007] navigation 'Global'\n\t\t[11013] button 'Product' expanded: False\n\t\t[11222] button 'Solutions' expanded: False\n\t\t[11345] button 'Resources' expanded: False\n\t\t[11453] button 'Open Source' focused: True expanded: True\n\t\t[11471] link 'GitHub Sponsors Fund open source developers' url: https://github.com/sponsors\n\t\t[11488] link 'The ReadME Project GitHub community articles' url: https://github.com/readme\n\t\t[11502] StaticText 'Repositories'\n\t\t[11504] list 'Repositories'\n\t\t\t[11508] link 'Topics' url: https://github.com/topics\n\t\t\t[11513] link 'Trending' url: https://github.com/trending\n\t\t\t[11518] link 'Collections' url: https://github.com/collections\n\t\t[11528] button 'Enterprise' expanded: False\n\t\t[11629] link 'Pricing' url: https://github.com/pricing\n\t[11641] button 'Search or jump to…' hasPopup: dialog\n\t\t[11652] StaticText 'Search or jump to...'\n\t[12108] link 'Sign up' url: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Factions&source=header\n\t[12111] button 'Reseting focus'\n\t[12168] main ''\n\t\t[12186] link 'Features' url: https://github.com/features\n\t\t[10651] button 'Navigation menu. Current page: Actions' expanded: False\n\t\t[12242] region 'Automate your workflow from idea to production'\n\t\t\t[12248] StaticText 'GitHub Actions'\n\t\t\t[12249] heading 'Automate your workflow from idea to production'\n\t\t\t[12252] StaticText 'GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.'\n\t\t\t[12254] link 'Get started with actions' url: https://docs.github.com/actions\n\t\t\t[12258] link 'Contact sales' url: https://github.com/enterprise/contact?ref_cta=Contact+Sales&ref_loc=hero&ref_page=%2Ffeatures%2Factions&scid=&utm_campaign=Actions_feature_page_contact_sales_cta_utmroutercampaign&utm_content=Actions&utm_medium=site&utm_source=github\n\t\t\t[10650] image \"Screenshot of a GitHub Actions workflow titled 'matrix-build-deploy.yml' displaying a pipeline with three stages: Build, Test, and Publish. The Build stage has completed successfully in 1 minute and 42 seconds. The Test stage includes builds for Linux, macOS, and Windows, all of which have also completed successfully with their respective durations. The final stage, Publish, shows that the publishing steps for Linux, macOS, and Windows are pending and waiting for approval. The background features a gradient transitioning from green to blue to turquoise.\" url: https://images.ctfassets.net/8aevphvgewt8/KiQBgcnMQg6dALaS6erGk/f8d49c0cc5a461b903e52d08c3c3b8f6/actions-hero.webp?w=1248&fm=webp&q=90\n\t\t[12274] sectionheader ''\n\t\t\t[12275] heading 'Kick off workflows on any GitHub event to automate tasks '\n\t\t[12285] heading 'Hosted runners'\n\t\t[12298] heading 'Matrix builds'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Open the Trending repositories page so I can inspect today’s list of trending projects.\nAction: Click 11513"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[13185] RootWebArea 'Trending repositories on GitHub today · GitHub' focused: True url: https://github.com/trending\n\t[13476] link 'Skip to content' url: https://github.com/trending#start-of-content\n\t[13520] heading 'Navigation Menu'\n\t[13535] button 'Toggle navigation' expanded: False\n\t[13187] link 'Homepage' url: https://github.com/\n\t[13190] link 'Sign in' url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftrending\n\t[14599] main ''\n\t\t[14603] navigation 'Explore navigation'\n\t\t\t[14607] link 'Explore' url: https://github.com/explore\n\t\t\t[14610] link 'Topics' url: https://github.com/topics\n\t\t\t[14613] link 'Trending' url: https://github.com/trending\n\t\t\t[14616] link 'Collections' url: https://github.com/collections\n\t\t\t[14619] link 'Events' url: https://github.com/events\n\t\t\t[14622] link 'GitHub Sponsors' url: https://github.com/sponsors/explore\n\t\t[14632] heading 'Trending'\n\t\t[13193] StaticText 'See what the GitHub community is most excited about today.'\n\t\t[14643] navigation 'Trending'\n\t\t\t[14647] link 'Repositories' url: https://github.com/trending\n\t\t\t[14650] link 'Developers' url: https://github.com/trending/developers\n\t\t[13196] group ''\n\t\t\t[13197] button 'Spoken Language: Any ' hasPopup: menu expanded: False\n\t\t[13198] group ''\n\t\t\t[13199] button 'Language: Any ' hasPopup: menu expanded: False\n\t\t[18582] group ''\n\t\t\t[18584] button 'Date range: Today ' hasPopup: menu expanded: False\n\t\t[18642] article ''\n\t\t\t[18650] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fhacksider%2FDeep-Live-Cam\n\t\t\t\t[18662] StaticText 'Star'\n\t\t\t[18666] heading 'hacksider / Deep-Live-Cam'\n\t\t\t\t[18668] link 'hacksider / Deep-Live-Cam' url: https://github.com/hacksider/Deep-Live-Cam\n\t\t\t[18680] StaticText 'real time face swap and one-click video deepfake with only a single image'\n\t\t\t[18689] StaticText 'Python'\n\t\t\t[18692] link 'star 55,208' url: https://github.com/hacksider/Deep-Live-Cam/stargazers\n\t\t\t\t[18693] image 'star'\n\t\t\t[18699] link 'fork 7,931' url: https://github.com/hacksider/Deep-Live-Cam/forks\n\t\t\t\t[18700] image 'fork'\n\t\t\t[18707] StaticText 'Built by '\n\t\t\t[18708] link '@hacksider' url: https://github.com/hacksider\n\t\t\t\t[13200] image '@hacksider' url: https://avatars.githubusercontent.com/u/1267200?s=40&v=4\n\t\t\t[18710] link '@KRSHH' url: https://github.com/KRSHH\n\t\t\t\t[13201] image '@KRSHH' url: https://avatars.githubusercontent.com/u/136873090?s=40&v=4\n\t\t\t[18712] link '@vic4key' url: https://github.com/vic4key\n\t\t\t\t[13202] image '@vic4key' url: https://avatars.githubusercontent.com/u/5672864?s=40&v=4\n\t\t\t[18714] link '@pereiraroland26' url: https://github.com/pereiraroland26\n\t\t\t\t[13203] image '@pereiraroland26' url: https://avatars.githubusercontent.com/u/52257639?s=40&v=4\n\t\t\t[18716] link '@kier007' url: https://github.com/kier007\n\t\t\t\t[13204] image '@kier007' url: https://avatars.githubusercontent.com/u/8604601?s=40&v=4\n\t\t\t[18725] StaticText ' 1,686 stars today'\n\t\t[18729] article ''\n\t\t\t[18733] link 'Sponsor @patchy631' url: https://github.com/sponsors/patchy631\n\t\t\t[18752] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fpatchy631%2Fai-engineering-hub\n\t\t\t\t[18764] StaticText 'Star'\n\t\t\t[18768] heading 'patchy631 / ai-engineering-hub'\n\t\t\t\t[18770] link 'patchy631 / ai-engineering-hub' url: https://github.com/patchy631/ai-engineering-hub\n\t\t\t[18782] StaticText 'In-depth tutorials on LLMs, RAGs and real-world AI agent applications.'\n\t\t\t[18791] StaticText 'Jupyter Notebook'\n\t\t\t[18794] link 'star 8,722' url: https://github.com/patchy631/ai-engineering-hub/stargazers\n\t\t\t\t[18795] image 'star'\n\t\t\t[18801] link 'fork 1,468' url: https://github.com/patchy631/ai-engineering-hub/forks\n\t\t\t\t[18802] image 'fork'\n\t\t\t[18809] StaticText 'Built by '\n\t\t\t[18810] link '@patchy631' url: https://github.com/patchy631\n\t\t\t\t[13205] image '@patchy631' url: https://avatars.githubusercontent.com/u/38653995?s=40&v=4\n\t\t\t[18812] link '@ChawlaAvi' url: https://github.com/ChawlaAvi\n\t\t\t\t[13206] image '@ChawlaAvi' url: https://avatars.githubusercontent.com/u/36801774?s=40&v=4\n\t\t\t[18814] link '@gmacario' url: https://github.com/gmacario\n\t\t\t\t[13207] image '@gmacario' url: https://avatars.githubusercontent.com/u/75182?s=40&v=4\n\t\t\t[18816] link '@DarkRaiderCB' url: https://github.com/DarkRaiderCB\n\t\t\t\t[13208] image '@DarkRaiderCB' url: https://avatars.githubusercontent.com/u/142327605?s=40&v=4\n\t\t\t[18818] link '@scott------' url: https://github.com/scott------\n\t\t\t\t[13209] image '@scott------' url: https://avatars.githubusercontent.com/u/2806946?s=40&v=4\n\t\t\t[18827] StaticText ' 54 stars today'\n\t\t[18831] article ''\n\t\t\t[18839] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2FQwenLM%2FQwen-Agent\n\t\t\t\t[18851] StaticText 'Star'\n\t\t\t[18855] heading 'QwenLM / Qwen-Agent'\n\t\t\t\t[18857] link 'QwenLM / Qwen-Agent' url: https://github.com/QwenLM/Qwen-Agent\n\t\t\t[18869] StaticText 'Agent framework and applications built upon Qwen>=2.0, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.'\n\t\t\t[18878] StaticText 'Python'\n\t\t\t[18881] link 'star 7,417' url: https://github.com/QwenLM/Qwen-Agent/stargazers\n\t\t\t\t[18882] image 'star'\n\t\t\t[18888] link 'fork 638' url: https://github.com/QwenLM/Qwen-Agent/forks\n\t\t\t\t[18889] image 'fork'\n\t\t\t[18896] StaticText 'Built by '\n\t\t\t[18897] link '@tuhahaha' url: https://github.com/tuhahaha\n\t\t\t\t[18898] image '@tuhahaha' url: https://avatars.githubusercontent.com/u/37433392?s=40&v=4\n\t\t\t[18900] link '@JianxinMa' url: https://github.com/JianxinMa\n\t\t\t\t[18901] image '@JianxinMa' url: https://avatars.githubusercontent.com/u/7543016?s=40&v=4\n\t\t\t[18903] link '@zhenruzhang' url: https://github.com/zhenruzhang\n\t\t\t\t[18904] image '@zhenruzhang' url: https://avatars.githubusercontent.com/u/130022573?s=40&v=4\n\t\t\t[18906] link '@gewenbin0992' url: https://github.com/gewenbin0992\n\t\t\t\t[18907] image '@gewenbin0992' url: https://avatars.githubusercontent.com/u/67409248?s=40&v=4\n\t\t\t[18909] link '@JialinWangPKU' url: https://github.com/JialinWangPKU\n\t\t\t\t[18910] image '@JialinWangPKU' url: https://avatars.githubusercontent.com/u/86711247?s=40&v=4\n\t\t\t[18919] StaticText ' 188 stars today'\n\t\t[18923] article ''\n\t\t\t[18931] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2FQwenLM%2FQwen3\n\t\t\t\t[18943] StaticText 'Star'\n\t\t\t[18947] heading 'QwenLM / Qwen3'\n\t\t\t\t[18949] link 'QwenLM / Qwen3' url: https://github.com/QwenLM/Qwen3\n\t\t\t[18961] StaticText 'Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.'\n\t\t\t[18970] StaticText 'Shell'\n\t\t\t[18973] link 'star 19,650' url: https://github.com/QwenLM/Qwen3/stargazers\n\t\t\t\t[18974] image 'star'\n\t\t\t[18980] link 'fork 1,290' url: https://github.com/QwenLM/Qwen3/forks\n\t\t\t\t[18981] image 'fork'\n\t\t\t[18988] StaticText 'Built by '\n\t\t\t[18989] link '@jklj077' url: https://github.com/jklj077\n\t\t\t\t[18990] image '@jklj077' url: https://avatars.githubusercontent.com/u/17811943?s=40&v=4\n\t\t\t[18992] link '@JustinLin610' url: https://github.com/JustinLin610\n\t\t\t\t[18993] image '@JustinLin610' url: https://avatars.githubusercontent.com/u/27664428?s=40&v=4\n\t\t\t[18995] link '@bug-orz' url: https://github.com/bug-orz\n\t\t\t\t[18996] image '@bug-orz' url: https://avatars.githubusercontent.com/u/51609737?s=40&v=4\n\t\t\t[18998] link '@huybery' url: https://github.com/huybery\n\t\t\t\t[18999] image '@huybery' url: https://avatars.githubusercontent.com/u/13436140?s=40&v=4\n\t\t\t[19001] link '@JianxinMa' url: https://github.com/JianxinMa\n\t\t\t\t[19002] image '@JianxinMa' url: https://avatars.githubusercontent.com/u/7543016?s=40&v=4\n\t\t\t[19011] StaticText ' 673 stars today'\n\t\t[19015] article ''\n\t\t\t[19023] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fjuspay%2Fhyperswitch\n\t\t\t\t[19035] StaticText 'Star'\n\t\t\t[19039] heading 'juspay / hyperswitch'\n\t\t\t\t[19041] link 'juspay / hyperswitch' url: https://github.com/juspay/hyperswitch\n\t\t\t[19053] StaticText 'An open source payments switch written in Rust to make payments fast, reliable and affordable'\n\t\t\t[19065] link 'star 17,035' url: https://github.com/juspay/hyperswitch/stargazers\n\t\t\t\t[19066] image 'star'\n\t\t\t[19072] link 'fork 1,996' url: https://github.com/juspay/hyperswitch/forks\n\t\t\t\t[19073] image 'fork'\n\t\t\t[19080] StaticText 'Built by '\n\t\t\t[19081] link '@hyperswitch-bot' url: https://github.com/apps/hyperswitch-bot\n\t\t\t\t[19082] image '@hyperswitch-bot' url: https://avatars.githubusercontent.com/in/411175?s=40&v=4\n\t\t\t[19084] link '@github-actions' url: https://github.com/apps/github-actions\n\t\t\t\t[19085] image '@github-actions' url: https://avatars.githubusercontent.com/in/15368?s=40&v=4\n\t\t\t[19087] link '@SanchithHegde' url: https://github.com/SanchithHegde\n\t\t\t\t[19088] image '@SanchithHegde' url: https://avatars.githubusercontent.com/u/22217505?s=40&v=4\n\t\t\t[19090] link '@Narayanbhat166' url: https://github.com/Narayanbhat166\n\t\t\t\t[19091] image '@Narayanbhat166' url: https://avatars.githubusercontent.com/u/48803246?s=40&v=4\n\t\t\t[19093] link '@pixincreate' url: https://github.com/pixincreate\n\t\t\t\t[19094] image '@pixincreate' url: https://avatars.githubusercontent.com/u/69745008?s=40&v=4\n\t\t\t[19103] StaticText ' 274 stars today'\n\t\t[19107] article ''\n\t\t\t[19115] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fdaytonaio%2Fdaytona\n\t\t\t\t[19127] StaticText 'Star'\n\t\t\t[19131] heading 'daytonaio / daytona'\n\t\t\t\t[19133] link 'daytonaio / daytona' url: https://github.com/daytonaio/daytona\n\t\t\t[19145] StaticText 'Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code'\n\t\t\t[19154] StaticText 'TypeScript'\n\t\t\t[19157] link 'star 17,302' url: https://github.com/daytonaio/daytona/stargazers\n\t\t\t\t[19158] image 'star'\n\t\t\t[19164] link 'fork 1,800' url: https://github.com/daytonaio/daytona/forks\n\t\t\t\t[19165] image 'fork'\n\t\t\t[19172] StaticText 'Built by '\n\t\t\t[19173] link '@Tpuljak' url: https://github.com/Tpuljak\n\t\t\t\t[19174] image '@Tpuljak' url: https://avatars.githubusercontent.com/u/26512078?s=40&v=4\n\t\t\t[19176] link '@idagelic' url: https://github.com/idagelic\n\t\t\t\t[19177] image '@idagelic' url: https://avatars.githubusercontent.com/u/25279767?s=40&v=4\n\t\t\t[19179] link '@lbrecic' url: https://github.com/lbrecic\n\t\t\t\t[19180] image '@lbrecic' url: https://avatars.githubusercontent.com/u/116551028?s=40&v=4\n\t\t\t[19182] link '@tarunrajput' url: https://github.com/tarunrajput\n\t\t\t\t[19183] image '@tarunrajput' url: https://avatars.githubusercontent.com/u/34857453?s=40&v=4\n\t\t\t[19185] link '@dependabot' url: https://github.com/apps/dependabot\n\t\t\t\t[19186] image '@dependabot' url: https://avatars.githubusercontent.com/in/29110?s=40&v=4\n\t\t\t[19195] StaticText ' 418 stars today'\n\t\t[19199] article ''\n\t\t\t[19203] link 'Sponsor @vllm-project' url: https://github.com/sponsors/vllm-project\n\t\t\t[19222] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fvllm-project%2Fvllm\n\t\t\t\t[19234] StaticText 'Star'\n\t\t\t[19238] heading 'vllm-project / vllm'\n\t\t\t\t[19240] link 'vllm-project / vllm' url: https://github.com/vllm-project/vllm\n\t\t\t[19252] StaticText 'A high-throughput and memory-efficient inference and serving engine for LLMs'\n\t\t\t[19261] StaticText 'Python'\n\t\t\t[19264] link 'star 46,327' url: https://github.com/vllm-project/vllm/stargazers\n\t\t\t\t[19265] image 'star'\n\t\t\t[19271] link 'fork 7,184' url: https://github.com/vllm-project/vllm/forks\n\t\t\t\t[19272] image 'fork'\n\t\t\t[19279] StaticText 'Built by '\n\t\t\t[19280] link '@WoosukKwon' url: https://github.com/WoosukKwon\n\t\t\t\t[19281] image '@WoosukKwon' url: https://avatars.githubusercontent.com/u/46394894?s=40&v=4\n\t\t\t[19283] link '@DarkLight1337' url: https://github.com/DarkLight1337\n\t\t\t\t[19284] image '@DarkLight1337' url: https://avatars.githubusercontent.com/u/44970335?s=40&v=4\n\t\t\t[19286] link '@youkaichao' url: https://github.com/youkaichao\n\t\t\t\t[19287] image '@youkaichao' url: https://avatars.githubusercontent.com/u/23236638?s=40&v=4\n\t\t\t[19289] link '@mgoin' url: https://github.com/mgoin\n\t\t\t\t[19290] image '@mgoin' url: https://avatars.githubusercontent.com/u/3195154?s=40&v=4\n\t\t\t[19292] link '@simon-mo' url: https://github.com/simon-mo\n\t\t\t\t[19293] image '@simon-mo' url: https://avatars.githubusercontent.com/u/21118851?s=40&v=4\n\t\t\t[19302] StaticText ' 126 stars today'\n\t\t[19306] article ''\n\t\t\t[19314] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fsimular-ai%2FAgent-S\n\t\t\t\t[19326] StaticText 'Star'\n\t\t\t[19330] heading 'simular-ai / Agent-S'\n\t\t\t\t[19332] link 'simular-ai / Agent-S' url: https://github.com/simular-ai/Agent-S\n\t\t\t[19344] StaticText 'Agent S: an open agentic framework that uses computers like a human'\n\t\t\t[19353] StaticText 'Python'\n\t\t\t[19356] link 'star 3,585' url: https://github.com/simular-ai/Agent-S/stargazers\n\t\t\t\t[19357] image 'star'\n\t\t\t[19363] link 'fork 360' url: https://github.com/simular-ai/Agent-S/forks\n\t\t\t\t[19364] image 'fork'\n\t\t\t[19371] StaticText 'Built by '\n\t\t\t[19372] link '@alckasoc' url: https://github.com/alckasoc\n\t\t\t\t[19373] image '@alckasoc' url: https://avatars.githubusercontent.com/u/58043265?s=40&v=4\n\t\t\t[19375] link '@saa1605' url: https://github.com/saa1605\n\t\t\t\t[19376] image '@saa1605' url: https://avatars.githubusercontent.com/u/29002135?s=40&v=4\n\t\t\t[19378] link '@eric-simu' url: https://github.com/eric-simu\n\t\t\t\t[19379] image '@eric-simu' url: https://avatars.githubusercontent.com/u/173823391?s=40&v=4\n\t\t\t[19381] link '@shuyugan' url: https://github.com/shuyugan\n\t\t\t\t[19382] image '@shuyugan' url: https://avatars.githubusercontent.com/u/140282198?s=40&v=4\n\t\t\t[19384] link '@eric-xw' url: https://github.com/eric-xw\n\t\t\t\t[19385] image '@eric-xw' url: https://avatars.githubusercontent.com/u/7235298?s=40&v=4\n\t\t\t[19394] StaticText ' 317 stars today'\n\t\t[19398] article ''\n\t\t\t[19406] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fmicrosoft%2Fgenerative-ai-for-beginners\n\t\t\t\t[19418] StaticText 'Star'\n\t\t\t[19422] heading 'microsoft / generative-ai-for-beginners'\n\t\t\t\t[19424] link 'microsoft / generative-ai-for-beginners' url: https://github.com/microsoft/generative-ai-for-beginners\n\t\t\t[19436] StaticText '21 Lessons, Get Started Building with Generative AI 🔗 '\n\t\t\t[19437] link 'https://microsoft.github.io/generative-ai-for-beginners/' url: https://microsoft.github.io/generative-ai-for-beginners/\n\t\t\t[19448] StaticText 'Jupyter Notebook'\n\t\t\t[19451] link 'star 81,793' url: https://github.com/microsoft/generative-ai-for-beginners/stargazers\n\t\t\t\t[19452] image 'star'\n\t\t\t[19458] link 'fork 41,979' url: https://github.com/microsoft/generative-ai-for-beginners/forks\n\t\t\t\t[19459] image 'fork'\n\t\t\t[19466] StaticText 'Built by '\n\t\t\t[19467] link '@koreyspace' url: https://github.com/koreyspace\n\t\t\t\t[19468] image '@koreyspace' url: https://avatars.githubusercontent.com/u/7462909?s=40&v=4\n\t\t\t[13221] link '@john0isaac' url: https://github.com/john0isaac\n\t\t\t\t[19470] image '@john0isaac' url: https://avatars.githubusercontent.com/u/64026625?s=40&v=4\n\t\t\t[19472] link '@yoshioterada' url: https://github.com/yoshioterada\n\t\t\t\t[19473] image '@yoshioterada' url: https://avatars.githubusercontent.com/u/1871266?s=40&v=4\n\t\t\t[19475] link '@leestott' url: https://github.com/leestott\n\t\t\t\t[19476] image '@leestott' url: https://avatars.githubusercontent.com/u/2511341?s=40&v=4\n\t\t\t[19478] link '@glaucia86' url: https://github.com/glaucia86\n\t\t\t\t[19479] image '@glaucia86' url: https://avatars.githubusercontent.com/u/1631477?s=40&v=4\n\t\t\t[19488] StaticText ' 474 stars today'\n\t\t[19492] article ''\n\t\t\t[19500] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2FLadybirdBrowser%2Fladybird\n\t\t\t\t[19512] StaticText 'Star'\n\t\t\t[19516] heading 'LadybirdBrowser / ladybird'\n\t\t\t\t[19518] link 'LadybirdBrowser / ladybird' url: https://github.com/LadybirdBrowser/ladybird\n\t\t\t[19530] StaticText 'Truly independent web browser'\n\t\t\t[19539] StaticText 'C++'\n\t\t\t[19542] link 'star 38,023' url: https://github.com/LadybirdBrowser/ladybird/stargazers\n\t\t\t\t[19543] image 'star'\n\t\t\t[19549] link 'fork 1,577' url: https://github.com/LadybirdBrowser/ladybird/forks\n\t\t\t\t[19550] image 'fork'\n\t\t\t[19557] StaticText 'Built by '\n\t\t\t[19558] link '@awesomekling' url: https://github.com/awesomekling\n\t\t\t\t[19559] image '@awesomekling' url: https://avatars.githubusercontent.com/u/5954907?s=40&v=4\n\t\t\t[19561] link '@trflynn89' url: https://github.com/trflynn89\n\t\t\t\t[19562] image '@trflynn89' url: https://avatars.githubusercontent.com/u/5600524?s=40&v=4\n\t\t\t[19564] link '@linusg' url: https://github.com/linusg\n\t\t\t\t[19565] image '@linusg' url: https://avatars.githubusercontent.com/u/19366641?s=40&v=4\n\t\t\t[19567] link '@AtkinsSJ' url: https://github.com/AtkinsSJ\n\t\t\t\t[19568] image '@AtkinsSJ' url: https://avatars.githubusercontent.com/u/222642?s=40&v=4\n\t\t\t[19570] link '@alimpfard' url: https://github.com/alimpfard\n\t\t\t\t[19571] image '@alimpfard' url: https://avatars.githubusercontent.com/u/14001776?s=40&v=4\n\t\t\t[19580] StaticText ' 231 stars today'\n\t\t[19584] article ''\n\t\t\t[19592] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Fml-explore%2Fmlx-swift-examples\n\t\t\t\t[19604] StaticText 'Star'\n\t\t\t[19608] heading 'ml-explore / mlx-swift-examples'\n\t\t\t\t[19610] link 'ml-explore / mlx-swift-examples' url: https://github.com/ml-explore/mlx-swift-examples\n\t\t\t[19622] StaticText 'Examples using MLX Swift'\n\t\t\t[19634] link 'star 1,732' url: https://github.com/ml-explore/mlx-swift-examples/stargazers\n\t\t\t\t[19635] image 'star'\n\t\t\t[19641] link 'fork 214' url: https://github.com/ml-explore/mlx-swift-examples/forks\n\t\t\t\t[19642] image 'fork'\n\t\t\t[19649] StaticText 'Built by '\n\t\t\t[19650] link '@davidkoski' url: https://github.com/davidkoski\n\t\t\t\t[19651] image '@davidkoski' url: https://avatars.githubusercontent.com/u/46639364?s=40&v=4\n\t\t\t[19653] link '@DePasqualeOrg' url: https://github.com/DePasqualeOrg\n\t\t\t\t[19654] image '@DePasqualeOrg' url: https://avatars.githubusercontent.com/u/25420077?s=40&v=4\n\t\t\t[19656] link '@awni' url: https://github.com/awni\n\t\t\t\t[19657] image '@awni' url: https://avatars.githubusercontent.com/u/1542805?s=40&v=4\n\t\t\t[19659] link '@johnmai-dev' url: https://github.com/johnmai-dev\n\t\t\t\t[19660] image '@johnmai-dev' url: https://avatars.githubusercontent.com/u/1825679?s=40&v=4\n\t\t\t[19662] link '@ibrahimcetin' url: https://github.com/ibrahimcetin\n\t\t\t\t[19663] image '@ibrahimcetin' url: https://avatars.githubusercontent.com/u/33904390?s=40&v=4\n\t\t\t[19672] StaticText ' 10 stars today'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: Navigate to the Topics page so I can open the “machine‑learning” topic and view its trending repositories.\nAction: Click 14610"
+  },
+  {
+    "role": "user",
+    "content": "Observation: please analyze the accessibility tree and give the Thought and Action.\n[20185] RootWebArea 'Topics on GitHub · GitHub' focused: True url: https://github.com/topics\n\t[20451] link 'Skip to content' url: https://github.com/topics#start-of-content\n\t[20495] heading 'Navigation Menu'\n\t[20510] button 'Toggle navigation' expanded: False\n\t[20524] link 'Homepage' url: https://github.com/\n\t[20534] link 'Sign in' url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftopics\n\t[20190] main ''\n\t\t[21581] navigation 'Explore navigation'\n\t\t\t[21585] link 'Explore' url: https://github.com/explore\n\t\t\t[21588] link 'Topics' url: https://github.com/topics\n\t\t\t[21591] link 'Trending' url: https://github.com/trending\n\t\t\t[21594] link 'Collections' url: https://github.com/collections\n\t\t\t[21597] link 'Events' url: https://github.com/events\n\t\t\t[21600] link 'GitHub Sponsors' url: https://github.com/sponsors/explore\n\t\t[21610] heading 'Topics'\n\t\t[21614] StaticText 'Browse popular topics on GitHub.'\n\t\t[21629] link 'typescript TypeScript TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.' url: https://github.com/topics/typescript\n\t\t\t[20189] image 'typescript' url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png\n\t\t[21647] link 'telegram Telegram Telegram is a non-profit, cloud-based instant messaging service.' url: https://github.com/topics/telegram\n\t\t\t[20187] image 'telegram' url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/telegram/telegram.png\n\t\t[21666] link 'gulp Gulp Gulp is a toolkit for automating and streamlining web development.' url: https://github.com/topics/gulp\n\t\t\t[20188] image 'gulp' url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/gulp/gulp.png\n\t\t[21684] heading 'All featured topics'\n\t\t[21691] link '#' url: https://github.com/topics/3d\n\t\t[21697] link '3D 3D refers to the use of three-dimensional graphics, modeling, and animation in various industries.' url: https://github.com/topics/3d\n\t\t[21710] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.3d\n\t\t\t[21717] StaticText ' Star'\n\t\t[21724] link 'ajax' url: https://github.com/topics/ajax\n\t\t\t[21726] image 'ajax' url: https://raw.githubusercontent.com/github/explore/8be26d91eb231fec0b8856359979ac09f27173fd/topics/ajax/ajax.png\n\t\t[21729] link 'Ajax Ajax is a technique for creating interactive web applications.' url: https://github.com/topics/ajax\n\t\t[21742] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.ajax\n\t\t\t[21749] StaticText ' Star'\n\t\t[21756] link '#' url: https://github.com/topics/algorithm\n\t\t[21762] link 'Algorithm Algorithms are self-contained sequences that carry out a variety of tasks.' url: https://github.com/topics/algorithm\n\t\t[21775] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.algorithm\n\t\t\t[21782] StaticText ' Star'\n\t\t[21789] link 'amphp' url: https://github.com/topics/amphp\n\t\t\t[21791] image 'amphp' url: https://raw.githubusercontent.com/github/explore/99fe59c0f4fb5d6545311440b4ce89a0d82b0804/topics/amphp/amphp.png\n\t\t[21794] link 'Amp Amp is a non-blocking concurrency library for PHP.' url: https://github.com/topics/amphp\n\t\t[21807] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.amphp\n\t\t\t[21814] StaticText ' Star'\n\t\t[21821] link 'android' url: https://github.com/topics/android\n\t\t\t[21823] image 'android' url: https://raw.githubusercontent.com/github/explore/8baf984947f4d9c32006bd03fa4c51ff91aadf8d/topics/android/android.png\n\t\t[21826] link 'Android Android is an operating system built by Google designed for mobile devices.' url: https://github.com/topics/android\n\t\t[21839] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.android\n\t\t\t[21846] StaticText ' Star'\n\t\t[21853] link 'angular' url: https://github.com/topics/angular\n\t\t\t[21855] image 'angular' url: https://raw.githubusercontent.com/github/explore/c700f6f5bb68a850405eef411cf878162ff34b59/topics/angular/angular.png\n\t\t[21858] link 'Angular Angular is an open source web application platform.' url: https://github.com/topics/angular\n\t\t[21871] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.angular\n\t\t\t[21878] StaticText ' Star'\n\t\t[21885] link 'ansible' url: https://github.com/topics/ansible\n\t\t\t[21887] image 'ansible' url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ansible/ansible.png\n\t\t[21890] link 'Ansible Ansible is a simple and powerful automation engine.' url: https://github.com/topics/ansible\n\t\t[21903] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.ansible\n\t\t\t[21910] StaticText ' Star'\n\t\t[21917] link '#' url: https://github.com/topics/api\n\t\t[21923] link 'API An API (Application Programming Interface) is a collection of protocols and subroutines for building software.' url: https://github.com/topics/api\n\t\t[21936] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.api\n\t\t\t[21943] StaticText ' Star'\n\t\t[21950] link 'arduino' url: https://github.com/topics/arduino\n\t\t\t[21952] image 'arduino' url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/arduino/arduino.png\n\t\t[21955] link 'Arduino Arduino is an open source platform for building electronic devices.' url: https://github.com/topics/arduino\n\t\t[21968] link 'You must be signed in to star a repository' url: https://github.com/login?return_to=%2Ftopic.arduino\n\t\t\t[21975] StaticText ' Star'"
+  },
+  {
+    "role": "assistant",
+    "content": "Thought: The list of topics is alphabetical; need to scroll down to the “machine‑learning” entry (starts with “m”).  \nAction: Scroll WINDOW; down"
   }
 ]
